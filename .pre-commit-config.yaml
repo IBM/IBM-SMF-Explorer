@@ -1,0 +1,38 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-executables-have-shebangs
+      - id: end-of-file-fixer
+      - id: requirements-txt-fixer
+      - id: no-commit-to-branch
+        args: [--branch, main]
+      - id: check-case-conflict
+      - id: check-merge-conflict
+  - repo: https://github.com/psf/black
+    rev: 22.8.0
+    hooks:
+      - id: black-jupyter
+  - repo: https://github.com/datarootsio/databooks
+    rev: 1.0.5
+    hooks:
+      - id: databooks-meta
+        args:
+          [
+            --overwrite,
+            --rm-outs,
+            --nb-meta-keep,
+            kernelspec,
+            --cell-meta-keep,
+            autorun,
+            --cell-meta-keep,
+            jupyter,
+          ]
+  - repo: https://github.com/mattlqx/pre-commit-search-and-replace
+    rev: v1.0.5
+    hooks:
+      - id: search-and-replace
+        types: [jupyter]

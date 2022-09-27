@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+#
+# Copyright 2022 IBM Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+set -eou pipefail
+
+# Ensure script runs in correct directory
+cd $(dirname $0)
+
+# Load common setup
+source ./.util/common.sh
+
+parse_args $*
+
+# Switch to windows script
+if [[ "$MACHINE" = "Windows" ]]; then
+     exec ./start.bat $($ARG_RESET && echo -Reset)
+fi
+
+# Pre flight checks
+if test ! -f ".util/.setup.sha1"; then
+    echo -e "${RED}It looks like there is no valid setup. Run './setup' to install an environment${NC}"
+    exit 1
+fi
+if ! check_checksums; then
+    echo -e "${ORANGE}There are updates to some configuration files. Run './setup' again to reinstall the environment${NC}"
+    if ! prompt_user_yes_or_no "Do you want to continue without updating" "N"; then
+        exit
+    fi
+fi
+
+if test ! -d .setup_venv;then
+    echo -e "${RED}No environment found. Run './setup' to install the environment${NC}"
+    exit 1
+fi
+
+activate_environment
+
+python .util/start.py $*

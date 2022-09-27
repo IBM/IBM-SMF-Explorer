@@ -1,0 +1,3 @@
+- search: '/DATASET\s*=\s*\\".*\\"/'
+  replacement: 'DATASET = \"YOUR.SMF.DATA\"'
+  extended: true
