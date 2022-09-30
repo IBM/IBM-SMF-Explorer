@@ -1,0 +1,3539 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 99 Subtype  2 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/</link>
+    <description>Recent content in SMF 99 Subtype  2 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - as_ba_brklocelm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_brklocelm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_brklocelm/</guid>
+      <description>Location element for each processor type which describes the breakup e&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_BA_BRKLOCELM Description Location element for each processor type which describes the breakup environment or 0</description>
+    </item>
+    
+    <item>
+      <title>Field - as_ba_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_flags/</guid>
+      <description>HD flag area for each processor type
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_BA_FLAGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description as_ba_highstorageconsumer 0 ON: address space is high storage consumer </description>
+    </item>
+    
+    <item>
+      <title>Field - as_ba_highstorageconsumer</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_highstorageconsumer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_highstorageconsumer/</guid>
+      <description>ON: address space is high storage consumer
+Map: SMF99_AS_ESP_MAP Based on: as_ba_flags Post-Processed This virtual field corresponds to the flag at bit-position 0 of field as_ba_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_ba_locelm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_locelm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_locelm/</guid>
+      <description>Location element for each processor type or 0
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_BA_LOCELM </description>
+    </item>
+    
+    <item>
+      <title>Field - as_ba_memscore</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_memscore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_memscore/</guid>
+      <description>Memory score
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_BA_MEMSCORE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_cpsrp_cur_fp_samp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_cur_fp_samp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_cur_fp_samp/</guid>
+      <description>Amount of IRACPSRP samples running with full preemption
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_CPSRP_CUR_FP_SAMP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_cpsrp_prev_fp_samp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_prev_fp_samp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_prev_fp_samp/</guid>
+      <description>Previous value of FULL_PRE1
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_CPSRP_PREV_FP_SAMP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_cpsrp_samp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_samp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_samp/</guid>
+      <description>One sample per IRACPSRP invocation (every 50ms)
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_CPSRP_SAMP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_cpu_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpu_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpu_service/</guid>
+      <description>Total CPU service units for the address space - OUCBCPU
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_CPU_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_disp_count</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_disp_count/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_disp_count/</guid>
+      <description>Dispatchable count: the number of times that this address space has be&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_DISP_COUNT Description &amp;ldquo;Dispatchable count: the number of times that this address space has been found in subroutine CPUTLCK to be dispatchable yet no CPU time has accumulated for it - OUXBDSCN&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_cpu_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_cpu_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_cpu_service/</guid>
+      <description>Accumulated CPU service of completed enclaves owned by this space - OU&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_CPU_SERVICE Description Accumulated CPU service of completed enclaves owned by this space - OUCBECPU</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_ifa_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_ifa_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_ifa_time/</guid>
+      <description>Total IFA time for the enclaves owned by the address space - OucbxEncT&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_IFA_TIME Description Total IFA time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_ifa)</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_ifacp_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_ifacp_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_ifacp_time/</guid>
+      <description>Total IFA time spent on CP for the enclaves owned by the address space&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_IFACP_TIME Description Total IFA time spent on CP for the enclaves owned by the address space - OucbxEncTimeProOnCP(pro_ifa)</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_sup_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_sup_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_sup_time/</guid>
+      <description>Total SUP time for the enclaves owned by the address space - OucbxEncT&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_SUP_TIME Description Total SUP time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_sup)</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_supcp_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_supcp_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_supcp_time/</guid>
+      <description>Total SUP time spent on CP for the enclaves owned by the address space&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_SUPCP_TIME Description Total SUP time spent on CP for the enclaves owned by the address space - OucbxEncTimeProOnCP(pro_sup)</description>
+    </item>
+    
+    <item>
+      <title>Field - as_enclave_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_time/</guid>
+      <description>Accumulate tx active time of completed enclaves owned by this space - &amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_TIME Description Accumulate tx active time of completed enclaves owned by this space - OUCBETIM</description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_anam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_anam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_anam/</guid>
+      <description>Address space name
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_ANAM </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_ap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_ap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_ap/</guid>
+      <description>expanded storage access policy for demand
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_AP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_asid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_asid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_asid/</guid>
+      <description>Address Space ID number
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_ASID </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_cs_fmct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_cs_fmct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_cs_fmct/</guid>
+      <description>Number of central storage frames the address spaces owns
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_CS_FMCT </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_es_fmct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_es_fmct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_es_fmct/</guid>
+      <description>Number of expanded storage frames the address spaces owns
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_ES_FMCT </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_flags/</guid>
+      <description>Flags
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_FLAGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description as_inelighonorpriority 5 Address space is ineligible for &amp;ldquo;Honor Priority Processing&amp;rdquo;, i.e. work&amp;hellip; as_managed_to_both_goals 4 Address space is currently managed to both region&amp;rsquo;s and transaction se&amp;hellip; as_non_swappable 3 Address space is non swappable as_managed_to_region_goals 2 Address space is currently manged to region&amp;rsquo;s goal rather than transac&amp;hellip; as_stgcrit_explicit 1 Storage protected assigned to space by classification rule as_stg_protected_now 0 Storage is protected at this instant </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_hp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_hp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_hp/</guid>
+      <description>expanded storage access policy for hiperspace
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_HP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_pps_tar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_pps_tar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_pps_tar/</guid>
+      <description>Address space protective process storage target. Note see subtype 5 fo&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_PPS_TAR Description Address space protective process storage target. Note see subtype 5 for other targets. This is the only target non-monitor address spaces can have.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_esp_vp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_vp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_esp_vp/</guid>
+      <description>expanded storage access policy for VIO
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ESP_VP </description>
+    </item>
+    
+    <item>
+      <title>Field - as_healthind</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_healthind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_healthind/</guid>
+      <description>Health indicator
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_HEALTHIND </description>
+    </item>
+    
+    <item>
+      <title>Field - as_ifa_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ifa_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ifa_service/</guid>
+      <description>Total IFA service units for the address space - Oucbx_Time_On_Pro(pro_&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_IFA_SERVICE Description Total IFA service units for the address space - Oucbx_Time_On_Pro(pro_ifa) descaled</description>
+    </item>
+    
+    <item>
+      <title>Field - as_ifacp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ifacp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ifacp_service/</guid>
+      <description>Total IFA service units spent on CP for the address space - Oucbx_Time&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_IFACP_SERVICE Description Total IFA service units spent on CP for the address space - Oucbx_Time_- Pro_On_CP(pro_ifa) descaled</description>
+    </item>
+    
+    <item>
+      <title>Field - as_inelighonorpriority</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_inelighonorpriority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_inelighonorpriority/</guid>
+      <description>Address space is ineligible for &amp;ldquo;Honor Priority Processing&amp;rdquo;, i.e. work&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Description Address space is ineligible for &amp;ldquo;Honor Priority Processing&amp;rdquo;, i.e. work will not be offloaded to CPs for help processing. @OA50845A
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_io_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_io_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_io_service/</guid>
+      <description>Total IO service units for the address space - OUCBIOC
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_IO_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_managed_to_both_goals</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_managed_to_both_goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_managed_to_both_goals/</guid>
+      <description>Address space is currently managed to both region&amp;rsquo;s and transaction se&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Description Address space is currently managed to both region&amp;rsquo;s and transaction server&amp;rsquo;s goal
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_managed_to_region_goals</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_managed_to_region_goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_managed_to_region_goals/</guid>
+      <description>Address space is currently manged to region&amp;rsquo;s goal rather than transac&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Description Address space is currently manged to region&amp;rsquo;s goal rather than transaction server&amp;rsquo;s goal
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_mp_actual_pool</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mp_actual_pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mp_actual_pool/</guid>
+      <description>The actual memory pool of the address space @WI136070A
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_MP_ACTUAL_POOL </description>
+    </item>
+    
+    <item>
+      <title>Field - as_mp_requested_pool</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mp_requested_pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mp_requested_pool/</guid>
+      <description>The user requested memory pool. Can differ from actual_pool due to RSM&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_MP_REQUESTED_POOL Description The user requested memory pool. Can differ from actual_pool due to RSM constraints @WI136070A</description>
+    </item>
+    
+    <item>
+      <title>Field - as_mso_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mso_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_mso_service/</guid>
+      <description>Total MSO service units for the address space - OUCBMSO
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_MSO_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_non_swappable</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_non_swappable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_non_swappable/</guid>
+      <description>Address space is non swappable
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Post-Processed This virtual field corresponds to the flag at bit-position 3 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_pb_offload_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_offload_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_offload_service/</guid>
+      <description>Transaction service units on offload engines reported for PBs running &amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_OFFLOAD_SERVICE Description Transaction service units on offload engines reported for PBs running in this address space - OucbxPBOffload</description>
+    </item>
+    
+    <item>
+      <title>Field - as_pb_offloadoncp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_offloadoncp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_offloadoncp_service/</guid>
+      <description>Transaction service units on standard CP that were offload eligible re&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_OFFLOADONCP_SERVICE Description Transaction service units on standard CP that were offload eligible reported for PBs running in this address space - OucbxPBOffloadOnCP</description>
+    </item>
+    
+    <item>
+      <title>Field - as_pb_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_service/</guid>
+      <description>Transaction service units on standard CP reported for PBs running in t&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_SERVICE Description Transaction service units on standard CP reported for PBs running in this address space - OucbxPBCP</description>
+    </item>
+    
+    <item>
+      <title>Field - as_pb_zcbp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbp_service/</guid>
+      <description>Transaction service units on zCBP reported for PBs running in this add&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBP_SERVICE Description Transaction service units on zCBP reported for PBs running in this address space - OucbxPBzCBP</description>
+    </item>
+    
+    <item>
+      <title>Field - as_pb_zcbponcp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbponcp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbponcp_service/</guid>
+      <description>Transaction service units on standard CP that were zCBP eligible repor&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBPONCP_SERVICE Description Transaction service units on standard CP that were zCBP eligible reported for PBs running in this address space - OucbxPBzCBPOnCP</description>
+    </item>
+    
+    <item>
+      <title>Field - as_srb_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_srb_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_srb_service/</guid>
+      <description>Total SRB service units for the address space - OUCBSRB
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_SRB_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_stg_protected_now</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_stg_protected_now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_stg_protected_now/</guid>
+      <description>Storage is protected at this instant
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Post-Processed This virtual field corresponds to the flag at bit-position 0 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_stgcrit_explicit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_stgcrit_explicit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_stgcrit_explicit/</guid>
+      <description>Storage protected assigned to space by classification rule
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Post-Processed This virtual field corresponds to the flag at bit-position 1 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - as_sup_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_sup_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_sup_service/</guid>
+      <description>Total SUP service units for the address space - Oucbx_Time_On_Pro(pro_&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_SUP_SERVICE Description Total SUP service units for the address space - Oucbx_Time_On_Pro(pro_sup) descaled</description>
+    </item>
+    
+    <item>
+      <title>Field - as_supcp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_supcp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_supcp_service/</guid>
+      <description>Total SUP service units spent on CP for the address space - Oucbx_Time&amp;hellip;
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_SUPCP_SERVICE Description Total SUP service units spent on CP for the address space - Oucbx_Time_- Pro_On_CP(pro_sup) descaled</description>
+    </item>
+    
+    <item>
+      <title>Field - as_total_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_total_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_total_service/</guid>
+      <description>Total service units for the address space - OUCBWMS
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TOTAL_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - as_trc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trc/</guid>
+      <description>Tenant report class of address space
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TRC </description>
+    </item>
+    
+    <item>
+      <title>Field - as_trg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trg/</guid>
+      <description>Tenant resource group of address space
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TRG </description>
+    </item>
+    
+    <item>
+      <title>Field - as_trn_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trn_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trn_service/</guid>
+      <description>Accumulated transaction service for the address space - OUCBTRS
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TRN_SERVICE </description>
+    </item>
+    
+    <item>
+      <title>Field - avg_num_tasks</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/avg_num_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/avg_num_tasks/</guid>
+      <description>average number of tasks
+Map: SMF99_S2_PER_MAP Based on: SMF99_AVG_NUM_TASKS </description>
+    </item>
+    
+    <item>
+      <title>Field - buffer_pool_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/buffer_pool_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/buffer_pool_delay/</guid>
+      <description>Buffer pool delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PBPD Description buffer pool delay samples</description>
+    </item>
+    
+    <item>
+      <title>Field - cadp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cadp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cadp/</guid>
+      <description>Current Achievable demand percentage
+Map: SMF99_S2_PER_MAP Based on: SMF99_CADP </description>
+    </item>
+    
+    <item>
+      <title>Field - cap_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cap_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cap_delay/</guid>
+      <description>CPU cap delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PCAPD Description CPU CAP delay</description>
+    </item>
+    
+    <item>
+      <title>Sample - cics_ims</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/cics_ims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/cics_ims/</guid>
+      <description>Request the necessary columns for cics/ims workload analysis.
+Description Columns renamed and converted to string or boolean output: - cpu_critical Indicates whether the period is CPU critical or not. - stgcrit_implicit Indicates whether the period belongs to a service class that was assigned storage protection (storage critical). The service class was used in subsystem type CICS® or IMS and the rule specified storage critical = yes. - pserver_type_name Describes the type of the server associated with the record, based on the bits in the field &amp;lsquo;pserver_type&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Field - class_period</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/class_period/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/class_period/</guid>
+      <description>service class name and period
+Map: SMF99_S2_PER_MAP Based on: srv_class_name, period_num Post-Processed The field is created using the following pseudocode:
+return srv_class_name +&amp;#39;.&amp;#39; + period_num </description>
+    </item>
+    
+    <item>
+      <title>Field - cln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cln/</guid>
+      <description>Length of class information
+Map: SMF99_S2_SDEF_MAP Based on: SMF992CLN </description>
+    </item>
+    
+    <item>
+      <title>Field - cntd_iosm_accum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cntd_iosm_accum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cntd_iosm_accum/</guid>
+      <description>DASD I/O contention delta samples accumulated over SMF99_Num_Samp_Hist&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_CNTD_IOSM_ACCUM Description DASD I/O contention delta samples accumulated over SMF99_Num_Samp_Hist_Rows_Used</description>
+    </item>
+    
+    <item>
+      <title>Field - cntd_iosm_curr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cntd_iosm_curr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cntd_iosm_curr/</guid>
+      <description>DASD I/O contention delta samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_CNTD_IOSM_CURR </description>
+    </item>
+    
+    <item>
+      <title>Field - cof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cof/</guid>
+      <description>Offset to class information from beginning of record (including RDW)
+Map: SMF99_S2_SDEF_MAP Based on: SMF992COF </description>
+    </item>
+    
+    <item>
+      <title>Field - con</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/con/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/con/</guid>
+      <description>Number of class information
+Map: SMF99_S2_SDEF_MAP Based on: SMF992CON </description>
+    </item>
+    
+    <item>
+      <title>Field - cpln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpln/</guid>
+      <description>Length of class period section
+Map: SMF99_S2_SDEF_MAP Based on: SMF992CPLN </description>
+    </item>
+    
+    <item>
+      <title>Field - cpof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpof/</guid>
+      <description>Offset to class period section from beginning of record (including RDW&amp;hellip;
+Map: SMF99_S2_SDEF_MAP Based on: SMF992CPOF Description Offset to class period section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - cpon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpon/</guid>
+      <description>Number of class period section
+Map: SMF99_S2_SDEF_MAP Based on: SMF992CPON </description>
+    </item>
+    
+    <item>
+      <title>Field - cpu_critical</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_critical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_critical/</guid>
+      <description>Period is cpu critical
+Map: SMF99_S2_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpu_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_delay/</guid>
+      <description>CPU delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PCPUD Description processor delay samples</description>
+    </item>
+    
+    <item>
+      <title>Field - cpu_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cpu_using/</guid>
+      <description>CPU using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PCPUU Description processor using samples</description>
+    </item>
+    
+    <item>
+      <title>Field - cross_mem_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cross_mem_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cross_mem_delay/</guid>
+      <description>Cross memory
+Map: SMF99_S2_PER_MAP Based on: SMF99_PXMO Description Cross memory other delays</description>
+    </item>
+    
+    <item>
+      <title>Field - cuqt_iosm_accum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cuqt_iosm_accum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/cuqt_iosm_accum/</guid>
+      <description>DASD I/O control unit queue samples accumulated over SMF99_Num_Samp_Hi&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_CUQT_IOSM_ACCUM Description DASD I/O control unit queue samples accumulated over SMF99_Num_Samp_Hist_Rows_Used</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/date/</guid>
+      <description>Date of Record
+Record: SMF99S2 Based on: SMF99DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - disc_iosm_accum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/disc_iosm_accum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/disc_iosm_accum/</guid>
+      <description>DASD I/O disconnect samples accumulated over SMF99_Num_Samp_Hist_Rows_&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_DISC_IOSM_ACCUM Description DASD I/O disconnect samples accumulated over SMF99_Num_Samp_Hist_Rows_Used</description>
+    </item>
+    
+    <item>
+      <title>Field - disp_prio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/disp_prio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/disp_prio/</guid>
+      <description>Base dispatching priority
+Map: SMF99_S2_PER_MAP Based on: SMF99_PBDP Description base dispatching priority</description>
+    </item>
+    
+    <item>
+      <title>Field - dln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dln/</guid>
+      <description>Length of the data section
+Map: SMF99_SDEF_MAP Based on: SMF99DLN </description>
+    </item>
+    
+    <item>
+      <title>Field - dof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dof/</guid>
+      <description>Offset to the data section from the beginning of the record (including&amp;hellip;
+Map: SMF99_SDEF_MAP Based on: SMF99DOF Description Offset to the data section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - don</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/don/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/don/</guid>
+      <description>Number of data sections
+Map: SMF99_SDEF_MAP Based on: SMF99DON </description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/dte/</guid>
+      <description>Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip;
+Record: SMF99S2 Based on: SMF99DTE Description Date when the record was moved into the SMF buffer, in the form 0cyydddF.</description>
+    </item>
+    
+    <item>
+      <title>Field - ecln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ecln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ecln/</guid>
+      <description>Length of EWLM class section.
+Map: SMF99_S2_SDEF_MAP Based on: SMF992ECLN </description>
+    </item>
+    
+    <item>
+      <title>Field - ecof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ecof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ecof/</guid>
+      <description>Offset to EWLM class section from beginning of record (including RDW)
+Map: SMF99_S2_SDEF_MAP Based on: SMF992ECOF </description>
+    </item>
+    
+    <item>
+      <title>Field - econ</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/econ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/econ/</guid>
+      <description>Number of EWLM class section.
+Map: SMF99_S2_SDEF_MAP Based on: SMF992ECON </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_ckey</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_ckey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_ckey/</guid>
+      <description>EWLM service class key
+Map: SMF99_S2_ECD_MAP Based on: SMF99_EWLM_CKEY </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_cnam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_cnam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_cnam/</guid>
+      <description>EWLM service class long name taken from EWLM policy service class defi&amp;hellip;
+Map: SMF99_S2_ECD_MAP Based on: SMF99_EWLM_CNAM Description EWLM service class long name taken from EWLM policy service class definition</description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_global_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_global_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_global_pi/</guid>
+      <description>EWLM global performance index(PI)
+Map: SMF99_S2_PER_MAP Based on: SMF99_EWLM_GLOBAL_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_local_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_local_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_local_pi/</guid>
+      <description>EWLM local performance index(PI)
+Map: SMF99_S2_PER_MAP Based on: SMF99_EWLM_LOCAL_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_managed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_managed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ewlm_managed/</guid>
+      <description>Period is managed using EWLM performance data.
+Map: SMF99_S2_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flags/</guid>
+      <description>Flags
+Map: SMF99_S2_PER_MAP Based on: SMF99_FLAGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description trxspecrpt 7 Special reporting data available for the period io_priority_group 6 Period belongs to a service class that was assigned to I/O priority gr&amp;hellip; ewlm_managed 5 Period is managed using EWLM performance data. has_near_blocked_as 4 Period has an address space that is close to being blocked. non_zos 3 Indicates that the period is non-z/OS (Linux) stgcrit_implicit 2 period belongs to a service class that was assigned storage protection&amp;hellip; cpu_critical 1 Period is cpu critical needs_sysplex_help 0 Period experienced some type of delay within the sysplex during last p&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Field - flags2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flags2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flags2/</guid>
+      <description>Flags @OA50845A
+Map: SMF99_S2_PER_MAP Based on: SMF99_FLAGS2 Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description iscappedbysoletrg 2 Exactly one TRG with a capacity maximum is associated with this period&amp;hellip; iscappedbytrg 1 At least one TRG with a capacity maximum is associated with this perio&amp;hellip; inelighonorpriority 0 Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/flg/</guid>
+      <description>System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip;
+Record: SMF99S2 Based on: SMF99FLG Description &amp;ldquo;System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved&amp;rdquo;
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description stu 1 Subtypes utilized </description>
+    </item>
+    
+    <item>
+      <title>Field - gav_array</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/gav_array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/gav_array/</guid>
+      <description>Goal achievement array
+Map: SMF99_S2_PER_MAP
+Array Length: 6
+Based on: SMF99_GAV_ARRAY</description>
+    </item>
+    
+    <item>
+      <title>Field - goal_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_type/</guid>
+      <description>Goal type
+Map: SMF99_S2_PER_MAP Based on: SMF99_PGOALTYP Description Value Meaning 0: System component address space, SYSSTC, or server goal 1: Short response time (less than or equal to 20 seconds) 2: Long response time (greater than 20 seconds) 3: Velocity 4: Discretionary
+If the goal type is a response time goal, you should check the response-time percentage field (SMF99_PRTP). If the field is zero, then the response time goal is an average response time type.</description>
+    </item>
+    
+    <item>
+      <title>Field - goal_type_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_type_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_type_name/</guid>
+      <description>Goal type name
+Map: SMF99_S2_PER_MAP Based on: goal_type Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
+Source value IBM SMF Explorer meaning 0 System 1 Short Response 2 Long Response 3 Velocity 4 Discretionary default Unknown </description>
+    </item>
+    
+    <item>
+      <title>Field - goal_value</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_value/</guid>
+      <description>Goal value
+Map: SMF99_S2_PER_MAP Based on: SMF99_PGOALVAL Description Goal value: For a response time goal, this is in milliseconds. For a velocity goal, this is a number from 1 to 99. For a discretionary goal, this is zero. Description from SMF record: goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero</description>
+    </item>
+    
+    <item>
+      <title>Field - has_near_blocked_as</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/has_near_blocked_as/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/has_near_blocked_as/</guid>
+      <description>Period has an address space that is close to being blocked.
+Map: SMF99_S2_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - hdlock_time_at_pdp_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/hdlock_time_at_pdp_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/hdlock_time_at_pdp_using/</guid>
+      <description>HD lock time at PDP using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_HDLOCK_TIME_AT_PDP_USING </description>
+    </item>
+    
+    <item>
+      <title>Field - hdlockpromotion_time_at_pdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/hdlockpromotion_time_at_pdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/hdlockpromotion_time_at_pdp/</guid>
+      <description>HD lock time at PDP (promoted dispatch priority) accumulator
+Map: SMF99_S2_PER_MAP Based on: SMF99_HDLOCKPROMOTION_TIME_AT_PDP </description>
+    </item>
+    
+    <item>
+      <title>Field - history_rows</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/history_rows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/history_rows/</guid>
+      <description>number of history rows used to build the smple set
+Map: SMF99_S2_PER_MAP Based on: SMF99_NUM_SAMP_HIST_ROWS_USED Description Number of sample history rows used to build sample set</description>
+    </item>
+    
+    <item>
+      <title>Field - icadp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/icadp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/icadp/</guid>
+      <description>Current Achievable demand percentage (IFA )
+Map: SMF99_S2_PER_MAP Based on: SMF99_ICADP </description>
+    </item>
+    
+    <item>
+      <title>Field - idle</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/idle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/idle/</guid>
+      <description>Idle samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIDLE Description idle samples</description>
+    </item>
+    
+    <item>
+      <title>Field - inelighonorpriority</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/inelighonorpriority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/inelighonorpriority/</guid>
+      <description>Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags2 Description Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority Processing&amp;rdquo;, i.e. it will not be offloaded to CPs for help processing.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flags2.</description>
+    </item>
+    
+    <item>
+      <title>Field - io_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_delay/</guid>
+      <description>I/O delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIOD </description>
+    </item>
+    
+    <item>
+      <title>Field - io_priority_group</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_priority_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_priority_group/</guid>
+      <description>Period belongs to a service class that was assigned to I/O priority gr&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags Description Period belongs to a service class that was assigned to I/O priority group
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Sample - io_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</guid>
+      <description>Request IO samples for service class.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
+date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+    </item>
+    
+    <item>
+      <title>Field - io_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/io_using/</guid>
+      <description>I/O using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIOU </description>
+    </item>
+    
+    <item>
+      <title>Field - iosub_connectsamples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_connectsamples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_connectsamples/</guid>
+      <description>Connect samples
+Map: SMF99_IOSUB_SAMPLES_MAP Based on: SMF99_IOSUB_CONNECTSAMPLES </description>
+    </item>
+    
+    <item>
+      <title>Field - iosub_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_index/</guid>
+      <description>Subsystem index.
+Map: SMF99_IOSUB_SAMPLES_MAP Based on: SMF99_IOSUB_INDEX Description This correlates with SMF999_IOSUB_INDEX.</description>
+    </item>
+    
+    <item>
+      <title>Field - iosub_pendingsamples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_pendingsamples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosub_pendingsamples/</guid>
+      <description>Pending samples
+Map: SMF99_IOSUB_SAMPLES_MAP Based on: SMF99_IOSUB_PENDINGSAMPLES </description>
+    </item>
+    
+    <item>
+      <title>Field - iosubsamln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamln/</guid>
+      <description>Length of a I/O subsystem samples data section
+Map: SMF99_S2_PER_MAP Based on: SMF99_IOSUBSAMLN </description>
+    </item>
+    
+    <item>
+      <title>Field - iosubsamof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamof/</guid>
+      <description>Offset to I/O subsystem samples data from beginning of record (includi&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_IOSUBSAMOF Description Offset to I/O subsystem samples data from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - iosubsamon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iosubsamon/</guid>
+      <description>Number of I/O subsystem samples data sections
+Map: SMF99_S2_PER_MAP Based on: SMF99_IOSUBSAMON </description>
+    </item>
+    
+    <item>
+      <title>Field - iscappedbysoletrg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iscappedbysoletrg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iscappedbysoletrg/</guid>
+      <description>Exactly one TRG with a capacity maximum is associated with this period&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags2 Description Exactly one TRG with a capacity maximum is associated with this period @WI281721
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field flags2.</description>
+    </item>
+    
+    <item>
+      <title>Field - iscappedbytrg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iscappedbytrg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/iscappedbytrg/</guid>
+      <description>At least one TRG with a capacity maximum is associated with this perio&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags2 Description At least one TRG with a capacity maximum is associated with this period @WI281721
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flags2.</description>
+    </item>
+    
+    <item>
+      <title>Field - mpl_av</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_av/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_av/</guid>
+      <description>Average Maximum MPL Target achieved
+Map: SMF99_S2_PER_MAP Based on: SMF99_PAMTA </description>
+    </item>
+    
+    <item>
+      <title>Field - mpl_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_delay/</guid>
+      <description>MPL delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PMPLD Description MPL Delay</description>
+    </item>
+    
+    <item>
+      <title>Field - mpl_in</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_in/</guid>
+      <description>MPL in-target
+Map: SMF99_S2_PER_MAP Based on: SMF99_PMPLI </description>
+    </item>
+    
+    <item>
+      <title>Field - mpl_out</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/mpl_out/</guid>
+      <description>MPL out-target
+Map: SMF99_S2_PER_MAP Based on: SMF99_PMPLO </description>
+    </item>
+    
+    <item>
+      <title>Field - needs_sysplex_help</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/needs_sysplex_help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/needs_sysplex_help/</guid>
+      <description>Period experienced some type of delay within the sysplex during last p&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags Description Period experienced some type of delay within the sysplex during last policy adjustment interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - non_zos</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/non_zos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/non_zos/</guid>
+      <description>Indicates that the period is non-z/OS (Linux)
+Map: SMF99_S2_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - num_srv_period</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/num_srv_period/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/num_srv_period/</guid>
+      <description>Number of periods in this service class
+Map: SMF99_S2_CLS_MAP Based on: SMF99_CNUMP Description number of periods in the class</description>
+    </item>
+    
+    <item>
+      <title>Field - padp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/padp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/padp/</guid>
+      <description>working variable for achievable demand percentage
+Map: SMF99_S2_PER_MAP Based on: SMF99_PADP </description>
+    </item>
+    
+    <item>
+      <title>Field - paserc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/paserc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/paserc/</guid>
+      <description>Average service consumed over window
+Map: SMF99_S2_PER_MAP Based on: SMF99_PASERC </description>
+    </item>
+    
+    <item>
+      <title>Field - paswp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/paswp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/paswp/</guid>
+      <description>Aux swap delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PASWP </description>
+    </item>
+    
+    <item>
+      <title>Field - pauxc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxc/</guid>
+      <description>Common area paging delay from aux
+Map: SMF99_S2_PER_MAP Based on: SMF99_PAUXC </description>
+    </item>
+    
+    <item>
+      <title>Field - pauxp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxp/</guid>
+      <description>primary private area paging delay aux
+Map: SMF99_S2_PER_MAP Based on: SMF99_PAUXP </description>
+    </item>
+    
+    <item>
+      <title>Field - pauxs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pauxs/</guid>
+      <description>shared storage paging samples from aux
+Map: SMF99_S2_PER_MAP Based on: SMF99_PAUXS </description>
+    </item>
+    
+    <item>
+      <title>Field - pavg_size</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pavg_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pavg_size/</guid>
+      <description>Average size in processor storage (frame count) of address spaces in t&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PAVG_SIZE Description Average size in processor storage (frame count) of address spaces in the period. zero otherwise</description>
+    </item>
+    
+    <item>
+      <title>Field - pcdclock</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pcdclock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pcdclock/</guid>
+      <description>policy adjustment count down clock, no policy action is taken until cl&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PCDCLOCK Description policy adjustment count down clock, no policy action is taken until clock is zero
+Post-Processed This field is processed using the core.hex2int post-processor.</description>
+    </item>
+    
+    <item>
+      <title>Field - pcnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pcnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pcnm/</guid>
+      <description>Internal service class name
+Map: SMF99_S2_PER_MAP Based on: SMF99_PCNM </description>
+    </item>
+    
+    <item>
+      <title>Field - pdevcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pdevcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pdevcl/</guid>
+      <description>Identifier of device cluster period belongs to. This identifier can be&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PDEVCL Description Identifier of device cluster period belongs to. This identifier can be used to associated the period with device cluster data in the subtype 4 record. Zero if the period is not associated with a device cluster</description>
+    </item>
+    
+    <item>
+      <title>Field - penclave_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/penclave_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/penclave_server/</guid>
+      <description>Server is a enclave server
+Map: SMF99_S2_PER_MAP Based on: pserver_type Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pserver_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - pend_iosm_accum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pend_iosm_accum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pend_iosm_accum/</guid>
+      <description>DASD I/O pending samples accumulated over SMF99_Num_Samp_Hist_Rows_Use&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PEND_IOSM_ACCUM Description DASD I/O pending samples accumulated over SMF99_Num_Samp_Hist_Rows_Used</description>
+    </item>
+    
+    <item>
+      <title>Field - pend_iosm_curr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pend_iosm_curr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pend_iosm_curr/</guid>
+      <description>DASD I/O pending samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PEND_IOSM_CURR </description>
+    </item>
+    
+    <item>
+      <title>Field - per_io_mgmt_support_data</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/per_io_mgmt_support_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/per_io_mgmt_support_data/</guid>
+      <description>I/O Management Support Data
+Map: SMF99_S2_PER_MAP Based on: SMF99_PER_IO_MGMT_SUPPORT_DATA </description>
+    </item>
+    
+    <item>
+      <title>Field - period_imp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_imp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_imp/</guid>
+      <description>Importance
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIMPOR Description importance</description>
+    </item>
+    
+    <item>
+      <title>Field - period_num</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_num/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_num/</guid>
+      <description>Period number
+Map: SMF99_S2_PER_MAP Based on: SMF99_PNUM Description period number</description>
+    </item>
+    
+    <item>
+      <title>Field - pescs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pescs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pescs/</guid>
+      <description>number of explicit storage critical classified address spaces
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESCS </description>
+    </item>
+    
+    <item>
+      <title>Field - peshsp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/peshsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/peshsp/</guid>
+      <description>expanded storage access policy for hiperspace pages - valid for period&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESHSP Description expanded storage access policy for hiperspace pages - valid for periods with short resp time goals only</description>
+    </item>
+    
+    <item>
+      <title>Field - pesp_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_ln/</guid>
+      <description>length of each AS ESP entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESP_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - pesp_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_of/</guid>
+      <description>offset to address space expanded storage access policies section from &amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESP_OF Description offset to address space expanded storage access policies section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - pesp_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesp_on/</guid>
+      <description>number of AS ESP entries
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESP_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - pespol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pespol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pespol/</guid>
+      <description>expanded storage access policy for demand pages - valid for periods wi&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESPOL Description expanded storage access policy for demand pages - valid for periods with short resp time goals only</description>
+    </item>
+    
+    <item>
+      <title>Field - pesswap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesswap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesswap/</guid>
+      <description>expanded storage access policy for swap pages - valid for periods with&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESSWAP Description expanded storage access policy for swap pages - valid for periods with short resp time goals only</description>
+    </item>
+    
+    <item>
+      <title>Field - pesvio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesvio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pesvio/</guid>
+      <description>expanded storage access policy for VIO pages - valid for periods with &amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PESVIO Description expanded storage access policy for VIO pages - valid for periods with short resp time goals only</description>
+    </item>
+    
+    <item>
+      <title>Field - pflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pflg/</guid>
+      <description>Record flags
+Map: SMF99_PRODUCT_MAP Based on: SMF99PFLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description reasm_indicator 1 Only a subset of the available data is written to this record. The res&amp;hellip; record_incomplete 0 Only a subset of the available data was written to avoid that this rec&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Field - pgrn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pgrn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pgrn/</guid>
+      <description>group name or blank if period doesn&amp;rsquo;t belong to a group
+Map: SMF99_S2_PER_MAP Based on: SMF99_PGRN </description>
+    </item>
+    
+    <item>
+      <title>Field - phsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phsc/</guid>
+      <description>Cache hyperspace delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PHSC </description>
+    </item>
+    
+    <item>
+      <title>Field - phspl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phspl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phspl/</guid>
+      <description>number of address spaces with hiperspace pages subject to lru expanded&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PHSPL Description number of address spaces with hiperspace pages subject to lru expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - phsps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phsps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phsps/</guid>
+      <description>number of address spaces with hiperspace pages subject to space availa&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PHSPS Description number of address spaces with hiperspace pages subject to space available expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - phss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/phss/</guid>
+      <description>Scrolling hyperspace delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PHSS </description>
+    </item>
+    
+    <item>
+      <title>Field - pi_local</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pi_local/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pi_local/</guid>
+      <description>Local performance index
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLPI Description local performance index
+Post-Processed The value is scaled by 100.0.</description>
+    </item>
+    
+    <item>
+      <title>Field - pi_sysplex</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pi_sysplex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pi_sysplex/</guid>
+      <description>Sysplex performance index
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSPI Description sysplex performance index
+Post-Processed The value is scaled by 100.0.</description>
+    </item>
+    
+    <item>
+      <title>Field - piadp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piadp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piadp/</guid>
+      <description>working variable for achievable demand percentage (IFA)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIADP </description>
+    </item>
+    
+    <item>
+      <title>Field - piaserc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piaserc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piaserc/</guid>
+      <description>Average service consumed over window (IFA)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIASERC </description>
+    </item>
+    
+    <item>
+      <title>Field - pifaoncp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pifaoncp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pifaoncp/</guid>
+      <description>IFA On CP using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIFAONCP </description>
+    </item>
+    
+    <item>
+      <title>Field - pimdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pimdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pimdp/</guid>
+      <description>maximum percentage of IFA processor time demanded
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIMDP </description>
+    </item>
+    
+    <item>
+      <title>Field - pimttwa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pimttwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pimttwa/</guid>
+      <description>Mean time to wait adjusted (IFA)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIMTTWA </description>
+    </item>
+    
+    <item>
+      <title>Field - pio_mdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pio_mdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pio_mdp/</guid>
+      <description>maximum percentage of time period could demand I/O. Percentage scaled &amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIO_MDP Description maximum percentage of time period could demand I/O. Percentage scaled by 10.</description>
+    </item>
+    
+    <item>
+      <title>Field - piodp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piodp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piodp/</guid>
+      <description>I/O priority
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIODP </description>
+    </item>
+    
+    <item>
+      <title>Field - piprser</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piprser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/piprser/</guid>
+      <description>Projected service (IFA)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIPRSER </description>
+    </item>
+    
+    <item>
+      <title>Field - plcpud</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plcpud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plcpud/</guid>
+      <description>CPU delay samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLCPUD </description>
+    </item>
+    
+    <item>
+      <title>Field - plcpuu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plcpuu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plcpuu/</guid>
+      <description>CPU using samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLCPUU </description>
+    </item>
+    
+    <item>
+      <title>Field - plifad</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plifad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plifad/</guid>
+      <description>IFA delay samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLIFAD </description>
+    </item>
+    
+    <item>
+      <title>Field - plifau</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plifau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plifau/</guid>
+      <description>IFA using samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLIFAU </description>
+    </item>
+    
+    <item>
+      <title>Field - pln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pln/</guid>
+      <description>Length of the product section
+Map: SMF99_SDEF_MAP Based on: SMF99PLN </description>
+    </item>
+    
+    <item>
+      <title>Field - plru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plru/</guid>
+      <description>number of address spaces with demand pages subject to lru expanded sto&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLRU Description number of address spaces with demand pages subject to lru expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - plrua</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plrua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plrua/</guid>
+      <description>Long term Ready User Average times 16
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLRUA </description>
+    </item>
+    
+    <item>
+      <title>Field - plsupd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plsupd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plsupd/</guid>
+      <description>SUP delay samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLSUPD </description>
+    </item>
+    
+    <item>
+      <title>Field - plsupu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plsupu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/plsupu/</guid>
+      <description>SUP using samples during last interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PLSUPU </description>
+    </item>
+    
+    <item>
+      <title>Field - pmdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pmdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pmdp/</guid>
+      <description>maximum percentage of processor time demanded
+Map: SMF99_S2_PER_MAP Based on: SMF99_PMDP </description>
+    </item>
+    
+    <item>
+      <title>Field - pmttwa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pmttwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pmttwa/</guid>
+      <description>Mean time to wait adjusted
+Map: SMF99_S2_PER_MAP Based on: SMF99_PMTTWA </description>
+    </item>
+    
+    <item>
+      <title>Field - pnh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pnh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pnh/</guid>
+      <description>period experienced processor access or storage delay during last polic&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PNH Description period experienced processor access or storage delay during last policy adjustment interval</description>
+    </item>
+    
+    <item>
+      <title>Field - pnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pnm/</guid>
+      <description>Product Name - SRM
+Map: SMF99_PRODUCT_MAP Based on: SMF99PNM </description>
+    </item>
+    
+    <item>
+      <title>Field - pns_ipserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_ipserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_ipserv/</guid>
+      <description>zAAP service of enclave servers&amp;rsquo; non enclave work which was accumulate&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PNS_IPSERV Description zAAP service of enclave servers&amp;rsquo; non enclave work which was accumulated during policy adjustment interval in unweighted CPU service units</description>
+    </item>
+    
+    <item>
+      <title>Field - pns_pserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_pserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_pserv/</guid>
+      <description>Service of enclave servers&amp;rsquo; non enclave work which was accumulated dur&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PNS_PSERV Description Service of enclave servers&amp;rsquo; non enclave work which was accumulated during policy adjustment interval in unweighted CPU service units</description>
+    </item>
+    
+    <item>
+      <title>Field - pns_spserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_spserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pns_spserv/</guid>
+      <description>SUP service of enclave servers&amp;rsquo; non enclave work which was accumulated&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PNS_SPSERV Description SUP service of enclave servers&amp;rsquo; non enclave work which was accumulated during policy adjustment interval in unweighted CPU service units</description>
+    </item>
+    
+    <item>
+      <title>Field - pof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pof/</guid>
+      <description>Offset to the product section from the beginning of the record (includ&amp;hellip;
+Map: SMF99_SDEF_MAP Based on: SMF99POF Description Offset to the product section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - pon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pon/</guid>
+      <description>Number of product sections
+Map: SMF99_SDEF_MAP Based on: SMF99PON </description>
+    </item>
+    
+    <item>
+      <title>Field - pothr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pothr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pothr/</guid>
+      <description>all other states
+Map: SMF99_S2_PER_MAP Based on: SMF99_POTHR </description>
+    </item>
+    
+    <item>
+      <title>Field - pprot</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pprot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pprot/</guid>
+      <description>number of address spaces with demand pages protected in processor stor&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PPROT Description number of address spaces with demand pages protected in processor storage - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - pprser</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pprser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pprser/</guid>
+      <description>Projected service
+Map: SMF99_S2_PER_MAP Based on: SMF99_PPRSER </description>
+    </item>
+    
+    <item>
+      <title>Field - ppsitar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ppsitar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ppsitar/</guid>
+      <description>storage isolation target for each address space in period, valid only &amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PPSITAR Description storage isolation target for each address space in period, valid only for work with short response time goals, zero otherwise</description>
+    </item>
+    
+    <item>
+      <title>Field - ppspt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ppspt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ppspt/</guid>
+      <description>length of time swapped address spaces are protected in processor stora&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PPSPT Description length of time swapped address spaces are protected in processor storage</description>
+    </item>
+    
+    <item>
+      <title>Field - pqdata_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_ln/</guid>
+      <description>length of each queue server entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_PQDATA_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - pqdata_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_of/</guid>
+      <description>offset to queue server section from beginning of record (including RDW&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PQDATA_OF Description offset to queue server section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - pqdata_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqdata_on/</guid>
+      <description>number of queue server entries
+Map: SMF99_S2_PER_MAP Based on: SMF99_PQDATA_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - pqueue_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqueue_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pqueue_server/</guid>
+      <description>Server is a queue server
+Map: SMF99_S2_PER_MAP Based on: pserver_type Post-Processed This virtual field corresponds to the flag at bit-position 2 of field pserver_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - prtp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/prtp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/prtp/</guid>
+      <description>Response time goal percentile. Zero if period does not have a percenti&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PRTP Description Response time goal percentile. Zero if period does not have a percentile response time goal.</description>
+    </item>
+    
+    <item>
+      <title>Field - psadp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psadp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psadp/</guid>
+      <description>Working variable for achievable demand percentage (SUP)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSADP </description>
+    </item>
+    
+    <item>
+      <title>Field - psaserc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psaserc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psaserc/</guid>
+      <description>Average service consumed over window (SUP)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSASERC </description>
+    </item>
+    
+    <item>
+      <title>Field - psdata_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_ln/</guid>
+      <description>length of each server samples entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSDATA_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - psdata_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_of/</guid>
+      <description>offset to server samples section from beginning of record (including R&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSDATA_OF Description offset to server samples section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - psdata_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psdata_on/</guid>
+      <description>number of server samples entries
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSDATA_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - pserv_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_ln/</guid>
+      <description>length of each server entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - pserv_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_of/</guid>
+      <description>offset to server section from beginning of record (including RDW)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV_OF </description>
+    </item>
+    
+    <item>
+      <title>Field - pserv_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserv_on/</guid>
+      <description>number of server entries
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - pserver_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserver_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserver_type/</guid>
+      <description>Server type.
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSERVER_TYPE Description No bits will be on if period is not a server
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description pqueue_server 2 Server is a queue server penclave_server 1 Server is a enclave server ptrans_server 0 Server is a transaction server </description>
+    </item>
+    
+    <item>
+      <title>Field - pserver_type_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserver_type_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pserver_type_name/</guid>
+      <description>Server type name
+Map: SMF99_S2_PER_MAP Based on: pserver_type Post-Processed This field is processed using the core.flagmap post-processor.</description>
+    </item>
+    
+    <item>
+      <title>Field - psmdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psmdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psmdp/</guid>
+      <description>Maximum percentage of SUP processor time demanded
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSMDP </description>
+    </item>
+    
+    <item>
+      <title>Field - psmttwa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psmttwa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psmttwa/</guid>
+      <description>Mean time to wait adjusted (SUP)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSMTTWA </description>
+    </item>
+    
+    <item>
+      <title>Field - pspav</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pspav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pspav/</guid>
+      <description>number of address spaces with demand pages subject to space available &amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSPAV Description number of address spaces with demand pages subject to space available expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - psprser</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psprser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psprser/</guid>
+      <description>Projected service (SUP)
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSPRSER </description>
+    </item>
+    
+    <item>
+      <title>Field - psuponcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psuponcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psuponcp/</guid>
+      <description>zIIP on CP using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSUPONCP </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_cpuu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_cpuu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_cpuu/</guid>
+      <description>Sysplex wide CPU using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_CPUU </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_idle</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_idle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_idle/</guid>
+      <description>Sysplex wide idle samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_IDLE </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_io_dly</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_io_dly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_io_dly/</guid>
+      <description>Sysplex wide io delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_IO_DLY </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_non_io_dly</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_non_io_dly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_non_io_dly/</guid>
+      <description>Sysplex wide non io delay
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_NON_IO_DLY </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_nonidle</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_nonidle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_nonidle/</guid>
+      <description>Sysplex wide non-idle samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_NONIDLE </description>
+    </item>
+    
+    <item>
+      <title>Field - psys_other</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/psys_other/</guid>
+      <description>Sysplex wide other samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSYS_OTHER </description>
+    </item>
+    
+    <item>
+      <title>Field - ptrans_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ptrans_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ptrans_server/</guid>
+      <description>Server is a transaction server
+Map: SMF99_S2_PER_MAP Based on: pserver_type Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pserver_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - pvio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pvio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pvio/</guid>
+      <description>VIO delay from aux
+Map: SMF99_S2_PER_MAP Based on: SMF99_PVIO </description>
+    </item>
+    
+    <item>
+      <title>Field - pviol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pviol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pviol/</guid>
+      <description>number of address spaces with VIO pages subject to lru expanded storag&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PVIOL Description number of address spaces with VIO pages subject to lru expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - pvios</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pvios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pvios/</guid>
+      <description>number of address spaces with VIO pages subject to space available exp&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PVIOS Description number of address spaces with VIO pages subject to space available expanded storage policy - NA for periods with short resp time goals</description>
+    </item>
+    
+    <item>
+      <title>Field - pxmem_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_ln/</guid>
+      <description>length of each cross memory delay entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_PXMEM_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - pxmem_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_of/</guid>
+      <description>offset to cross memory delay samples from beginning of record (includi&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_PXMEM_OF Description offset to cross memory delay samples from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - pxmem_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/pxmem_on/</guid>
+      <description>number of cross memory delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PXMEM_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_achieved_qmpl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_achieved_qmpl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_achieved_qmpl/</guid>
+      <description>average number (over policy interval) of server instances that are in &amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_ACHIEVED_QMPL Description average number (over policy interval) of server instances that are in swapped in spaces in the DISP. Only counts server instances serving the external service classs associated with the queue. Scaled by * 16. Not used for batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_active_qmpl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_active_qmpl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_active_qmpl/</guid>
+      <description>average of numer of server instance between Begin and End during polic&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_ACTIVE_QMPL Description average of numer of server instance between Begin and End during policy interval. Scaled by * 16. For batch queue servers this is the number of initiators with active jobs sysplex wide. @WLMCBAT.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_active_rgnwork</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_active_rgnwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_active_rgnwork/</guid>
+      <description>Current active number of server processing work requests which have be&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_ACTIVE_RGNWORK Description Current active number of server processing work requests which have been. routed directly to the server region. This number is neither included in the idle nor the active server count.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_ae_maxlimit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_maxlimit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_maxlimit/</guid>
+      <description>Maximum number of servers for the application environment.
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_AE_MAXLIMIT </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_ae_minlimit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_minlimit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_minlimit/</guid>
+      <description>Minimum number of servers for the application environment.
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_AE_MINLIMIT </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_ae_spreadmin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_spreadmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_ae_spreadmin/</guid>
+      <description>Minimum number of address spaces must be ditributed across all work qu&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: qdata_q_qualifier Description Minimum number of address spaces must be ditributed across all work queues of the application environment
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field qdata_q_qualifier.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_as_capacity</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_as_capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_as_capacity/</guid>
+      <description>Address space server instance capacity
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_AS_CAPACITY </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_avg_ineligible_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_avg_ineligible_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_avg_ineligible_requests/</guid>
+      <description>Average number of ineligible queued requests over a policy interval sc&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_AVG_INELIGIBLE_REQUESTS Description Average number of ineligible queued requests over a policy interval scaled by * 16. Currently applies to batch queues only.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_avg_queued_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_avg_queued_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_avg_queued_requests/</guid>
+      <description>Average number of queued requests over a policy interval scaled by * 1&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_AVG_QUEUED_REQUESTS Description Average number of queued requests over a policy interval scaled by * 16</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_batch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_batch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_batch/</guid>
+      <description>Batch type work queue
+Map: SMF99_QDATA_MAP Based on: qdata_q_type Post-Processed This virtual field corresponds to the flag at bit-position 1 of field qdata_q_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_env_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_env_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_env_name/</guid>
+      <description>associated environment name for the queue
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_ENV_NAME </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_inst_per_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_inst_per_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_inst_per_server/</guid>
+      <description>Number of server instances per server. Only applies if SMF99_QDATA- _T&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_INST_PER_SERVER Description Number of server instances per server. Only applies if SMF99_QDATA- _TASKS_MANAGED is set</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_lt_total_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_lt_total_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_lt_total_requests/</guid>
+      <description>Long term average total requests (queued + active) scaled by
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_LT_TOTAL_REQUESTS </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_q_qualifier</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_q_qualifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_q_qualifier/</guid>
+      <description>Work Queue Qualifier
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_Q_QUALIFIER Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qdata_ae_spreadmin 3 Minimum number of address spaces must be ditributed across all work qu&amp;hellip; qdata_spaces_moved_by_pa 2 Address spaces have been moved during policy adjustment because the ma&amp;hellip; qdata_spaces_moved_by_hsk 1 Address spaces have been moved from this work queue to enforce the min&amp;hellip; qdata_tasks_managed 0 Server instances are managed by WLM </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_q_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_q_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_q_type/</guid>
+      <description>Type byte
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_Q_TYPE Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qdata_batch 1 Batch type work queue qdata_queue_manager 0 queue manager type work queue </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_qmpl_in_tar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_qmpl_in_tar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_qmpl_in_tar/</guid>
+      <description>Number of address spaces suggested to be started in the DISP on behalf&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_QMPL_IN_TAR Description Number of address spaces suggested to be started in the DISP on behalf of the period represented by this subtype 2. Does not apply to batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_queue_manager</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_queue_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_queue_manager/</guid>
+      <description>queue manager type work queue
+Map: SMF99_QDATA_MAP Based on: qdata_q_type Post-Processed This virtual field corresponds to the flag at bit-position 0 of field qdata_q_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_rqdata_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_ln/</guid>
+      <description>Length of remote queue data entries
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_RQDATA_LN </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_rqdata_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_of/</guid>
+      <description>Offset to remote queue data section from beginning of record (includin&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_RQDATA_OF Description Offset to remote queue data section from beginning of record (including RDW). Only applies to batch queue server</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_rqdata_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_rqdata_on/</guid>
+      <description>Number of remote queue data entries
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_RQDATA_ON </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_server_active</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_active/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_active/</guid>
+      <description>Current actual number of server instances bound to the queue and betwe&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SERVER_ACTIVE Description Current actual number of server instances bound to the queue and between Begin and End. This is a subset of the Have count. Have minus Active equals Idle.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_server_class_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_class_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_class_name/</guid>
+      <description>class name of disp serving the period represented by this subtype 2 re&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SERVER_CLASS_NAME Description class name of disp serving the period represented by this subtype 2 record. Only applies to queue manager type servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_server_have</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_have/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_have/</guid>
+      <description>Current actual number of server instances bound to the queue. This is &amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SERVER_HAVE Description Current actual number of server instances bound to the queue. This is a queue wide count.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_server_idle</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_idle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_idle/</guid>
+      <description>Average idle server instances over policy interval
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SERVER_IDLE </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_server_want</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_want/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_server_want/</guid>
+      <description>Number of server instances needed to address queue delay according to &amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SERVER_WANT Description Number of server instances needed to address queue delay according to policy adjustment. This is a queue wide count.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_spaces_moved</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved/</guid>
+      <description>Number of server address spaces moved away from this queue.
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SPACES_MOVED </description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_spaces_moved_by_hsk</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved_by_hsk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved_by_hsk/</guid>
+      <description>Address spaces have been moved from this work queue to enforce the min&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: qdata_q_qualifier Description Address spaces have been moved from this work queue to enforce the minimum number of servers of another work queue of the same application environment
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field qdata_q_qualifier.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_spaces_moved_by_pa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved_by_pa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_spaces_moved_by_pa/</guid>
+      <description>Address spaces have been moved during policy adjustment because the ma&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: qdata_q_qualifier Description Address spaces have been moved during policy adjustment because the maximum number of servers has been already started for the application environment
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field qdata_q_qualifier.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_subsys_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_subsys_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_subsys_name/</guid>
+      <description>Subsystem name of owner of the queue. Only applies to batch queue serv&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SUBSYS_NAME Description Subsystem name of owner of the queue. Only applies to batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_subsys_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_subsys_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_subsys_type/</guid>
+      <description>Subsystem type of owner of the queue. Only applies to batch queue serv&amp;hellip;
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_SUBSYS_TYPE Description Subsystem type of owner of the queue. Only applies to batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - qdata_tasks_managed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_tasks_managed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_tasks_managed/</guid>
+      <description>Server instances are managed by WLM
+Map: SMF99_QDATA_MAP Based on: qdata_q_qualifier Post-Processed This virtual field corresponds to the flag at bit-position 0 of field qdata_q_qualifier.</description>
+    </item>
+    
+    <item>
+      <title>Field - ready_user_av</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ready_user_av/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ready_user_av/</guid>
+      <description>Ready user avarage
+Map: SMF99_S2_PER_MAP Based on: SMF99_PRUA Description Ready user average</description>
+    </item>
+    
+    <item>
+      <title>Field - reasm_indicator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/reasm_indicator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/reasm_indicator/</guid>
+      <description>Only a subset of the available data is written to this record. The res&amp;hellip;
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - record_incomplete</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/record_incomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/record_incomplete/</guid>
+      <description>Only a subset of the available data was written to avoid that this rec&amp;hellip;
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - res_group_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/res_group_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/res_group_name/</guid>
+      <description>Resource group name
+Map: SMF99_S2_CLS_MAP Based on: SMF99_CGRN Description group name or blank if class doesn&amp;rsquo;t belong to a group</description>
+    </item>
+    
+    <item>
+      <title>Sample - response_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</guid>
+      <description>Request sampling information for response time distribution.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
+date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_active_servers</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_active_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_active_servers/</guid>
+      <description>10-second average number of active servers scaled by * 16
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_ACTIVE_SERVERS </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_assess_data_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_assess_data_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_assess_data_valid/</guid>
+      <description>Originator sent valid assess data
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Post-Processed This virtual field corresponds to the flag at bit-position 4 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_avg_constraint_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_constraint_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_constraint_requests/</guid>
+      <description>average number of queued requests with affinity to constraint systems &amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_AVG_CONSTRAINT_REQUESTS Description average number of queued requests with affinity to constraint systems only scaled by * 16</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_avg_ineligible_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_ineligible_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_ineligible_requests/</guid>
+      <description>average number of ineligible queued requests over a policy interval sc&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_AVG_INELIGIBLE_REQUESTS Description average number of ineligible queued requests over a policy interval scaled by * 16</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_avg_queued_requests</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_queued_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_queued_requests/</guid>
+      <description>average number of queued requests over a policy interval scaled by * 1&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_AVG_QUEUED_REQUESTS Description average number of queued requests over a policy interval scaled by * 16</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_avg_total_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_total_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_avg_total_req/</guid>
+      <description>Average total requests for the queue eligible to run on the system res&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_AVG_TOTAL_REQ Description Average total requests for the queue eligible to run on the system respresented by this RQDATA entry. This corresponds to the last point plotted on the queue delay plot. Scaled by * 16.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_cannot_start_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_cannot_start_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_cannot_start_server/</guid>
+      <description>This system cannot start any servers for this work queue due to some c&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Description This system cannot start any servers for this work queue due to some constraint
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_count_servers</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_count_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_count_servers/</guid>
+      <description>Number of servers required for receiver value
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_#_SERVERS </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_deferred_start_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_deferred_start_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_deferred_start_server/</guid>
+      <description>This system wanted to add servers for this work queue on the just-comp&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Description This system wanted to add servers for this work queue on the just-completed policy interval, but deferred since another system appears to be a better candidate.
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_donor_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_donor_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_donor_class/</guid>
+      <description>Class name for donor period most impacted by starting servers
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_DONOR_CLASS </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_donor_rgroup</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_donor_rgroup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_donor_rgroup/</guid>
+      <description>resource group name for donor period most impacted by starting servers&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_DONOR_RGROUP Description resource group name for donor period most impacted by starting servers</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_flags/</guid>
+      <description>flags
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_FLAGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rqdata_assess_data_valid 4 Originator sent valid assess data rqdata_managed 3 Work queue is managed on this system rqdata_deferred_start_server 2 This system wanted to add servers for this work queue on the just-comp&amp;hellip; rqdata_cannot_start_server 1 This system cannot start any servers for this work queue due to some c&amp;hellip; rqdata_just_started_server 0 This system started at least one server for this work queue in the pol&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_highest_imp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_highest_imp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_highest_imp/</guid>
+      <description>Highest importance of donor periods negatively affected if servers are&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_HIGHEST_IMP Description Highest importance of donor periods negatively affected if servers are started</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_just_started_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_just_started_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_just_started_server/</guid>
+      <description>This system started at least one server for this work queue in the pol&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Description This system started at least one server for this work queue in the policy interval that this data represents
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_managed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_managed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_managed/</guid>
+      <description>Work queue is managed on this system
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Post-Processed This virtual field corresponds to the flag at bit-position 3 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_pa_skip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_pa_skip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_pa_skip/</guid>
+      <description>policy adjustment skip clock
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_PA_SKIP </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_percount</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_percount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_percount/</guid>
+      <description>Period number with in class of donor
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_PER# </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_pi_delta</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_pi_delta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_pi_delta/</guid>
+      <description>PI delta for donor period of highest importance if servers are started&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_PI_DELTA Description PI delta for donor period of highest importance if servers are started</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_q_skip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_q_skip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_q_skip/</guid>
+      <description>defer processing skip clock
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_Q_SKIP </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_q_skip_reason</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_q_skip_reason/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_q_skip_reason/</guid>
+      <description>reason defer processing skip clock was set
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_Q_SKIP_REASON </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_sys_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_sys_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_sys_name/</guid>
+      <description>name of system this RQDATA section represents
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_SYS_NAME </description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_total_servers</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_total_servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_total_servers/</guid>
+      <description>10-second average total servers.
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_TOTAL_SERVERS Description Includes active and idle servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_waiting_for_sysname</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_waiting_for_sysname/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_waiting_for_sysname/</guid>
+      <description>System name sender is deferring to. Blank if deferring only to collect&amp;hellip;
+Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_WAITING_FOR_SYSNAME Description System name sender is deferring to. Blank if deferring only to collect data from other systems.</description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_avg_resp_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_avg_resp_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_avg_resp_time/</guid>
+      <description>Response time distribution average response time
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_AVG_RESP_TIME </description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_int_sum_trans</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_int_sum_trans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_int_sum_trans/</guid>
+      <description>Response time distribution total number of transactions completed duri&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_INT_SUM_TRANS Description Response time distribution total number of transactions completed during last interval</description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_mid_point</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_mid_point/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_mid_point/</guid>
+      <description>Response time distribution mid-point (milliseconds)
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_MID_POINT </description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_num_rows</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_rows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_rows/</guid>
+      <description>Response time distribution number of rows used to build
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_NUM_ROWS </description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_num_trans</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/</guid>
+      <description>Response time distribution, 28 buckets
+Map: SMF99_S2_PER_MAP
+Array Length: 28
+Based on: SMF99_RT_DISTRI_NUM_TRANS</description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_running_count</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_running_count/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_running_count/</guid>
+      <description>Response time distribution total number of times the mid-point was cha&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_RUNNING_COUNT Description Response time distribution total number of times the mid-point was changed</description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_sum_trans</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_sum_trans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_sum_trans/</guid>
+      <description>Response time distribution total number of transactions completed
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_SUM_TRANS </description>
+    </item>
+    
+    <item>
+      <title>Field - rt_distri_time_stamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_time_stamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_time_stamp/</guid>
+      <description>Response time distribution time stamp
+Map: SMF99_S2_PER_MAP Based on: SMF99_RT_DISTRI_TIME_STAMP </description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rty/</guid>
+      <description>Record type 99
+Record: SMF99S2 Based on: SMF99RTY </description>
+    </item>
+    
+    <item>
+      <title>Field - rvn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rvn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rvn/</guid>
+      <description>Record Version Number
+Map: SMF99_PRODUCT_MAP Based on: SMF99RVN </description>
+    </item>
+    
+    <item>
+      <title>Field - samp_io_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_delay/</guid>
+      <description>DASDI/O delay samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_DELAY_IOSM_CURR Description DASD I/O delay samples for the current interval</description>
+    </item>
+    
+    <item>
+      <title>Field - samp_io_disconnected</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_disconnected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_disconnected/</guid>
+      <description>DASDI/O disconnected samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_DISC_IOSM_CURR Description DASD I/O disconnect samples for the current interval</description>
+    </item>
+    
+    <item>
+      <title>Field - samp_io_unit_queue</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_unit_queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_unit_queue/</guid>
+      <description>DASDI/O control unit queue samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_CUQT_IOSM_CURR Description DASD I/O control unit queue samples for the current interval</description>
+    </item>
+    
+    <item>
+      <title>Field - samp_io_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/samp_io_using/</guid>
+      <description>DASDI/O using samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_USING_IOSM_CURR Description DASD I/O using samples for the current interval</description>
+    </item>
+    
+    <item>
+      <title>Field - sbcpud</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sbcpud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sbcpud/</guid>
+      <description>Sample based CPU delays
+Map: SMF99_S2_PER_MAP Based on: SMF99_SBCPUD </description>
+    </item>
+    
+    <item>
+      <title>Field - sbcpuu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sbcpuu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sbcpuu/</guid>
+      <description>Sample based CPU usings
+Map: SMF99_S2_PER_MAP Based on: SMF99_SBCPUU </description>
+    </item>
+    
+    <item>
+      <title>Field - scadp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/scadp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/scadp/</guid>
+      <description>Current Achievable demand percentage (SUP)
+Map: SMF99_S2_PER_MAP Based on: SMF99_SCADP </description>
+    </item>
+    
+    <item>
+      <title>Field - sdata__server_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata__server_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata__server_type/</guid>
+      <description>Type byte
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA__SERVER_TYPE Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description sdata_batch 1 Server is a batch work queue sdata_enc_or_q_server 0 Server is an enclave or queue server </description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_batch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_batch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_batch/</guid>
+      <description>Server is a batch work queue
+Map: SMF99_SDATA_MAP Based on: sdata__server_type Post-Processed This virtual field corresponds to the flag at bit-position 1 of field sdata__server_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_aswp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_aswp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_aswp/</guid>
+      <description>aux swap delay samples experienced by enclave work units known to be a&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_ENC_ASWP Description aux swap delay samples experienced by enclave work units known to be associated with an address space</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_auxp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_auxp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_auxp/</guid>
+      <description>aux private paging delay samples experienced by enclave work units kno&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_ENC_AUXP Description aux private paging delay samples experienced by enclave work units known to be associated with an address space</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_hsp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_hsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_hsp/</guid>
+      <description>aux standard hiperspace paging delay samples experienced by enclave wo&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_ENC_HSP Description aux standard hiperspace paging delay samples experienced by enclave work units known to be associated with an address space</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_mpld</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_mpld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_mpld/</guid>
+      <description>MPL delay samples experienced by enclave work units known to be associ&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_ENC_MPLD Description MPL delay samples experienced by enclave work units known to be associated with an address space</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_or_q_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_or_q_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_or_q_server/</guid>
+      <description>Server is an enclave or queue server
+Map: SMF99_SDATA_MAP Based on: sdata__server_type Post-Processed This virtual field corresponds to the flag at bit-position 0 of field sdata__server_type.</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_enc_vio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_vio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_enc_vio/</guid>
+      <description>aux VIO paging delay samples experienced by enclave work units known t&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_ENC_VIO Description aux VIO paging delay samples experienced by enclave work units known to be associated with an address space</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_server_class_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_server_class_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_server_class_name/</guid>
+      <description>class name of disp serving this period or blank for batch
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_SERVER_CLASS_NAME </description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_subsys_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_subsys_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_subsys_name/</guid>
+      <description>Subsystem name of owner of the queue. Only applies to batch queue serv&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_SUBSYS_NAME Description Subsystem name of owner of the queue. Only applies to batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_subsys_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_subsys_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_subsys_type/</guid>
+      <description>Subsystem type of owner of the queue. Only applies to batch queue serv&amp;hellip;
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_SUBSYS_TYPE Description Subsystem type of owner of the queue. Only applies to batch queue servers.</description>
+    </item>
+    
+    <item>
+      <title>Field - sdata_wqdel</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_wqdel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdata_wqdel/</guid>
+      <description>Delay samples waiting on WLM-managed work queue
+Map: SMF99_SDATA_MAP Based on: SMF99_SDATA_WQDEL </description>
+    </item>
+    
+    <item>
+      <title>Field - sdef_len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdef_len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sdef_len/</guid>
+      <description>Length of self definition section
+Record: SMF99S2 Based on: SMF99_SDEF_LEN </description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/seg/</guid>
+      <description>Segment descriptor (see record length field)
+Record: SMF99S2 Based on: SMF99SEG </description>
+    </item>
+    
+    <item>
+      <title>Field - server_cnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_cnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_cnm/</guid>
+      <description>Class that period belongs to
+Map: SMF99_SERVER_MAP Based on: SMF99_SERVER_CNM </description>
+    </item>
+    
+    <item>
+      <title>Field - server_obs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_obs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_obs/</guid>
+      <description>Percentage of time this server was serving the period
+Map: SMF99_SERVER_MAP Based on: SMF99_SERVER_OBS </description>
+    </item>
+    
+    <item>
+      <title>Field - server_pnum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_pnum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/server_pnum/</guid>
+      <description>Period number
+Map: SMF99_SERVER_MAP Based on: SMF99_SERVER_PNUM </description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sid/</guid>
+      <description>System ID
+Record: SMF99S2 Based on: SMF99SID Description System identification (from the SID parameter).</description>
+    </item>
+    
+    <item>
+      <title>Field - slv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/slv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/slv/</guid>
+      <description>System level from which record was cut (copied from CVTPRODN)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SLV </description>
+    </item>
+    
+    <item>
+      <title>Sample - smf_99_02_sample</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</guid>
+      <description>Request for commonly used SMF 99 Subtype 2 data.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
+date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/snm/</guid>
+      <description>System name from which record was cut (copied from CVTSNAME)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SNM </description>
+    </item>
+    
+    <item>
+      <title>Field - speccp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speccp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speccp/</guid>
+      <description>Transaction service units on standard CP
+Map: SMF99_SPECRPT Based on: SMF99_SPECCP </description>
+    </item>
+    
+    <item>
+      <title>Field - specoffload</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/specoffload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/specoffload/</guid>
+      <description>Transaction service units on offload engines
+Map: SMF99_SPECRPT Based on: SMF99_SPECOFFLOAD </description>
+    </item>
+    
+    <item>
+      <title>Field - specoffloadoncp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/specoffloadoncp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/specoffloadoncp/</guid>
+      <description>Transaction service units on standard CP that were offload eligible
+Map: SMF99_SPECRPT Based on: SMF99_SPECOFFLOADONCP </description>
+    </item>
+    
+    <item>
+      <title>Field - speczcbp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbp/</guid>
+      <description>Transaction service units on zCBP
+Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBP </description>
+    </item>
+    
+    <item>
+      <title>Field - speczcbponcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbponcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbponcp/</guid>
+      <description>Transaction service units on standard CP that were zCBP eligible
+Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBPONCP </description>
+    </item>
+    
+    <item>
+      <title>Field - spmdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/spmdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/spmdp/</guid>
+      <description>Saved copy of maximum percentage of processor time demanded
+Map: SMF99_S2_PER_MAP Based on: SMF99_SPMDP </description>
+    </item>
+    
+    <item>
+      <title>Field - srv_class_idx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_idx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_idx/</guid>
+      <description>Service class index
+Map: SMF99_S2_CLS_MAP Based on: SMF99_CINDEX Description service class index</description>
+    </item>
+    
+    <item>
+      <title>Field - srv_class_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_name/</guid>
+      <description>Service class name
+Map: SMF99_S2_CLS_MAP Based on: SMF99_CNAM Description service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - srv_cp_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_cp_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_cp_service/</guid>
+      <description>Service accumulated during policy adjustment interval in unweighted CPU service units
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated during interval</description>
+    </item>
+    
+    <item>
+      <title>Sample - srv_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</guid>
+      <description>Request sampling information for service class.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
+date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+    </item>
+    
+    <item>
+      <title>Sample - srv_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</guid>
+      <description>Request service Class service consumption for CP, zIIP and zAAP.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+    </item>
+    
+    <item>
+      <title>Field - srv_zaap_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_zaap_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_zaap_service/</guid>
+      <description>zAAP service accumulated during interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PISERV Description IFA service accumulated during interval</description>
+    </item>
+    
+    <item>
+      <title>Field - srv_ziip_service</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_ziip_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_ziip_service/</guid>
+      <description>zIIP service accumulated during interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSSERV Description Accumulated SUP service</description>
+    </item>
+    
+    <item>
+      <title>Field - ssid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ssid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ssid/</guid>
+      <description>Sub System Identification
+Record: SMF99S2 Based on: SMF99SSID </description>
+    </item>
+    
+    <item>
+      <title>Field - stgcrit_implicit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/stgcrit_implicit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/stgcrit_implicit/</guid>
+      <description>period belongs to a service class that was assigned storage protection&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: flags Description period belongs to a service class that was assigned storage protection (stg critical) in the active service policy. The service class was used in subsystem type CICS or IMS and the rule specified storage critical = yes. Also on for transactionserver DISPs serving protected service classes.
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - stu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/stu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/stu/</guid>
+      <description>Subtypes utilized
+Record: SMF99S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - swct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/swct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/swct/</guid>
+      <description>Short wait count accumulator
+Map: SMF99_S2_PER_MAP Based on: SMF99_SWCT </description>
+    </item>
+    
+    <item>
+      <title>Field - thro_iosm_accum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/thro_iosm_accum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/thro_iosm_accum/</guid>
+      <description>DASD I/O induced throttle samples accumulated over SMF99_Num_S- amp_Hi&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_THRO_IOSM_ACCUM Description DASD I/O induced throttle samples accumulated over SMF99_Num_S- amp_Hist_Rows_Used</description>
+    </item>
+    
+    <item>
+      <title>Field - thro_iosm_curr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/thro_iosm_curr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/thro_iosm_curr/</guid>
+      <description>DASD I/O induced throttle samples for the current interval
+Map: SMF99_S2_PER_MAP Based on: SMF99_THRO_IOSM_CURR </description>
+    </item>
+    
+    <item>
+      <title>Field - tid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/tid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/tid/</guid>
+      <description>Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)
+Record: SMF99S2 Based on: SMF99TID </description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time/</guid>
+      <description>Time of Record
+Record: SMF99S2 Based on: SMF99TME </description>
+    </item>
+    
+    <item>
+      <title>Field - time_at_pdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time_at_pdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time_at_pdp/</guid>
+      <description>Time at PDP (promoted dispatch priority) accumulator
+Map: SMF99_S2_PER_MAP Based on: SMF99_TIME_AT_PDP </description>
+    </item>
+    
+    <item>
+      <title>Field - time_at_pdp_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time_at_pdp_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/time_at_pdp_using/</guid>
+      <description>Time at PDP (promoted dispatch priority) using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_TIME_AT_PDP_USING </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/timestamp/</guid>
+      <description>Record Time Stamp
+Record: SMF99S2 Based on: time, date Description Timestamp from SMF data.
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/tme/</guid>
+      <description>Time since midnight, in hundreths of a second, that the record was mov&amp;hellip;
+Record: SMF99S2 Based on: SMF99TME Description Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer</description>
+    </item>
+    
+    <item>
+      <title>Field - trg_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/trg_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/trg_name/</guid>
+      <description>Name of tenant resource group if SMF99_IsCappedBySoleTRG is set @WI281&amp;hellip;
+Map: SMF99_S2_PER_MAP Based on: SMF99_TRG_NAME Description Name of tenant resource group if SMF99_IsCappedBySoleTRG is set @WI281721</description>
+    </item>
+    
+    <item>
+      <title>Field - trxspecrpt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/trxspecrpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/trxspecrpt/</guid>
+      <description>Special reporting data available for the period
+Map: SMF99_S2_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - vartime_at_pdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vartime_at_pdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vartime_at_pdp/</guid>
+      <description>Time at variable DP promoted by supervisor
+Map: SMF99_S2_PER_MAP Based on: SMF99_VARTIME_AT_PDP </description>
+    </item>
+    
+    <item>
+      <title>Field - vartime_at_pdp_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vartime_at_pdp_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vartime_at_pdp_using/</guid>
+      <description>Usings at variable DP promoted by supervisor
+Map: SMF99_S2_PER_MAP Based on: SMF99_VARTIME_AT_PDP_USING </description>
+    </item>
+    
+    <item>
+      <title>Field - varweighted_time_at_pdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/varweighted_time_at_pdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/varweighted_time_at_pdp/</guid>
+      <description>Time at variable DP promoted by supervisor weighted by DP
+Map: SMF99_S2_PER_MAP Based on: SMF99_VARWEIGHTED_TIME_AT_PDP </description>
+    </item>
+    
+    <item>
+      <title>Field - velo_using_states</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/velo_using_states/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/velo_using_states/</guid>
+      <description>Total velocity using states
+Map: SMF99_S2_PER_MAP Based on: SMF99_VELO_USING_STATES </description>
+    </item>
+    
+    <item>
+      <title>Field - vn2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vn2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/vn2/</guid>
+      <description>Record Subversion Number
+Map: SMF99_PRODUCT_MAP Based on: SMF99VN2 Description Record sub version. Used to identify changes to the record in the service stream</description>
+    </item>
+    
+    <item>
+      <title>Field - xmem_jobn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/xmem_jobn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/xmem_jobn/</guid>
+      <description>jobname of space we are delayed on
+Map: SMF99_XMEM_MAP Based on: SMF99_XMEM_JOBN </description>
+    </item>
+    
+    <item>
+      <title>Field - xmem_samps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/xmem_samps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/xmem_samps/</guid>
+      <description>number of xmem samples
+Map: SMF99_XMEM_MAP Based on: SMF99_XMEM_SAMPS </description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/zaap_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/zaap_delay/</guid>
+      <description>zAAP delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIFAD Description IFA delay samples</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/zaap_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/zaap_using/</guid>
+      <description>zAAP using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PIFAU Description IFA using samples</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_delay</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ziip_delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ziip_delay/</guid>
+      <description>zIIP delay samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSUPD Description SUP delay samples</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ziip_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ziip_using/</guid>
+      <description>zIIP using samples
+Map: SMF99_S2_PER_MAP Based on: SMF99_PSUPU Description SUP using samples</description>
+    </item>
+    
+  </channel>
+</rss>

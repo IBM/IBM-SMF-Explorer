@@ -1,0 +1,3713 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 78 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/tags/SMF-78/</link>
+    <description>Recent content in SMF 78 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/tags/SMF-78/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SMF Type 78</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMF 78 Subtype  2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/</guid>
+      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF78PRO R782COMN R782PVT R782PVSP R782SQAU R782CSAU R782CSAK R782CSAF R782CSLF R782CSAL R782SQAF R782SQLF R782SQAL R782SQEX R782227K R782228K R782231K R782241K R782226 R782239 R782245 R782LSFP R782LSFB R782LSAL R782LSPA R782USFP R782USFB R782USAL R782USPA R782TOBY R782SHBY R782COBY R782TOMO R782SHMO R782COMO R782LGMO R782TOFR R782FIFR R782PAFR R782LSMO R782GFMO R782GFFR VSDAT Virtual fields Name Based on Description timestamp date
+time Record Timestamp boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format date SMF78DTE Date of Record date time SMF78TME Time of Record time timestamp virtual date</description>
+    </item>
+    
+    <item>
+      <title>SMF 78 Subtype  3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/</guid>
+      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF78PRO R783GD R783CS R783DS R783HPAV R783IQD R783CPD Virtual fields Name Based on Description timestamp date
+time Record Timestamp boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format date SMF78DTE Date of Record date time SMF78TME Time of Record time timestamp virtual date
+time Record Timestamp len SMF78LEN SMF RECORD LENGTH.</description>
+    </item>
+    
+    <item>
+      <title>Field - alias_management_aval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/alias_management_aval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/alias_management_aval/</guid>
+      <description>X&#39;80&amp;rsquo; Alias Management Groups available
+Map: R783GD Based on: r783gflx Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783gflx.</description>
+    </item>
+    
+    <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - asl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/asl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/asl/</guid>
+      <description>LENGTH OF DATA SECTION
+Record: SMF78S2 Based on: SMF78ASL </description>
+    </item>
+    
+    <item>
+      <title>Field - asl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/asl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/asl/</guid>
+      <description>LENGTH OF DATA SECTION
+Record: SMF78S3 Based on: SMF78ASL </description>
+    </item>
+    
+    <item>
+      <title>Field - asn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/asn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/asn/</guid>
+      <description>NUMBER OF DATA SECTIONS
+Record: SMF78S2 Based on: SMF78ASN </description>
+    </item>
+    
+    <item>
+      <title>Field - asn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/asn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/asn/</guid>
+      <description>NUMBER OF DATA SECTIONS
+Record: SMF78S3 Based on: SMF78ASN </description>
+    </item>
+    
+    <item>
+      <title>Field - ass</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ass/</guid>
+      <description>Offset to data section R781DS (subtype 1) R782PVT (subtype 2) R783DS (subtype 3)
+Record: SMF78S2 Based on: SMF78ASS </description>
+    </item>
+    
+    <item>
+      <title>Field - ass</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ass/</guid>
+      <description>Offset to data section R781DS (subtype 1) R782PVT (subtype 2) R783DS (subtype 3)
+Record: SMF78S3 Based on: SMF78ASS </description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/boost_class/</guid>
+      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
+Map: SMF78PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/boost_class/</guid>
+      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
+Map: SMF78PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_data_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_data_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_data_invalid/</guid>
+      <description>X&#39;04&amp;rsquo; Measured channel path data invalid
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_dcm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_dcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_dcm/</guid>
+      <description>X&#39;02&amp;rsquo; Channel path is DCM managed
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_installed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_installed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_installed/</guid>
+      <description>X&#39;80&amp;rsquo; Channel path installed
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_offline</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_offline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_offline/</guid>
+      <description>X&#39;10&amp;rsquo; This channel path is offline to all devices to the LCU
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_online</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_online/</guid>
+      <description>X&#39;40&amp;rsquo; Channel path online
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_varied</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_varied/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ch_path_varied/</guid>
+      <description>X&#39;20&amp;rsquo; Channel path varied
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - chpid_manipulated</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/chpid_manipulated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/chpid_manipulated/</guid>
+      <description>X&#39;01&amp;rsquo; CHPID manipulated, requiring data reset
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - command_response_time_supported</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/command_response_time_supported/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/command_response_time_supported/</guid>
+      <description>Initial-command-response- time measurements supported
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - config_change_attempt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_change_attempt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_change_attempt/</guid>
+      <description>X&#39;10&amp;rsquo; Conf.
+Map: R783DS Based on: r783dst Description Chg. Attempt
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - config_changed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_changed/</guid>
+      <description>Configuration changed last interval
+Map: R783GD Based on: r783cfl Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - config_changed_last_ipl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_changed_last_ipl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/config_changed_last_ipl/</guid>
+      <description>Configuration Changed since last IPL
+Map: R783GD Based on: r783cfl Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - connect_time_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/connect_time_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/connect_time_invalid/</guid>
+      <description>X&#39;40&amp;rsquo; connect time of at least one device invalid
+Map: R783DS Based on: r783dstx Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/cyc/</guid>
+      <description>Sampling cycle length 000TTTTF
+Map: SMF78PRO Based on: SMF78CYC </description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/cyc/</guid>
+      <description>Sampling cycle length 000TTTTF
+Map: SMF78PRO Based on: SMF78CYC </description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dat/</guid>
+      <description>Date monitor interval start: 00YYDDDF
+Map: SMF78PRO Based on: SMF78DAT </description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat/</guid>
+      <description>Date monitor interval start: 00YYDDDF
+Map: SMF78PRO Based on: SMF78DAT </description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - data_invalid_ch_failure</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/data_invalid_ch_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/data_invalid_ch_failure/</guid>
+      <description>X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/date/</guid>
+      <description>Date of Record
+Record: SMF78S2 Based on: SMF78DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/date/</guid>
+      <description>Date of Record
+Record: SMF78S3 Based on: SMF78DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcl/</guid>
+      <description>LENGTH OF SECTION
+Record: SMF78S2 Based on: SMF78DCL </description>
+    </item>
+    
+    <item>
+      <title>Field - dcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcl/</guid>
+      <description>LENGTH OF SECTION
+Record: SMF78S3 Based on: SMF78DCL </description>
+    </item>
+    
+    <item>
+      <title>Field - dcm_hw_supported</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcm_hw_supported/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcm_hw_supported/</guid>
+      <description>X&#39;10&amp;rsquo; DCM supported by hardware
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - dcm_managed_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcm_managed_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcm_managed_ch/</guid>
+      <description>X&#39;08&amp;rsquo; Configuration contains DCM managed channels
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - dcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcn/</guid>
+      <description>NUMBER OF SECTIONS
+Record: SMF78S2 Based on: SMF78DCN </description>
+    </item>
+    
+    <item>
+      <title>Field - dcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcn/</guid>
+      <description>NUMBER OF SECTIONS
+Record: SMF78S3 Based on: SMF78DCN </description>
+    </item>
+    
+    <item>
+      <title>Field - dcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dcs/</guid>
+      <description>Offset to configuration section R781CS (subtype 1), data section R782COMN (subtype 2) or configuration section R783CS (subtype 3)
+Record: SMF78S2 Based on: SMF78DCS </description>
+    </item>
+    
+    <item>
+      <title>Field - dcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dcs/</guid>
+      <description>Offset to configuration section R781CS (subtype 1), data section R782COMN (subtype 2) or configuration section R783CS (subtype 3)
+Record: SMF78S3 Based on: SMF78DCS </description>
+    </item>
+    
+    <item>
+      <title>Field - diagnose_failed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/diagnose_failed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/diagnose_failed/</guid>
+      <description>X&#39;40&amp;rsquo; DIAGNOSE interface failed
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - disconnect_time_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/disconnect_time_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/disconnect_time_invalid/</guid>
+      <description>X&#39;20&amp;rsquo; disconnect time of at least one device invalid
+Map: R783DS Based on: r783dstx Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF78S2 Based on: SMF78DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF78S3 Based on: SMF78DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dynamically_added</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dynamically_added/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dynamically_added/</guid>
+      <description>X&#39;20&amp;rsquo; Dynamically added
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - dynamically_changed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dynamically_changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/dynamically_changed/</guid>
+      <description>X&#39;40&amp;rsquo; Dynamically changed
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - eadm_compression_aval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/eadm_compression_aval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/eadm_compression_aval/</guid>
+      <description>X&#39;40&amp;rsquo; EADM-compression facility available
+Map: R783GD Based on: r783gflx Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783gflx.</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - entries_iop_queue</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/entries_iop_queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/entries_iop_queue/</guid>
+      <description>Sum of number of entries placed on the IOP initiative queue
+Map: R783IQD Based on: R783IQSM </description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - extended_io_mesurment1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/extended_io_mesurment1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/extended_io_mesurment1/</guid>
+      <description>1= extended I/O- measurement-block format-1 data available
+Map: R783CPD Based on: r783cpxf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cpxf.</description>
+    </item>
+    
+    <item>
+      <title>Field - extended_io_mesurment2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/extended_io_mesurment2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/extended_io_mesurment2/</guid>
+      <description>1= extended I/O- measurement-block format-2 data available
+Map: R783CPD Based on: r783cpxf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cpxf.</description>
+    </item>
+    
+    <item>
+      <title>Field - first_transfer_ready_disabled</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/first_transfer_ready_disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/first_transfer_ready_disabled/</guid>
+      <description>1= First-transfer-ready- disabled supported
+Map: R783CPD Based on: r783cpxf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cpxf.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/fla/</guid>
+      <description>Flags
+Map: SMF78PRO Based on: SMF78FLA Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. rch 5 SMF record converted to higher release or service level.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/fla/</guid>
+      <description>Flags
+Map: SMF78PRO Based on: SMF78FLA Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control lower_service_level 4 SMF record converted to lower service level. higher_service_level 5 SMF record converted to higher release or service level.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF78S2 Based on: SMF78FLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF78S3 Based on: SMF78FLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time (STCK format)
+Map: SMF78PRO Based on: SMF78GIE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time (STCK format)
+Map: SMF78PRO Based on: SMF78GIE </description>
+    </item>
+    
+    <item>
+      <title>Field - higher_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/higher_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/higher_service_level/</guid>
+      <description>SMF record converted to higher release or service level.
+Map: SMF78PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - hpl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hpl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hpl/</guid>
+      <description>Length of HyperPAV/ SuperPAV Data Section
+Record: SMF78S3 Based on: SMF78HPL </description>
+    </item>
+    
+    <item>
+      <title>Field - hpn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hpn/</guid>
+      <description>Number of HyperPAV/ SuperPAV Data Sections
+Record: SMF78S3 Based on: SMF78HPN </description>
+    </item>
+    
+    <item>
+      <title>Field - hps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/hps/</guid>
+      <description>Offset to HyperPAV/ SuperPAV Data Sections
+Record: SMF78S3 Based on: SMF78HPS </description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF78PRO Based on: SMF78IET </description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF78PRO Based on: SMF78IET </description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken.
+Map: SMF78PRO Based on: SMF78IML Description X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken.
+Map: SMF78PRO Based on: SMF78IML Description X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/int/</guid>
+      <description>Duration of monitor interval: MMSSTTTF
+Map: SMF78PRO Based on: SMF78INT </description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/int/</guid>
+      <description>Duration of monitor interval: MMSSTTTF
+Map: SMF78PRO Based on: SMF78INT </description>
+    </item>
+    
+    <item>
+      <title>Field - interval_smf_control</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/interval_smf_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/interval_smf_control/</guid>
+      <description>Interval was under SMF control
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/invalid_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - io_config_token_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/io_config_token_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/io_config_token_valid/</guid>
+      <description>I/O Configuration Token is valid
+Map: R783GD Based on: r783cfl Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - iop_installed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iop_installed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iop_installed/</guid>
+      <description>= 1, if IOP is installed
+Map: R783IQD Based on: r783iflg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783iflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - iop_util_data_supported</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iop_util_data_supported/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/iop_util_data_supported/</guid>
+      <description>X&#39;04&amp;rsquo; IOP utilization data supported
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - ipl_iodf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ipl_iodf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ipl_iodf/</guid>
+      <description>System IPLed via IODF
+Map: R783GD Based on: r783cfl Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ist/</guid>
+      <description>TOD monitor interval start: 0HHMMSSF
+Map: SMF78PRO Based on: SMF78IST </description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ist/</guid>
+      <description>TOD monitor interval start: 0HHMMSSF
+Map: SMF78PRO Based on: SMF78IST </description>
+    </item>
+    
+    <item>
+      <title>Field - lcu_has_dcm_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_dcm_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_dcm_ch/</guid>
+      <description>X&#39;08&amp;rsquo; LCU contains DCM managed channels
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - lcu_has_ficom</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_ficom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_ficom/</guid>
+      <description>X&#39;80&amp;rsquo; LCU contains at least one FICON channel
+Map: R783DS Based on: r783dstx Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - lcu_has_hyperpav</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_hyperpav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_hyperpav/</guid>
+      <description>X&#39;02&amp;rsquo; LCU has HyperPAV devices
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - lcu_has_superpav</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_superpav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lcu_has_superpav/</guid>
+      <description>X&#39;01&amp;rsquo; LCU has SuperPAV devices
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/len/</guid>
+      <description>SMF RECORD LENGTH.
+Record: SMF78S2 Based on: SMF78LEN Description ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/len/</guid>
+      <description>SMF RECORD LENGTH.
+Record: SMF78S3 Based on: SMF78LEN Description ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF78PRO Based on: SMF78LGO </description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF78PRO Based on: SMF78LGO </description>
+    </item>
+    
+    <item>
+      <title>Field - lower_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lower_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/lower_service_level/</guid>
+      <description>SMF record converted to lower service level.
+Map: SMF78PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/mfv/</guid>
+      <description>RMF version number in packed decimal format: nnnF
+Map: SMF78PRO Based on: SMF78MFV </description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/mfv/</guid>
+      <description>RMF version number in packed decimal format: nnnF
+Map: SMF78PRO Based on: SMF78MFV </description>
+    </item>
+    
+    <item>
+      <title>Field - multi_ch_subsys_allowed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/multi_ch_subsys_allowed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/multi_ch_subsys_allowed/</guid>
+      <description>Hardware allows multiple channel subsystems
+Map: R783GD Based on: r783cfl Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF78PRO Based on: SMF78MVS </description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF78PRO Based on: SMF78MVS </description>
+    </item>
+    
+    <item>
+      <title>Field - no_hw_measurement</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/no_hw_measurement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/no_hw_measurement/</guid>
+      <description>X&#39;80&amp;rsquo; No hardware measurements
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF78PRO Based on: SMF78OIL </description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF78PRO Based on: SMF78OIL </description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - path_attr_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/path_attr_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/path_attr_valid/</guid>
+      <description>X&#39;04&amp;rsquo; Path attributes are valid
+Map: R783DS Based on: r783dst Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - path_attributes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/path_attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/path_attributes/</guid>
+      <description>Path attributes: 0 = No attributes specified, 1 = Preferred path, 2 = Non-preferred path
+Map: R783CPD Based on: R783CPAT Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
+Source value IBM SMF Explorer meaning 0 no_attributes 1 preferred_path 2 no_preferred_path </description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prd/</guid>
+      <description>Product name
+Map: SMF78PRO Based on: SMF78PRD </description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prd/</guid>
+      <description>Product name
+Map: SMF78PRO Based on: SMF78PRD </description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF78PRO Based on: SMF78PRF Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF78PRO Based on: SMF78PRF Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zapp_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF78S2 Based on: SMF78PRL </description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF78S3 Based on: SMF78PRL </description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF78S2 Based on: SMF78PRN </description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF78S3 Based on: SMF78PRN </description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF78S2 Based on: SMF78PRS </description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF78S3 Based on: SMF78PRS </description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF78PRO Based on: SMF78PTN </description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF78PRO Based on: SMF78PTN </description>
+    </item>
+    
+    <item>
+      <title>Field - qdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qdl/</guid>
+      <description>Length of IOQ global section
+Record: SMF78S2 Based on: SMF78QDL </description>
+    </item>
+    
+    <item>
+      <title>Field - qdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qdl/</guid>
+      <description>Length of IOQ global section
+Record: SMF78S3 Based on: SMF78QDL </description>
+    </item>
+    
+    <item>
+      <title>Field - qdn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qdn/</guid>
+      <description>Number of IOQ global section
+Record: SMF78S2 Based on: SMF78QDN </description>
+    </item>
+    
+    <item>
+      <title>Field - qdn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qdn/</guid>
+      <description>Number of IOQ global section
+Record: SMF78S3 Based on: SMF78QDN </description>
+    </item>
+    
+    <item>
+      <title>Field - qds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qds/</guid>
+      <description>Offset to IOQ global section
+Record: SMF78S2 Based on: SMF78QDS </description>
+    </item>
+    
+    <item>
+      <title>Field - qds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/qds/</guid>
+      <description>Offset to IOQ global section
+Record: SMF78S3 Based on: SMF78QDS </description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782actv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782actv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782actv/</guid>
+      <description>1: JOB ACTIVE AT START OF INTERVAL
+Map: R782PVT Based on: r782flgs Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r782flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782ca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ca/</guid>
+      <description>CSA ADDRESS
+Map: R782COMN Based on: R782CA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782cs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782cs/</guid>
+      <description>CSA SIZE
+Map: R782COMN Based on: R782CS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782eca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eca/</guid>
+      <description>EXTENDED CSA ADDRESS
+Map: R782COMN Based on: R782ECA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ecs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ecs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ecs/</guid>
+      <description>EXTENDED CSA SIZE
+Map: R782COMN Based on: R782ECS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782efla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782efla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782efla/</guid>
+      <description>EFLPA ADDRESS
+Map: R782COMN Based on: R782EFLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782efls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782efls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782efls/</guid>
+      <description>EFLPA SIZE
+Map: R782COMN Based on: R782EFLS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782elpa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elpa/</guid>
+      <description>EXTENDED PLPA ADDRESS
+Map: R782COMN Based on: R782ELPA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782elpi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elpi/</guid>
+      <description>INTERMODULE SPACE IN ELPA
+Map: R782COMN Based on: R782ELPI </description>
+    </item>
+    
+    <item>
+      <title>Field - r782elps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782elps/</guid>
+      <description>EXTENDED PLPA ASIZE
+Map: R782COMN Based on: R782ELPS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782emla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emla/</guid>
+      <description>EXTENDED MLPA ADDRESS
+Map: R782COMN Based on: R782EMLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782emls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emls/</guid>
+      <description>EXTENDED MLPA SIZE
+Map: R782COMN Based on: R782EMLS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782emr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782emr/</guid>
+      <description>MAXIMUM USER REGION ABOVE 16M
+Map: R782COMN Based on: R782EMR </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ena</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ena/</guid>
+      <description>EXTENDED NUCLEUS ADDRESS
+Map: R782COMN Based on: R782ENA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782enl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782enl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782enl/</guid>
+      <description>NON-ACCESSIBLE EPLPA SIZE
+Map: R782COMN Based on: R782ENL </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ens</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ens/</guid>
+      <description>EXTENDED NUCLEUS SIZE
+Map: R782COMN Based on: R782ENS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782epa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782epa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782epa/</guid>
+      <description>EXTENDED PRIVATE AREA ADDRESS
+Map: R782COMN Based on: R782EPA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782eps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eps/</guid>
+      <description>EXTENDED PRIVATE AREA SIZE
+Map: R782COMN Based on: R782EPS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782eruca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eruca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782eruca/</guid>
+      <description>EXTENDED RUCSA ADDRESS
+Map: R782COMN Based on: R782ERUCA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782erucs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782erucs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782erucs/</guid>
+      <description>EXTENDED RUCSA SIZE
+Map: R782COMN Based on: R782ERUCS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782esa/</guid>
+      <description>EXTENDED SQA ADDRESS
+Map: R782COMN Based on: R782ESA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ess</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ess/</guid>
+      <description>EXTENDED SQA SIZE
+Map: R782COMN Based on: R782ESS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782fla/</guid>
+      <description>FLPA ADDRESS
+Map: R782COMN Based on: R782FLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782flg/</guid>
+      <description>FLAGS
+Map: R782COMN Based on: R782FLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r782rucd 0 =1 Restricted Use CSA (RUCSA) is defined </description>
+    </item>
+    
+    <item>
+      <title>Field - r782flgs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782flgs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782flgs/</guid>
+      <description>Flags
+Map: R782PVT Based on: R782FLGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r782actv 0 1: JOB ACTIVE AT START OF INTERVAL r782term 1 1: JOB TERMINATED DURING INTERVAL r782glch 2 1: GETMAIN LIMIT CHANGED DURING INTERVAL r782invl 3 1: DATA INVALID DUE TO RMF ABEND WHILE SAMPLING r782shra 4 1: SHARED VALUES ABOVE 2G AVAILABLE (z/OS V1R5 or above) </description>
+    </item>
+    
+    <item>
+      <title>Field - r782fls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782fls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782fls/</guid>
+      <description>FLPA SIZE
+Map: R782COMN Based on: R782FLS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782glch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782glch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782glch/</guid>
+      <description>1: GETMAIN LIMIT CHANGED DURING INTERVAL
+Map: R782PVT Based on: r782flgs Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r782flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782gmla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782gmla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782gmla/</guid>
+      <description>GETMAIN LIMIT ABOVE 16M (BYTES)
+Map: R782PVT Based on: R782GMLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782gmlb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782gmlb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782gmlb/</guid>
+      <description>GETMAIN LIMIT BELOW 16M (BYTES)
+Map: R782PVT Based on: R782GMLB </description>
+    </item>
+    
+    <item>
+      <title>Field - r782invl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782invl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782invl/</guid>
+      <description>1: DATA INVALID DUE TO RMF ABEND WHILE SAMPLING
+Map: R782PVT Based on: r782flgs Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r782flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782jobn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782jobn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782jobn/</guid>
+      <description>NAME OF JOB BEING MONITORED
+Map: R782PVT Based on: R782JOBN </description>
+    </item>
+    
+    <item>
+      <title>Field - r782lpai</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782lpai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782lpai/</guid>
+      <description>INTERMODULE SPACE IN LPA
+Map: R782COMN Based on: R782LPAI </description>
+    </item>
+    
+    <item>
+      <title>Field - r782meml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782meml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782meml/</guid>
+      <description>Address space memory limit (in MB)
+Map: R782PVT Based on: R782MEML </description>
+    </item>
+    
+    <item>
+      <title>Field - r782mla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mla/</guid>
+      <description>MLPA ADDRESS
+Map: R782COMN Based on: R782MLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782mls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mls/</guid>
+      <description>MLPA SIZE
+Map: R782COMN Based on: R782MLS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782mr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782mr/</guid>
+      <description>MAXIMUM USER REGION BELOW 16M
+Map: R782COMN Based on: R782MR </description>
+    </item>
+    
+    <item>
+      <title>Field - r782na</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782na/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782na/</guid>
+      <description>NUCLEUS ADDRESS
+Map: R782COMN Based on: R782NA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782nl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782nl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782nl/</guid>
+      <description>NON-ACCESSIBLE PLPA SIZE
+Map: R782COMN Based on: R782NL </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ns</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ns/</guid>
+      <description>NUCLEUS SIZE
+Map: R782COMN Based on: R782NS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782pa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pa/</guid>
+      <description>PRIVATE AREA ADDRESS
+Map: R782COMN Based on: R782PA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782pgmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pgmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pgmn/</guid>
+      <description>PROGRAM NAME OF JOB BEING MONITORED
+Map: R782PVT Based on: R782PGMN </description>
+    </item>
+    
+    <item>
+      <title>Field - r782pla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pla/</guid>
+      <description>PLPA ADDRESS
+Map: R782COMN Based on: R782PLA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782pls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782pls/</guid>
+      <description>PLPA SIZE
+Map: R782COMN Based on: R782PLS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ps/</guid>
+      <description>PRIVATE AREA SIZE
+Map: R782COMN Based on: R782PS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782rddt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rddt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rddt/</guid>
+      <description>READER START DATE
+Map: R782PVT Based on: R782RDDT </description>
+    </item>
+    
+    <item>
+      <title>Field - r782rdtm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rdtm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rdtm/</guid>
+      <description>READER START TIME
+Map: R782PVT Based on: R782RDTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r782regr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782regr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782regr/</guid>
+      <description>REGION REQUESTED BY JCL (BYTES)
+Map: R782PVT Based on: R782REGR </description>
+    </item>
+    
+    <item>
+      <title>Field - r782rgaa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rgaa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rgaa/</guid>
+      <description>ABOVE 16M REGION ASSIGNED BY EXITS (BYTES)
+Map: R782PVT Based on: R782RGAA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782rgab</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rgab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rgab/</guid>
+      <description>BELOW 16M REGION ASSIGNED BY EXITS (BYTES)
+Map: R782PVT Based on: R782RGAB </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ruca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ruca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ruca/</guid>
+      <description>RUCSA ADDRESS
+Map: R782COMN Based on: R782RUCA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782rucd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rucd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rucd/</guid>
+      <description>=1 Restricted Use CSA (RUCSA) is defined
+Map: R782COMN Based on: r782flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r782flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782rucs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rucs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782rucs/</guid>
+      <description>RUCSA SIZE
+Map: R782COMN Based on: R782RUCS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782sa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782sa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782sa/</guid>
+      <description>SQA ADDRESS
+Map: R782COMN Based on: R782SA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782samp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782samp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782samp/</guid>
+      <description>NUMBER OF SAMPLES
+Map: R782PVT Based on: R782SAMP </description>
+    </item>
+    
+    <item>
+      <title>Field - r782shra</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782shra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782shra/</guid>
+      <description>1: SHARED VALUES ABOVE 2G AVAILABLE (z/OS V1R5 or above)
+Map: R782PVT Based on: r782flgs Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r782flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782spn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782spn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782spn/</guid>
+      <description>SUBPOOL NUMBER
+Map: R782PVSP Based on: R782SPN </description>
+    </item>
+    
+    <item>
+      <title>Field - r782ss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782ss/</guid>
+      <description>SQA SIZE
+Map: R782COMN Based on: R782SS </description>
+    </item>
+    
+    <item>
+      <title>Field - r782step</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782step/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782step/</guid>
+      <description>NAME OF STEP ACTIVE WHEN MONITORING BEGAN
+Map: R782PVT Based on: R782STEP </description>
+    </item>
+    
+    <item>
+      <title>Field - r782subi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782subi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782subi/</guid>
+      <description>INDEX OF FIRST SUBPOOL ENTRY (R782PVSP) FOR THIS JOB
+Map: R782PVT Based on: R782SUBI </description>
+    </item>
+    
+    <item>
+      <title>Field - r782subn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782subn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782subn/</guid>
+      <description>INDEX OF LAST SUBPOOL ENTRY FOR THIS JOB
+Map: R782PVT Based on: R782SUBN </description>
+    </item>
+    
+    <item>
+      <title>Field - r782term</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782term/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782term/</guid>
+      <description>1: JOB TERMINATED DURING INTERVAL
+Map: R782PVT Based on: r782flgs Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r782flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - r782uraa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782uraa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782uraa/</guid>
+      <description>USER REGION ADDRESS (above 16M)
+Map: R782PVT Based on: R782URAA </description>
+    </item>
+    
+    <item>
+      <title>Field - r782urab</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782urab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/r782urab/</guid>
+      <description>USER REGION ADDRESS (below 16M)
+Map: R782PVT Based on: R782URAB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783amgc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783amgc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783amgc/</guid>
+      <description>The Alias Management Group number defined on the physical controller for this LCU.
+Map: R783CS Based on: R783AMGC Description This number is valid, if the LCU is assigned to a DASD subsystem that supports Alias Management Groups and bit 7 of R783DST is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r783amgs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783amgs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783amgs/</guid>
+      <description>The Alias Management Group number assigned by z/OS for this LCU on this system.
+Map: R783CS Based on: R783AMGS Description This number is valid, if the LCU is assigned to a DASD subsystem that supports Alias Management Groups and bit 7 of R783DST is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cbt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cbt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cbt/</guid>
+      <description>Control Unit busy delay time in units of 128 microseconds valid if R783CPXM=1
+Map: R783CPD Based on: R783CBT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cbtm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cbtm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cbtm/</guid>
+      <description>Accumulated Control unit Busy delay Time for DCM Managed channels valid if R783CPXM=1
+Map: R783DS Based on: R783CBTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cfl/</guid>
+      <description>Configuration Change Flags
+Map: R783GD Based on: R783CFL Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description config_changed 0 Configuration changed last interval config_changed_last_ipl 1 Configuration Changed since last IPL ipl_iodf 2 System IPLed via IODF io_config_token_valid 3 I/O Configuration Token is valid multi_ch_subsys_allowed 4 Hardware allows multiple channel subsystems </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cmr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cmr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cmr/</guid>
+      <description>Initial Command Response time in units of 128 microseconds valid if R783CPXM=1 and R783GCMR=1
+Map: R783CPD Based on: R783CMR </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cmrm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cmrm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cmrm/</guid>
+      <description>Accumulated initial Command Response time for DCM Managed channels valid if R783CPXM=1 and R783GCMR=1
+Map: R783DS Based on: R783CMRM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpdl/</guid>
+      <description>Length of configuration data section
+Map: R783CS Based on: R783CPDL </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpdn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpdn/</guid>
+      <description>Number of configuration data sections
+Map: R783CS Based on: R783CPDN </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpds/</guid>
+      <description>Offset to configuration data section
+Map: R783CS Based on: R783CPDS </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpid/</guid>
+      <description>Channel path identifier
+Map: R783CPD Based on: R783CPID </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpst/</guid>
+      <description>Channel path status
+Map: R783CPD Based on: R783CPST Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description ch_path_installed 0 X&#39;80&amp;rsquo; Channel path installed ch_path_online 1 X&#39;40&amp;rsquo; Channel path online ch_path_varied 2 X&#39;20&amp;rsquo; Channel path varied ch_path_offline 3 X&#39;10&amp;rsquo; This channel path is offline to all devices to the LCU vary_path_action 4 X&#39;08&amp;rsquo; The connectivity of this channel path to devices of this LCU has manipulated via VARY PATH during this measurement interval ch_path_data_invalid 5 X&#39;04&amp;rsquo; Measured channel path data invalid ch_path_dcm 6 X&#39;02&amp;rsquo; Channel path is DCM managed chpid_manipulated 7 X&#39;01&amp;rsquo; CHPID manipulated, requiring data reset </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpxf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpxf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cpxf/</guid>
+      <description>Channel Path extended flags
+Map: R783CPD Based on: R783CPXF Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description extended_io_mesurment1 0 1= extended I/O- measurement-block format-1 data available extended_io_mesurment2 1 1= extended I/O- measurement-block format-2 data available first_transfer_ready_disabled 2 1= First-transfer-ready- disabled supported </description>
+    </item>
+    
+    <item>
+      <title>Field - r783css</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783css/</guid>
+      <description>Channel SubSystem Id, only valid if R783MCS = ON
+Map: R783GD Based on: R783CSS </description>
+    </item>
+    
+    <item>
+      <title>Field - r783csst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783csst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783csst/</guid>
+      <description>Channel Subsystem Wait Time in units of 128 microseconds valid if R783CPXM=1
+Map: R783DS Based on: R783CSST </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ctmw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ctmw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ctmw/</guid>
+      <description>Transport mode write count valid if R783CPTD=1
+Map: R783CPD Based on: R783CTMW </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ctrd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ctrd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ctrd/</guid>
+      <description>First-transfer-ready- disabled write count valid if R783CPTD=1
+Map: R783CPD Based on: R783CTRD </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cu1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu1/</guid>
+      <description>1st ctrl unit identifier
+Map: R783CPD Based on: R783CU1 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cu2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu2/</guid>
+      <description>2nd ctrl unit identifier
+Map: R783CPD Based on: R783CU2 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cu3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu3/</guid>
+      <description>3rd ctrl unit identifier
+Map: R783CPD Based on: R783CU3 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cu4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cu4/</guid>
+      <description>4th ctrl unit identifier
+Map: R783CPD Based on: R783CU4 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cub/</guid>
+      <description>Count of control unit busy
+Map: R783CPD Based on: R783CUB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cubm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cubm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cubm/</guid>
+      <description>Accumulated control unit busy count for DCM managed channels
+Map: R783DS Based on: R783CUBM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cun</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783cun/</guid>
+      <description>Number of control units attached
+Map: R783CPD Based on: R783CUN </description>
+    </item>
+    
+    <item>
+      <title>Field - r783dctm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dctm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dctm/</guid>
+      <description>Accumulated device connect time for this LCU in units of 128 microseconds
+Map: R783DS Based on: R783DCTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ddtm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ddtm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ddtm/</guid>
+      <description>Accumulated device disconnect time for this LCU in units of 128 microseconds
+Map: R783DS Based on: R783DDTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783dpb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dpb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dpb/</guid>
+      <description>ESCON Director port busy count
+Map: R783CPD Based on: R783DPB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783dpbm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dpbm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dpbm/</guid>
+      <description>Accumulated director port busy count for DCM managed channels
+Map: R783DS Based on: R783DPBM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783dst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dst/</guid>
+      <description>Data status
+Map: R783DS Based on: R783DST Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description no_hw_measurement 0 X&#39;80&amp;rsquo; No hardware measurements dynamically_changed 1 X&#39;40&amp;rsquo; Dynamically changed dynamically_added 2 X&#39;20&amp;rsquo; Dynamically added config_change_attempt 3 X&#39;10&amp;rsquo; Conf. lcu_has_dcm_ch 4 X&#39;08&amp;rsquo; LCU contains DCM managed channels path_attr_valid 5 X&#39;04&amp;rsquo; Path attributes are valid lcu_has_hyperpav 6 X&#39;02&amp;rsquo; LCU has HyperPAV devices lcu_has_superpav 7 X&#39;01&amp;rsquo; LCU has SuperPAV devices </description>
+    </item>
+    
+    <item>
+      <title>Field - r783dstx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dstx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783dstx/</guid>
+      <description>Data status extension
+Map: R783DS Based on: R783DSTX Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description lcu_has_ficom 0 X&#39;80&amp;rsquo; LCU contains at least one FICON channel connect_time_invalid 1 X&#39;40&amp;rsquo; connect time of at least one device invalid disconnect_time_invalid 2 X&#39;20&amp;rsquo; disconnect time of at least one device invalid </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gflg/</guid>
+      <description>IOQ global flag
+Map: R783GD Based on: R783GFLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description data_invalid_ch_failure 0 X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility diagnose_failed 1 X&#39;40&amp;rsquo; DIAGNOSE interface failed store_primary_not_supported 2 X&#39;20&amp;rsquo; Store Primary Queue Data not supported dcm_hw_supported 3 X&#39;10&amp;rsquo; DCM supported by hardware dcm_managed_ch 4 X&#39;08&amp;rsquo; Configuration contains DCM managed channels iop_util_data_supported 5 X&#39;04&amp;rsquo; IOP utilization data supported command_response_time_supported 6 Initial-command-response- time measurements supported transfer_ready_disabled_aval 7 First-transfer-ready- disabled write data available </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gflx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gflx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gflx/</guid>
+      <description>IOQ global flags extended
+Map: R783GD Based on: R783GFLX Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description alias_management_aval 0 X&#39;80&amp;rsquo; Alias Management Groups available eadm_compression_aval 1 X&#39;40&amp;rsquo; EADM-compression facility available scm_aval 2 X&#39;20&amp;rsquo; SCM facility available </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gidl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gidl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gidl/</guid>
+      <description>Length of IOP initiative queue data section
+Map: R783GD Based on: R783GIDL </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gidn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gidn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gidn/</guid>
+      <description>Number of IOP initiative queue data sections
+Map: R783GD Based on: R783GIDN </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gids</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gids/</guid>
+      <description>Offset to IOP initiative queue data section
+Map: R783GD Based on: R783GIDS </description>
+    </item>
+    
+    <item>
+      <title>Field - r783gntr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gntr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783gntr/</guid>
+      <description>Number of triplets
+Map: R783GD Based on: R783GNTR </description>
+    </item>
+    
+    <item>
+      <title>Field - r783haiu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783haiu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783haiu/</guid>
+      <description>The high water mark of the number of in-use HyperPAV-alias devices for the LSS (does not include borrowed alias devices)
+Map: R783HPAV Based on: R783HAIU </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hcad</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcad/</guid>
+      <description>The high water mark of the number of aliases concurrently in-use by one of the HyperPAV-base devices of the LSS (does include loaned alias devices)
+Map: R783HPAV Based on: R783HCAD </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hcnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcnt/</guid>
+      <description>Number of HyperPAV sections for that LCU
+Map: R783DS Based on: R783HCNT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hcu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hcu/</guid>
+      <description>HyperPAV control unit identifier
+Map: R783HPAV Based on: R783HCU </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hioq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hioq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hioq/</guid>
+      <description>The high water mark of I/Os queued
+Map: R783HPAV Based on: R783HIOQ </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hix</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hix/</guid>
+      <description>Index to first HyperPAV section of that LCU
+Map: R783DS Based on: R783HIX </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hlcu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hlcu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hlcu/</guid>
+      <description>HyperPAV Logical control unit identifier
+Map: R783HPAV Based on: R783HLCU </description>
+    </item>
+    
+    <item>
+      <title>Field - r783hnai</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hnai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783hnai/</guid>
+      <description>The number of times an I/O could not start for an LSS because no HyperPAV-aliases were available and the device was not waiting for a reserve to be released from another system or long busy to subside (short floating point)
+Map: R783HPAV Based on: R783HNAI </description>
+    </item>
+    
+    <item>
+      <title>Field - r783htio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783htio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783htio/</guid>
+      <description>The total number of HyperPAV I/O requests for the LSS (short floating point)
+Map: R783HPAV Based on: R783HTIO </description>
+    </item>
+    
+    <item>
+      <title>Field - r783icpb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783icpb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783icpb/</guid>
+      <description>Number of times an I/O was retried due to channel path busy, (long floating point)
+Map: R783IQD Based on: R783ICPB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783icub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783icub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783icub/</guid>
+      <description>Number of times an I/O was retried due to control unit busy, (long floating point)
+Map: R783IQD Based on: R783ICUB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783id1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783id1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783id1/</guid>
+      <description>logical control unit identifier
+Map: R783CS Based on: R783ID1 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783id2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783id2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783id2/</guid>
+      <description>Logical control unit identifier
+Map: R783DS Based on: R783ID2 </description>
+    </item>
+    
+    <item>
+      <title>Field - r783idpb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783idpb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783idpb/</guid>
+      <description>Number of times an I/O was retried due to director port busy, (long floating point)
+Map: R783IQD Based on: R783IDPB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783idvb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783idvb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783idvb/</guid>
+      <description>Number of times an I/O was retried due to device busy, (long floating point)
+Map: R783IQD Based on: R783IDVB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iecb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iecb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iecb/</guid>
+      <description>Number of times the I/O processor was busy with compression or decompression (long floating point)
+Map: R783IQD Based on: R783IECB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iflg/</guid>
+      <description>IOP flags
+Map: R783IQD Based on: R783IFLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description iop_installed 0 = 1, if IOP is installed </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iifs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iifs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iifs/</guid>
+      <description>Number of I/O functions initially started, (long floating point)
+Map: R783IQD Based on: R783IIFS </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iipb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iipb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iipb/</guid>
+      <description>Number of times the I/O processor was busy, (long floating point)
+Map: R783IQD Based on: R783IIPB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iipi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iipi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iipi/</guid>
+      <description>Number of times the I/O processor was idle, (long floating point)
+Map: R783IQD Based on: R783IIPI </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ipii</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ipii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ipii/</guid>
+      <description>Number of processed I/O interrupts, (long floating point)
+Map: R783IQD Based on: R783IPII </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iqct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iqct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iqct/</guid>
+      <description>Count of number of entries placed on the IOP initiative queue
+Map: R783IQD Based on: R783IQCT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iqid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iqid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iqid/</guid>
+      <description>IOP initiative queue identifier
+Map: R783IQD Based on: R783IQID </description>
+    </item>
+    
+    <item>
+      <title>Field - r783iscb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iscb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783iscb/</guid>
+      <description>Number of times the I/O processor was busy with SCM operations (long floating point)
+Map: R783IQD Based on: R783ISCB </description>
+    </item>
+    
+    <item>
+      <title>Field - r783mcdf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcdf/</guid>
+      <description>Defined number of DCM managed channels
+Map: R783DS Based on: R783MCDF </description>
+    </item>
+    
+    <item>
+      <title>Field - r783mcmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcmn/</guid>
+      <description>Minimum number of DCM managed channels used
+Map: R783DS Based on: R783MCMN </description>
+    </item>
+    
+    <item>
+      <title>Field - r783mcmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783mcmx/</guid>
+      <description>Maximum number of DCM managed channels used
+Map: R783DS Based on: R783MCMX </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ntr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ntr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ntr/</guid>
+      <description>Number of despriptor triplets
+Map: R783CS Based on: R783NTR </description>
+    </item>
+    
+    <item>
+      <title>Field - r783nxt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783nxt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783nxt/</guid>
+      <description>Number of data sections in following records
+Map: R783GD Based on: R783NXT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783pt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783pt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783pt/</guid>
+      <description>Count of channel path taken
+Map: R783CPD Based on: R783PT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ptm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ptm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ptm/</guid>
+      <description>Accumulated path taken count for DCM managed channels
+Map: R783DS Based on: R783PTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783qct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783qct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783qct/</guid>
+      <description>Q&amp;rsquo;d COUNT on CU-HDR queue
+Map: R783DS Based on: R783QCT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783qsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783qsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783qsm/</guid>
+      <description>Q&amp;rsquo;d SUM on CU-HDR queue
+Map: R783DS Based on: R783QSM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783sbs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783sbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783sbs/</guid>
+      <description>Switch Busy count Summation contains the switch busy counts received for all partitions valid if R783CPXM=1
+Map: R783CPD Based on: R783SBS </description>
+    </item>
+    
+    <item>
+      <title>Field - r783sbsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783sbsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783sbsm/</guid>
+      <description>Accumulated Switch Busy count summation for DCM Managed channels valid if R783CPXM=1
+Map: R783DS Based on: R783SBSM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tdt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tdt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tdt/</guid>
+      <description>IODF Creation Date mm/dd/yy
+Map: R783GD Based on: R783TDT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tdy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tdy/</guid>
+      <description>IODF creation date mm/dd/yyyy
+Map: R783GD Based on: R783TDY </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tmwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tmwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tmwm/</guid>
+      <description>Accumulated transport mode write count for DCM managed channels valid if R783CPTD=1
+Map: R783DS Based on: R783TMWM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tnm/</guid>
+      <description>IODF name
+Map: R783GD Based on: R783TNM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tot</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tot/</guid>
+      <description>Total number of data sections in large SMF record
+Map: R783GD Based on: R783TOT </description>
+    </item>
+    
+    <item>
+      <title>Field - r783trdm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783trdm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783trdm/</guid>
+      <description>Accumulated first-transfer- ready-disabled write count for DCM managed channels valid if R783CPTD=1
+Map: R783DS Based on: R783TRDM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tsf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tsf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tsf/</guid>
+      <description>Suffix of IODF Name
+Map: R783GD Based on: R783TSF </description>
+    </item>
+    
+    <item>
+      <title>Field - r783tsr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tsr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783tsr/</guid>
+      <description>Total number of small records
+Map: R783GD Based on: R783TSR </description>
+    </item>
+    
+    <item>
+      <title>Field - r783ttm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ttm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783ttm/</guid>
+      <description>IODF Creation Time hh.mm.ss
+Map: R783GD Based on: R783TTM </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xabc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xabc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xabc/</guid>
+      <description>The number of times an alias was borrowed from a peer LCU (short floating point)
+Map: R783HPAV Based on: R783XABC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xalc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xalc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xalc/</guid>
+      <description>The number of times an alias was loaned to a peer LCU (short floating point)
+Map: R783HPAV Based on: R783XALC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xanc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xanc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xanc/</guid>
+      <description>The number of times an alias was needed to start an I/O (short floating point)
+Map: R783HPAV Based on: R783XANC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xauc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xauc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xauc/</guid>
+      <description>The number of times an alias was needed to start an I/O and one was used (short floating point)
+Map: R783HPAV Based on: R783XAUC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xcbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xcbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xcbc/</guid>
+      <description>The number of aliases concurrently borrowed from peer LCUs
+Map: R783HPAV Based on: R783XCBC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xciu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xciu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xciu/</guid>
+      <description>The cumulative number of aliases defined to this subsystem that were in use when aliases were needed (short floating point)
+Map: R783HPAV Based on: R783XCIU </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xclc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xclc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xclc/</guid>
+      <description>The number of aliases concurrently loaned to peer LCUs
+Map: R783HPAV Based on: R783XCLC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xcqd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xcqd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xcqd/</guid>
+      <description>The cumulative number of I/Os queued at the subsystem level when aliases were needed (short floating point)
+Map: R783HPAV Based on: R783XCQD </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xhbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xhbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xhbc/</guid>
+      <description>The high water mark of concurrently borrowed aliases from peer LCUs
+Map: R783HPAV Based on: R783XHBC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xhlc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xhlc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xhlc/</guid>
+      <description>The high water mark of concurrently loaned aliases to peer LCUs
+Map: R783HPAV Based on: R783XHLC </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xnag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xnag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xnag/</guid>
+      <description>The number of attempts that were made to borrow an alias from peer LCUs but none were available (short floating point)
+Map: R783HPAV Based on: R783XNAG </description>
+    </item>
+    
+    <item>
+      <title>Field - r783xnhc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xnhc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/r783xnhc/</guid>
+      <description>The number of times an alias was needed to start an I/O, but none was available in the home LCU (short floating point)
+Map: R783HPAV Based on: R783XNHC </description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ral/</guid>
+      <description>Length of reassembly area.
+Map: SMF78PRO Based on: SMF78RAL Description Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ral/</guid>
+      <description>Length of reassembly area.
+Map: SMF78PRO Based on: SMF78RAL Description Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ran/</guid>
+      <description>Number of reassembly area.
+Map: SMF78PRO Based on: SMF78RAN Description This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ran/</guid>
+      <description>Number of reassembly area.
+Map: SMF78PRO Based on: SMF78RAN Description This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF78PRO Based on: SMF78RAO </description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF78PRO Based on: SMF78RAO </description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level.
+Map: SMF78PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rcl/</guid>
+      <description>SMF record converted to lower service level.
+Map: SMF78PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF78S2 Based on: SMF78RTY </description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF78S3 Based on: SMF78RTY </description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF78PRO Based on: SMF78SAM </description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF78PRO Based on: SMF78SAM </description>
+    </item>
+    
+    <item>
+      <title>Field - scm_aval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/scm_aval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/scm_aval/</guid>
+      <description>X&#39;20&amp;rsquo; SCM facility available
+Map: R783GD Based on: r783gflx Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783gflx.</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF78S2 Based on: SMF78SEG </description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF78S3 Based on: SMF78SEG </description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF78S2 Based on: SMF78SID </description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF78S3 Based on: SMF78SID </description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF78PRO Based on: SMF78SNM </description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF78PRO Based on: SMF78SNM </description>
+    </item>
+    
+    <item>
+      <title>Field - speed_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/speed_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/speed_boost/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - spn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/spn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/spn/</guid>
+      <description>NUMBER OF DATA SECTIONS
+Record: SMF78S2 Based on: SMF78SPN </description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF78PRO Based on: SMF78SRL </description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF78PRO Based on: SMF78SRL </description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF78S2 Based on: SMF78SSI </description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF78S3 Based on: SMF78SSI </description>
+    </item>
+    
+    <item>
+      <title>Field - store_primary_not_supported</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/store_primary_not_supported/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/store_primary_not_supported/</guid>
+      <description>X&#39;20&amp;rsquo; Store Primary Queue Data not supported
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF78S2 Based on: SMF78STY </description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF78S3 Based on: SMF78STY </description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF78PRO Based on: SMF78SYN </description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF78PRO Based on: SMF78SYN </description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/time/</guid>
+      <description>Time of Record
+Record: SMF78S2 Based on: SMF78TME </description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/time/</guid>
+      <description>Time of Record
+Record: SMF78S3 Based on: SMF78TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF78S2 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF78S3 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/tme/</guid>
+      <description>TOD RECORD WRITTEN
+Record: SMF78S2 Based on: SMF78TME </description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/tme/</guid>
+      <description>TOD RECORD WRITTEN
+Record: SMF78S3 Based on: SMF78TME </description>
+    </item>
+    
+    <item>
+      <title>Field - transfer_ready_disabled_aval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/transfer_ready_disabled_aval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/transfer_ready_disabled_aval/</guid>
+      <description>First-transfer-ready- disabled write data available
+Map: R783GD Based on: r783gflg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF78S2 Based on: SMF78TRN </description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF78S3 Based on: SMF78TRN </description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vary_path_action</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/vary_path_action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/vary_path_action/</guid>
+      <description>X&#39;08&amp;rsquo; The connectivity of this channel path to devices of this LCU has manipulated via VARY PATH during this measurement interval
+Map: R783CPD Based on: r783cpst Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - vsdamax</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdamax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdamax/</guid>
+      <description>MAXIMUM VALUE FOR ABOVE 16M
+Map: VSDAT Based on: VSDAMAX </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdamin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdamin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdamin/</guid>
+      <description>MINIMUM VALUE FOR ABOVE 16M
+Map: VSDAT Based on: VSDAMIN </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdantme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdantme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdantme/</guid>
+      <description>TIME STAMP FOR MINIMUM VALUE
+Map: VSDAT Based on: VSDANTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdatotl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdatotl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdatotl/</guid>
+      <description>RUNNING TOTAL FOR ALL SAMPLES ABOVE 16M, IN FLOATING POINT
+Map: VSDAT Based on: VSDATOTL </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdaxtme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdaxtme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdaxtme/</guid>
+      <description>TIME STAMP FOR MAXIMUM VALUE
+Map: VSDAT Based on: VSDAXTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdbmax</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbmax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbmax/</guid>
+      <description>MAXIMUM VALUE FOR BELOW 16M
+Map: VSDAT Based on: VSDBMAX </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdbmin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbmin/</guid>
+      <description>MINIMUM VALUE FOR BELOW 16M
+Map: VSDAT Based on: VSDBMIN </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdbntme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbntme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbntme/</guid>
+      <description>TIME STAMP FOR MINIMUM VALUE
+Map: VSDAT Based on: VSDBNTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdbtotl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbtotl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbtotl/</guid>
+      <description>RUNNING TOTAL FOR ALL SAMPLES BELOW 16M, IN FLOATING POINT
+Map: VSDAT Based on: VSDBTOTL </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdbxtme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbxtme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdbxtme/</guid>
+      <description>TIME STAMP FOR MAXIMUM VALUE
+Map: VSDAT Based on: VSDBXTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdcmax</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcmax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcmax/</guid>
+      <description>MAX VALUE
+Map: R782GFFR Based on: VSDCMAX </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdcmin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcmin/</guid>
+      <description>MIN VALUE
+Map: R782GFFR Based on: VSDCMIN </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdcntme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcntme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcntme/</guid>
+      <description>TIMESTAMP FOR MIN VALUE
+Map: R782GFFR Based on: VSDCNTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdctotl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdctotl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdctotl/</guid>
+      <description>TOTAL FOR ALL SAMPLES
+Map: R782GFFR Based on: VSDCTOTL </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdcxtme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcxtme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdcxtme/</guid>
+      <description>TIMESTAMP FOR MAX VALUE
+Map: R782GFFR Based on: VSDCXTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdghwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdghwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdghwm/</guid>
+      <description>HIGH MARK ABOVE 2G
+Map: R782COBY Based on: VSDGHWM </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdgmax</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgmax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgmax/</guid>
+      <description>MAX VALUE FOR ABOVE 2G
+Map: R782COBY Based on: VSDGMAX </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdgmin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgmin/</guid>
+      <description>MIN VALUE FOR ABOVE 2G
+Map: R782COBY Based on: VSDGMIN </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdgntme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgntme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgntme/</guid>
+      <description>TIMESTAMP FOR MIN VALUE
+Map: R782COBY Based on: VSDGNTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdgtotl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgtotl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgtotl/</guid>
+      <description>TOTAL FOR ALL SAMPLES
+Map: R782COBY Based on: VSDGTOTL </description>
+    </item>
+    
+    <item>
+      <title>Field - vsdgxtme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgxtme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vsdgxtme/</guid>
+      <description>TIMESTAMP FOR MAX VALUE
+Map: R782COBY Based on: VSDGXTME </description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF78S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF78S3 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S2/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF78PRO Based on: SMF78XNM </description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF78PRO Based on: SMF78XNM </description>
+    </item>
+    
+    <item>
+      <title>Field - zapp_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/zapp_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/zapp_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ziip_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ziip_boost/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF78PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf78/SMF78S3/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF78PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+  </channel>
+</rss>

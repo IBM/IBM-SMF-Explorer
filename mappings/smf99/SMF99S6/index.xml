@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 99 Subtype  6 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/</link>
+    <description>Recent content in SMF 99 Subtype  6 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - cpln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpln/</guid>
+      <description>Length of a service class period section
+Map: SMF99_S6_SDEF_MAP Based on: SMF996CPLN </description>
+    </item>
+    
+    <item>
+      <title>Field - cpof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpof/</guid>
+      <description>Offset to service class period section from beginning of record (inclu&amp;hellip;
+Map: SMF99_S6_SDEF_MAP Based on: SMF996CPOF Description Offset to service class period section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - cpon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/cpon/</guid>
+      <description>Number of service class period sections
+Map: SMF99_S6_SDEF_MAP Based on: SMF996CPON </description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/date/</guid>
+      <description>Date of Record
+Record: SMF99S6 Based on: SMF99DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dln/</guid>
+      <description>Length of the data section
+Map: SMF99_SDEF_MAP Based on: SMF99DLN </description>
+    </item>
+    
+    <item>
+      <title>Field - dof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dof/</guid>
+      <description>Offset to the data section from the beginning of the record (including&amp;hellip;
+Map: SMF99_SDEF_MAP Based on: SMF99DOF Description Offset to the data section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - don</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/don/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/don/</guid>
+      <description>Number of data sections
+Map: SMF99_SDEF_MAP Based on: SMF99DON </description>
+    </item>
+    
+    <item>
+      <title>Field - dp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dp/</guid>
+      <description>Dispatching priority of period for next policy interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_DP </description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/dte/</guid>
+      <description>Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip;
+Record: SMF99S6 Based on: SMF99DTE Description Date when the record was moved into the SMF buffer, in the form 0cyydddF.</description>
+    </item>
+    
+    <item>
+      <title>Field - eclass_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/eclass_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/eclass_name/</guid>
+      <description>External class name. For an externally defined service class this is t&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_ECLASS_NAME Description External class name. For an externally defined service class this is the name defined in the service definition. For a server period this name will be of the form $SRMSxxx. For system service classes this name will be $SRMBEST, $SRMDUMP, $SRMGOOD, $SRMDISC, or $SRMQSC.</description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_global_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_global_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_global_pi/</guid>
+      <description>EWLM global performance index(PI)
+Map: SMF99_S6_PER_MAP Based on: SMF996_EWLM_GLOBAL_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_local_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_local_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_local_pi/</guid>
+      <description>EWLM local performance index(PI)
+Map: SMF99_S6_PER_MAP Based on: SMF996_EWLM_LOCAL_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - ewlm_managed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_managed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ewlm_managed/</guid>
+      <description>Period is managed using EWLM performance data.
+Map: SMF99_S6_PER_MAP Based on: flags Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/flags/</guid>
+      <description>Flags
+Map: SMF99_S6_PER_MAP Based on: SMF996_FLAGS Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description inelighonorpriority 2 Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority&amp;hellip; io_priority_group 1 Period belongs to a service class that was assigned to I/O priority gr&amp;hellip; ewlm_managed 0 Period is managed using EWLM performance data. </description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/flg/</guid>
+      <description>System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip;
+Record: SMF99S6 Based on: SMF99FLG Description &amp;ldquo;System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved&amp;rdquo;
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description stu 1 Subtypes utilized </description>
+    </item>
+    
+    <item>
+      <title>Field - goaltype</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/goaltype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/goaltype/</guid>
+      <description>goal type: 0 - System, SYSSTC, or server goal, 1 - short response time&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_GOALTYPE Description &amp;ldquo;goal type: 0 - System, SYSSTC, or server goal, 1 - short response time, 2 - long response time, 3 - velocity, 4 - discretionary&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Field - goalval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/goalval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/goalval/</guid>
+      <description>goal value: response time goal - goal in milliseconds, velocity - velo&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_GOALVAL Description goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary, system goal or server period - zero</description>
+    </item>
+    
+    <item>
+      <title>Field - iclass_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/iclass_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/iclass_name/</guid>
+      <description>Internal service class name. Same as SMF996_ECLASS_NAME except for dis&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_ICLASS_NAME Description Internal service class name. Same as SMF996_ECLASS_NAME except for discretionary periods. For discretionary periods the name will be of the form $SRMDIxx.</description>
+    </item>
+    
+    <item>
+      <title>Field - impor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/impor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/impor/</guid>
+      <description>Importance of service class period
+Map: SMF99_S6_PER_MAP Based on: SMF996_IMPOR </description>
+    </item>
+    
+    <item>
+      <title>Field - inelighonorpriority</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/inelighonorpriority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/inelighonorpriority/</guid>
+      <description>Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: flags Description Specialty engine work in this period is ineligible for &amp;ldquo;Honor Priority Processing&amp;rdquo;, i.e. it will not be offloaded to CPs for help processing. @OA50845A
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - io_priority_group</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/io_priority_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/io_priority_group/</guid>
+      <description>Period belongs to a service class that was assigned to I/O priority gr&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: flags Description Period belongs to a service class that was assigned to I/O priority group
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - iodp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/iodp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/iodp/</guid>
+      <description>I/O priority of period for next policy interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_IODP </description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/len/</guid>
+      <description>Record Length. This field and the next field (total of four bytes) for&amp;hellip;
+Record: SMF99S6 Based on: SMF99LEN Description Record Length. This field and the next field (total of four bytes) form the RDW (record descriptor word).</description>
+    </item>
+    
+    <item>
+      <title>Field - local_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/local_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/local_pi/</guid>
+      <description>local performance index * 100
+Map: SMF99_S6_PER_MAP Based on: SMF996_LOCAL_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - mpli</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/mpli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/mpli/</guid>
+      <description>MPL in-target for next policy interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_MPLI </description>
+    </item>
+    
+    <item>
+      <title>Field - mplo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/mplo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/mplo/</guid>
+      <description>MPL out-target for next policy interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_MPLO </description>
+    </item>
+    
+    <item>
+      <title>Field - per_num</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/per_num/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/per_num/</guid>
+      <description>Period number within class
+Map: SMF99_S6_PER_MAP Based on: SMF996_PER_NUM </description>
+    </item>
+    
+    <item>
+      <title>Field - percentile</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/percentile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/percentile/</guid>
+      <description>Response time goal percentile. Zero if period does not a percentile re&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_PERCENTILE Description Response time goal percentile. Zero if period does not a percentile response time goal.</description>
+    </item>
+    
+    <item>
+      <title>Field - pflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pflg/</guid>
+      <description>Record flags
+Map: SMF99_PRODUCT_MAP Based on: SMF99PFLG Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description reasm_indicator 1 Only a subset of the available data is written to this record. The res&amp;hellip; record_incomplete 0 Only a subset of the available data was written to avoid that this rec&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Field - piserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/piserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/piserv/</guid>
+      <description>IFA service accumulated during interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_PISERV </description>
+    </item>
+    
+    <item>
+      <title>Field - pln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pln/</guid>
+      <description>Length of the product section
+Map: SMF99_SDEF_MAP Based on: SMF99PLN </description>
+    </item>
+    
+    <item>
+      <title>Field - pnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pnm/</guid>
+      <description>Product Name - SRM
+Map: SMF99_PRODUCT_MAP Based on: SMF99PNM </description>
+    </item>
+    
+    <item>
+      <title>Field - pof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pof/</guid>
+      <description>Offset to the product section from the beginning of the record (includ&amp;hellip;
+Map: SMF99_SDEF_MAP Based on: SMF99POF Description Offset to the product section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - pon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pon/</guid>
+      <description>Number of product sections
+Map: SMF99_SDEF_MAP Based on: SMF99PON </description>
+    </item>
+    
+    <item>
+      <title>Field - pserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pserv/</guid>
+      <description>service accumulated during interval
+Map: SMF99_S6_PER_MAP Based on: SMF996_PSERV </description>
+    </item>
+    
+    <item>
+      <title>Field - psitar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/psitar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/psitar/</guid>
+      <description>storage isolation target for next policy interval for each address spa&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_PSITAR Description storage isolation target for next policy interval for each address space in period, valid only for work with short response time goals, zero otherwise. Frame count.</description>
+    </item>
+    
+    <item>
+      <title>Field - pspt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pspt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/pspt/</guid>
+      <description>Time swapped out address spaces in period are protected from being swa&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_PSPT Description Time swapped out address spaces in period are protected from being swapped to aux for next policy interval. In 1.024 milliseconds.</description>
+    </item>
+    
+    <item>
+      <title>Field - psserv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/psserv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/psserv/</guid>
+      <description>accumulated SUP service
+Map: SMF99_S6_PER_MAP Based on: SMF996_PSSERV </description>
+    </item>
+    
+    <item>
+      <title>Field - reasm_indicator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/reasm_indicator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/reasm_indicator/</guid>
+      <description>Only a subset of the available data is written to this record. The res&amp;hellip;
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - record_incomplete</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/record_incomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/record_incomplete/</guid>
+      <description>Only a subset of the available data was written to avoid that this rec&amp;hellip;
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rty/</guid>
+      <description>Record type 99
+Record: SMF99S6 Based on: SMF99RTY </description>
+    </item>
+    
+    <item>
+      <title>Field - rua</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rua/</guid>
+      <description>Average number of ready address spaces over last policy interval. Scal&amp;hellip;
+Map: SMF99_S6_PER_MAP Based on: SMF996_RUA Description Average number of ready address spaces over last policy interval. Scaled by * 16</description>
+    </item>
+    
+    <item>
+      <title>Field - rvn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rvn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/rvn/</guid>
+      <description>Record Version Number
+Map: SMF99_PRODUCT_MAP Based on: SMF99RVN </description>
+    </item>
+    
+    <item>
+      <title>Field - sdef_len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sdef_len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sdef_len/</guid>
+      <description>Length of self definition section
+Record: SMF99S6 Based on: SMF99_SDEF_LEN </description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/seg/</guid>
+      <description>Segment descriptor (see record length field)
+Record: SMF99S6 Based on: SMF99SEG </description>
+    </item>
+    
+    <item>
+      <title>Field - server_class_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/server_class_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/server_class_name/</guid>
+      <description>NAME OF SERVICE CLASS THAT AT LEAST ONE OF THE SERVER ADDRESS SPACES I&amp;hellip;
+Map: SMF99_S6_SERVER_MAP Based on: SMF99_S6_SERVER_CLASS_NAME Description NAME OF SERVICE CLASS THAT AT LEAST ONE OF THE SERVER ADDRESS SPACES IN THE SERVER PERIOD REPRESENTED BY THE SUBTYPE 6 ENTRY WAS ORIGINAL CLASSIFIED TO</description>
+    </item>
+    
+    <item>
+      <title>Field - server_per_num</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/server_per_num/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/server_per_num/</guid>
+      <description>PERIOD NUMBER WITH IN CLASS
+Map: SMF99_S6_SERVER_MAP Based on: SMF99_S6_SERVER_PER_NUM </description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sid/</guid>
+      <description>System ID
+Record: SMF99S6 Based on: SMF99SID Description System identification (from the SID parameter).</description>
+    </item>
+    
+    <item>
+      <title>Field - slv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/slv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/slv/</guid>
+      <description>System level from which record was cut (copied from CVTPRODN)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SLV </description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/snm/</guid>
+      <description>System name from which record was cut (copied from CVTSNAME)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SNM </description>
+    </item>
+    
+    <item>
+      <title>Field - ssid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ssid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/ssid/</guid>
+      <description>Sub System Identification
+Record: SMF99S6 Based on: SMF99SSID </description>
+    </item>
+    
+    <item>
+      <title>Field - stu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/stu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/stu/</guid>
+      <description>Subtypes utilized
+Record: SMF99S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sysplex_pi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sysplex_pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/sysplex_pi/</guid>
+      <description>sysplex performance index * 100
+Map: SMF99_S6_PER_MAP Based on: SMF996_SYSPLEX_PI </description>
+    </item>
+    
+    <item>
+      <title>Field - tid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/tid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/tid/</guid>
+      <description>Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)
+Record: SMF99S6 Based on: SMF99TID </description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time/</guid>
+      <description>Time of Record
+Record: SMF99S6 Based on: SMF99TME </description>
+    </item>
+    
+    <item>
+      <title>Field - time_at_pdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time_at_pdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time_at_pdp/</guid>
+      <description>Time at PDP (promoted dispatch priority) accumulator
+Map: SMF99_S6_PER_MAP Based on: SMF996_TIME_AT_PDP </description>
+    </item>
+    
+    <item>
+      <title>Field - time_at_pdp_using</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time_at_pdp_using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/time_at_pdp_using/</guid>
+      <description>Time at PDP (promoted dispatch priority) using samples
+Map: SMF99_S6_PER_MAP Based on: SMF996_TIME_AT_PDP_USING </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/timestamp/</guid>
+      <description>Record Time Stamp
+Record: SMF99S6 Based on: time, date Description Timestamp from SMF data.
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/tme/</guid>
+      <description>Time since midnight, in hundreths of a second, that the record was mov&amp;hellip;
+Record: SMF99S6 Based on: SMF99TME Description Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer</description>
+    </item>
+    
+    <item>
+      <title>Field - vn2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/vn2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/fields/vn2/</guid>
+      <description>Record Subversion Number
+Map: SMF99_PRODUCT_MAP Based on: SMF99VN2 Description Record sub version. Used to identify changes to the record in the service stream</description>
+    </item>
+    
+  </channel>
+</rss>
