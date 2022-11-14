@@ -66,9 +66,8 @@ polar_n2 medium polar_n1
 polar_n2 low polar_n1
 polar_n2 processor high
 medium
-low processor type processor high
-medium
-low processor type timestamp time</description>
+low processor type timestamp time
+date Record Time Stamp processor high</description>
     </item>
     
     <item>
