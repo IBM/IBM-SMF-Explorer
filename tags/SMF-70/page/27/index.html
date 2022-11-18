@@ -70,12 +70,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   media="all"
 />
 
@@ -92,12 +92,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   media="print"
 />
 
@@ -18932,7 +18932,8 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <section class="gdoc-markdown">
         Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time
+Name Based on Description Type/Format lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no c&hellip; string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches &hellip; integer lpar_system_name virtual lpar_name
+system_name LPAR-System name sid SMF70SID System ID string timestamp virtual time
       </section>
 
       <div class="gdoc-post__readmore">
@@ -18962,7 +18963,7 @@ Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS 
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">29 minutes to read</span>
+  <span class="gdoc-post__tag">One minute to read</span>
 </span>
 
 
@@ -19325,6 +19326,29 @@ Map: SMF70LCS Based on: core_flg Post-Processed This virtual field corresponds t
       </footer>
     </article>
   
+  
+
+
+<nav class="gdoc-paging flex flex-even align-center" role="navigation">
+  <div class="gdoc-paging__item gdoc-paging__item--prev">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-70/page/26/">
+        <i class="gdoc-icon">gdoc_keyboard_arrow_left</i>
+        PREV
+      </a>
+    
+  </div>
+  <div class="gdoc-paging__state">27/70</div>
+  <div class="gdoc-paging__item gdoc-paging__item--next">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-70/page/28/">
+        NEXT
+        <i class="gdoc-icon">gdoc_keyboard_arrow_right</i>
+      </a>
+    
+  </div>
+</nav>
+
 
 
 

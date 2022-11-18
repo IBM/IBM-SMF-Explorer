@@ -70,12 +70,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   media="all"
 />
 
@@ -92,12 +92,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   media="print"
 />
 
@@ -18737,8 +18737,7 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <section class="gdoc-markdown">
         Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &lsquo;16&rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.
+Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples integer zaap_using SMF99_PIFAU zAAP using samples integer cap_delay SMF99_PCAPD CPU cap delay integer io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE Idle samples integer srv_class_name SMF99_CNAM Service class name string cross_mem_delay SMF99_PXMO Cross memory integer cpu_using SMF99_PCPUU CPU using samples integer ziip_delay SMF99_PSUPD zIIP delay samples integer sid SMF99SID System ID string buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer timestamp virtual time
       </section>
 
       <div class="gdoc-post__readmore">
@@ -18768,7 +18767,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">24 minutes to read</span>
+  <span class="gdoc-post__tag">One minute to read</span>
 </span>
 
 
@@ -18813,19 +18812,11 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <section class="gdoc-markdown">
         Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
+Name Based on Description Type/Format srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer 
       </section>
 
       <div class="gdoc-post__readmore">
-        
-          <a
-            class="flex-inline align-center fake-link"
-            title="Read full post"
-            href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/"
-          >
-            Read full post
-            <i class="gdoc-icon">gdoc_arrow_right_alt</i>
-          </a>
         
       </div>
 
@@ -18843,7 +18834,7 @@ Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">24 minutes to read</span>
+  <span class="gdoc-post__tag">One minute to read</span>
 </span>
 
 
@@ -19333,6 +19324,29 @@ Record: SMF99S6 Based on: SMF99SSID
       </footer>
     </article>
   
+  
+
+
+<nav class="gdoc-paging flex flex-even align-center" role="navigation">
+  <div class="gdoc-paging__item gdoc-paging__item--prev">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/88/">
+        <i class="gdoc-icon">gdoc_keyboard_arrow_left</i>
+        PREV
+      </a>
+    
+  </div>
+  <div class="gdoc-paging__state">89/117</div>
+  <div class="gdoc-paging__item gdoc-paging__item--next">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/90/">
+        NEXT
+        <i class="gdoc-icon">gdoc_keyboard_arrow_right</i>
+      </a>
+    
+  </div>
+</nav>
+
 
 
 

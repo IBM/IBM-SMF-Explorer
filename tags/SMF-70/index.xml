@@ -830,7 +830,7 @@ Record: SMF70S1 Based on: SMF70CON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l1/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL1 Description Valid if SMF70MaxNL &amp;gt; 0.</description>
+Map: SMF70BPD Based on: SMF70CORDL1 Description Valid if SMF70MaxNL &amp;gt; 0.</description>
     </item>
     
     <item>
@@ -840,7 +840,7 @@ Map: SMF70BCT Based on: SMF70CordL1 Description Valid if SMF70MaxNL &amp;gt; 0.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l2/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL2 Description Valid if SMF70MaxNL &amp;gt; 1.</description>
+Map: SMF70BPD Based on: SMF70CORDL2 Description Valid if SMF70MaxNL &amp;gt; 1.</description>
     </item>
     
     <item>
@@ -850,7 +850,7 @@ Map: SMF70BCT Based on: SMF70CordL2 Description Valid if SMF70MaxNL &amp;gt; 1.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l3/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL3 Description Valid if SMF70MaxNL &amp;gt; 2.</description>
+Map: SMF70BPD Based on: SMF70CORDL3 Description Valid if SMF70MaxNL &amp;gt; 2.</description>
     </item>
     
     <item>
@@ -860,7 +860,7 @@ Map: SMF70BCT Based on: SMF70CordL3 Description Valid if SMF70MaxNL &amp;gt; 2.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l4/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL4 Description Valid if SMF70MaxNL &amp;gt; 3.</description>
+Map: SMF70BPD Based on: SMF70CORDL4 Description Valid if SMF70MaxNL &amp;gt; 3.</description>
     </item>
     
     <item>
@@ -870,7 +870,7 @@ Map: SMF70BCT Based on: SMF70CordL4 Description Valid if SMF70MaxNL &amp;gt; 3.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l5/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL5 Description Valid if SMF70MaxNL &amp;gt; 4.</description>
+Map: SMF70BPD Based on: SMF70CORDL5 Description Valid if SMF70MaxNL &amp;gt; 4.</description>
     </item>
     
     <item>
@@ -880,7 +880,7 @@ Map: SMF70BCT Based on: SMF70CordL5 Description Valid if SMF70MaxNL &amp;gt; 4.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l6/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 6.
-Map: SMF70BCT Based on: SMF70CordL6 Description Valid if SMF70MaxNL &amp;gt; 5.</description>
+Map: SMF70BPD Based on: SMF70CORDL6 Description Valid if SMF70MaxNL &amp;gt; 5.</description>
     </item>
     
     <item>
@@ -2633,7 +2633,8 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no c&amp;hellip; string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches &amp;hellip; integer lpar_system_name virtual lpar_name
+system_name LPAR-System name sid SMF70SID System ID string timestamp virtual time</description>
     </item>
     
     <item>
@@ -2747,7 +2748,7 @@ Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/max_nesting_level/</guid>
       <description>Maximum number of topology nesting levels.
-Map: SMF70BCT Based on: SMF70MaxNL Description The value is model dependent with a maximum of 6. 0 The model does not provide information about the topological nesting levels. 1 There is no actual topological nesting structure. 2-6 Topological nesting levels are available, beginning with field SMF70CordL1 up to field SMF70CordLx, where x is the value that defines the maximum number of topology nesting levels.</description>
+Map: SMF70BPD Based on: SMF70MAXNL Description The value is model dependent with a maximum of 6. 0 The model does not provide information about the topological nesting levels. 1 There is no actual topological nesting structure. 2-6 Topological nesting levels are available, beginning with field SMF70CORDL1 up to field SMF70CORDLx, where x is the value that defines the maximum number of topology nesting levels.</description>
     </item>
     
     <item>
@@ -3689,7 +3690,7 @@ Record: SMF70S2 Based on: SMF70PRN </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&amp;hellip; integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total</description>
     </item>
     
     <item>

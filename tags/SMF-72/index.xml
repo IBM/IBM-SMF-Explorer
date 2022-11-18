@@ -5676,7 +5676,12 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF72LEN SMF RECORD LENGTH integer flg flag SMF72FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF72RTY RECORD TYPE integer date SMF72DTE Date of Record date time SMF72TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format sample_io_delay R723CIOD DASD I/O delay samples integer transaction_response_time_variance virtual transaction_total_count
+transaction_total_time
+transaction_squared_sum_time Variance of the transaction RT times sid SMF72SID System ID string transaction_inel_delay_time_mean virtual transaction_inel_delay_time
+transaction_total_count Mean transaction not-affinity-related delay time transaction_executed_per_second virtual transaction_executed_count
+interval_in_milliseconds Average transaction executions per second for this interval. utilization_cp virtual utilization_total
+utilization_ziip</description>
     </item>
     
     <item>

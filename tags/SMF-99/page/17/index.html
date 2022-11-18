@@ -70,12 +70,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   media="all"
 />
 
@@ -92,12 +92,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   media="print"
 />
 
@@ -18747,20 +18747,11 @@ Post-Processed This field is an alias for ilsu_array[0].
       <section class="gdoc-markdown">
         Request CP usage and trickels.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &lsquo;16&rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.
+Name Based on Description Type/Format cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp cp_util processed SMF99_CPUA CP utilization integer 
       </section>
 
       <div class="gdoc-post__readmore">
-        
-          <a
-            class="flex-inline align-center fake-link"
-            title="Read full post"
-            href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/cp_usage_and_trickels/"
-          >
-            Read full post
-            <i class="gdoc-icon">gdoc_arrow_right_alt</i>
-          </a>
         
       </div>
 
@@ -18778,7 +18769,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">34 minutes to read</span>
+  <span class="gdoc-post__tag">One minute to read</span>
 </span>
 
 
@@ -19334,6 +19325,29 @@ Map: SMF99_S6_SDEF_MAP Based on: SMF996CPON
       </footer>
     </article>
   
+  
+
+
+<nav class="gdoc-paging flex flex-even align-center" role="navigation">
+  <div class="gdoc-paging__item gdoc-paging__item--prev">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/16/">
+        <i class="gdoc-icon">gdoc_keyboard_arrow_left</i>
+        PREV
+      </a>
+    
+  </div>
+  <div class="gdoc-paging__state">17/117</div>
+  <div class="gdoc-paging__item gdoc-paging__item--next">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/18/">
+        NEXT
+        <i class="gdoc-icon">gdoc_keyboard_arrow_right</i>
+      </a>
+    
+  </div>
+</nav>
+
 
 
 

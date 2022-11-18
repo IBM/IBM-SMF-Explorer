@@ -70,12 +70,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   media="all"
 />
 
@@ -92,12 +92,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   media="print"
 />
 
@@ -18802,7 +18802,12 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION
       <section class="gdoc-markdown">
         Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF72LEN SMF RECORD LENGTH integer flg flag SMF72FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF72RTY RECORD TYPE integer date SMF72DTE Date of Record date time SMF72TME Time of Record time timestamp virtual time
+Name Based on Description Type/Format sample_io_delay R723CIOD DASD I/O delay samples integer transaction_response_time_variance virtual transaction_total_count
+transaction_total_time
+transaction_squared_sum_time Variance of the transaction RT times sid SMF72SID System ID string transaction_inel_delay_time_mean virtual transaction_inel_delay_time
+transaction_total_count Mean transaction not-affinity-related delay time transaction_executed_per_second virtual transaction_executed_count
+interval_in_milliseconds Average transaction executions per second for this interval. utilization_cp virtual utilization_total
+utilization_ziip
       </section>
 
       <div class="gdoc-post__readmore">
@@ -18832,7 +18837,7 @@ Name Based on Description Type/Format len SMF72LEN SMF RECORD LENGTH integer flg
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">24 minutes to read</span>
+  <span class="gdoc-post__tag">3 minutes to read</span>
 </span>
 
 
@@ -19322,6 +19327,29 @@ Map: R723RGS Based on: R723GGKY Description Solution identifier. Only valid if R
       </footer>
     </article>
   
+  
+
+
+<nav class="gdoc-paging flex flex-even align-center" role="navigation">
+  <div class="gdoc-paging__item gdoc-paging__item--prev">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-72/page/56/">
+        <i class="gdoc-icon">gdoc_keyboard_arrow_left</i>
+        PREV
+      </a>
+    
+  </div>
+  <div class="gdoc-paging__state">57/69</div>
+  <div class="gdoc-paging__item gdoc-paging__item--next">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-72/page/58/">
+        NEXT
+        <i class="gdoc-icon">gdoc_keyboard_arrow_right</i>
+      </a>
+    
+  </div>
+</nav>
+
 
 
 

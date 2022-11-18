@@ -960,7 +960,7 @@ Record: SMF99S14 Based on: SMF99TME Description Time since midnight, in hundreth
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF99LEN Record Length. This field and the next field (total of four bytes) for&amp;hellip; integer flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer topology_change virtual vcm_flag1 topology has changed @ME14601A cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer wuq_error virtual vcm_flag1 dispatcher WUQ error @ME14601A speed_change virtual vcm_flag1 processor speed change processor virtual high</description>
     </item>
     
     <item>

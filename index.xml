@@ -4666,7 +4666,8 @@ Map: SMF70BPD Based on: SMF70NSW Description Number of Diagnose samples where WL
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/capacity_factors/</guid>
       <description>Request capacity and max capacity factors for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer zaap_cap_fac processed SMF99_CF_ZAAP zAAP capacity Factor integer sid SMF99SID System ID string zaap_max_fac processed SMF99_MCF_ZAAP zAAP maximum capacity factor integer timestamp virtual time
+date Record Time Stamp cp_cap_fac processed SMF99_CF CP capacity Factor integer ziip_max_fac processed SMF99_MCF_ZIIP zIIP maximum capacity factor integer cp_max_fac processed SMF99_MCF CP maximum capacity factor integer </description>
     </item>
     
     <item>
@@ -6524,7 +6525,7 @@ Map: R783DS Based on: r783dstx Post-Processed This virtual field corresponds to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/contention_analysis/</guid>
       <description>Request for contention analysis, so the features match them for the Machine Learning Model
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time</description>
     </item>
     
     <item>
@@ -6534,7 +6535,7 @@ Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l1/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL1 Description Valid if SMF70MaxNL &amp;gt; 0.</description>
+Map: SMF70BPD Based on: SMF70CORDL1 Description Valid if SMF70MaxNL &amp;gt; 0.</description>
     </item>
     
     <item>
@@ -6544,7 +6545,7 @@ Map: SMF70BCT Based on: SMF70CordL1 Description Valid if SMF70MaxNL &amp;gt; 0.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l2/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL2 Description Valid if SMF70MaxNL &amp;gt; 1.</description>
+Map: SMF70BPD Based on: SMF70CORDL2 Description Valid if SMF70MaxNL &amp;gt; 1.</description>
     </item>
     
     <item>
@@ -6554,7 +6555,7 @@ Map: SMF70BCT Based on: SMF70CordL2 Description Valid if SMF70MaxNL &amp;gt; 1.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l3/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL3 Description Valid if SMF70MaxNL &amp;gt; 2.</description>
+Map: SMF70BPD Based on: SMF70CORDL3 Description Valid if SMF70MaxNL &amp;gt; 2.</description>
     </item>
     
     <item>
@@ -6564,7 +6565,7 @@ Map: SMF70BCT Based on: SMF70CordL3 Description Valid if SMF70MaxNL &amp;gt; 2.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l4/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL4 Description Valid if SMF70MaxNL &amp;gt; 3.</description>
+Map: SMF70BPD Based on: SMF70CORDL4 Description Valid if SMF70MaxNL &amp;gt; 3.</description>
     </item>
     
     <item>
@@ -6574,7 +6575,7 @@ Map: SMF70BCT Based on: SMF70CordL4 Description Valid if SMF70MaxNL &amp;gt; 3.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l5/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 1.
-Map: SMF70BCT Based on: SMF70CordL5 Description Valid if SMF70MaxNL &amp;gt; 4.</description>
+Map: SMF70BPD Based on: SMF70CORDL5 Description Valid if SMF70MaxNL &amp;gt; 4.</description>
     </item>
     
     <item>
@@ -6584,7 +6585,7 @@ Map: SMF70BCT Based on: SMF70CordL5 Description Valid if SMF70MaxNL &amp;gt; 4.<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cord_l6/</guid>
       <description>Coordinate of the preferred dispatch location of the logical core at topological nesting level 6.
-Map: SMF70BCT Based on: SMF70CordL6 Description Valid if SMF70MaxNL &amp;gt; 5.</description>
+Map: SMF70BPD Based on: SMF70CORDL6 Description Valid if SMF70MaxNL &amp;gt; 5.</description>
     </item>
     
     <item>
@@ -6993,8 +6994,8 @@ Map: SMF70CTL Based on: stf Post-Processed This virtual field corresponds to the
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/cp_service/</guid>
       <description>Request CP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 cp_imp4 virtual alias ilsu_array[4] CP service consumption for importance level 4 cp_free virtual alias ilsu_array[7] CP free service capacity sid SMF99SID System ID string cp_sys virtual alias ilsu_array[0] CP service consumption for importance sys timestamp virtual time
+date Record Time Stamp cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cp_imp2 virtual alias ilsu_array[2] CP service consumption for importance level 2 cp_disc virtual alias ilsu_array[6] CP service consumption for importance discretionary </description>
     </item>
     
     <item>
@@ -7026,8 +7027,8 @@ Map: SMF70AID Based on: SMF70CTT </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/cp_usage_and_trickels/</guid>
       <description>Request CP usage and trickels.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp cp_util processed SMF99_CPUA CP utilization integer </description>
     </item>
     
     <item>
@@ -14474,8 +14475,7 @@ Record: SMF79S15 Based on: SMF79FPO </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_cp_cap/</guid>
       <description>Request free capacity for CP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cap_wait SMF99_FREE_LPAR_CAPACITY_WT_RELATED Free LPAR capacity based on the accumulated logical CPU wait times integer cp_free virtual alias ilsu_array[7] CP free service capacity sid SMF99SID System ID string cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer timestamp virtual time</description>
     </item>
     
     <item>
@@ -14506,8 +14506,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_FREE_LPAR_CAPACITY_UB_ZIIP </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_zaap_cap/</guid>
       <description>Request free capacity for zAAP
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cap_guar_zaap SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZAAP Free LPAR capacity which is always available based on the LPAR weight for zAAP integer zaap_free virtual alias ilsu_zaap_array[7] zAAP free service capacity cap_wait_zaap SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZAAP Free LPAR capacity based on the accumulated logical zAAP wait times integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp cap_lcp_zaap SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZAAP Free LPAR capacity based on the configured LCPs for zAAP integer cap_cec_zaap SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZAAP Free LPAR capacity CEC for zAAP integer </description>
     </item>
     
     <item>
@@ -14518,8 +14518,8 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_ziip_cap/</guid>
       <description>Request free capacity for zIIP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer ziip_free virtual alias ilsu_ziip_array[7] zIIP free service capacity sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cap_lcp_ziip SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZIIP Free LPAR capacity based on the configured LCPs for zIIP integer </description>
     </item>
     
     <item>
@@ -16170,7 +16170,7 @@ Record: SMF73S1 Based on: SMF73HIN </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/samples/hiper_dispatch/</guid>
       <description>Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF99LEN Record Length. This field and the next field (total of four bytes) for&amp;hellip; integer flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format cpu_vh SMF99C_VCM_CPUHI Number VHs @OA37736C integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds. The allocated capacity is pr&amp;hellip; integer cpu_vl SMF99C_VCM_CPULO Number VLs @OA37736C integer vl_unparked SMF99C_VCM_CPULOUNPARKED Number of unparked VLs @OA37736C integer lpar_capacity_unused SMF99C_VCM_LPARUNUSEDCAP Unused LPAR capacity in microseconds, including the unused capacity sh&amp;hellip; integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 @O&amp;hellip; integer lpar_capacity_non_guaranteed SMF99C_VCM_LPARCAPNONGUARAN Non guaranteed LPAR capacity in microseconds @OA37736C integer lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval l&amp;hellip; integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 @OA37736C integer cec_free_capacity SMF99C_VCM_CECCAPFREE Free CEC capacity in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 @OA37736C integer lpar_cap_used_non_guaranteed SMF99C_VCM_LPARCAPUSEDDISCR Used capacity of the non-guaranteed capacity (partially VM and unparke&amp;hellip; integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no V&amp;hellip; integer vcm_ceccaptotal SMF99C_VCM_CECCAPTOTAL Total CEC capacity in microseconds @OA37736C integer sid SMF99SID System ID string lpar_busy virtual lpar_capacity_used</description>
     </item>
     
     <item>
@@ -18492,8 +18492,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</guid>
       <description>Request IO samples for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string sid SMF99SID System ID string samp_io_disconnected SMF99_DISC_IOSM_CURR DASDI/O disconnected samples for the current interval integer timestamp virtual time</description>
     </item>
     
     <item>
@@ -21474,7 +21473,8 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no c&amp;hellip; string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches &amp;hellip; integer lpar_system_name virtual lpar_name
+system_name LPAR-System name sid SMF70SID System ID string timestamp virtual time</description>
     </item>
     
     <item>
@@ -22268,7 +22268,7 @@ Map: SMF76B Based on: SMF76MAX Description VALUE OF CONTENTS OF FIELD DURING INT
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/max_nesting_level/</guid>
       <description>Maximum number of topology nesting levels.
-Map: SMF70BCT Based on: SMF70MaxNL Description The value is model dependent with a maximum of 6. 0 The model does not provide information about the topological nesting levels. 1 There is no actual topological nesting structure. 2-6 Topological nesting levels are available, beginning with field SMF70CordL1 up to field SMF70CordLx, where x is the value that defines the maximum number of topology nesting levels.</description>
+Map: SMF70BPD Based on: SMF70MAXNL Description The value is model dependent with a maximum of 6. 0 The model does not provide information about the topological nesting levels. 1 There is no actual topological nesting structure. 2-6 Topological nesting levels are available, beginning with field SMF70CORDL1 up to field SMF70CORDLx, where x is the value that defines the maximum number of topology nesting levels.</description>
     </item>
     
     <item>
@@ -26233,8 +26233,8 @@ Map: SMF70AID Based on: SMF70OTT </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/p_num_online/</guid>
       <description>Request number of CPs, zIIPs and zAAPs online.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cp_online SMF99_CPUS_ONLINE Number of enabled CPs integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp zaap_online SMF99_IFAS_ONLINE Number of enabled zAAPs integer ziip_online SMF99_SUPS_ONLINE Number of enabled zIIPs integer </description>
     </item>
     
     <item>
@@ -26245,8 +26245,8 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/p_utilization/</guid>
       <description>Request CP, zIIP, zAAP and total utilization.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format total_util processed SMF99_CPUIFAA Total processor utilization integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp zaap_util processed SMF99_IFAA Zaap utilization integer cp_util processed SMF99_CPUA CP utilization integer ziip_util processed SMF99_SUPA Ziip utilization integer </description>
     </item>
     
     <item>
@@ -26385,8 +26385,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_PGINS </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/page_ins_and_uic/</guid>
       <description>Request page-in rate count and UIC bucket information.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer uic2 SMF99_UIC2 Page frames in UIC bucket 2, see SMF99_FRV2 for bucket 2 delimiter integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp uic3 SMF99_UIC3 Page frames in UIC bucket 3, see SMF99_FRV3 for bucket 3 delimiter integer page_ins SMF99_PGINS Page-ins rate count used for calculating the system paging rate integer </description>
     </item>
     
     <item>
@@ -30155,7 +30155,7 @@ high_filter = ~high medium_filter = ~medium low_filter = ~low processor = high.w
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&amp;hellip; integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total</description>
     </item>
     
     <item>
@@ -57407,8 +57407,7 @@ Map: SMF77ENQ Based on: SMF77DW2 </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</guid>
       <description>Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format rt_distri_num_trans[15] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL Goal value integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM Period number integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System ID string rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer timestamp virtual time</description>
     </item>
     
     <item>
@@ -57511,8 +57510,7 @@ Map: SMF99_S1_RG_MAP Based on: rg_flags Post-Processed This field is processed u
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/rg_capping/</guid>
       <description>Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526&amp;hellip; integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages. Or MSU max &amp;hellip; integer rg_susifa SMF99_RG_SUSIFA Tenant resource group&amp;rsquo;s aggregated IFA service units.</description>
     </item>
     
     <item>
@@ -62568,7 +62566,12 @@ Field Bit-Position Description msm 0 On = There are more logical SMF records in 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF72LEN SMF RECORD LENGTH integer flg flag SMF72FLG SYSTEM INDICATOR FLAGS string bfy flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT bfy virtual flg SYSTEM RUNNING IN PR/SM MODE os virtual flg OPERATING SYSTEM IS OS/VS2 vxa virtual flg MVS/XA IF ON esa virtual flg MVS/ESA IF ON v4 virtual flg MVS/ESA V4 IF ON subtypes_used virtual flg SUBTYPES USED new_record virtual flg NEW RECORD FORMAT rty SMF72RTY RECORD TYPE integer date SMF72DTE Date of Record date time SMF72TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format sample_io_delay R723CIOD DASD I/O delay samples integer transaction_response_time_variance virtual transaction_total_count
+transaction_total_time
+transaction_squared_sum_time Variance of the transaction RT times sid SMF72SID System ID string transaction_inel_delay_time_mean virtual transaction_inel_delay_time
+transaction_total_count Mean transaction not-affinity-related delay time transaction_executed_per_second virtual transaction_executed_count
+interval_in_milliseconds Average transaction executions per second for this interval. utilization_cp virtual utilization_total
+utilization_ziip</description>
     </item>
     
     <item>
@@ -62579,8 +62582,7 @@ Name Based on Description Type/Format len SMF72LEN SMF RECORD LENGTH integer flg
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/smf_99_01_sample/</guid>
       <description>Request for commonly used SMF 99 subtype 1 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4] zIIP service consumption for importance level 4 cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cp_free virtual alias ilsu_array[7] CP free service capacity ziip_imp3 virtual alias ilsu_ziip_array[3] zIIP service consumption for importance level 3 cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time</description>
     </item>
     
     <item>
@@ -62591,8 +62593,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</guid>
       <description>Request for commonly used SMF 99 Subtype 2 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer goal_value SMF99_PGOALVAL Goal value integer mpl_in SMF99_PMPLI MPL in-target integer idle SMF99_PIDLE Idle samples integer pi_local processed SMF99_PLPI Local performance index integer buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer goal_type_name virtual goal_type Goal type name zaap_delay SMF99_PIFAD zAAP delay samples integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer disp_prio SMF99_PBDP Base dispatching priority integer period_num SMF99_PNUM Period number integer cpu_using SMF99_PCPUU CPU using samples integer sid SMF99SID System ID string timestamp virtual time</description>
     </item>
     
     <item>
@@ -63956,8 +63957,7 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</guid>
       <description>Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples integer zaap_using SMF99_PIFAU zAAP using samples integer cap_delay SMF99_PCAPD CPU cap delay integer io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE Idle samples integer srv_class_name SMF99_CNAM Service class name string cross_mem_delay SMF99_PXMO Cross memory integer cpu_using SMF99_PCPUU CPU using samples integer ziip_delay SMF99_PSUPD zIIP delay samples integer sid SMF99SID System ID string buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer timestamp virtual time</description>
     </item>
     
     <item>
@@ -63968,7 +63968,8 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</guid>
       <description>Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer sid SMF99SID System ID string timestamp virtual time
+date Record Time Stamp srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer </description>
     </item>
     
     <item>
@@ -67956,7 +67957,7 @@ Map: SMF99_S1_SDEF_MAP Based on: SMF99TON </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format len SMF99LEN Record Length. This field and the next field (total of four bytes) for&amp;hellip; integer flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+Name Based on Description Type/Format hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer topology_change virtual vcm_flag1 topology has changed @ME14601A cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer wuq_error virtual vcm_flag1 dispatcher WUQ error @ME14601A speed_change virtual vcm_flag1 processor speed change processor virtual high</description>
     </item>
     
     <item>
@@ -73431,8 +73432,7 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_IFAS_ONLINE Description Number of online as
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/zaap_service/</guid>
       <description>Request zAAP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format zaap_free virtual alias ilsu_zaap_array[7] zAAP free service capacity zaap_disc virtual alias ilsu_zaap_array[6] zAAP service consumption for importance discretionary zaap_imp3 virtual alias ilsu_zaap_array[3] zAAP service consumption for importance level 3 zaap_imp4 virtual alias ilsu_zaap_array[4] zAAP service consumption for importance level 4 zaap_sys virtual alias ilsu_zaap_array[0] zAAP service consumption for importance sys zaap_imp5 virtual alias ilsu_zaap_array[5] zAAP service consumption for importance level 5 sid SMF99SID System ID string timestamp virtual time</description>
     </item>
     
     <item>
@@ -74048,8 +74048,7 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_SUPS_ONLINE Description Number of online SU
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/ziip_service/</guid>
       <description>Request zIIP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&amp;hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&amp;hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&amp;hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.</description>
+Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4] zIIP service consumption for importance level 4 ziip_sys virtual alias ilsu_ziip_array[0] zIIP service consumption for importance sys ziip_imp5 virtual alias ilsu_ziip_array[5] zIIP service consumption for importance level 5 ziip_imp2 virtual alias ilsu_ziip_array[2] zIIP service consumption for importance level 2 ziip_imp3 virtual alias ilsu_ziip_array[3] zIIP service consumption for importance level 3 ziip_free virtual alias ilsu_ziip_array[7] zIIP free service capacity sid SMF99SID System ID string timestamp virtual time</description>
     </item>
     
     <item>

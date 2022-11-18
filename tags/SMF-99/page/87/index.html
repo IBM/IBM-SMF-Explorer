@@ -70,12 +70,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/main-9821c8f6.min.css"
+  href="/IBM-SMF-Explorer/main-2e955f90.min.css"
   media="all"
 />
 
@@ -92,12 +92,12 @@
 
 <link
   rel="preload"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/IBM-SMF-Explorer/print-19966b38.min.css"
+  href="/IBM-SMF-Explorer/print-735ccc12.min.css"
   media="print"
 />
 
@@ -18737,8 +18737,7 @@ Map: SMF99_S1_SL_MAP Based on: slconfigflags Post-Processed This virtual field c
       <section class="gdoc-markdown">
         Request for commonly used SMF 99 subtype 1 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &lsquo;16&rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.
+Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4] zIIP service consumption for importance level 4 cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cp_free virtual alias ilsu_array[7] CP free service capacity ziip_imp3 virtual alias ilsu_ziip_array[3] zIIP service consumption for importance level 3 cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time
       </section>
 
       <div class="gdoc-post__readmore">
@@ -18768,7 +18767,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">34 minutes to read</span>
+  <span class="gdoc-post__tag">2 minutes to read</span>
 </span>
 
 
@@ -18813,8 +18812,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
       <section class="gdoc-markdown">
         Request for commonly used SMF 99 Subtype 2 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&hellip; string stu flg Subtypes utilized stu virtual flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time
-date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descriptor (see record length field) integer tme SMF99TME Time since midnight, in hundreths of a second, that the record was mov&hellip; time dte SMF99DTE Date when the record was moved into the SMF buffer, in the form 0cyydd&hellip; date ssid SMF99SSID Sub System Identification string tid SMF99TID Record subtype (must be at offset &lsquo;16&rsquo;X) integer sdef_len SMF99_SDEF_LEN Length of self definition section integer pof SMF99POF Offset to the product section from the beginning of the record (includ&hellip; integer pln SMF99PLN Length of the product section integer pon SMF99PON Number of product sections integer dof SMF99DOF Offset to the data section from the beginning of the record (including&hellip; integer dln SMF99DLN Length of the data section integer don SMF99DON Number of data sections integer vn2 SMF99VN2 Record Subversion Number integer rvn SMF99RVN Record Version Number integer pnm SMF99PNM Product Name - SRM string slv SMF99SLV System level from which record was cut (copied from CVTPRODN) string snm SMF99SNM System name from which record was cut (copied from CVTSNAME) string pflg flag SMF99PFLG Record flags string reasm_indicator pflg Only a subset of the available data is written to this record.
+Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer goal_value SMF99_PGOALVAL Goal value integer mpl_in SMF99_PMPLI MPL in-target integer idle SMF99_PIDLE Idle samples integer pi_local processed SMF99_PLPI Local performance index integer buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer goal_type_name virtual goal_type Goal type name zaap_delay SMF99_PIFAD zAAP delay samples integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer disp_prio SMF99_PBDP Base dispatching priority integer period_num SMF99_PNUM Period number integer cpu_using SMF99_PCPUU CPU using samples integer sid SMF99SID System ID string timestamp virtual time
       </section>
 
       <div class="gdoc-post__readmore">
@@ -18844,7 +18842,7 @@ date Record Time Stamp sid SMF99SID System ID string seg SMF99SEG Segment descri
 
 <span class="flex align-center no-wrap">
   <svg class="gdoc-icon gdoc_timer"><use xlink:href="#gdoc_timer"></use></svg>
-  <span class="gdoc-post__tag">24 minutes to read</span>
+  <span class="gdoc-post__tag">2 minutes to read</span>
 </span>
 
 
@@ -19334,6 +19332,29 @@ Map: SMF99_SPECRPT Based on: SMF99_SPECCP
       </footer>
     </article>
   
+  
+
+
+<nav class="gdoc-paging flex flex-even align-center" role="navigation">
+  <div class="gdoc-paging__item gdoc-paging__item--prev">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/86/">
+        <i class="gdoc-icon">gdoc_keyboard_arrow_left</i>
+        PREV
+      </a>
+    
+  </div>
+  <div class="gdoc-paging__state">87/117</div>
+  <div class="gdoc-paging__item gdoc-paging__item--next">
+    
+      <a class="flex-inline align-center fake-link no-wrap" href="/IBM-SMF-Explorer/tags/SMF-99/page/88/">
+        NEXT
+        <i class="gdoc-icon">gdoc_keyboard_arrow_right</i>
+      </a>
+    
+  </div>
+</nav>
+
 
 
 
