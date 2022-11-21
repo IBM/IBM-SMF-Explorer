@@ -31,7 +31,7 @@ date Record Time Stamp interval_in_milliseconds interval Interval duration in mi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/</guid>
       <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF70PRO R702TYP3 R702TYP4 R7024TC R702TYP5 R702CCF Virtual fields Name Based on Description timestamp time
-date Record Time Stamp interval_in_milliseconds interval Interval duration in milliseconds boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format flg flag SMF70FLG SYSTEM INDICATOR FLAGS string prsm_mode flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtual time</description>
+date Record Time Stamp interval_in_milliseconds interval Interval duration in milliseconds boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format flg flagSMF70FLG SYSTEM INDICATOR FLAGS string prsm_mode flg SYSTEM RUNNING IN PR/SM MODE os flg OPERATING SYSTEM IS OS/VS2 vxa flg MVS/XA IF ON esa flg MVS/ESA IF ON v4 flg MVS/ESA V4 IF ON subtypes_used flg SUBTYPES USED new_record flg NEW RECORD FORMAT rty SMF70RTY RECORD TYPE integer date SMF70DTE Date of Record date time SMF70TME Time of Record time timestamp virtualtime</description>
     </item>
     
     <item>
@@ -2633,8 +2633,8 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no c&amp;hellip; string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches &amp;hellip; integer lpar_system_name virtual lpar_name
-system_name LPAR-System name sid SMF70SID System ID string timestamp virtual time</description>
+Name Based on Description Type/Format sid SMF70SID System ID string timestamp virtualtime
+date Record Time Stamp lpar_number SMF70LPN Logical partition number integer system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for t&amp;hellip; string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches &amp;hellip; integer lpar_name SMF70LPM Logical partition name string lpar_system_name virtuallpar_name</description>
     </item>
     
     <item>
@@ -3690,7 +3690,13 @@ Record: SMF70S2 Based on: SMF70PRN </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&amp;hellip; integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total</description>
+Name Based on Description Type/Format msu_physical virtualdispatch_time_total
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&amp;hellip; integer msu_effective virtualdispatch_time_effective
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Effective MSU logical_processor_is_online virtuallogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type&amp;hellip; integer share_current virtualshare_actual</description>
     </item>
     
     <item>

@@ -39,7 +39,7 @@
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S6/</guid>
       <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF99_SDEF_MAP SMF99_PRODUCT_MAP SMF99_S6_SDEF_MAP SMF99_S6_PER_MAP SMF99_S6_SERVER_MAP Virtual fields Name Based on Description timestamp time
-date Record Time Stamp Record fields Name Based on Description Type/Format len SMF99LEN Record Length. This field and the next field (total of four bytes) for&amp;hellip; integer flg flag SMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtual time</description>
+date Record Time Stamp Record fields Name Based on Description Type/Format len SMF99LEN Record Length. This field and the next field (total of four bytes) for&amp;hellip; integer flg flagSMF99FLG System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip; string stu flg Subtypes utilized rty SMF99RTY Record type 99 integer date SMF99DTE Date of Record date time SMF99TME Time of Record time timestamp virtualtime</description>
     </item>
     
     <item>
@@ -1124,8 +1124,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Descript
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/capacity_factors/</guid>
       <description>Request capacity and max capacity factors for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer zaap_cap_fac processed SMF99_CF_ZAAP zAAP capacity Factor integer sid SMF99SID System ID string zaap_max_fac processed SMF99_MCF_ZAAP zAAP maximum capacity factor integer timestamp virtual time
-date Record Time Stamp cp_cap_fac processed SMF99_CF CP capacity Factor integer ziip_max_fac processed SMF99_MCF_ZIIP zIIP maximum capacity factor integer cp_max_fac processed SMF99_MCF CP maximum capacity factor integer </description>
+Name Based on Description Type/Format cp_max_fac processedSMF99_MCF CP maximum capacity factor integer timestamp virtualtime
+date Record Time Stamp ziip_max_fac processedSMF99_MCF_ZIIP zIIP maximum capacity factor integer ziip_cap_fac processedSMF99_CF_ZIIP zIIP capacity Factor integer sid SMF99SID System ID string zaap_cap_fac processedSMF99_CF_ZAAP zAAP capacity Factor integer zaap_max_fac processedSMF99_MCF_ZAAP zAAP maximum capacity factor integer cp_cap_fac processedSMF99_CF CP capacity Factor integer </description>
     </item>
     
     <item>
@@ -1357,7 +1357,7 @@ Map: SMF99_S2_SDEF_MAP Based on: SMF992CON </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/contention_analysis/</guid>
       <description>Request for contention analysis, so the features match them for the Machine Learning Model
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time</description>
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer total_util processedSMF99_CPUIFAA Total processor utilization integer cp_wait_time SMF99_DELTAWAITTIME LPAR CP wait time integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer lpar_busy_time SMF99_LPARBUSYTIME LPAR busy time CP integer cp_util processedSMF99_CPUA CP utilization integer cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer ziip_max_fac processedSMF99_MCF_ZIIP zIIP maximum capacity factor integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer ziip_cap_fac processedSMF99_CF_ZIIP zIIP capacity Factor integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime</description>
     </item>
     
     <item>
@@ -1625,8 +1625,8 @@ Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_misc Post-Processed Flags postpro
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/cp_service/</guid>
       <description>Request CP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 cp_imp4 virtual alias ilsu_array[4] CP service consumption for importance level 4 cp_free virtual alias ilsu_array[7] CP free service capacity sid SMF99SID System ID string cp_sys virtual alias ilsu_array[0] CP service consumption for importance sys timestamp virtual time
-date Record Time Stamp cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cp_imp2 virtual alias ilsu_array[2] CP service consumption for importance level 2 cp_disc virtual alias ilsu_array[6] CP service consumption for importance discretionary </description>
+Name Based on Description Type/Format cp_free virtualaliasilsu_array[7] CP free service capacity cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime
+date Record Time Stamp cp_imp3 virtualaliasilsu_array[3] CP service consumption for importance level 3 sid SMF99SID System ID string cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 cp_disc virtualaliasilsu_array[6] CP service consumption for importance discretionary cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 </description>
     </item>
     
     <item>
@@ -1648,8 +1648,8 @@ Post-Processed This field is an alias for ilsu_array[0].</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/cp_usage_and_trickels/</guid>
       <description>Request CP usage and trickels.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp cp_util processed SMF99_CPUA CP utilization integer </description>
+Name Based on Description Type/Format timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cp_util processedSMF99_CPUA CP utilization integer </description>
     </item>
     
     <item>
@@ -2628,7 +2628,8 @@ Field Bit-Position Description stu 1 Subtypes utilized </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_cp_cap/</guid>
       <description>Request free capacity for CP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cap_wait SMF99_FREE_LPAR_CAPACITY_WT_RELATED Free LPAR capacity based on the accumulated logical CPU wait times integer cp_free virtual alias ilsu_array[7] CP free service capacity sid SMF99SID System ID string cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer timestamp virtual time</description>
+Name Based on Description Type/Format cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer cp_free virtualaliasilsu_array[7] CP free service capacity timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer cap_wait SMF99_FREE_LPAR_CAPACITY_WT_RELATED Free LPAR capacity based on the accumulated logical CPU wait times integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer </description>
     </item>
     
     <item>
@@ -2659,8 +2660,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_FREE_LPAR_CAPACITY_UB_ZIIP </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_zaap_cap/</guid>
       <description>Request free capacity for zAAP
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cap_guar_zaap SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZAAP Free LPAR capacity which is always available based on the LPAR weight for zAAP integer zaap_free virtual alias ilsu_zaap_array[7] zAAP free service capacity cap_wait_zaap SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZAAP Free LPAR capacity based on the accumulated logical zAAP wait times integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp cap_lcp_zaap SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZAAP Free LPAR capacity based on the configured LCPs for zAAP integer cap_cec_zaap SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZAAP Free LPAR capacity CEC for zAAP integer </description>
+Name Based on Description Type/Format timestamp virtualtime
+date Record Time Stamp cap_guar_zaap SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZAAP Free LPAR capacity which is always available based on the LPAR weight for zAAP integer sid SMF99SID System ID string cap_cec_zaap SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZAAP Free LPAR capacity CEC for zAAP integer zaap_free virtualaliasilsu_zaap_array[7] zAAP free service capacity cap_wait_zaap SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZAAP Free LPAR capacity based on the accumulated logical zAAP wait times integer cap_lcp_zaap SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZAAP Free LPAR capacity based on the configured LCPs for zAAP integer </description>
     </item>
     
     <item>
@@ -2671,8 +2672,8 @@ date Record Time Stamp cap_lcp_zaap SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZAAP Fre
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/free_ziip_cap/</guid>
       <description>Request free capacity for zIIP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer ziip_free virtual alias ilsu_ziip_array[7] zIIP free service capacity sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cap_lcp_ziip SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZIIP Free LPAR capacity based on the configured LCPs for zIIP integer </description>
+Name Based on Description Type/Format cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer timestamp virtualtime
+date Record Time Stamp cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer sid SMF99SID System ID string ziip_free virtualaliasilsu_ziip_array[7] zIIP free service capacity cap_lcp_ziip SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZIIP Free LPAR capacity based on the configured LCPs for zIIP integer </description>
     </item>
     
     <item>
@@ -3456,7 +3457,7 @@ return polar_n1 &amp;amp; polar_n2 </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/samples/hiper_dispatch/</guid>
       <description>Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_vh SMF99C_VCM_CPUHI Number VHs @OA37736C integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds. The allocated capacity is pr&amp;hellip; integer cpu_vl SMF99C_VCM_CPULO Number VLs @OA37736C integer vl_unparked SMF99C_VCM_CPULOUNPARKED Number of unparked VLs @OA37736C integer lpar_capacity_unused SMF99C_VCM_LPARUNUSEDCAP Unused LPAR capacity in microseconds, including the unused capacity sh&amp;hellip; integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 @O&amp;hellip; integer lpar_capacity_non_guaranteed SMF99C_VCM_LPARCAPNONGUARAN Non guaranteed LPAR capacity in microseconds @OA37736C integer lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval l&amp;hellip; integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 @OA37736C integer cec_free_capacity SMF99C_VCM_CECCAPFREE Free CEC capacity in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 @OA37736C integer lpar_cap_used_non_guaranteed SMF99C_VCM_LPARCAPUSEDDISCR Used capacity of the non-guaranteed capacity (partially VM and unparke&amp;hellip; integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no V&amp;hellip; integer vcm_ceccaptotal SMF99C_VCM_CECCAPTOTAL Total CEC capacity in microseconds @OA37736C integer sid SMF99SID System ID string lpar_busy virtual lpar_capacity_used</description>
+Name Based on Description Type/Format lpar_capacity_guaranteed_vm SMF99C_VCM_LPARCAPMEDGUARAN Guaranteed LPAR capacity on VMs in microseconds @OA37736C integer vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds @OA37736C integer lpar_capacity_unused SMF99C_VCM_LPARUNUSEDCAP Unused LPAR capacity in microseconds, including the unused capacity sh&amp;hellip; integer lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated fr&amp;hellip; integer vcm_ceccaptotal SMF99C_VCM_CECCAPTOTAL Total CEC capacity in microseconds @OA37736C integer lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval l&amp;hellip; integer cec_capacity_used SMF99C_VCM_CECCAPUSEDADJ CEC capacity used in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer lpar_busy_projected processedSMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 @OA37736C integer cec_free_capacity SMF99C_VCM_CECCAPFREE Free CEC capacity in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer cpu_vm SMF99C_VCM_CPUMED Number of VMs @OA37736C integer lpar_busy virtuallpar_capacity_used</description>
     </item>
     
     <item>
@@ -3695,7 +3696,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</guid>
       <description>Request IO samples for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string sid SMF99SID System ID string samp_io_disconnected SMF99_DISC_IOSM_CURR DASDI/O disconnected samples for the current interval integer timestamp virtual time</description>
+Name Based on Description Type/Format period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string samp_io_disconnected SMF99_DISC_IOSM_CURR DASDI/O disconnected samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer samp_io_delay SMF99_DELAY_IOSM_CURR DASDI/O delay samples for the current interval integer samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer </description>
     </item>
     
     <item>
@@ -4793,8 +4795,8 @@ Map: SMF99_S2_CLS_MAP Based on: SMF99_CNUMP Description number of periods in the
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/p_num_online/</guid>
       <description>Request number of CPs, zIIPs and zAAPs online.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_online SMF99_CPUS_ONLINE Number of enabled CPs integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp zaap_online SMF99_IFAS_ONLINE Number of enabled zAAPs integer ziip_online SMF99_SUPS_ONLINE Number of enabled zIIPs integer </description>
+Name Based on Description Type/Format timestamp virtualtime
+date Record Time Stamp zaap_online SMF99_IFAS_ONLINE Number of enabled zAAPs integer sid SMF99SID System ID string cp_online SMF99_CPUS_ONLINE Number of enabled CPs integer ziip_online SMF99_SUPS_ONLINE Number of enabled zIIPs integer </description>
     </item>
     
     <item>
@@ -4805,8 +4807,8 @@ date Record Time Stamp zaap_online SMF99_IFAS_ONLINE Number of enabled zAAPs int
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/p_utilization/</guid>
       <description>Request CP, zIIP, zAAP and total utilization.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format total_util processed SMF99_CPUIFAA Total processor utilization integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp zaap_util processed SMF99_IFAA Zaap utilization integer cp_util processed SMF99_CPUA CP utilization integer ziip_util processed SMF99_SUPA Ziip utilization integer </description>
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string zaap_util processedSMF99_IFAA Zaap utilization integer total_util processedSMF99_CPUIFAA Total processor utilization integer cp_util processedSMF99_CPUA CP utilization integer </description>
     </item>
     
     <item>
@@ -4837,8 +4839,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_PGINS </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/page_ins_and_uic/</guid>
       <description>Request page-in rate count and UIC bucket information.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer uic2 SMF99_UIC2 Page frames in UIC bucket 2, see SMF99_FRV2 for bucket 2 delimiter integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp uic3 SMF99_UIC3 Page frames in UIC bucket 3, see SMF99_FRV3 for bucket 3 delimiter integer page_ins SMF99_PGINS Page-ins rate count used for calculating the system paging rate integer </description>
+Name Based on Description Type/Format timestamp virtualtime
+date Record Time Stamp uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer uic2 SMF99_UIC2 Page frames in UIC bucket 2, see SMF99_FRV2 for bucket 2 delimiter integer sid SMF99SID System ID string uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer page_ins SMF99_PGINS Page-ins rate count used for calculating the system paging rate integer uic3 SMF99_UIC3 Page frames in UIC bucket 3, see SMF99_FRV3 for bucket 3 delimiter integer </description>
     </item>
     
     <item>
@@ -6924,7 +6926,7 @@ Map: SMF99_S2_CLS_MAP Based on: SMF99_CGRN Description group name or blank if cl
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</guid>
       <description>Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rt_distri_num_trans[15] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL Goal value integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM Period number integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System ID string rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer timestamp virtual time</description>
+Name Based on Description Type/Format period_num SMF99_PNUM Period number integer rt_distri_num_trans[27] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[4] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[16] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[12] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[19] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[13] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[25] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[21] arraySMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer prtp SMF99_PRTP Response time goal percentile.</description>
     </item>
     
     <item>
@@ -6945,7 +6947,7 @@ Map: SMF99_S1_RG_MAP Based on: rg_flags Post-Processed This field is processed u
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/rg_capping/</guid>
       <description>Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526&amp;hellip; integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages. Or MSU max &amp;hellip; integer rg_susifa SMF99_RG_SUSIFA Tenant resource group&amp;rsquo;s aggregated IFA service units.</description>
+Name Based on Description Type/Format rg_type virtualrg_flags Type of resource group rg_mem_discretionary_2g SMF99_RG_MEM_DISCRETIONARY_2G Amount of available discretionary memory in 2G frames. integer max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the p&amp;hellip; integer min_sr SMF99_MIN_SR Minimum service rate for the group integer act_sr SMF99_ACT_SR Service rate received in last interval on the local system integer rg_mem_shortage_flags processedSMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags.</description>
     </item>
     
     <item>
@@ -8786,7 +8788,7 @@ Map: SMF99_S1_SL_MAP Based on: slconfigflags Post-Processed This virtual field c
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/smf_99_01_sample/</guid>
       <description>Request for commonly used SMF 99 subtype 1 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4] zIIP service consumption for importance level 4 cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cp_free virtual alias ilsu_array[7] CP free service capacity ziip_imp3 virtual alias ilsu_ziip_array[3] zIIP service consumption for importance level 3 cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer sid SMF99SID System ID string cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time</description>
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer zaap_util processedSMF99_IFAA Zaap utilization integer cctrcwtr SMF99_CCTRCWTR Number of address spaces or enclaves waiting longer than the threshold integer total_util processedSMF99_CPUIFAA Total processor utilization integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer cp_util processedSMF99_CPUA CP utilization integer ziip_imp3 virtualaliasilsu_ziip_array[3] zIIP service consumption for importance level 3 cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 ziip_disc virtualaliasilsu_ziip_array[6] zIIP service consumption for importance discretionary cctrcuse SMF99_CCTRCUSE Number of trickles used in the current interval integer cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime</description>
     </item>
     
     <item>
@@ -8797,7 +8799,7 @@ Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</guid>
       <description>Request for commonly used SMF 99 Subtype 2 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASDI/O using samples for the current interval integer goal_value SMF99_PGOALVAL Goal value integer mpl_in SMF99_PMPLI MPL in-target integer idle SMF99_PIDLE Idle samples integer pi_local processed SMF99_PLPI Local performance index integer buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer goal_type_name virtual goal_type Goal type name zaap_delay SMF99_PIFAD zAAP delay samples integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer disp_prio SMF99_PBDP Base dispatching priority integer period_num SMF99_PNUM Period number integer cpu_using SMF99_PCPUU CPU using samples integer sid SMF99SID System ID string timestamp virtual time</description>
+Name Based on Description Type/Format period_num SMF99_PNUM Period number integer cpu_using SMF99_PCPUU CPU using samples integer io_delay SMF99_PIOD I/O delay samples integer ziip_using SMF99_PSUPU zIIP using samples integer mpl_in SMF99_PMPLI MPL in-target integer mpl_delay SMF99_PMPLD MPL delay integer mpl_av SMF99_PAMTA Average Maximum MPL Target achieved integer cap_delay SMF99_PCAPD CPU cap delay integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASDI/O control unit queue samples for the current interval integer ready_user_av SMF99_PRUA Ready user avarage integer idle SMF99_PIDLE Idle samples integer io_using SMF99_PIOU I/O using samples integer cross_mem_delay SMF99_PXMO Cross memory integer srv_class_name SMF99_CNAM Service class name string timestamp virtualtime</description>
     </item>
     
     <item>
@@ -8988,7 +8990,8 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</guid>
       <description>Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples integer zaap_using SMF99_PIFAU zAAP using samples integer cap_delay SMF99_PCAPD CPU cap delay integer io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE Idle samples integer srv_class_name SMF99_CNAM Service class name string cross_mem_delay SMF99_PXMO Cross memory integer cpu_using SMF99_PCPUU CPU using samples integer ziip_delay SMF99_PSUPD zIIP delay samples integer sid SMF99SID System ID string buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer timestamp virtual time</description>
+Name Based on Description Type/Format srv_class_name SMF99_CNAM Service class name string timestamp virtualtime
+date Record Time Stamp cpu_using SMF99_PCPUU CPU using samples integer zaap_using SMF99_PIFAU zAAP using samples integer sid SMF99SID System ID string ziip_delay SMF99_PSUPD zIIP delay samples integer zaap_delay SMF99_PIFAD zAAP delay samples integer buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer mpl_delay SMF99_PMPLD MPL delay integer io_delay SMF99_PIOD I/O delay samples integer history_rows SMF99_NUM_SAMP_HIST_ROWS_USED number of history rows used to build the smple set integer cap_delay SMF99_PCAPD CPU cap delay integer cpu_delay SMF99_PCPUD CPU delay samples integer idle SMF99_PIDLE Idle samples integer ziip_using SMF99_PSUPU zIIP using samples integer io_using SMF99_PIOU I/O using samples integer cross_mem_delay SMF99_PXMO Cross memory integer </description>
     </item>
     
     <item>
@@ -8999,8 +9002,8 @@ Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples in
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</guid>
       <description>Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer </description>
+Name Based on Description Type/Format period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer </description>
     </item>
     
     <item>
@@ -9743,7 +9746,9 @@ Map: SMF99_S1_SDEF_MAP Based on: SMF99TON </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer topology_change virtual vcm_flag1 topology has changed @ME14601A cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer wuq_error virtual vcm_flag1 dispatcher WUQ error @ME14601A speed_change virtual vcm_flag1 processor speed change processor virtual high</description>
+Name Based on Description Type/Format cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer processor virtualhigh
+medium
+low processor type speed_change virtualvcm_flag1 processor speed change topology_change virtualvcm_flag1 topology has changed @ME14601A cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer timestamp virtualtime</description>
     </item>
     
     <item>
@@ -11577,7 +11582,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_IFAS_ONLINE Description Number of online as
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/zaap_service/</guid>
       <description>Request zAAP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format zaap_free virtual alias ilsu_zaap_array[7] zAAP free service capacity zaap_disc virtual alias ilsu_zaap_array[6] zAAP service consumption for importance discretionary zaap_imp3 virtual alias ilsu_zaap_array[3] zAAP service consumption for importance level 3 zaap_imp4 virtual alias ilsu_zaap_array[4] zAAP service consumption for importance level 4 zaap_sys virtual alias ilsu_zaap_array[0] zAAP service consumption for importance sys zaap_imp5 virtual alias ilsu_zaap_array[5] zAAP service consumption for importance level 5 sid SMF99SID System ID string timestamp virtual time</description>
+Name Based on Description Type/Format zaap_imp3 virtualaliasilsu_zaap_array[3] zAAP service consumption for importance level 3 zaap_imp2 virtualaliasilsu_zaap_array[2] zAAP service consumption for importance level 2 timestamp virtualtime
+date Record Time Stamp zaap_imp5 virtualaliasilsu_zaap_array[5] zAAP service consumption for importance level 5 sid SMF99SID System ID string zaap_sys virtualaliasilsu_zaap_array[0] zAAP service consumption for importance sys zaap_imp4 virtualaliasilsu_zaap_array[4] zAAP service consumption for importance level 4 zaap_disc virtualaliasilsu_zaap_array[6] zAAP service consumption for importance discretionary zaap_imp1 virtualaliasilsu_zaap_array[1] zAAP service consumption for importance level 1 zaap_free virtualaliasilsu_zaap_array[7] zAAP free service capacity </description>
     </item>
     
     <item>
@@ -11853,7 +11859,8 @@ Map: SMF99_S1_SS_MAP Based on: SMF99_SUPS_ONLINE Description Number of online SU
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/ziip_service/</guid>
       <description>Request zIIP service consumption per importance level
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format ziip_imp4 virtual alias ilsu_ziip_array[4] zIIP service consumption for importance level 4 ziip_sys virtual alias ilsu_ziip_array[0] zIIP service consumption for importance sys ziip_imp5 virtual alias ilsu_ziip_array[5] zIIP service consumption for importance level 5 ziip_imp2 virtual alias ilsu_ziip_array[2] zIIP service consumption for importance level 2 ziip_imp3 virtual alias ilsu_ziip_array[3] zIIP service consumption for importance level 3 ziip_free virtual alias ilsu_ziip_array[7] zIIP free service capacity sid SMF99SID System ID string timestamp virtual time</description>
+Name Based on Description Type/Format ziip_imp5 virtualaliasilsu_ziip_array[5] zIIP service consumption for importance level 5 ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string ziip_imp4 virtualaliasilsu_ziip_array[4] zIIP service consumption for importance level 4 ziip_free virtualaliasilsu_ziip_array[7] zIIP free service capacity ziip_disc virtualaliasilsu_ziip_array[6] zIIP service consumption for importance discretionary ziip_imp2 virtualaliasilsu_ziip_array[2] zIIP service consumption for importance level 2 ziip_imp1 virtualaliasilsu_ziip_array[1] zIIP service consumption for importance level 1 ziip_imp3 virtualaliasilsu_ziip_array[3] zIIP service consumption for importance level 3 </description>
     </item>
     
     <item>

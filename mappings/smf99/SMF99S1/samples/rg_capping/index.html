@@ -14,7 +14,7 @@
 
   <meta name="description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526&hellip; integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages. Or MSU max &hellip; integer rg_susifa SMF99_RG_SUSIFA Tenant resource group&rsquo;s aggregated IFA service units." />
+Name Based on Description Type/Format rg_type virtualrg_flags Type of resource group rg_mem_discretionary_2g SMF99_RG_MEM_DISCRETIONARY_2G Amount of available discretionary memory in 2G frames. integer max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the p&hellip; integer min_sr SMF99_MIN_SR Minimum service rate for the group integer act_sr SMF99_ACT_SR Service rate received in last interval on the local system integer rg_mem_shortage_flags processedSMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 
     <title>Sample - rg_capping | IBM SMF Explorer</title>
 
@@ -42,7 +42,7 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526… integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages. Or MSU max … integer rg_susifa SMF99_RG_SUSIFA Tenant resource group’s aggregated IFA service units." />
+Name Based on Description Type/Format rg_type virtualrg_flags Type of resource group rg_mem_discretionary_2g SMF99_RG_MEM_DISCRETIONARY_2G Amount of available discretionary memory in 2G frames. integer max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the p… integer min_sr SMF99_MIN_SR Minimum service rate for the group integer act_sr SMF99_ACT_SR Service rate received in last interval on the local system integer rg_mem_shortage_flags processedSMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/rg_capping/" />
 
@@ -53,7 +53,7 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 <meta name="twitter:title" content="Sample - rg_capping" />
   <meta name="twitter:description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526… integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages. Or MSU max … integer rg_susifa SMF99_RG_SUSIFA Tenant resource group’s aggregated IFA service units." />
+Name Based on Description Type/Format rg_type virtualrg_flags Type of resource group rg_mem_discretionary_2g SMF99_RG_MEM_DISCRETIONARY_2G Amount of available discretionary memory in 2G frames. integer max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the p… integer min_sr SMF99_MIN_SR Minimum service rate for the group integer act_sr SMF99_ACT_SR Service rate received in last interval on the local system integer rg_mem_shortage_flags processedSMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 
 
   <script type="application/ld+json">
@@ -64,7 +64,7 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
       "name": "Sample - rg_capping",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/rg_capping/",
       "headline": "Sample - rg_capping",
-      "description": "Request for RG and TRG capping data.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526… integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags. integer rgname SMF99_RGNAME name string rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min\/max specified in percentages. Or MSU max … integer rg_susifa SMF99_RG_SUSIFA Tenant resource group’s aggregated IFA service units.",
+      "description": "Request for RG and TRG capping data.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format rg_type virtual\rrg_flags Type of resource group rg_mem_discretionary_2g SMF99_RG_MEM_DISCRETIONARY_2G Amount of available discretionary memory in 2G frames. integer max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the p… integer min_sr SMF99_MIN_SR Minimum service rate for the group integer act_sr SMF99_ACT_SR Service rate received in last interval on the local system integer rg_mem_shortage_flags processed\rSMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags.",
       "wordCount" : "305",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -18664,10 +18664,50 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_fixed_frames_4k/"
->rg_mem_fixed_frames_4k</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_FIXED_FRAMES_4K</td>
-<td>Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526&hellip;</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_type/"
+>rg_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_flags/"
+>rg_flags</a></td>
+<td>Type of resource group</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_2g/"
+>rg_mem_discretionary_2g</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_DISCRETIONARY_2G</td>
+<td>Amount of available discretionary memory in 2G frames.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/max_sr/"
+>max_sr</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_MAX_SR</td>
+<td>Maximum service rate for the group (FFFFFFFF if not specified in the p&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/min_sr/"
+>min_sr</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_MIN_SR</td>
+<td>Minimum service rate for the group</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/act_sr/"
+>act_sr</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_ACT_SR</td>
+<td>Service rate received in last interval on the local system</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -18683,10 +18723,85 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_usage_4k/"
+>rg_mem_usage_4k</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_USAGE_4K</td>
+<td>Amount of memory used by a memory pool normalized to 4K frames. @OA526&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rgname/"
 >rgname</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_RGNAME</td>
 <td>name</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/slices/"
+>slices</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_SLICES</td>
+<td>Number of time slices that work in this group was capped</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_sys/"
+>cp_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
+>ilsu_array[0]</a></td>
+<td>CP service consumption for importance sys</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_4k/"
+>rg_mem_discretionary_4k</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_DISCRETIONARY_4K</td>
+<td>Amount of available disrectionary memory normalized to 4K frames. @OA5&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_fixed_frames_4k/"
+>rg_mem_fixed_frames_4k</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_FIXED_FRAMES_4K</td>
+<td>Amount of fixed frames in a memory pool nomalized to 4K frames. @OA526&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/time/"
+>time</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/date/"
+>date</a></td>
+<td>Record Time Stamp</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System ID</td>
 <td>string</td>
 </tr>
 <tr>
@@ -18710,19 +18825,28 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_4k/"
->rg_mem_discretionary_4k</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_DISCRETIONARY_4K</td>
-<td>Amount of available disrectionary memory normalized to 4K frames. @OA5&hellip;</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_backed_2g_frames/"
+>rg_mem_backed_2g_frames</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_BACKED_2G_FRAMES</td>
+<td>Number of backed 2G (fixed) frames in the memory pool.</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/max_sr/"
->max_sr</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_MAX_SR</td>
-<td>Maximum service rate for the group (FFFFFFFF if not specified in the p&hellip;</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_lacs/"
+>rg_lacs</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_LACS</td>
+<td>Tenant resource group long-term average of CPU service in MSU/h. Only &hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_perc_min/"
+>rg_perc_min</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_PERC_MIN</td>
+<td>Percentage min value, if min/max specified in percentages. Or MSU min &hellip;</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -18746,31 +18870,6 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System ID</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/time/"
->time</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/date/"
->date</a></td>
-<td>Record Time Stamp</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_isp/"
 >rg_isp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
@@ -18780,105 +18879,6 @@ Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_
 >rg_flags</a></td>
 <td>Indicates that specialty processor consumption is included in the grou&hellip;</td>
 <td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/min_sr/"
->min_sr</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_MIN_SR</td>
-<td>Minimum service rate for the group</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_usage_4k/"
->rg_mem_usage_4k</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_USAGE_4K</td>
-<td>Amount of memory used by a memory pool normalized to 4K frames. @OA526&hellip;</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_perc_min/"
->rg_perc_min</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_PERC_MIN</td>
-<td>Percentage min value, if min/max specified in percentages. Or MSU min &hellip;</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_sys/"
->cp_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[0]</a></td>
-<td>CP service consumption for importance sys</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_backed_2g_frames/"
->rg_mem_backed_2g_frames</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_BACKED_2G_FRAMES</td>
-<td>Number of backed 2G (fixed) frames in the memory pool.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_type/"
->rg_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_flags/"
->rg_flags</a></td>
-<td>Type of resource group</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_2g/"
->rg_mem_discretionary_2g</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_DISCRETIONARY_2G</td>
-<td>Amount of available discretionary memory in 2G frames.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/slices/"
->slices</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_SLICES</td>
-<td>Number of time slices that work in this group was capped</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/act_sr/"
->act_sr</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_ACT_SR</td>
-<td>Service rate received in last interval on the local system</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/rg_lacs/"
->rg_lacs</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_LACS</td>
-<td>Tenant resource group long-term average of CPU service in MSU/h. Only &hellip;</td>
-<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a

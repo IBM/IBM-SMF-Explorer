@@ -14,7 +14,7 @@
 
   <meta name="description" content="Request for contention analysis, so the features match them for the Machine Learning Model
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time" />
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer total_util processedSMF99_CPUIFAA Total processor utilization integer cp_wait_time SMF99_DELTAWAITTIME LPAR CP wait time integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer lpar_busy_time SMF99_LPARBUSYTIME LPAR busy time CP integer cp_util processedSMF99_CPUA CP utilization integer cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer ziip_max_fac processedSMF99_MCF_ZIIP zIIP maximum capacity factor integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer ziip_cap_fac processedSMF99_CF_ZIIP zIIP capacity Factor integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime" />
 
     <title>Sample - contention_analysis | IBM SMF Explorer</title>
 
@@ -42,7 +42,7 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request for contention analysis, so the features match them for the Machine Learning Model
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time" />
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer total_util processedSMF99_CPUIFAA Total processor utilization integer cp_wait_time SMF99_DELTAWAITTIME LPAR CP wait time integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer lpar_busy_time SMF99_LPARBUSYTIME LPAR busy time CP integer cp_util processedSMF99_CPUA CP utilization integer cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer ziip_max_fac processedSMF99_MCF_ZIIP zIIP maximum capacity factor integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer ziip_cap_fac processedSMF99_CF_ZIIP zIIP capacity Factor integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/contention_analysis/" />
 
@@ -53,7 +53,7 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <meta name="twitter:title" content="Sample - contention_analysis" />
   <meta name="twitter:description" content="Request for contention analysis, so the features match them for the Machine Learning Model
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time" />
+Name Based on Description Type/Format ziip_util processedSMF99_SUPA Ziip utilization integer ziip_sys virtualaliasilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer total_util processedSMF99_CPUIFAA Total processor utilization integer cp_wait_time SMF99_DELTAWAITTIME LPAR CP wait time integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer lpar_busy_time SMF99_LPARBUSYTIME LPAR busy time CP integer cp_util processedSMF99_CPUA CP utilization integer cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer ziip_max_fac processedSMF99_MCF_ZIIP zIIP maximum capacity factor integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer ziip_cap_fac processedSMF99_CF_ZIIP zIIP capacity Factor integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtualaliasilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtualaliasilsu_array[2] CP service consumption for importance level 2 cp_sys virtualaliasilsu_array[0] CP service consumption for importance sys cp_imp1 virtualaliasilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtualaliasilsu_array[5] CP service consumption for importance level 5 timestamp virtualtime" />
 
 
   <script type="application/ld+json">
@@ -64,7 +64,7 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
       "name": "Sample - contention_analysis",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/contention_analysis/",
       "headline": "Sample - contention_analysis",
-      "description": "Request for contention analysis, so the features match them for the Machine Learning Model\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer cp_free virtual alias ilsu_array[7] CP free service capacity cap_guar SMF99_FREE_LPAR_CAPACITY_GUARANTEED Free LPAR capacity which is always available based on the LPAR weight integer ifac_ziip SMF99_SU_IFACTOR_SUP UNCAPPED Service unit inflation factor for zIIPs integer cp_imp5 virtual alias ilsu_array[5] CP service consumption for importance level 5 cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer ziip_cap_fac processed SMF99_CF_ZIIP zIIP capacity Factor integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp3 virtual alias ilsu_array[3] CP service consumption for importance level 3 lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer cp_dispatch_time SMF99_DELTADISPTIME LPAR CP dispatch time integer sid SMF99SID System ID string ifac_uncapped SMF99_SU_IFACTOR_UNCAPPED UNCAPPED Service unit inflation factor for CPs integer cp_imp1 virtual alias ilsu_array[1] CP service consumption for importance level 1 timestamp virtual time",
+      "description": "Request for contention analysis, so the features match them for the Machine Learning Model\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format ziip_util processed\rSMF99_SUPA Ziip utilization integer ziip_sys virtual\ralias\rilsu_ziip_array[0] zIIP service consumption for importance sys cap_wait_ziip SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP Free LPAR capacity based on the accumulated logical zIIP wait times integer lpar_busy_time_ziip SMF99_LPARBUSYTIME_ZIIP LPAR busy time zIIP integer total_util processed\rSMF99_CPUIFAA Total processor utilization integer cp_wait_time SMF99_DELTAWAITTIME LPAR CP wait time integer cap_cec SMF99_FREE_LPAR_CAPACITY_CEC_RELATED Free LPAR capacity CEC integer lpar_busy_time SMF99_LPARBUSYTIME LPAR busy time CP integer cp_util processed\rSMF99_CPUA CP utilization integer cap_lcp SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG Free LPAR capacity based on the configured LCPs integer ziip_max_fac processed\rSMF99_MCF_ZIIP zIIP maximum capacity factor integer uic4 SMF99_UIC4 Page frames in UIC bucket 4 integer ziip_cap_fac processed\rSMF99_CF_ZIIP zIIP capacity Factor integer cap_cec_ziip SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP Free LPAR capacity CEC for zIIP integer uic1 SMF99_UIC1 Page frames in UIC bucket 1, see SMF99_FRV1 for bucket 1 delimiter integer cp_imp4 virtual\ralias\rilsu_array[4] CP service consumption for importance level 4 cp_imp2 virtual\ralias\rilsu_array[2] CP service consumption for importance level 2 cp_sys virtual\ralias\rilsu_array[0] CP service consumption for importance sys cp_imp1 virtual\ralias\rilsu_array[1] CP service consumption for importance level 1 cap_guar_ziip SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP Free LPAR capacity which is always available based on the LPAR weight for zIIP integer cp_imp5 virtual\ralias\rilsu_array[5] CP service consumption for importance level 5 timestamp virtual\rtime",
       "wordCount" : "424",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -18664,65 +18664,25 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic4/"
->uic4</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_UIC4</td>
-<td>Page frames in UIC bucket 4</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_util/"
+>ziip_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99_SUPA</td>
+<td>Ziip utilization</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_cec_ziip/"
->cap_cec_ziip</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP</td>
-<td>Free LPAR capacity CEC for zIIP</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_free/"
->cp_free</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_sys/"
+>ziip_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
  <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[7]</a></td>
-<td>CP free service capacity</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_guar/"
->cap_guar</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_GUARANTEED</td>
-<td>Free LPAR capacity which is always available based on the LPAR weight</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ifac_ziip/"
->ifac_ziip</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_SU_IFACTOR_SUP</td>
-<td>UNCAPPED Service unit inflation factor for zIIPs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp5/"
->cp_imp5</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[5]</a></td>
-<td>CP service consumption for importance level 5</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
+>ilsu_ziip_array[0]</a></td>
+<td>zIIP service consumption for importance sys</td>
 <td></td>
 </tr>
 <tr>
@@ -18732,6 +18692,90 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 >cap_wait_ziip</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_FREE_LPAR_CAPACITY_WT_RELATED_ZIIP</td>
 <td>Free LPAR capacity based on the accumulated logical zIIP wait times</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/lpar_busy_time_ziip/"
+>lpar_busy_time_ziip</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_LPARBUSYTIME_ZIIP</td>
+<td>LPAR busy time zIIP</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/total_util/"
+>total_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99_CPUIFAA</td>
+<td>Total processor utilization</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_wait_time/"
+>cp_wait_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_DELTAWAITTIME</td>
+<td>LPAR CP wait time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_cec/"
+>cap_cec</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_CEC_RELATED</td>
+<td>Free LPAR capacity CEC</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/lpar_busy_time/"
+>lpar_busy_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_LPARBUSYTIME</td>
+<td>LPAR busy time CP</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_util/"
+>cp_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99_CPUA</td>
+<td>CP utilization</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_lcp/"
+>cap_lcp</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG</td>
+<td>Free LPAR capacity based on the configured LCPs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_max_fac/"
+>ziip_max_fac</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99_MCF_ZIIP</td>
+<td>zIIP maximum capacity factor</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic4/"
+>uic4</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_UIC4</td>
+<td>Page frames in UIC bucket 4</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -18747,6 +18791,15 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_cec_ziip/"
+>cap_cec_ziip</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_CEC_RELATD_ZIIP</td>
+<td>Free LPAR capacity CEC for zIIP</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic1/"
 >uic1</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_UIC1</td>
@@ -18756,52 +18809,44 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp3/"
->cp_imp3</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp4/"
+>cp_imp4</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
  <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[3]</a></td>
-<td>CP service consumption for importance level 3</td>
+>ilsu_array[4]</a></td>
+<td>CP service consumption for importance level 4</td>
 <td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/lpar_busy_time_ziip/"
->lpar_busy_time_ziip</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_LPARBUSYTIME_ZIIP</td>
-<td>LPAR busy time zIIP</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp2/"
+>cp_imp2</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
+>ilsu_array[2]</a></td>
+<td>CP service consumption for importance level 2</td>
+<td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_dispatch_time/"
->cp_dispatch_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_DELTADISPTIME</td>
-<td>LPAR CP dispatch time</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_sys/"
+>cp_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
+</span></span></td>
+<td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System ID</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ifac_uncapped/"
->ifac_uncapped</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_SU_IFACTOR_UNCAPPED</td>
-<td>UNCAPPED Service unit inflation factor for CPs</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
+>ilsu_array[0]</a></td>
+<td>CP service consumption for importance sys</td>
+<td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -18815,6 +18860,29 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
 >ilsu_array[1]</a></td>
 <td>CP service consumption for importance level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_guar_ziip/"
+>cap_guar_ziip</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP</td>
+<td>Free LPAR capacity which is always available based on the LPAR weight for zIIP</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp5/"
+>cp_imp5</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
+>ilsu_array[5]</a></td>
+<td>CP service consumption for importance level 5</td>
 <td></td>
 </tr>
 <tr>
@@ -18836,20 +18904,101 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic3/"
->uic3</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_UIC3</td>
-<td>Page frames in UIC bucket 3, see SMF99_FRV3 for bucket 3 delimiter</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp3/"
+>cp_imp3</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
+>ilsu_array[3]</a></td>
+<td>CP service consumption for importance level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic2/"
+>uic2</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_UIC2</td>
+<td>Page frames in UIC bucket 2, see SMF99_FRV2 for bucket 2 delimiter</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_util/"
->cp_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_free/"
+>ziip_free</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
 </span></span></td>
-<td>SMF99_CPUA</td>
-<td>CP utilization</td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
+>ilsu_ziip_array[7]</a></td>
+<td>zIIP free service capacity</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_wait/"
+>cap_wait</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_WT_RELATED</td>
+<td>Free LPAR capacity based on the accumulated logical CPU wait times</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_wait_time/"
+>ziip_wait_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_DELTAWAITTIMEZIIP</td>
+<td>LPAR zIIP wait time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_lcp_ziip/"
+>cap_lcp_ziip</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZIIP</td>
+<td>Free LPAR capacity based on the configured LCPs for zIIP</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ifac_uncapped/"
+>ifac_uncapped</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_SU_IFACTOR_UNCAPPED</td>
+<td>UNCAPPED Service unit inflation factor for CPs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_dispatch_time/"
+>cp_dispatch_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_DELTADISPTIME</td>
+<td>LPAR CP dispatch time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ifac_ziip/"
+>ifac_ziip</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_SU_IFACTOR_SUP</td>
+<td>UNCAPPED Service unit inflation factor for zIIPs</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -18869,34 +19018,38 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_wait_time/"
->ziip_wait_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_DELTAWAITTIMEZIIP</td>
-<td>LPAR zIIP wait time</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp2/"
->cp_imp2</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_free/"
+>cp_free</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
  <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[2]</a></td>
-<td>CP service consumption for importance level 2</td>
+>ilsu_array[7]</a></td>
+<td>CP free service capacity</td>
 <td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_util/"
->ziip_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_imp5/"
+>ziip_imp5</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+ <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
 </span></span></td>
-<td>SMF99_SUPA</td>
-<td>Ziip utilization</td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
+>ilsu_ziip_array[5]</a></td>
+<td>zIIP service consumption for importance level 5</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_guar/"
+>cap_guar</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_FREE_LPAR_CAPACITY_GUARANTEED</td>
+<td>Free LPAR capacity which is always available based on the LPAR weight</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -18916,112 +19069,10 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_guar_ziip/"
->cap_guar_ziip</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_GUARANTEED_ZIIP</td>
-<td>Free LPAR capacity which is always available based on the LPAR weight for zIIP</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_lcp_ziip/"
->cap_lcp_ziip</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG_ZIIP</td>
-<td>Free LPAR capacity based on the configured LCPs for zIIP</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_imp5/"
->ziip_imp5</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
->ilsu_ziip_array[5]</a></td>
-<td>zIIP service consumption for importance level 5</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_free/"
->ziip_free</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
->ilsu_ziip_array[7]</a></td>
-<td>zIIP free service capacity</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_sys/"
->cp_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[0]</a></td>
-<td>CP service consumption for importance sys</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_cec/"
->cap_cec</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_CEC_RELATED</td>
-<td>Free LPAR capacity CEC</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_sys/"
->ziip_sys</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_ziip_array/"
->ilsu_ziip_array[0]</a></td>
-<td>zIIP service consumption for importance sys</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/total_util/"
->total_util</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99_CPUIFAA</td>
-<td>Total processor utilization</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_wait/"
->cap_wait</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_WT_RELATED</td>
-<td>Free LPAR capacity based on the accumulated logical CPU wait times</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic2/"
->uic2</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_UIC2</td>
-<td>Page frames in UIC bucket 2, see SMF99_FRV2 for bucket 2 delimiter</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/uic3/"
+>uic3</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_UIC3</td>
+<td>Page frames in UIC bucket 3, see SMF99_FRV3 for bucket 3 delimiter</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -19046,57 +19097,6 @@ Name Based on Description Type/Format uic4 SMF99_UIC4 Page frames in UIC bucket 
 <td>SMF99_DELTADISPTIMEZIIP</td>
 <td>LPAR zIIP dispatch time</td>
 <td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cap_lcp/"
->cap_lcp</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_FREE_LPAR_CAPACITY_LCP_CONFIG</td>
-<td>Free LPAR capacity based on the configured LCPs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_wait_time/"
->cp_wait_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_DELTAWAITTIME</td>
-<td>LPAR CP wait time</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/lpar_busy_time/"
->lpar_busy_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_LPARBUSYTIME</td>
-<td>LPAR busy time CP</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ziip_max_fac/"
->ziip_max_fac</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99_MCF_ZIIP</td>
-<td>zIIP maximum capacity factor</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/cp_imp4/"
->cp_imp4</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
- <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-alias);color:var(--tag-color-alias);border: none'>alias</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/fields/ilsu_array/"
->ilsu_array[4]</a></td>
-<td>CP service consumption for importance level 4</td>
-<td></td>
 </tr>
 </tbody>
 </table> </div>

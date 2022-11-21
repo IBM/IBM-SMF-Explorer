@@ -18737,19 +18737,11 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <section class="gdoc-markdown">
         Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples integer zaap_using SMF99_PIFAU zAAP using samples integer cap_delay SMF99_PCAPD CPU cap delay integer io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE Idle samples integer srv_class_name SMF99_CNAM Service class name string cross_mem_delay SMF99_PXMO Cross memory integer cpu_using SMF99_PCPUU CPU using samples integer ziip_delay SMF99_PSUPD zIIP delay samples integer sid SMF99SID System ID string buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer timestamp virtual time
+Name Based on Description Type/Format srv_class_name SMF99_CNAM Service class name string timestamp virtualtime
+date Record Time Stamp cpu_using SMF99_PCPUU CPU using samples integer zaap_using SMF99_PIFAU zAAP using samples integer sid SMF99SID System ID string ziip_delay SMF99_PSUPD zIIP delay samples integer zaap_delay SMF99_PIFAD zAAP delay samples integer buffer_pool_delay SMF99_PBPD Buffer pool delay samples integer mpl_delay SMF99_PMPLD MPL delay integer io_delay SMF99_PIOD I/O delay samples integer history_rows SMF99_NUM_SAMP_HIST_ROWS_USED number of history rows used to build the smple set integer cap_delay SMF99_PCAPD CPU cap delay integer cpu_delay SMF99_PCPUD CPU delay samples integer idle SMF99_PIDLE Idle samples integer ziip_using SMF99_PSUPU zIIP using samples integer io_using SMF99_PIOU I/O using samples integer cross_mem_delay SMF99_PXMO Cross memory integer 
       </section>
 
       <div class="gdoc-post__readmore">
-        
-          <a
-            class="flex-inline align-center fake-link"
-            title="Read full post"
-            href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/"
-          >
-            Read full post
-            <i class="gdoc-icon">gdoc_arrow_right_alt</i>
-          </a>
         
       </div>
 
@@ -18812,8 +18804,8 @@ Name Based on Description Type/Format cpu_delay SMF99_PCPUD CPU delay samples in
       <section class="gdoc-markdown">
         Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer sid SMF99SID System ID string timestamp virtual time
-date Record Time Stamp srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer 
+Name Based on Description Type/Format period_num SMF99_PNUM Period number integer srv_class_name SMF99_CNAM Service class name string timestamp virtualtime
+date Record Time Stamp sid SMF99SID System ID string srv_cp_service SMF99_PSERV Service accumulated during policy adjustment interval in unweighted CPU service units integer srv_ziip_service SMF99_PSSERV zIIP service accumulated during interval integer srv_zaap_service SMF99_PISERV zAAP service accumulated during interval integer 
       </section>
 
       <div class="gdoc-post__readmore">

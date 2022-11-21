@@ -2909,12 +2909,8 @@ Record: SMF72S3 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sample_io_delay R723CIOD DASD I/O delay samples integer transaction_response_time_variance virtual transaction_total_count
-transaction_total_time
-transaction_squared_sum_time Variance of the transaction RT times sid SMF72SID System ID string transaction_inel_delay_time_mean virtual transaction_inel_delay_time
-transaction_total_count Mean transaction not-affinity-related delay time transaction_executed_per_second virtual transaction_executed_count
-interval_in_milliseconds Average transaction executions per second for this interval. utilization_cp virtual utilization_total
-utilization_ziip</description>
+Name Based on Description Type/Format sample_crypto_using virtualsample_ap_crypto_using Total crypto using samples. sample_io_delay R723CIOD DASD I/O delay samples integer sample_mpl_delay R723CMPL MPL delay. integer sample_idle R723CIDL Idle. Work is in STIMER wait, TSO terminal wait, APPC wait, or is an i&amp;hellip; integer transaction_execution_time_mean virtualtransaction_execution_time
+transaction_total_count Mean transaction execution time class_goal_value R723CVAL Response time goal - or Execution velocity goal - or zero if discretio&amp;hellip; integer utilization_zaap_on_cp virtualtotal_service_units_zaap_on_cp</description>
     </item>
     
     <item>

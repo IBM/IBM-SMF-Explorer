@@ -18672,7 +18672,13 @@
       <section class="gdoc-markdown">
         Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&hellip; integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total
+Name Based on Description Type/Format msu_physical virtualdispatch_time_total
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&hellip; integer msu_effective virtualdispatch_time_effective
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Effective MSU logical_processor_is_online virtuallogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type&hellip; integer share_current virtualshare_actual
       </section>
 
       <div class="gdoc-post__readmore">

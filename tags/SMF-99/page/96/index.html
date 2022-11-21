@@ -18997,7 +18997,9 @@ Map: SMF99_S1_SDEF_MAP Based on: SMF99TON
       <section class="gdoc-markdown">
         Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer topology_change virtual vcm_flag1 topology has changed @ME14601A cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer wuq_error virtual vcm_flag1 dispatcher WUQ error @ME14601A speed_change virtual vcm_flag1 processor speed change processor virtual high
+Name Based on Description Type/Format cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer processor virtualhigh
+medium
+low processor type speed_change virtualvcm_flag1 processor speed change topology_change virtualvcm_flag1 topology has changed @ME14601A cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer timestamp virtualtime
       </section>
 
       <div class="gdoc-post__readmore">

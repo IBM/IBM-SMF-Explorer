@@ -21,7 +21,7 @@
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf73/SMF73S1/</guid>
       <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF73PRO SMF73CTL SMF73CHA SMF73ECD SMF73CM1 SMF73CM2 SMF73CM3 SMF73EM2 Virtual fields Name Based on Description timestamp date
-time Record Timestamp boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format date SMF73DTE Date of Record date time SMF73TME Time of Record time timestamp virtual date
+time Record Timestamp boost_class fla Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown Record fields Name Based on Description Type/Format date SMF73DTE Date of Record date time SMF73TME Time of Record time timestamp virtualdate
 time Record Timestamp len SMF73LEN SMF RECORD LENGTH.</description>
     </item>
     

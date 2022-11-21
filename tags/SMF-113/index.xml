@@ -22,7 +22,7 @@
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/</guid>
       <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_1_CTR SMF113_1_CSS SMF113_1_SCDS SMF113_1_LCDS Virtual fields Name Based on Description timestamp time
 date Record Time Stamp interval intervalstart
-intervalend The interval time delta Record fields Name Based on Description Type/Format flg flag SMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtual time</description>
+intervalend The interval time delta Record fields Name Based on Description Type/Format flg flagSMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtualtime</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ intervalend The interval time delta Record fields Name Based on Description Type
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/</guid>
       <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_2_CTR SMF113_2_CSS SMF113_2_CDS Virtual fields Name Based on Description timestamp time
 date Record Time Stamp interval intervalstart
-intervalend The interval time delta Record fields Name Based on Description Type/Format flg flag SMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtual time</description>
+intervalend The interval time delta Record fields Name Based on Description Type/Format flg flagSMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtualtime</description>
     </item>
     
     <item>

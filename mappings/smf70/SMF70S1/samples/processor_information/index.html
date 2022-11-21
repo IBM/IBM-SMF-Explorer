@@ -14,7 +14,13 @@
 
   <meta name="description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&hellip; integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format msu_physical virtualdispatch_time_total
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic&hellip; integer msu_effective virtualdispatch_time_effective
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Effective MSU logical_processor_is_online virtuallogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type&hellip; integer share_current virtualshare_actual" />
 
     <title>Sample - processor_information | IBM SMF Explorer</title>
 
@@ -42,7 +48,13 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format msu_physical virtualdispatch_time_total
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer msu_effective virtualdispatch_time_effective
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Effective MSU logical_processor_is_online virtuallogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type… integer share_current virtualshare_actual" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/" />
 
@@ -53,7 +65,13 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <meta name="twitter:title" content="Sample - processor_information" />
   <meta name="twitter:description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format msu_physical virtualdispatch_time_total
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer msu_effective virtualdispatch_time_effective
+cpa_scaling_factor_effective
+cpu_adjustment_factor_effective
+interval_in_milliseconds Effective MSU logical_processor_is_online virtuallogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type… integer share_current virtualshare_actual" />
 
 
   <script type="application/ld+json">
@@ -64,7 +82,7 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
       "name": "Sample - processor_information",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/",
       "headline": "Sample - processor_information",
-      "description": "Request necessary fields from SMF70S1 on processors\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format share_maximum SMF70MAS Processor maximum share integer cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer processor_weight SMF70BPS Processor relative share integer msu_physical virtual dispatch_time_total",
+      "description": "Request necessary fields from SMF70S1 on processors\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format msu_physical virtual\rdispatch_time_total\ncpa_scaling_factor_effective\ncpu_adjustment_factor_effective\ninterval_in_milliseconds Physical MSU sid SMF70SID System ID string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logic… integer msu_effective virtual\rdispatch_time_effective\ncpa_scaling_factor_effective\ncpu_adjustment_factor_effective\ninterval_in_milliseconds Effective MSU logical_processor_is_online virtual\rlogical_processor_online_time Logical processor is online for the given partition cap_absolute SMF70HW_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type… integer share_current virtual\rshare_actual",
       "wordCount" : "230",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -18664,52 +18682,6 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_maximum/"
->share_maximum</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70MAS</td>
-<td>Processor maximum share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_name/"
->cpu_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF70CIN</td>
-<td>CPU-identification name</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
->cpu_count</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70CTN</td>
-<td>Number of physical CPUs of this type at interval end</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_wlm_percentage/"
->cap_wlm_percentage</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70NSW</td>
-<td>Number of Diagnose samples where WLM considers to cap the set of logic&hellip;</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
->processor_weight</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70BPS</td>
-<td>Processor relative share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/msu_physical/"
 >msu_physical</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
@@ -18732,46 +18704,29 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute_group/"
->cap_absolute_group</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70HWGR_CAP_LIMIT</td>
-<td>If not zero, absolute limit on partition usage of all CPUs of the type&hellip;</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70SID</td>
+<td>System ID</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
+>cpu_count</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70CTN</td>
+<td>Number of physical CPUs of this type at interval end</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/time/"
->time</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/date/"
->date</a></td>
-<td>Record Time Stamp</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_current/"
->share_current</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
->share_actual</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sample_diagnose/"
->sample_diagnose</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
->processor_weight</a></td>
-<td>Accumulated processor current share</td>
-<td></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_wlm_percentage/"
+>cap_wlm_percentage</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70NSW</td>
+<td>Number of Diagnose samples where WLM considers to cap the set of logic&hellip;</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -18798,11 +18753,15 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_actual_percentage/"
->cap_actual_percentage</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70NCA</td>
-<td>Number of Diagnose samples where capping actually limited the usage of&hellip;</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_is_online/"
+>logical_processor_is_online</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a></td>
+<td>Logical processor is online for the given partition</td>
+<td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -18816,11 +18775,65 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_current/"
+>share_current</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
+>share_actual</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sample_diagnose/"
+>sample_diagnose</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
+>processor_weight</a></td>
+<td>Accumulated processor current share</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
+>processor_weight</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70BPS</td>
+<td>Processor relative share</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_name/"
+>cpu_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF70CIN</td>
+<td>CPU-identification name</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_minimum/"
 >share_minimum</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF70MIS</td>
 <td>Processor minimum share</td>
 <td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/time/"
+>time</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/date/"
+>date</a></td>
+<td>Record Time Stamp</td>
+<td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -18838,28 +18851,6 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_is_online/"
->logical_processor_is_online</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a></td>
-<td>Logical processor is online for the given partition</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
->share_actual</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70ACS</td>
-<td>Accumulated processor actual share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
 >dispatch_time_total</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF70PDT</td>
@@ -18869,23 +18860,38 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70ONT</td>
-<td>Logical processor online time</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_maximum/"
+>share_maximum</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70MAS</td>
+<td>Processor maximum share</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval_in_milliseconds/"
->interval_in_milliseconds</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute_group/"
+>cap_absolute_group</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70HWGR_CAP_LIMIT</td>
+<td>If not zero, absolute limit on partition usage of all CPUs of the type&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/utilization_per_cpu_physical/"
+>utilization_per_cpu_physical</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval/"
->interval</a></td>
-<td>Interval duration in milliseconds</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
+>dispatch_time_total</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
+>cpu_count</a></td>
+<td>Physical per CPU Utilization</td>
 <td></td>
 </tr>
 <tr>
@@ -18913,29 +18919,41 @@ Name Based on Description Type/Format share_maximum SMF70MAS Processor maximum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70SID</td>
-<td>System ID</td>
-<td>string</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
+>share_actual</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70ACS</td>
+<td>Accumulated processor actual share</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/utilization_per_cpu_physical/"
->utilization_per_cpu_physical</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70ONT</td>
+<td>Logical processor online time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_actual_percentage/"
+>cap_actual_percentage</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70NCA</td>
+<td>Number of Diagnose samples where capping actually limited the usage of&hellip;</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval_in_milliseconds/"
+>interval_in_milliseconds</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
->dispatch_time_total</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
->cpu_count</a></td>
-<td>Physical per CPU Utilization</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval/"
+>interval</a></td>
+<td>Interval duration in milliseconds</td>
 <td></td>
 </tr>
 </tbody>
