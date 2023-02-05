@@ -26,7 +26,8 @@ os_var_user_name = "SMFEXPLORER_USERNAME"
 os_var_user_password = "SMFEXPLORER_PASSWORD"
 
 
-def select_server(no_tls: bool = True):
+def select_server(no_tls: bool = False):
+    print("############################", no_tls)
     if os_var_connection_string in os.environ:
         print("Connection string found in system environment")
         connection_string = os.environ[os_var_connection_string]
@@ -88,13 +89,14 @@ def start_jupyter(connection_string, log: bool = False):
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--log-output", action="store_true")
+parser.add_argument("--no_tls", default=False)
 
 
 def main():
     try:
         ns = parser.parse_args()
         # Select Server to use
-        connection_string = select_server()
+        connection_string = select_server(ns.no_tls)
 
         start_jupyter(connection_string, log=ns.log_output)
     except KeyboardInterrupt:
