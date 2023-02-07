@@ -88,7 +88,7 @@ def start_jupyter(connection_string, log: bool = False):
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--log-output", action="store_true")
-parser.add_argument("--no_verify_tls", default=False)
+parser.add_argument("--no-verify-tls", default=False)
 
 
 def main():
