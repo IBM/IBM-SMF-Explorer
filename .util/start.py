@@ -26,7 +26,7 @@ os_var_user_name = "SMFEXPLORER_USERNAME"
 os_var_user_password = "SMFEXPLORER_PASSWORD"
 
 
-def select_server(no_tls: bool = True):
+def select_server(no_verify_tls: bool = False):
     if os_var_connection_string in os.environ:
         print("Connection string found in system environment")
         connection_string = os.environ[os_var_connection_string]
@@ -53,7 +53,7 @@ def select_server(no_tls: bool = True):
     )
     if match:
 
-        return f"mode=dgapi;url={connection_string};verify_ssl={'false' if no_tls else 'true'};username={user_name};password={user_password}"
+        return f"mode=dgapi;url={connection_string};verify_ssl={'false' if no_verify_tls else 'true'};username={user_name};password={user_password}"
 
     print("Invalid connection string")
     exit(1)
@@ -88,13 +88,14 @@ def start_jupyter(connection_string, log: bool = False):
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--log-output", action="store_true")
+parser.add_argument("--no-verify-tls", default=False)
 
 
 def main():
     try:
         ns = parser.parse_args()
         # Select Server to use
-        connection_string = select_server()
+        connection_string = select_server(ns.no_verify_tls)
 
         start_jupyter(connection_string, log=ns.log_output)
     except KeyboardInterrupt:
