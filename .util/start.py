@@ -101,7 +101,6 @@ def main():
         connection_string = select_server(ns.no_verify_tls)
         start_jupyter(connection_string, log=ns.log_output)
     except KeyboardInterrupt:
-        print("")
         pass
 
 
