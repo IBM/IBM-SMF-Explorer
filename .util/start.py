@@ -89,14 +89,16 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("--log-output", action="store_true")
 parser.add_argument("--no-verify-tls", default=False)
-
+parser.add_argument("--cert-path", help='the path to the SSL certificate file for the specified host')
 
 def main():
     try:
         ns = parser.parse_args()
+        custom_ca_path = ns.cert_path
+        if custom_ca_path:
+            os.environ['REQUESTS_CA_BUNDLE'] = custom_ca_path
         # Select Server to use
         connection_string = select_server(ns.no_verify_tls)
-
         start_jupyter(connection_string, log=ns.log_output)
     except KeyboardInterrupt:
         print("")
