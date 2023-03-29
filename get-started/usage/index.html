@@ -18626,6 +18626,7 @@
       <nav id="TableOfContents"><ul>
         <li>
           <ul>
+            <li><a href="#configure-the-certificate-for-your-workstation">Configure the certificate for your workstation</a></li>
             <li><a href="#starting-the-environment">Starting the environment</a></li>
             <li><a href="#using-the-environment">Using the environment</a></li>
             <li><a href="#shutting-down">Shutting down</a></li>
@@ -18638,6 +18639,27 @@
 <p>The URL for the <em>z/OS Data Gatherer: SMF Data REST Services</em> endpoint usually has the form <code>https://[host-domain/IP]/zosmf/zosdg/smf</code>.
 If you access the URL you should see the <em>SMF Data REST Services</em> Swagger page.
 A system administrator should be able to provide you with the correct endpoint.</p>
+    
+ 
+     
+<div class="gdoc-page__anchorwrap">
+    <h3 id="configure-the-certificate-for-your-workstation">
+        Configure the certificate for your workstation
+        <a data-clipboard-text="https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/get-started/usage/#configure-the-certificate-for-your-workstation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Configure the certificate for your workstation" aria-label="Anchor to: Configure the certificate for your workstation" href="#configure-the-certificate-for-your-workstation">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>IBM SMF Explorer leverages the <em>SMF Data REST Services</em> to fetch data, therefore, you should make sure that the certificate for the REST Services is configured properly on your workstation. This ensures a secure connection with the REST Services. Without the proper setup of the certificate, the connection will be rejected. Please contact your system administrator for further information.</p>
+<p>Alternatively, you can deactivate the certification validation temporarily for your test environment as below. However, this is <strong>not recommended</strong>, since it opens up the test environment to potential security vulnerabilities.</p>
+
+
+    
+    
+    
+    
+    
+    
 <div class="gdoc-page__anchorwrap">
     <h3 id="starting-the-environment">
         Starting the environment
