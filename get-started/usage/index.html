@@ -18654,6 +18654,37 @@ A system administrator should be able to provide you with the correct endpoint.<
 <p>Alternatively, you can deactivate the certification validation temporarily for your test environment as below. However, this is <strong>not recommended</strong>, since it opens up the test environment to potential security vulnerabilities.</p>
 
 
+
+<div class="gdoc-tabs">
+    <input
+      type="radio"
+      class="gdoc-tabs__control hidden"
+      name="tabs-start"
+      id="tabs-start-0"
+      checked="checked"
+    />
+    <label for="tabs-start-0" class="gdoc-tabs__label">
+      Windows(Powershell)
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="p">.\</span><span class="n">start</span><span class="p">.</span><span class="n">bat</span> <span class="p">-</span><span class="n">-no-verify-tls</span><span class="p">=</span><span class="n">True</span>
+</span></span></code></pre></div>
+    </div>
+    <input
+      type="radio"
+      class="gdoc-tabs__control hidden"
+      name="tabs-start"
+      id="tabs-start-1"
+      
+    />
+    <label for="tabs-start-1" class="gdoc-tabs__label">
+      Linux/MacOS/GitBash
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">./start --no-verify-tls<span class="o">=</span>True
+</span></span></code></pre></div>
+    </div>
+</div>
     
     
     
