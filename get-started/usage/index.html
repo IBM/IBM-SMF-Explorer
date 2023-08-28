@@ -18651,6 +18651,44 @@ A system administrator should be able to provide you with the correct endpoint.<
     </h3>
 </div>
 <p>IBM SMF Explorer leverages the <em>SMF Data REST Services</em> to fetch data, therefore, you should make sure that the certificate for the REST Services is configured properly on your workstation. This ensures a secure connection with the REST Services. Without the proper setup of the certificate, the connection will be rejected. Please contact your system administrator for further information.</p>
+<p>You can ask your system administrator for the certificate or download the certificate from your browser and save it locally. To run SMF Explorer with a custom certificate, you can provide the path to this certificate on starting:</p>
+
+
+
+
+<div class="gdoc-tabs">
+    <input
+      type="radio"
+      class="gdoc-tabs__control hidden"
+      name="tabs-start"
+      id="tabs-start-0"
+      checked="checked"
+    />
+    <label for="tabs-start-0" class="gdoc-tabs__label">
+      Windows(Powershell)
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="p">.\</span><span class="n">start</span><span class="p">.</span><span class="n">bat</span> <span class="p">-</span><span class="n"> ---cacert=path_to_ca_cert </span><span class="p">=</span><span class="n">True</span>
+</span></span></code></pre></div>
+    </div>
+    <input
+      type="radio"
+      class="gdoc-tabs__control hidden"
+      name="tabs-start"
+      id="tabs-start-1"
+      
+    />
+    <label for="tabs-start-1" class="gdoc-tabs__label">
+      Linux/MacOS/GitBash
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">./start ---cacert=path_to_ca_cert <span class="o">=</span>True
+</span></span></code></pre></div>
+    </div>
+</div>
+
+    
+    
 <p>Alternatively, you can deactivate the certification validation temporarily for your test environment as below. However, this is <strong>not recommended</strong>, since it opens up the test environment to potential security vulnerabilities.</p>
 
 
