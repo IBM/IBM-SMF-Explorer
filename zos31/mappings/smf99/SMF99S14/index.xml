@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 99 Subtype  14 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/</link>
+    <description>Recent content in SMF 99 Subtype  14 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - affinity_nodes_rebuild</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/affinity_nodes_rebuild/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/affinity_nodes_rebuild/</guid>
+      <description>rebuild affinity nodes
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description rebuild affinity nodes
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - an_cap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_cap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_cap/</guid>
+      <description>capacity of affinity node in microseconds
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CAP Description capacity of affinity node in microseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_flags/</guid>
+      <description>Flags
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_FLAGS Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description an_ci_notopoinfo 0 No CPU/Core topology information available in SMF99E_AN_TOPO </description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nl1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl1/</guid>
+      <description>Container ID of nesting level 1
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NL1 Description Container ID of nesting level 1</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nl2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl2/</guid>
+      <description>Container ID of nesting level 2
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NL2 Description Container ID of nesting level 2</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nl3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl3/</guid>
+      <description>Container ID of nesting level 3
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NL3 Description Container ID of nesting level 3</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nl4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl4/</guid>
+      <description>Container ID of nesting level 4
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NL4 Description Container ID of nesting level 4</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nl5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nl5/</guid>
+      <description>Container ID of nesting level 5
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NL5 Description Container ID of nesting level 5</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_nlinuse</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nlinuse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_nlinuse/</guid>
+      <description>Number of highest nesting level in use in array SMF99E_AN_CI_NL. 0 = there is no container information available in SMF99E_AN_CI_NL
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CI_NLINUSE Description Number of highest nesting level in use in array SMF99E_AN_CI_NL. 0 = there is no container information available in SMF99E_AN_CI_NL</description>
+    </item>
+    
+    <item>
+      <title>Field - an_ci_notopoinfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_notopoinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_ci_notopoinfo/</guid>
+      <description>No CPU/Core topology information available in SMF99E_AN_TOPO
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_ci_flags Description No CPU/Core topology information available in SMF99E_AN_TOPO
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field an_ci_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - an_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_flags/</guid>
+      <description>flags
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_FLAGS Description flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_an_bdycrossing 0 CPs on this node are boundary crossing. vcm_an_hnsbdycrossing 1 Helper nodes are boundary crossing. </description>
+    </item>
+    
+    <item>
+      <title>Field - an_polarhi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarhi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarhi/</guid>
+      <description>Number of VHs in this affinity node
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_POLARHI Description Number of VHs in this affinity node</description>
+    </item>
+    
+    <item>
+      <title>Field - an_polarlow</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarlow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarlow/</guid>
+      <description>Number of VLs in this affinity node
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_POLARLOW Description Number of VLs in this affinity node</description>
+    </item>
+    
+    <item>
+      <title>Field - an_polarmed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarmed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/an_polarmed/</guid>
+      <description>Number of VMs in this affinity node
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_POLARMED Description Number of VMs in this affinity node</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_cap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_cap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_cap/</guid>
+      <description>CPU/Core capacity in microseconds
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CAP Description CPU/Core capacity in microseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_flags/</guid>
+      <description>Flags
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_FLAGS Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cp_ci_notopoinfo 0 No CPU/Core topology information available in SMF99E_CP_TOPO </description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nl1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl1/</guid>
+      <description>Container ID of nesting level 1
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NL1 Description Container ID of nesting level 1</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nl2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl2/</guid>
+      <description>Container ID of nesting level 2
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NL2 Description Container ID of nesting level 2</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nl3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl3/</guid>
+      <description>Container ID of nesting level 3
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NL3 Description Container ID of nesting level 3</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nl4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl4/</guid>
+      <description>Container ID of nesting level 4
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NL4 Description Container ID of nesting level 4</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nl5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nl5/</guid>
+      <description>Container ID of nesting level 5
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NL5 Description Container ID of nesting level 5</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_nlinuse</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nlinuse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_nlinuse/</guid>
+      <description>Number of highest nesting level in use in array SMF99E_CP_CI_NL. 0 = there is no container information available in SMF99E_CP_CI_NL
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CI_NLINUSE Description Number of highest nesting level in use in array SMF99E_CP_CI_NL. 0 = there is no container information available in SMF99E_CP_CI_NL
+Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
+Source value IBM SMF Explorer meaning 0 STISI_15_1_20 1 STISI_15_1_2 2 STISI_15_1_3 3 STISI_15_1_4 4 STISI_15_1_4 default STISI_15_1_5 </description>
+    </item>
+    
+    <item>
+      <title>Field - cp_ci_notopoinfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_notopoinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_ci_notopoinfo/</guid>
+      <description>No CPU/Core topology information available in SMF99E_CP_TOPO
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_ci_flags Description No CPU/Core topology information available in SMF99E_CP_TOPO
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cp_ci_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_cputype</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_cputype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_cputype/</guid>
+      <description>CPU/Core type
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_CPUTYPE Description CPU/Core type
+Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
+Source value IBM SMF Explorer meaning 0 CP 5 zIIP default unknown </description>
+    </item>
+    
+    <item>
+      <title>Field - cp_misc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_misc/</guid>
+      <description>CPU/Core misc. info
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_MISC Description CPU/Core misc. info
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description polar_n2 7 polarization infromation polar_n1 6 polarization infromation </description>
+    </item>
+    
+    <item>
+      <title>Field - cp_nl1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_nl1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_nl1/</guid>
+      <description>Not available
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_NL1 Description Not available</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_nl2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_nl2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_nl2/</guid>
+      <description>Not available
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_NL2 Description Not available</description>
+    </item>
+    
+    <item>
+      <title>Field - cp_polar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_polar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cp_polar/</guid>
+      <description>CPU/Core polarization
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_misc Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpu_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cpu_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/cpu_type/</guid>
+      <description>CPU/Core type
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_AN_CPUTYPE Description CPU/Core type
+Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
+Source value IBM SMF Explorer meaning 0 CP 5 zIIP default unknown </description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/date/</guid>
+      <description>Date of Record
+Record: SMF99S14 Based on: SMF99DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dln/</guid>
+      <description>Length of the data section
+Map: SMF99_SDEF_MAP Based on: SMF99DLN Description Length of the data section</description>
+    </item>
+    
+    <item>
+      <title>Field - dof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dof/</guid>
+      <description>Offset to the data section from the beginning of the record (including RDW)
+Map: SMF99_SDEF_MAP Based on: SMF99DOF Description Offset to the data section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - don</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/don/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/don/</guid>
+      <description>Number of data sections
+Map: SMF99_SDEF_MAP Based on: SMF99DON Description Number of data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/dte/</guid>
+      <description>Date when the record was moved into the SMF buffer, in the form 0cyydddF.
+Record: SMF99S14 Based on: SMF99DTE Description Date when the record was moved into the SMF buffer, in the form 0cyydddF.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_cp_polar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_polar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_polar/</guid>
+      <description>CPU/Core polarization
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_POLAR Description CPU/Core polarization</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/flg/</guid>
+      <description>System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved
+Record: SMF99S14 Based on: SMF99FLG Description System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description stu 1 Subtypes utilized </description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_cpu_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_index/</guid>
+      <description>Logical CPU/Core number
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_HD_TOPOCHG_CPU_INDEX Description Logical CPU/Core number</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_cpu_length</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_length/</guid>
+      <description>Length of processor data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_CPU_LENGTH Description Length of processor data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_cpu_number</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_number/</guid>
+      <description>Number of processor data sections
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_CPU_NUMBER Description Number of processor data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_cpu_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_offset/</guid>
+      <description>Offset to processor data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_CPU_OFFSET Description Offset to processor data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_hdr_length</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_length/</guid>
+      <description>Length of header data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_HDR_LENGTH Description Length of header data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_hdr_number</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_number/</guid>
+      <description>Number of header data sections
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_HDR_NUMBER Description Number of header data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_hdr_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_hdr_offset/</guid>
+      <description>Offset to header data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_HDR_OFFSET Description Offset to header data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_cpu_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_cpu_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_cpu_index/</guid>
+      <description>MPWQ CPU/Core Number
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_CPU_MAP Based on: SMF99E_HD_TOPOCHG_MPWQ_CPU_INDEX Description MPWQ CPU/Core Number</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_hnode_length</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_length/</guid>
+      <description>Length of MPWQ HNODE data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_HNODE_LENGTH Description Length of MPWQ HNODE data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_hnode_number</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_number/</guid>
+      <description>Number of MPWQ HNODE data sections
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_HNODE_NUMBER Description Number of MPWQ HNODE data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_hnode_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_hnode_offset/</guid>
+      <description>Offset to MPWQ HNODE data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_HNODE_OFFSET Description Offset to MPWQ HNODE data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_length</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_length/</guid>
+      <description>Length of MPWQ data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_LENGTH Description Length of MPWQ data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_node_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_node_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_node_index/</guid>
+      <description>MPWQ Node Number
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_HD_TOPOCHG_MPWQ_NODE_INDEX Description MPWQ Node Number</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_number</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_number/</guid>
+      <description>Number of MPWQ data sections
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_NUMBER Description Number of MPWQ data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_mpwq_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_mpwq_offset/</guid>
+      <description>Offset to MPWQ data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_MPWQ_OFFSET Description Offset to MPWQ data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_node_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_index/</guid>
+      <description>Node number
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_HD_TOPOCHG_NODE_INDEX Description Node number</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_node_length</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_length/</guid>
+      <description>Length of node data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_NODE_LENGTH Description Length of node data section</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_node_number</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_number/</guid>
+      <description>Number of node data sections
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_NODE_NUMBER Description Number of node data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - hd_topochg_node_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/hd_topochg_node_offset/</guid>
+      <description>Offset to node data section
+Map: SMF99_S14_SDEF_MAP Based on: SMF9914_HD_TOPOCHG_NODE_OFFSET Description Offset to node data section</description>
+    </item>
+    
+    <item>
+      <title>Field - high</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/high/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/high/</guid>
+      <description>None
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: polar_n1, polar_n2 Post-Processed The field is created using the following pseudocode:
+return polar_n1 &amp;amp; polar_n2 </description>
+    </item>
+    
+    <item>
+      <title>Field - honor_priority_change</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/honor_priority_change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/honor_priority_change/</guid>
+      <description>honor priority has changed
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description honor priority has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/len/</guid>
+      <description>Record Length. This field and the next field (total of four bytes) form the RDW (record descriptor word).
+Record: SMF99S14 Based on: SMF99LEN Description Record Length. This field and the next field (total of four bytes) form the RDW (record descriptor word).</description>
+    </item>
+    
+    <item>
+      <title>Field - low</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/low/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/low/</guid>
+      <description>None
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: polar_n1, polar_n2 Post-Processed The field is created using the following pseudocode:
+return polar_n1 &amp;amp; polar_n2 </description>
+    </item>
+    
+    <item>
+      <title>Field - medium</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/medium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/medium/</guid>
+      <description>None
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: polar_n1, polar_n2 Post-Processed The field is created using the following pseudocode:
+return polar_n1 &amp;amp; polar_n2 </description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_affinity_node</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_affinity_node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_affinity_node/</guid>
+      <description>affinity node this CPU/Core belongs to
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_CPU_MAP Based on: SMF99E_MPWQ_AFFINITY_NODE Description affinity node this CPU/Core belongs to</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_book_crossing_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_book_crossing_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_book_crossing_index/</guid>
+      <description>book crossing index
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_BOOK_CROSSING_INDEX Description book crossing index</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_contcrossindex_nl1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl1/</guid>
+      <description>Container crossing index of nesting level 1
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_CONTCROSSINDEX_NL1 Description Container crossing index of nesting level 1</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_contcrossindex_nl2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl2/</guid>
+      <description>Container crossing index of nesting level 2
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_CONTCROSSINDEX_NL2 Description Container crossing index of nesting level 2</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_contcrossindex_nl3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl3/</guid>
+      <description>Container crossing index of nesting level 3
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_CONTCROSSINDEX_NL3 Description Container crossing index of nesting level 3</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_contcrossindex_nl4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl4/</guid>
+      <description>Container crossing index of nesting level 4
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_CONTCROSSINDEX_NL4 Description Container crossing index of nesting level 4</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_contcrossindex_nl5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_contcrossindex_nl5/</guid>
+      <description>Container crossing index of nesting level 5
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_CONTCROSSINDEX_NL5 Description Container crossing index of nesting level 5</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_help_nodes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_help_nodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_help_nodes/</guid>
+      <description>Array of helper nodes of this aff.node. Only the first 44 helper nodes are supported.
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP
+Array Length: 44
+Based on: SMF99E_MPWQ_HELP_NODES
+Description Array of helper nodes of this aff.node. Only the first 44 helper nodes are supported.</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_highestcontcross</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_highestcontcross/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_highestcontcross/</guid>
+      <description>The highest container crossing for Cores assigned to this node
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_HNODE_MAP Based on: SMF99E_MPWQ_HIGHESTCONTCROSS Description The highest container crossing for Cores assigned to this node</description>
+    </item>
+    
+    <item>
+      <title>Field - mpwq_share</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_share/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/mpwq_share/</guid>
+      <description>CPU/Core share
+Map: SMF99_S14_HD_TOPOCHG_MPWQ_CPU_MAP Based on: SMF99E_MPWQ_SHARE Description CPU/Core share</description>
+    </item>
+    
+    <item>
+      <title>Field - pflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pflg/</guid>
+      <description>Record flags
+Map: SMF99_PRODUCT_MAP Based on: SMF99PFLG Description Record flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description record_incomplete 0 Only a subset of the available data was written to avoid that this record gets larger than 32 kByte reasm_indicator 1 Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.</description>
+    </item>
+    
+    <item>
+      <title>Field - pln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pln/</guid>
+      <description>Length of the product section
+Map: SMF99_SDEF_MAP Based on: SMF99PLN Description Length of the product section</description>
+    </item>
+    
+    <item>
+      <title>Field - pnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pnm/</guid>
+      <description>Product Name - SRM
+Map: SMF99_PRODUCT_MAP Based on: SMF99PNM Description Product Name - SRM</description>
+    </item>
+    
+    <item>
+      <title>Field - pof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pof/</guid>
+      <description>Offset to the product section from the beginning of the record (including RDW)
+Map: SMF99_SDEF_MAP Based on: SMF99POF Description Offset to the product section from the beginning of the record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - polar_n1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/polar_n1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/polar_n1/</guid>
+      <description>polarization infromation
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_misc Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cp_misc.</description>
+    </item>
+    
+    <item>
+      <title>Field - polar_n2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/polar_n2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/polar_n2/</guid>
+      <description>polarization infromation
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_misc Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cp_misc.</description>
+    </item>
+    
+    <item>
+      <title>Field - pon</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/pon/</guid>
+      <description>Number of product sections
+Map: SMF99_SDEF_MAP Based on: SMF99PON Description Number of product sections</description>
+    </item>
+    
+    <item>
+      <title>Field - processor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/processor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/processor/</guid>
+      <description>processor type
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: high, medium, low Post-Processed The field is created using the following pseudocode:
+high_filter = ~high medium_filter = ~medium low_filter = ~low processor = high.where(high, &amp;#39;&amp;#39;) processor = processor.where(high_filter, &amp;#39;High&amp;#39;) processor = processor.where(medium_filter, &amp;#39;Medium&amp;#39;) processor = processor.where(low_filter, &amp;#39;Low&amp;#39;) return processor </description>
+    </item>
+    
+    <item>
+      <title>Field - reasm_indicator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/reasm_indicator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/reasm_indicator/</guid>
+      <description>Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - record_incomplete</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/record_incomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/record_incomplete/</guid>
+      <description>Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
+Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/rty/</guid>
+      <description>Record type 99
+Record: SMF99S14 Based on: SMF99RTY Description Record type 99</description>
+    </item>
+    
+    <item>
+      <title>Field - rvn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/rvn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/rvn/</guid>
+      <description>Record Version Number
+Map: SMF99_PRODUCT_MAP Based on: SMF99RVN Description Record Version Number</description>
+    </item>
+    
+    <item>
+      <title>Field - sdef_len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/sdef_len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/sdef_len/</guid>
+      <description>Length of self definition section
+Record: SMF99S14 Based on: SMF99_SDEF_LEN Description Length of self definition section</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/seg/</guid>
+      <description>Segment descriptor (see record length field)
+Record: SMF99S14 Based on: SMF99SEG Description Segment descriptor (see record length field)</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/sid/</guid>
+      <description>System identification (from the SID parameter).
+Record: SMF99S14 Based on: SMF99SID Description System identification (from the SID parameter).</description>
+    </item>
+    
+    <item>
+      <title>Field - slv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/slv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/slv/</guid>
+      <description>System level from which record was cut (copied from CVTPRODN)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SLV Description System level from which record was cut (copied from CVTPRODN)</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/snm/</guid>
+      <description>System name from which record was cut (copied from CVTSNAME)
+Map: SMF99_PRODUCT_MAP Based on: SMF99SNM Description System name from which record was cut (copied from CVTSNAME)</description>
+    </item>
+    
+    <item>
+      <title>Field - speed_change</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/speed_change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/speed_change/</guid>
+      <description>processor speed change
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description processor speed change
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - ssid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/ssid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/ssid/</guid>
+      <description>Sub System Identification
+Record: SMF99S14 Based on: SMF99SSID Description Sub System Identification</description>
+    </item>
+    
+    <item>
+      <title>Field - stu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/stu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/stu/</guid>
+      <description>Subtypes utilized
+Record: SMF99S14 Based on: flg Description Subtypes utilized
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - tid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/tid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/tid/</guid>
+      <description>Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)
+Record: SMF99S14 Based on: SMF99TID Description Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/time/</guid>
+      <description>Time of Record
+Record: SMF99S14 Based on: SMF99TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF99S14 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/tme/</guid>
+      <description>Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer
+Record: SMF99S14 Based on: SMF99TME Description Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer</description>
+    </item>
+    
+    <item>
+      <title>Sample - topology</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/samples/topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/samples/topology/</guid>
+      <description>Request topology information per processor.
+Sample fields The sample will fetch the following fields.
+Name Based on Description Type/Format topology_change virtual vcm_flag1 topology has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer timestamp virtual date
+time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.</description>
+    </item>
+    
+    <item>
+      <title>Field - topology_change</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/topology_change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/topology_change/</guid>
+      <description>topology has changed
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description topology has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_an_bdycrossing</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_bdycrossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_bdycrossing/</guid>
+      <description>CPs on this node are boundary crossing.
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_flags Description CPs on this node are boundary crossing.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field an_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_an_hnsbdycrossing</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_hnsbdycrossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_hnsbdycrossing/</guid>
+      <description>Helper nodes are boundary crossing.
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_flags Description Helper nodes are boundary crossing.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field an_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_an_nl1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_nl1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_nl1/</guid>
+      <description>Not available
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_VCM_AN_NL1 Description Not available</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_an_nl2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_nl2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_an_nl2/</guid>
+      <description>Not available
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: SMF99E_VCM_AN_NL2 Description Not available</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_ceccapvalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_ceccapvalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_ceccapvalid/</guid>
+      <description>CEC capacities are valid
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description CEC capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_cpsperan</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_cpsperan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_cpsperan/</guid>
+      <description>CPUs/Cores per affinity node
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_CPSPERAN Description CPUs/Cores per affinity node</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_currtopo_tod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_currtopo_tod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_currtopo_tod/</guid>
+      <description>Timestamp of the STSI returned SYSIB 15.1.x information which is currently used by HiperDispatch
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_CURRTOPO_TOD Description Timestamp of the STSI returned SYSIB 15.1.x information which is currently used by HiperDispatch</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_errorcode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_errorcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_errorcode/</guid>
+      <description>VCM error code
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_ERRORCODE Description VCM error code</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_flag1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_flag1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_flag1/</guid>
+      <description>balancer interval flag1
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_FLAG1 Description balancer interval flag1
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description topology_change 0 topology has changed affinity_nodes_rebuild 1 rebuild affinity nodes honor_priority_change 2 honor priority has changed wuq_error 3 dispatcher WUQ error speed_change 4 processor speed change </description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_flag2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_flag2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_flag2/</guid>
+      <description>balancer interval flag2
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_FLAG2 Description balancer interval flag2
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_ceccapvalid 0 CEC capacities are valid vcm_lparcapvalid 1 LPAR capacities are valid vcm_old_state 2 old VCM state vcm_mpwq_updated 4 dispatcher affinity was updated vcm_ptf_switched 5 PTF was issued to initiate a switch opposite mode. However, the PTF return info tells us that we are already in the requested mode vcm_transition 6 VCM in transition to/from vertical </description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_hwlevel</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_hwlevel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_hwlevel/</guid>
+      <description>HW level
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_HWLEVEL Description HW level</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_lparcapvalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_lparcapvalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_lparcapvalid/</guid>
+      <description>LPAR capacities are valid
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description LPAR capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_lparphysprocshr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_lparphysprocshr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_lparphysprocshr/</guid>
+      <description>LPAR physical processor share for general CPUs/Cores scaled by 256
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_LPARPHYSPROCSHR Description LPAR physical processor share for general CPUs/Cores scaled by 256
+Post-Processed The value is scaled by 256.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_maxaffinityindex</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_maxaffinityindex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_maxaffinityindex/</guid>
+      <description>Maximum affinity index the system supports for the life of the IPL
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_MAXAFFINITYINDEX Description Maximum affinity index the system supports for the life of the IPL</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_maxcpuidforipl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_maxcpuidforipl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_maxcpuidforipl/</guid>
+      <description>Maximum CPU ID/Core ID the system supports activating for the life of the IPL
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_MAXCPUIDFORIPL Description Maximum CPU ID/Core ID the system supports activating for the life of the IPL</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_mpwq_updated</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_mpwq_updated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_mpwq_updated/</guid>
+      <description>dispatcher affinity was updated
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description dispatcher affinity was updated
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_old_state</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_old_state/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_old_state/</guid>
+      <description>old VCM state
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description old VCM state
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_ptf_switched</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_ptf_switched/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_ptf_switched/</guid>
+      <description>PTF was issued to initiate a switch opposite mode. However, the PTF return info tells us that we are already in the requested mode
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description PTF was issued to initiate a switch opposite mode. However, the PTF return info tells us that we are already in the requested mode
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_smf_sequ</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_smf_sequ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_smf_sequ/</guid>
+      <description>balancer interval sequence number
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: SMF99E_VCM_SMF_SEQU Description balancer interval sequence number</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_transition</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_transition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vcm_transition/</guid>
+      <description>VCM in transition to/from vertical
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description VCM in transition to/from vertical
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - vn2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vn2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/vn2/</guid>
+      <description>Record sub version. Used to identify changes to the record in the service stream
+Map: SMF99_PRODUCT_MAP Based on: SMF99VN2 Description Record sub version. Used to identify changes to the record in the service stream</description>
+    </item>
+    
+    <item>
+      <title>Field - wuq_error</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/wuq_error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/wuq_error/</guid>
+      <description>dispatcher WUQ error
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description dispatcher WUQ error
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag1.</description>
+    </item>
+    
+  </channel>
+</rss>

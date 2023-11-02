@@ -6,43 +6,14 @@
     <description>Recent content in SMF 70 Subtype  2 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Field - arch_mode</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/arch_mode/</link>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/altvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/arch_mode/</guid>
-      <description>System in z/ARCH mode
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - asym_key_fast</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_fast/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_fast/</guid>
-      <description>Fast asymmetric-key functions
-Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7025msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - asym_key_gen</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_gen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_gen/</guid>
-      <description>Asymmetric-key generation function
-Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7025msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - asym_key_slow</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_slow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_slow/</guid>
-      <description>Slow asymmetric-key functions
-Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7025msk.</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF70PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
     </item>
     
     <item>
@@ -51,8 +22,9 @@ Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/boost_class/</guid>
-      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
-Map: SMF70PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF70PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
     </item>
     
     <item>
@@ -61,8 +33,8 @@ Map: SMF70PRO Based on: fla Post-Processed Flags postprocessor for multiple bit 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cl/</guid>
-      <description>Length of ICSF Services data section
-Record: SMF70S2 Based on: SMF702CL </description>
+      <description>Length of ICSF section
+Record: SMF70S2 Based on: SMF702CL Description Length of ICSF section</description>
     </item>
     
     <item>
@@ -71,8 +43,19 @@ Record: SMF70S2 Based on: SMF702CL </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cn/</guid>
-      <description>Number of ICSF Services data sections
-Record: SMF70S2 Based on: SMF702CN </description>
+      <description>Number of ICSF section
+Record: SMF70S2 Based on: SMF702CN Description Number of ICSF section</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF70PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -82,37 +65,8 @@ Record: SMF70S2 Based on: SMF702CN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cnv/</guid>
       <description>Data converted from version 2
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
-    </item>
-    
-    <item>
-      <title>Field - crt_1024</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_1024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_1024/</guid>
-      <description>1024-bit CRT-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7024msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - crt_2048</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_2048/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_2048/</guid>
-      <description>2048-bit CRT-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7024msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - crt_4096</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_4096/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_4096/</guid>
-      <description>4096-bit CRT-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r7024msk.</description>
+Map: SMF70PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
     </item>
     
     <item>
@@ -121,8 +75,8 @@ Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cs/</guid>
-      <description>Offset to ICSF Services data section
-Record: SMF70S2 Based on: SMF702CS </description>
+      <description>Offset to ICSF section
+Record: SMF70S2 Based on: SMF702CS Description Offset to ICSF section</description>
     </item>
     
     <item>
@@ -131,8 +85,8 @@ Record: SMF70S2 Based on: SMF702CS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cyc/</guid>
-      <description>Sampling cycle length 000TTTTF
-Map: SMF70PRO Based on: SMF70CYC </description>
+      <description>Sampling cycle length
+Map: SMF70PRO Based on: SMF70CYC Description Sampling cycle length</description>
     </item>
     
     <item>
@@ -141,28 +95,8 @@ Map: SMF70PRO Based on: SMF70CYC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat/</guid>
-      <description>Date monitor interval start: 00YYDDDF
-Map: SMF70PRO Based on: SMF70DAT </description>
-    </item>
-    
-    <item>
-      <title>Field - dat_facility1</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility1/</guid>
-      <description>Enhanced DAT facility 1
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - dat_facility2</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility2/</guid>
-      <description>Enhanced DAT facility 2
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+      <description>Date monitor interval start
+Map: SMF70PRO Based on: SMF70DAT Description Date monitor interval start</description>
     </item>
     
     <item>
@@ -176,13 +110,46 @@ Record: SMF70S2 Based on: SMF70DTE </description>
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF70PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
-Record: SMF70S2 Based on: SMF70DTE </description>
+Record: SMF70S2 Based on: SMF70DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF70PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF70PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -192,37 +159,8 @@ Record: SMF70S2 Based on: SMF70DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/esa/</guid>
       <description>MVS/ESA IF ON
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - escon_ch</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_ch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_ch/</guid>
-      <description>Equipped with ESCON channel
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - escon_dir</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_dir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_dir/</guid>
-      <description>ESCON Director in configuration
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - expanded_stor</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/expanded_stor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/expanded_stor/</guid>
-      <description>System has expanded storage
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+Record: SMF70S2 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
     </item>
     
     <item>
@@ -231,8 +169,8 @@ Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f3l/</guid>
-      <description>Length of Cryptographic CCA Coprocessor data section
-Record: SMF70S2 Based on: SMF7023L </description>
+      <description>Length of crypto CCA coprocessor section
+Record: SMF70S2 Based on: SMF7023L Description Length of crypto CCA coprocessor section</description>
     </item>
     
     <item>
@@ -241,8 +179,8 @@ Record: SMF70S2 Based on: SMF7023L </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f3n/</guid>
-      <description>Number of Cryptographic CCA Coprocessor data sections
-Record: SMF70S2 Based on: SMF7023N </description>
+      <description>Number of crypto CCA coprocessor sections
+Record: SMF70S2 Based on: SMF7023N Description Number of crypto CCA coprocessor sections</description>
     </item>
     
     <item>
@@ -251,8 +189,8 @@ Record: SMF70S2 Based on: SMF7023N </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f3s/</guid>
-      <description>Offset to Cryptographic CCA Coprocessor data section
-Record: SMF70S2 Based on: SMF7023S </description>
+      <description>Offset to crypto CCA coprocessor section
+Record: SMF70S2 Based on: SMF7023S Description Offset to crypto CCA coprocessor section</description>
     </item>
     
     <item>
@@ -261,8 +199,8 @@ Record: SMF70S2 Based on: SMF7023S </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f4l/</guid>
-      <description>Length of Cryptographic Accelerator data section
-Record: SMF70S2 Based on: SMF7024L </description>
+      <description>Length of crypto accelerator section
+Record: SMF70S2 Based on: SMF7024L Description Length of crypto accelerator section</description>
     </item>
     
     <item>
@@ -271,8 +209,8 @@ Record: SMF70S2 Based on: SMF7024L </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f4n/</guid>
-      <description>Number of Cryptographic Accelerator data sections
-Record: SMF70S2 Based on: SMF7024N </description>
+      <description>Number of crypto accelerator section
+Record: SMF70S2 Based on: SMF7024N Description Number of crypto accelerator section</description>
     </item>
     
     <item>
@@ -281,8 +219,8 @@ Record: SMF70S2 Based on: SMF7024N </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f4s/</guid>
-      <description>Offset to Cryptographic Accelerator data section
-Record: SMF70S2 Based on: SMF7024S </description>
+      <description>Offset to crypto accelerator section
+Record: SMF70S2 Based on: SMF7024S Description Offset to crypto accelerator section</description>
     </item>
     
     <item>
@@ -291,8 +229,8 @@ Record: SMF70S2 Based on: SMF7024S </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5l/</guid>
-      <description>Length of Cryptographic PKCS11 Coprocessor data section
-Record: SMF70S2 Based on: SMF7025L </description>
+      <description>Length of crypto PKCS11 copro- cessor section
+Record: SMF70S2 Based on: SMF7025L Description Length of crypto PKCS11 copro- cessor section</description>
     </item>
     
     <item>
@@ -301,8 +239,8 @@ Record: SMF70S2 Based on: SMF7025L </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5n/</guid>
-      <description>Number of Cryptographic PKCS11 Coprocessor data sections
-Record: SMF70S2 Based on: SMF7025N </description>
+      <description>Number of crypto PKCS11 copro- cessor sections
+Record: SMF70S2 Based on: SMF7025N Description Number of crypto PKCS11 copro- cessor sections</description>
     </item>
     
     <item>
@@ -311,8 +249,8 @@ Record: SMF70S2 Based on: SMF7025N </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5s/</guid>
-      <description>Offset to Cryptographic PKCS11 Coprocessor data section
-Record: SMF70S2 Based on: SMF7025S </description>
+      <description>Offset to crypto PKCS11 copro- cessor section
+Record: SMF70S2 Based on: SMF7025S Description Offset to crypto PKCS11 copro- cessor section</description>
     </item>
     
     <item>
@@ -322,8 +260,9 @@ Record: SMF70S2 Based on: SMF7025S </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/fla/</guid>
       <description>Flags
-Map: SMF70PRO Based on: SMF70FLA Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description speed_boost 10 Speed boost was active during entire interval ziip_boost 9 zIIP boost was active during entire interval interval_smf_control 3 Interval was under SMF control m3r 2 Record was written by RMF Monitor III invalid_samples 1 Invalid samples to be skipped cnv 0 Data converted from version 2 </description>
+Map: SMF70PRO Based on: SMF70FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
     </item>
     
     <item>
@@ -333,8 +272,9 @@ Field Bit-Position Description speed_boost 10 Speed boost was active during enti
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
-Record: SMF70S2 Based on: SMF70FLG Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description prsm_mode 7 SYSTEM RUNNING IN PR/SM MODE os 6 OPERATING SYSTEM IS OS/VS2 vxa 5 MVS/XA IF ON esa 4 MVS/ESA IF ON v4 3 MVS/ESA V4 IF ON subtypes_used 1 SUBTYPES USED new_record 0 NEW RECORD FORMAT </description>
+Record: SMF70S2 Based on: SMF70FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description new_record 0 NEW RECORD FORMAT subtypes_used 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 prsm_mode 7 SYSTEM RUNNING IN PR/SM MODE </description>
     </item>
     
     <item>
@@ -343,8 +283,8 @@ Field Bit-Position Description prsm_mode 7 SYSTEM RUNNING IN PR/SM MODE os 6 OPE
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/gie/</guid>
-      <description>Projected gathering interval end GMT time (STCK format)
-Map: SMF70PRO Based on: SMF70GIE </description>
+      <description>Projected gathering interval end GMT time
+Map: SMF70PRO Based on: SMF70GIE Description Projected gathering interval end GMT time</description>
     </item>
     
     <item>
@@ -354,7 +294,18 @@ Map: SMF70PRO Based on: SMF70GIE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iet/</guid>
       <description>Interval expiration time token
-Map: SMF70PRO Based on: SMF70IET </description>
+Map: SMF70PRO Based on: SMF70IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF70PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
     </item>
     
     <item>
@@ -363,7 +314,7 @@ Map: SMF70PRO Based on: SMF70IET </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iml/</guid>
-      <description>Indicates the type of processor complex on which data measurements wer&amp;hellip;
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
 Map: SMF70PRO Based on: SMF70IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
     </item>
     
@@ -373,8 +324,8 @@ Map: SMF70PRO Based on: SMF70IML Description Indicates the type of processor com
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/interval/</guid>
-      <description>Duration of monitor interval: MMSSTTTF
-Map: SMF70PRO Based on: SMF70INT </description>
+      <description>Duration of monitor interval
+Map: SMF70PRO Based on: SMF70INT Description Duration of monitor interval</description>
     </item>
     
     <item>
@@ -389,23 +340,25 @@ return interval.total_seconds() * 1e3 </description>
     </item>
     
     <item>
-      <title>Field - interval_smf_control</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/interval_smf_control/</link>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/interval_smf_control/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ism/</guid>
       <description>Interval was under SMF control
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+Map: SMF70PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
     </item>
     
     <item>
-      <title>Field - invalid_samples</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/invalid_samples/</link>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/invalid_samples/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/iss/</guid>
       <description>Invalid samples to be skipped
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+Map: SMF70PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -414,8 +367,18 @@ Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ist/</guid>
-      <description>TOD monitor interval start: 0HHMMSSF
-Map: SMF70PRO Based on: SMF70IST </description>
+      <description>Time monitor interval start
+Map: SMF70PRO Based on: SMF70IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF70S2 Based on: SMF70LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
@@ -425,7 +388,7 @@ Map: SMF70PRO Based on: SMF70IST </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/lgo/</guid>
       <description>Offset GMT to local time
-Map: SMF70PRO Based on: SMF70LGO </description>
+Map: SMF70PRO Based on: SMF70LGO Description Offset GMT to local time</description>
     </item>
     
     <item>
@@ -435,37 +398,8 @@ Map: SMF70PRO Based on: SMF70LGO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/m3r/</guid>
       <description>Record was written by RMF Monitor III
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
-    </item>
-    
-    <item>
-      <title>Field - me_1024</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_1024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_1024/</guid>
-      <description>1024-bit ME-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7024msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - me_2048</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_2048/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_2048/</guid>
-      <description>2048-bit ME-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7024msk.</description>
-    </item>
-    
-    <item>
-      <title>Field - me_4096</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_4096/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_4096/</guid>
-      <description>4096-bit ME-format operations
-Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7024msk.</description>
+Map: SMF70PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
     </item>
     
     <item>
@@ -474,8 +408,8 @@ Map: R702TYP4 Based on: r7024msk Post-Processed This virtual field corresponds t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/mfv/</guid>
-      <description>RMF version number in packed decimal format: nnnF
-Map: SMF70PRO Based on: SMF70MFV </description>
+      <description>RMF version number
+Map: SMF70PRO Based on: SMF70MFV Description RMF version number</description>
     </item>
     
     <item>
@@ -484,7 +418,7 @@ Map: SMF70PRO Based on: SMF70MFV </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/mvs/</guid>
-      <description>MVS software level (consists of an acronym and the version, release, a&amp;hellip;
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
 Map: SMF70PRO Based on: SMF70MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
     </item>
     
@@ -495,7 +429,8 @@ Map: SMF70PRO Based on: SMF70MVS Description MVS software level (consists of an 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/new_record/</guid>
       <description>NEW RECORD FORMAT
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF70S2 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -504,8 +439,8 @@ Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/oil/</guid>
-      <description>Original interval length as defined in the session or by SMF (in secon&amp;hellip;
-Map: SMF70PRO Based on: SMF70OIL Description Original interval length as defined in the session or by SMF (in seconds</description>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF70PRO Based on: SMF70OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
     </item>
     
     <item>
@@ -515,7 +450,30 @@ Map: SMF70PRO Based on: SMF70OIL Description Original interval length as defined
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+Record: SMF70S2 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -525,7 +483,7 @@ Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prd/</guid>
       <description>Product name
-Map: SMF70PRO Based on: SMF70PRD </description>
+Map: SMF70PRO Based on: SMF70PRD Description Product name</description>
     </item>
     
     <item>
@@ -535,8 +493,20 @@ Map: SMF70PRO Based on: SMF70PRD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prf/</guid>
       <description>Processor flags
-Map: SMF70PRO Based on: SMF70PRF Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description dat_facility2 7 Enhanced DAT facility 2 dat_facility1 6 Enhanced DAT facility 1 zaap_inst 4 At least one zAAP is currently installed arch_mode 3 System in z/ARCH mode escon_dir 2 ESCON Director in configuration escon_ch 1 Equipped with ESCON channel expanded_stor 0 System has expanded storage </description>
+Map: SMF70PRO Based on: SMF70PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -546,7 +516,7 @@ Field Bit-Position Description dat_facility2 7 Enhanced DAT facility 2 dat_facil
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
-Record: SMF70S2 Based on: SMF70PRL </description>
+Record: SMF70S2 Based on: SMF70PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -556,7 +526,18 @@ Record: SMF70S2 Based on: SMF70PRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
-Record: SMF70S2 Based on: SMF70PRN </description>
+Record: SMF70S2 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -566,7 +547,7 @@ Record: SMF70S2 Based on: SMF70PRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
-Record: SMF70S2 Based on: SMF70PRS </description>
+Record: SMF70S2 Based on: SMF70PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -576,7 +557,8 @@ Record: SMF70S2 Based on: SMF70PRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/prsm_mode/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+Record: SMF70S2 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
     </item>
     
     <item>
@@ -586,7 +568,18 @@ Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ptn/</guid>
       <description>PR/SM partition number
-Map: SMF70PRO Based on: SMF70PTN </description>
+Map: SMF70PRO Based on: SMF70PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF70PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -595,7 +588,7 @@ Map: SMF70PRO Based on: SMF70PTN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021crc/</guid>
-      <description>Execution number for 1024-bit CRT-format RSA operations (long floating&amp;hellip;
+      <description>Execution number for 1024-bit CRT-format RSA operations (long floating point)
 Map: R7024TC Based on: R7021CRC Description Execution number for 1024-bit CRT-format RSA operations (long floating point)</description>
     </item>
     
@@ -605,8 +598,30 @@ Map: R7024TC Based on: R7021CRC Description Execution number for 1024-bit CRT-fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021crt/</guid>
-      <description>Execution time for 1024-bit CRT-format RSA operations (long floating p&amp;hellip;
+      <description>Execution time for 1024-bit CRT-format RSA operations (long floating point)
 Map: R7024TC Based on: R7021CRT Description Execution time for 1024-bit CRT-format RSA operations (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7021kc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021kc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021kc/</guid>
+      <description>Valid data for 1024-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 1024-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7021km</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021km/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021km/</guid>
+      <description>Valid data for 1024-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 1024-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7024msk.</description>
     </item>
     
     <item>
@@ -615,7 +630,7 @@ Map: R7024TC Based on: R7021CRT Description Execution time for 1024-bit CRT-form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021mec/</guid>
-      <description>Execution number for 1024-bit ME-format RSA operations (long floating &amp;hellip;
+      <description>Execution number for 1024-bit ME-format RSA operations (long floating point)
 Map: R7024TC Based on: R7021MEC Description Execution number for 1024-bit ME-format RSA operations (long floating point)</description>
     </item>
     
@@ -625,7 +640,7 @@ Map: R7024TC Based on: R7021MEC Description Execution number for 1024-bit ME-for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7021met/</guid>
-      <description>Execution time for 1024-bit ME-format RSA operations (long floating po&amp;hellip;
+      <description>Execution time for 1024-bit ME-format RSA operations (long floating point)
 Map: R7024TC Based on: R7021MET Description Execution time for 1024-bit ME-format RSA operations (long floating point)</description>
     </item>
     
@@ -635,7 +650,7 @@ Map: R7024TC Based on: R7021MET Description Execution time for 1024-bit ME-forma
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022crc/</guid>
-      <description>Execution number for 2048-bit CRT-format RSA operations (long floating&amp;hellip;
+      <description>Execution number for 2048-bit CRT-format RSA operations (long floating point)
 Map: R7024TC Based on: R7022CRC Description Execution number for 2048-bit CRT-format RSA operations (long floating point)</description>
     </item>
     
@@ -645,8 +660,30 @@ Map: R7024TC Based on: R7022CRC Description Execution number for 2048-bit CRT-fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022crt/</guid>
-      <description>Execution time for 2048-bit CRT-format RSA operations (long floating p&amp;hellip;
+      <description>Execution time for 2048-bit CRT-format RSA operations (long floating point)
 Map: R7024TC Based on: R7022CRT Description Execution time for 2048-bit CRT-format RSA operations (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7022kc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022kc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022kc/</guid>
+      <description>Valid data for 2048-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 2048-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7022km</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022km/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022km/</guid>
+      <description>Valid data for 2048-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 2048-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7024msk.</description>
     </item>
     
     <item>
@@ -655,7 +692,7 @@ Map: R7024TC Based on: R7022CRT Description Execution time for 2048-bit CRT-form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022mec/</guid>
-      <description>Execution number for 2048-bit ME-format RSA operations (long floating &amp;hellip;
+      <description>Execution number for 2048-bit ME-format RSA operations (long floating point)
 Map: R7024TC Based on: R7022MEC Description Execution number for 2048-bit ME-format RSA operations (long floating point)</description>
     </item>
     
@@ -665,8 +702,19 @@ Map: R7024TC Based on: R7022MEC Description Execution number for 2048-bit ME-for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7022met/</guid>
-      <description>Execution time for 2048-bit ME-format RSA operations (long floating po&amp;hellip;
+      <description>Execution time for 2048-bit ME-format RSA operations (long floating point)
 Map: R7024TC Based on: R7022MET Description Execution time for 2048-bit ME-format RSA operations (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7023all</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023all/</guid>
+      <description>Valid data for all operations
+Map: R702TYP3 Based on: r7023msk Description Valid data for all operations
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7023msk.</description>
     </item>
     
     <item>
@@ -676,7 +724,7 @@ Map: R7024TC Based on: R7022MET Description Execution time for 2048-bit ME-forma
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023ax/</guid>
       <description>Crypto processor index
-Map: R702TYP3 Based on: R7023AX </description>
+Map: R702TYP3 Based on: R7023AX Description Crypto processor index</description>
     </item>
     
     <item>
@@ -685,7 +733,7 @@ Map: R702TYP3 Based on: R7023AX </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023c0/</guid>
-      <description>Execution number of all operations on the specified crypto coprocessor&amp;hellip;
+      <description>Execution number of all operations on the specified crypto coprocessor (long floating point)
 Map: R702TYP3 Based on: R7023C0 Description Execution number of all operations on the specified crypto coprocessor (long floating point)</description>
     </item>
     
@@ -696,7 +744,7 @@ Map: R702TYP3 Based on: R7023C0 Description Execution number of all operations o
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023c1/</guid>
       <description>Execution number of RSA-key-generation / (long floating point)
-Map: R702TYP3 Based on: R7023C1 </description>
+Map: R702TYP3 Based on: R7023C1 Description Execution number of RSA-key-generation / (long floating point)</description>
     </item>
     
     <item>
@@ -705,7 +753,7 @@ Map: R702TYP3 Based on: R7023C1 </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023crc/</guid>
-      <description>Execution number for 4096-bit CRT-format RSA operations (long floating&amp;hellip;
+      <description>Execution number for 4096-bit CRT-format RSA operations (long floating point)
 Map: R702TYP4 Based on: R7023CRC Description Execution number for 4096-bit CRT-format RSA operations (long floating point)</description>
     </item>
     
@@ -715,7 +763,7 @@ Map: R702TYP4 Based on: R7023CRC Description Execution number for 4096-bit CRT-f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023crt/</guid>
-      <description>Execution time for 4096-bit CRT-format RSA operations (long floating p&amp;hellip;
+      <description>Execution time for 4096-bit CRT-format RSA operations (long floating point)
 Map: R702TYP4 Based on: R7023CRT Description Execution time for 4096-bit CRT-format RSA operations (long floating point)</description>
     </item>
     
@@ -725,9 +773,8 @@ Map: R702TYP4 Based on: R7023CRT Description Execution time for 4096-bit CRT-for
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023ct/</guid>
-      <description>Crypto processor type: 3 = PCICC, 5 = PCIXCC, 7 = CEX2C, 9 = CEX3C, 10&amp;hellip;
-Map: R702TYP3 Based on: R7023CT Description Crypto processor type: 3 = PCICC, 5 = PCIXCC, 7 = CEX2C, 9 = CEX3C, 10 = CEX4C, 11 = CEX5C, 12 = CEX6C, 13 = CEX7C
-Post-Processed This field is processed using the core.flagmap post-processor.</description>
+      <description>Crypto processor type: 11 = CEX5C, 12 = CEX6C, 13 = CEX7C, 14 = CEX8C
+Map: R702TYP3 Based on: R7023CT Description Crypto processor type: 11 = CEX5C, 12 = CEX6C, 13 = CEX7C, 14 = CEX8C</description>
     </item>
     
     <item>
@@ -737,7 +784,29 @@ Post-Processed This field is processed using the core.flagmap post-processor.</d
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023did/</guid>
       <description>Domain ID Valid with R7023SCOPE = 1
-Map: R702TYP3 Based on: R7023DID </description>
+Map: R702TYP3 Based on: R7023DID Description Domain ID Valid with R7023SCOPE = 1</description>
+    </item>
+    
+    <item>
+      <title>Field - r7023kc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023kc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023kc/</guid>
+      <description>Valid data for 4096-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 4096-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7023km</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023km/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023km/</guid>
+      <description>Valid data for 4096-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 4096-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7024msk.</description>
     </item>
     
     <item>
@@ -746,7 +815,7 @@ Map: R702TYP3 Based on: R7023DID </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023mec/</guid>
-      <description>Execution number for 4096-bit ME-format RSA operations (long floating &amp;hellip;
+      <description>Execution number for 4096-bit ME-format RSA operations (long floating point)
 Map: R702TYP4 Based on: R7023MEC Description Execution number for 4096-bit ME-format RSA operations (long floating point)</description>
     </item>
     
@@ -756,7 +825,7 @@ Map: R702TYP4 Based on: R7023MEC Description Execution number for 4096-bit ME-fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023met/</guid>
-      <description>Execution time for 4096-bit ME-format RSA operations (long floating po&amp;hellip;
+      <description>Execution time for 4096-bit ME-format RSA operations (long floating point)
 Map: R702TYP4 Based on: R7023MET Description Execution time for 4096-bit ME-format RSA operations (long floating point)</description>
     </item>
     
@@ -766,8 +835,19 @@ Map: R702TYP4 Based on: R7023MET Description Execution time for 4096-bit ME-form
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023msk/</guid>
-      <description>Validity bit mask. Each bit position represents the validity of a time&amp;hellip;
+      <description>Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic coprocessor card. Valid with SMF70SRL &amp;gt;= X&#39;61&amp;rsquo;(97)
 Map: R702TYP3 Based on: R7023MSK Description Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic coprocessor card. Valid with SMF70SRL &amp;gt;= X&#39;61&amp;rsquo;(97)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7023rsa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023rsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023rsa/</guid>
+      <description>Valid data for RSA-key- generation operations
+Map: R702TYP3 Based on: r7023msk Description Valid data for RSA-key- generation operations
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7023msk.</description>
     </item>
     
     <item>
@@ -776,7 +856,7 @@ Map: R702TYP3 Based on: R7023MSK Description Validity bit mask. Each bit positio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023scope/</guid>
-      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Da&amp;hellip;
+      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope
 Map: R702TYP3 Based on: R7023SCOPE Description Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope</description>
     </item>
     
@@ -786,7 +866,7 @@ Map: R702TYP3 Based on: R7023SCOPE Description Specifies the scope of the data s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023sf/</guid>
-      <description>Scaling factor for the indicating crypto coprocessor (long floating po&amp;hellip;
+      <description>Scaling factor for the indicating crypto coprocessor (long floating point)
 Map: R702TYP3 Based on: R7023SF Description Scaling factor for the indicating crypto coprocessor (long floating point)</description>
     </item>
     
@@ -796,7 +876,7 @@ Map: R702TYP3 Based on: R7023SF Description Scaling factor for the indicating cr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023t0/</guid>
-      <description>Execution time of all operations on the specified crypto coprocessor (&amp;hellip;
+      <description>Execution time of all operations on the specified crypto coprocessor (long floating point)
 Map: R702TYP3 Based on: R7023T0 Description Execution time of all operations on the specified crypto coprocessor (long floating point)</description>
     </item>
     
@@ -807,7 +887,7 @@ Map: R702TYP3 Based on: R7023T0 Description Execution time of all operations on 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024ax/</guid>
       <description>Crypto processor index
-Map: R702TYP4 Based on: R7024AX </description>
+Map: R702TYP4 Based on: R7024AX Description Crypto processor index</description>
     </item>
     
     <item>
@@ -816,9 +896,8 @@ Map: R702TYP4 Based on: R7024AX </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024ct/</guid>
-      <description>Crypto processor type: 4 = PCICA, 6 = CEX2A, 8 = CEX3A, 10 = CEX4A, 11&amp;hellip;
-Map: R702TYP4 Based on: R7024CT Description Crypto processor type: 4 = PCICA, 6 = CEX2A, 8 = CEX3A, 10 = CEX4A, 11 = CEX5A, 12 = CEX6A, 13 = CEX7A
-Post-Processed This field is processed using the core.flagmap post-processor.</description>
+      <description>Crypto processor type: 11 = CEX5A, 12 = CEX6A, 13 = CEX7A, 14 = CEX8A
+Map: R702TYP4 Based on: R7024CT Description Crypto processor type: 11 = CEX5A, 12 = CEX6A, 13 = CEX7A, 14 = CEX8A</description>
     </item>
     
     <item>
@@ -828,7 +907,7 @@ Post-Processed This field is processed using the core.flagmap post-processor.</d
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024did/</guid>
       <description>Domain ID Valid with R7024SCOPE = 1
-Map: R702TYP4 Based on: R7024DID </description>
+Map: R702TYP4 Based on: R7024DID Description Domain ID Valid with R7024SCOPE = 1</description>
     </item>
     
     <item>
@@ -837,7 +916,7 @@ Map: R702TYP4 Based on: R7024DID </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024en/</guid>
-      <description>Number of engines. This is the number of valid entries in the R7024TC &amp;hellip;
+      <description>Number of engines. This is the number of valid entries in the R7024TC array of timer and counter pairs
 Map: R702TYP4 Based on: R7024EN Description Number of engines. This is the number of valid entries in the R7024TC array of timer and counter pairs</description>
     </item>
     
@@ -847,10 +926,8 @@ Map: R702TYP4 Based on: R7024EN Description Number of engines. This is the numbe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024msk/</guid>
-      <description>Validity bit mask. Each bit position represents the validity of a time&amp;hellip;
-Map: R702TYP4 Based on: R7024MSK Description Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic accelerator card for a certain type of RSA operations. Valid with SMF70SRL &amp;gt;= X&#39;5B&amp;rsquo;(91)
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description crt_4096 5 4096-bit CRT-format operations me_4096 4 4096-bit ME-format operations crt_2048 3 2048-bit CRT-format operations crt_1024 2 1024-bit CRT-format operations me_2048 1 2048-bit ME-format operations me_1024 0 1024-bit ME-format operations </description>
+      <description>Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic accelerator card for a certain type of RSA operations. Valid with SMF70SRL &amp;gt;= X&#39;5B&amp;rsquo;(91)
+Map: R702TYP4 Based on: R7024MSK Description Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic accelerator card for a certain type of RSA operations.</description>
     </item>
     
     <item>
@@ -859,7 +936,7 @@ Field Bit-Position Description crt_4096 5 4096-bit CRT-format operations me_4096
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024scope/</guid>
-      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Da&amp;hellip;
+      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope
 Map: R702TYP4 Based on: R7024SCOPE Description Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope</description>
     </item>
     
@@ -869,8 +946,19 @@ Map: R702TYP4 Based on: R7024SCOPE Description Specifies the scope of the data s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024sf/</guid>
-      <description>Scaling factor for the indicating crypto accelerator (long floating po&amp;hellip;
+      <description>Scaling factor for the indicating crypto accelerator (long floating point)
 Map: R702TYP4 Based on: R7024SF Description Scaling factor for the indicating crypto accelerator (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7025ag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025ag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025ag/</guid>
+      <description>Valid data for asymmetric-key generation function
+Map: R702TYP5 Based on: r7025msk Description Valid data for asymmetric-key generation function
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7025msk.</description>
     </item>
     
     <item>
@@ -879,7 +967,7 @@ Map: R702TYP4 Based on: R7024SF Description Scaling factor for the indicating cr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025agc/</guid>
-      <description>Number of operations executed by asymmetric-key generation function (l&amp;hellip;
+      <description>Number of operations executed by asymmetric-key generation function (long floating point)
 Map: R702TYP5 Based on: R7025AGC Description Number of operations executed by asymmetric-key generation function (long floating point)</description>
     </item>
     
@@ -889,7 +977,7 @@ Map: R702TYP5 Based on: R7025AGC Description Number of operations executed by as
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025agt/</guid>
-      <description>Aggregate execution time of operations executed by asymmetric-key gene&amp;hellip;
+      <description>Aggregate execution time of operations executed by asymmetric-key generation function (long floating point)
 Map: R702TYP5 Based on: R7025AGT Description Aggregate execution time of operations executed by asymmetric-key generation function (long floating point)</description>
     </item>
     
@@ -900,7 +988,7 @@ Map: R702TYP5 Based on: R7025AGT Description Aggregate execution time of operati
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025ax/</guid>
       <description>Crypto processor index
-Map: R702TYP5 Based on: R7025AX </description>
+Map: R702TYP5 Based on: R7025AX Description Crypto processor index</description>
     </item>
     
     <item>
@@ -909,8 +997,8 @@ Map: R702TYP5 Based on: R7025AX </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025ct/</guid>
-      <description>Crypto processor type: 10 = CEX4P 11 = CEX5P 12 = CEX6P 13 = CEX7P
-Map: R702TYP5 Based on: R7025CT Post-Processed This field is processed using the core.flagmap post-processor.</description>
+      <description>Crypto processor type: 11 = CEX5P, 12 = CEX6P, 13 = CEX7P, 14 = CEX8P
+Map: R702TYP5 Based on: R7025CT Description Crypto processor type: 11 = CEX5P, 12 = CEX6P, 13 = CEX7P, 14 = CEX8P</description>
     </item>
     
     <item>
@@ -920,7 +1008,18 @@ Map: R702TYP5 Based on: R7025CT Post-Processed This field is processed using the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025did/</guid>
       <description>Domain ID Valid with R7025SCOPE = 1
-Map: R702TYP5 Based on: R7025DID </description>
+Map: R702TYP5 Based on: R7025DID Description Domain ID Valid with R7025SCOPE = 1</description>
+    </item>
+    
+    <item>
+      <title>Field - r7025fa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025fa/</guid>
+      <description>Valid data for fast asymmetric- key functions
+Map: R702TYP5 Based on: r7025msk Description Valid data for fast asymmetric- key functions
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7025msk.</description>
     </item>
     
     <item>
@@ -929,7 +1028,7 @@ Map: R702TYP5 Based on: R7025DID </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025fac/</guid>
-      <description>Number of operations executed by fast asymmetric-key functions (long f&amp;hellip;
+      <description>Number of operations executed by fast asymmetric-key functions (long floating point)
 Map: R702TYP5 Based on: R7025FAC Description Number of operations executed by fast asymmetric-key functions (long floating point)</description>
     </item>
     
@@ -939,7 +1038,7 @@ Map: R702TYP5 Based on: R7025FAC Description Number of operations executed by fa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025fat/</guid>
-      <description>Aggregate execution time of operations executed by fast asymmetric-key&amp;hellip;
+      <description>Aggregate execution time of operations executed by fast asymmetric-key functions (long floating point)
 Map: R702TYP5 Based on: R7025FAT Description Aggregate execution time of operations executed by fast asymmetric-key functions (long floating point)</description>
     </item>
     
@@ -949,10 +1048,20 @@ Map: R702TYP5 Based on: R7025FAT Description Aggregate execution time of operati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025msk/</guid>
-      <description>Validity bit mask. Each bit position represents the validity of a time&amp;hellip;
+      <description>Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic PKCS11 coprocessor.
 Map: R702TYP5 Based on: R7025MSK Description Validity bit mask. Each bit position represents the validity of a timer-counter pair that measures the execution time and number of operations on a cryptographic PKCS11 coprocessor.
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description asym_key_gen 4 Asymmetric-key generation function sym_key_gen 3 Symmetric-key functions that return complete or final result r7025sp 2 Symmetric-key functions that return partial or incremental results asym_key_fast 1 Fast asymmetric-key functions asym_key_slow 0 Slow asymmetric-key functions </description>
+Flag fields This is a flag field with the following bit fields:</description>
+    </item>
+    
+    <item>
+      <title>Field - r7025sa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sa/</guid>
+      <description>Valid data for slow asymmetric- key functions
+Map: R702TYP5 Based on: r7025msk Description Valid data for slow asymmetric- key functions
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7025msk.</description>
     </item>
     
     <item>
@@ -961,7 +1070,7 @@ Field Bit-Position Description asym_key_gen 4 Asymmetric-key generation function
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sac/</guid>
-      <description>Number of operations executed by slow asymmetric-key functions (long f&amp;hellip;
+      <description>Number of operations executed by slow asymmetric-key functions (long floating point)
 Map: R702TYP5 Based on: R7025SAC Description Number of operations executed by slow asymmetric-key functions (long floating point)</description>
     </item>
     
@@ -971,8 +1080,19 @@ Map: R702TYP5 Based on: R7025SAC Description Number of operations executed by sl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sat/</guid>
-      <description>Aggregate execution time of operations executed by slow asymmetric-key&amp;hellip;
+      <description>Aggregate execution time of operations executed by slow asymmetric-key functions (long floating point)
 Map: R702TYP5 Based on: R7025SAT Description Aggregate execution time of operations executed by slow asymmetric-key functions (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7025sc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sc/</guid>
+      <description>Valid data for symmetric-key functions that return complete or final result
+Map: R702TYP5 Based on: r7025msk Description Valid data for symmetric-key functions that return complete or final result
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7025msk.</description>
     </item>
     
     <item>
@@ -981,7 +1101,7 @@ Map: R702TYP5 Based on: R7025SAT Description Aggregate execution time of operati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025scc/</guid>
-      <description>Number of operations executed by symmetric-key functions that return c&amp;hellip;
+      <description>Number of operations executed by symmetric-key functions that return complete or final result (long floating point)
 Map: R702TYP5 Based on: R7025SCC Description Number of operations executed by symmetric-key functions that return complete or final result (long floating point)</description>
     </item>
     
@@ -991,7 +1111,7 @@ Map: R702TYP5 Based on: R7025SCC Description Number of operations executed by sy
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025scope/</guid>
-      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Da&amp;hellip;
+      <description>Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope
 Map: R702TYP5 Based on: R7025SCOPE Description Specifies the scope of the data section 0 = Data with CPC scope 1 = Data with system scope</description>
     </item>
     
@@ -1001,7 +1121,7 @@ Map: R702TYP5 Based on: R7025SCOPE Description Specifies the scope of the data s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sct/</guid>
-      <description>Aggregate execution time of operations executed by symmetric-key funct&amp;hellip;
+      <description>Aggregate execution time of operations executed by symmetric-key functions that return complete or final result (long floating point)
 Map: R702TYP5 Based on: R7025SCT Description Aggregate execution time of operations executed by symmetric-key functions that return complete or final result (long floating point)</description>
     </item>
     
@@ -1011,7 +1131,7 @@ Map: R702TYP5 Based on: R7025SCT Description Aggregate execution time of operati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sf/</guid>
-      <description>Scaling factor for the indicating cryptographic PKCS11 coprocessor (lo&amp;hellip;
+      <description>Scaling factor for the indicating cryptographic PKCS11 coprocessor (long floating point)
 Map: R702TYP5 Based on: R7025SF Description Scaling factor for the indicating cryptographic PKCS11 coprocessor (long floating point)</description>
     </item>
     
@@ -1021,8 +1141,9 @@ Map: R702TYP5 Based on: R7025SF Description Scaling factor for the indicating cr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025sp/</guid>
-      <description>Symmetric-key functions that return partial or incremental results
-Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7025msk.</description>
+      <description>Valid data for symmetric-key functions that return partial or incremental results
+Map: R702TYP5 Based on: r7025msk Description Valid data for symmetric-key functions that return partial or incremental results
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7025msk.</description>
     </item>
     
     <item>
@@ -1031,7 +1152,7 @@ Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025spc/</guid>
-      <description>Number of operations executed by symmetric-key functions that return p&amp;hellip;
+      <description>Number of operations executed by symmetric-key functions that return partial or incremental results (long floating point)
 Map: R702TYP5 Based on: R7025SPC Description Number of operations executed by symmetric-key functions that return partial or incremental results (long floating point)</description>
     </item>
     
@@ -1041,7 +1162,7 @@ Map: R702TYP5 Based on: R7025SPC Description Number of operations executed by sy
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025spt/</guid>
-      <description>Aggregate execution time of operations executed by symmetric-key funct&amp;hellip;
+      <description>Aggregate execution time of operations executed by symmetric-key functions that return partial or incremental results (long floating point)
 Map: R702TYP5 Based on: R7025SPT Description Aggregate execution time of operations executed by symmetric-key functions that return partial or incremental results (long floating point)</description>
     </item>
     
@@ -1051,7 +1172,7 @@ Map: R702TYP5 Based on: R7025SPT Description Aggregate execution time of operati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702aesb/</guid>
-      <description>Number of bytes processed by the AES encipher services handled by a co&amp;hellip;
+      <description>Number of bytes processed by the AES encipher services handled by a coprocessor
 Map: R702CCF Based on: R702AESB Description Number of bytes processed by the AES encipher services handled by a coprocessor</description>
     </item>
     
@@ -1062,7 +1183,7 @@ Map: R702CCF Based on: R702AESB Description Number of bytes processed by the AES
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702aesc/</guid>
       <description>Number of AES encipher calls sent to a coprocessor
-Map: R702CCF Based on: R702AESC </description>
+Map: R702CCF Based on: R702AESC Description Number of AES encipher calls sent to a coprocessor</description>
     </item>
     
     <item>
@@ -1071,7 +1192,7 @@ Map: R702CCF Based on: R702AESC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702aesi/</guid>
-      <description>Number of operations required to complete the AES encipher service cal&amp;hellip;
+      <description>Number of operations required to complete the AES encipher service calls to a coprocessor
 Map: R702CCF Based on: R702AESI Description Number of operations required to complete the AES encipher service calls to a coprocessor</description>
     </item>
     
@@ -1081,7 +1202,7 @@ Map: R702CCF Based on: R702AESI Description Number of operations required to com
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amgb/</guid>
-      <description>Number of bytes of data for which the AES MACs were generated (long fl&amp;hellip;
+      <description>Number of bytes of data for which the AES MACs were generated (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMGB Description Number of bytes of data for which the AES MACs were generated (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1091,7 +1212,7 @@ Map: R702CCF Based on: R702AMGB Description Number of bytes of data for which th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amgc/</guid>
-      <description>Number of calls to generate the AES MACs (long floating point) Only va&amp;hellip;
+      <description>Number of calls to generate the AES MACs (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMGC Description Number of calls to generate the AES MACs (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1101,7 +1222,7 @@ Map: R702CCF Based on: R702AMGC Description Number of calls to generate the AES 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amgi/</guid>
-      <description>Number of instructions used to generate the AES MACs (long floating po&amp;hellip;
+      <description>Number of instructions used to generate the AES MACs (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMGI Description Number of instructions used to generate the AES MACs (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1111,7 +1232,7 @@ Map: R702CCF Based on: R702AMGI Description Number of instructions used to gener
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amvb/</guid>
-      <description>Number of bytes of data for which the AES MACs were verified (long flo&amp;hellip;
+      <description>Number of bytes of data for which the AES MACs were verified (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMVB Description Number of bytes of data for which the AES MACs were verified (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1121,7 +1242,7 @@ Map: R702CCF Based on: R702AMVB Description Number of bytes of data for which th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amvc/</guid>
-      <description>Number of calls to verify the AES MACs (long floating point) Only vali&amp;hellip;
+      <description>Number of calls to verify the AES MACs (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMVC Description Number of calls to verify the AES MACs (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1131,7 +1252,7 @@ Map: R702CCF Based on: R702AMVC Description Number of calls to verify the AES MA
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702amvi/</guid>
-      <description>Number of instructions used to verify the AES MACs (long floating poin&amp;hellip;
+      <description>Number of instructions used to verify the AES MACs (long floating point) Only valid if R702CDLV greater than 17
 Map: R702CCF Based on: R702AMVI Description Number of instructions used to verify the AES MACs (long floating point) Only valid if R702CDLV greater than 17</description>
     </item>
     
@@ -1141,7 +1262,7 @@ Map: R702CCF Based on: R702AMVI Description Number of instructions used to verif
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702asdb/</guid>
-      <description>Number of bytes processed by the AES decipher services handled by a co&amp;hellip;
+      <description>Number of bytes processed by the AES decipher services handled by a coprocessor
 Map: R702CCF Based on: R702ASDB Description Number of bytes processed by the AES decipher services handled by a coprocessor</description>
     </item>
     
@@ -1152,7 +1273,7 @@ Map: R702CCF Based on: R702ASDB Description Number of bytes processed by the AES
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702asdc/</guid>
       <description>Number of AES decipher calls sent to a coprocessor
-Map: R702CCF Based on: R702ASDC </description>
+Map: R702CCF Based on: R702ASDC Description Number of AES decipher calls sent to a coprocessor</description>
     </item>
     
     <item>
@@ -1161,7 +1282,7 @@ Map: R702CCF Based on: R702ASDC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702asdi/</guid>
-      <description>Number of operations required to complete the AES decipher service cal&amp;hellip;
+      <description>Number of operations required to complete the AES decipher service calls to a coprocessor
 Map: R702CCF Based on: R702ASDI Description Number of operations required to complete the AES decipher service calls to a coprocessor</description>
     </item>
     
@@ -1172,7 +1293,7 @@ Map: R702CCF Based on: R702ASDI Description Number of operations required to com
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702cdlv/</guid>
       <description>ICSF data level
-Map: R702CCF Based on: R702CDLV </description>
+Map: R702CCF Based on: R702CDLV Description ICSF data level</description>
     </item>
     
     <item>
@@ -1181,7 +1302,7 @@ Map: R702CCF Based on: R702CDLV </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702degc/</guid>
-      <description>Number of calls to generate ECC digital signatures (long floating poin&amp;hellip;
+      <description>Number of calls to generate ECC digital signatures (long floating point) Only valid if R702CDLV greater than 13
 Map: R702CCF Based on: R702DEGC Description Number of calls to generate ECC digital signatures (long floating point) Only valid if R702CDLV greater than 13</description>
     </item>
     
@@ -1191,8 +1312,28 @@ Map: R702CCF Based on: R702DEGC Description Number of calls to generate ECC digi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702devc/</guid>
-      <description>Number of calls to verify the ECC digital signatures (long floating po&amp;hellip;
+      <description>Number of calls to verify the ECC digital signatures (long floating point) Only valid if R702CDLV greater than 13
 Map: R702CCF Based on: R702DEVC Description Number of calls to verify the ECC digital signatures (long floating point) Only valid if R702CDLV greater than 13</description>
+    </item>
+    
+    <item>
+      <title>Field - r702dqgc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702dqgc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702dqgc/</guid>
+      <description>Number of calls to generate QSA digital signatures (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702DQGC Description Number of calls to generate QSA digital signatures (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702dqvc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702dqvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702dqvc/</guid>
+      <description>Number of calls to verify the QSA digital signatures (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702DQVC Description Number of calls to verify the QSA digital signatures (long floating point) Only valid if R702CDLV greater than 22</description>
     </item>
     
     <item>
@@ -1201,7 +1342,7 @@ Map: R702CCF Based on: R702DEVC Description Number of calls to verify the ECC di
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702drgc/</guid>
-      <description>Number of calls to generate the RSA digital signatures (long floating &amp;hellip;
+      <description>Number of calls to generate the RSA digital signatures (long floating point) Only valid if R702CDLV greater than 13
 Map: R702CCF Based on: R702DRGC Description Number of calls to generate the RSA digital signatures (long floating point) Only valid if R702CDLV greater than 13</description>
     </item>
     
@@ -1211,7 +1352,7 @@ Map: R702CCF Based on: R702DRGC Description Number of calls to generate the RSA 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702drvc/</guid>
-      <description>Number of calls to verify the RSA digital signatures (long floating po&amp;hellip;
+      <description>Number of calls to verify the RSA digital signatures (long floating point) Only valid if R702CDLV greater than 13
 Map: R702CCF Based on: R702DRVC Description Number of calls to verify the RSA digital signatures (long floating point) Only valid if R702CDLV greater than 13</description>
     </item>
     
@@ -1221,7 +1362,7 @@ Map: R702CCF Based on: R702DRVC Description Number of calls to verify the RSA di
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpdb/</guid>
-      <description>Number of bytes of data deciphered using FPE (long floating point) Onl&amp;hellip;
+      <description>Number of bytes of data deciphered using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPDB Description Number of bytes of data deciphered using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1231,7 +1372,7 @@ Map: R702CCF Based on: R702FPDB Description Number of bytes of data deciphered u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpdc/</guid>
-      <description>Number of calls to decipher data using FPE (long floating point) Only &amp;hellip;
+      <description>Number of calls to decipher data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPDC Description Number of calls to decipher data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1241,7 +1382,7 @@ Map: R702CCF Based on: R702FPDC Description Number of calls to decipher data usi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpdi/</guid>
-      <description>Number of instructions used to decipher the data using FPE (long float&amp;hellip;
+      <description>Number of instructions used to decipher the data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPDI Description Number of instructions used to decipher the data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1251,7 +1392,7 @@ Map: R702CCF Based on: R702FPDI Description Number of instructions used to decip
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpeb/</guid>
-      <description>Number of bytes of data enciphered using FPE (long floating point) Onl&amp;hellip;
+      <description>Number of bytes of data enciphered using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPEB Description Number of bytes of data enciphered using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1261,7 +1402,7 @@ Map: R702CCF Based on: R702FPEB Description Number of bytes of data enciphered u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpec/</guid>
-      <description>Number of calls to encipher data using FPE (long floating point) Only &amp;hellip;
+      <description>Number of calls to encipher data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPEC Description Number of calls to encipher data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1271,7 +1412,7 @@ Map: R702CCF Based on: R702FPEC Description Number of calls to encipher data usi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpei/</guid>
-      <description>Number of instructions used to encipher the data using FPE (long float&amp;hellip;
+      <description>Number of instructions used to encipher the data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPEI Description Number of instructions used to encipher the data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1281,7 +1422,7 @@ Map: R702CCF Based on: R702FPEI Description Number of instructions used to encip
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fptb/</guid>
-      <description>Number of bytes of data translated using FPE (long floating point) Onl&amp;hellip;
+      <description>Number of bytes of data translated using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPTB Description Number of bytes of data translated using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1291,7 +1432,7 @@ Map: R702CCF Based on: R702FPTB Description Number of bytes of data translated u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fptc/</guid>
-      <description>Number of calls to translate data using FPE (long floating point) Only&amp;hellip;
+      <description>Number of calls to translate data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPTC Description Number of calls to translate data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
@@ -1301,8 +1442,98 @@ Map: R702CCF Based on: R702FPTC Description Number of calls to translate data us
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fpti/</guid>
-      <description>Number of instructions used to translate the data using FPE (long floa&amp;hellip;
+      <description>Number of instructions used to translate the data using FPE (long floating point) Only valid if R702CDLV greater than 19
 Map: R702CCF Based on: R702FPTI Description Number of instructions used to translate the data using FPE (long floating point) Only valid if R702CDLV greater than 19</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxdb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdb/</guid>
+      <description>Number of bytes of data deciphered using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXDB Description Number of bytes of data deciphered using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxdc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdc/</guid>
+      <description>Number of calls to decipher data using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXDC Description Number of calls to decipher data using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxdi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxdi/</guid>
+      <description>Number of instructions used to decipher the data using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXDI Description Number of instructions used to decipher the data using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxeb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxeb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxeb/</guid>
+      <description>Number of bytes of data enciphered using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXEB Description Number of bytes of data enciphered using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxec</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxec/</guid>
+      <description>Number of calls to encipher data using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXEC Description Number of calls to encipher data using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxei</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxei/</guid>
+      <description>Number of instructions used to encipher the data using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXEI Description Number of instructions used to encipher the data using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxtb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxtb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxtb/</guid>
+      <description>Number of bytes of data translated using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXTB Description Number of bytes of data translated using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxtc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxtc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxtc/</guid>
+      <description>Number of calls to translate data using FFX (long floating point) Only valid if R702CDLV greater than 22
+Map: R702CCF Based on: R702FXTC Description Number of calls to translate data using FFX (long floating point) Only valid if R702CDLV greater than 22</description>
+    </item>
+    
+    <item>
+      <title>Field - r702fxti</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702fxti/</guid>
+      <description>Number of instructions used to translate the data using FFX (long floating point) Only valid if R702CDLV greater than 19
+Map: R702CCF Based on: R702FXTI Description Number of instructions used to translate the data using FFX (long floating point) Only valid if R702CDLV greater than 19</description>
     </item>
     
     <item>
@@ -1311,7 +1542,7 @@ Map: R702CCF Based on: R702FPTI Description Number of instructions used to trans
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh2b/</guid>
-      <description>For SHA-224 and SHA-256: Number of bytes of data hashed (long floating&amp;hellip;
+      <description>For SHA-224 and SHA-256: Number of bytes of data hashed (long floating point)
 Map: R702CCF Based on: R702NH2B Description For SHA-224 and SHA-256: Number of bytes of data hashed (long floating point)</description>
     </item>
     
@@ -1321,7 +1552,7 @@ Map: R702CCF Based on: R702NH2B Description For SHA-224 and SHA-256: Number of b
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh2c/</guid>
-      <description>For SHA-224 and SHA-256: Number of calls to hash (long floating point)&amp;hellip;
+      <description>For SHA-224 and SHA-256: Number of calls to hash (long floating point)
 Map: R702CCF Based on: R702NH2C Description For SHA-224 and SHA-256: Number of calls to hash (long floating point)</description>
     </item>
     
@@ -1331,8 +1562,8 @@ Map: R702CCF Based on: R702NH2C Description For SHA-224 and SHA-256: Number of c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh2i/</guid>
-      <description>For SHA-224 and SHA-256: Number of PCMF instructions used to hash data&amp;hellip;
-Map: R702CCF Based on: R702NH2I Description &amp;ldquo;For SHA-224 and SHA-256: Number of PCMF instructions used to hash data (long floating point)&amp;rdquo;</description>
+      <description>For SHA-224 and SHA-256: Number of PCMF instructions used to hash data (long floating point)
+Map: R702CCF Based on: R702NH2I Description For SHA-224 and SHA-256: Number of PCMF instructions used to hash data (long floating point)</description>
     </item>
     
     <item>
@@ -1341,7 +1572,7 @@ Map: R702CCF Based on: R702NH2I Description &amp;ldquo;For SHA-224 and SHA-256: 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh5b/</guid>
-      <description>For SHA-384 and SHA-512: Number of bytes of data hashed (long floating&amp;hellip;
+      <description>For SHA-384 and SHA-512: Number of bytes of data hashed (long floating point)
 Map: R702CCF Based on: R702NH5B Description For SHA-384 and SHA-512: Number of bytes of data hashed (long floating point)</description>
     </item>
     
@@ -1351,7 +1582,7 @@ Map: R702CCF Based on: R702NH5B Description For SHA-384 and SHA-512: Number of b
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh5c/</guid>
-      <description>For SHA-384 and SHA-512: Number of calls to hash (long floating point)&amp;hellip;
+      <description>For SHA-384 and SHA-512: Number of calls to hash (long floating point)
 Map: R702CCF Based on: R702NH5C Description For SHA-384 and SHA-512: Number of calls to hash (long floating point)</description>
     </item>
     
@@ -1361,8 +1592,8 @@ Map: R702CCF Based on: R702NH5C Description For SHA-384 and SHA-512: Number of c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nh5i/</guid>
-      <description>For SHA-384 and SHA-512: Number of PCMF instructions used to hash data&amp;hellip;
-Map: R702CCF Based on: R702NH5I Description &amp;ldquo;For SHA-384 and SHA-512: Number of PCMF instructions used to hash data (long floating point)&amp;rdquo;</description>
+      <description>For SHA-384 and SHA-512: Number of PCMF instructions used to hash data (long floating point)
+Map: R702CCF Based on: R702NH5I Description For SHA-384 and SHA-512: Number of PCMF instructions used to hash data (long floating point)</description>
     </item>
     
     <item>
@@ -1372,7 +1603,7 @@ Map: R702CCF Based on: R702NH5I Description &amp;ldquo;For SHA-384 and SHA-512: 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nhab/</guid>
       <description>For SHA-1: Number of bytes of data hashed (long floating point)
-Map: R702CCF Based on: R702NHAB </description>
+Map: R702CCF Based on: R702NHAB Description For SHA-1: Number of bytes of data hashed (long floating point)</description>
     </item>
     
     <item>
@@ -1382,7 +1613,7 @@ Map: R702CCF Based on: R702NHAB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nhac/</guid>
       <description>For SHA-1: Number of calls to hash (long floating point)
-Map: R702CCF Based on: R702NHAC </description>
+Map: R702CCF Based on: R702NHAC Description For SHA-1: Number of calls to hash (long floating point)</description>
     </item>
     
     <item>
@@ -1391,7 +1622,7 @@ Map: R702CCF Based on: R702NHAC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nhai/</guid>
-      <description>For SHA-1: Number of PCMF instructions used to hash data (long floatin&amp;hellip;
+      <description>For SHA-1: Number of PCMF instructions used to hash data (long floating point)
 Map: R702CCF Based on: R702NHAI Description For SHA-1: Number of PCMF instructions used to hash data (long floating point)</description>
     </item>
     
@@ -1402,7 +1633,7 @@ Map: R702CCF Based on: R702NHAI Description For SHA-1: Number of PCMF instructio
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmgb/</guid>
       <description>Number of bytes of data MAC generated (long floating point)
-Map: R702CCF Based on: R702NMGB </description>
+Map: R702CCF Based on: R702NMGB Description Number of bytes of data MAC generated (long floating point)</description>
     </item>
     
     <item>
@@ -1412,7 +1643,7 @@ Map: R702CCF Based on: R702NMGB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmgc/</guid>
       <description>Number of calls to MAC generate (long floating point)
-Map: R702CCF Based on: R702NMGC </description>
+Map: R702CCF Based on: R702NMGC Description Number of calls to MAC generate (long floating point)</description>
     </item>
     
     <item>
@@ -1421,7 +1652,7 @@ Map: R702CCF Based on: R702NMGC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmgi/</guid>
-      <description>Number of PCMF instructions used to MAC generate (long floating point)&amp;hellip;
+      <description>Number of PCMF instructions used to MAC generate (long floating point)
 Map: R702CCF Based on: R702NMGI Description Number of PCMF instructions used to MAC generate (long floating point)</description>
     </item>
     
@@ -1432,7 +1663,7 @@ Map: R702CCF Based on: R702NMGI Description Number of PCMF instructions used to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmvb/</guid>
       <description>Number of bytes of data MAC verified (long floating point)
-Map: R702CCF Based on: R702NMVB </description>
+Map: R702CCF Based on: R702NMVB Description Number of bytes of data MAC verified (long floating point)</description>
     </item>
     
     <item>
@@ -1442,7 +1673,7 @@ Map: R702CCF Based on: R702NMVB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmvc/</guid>
       <description>Number of calls to MAC verify (long floating point)
-Map: R702CCF Based on: R702NMVC </description>
+Map: R702CCF Based on: R702NMVC Description Number of calls to MAC verify (long floating point)</description>
     </item>
     
     <item>
@@ -1452,7 +1683,7 @@ Map: R702CCF Based on: R702NMVC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nmvi/</guid>
       <description>Number of PCMF instructions used to MAC verify (long floating point)
-Map: R702CCF Based on: R702NMVI </description>
+Map: R702CCF Based on: R702NMVI Description Number of PCMF instructions used to MAC verify (long floating point)</description>
     </item>
     
     <item>
@@ -1462,7 +1693,7 @@ Map: R702CCF Based on: R702NMVI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702nptc/</guid>
       <description>Number of calls to PIN translate (long floating point)
-Map: R702CCF Based on: R702NPTC </description>
+Map: R702CCF Based on: R702NPTC Description Number of calls to PIN translate (long floating point)</description>
     </item>
     
     <item>
@@ -1472,7 +1703,7 @@ Map: R702CCF Based on: R702NPTC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702npvc/</guid>
       <description>Number of calls to PIN verify (long floating point)
-Map: R702CCF Based on: R702NPVC </description>
+Map: R702CCF Based on: R702NPVC Description Number of calls to PIN verify (long floating point)</description>
     </item>
     
     <item>
@@ -1482,7 +1713,7 @@ Map: R702CCF Based on: R702NPVC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702sndb/</guid>
       <description>Single DES: Number of bytes of data deciphered (long floating point)
-Map: R702CCF Based on: R702SNDB </description>
+Map: R702CCF Based on: R702SNDB Description Single DES: Number of bytes of data deciphered (long floating point)</description>
     </item>
     
     <item>
@@ -1492,7 +1723,7 @@ Map: R702CCF Based on: R702SNDB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702sndc/</guid>
       <description>Single DES: Number of calls to decipher (long floating point)
-Map: R702CCF Based on: R702SNDC </description>
+Map: R702CCF Based on: R702SNDC Description Single DES: Number of calls to decipher (long floating point)</description>
     </item>
     
     <item>
@@ -1501,8 +1732,8 @@ Map: R702CCF Based on: R702SNDC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702sndi/</guid>
-      <description>Single DES: Number of CMD instructions used to decipher the data (long&amp;hellip;
-Map: R702CCF Based on: R702SNDI Description &amp;ldquo;Single DES: Number of CMD instructions used to decipher the data (long floating point)&amp;rdquo;</description>
+      <description>Single DES: Number of CMD instructions used to decipher the data (long floating point)
+Map: R702CCF Based on: R702SNDI Description Single DES: Number of CMD instructions used to decipher the data (long floating point)</description>
     </item>
     
     <item>
@@ -1512,7 +1743,7 @@ Map: R702CCF Based on: R702SNDI Description &amp;ldquo;Single DES: Number of CMD
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702sneb/</guid>
       <description>Single DES: Number of bytes of data enciphered (long floating point)
-Map: R702CCF Based on: R702SNEB </description>
+Map: R702CCF Based on: R702SNEB Description Single DES: Number of bytes of data enciphered (long floating point)</description>
     </item>
     
     <item>
@@ -1522,7 +1753,7 @@ Map: R702CCF Based on: R702SNEB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702snec/</guid>
       <description>Single DES: Number of calls to encipher (long floating point)
-Map: R702CCF Based on: R702SNEC </description>
+Map: R702CCF Based on: R702SNEC Description Single DES: Number of calls to encipher (long floating point)</description>
     </item>
     
     <item>
@@ -1531,8 +1762,8 @@ Map: R702CCF Based on: R702SNEC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702snei/</guid>
-      <description>Single DES: Number of CMD instructions used to encipher the data (long&amp;hellip;
-Map: R702CCF Based on: R702SNEI Description &amp;ldquo;Single DES: Number of CMD instructions used to encipher the data (long floating point)&amp;rdquo;</description>
+      <description>Single DES: Number of CMD instructions used to encipher the data (long floating point)
+Map: R702CCF Based on: R702SNEI Description Single DES: Number of CMD instructions used to encipher the data (long floating point)</description>
     </item>
     
     <item>
@@ -1542,7 +1773,7 @@ Map: R702CCF Based on: R702SNEI Description &amp;ldquo;Single DES: Number of CMD
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tndb/</guid>
       <description>Triple DES: Number of bytes of data deciphered (long floating point)
-Map: R702CCF Based on: R702TNDB </description>
+Map: R702CCF Based on: R702TNDB Description Triple DES: Number of bytes of data deciphered (long floating point)</description>
     </item>
     
     <item>
@@ -1552,7 +1783,7 @@ Map: R702CCF Based on: R702TNDB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tndc/</guid>
       <description>Triple DES: Number of calls to decipher (long floating point)
-Map: R702CCF Based on: R702TNDC </description>
+Map: R702CCF Based on: R702TNDC Description Triple DES: Number of calls to decipher (long floating point)</description>
     </item>
     
     <item>
@@ -1561,8 +1792,8 @@ Map: R702CCF Based on: R702TNDC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tndi/</guid>
-      <description>Triple DES: Number of CMD instructions used to decipher the data (long&amp;hellip;
-Map: R702CCF Based on: R702TNDI Description &amp;ldquo;Triple DES: Number of CMD instructions used to decipher the data (long floating point)&amp;rdquo;</description>
+      <description>Triple DES: Number of CMD instructions used to decipher the data (long floating point)
+Map: R702CCF Based on: R702TNDI Description Triple DES: Number of CMD instructions used to decipher the data (long floating point)</description>
     </item>
     
     <item>
@@ -1572,7 +1803,7 @@ Map: R702CCF Based on: R702TNDI Description &amp;ldquo;Triple DES: Number of CMD
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tneb/</guid>
       <description>Triple DES: Number of bytes of data enciphered (long floating point)
-Map: R702CCF Based on: R702TNEB </description>
+Map: R702CCF Based on: R702TNEB Description Triple DES: Number of bytes of data enciphered (long floating point)</description>
     </item>
     
     <item>
@@ -1582,7 +1813,7 @@ Map: R702CCF Based on: R702TNEB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tnec/</guid>
       <description>Triple DES: Number of calls to encipher (long floating point)
-Map: R702CCF Based on: R702TNEC </description>
+Map: R702CCF Based on: R702TNEC Description Triple DES: Number of calls to encipher (long floating point)</description>
     </item>
     
     <item>
@@ -1591,8 +1822,8 @@ Map: R702CCF Based on: R702TNEC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r702tnei/</guid>
-      <description>Triple DES: Number of CMD instructions used to encipher the data (long&amp;hellip;
-Map: R702CCF Based on: R702TNEI Description &amp;ldquo;Triple DES: Number of CMD instructions used to encipher the data (long floating point)&amp;rdquo;</description>
+      <description>Triple DES: Number of CMD instructions used to encipher the data (long floating point)
+Map: R702CCF Based on: R702TNEI Description Triple DES: Number of CMD instructions used to encipher the data (long floating point)</description>
     </item>
     
     <item>
@@ -1601,7 +1832,7 @@ Map: R702CCF Based on: R702TNEI Description &amp;ldquo;Triple DES: Number of CMD
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ral/</guid>
-      <description>Length of reassembly area. Area consists of a fixed header and a varia&amp;hellip;
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
 Map: SMF70PRO Based on: SMF70RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
     </item>
     
@@ -1611,8 +1842,8 @@ Map: SMF70PRO Based on: SMF70RAL Description Length of reassembly area. Area con
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ran/</guid>
-      <description>Number of reassembly area. This field is used to indicate whether SMF &amp;hellip;
-Map: SMF70PRO Based on: SMF70RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF70PRO Based on: SMF70RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
     </item>
     
     <item>
@@ -1622,7 +1853,29 @@ Map: SMF70PRO Based on: SMF70RAN Description Number of reassembly area. This fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
-Map: SMF70PRO Based on: SMF70RAO </description>
+Map: SMF70PRO Based on: SMF70RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF70PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF70PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
     <item>
@@ -1632,7 +1885,7 @@ Map: SMF70PRO Based on: SMF70RAO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/rty/</guid>
       <description>RECORD TYPE
-Record: SMF70S2 Based on: SMF70RTY </description>
+Record: SMF70S2 Based on: SMF70RTY Description RECORD TYPE</description>
     </item>
     
     <item>
@@ -1642,7 +1895,17 @@ Record: SMF70S2 Based on: SMF70RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sam/</guid>
       <description>Number of samples
-Map: SMF70PRO Based on: SMF70SAM </description>
+Map: SMF70PRO Based on: SMF70SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF70S2 Based on: SMF70SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
@@ -1651,7 +1914,7 @@ Map: SMF70PRO Based on: SMF70SAM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sid/</guid>
-      <description>System ID
+      <description>SYSTEM ID FROM INSTALLATION
 Record: SMF70S2 Based on: SMF70SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
@@ -1662,17 +1925,7 @@ Record: SMF70S2 Based on: SMF70SID Description SYSTEM ID FROM INSTALLATION</desc
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/snm/</guid>
       <description>System name for current system as defined in CVTSNAME
-Map: SMF70PRO Based on: SMF70SNM </description>
-    </item>
-    
-    <item>
-      <title>Field - speed_boost</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/speed_boost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/speed_boost/</guid>
-      <description>Speed boost was active during entire interval
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+Map: SMF70PRO Based on: SMF70SNM Description System name for current system as defined in CVTSNAME</description>
     </item>
     
     <item>
@@ -1682,7 +1935,7 @@ Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/srl/</guid>
       <description>SMF record level
-Map: SMF70PRO Based on: SMF70SRL </description>
+Map: SMF70PRO Based on: SMF70SRL Description SMF record level</description>
     </item>
     
     <item>
@@ -1692,7 +1945,7 @@ Map: SMF70PRO Based on: SMF70SRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
-Record: SMF70S2 Based on: SMF70SSI </description>
+Record: SMF70S2 Based on: SMF70SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
@@ -1702,7 +1955,7 @@ Record: SMF70S2 Based on: SMF70SSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sty/</guid>
       <description>SUBTYPE
-Record: SMF70S2 Based on: SMF70STY </description>
+Record: SMF70S2 Based on: SMF70STY Description SUBTYPE</description>
     </item>
     
     <item>
@@ -1712,17 +1965,8 @@ Record: SMF70S2 Based on: SMF70STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/subtypes_used/</guid>
       <description>SUBTYPES USED
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - sym_key_gen</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sym_key_gen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sym_key_gen/</guid>
-      <description>Symmetric-key functions that return complete or final result
-Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7025msk.</description>
+Record: SMF70S2 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -1732,7 +1976,7 @@ Map: R702TYP5 Based on: r7025msk Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/syn/</guid>
       <description>SYNC value in seconds
-Map: SMF70PRO Based on: SMF70SYN </description>
+Map: SMF70PRO Based on: SMF70SYN Description SYNC value in seconds</description>
     </item>
     
     <item>
@@ -1751,8 +1995,8 @@ Record: SMF70S2 Based on: SMF70TME </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/timestamp/</guid>
-      <description>Record Time Stamp
-Record: SMF70S2 Based on: time, date Description Timestamp from SMF data.
+      <description>Record Timestamp
+Record: SMF70S2 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
     </item>
     
@@ -1762,8 +2006,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/tme/</guid>
-      <description>TOD RECORD WRITTEN
-Record: SMF70S2 Based on: SMF70TME </description>
+      <description>TIME RECORD WRITTEN
+Record: SMF70S2 Based on: SMF70TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -1773,7 +2017,7 @@ Record: SMF70S2 Based on: SMF70TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
-Record: SMF70S2 Based on: SMF70TRN </description>
+Record: SMF70S2 Based on: SMF70TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
@@ -1783,7 +2027,8 @@ Record: SMF70S2 Based on: SMF70TRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+Record: SMF70S2 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
     </item>
     
     <item>
@@ -1793,7 +2038,8 @@ Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/vxa/</guid>
       <description>MVS/XA IF ON
-Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+Record: SMF70S2 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
     </item>
     
     <item>
@@ -1803,27 +2049,7 @@ Record: SMF70S2 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/xnm/</guid>
       <description>Sysplex name as defined in ECVTSPLX
-Map: SMF70PRO Based on: SMF70XNM </description>
-    </item>
-    
-    <item>
-      <title>Field - zaap_inst</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/zaap_inst/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/zaap_inst/</guid>
-      <description>At least one zAAP is currently installed
-Map: SMF70PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - ziip_boost</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_boost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_boost/</guid>
-      <description>zIIP boost was active during entire interval
-Map: SMF70PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+Map: SMF70PRO Based on: SMF70XNM Description Sysplex name as defined in ECVTSPLX</description>
     </item>
     
   </channel>

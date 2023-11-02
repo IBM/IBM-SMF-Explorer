@@ -12,7 +12,8 @@
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/_429/</guid>
       <description>Message ERB429I
-Map: SMF74A Based on: dms Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dms.</description>
+Map: SMF74A Based on: dms Description Message ERB429I
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dms.</description>
     </item>
     
     <item>
@@ -21,8 +22,8 @@ Map: SMF74A Based on: dms Post-Processed This virtual field corresponds to the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/agc/</guid>
-      <description>The Alias Management Group number defined on the physical controller for this device.
-Map: SMF74B Based on: SMF74AGC Description This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set</description>
+      <description>The Alias Management Group number defined on the physical controller for this device. This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set
+Map: SMF74B Based on: SMF74AGC Description The Alias Management Group number defined on the physical controller for this device. This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set</description>
     </item>
     
     <item>
@@ -31,8 +32,8 @@ Map: SMF74B Based on: SMF74AGC Description This number is valid if the device be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ags/</guid>
-      <description>The Alias Management Group number assigend by z/OS for this device on this system.
-Map: SMF74B Based on: SMF74AGS Description This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set</description>
+      <description>The Alias Management Group number assigend by z/OS for this device on this system. This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set
+Map: SMF74B Based on: SMF74AGS Description The Alias Management Group number assigend by z/OS for this device on this system. This number is valid if the device belongs to a DASD subsystem that supports Alias Management Groups and bit 1 of SMF74CN2 is set</description>
     </item>
     
     <item>
@@ -42,7 +43,18 @@ Map: SMF74B Based on: SMF74AGS Description This number is valid if the device be
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/alc/</guid>
       <description>NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS ALLOCATED
-Map: SMF74B Based on: SMF74ALC </description>
+Map: SMF74B Based on: SMF74ALC Description NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS ALLOCATED</description>
+    </item>
+    
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
     </item>
     
     <item>
@@ -52,7 +64,7 @@ Map: SMF74B Based on: SMF74ALC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/atd/</guid>
       <description>Number of times I/Os were subjected to imposed delays due to PAV alias throttling
-Map: SMF74B Based on: SMF74ATD </description>
+Map: SMF74B Based on: SMF74ATD Description Number of times I/Os were subjected to imposed delays due to PAV alias throttling</description>
     </item>
     
     <item>
@@ -62,7 +74,7 @@ Map: SMF74B Based on: SMF74ATD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/atv/</guid>
       <description>DEVICE ACTIVE TIME
-Map: SMF74B Based on: SMF74ATV </description>
+Map: SMF74B Based on: SMF74ATV Description DEVICE ACTIVE TIME</description>
     </item>
     
     <item>
@@ -72,7 +84,8 @@ Map: SMF74B Based on: SMF74ATV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/bfy/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+Record: SMF74S1 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
     </item>
     
     <item>
@@ -81,8 +94,9 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/boost_class/</guid>
-      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
-Map: SMF74PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
     </item>
     
     <item>
@@ -92,7 +106,7 @@ Map: SMF74PRO Based on: fla Post-Processed Flags postprocessor for multiple bit 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cap/</guid>
       <description>DASD volume capacity (in cylinders)
-Map: SMF74B Based on: SMF74CAP </description>
+Map: SMF74B Based on: SMF74CAP Description DASD volume capacity (in cylinders)</description>
     </item>
     
     <item>
@@ -102,7 +116,8 @@ Map: SMF74B Based on: SMF74CAP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cfc/</guid>
       <description>=1 Device connected to Ficon
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 Device connected to Ficon
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cnx.</description>
     </item>
     
     <item>
@@ -112,7 +127,8 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cfl/</guid>
       <description>Configuration Change Flags
-Map: SMF74A Based on: SMF74CFL Flag fields This is a flag field with the following bit fields:
+Map: SMF74A Based on: SMF74CFL Description Configuration Change Flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description dca 0 Configuration Changed this interval. iac 1 Configuration Changed since last IPL iod 2 System IPLed via IODF icv 3 I/O Configuration Token is valid. </description>
     </item>
     
@@ -123,7 +139,8 @@ Field Bit-Position Description dca 0 Configuration Changed this interval. iac 1 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/clf/</guid>
       <description>Flags for each device class
-Map: SMF74B Based on: SMF74CLF Flag fields This is a flag field with the following bit fields:
+Map: SMF74B Based on: SMF74CLF Description Flags for each device class
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description rnr 0 Flag number option active rsg 1 Flag SG option active rcs 2 Flag for SG name changed during the interval mts 3 Open mount at interval start mte 4 Open mount at interval end clw 6 CTC with special protocol </description>
     </item>
     
@@ -134,7 +151,8 @@ Field Bit-Position Description rnr 0 Flag number option active rsg 1 Flag SG opt
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/clw/</guid>
       <description>CTC with special protocol
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field clf.</description>
+Map: SMF74B Based on: clf Description CTC with special protocol
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field clf.</description>
     </item>
     
     <item>
@@ -144,7 +162,8 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cmb/</guid>
       <description>=1 IF CMB DATA INVALID
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cnf.</description>
+Map: SMF74B Based on: cnf Description =1 IF CMB DATA INVALID
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cnf.</description>
     </item>
     
     <item>
@@ -154,7 +173,7 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cmr/</guid>
       <description>Initial command response time in units of 128 microseconds
-Map: SMF74B Based on: SMF74CMR </description>
+Map: SMF74B Based on: SMF74CMR Description Initial command response time in units of 128 microseconds</description>
     </item>
     
     <item>
@@ -164,7 +183,8 @@ Map: SMF74B Based on: SMF74CMR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cn2/</guid>
       <description>Device Flag Extension 2
-Map: SMF74B Based on: SMF74CN2 Flag fields This is a flag field with the following bit fields:
+Map: SMF74B Based on: SMF74CN2 Description Device Flag Extension 2
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description hwr 0 =1 HyperWrite requested xpv 1 =1 Device in SuperPAV mode sir 2 =1 Device is capable of synch I/O read requests siw 3 =1 Device is capable of synch I/O write requests </description>
     </item>
     
@@ -175,7 +195,8 @@ Field Bit-Position Description hwr 0 =1 HyperWrite requested xpv 1 =1 Device in 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cne/</guid>
       <description>Equipped with ESCON channel
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -185,7 +206,8 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cnf/</guid>
       <description>DEVICE FLAGS
-Map: SMF74B Based on: SMF74CNF Flag fields This is a flag field with the following bit fields:
+Map: SMF74B Based on: SMF74CNF Description DEVICE FLAGS
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description lcd 1 =1 IF NO LCU DATA cmb 2 =1 IF CMB DATA INVALID del_ 3 =1 Device has been deleted par 4 =1 ONLY PARTIAL STATISTICS AVAILABLE vac 6 DATA INVALID, VARIED ON OR OFF, OR DYNAMIC RECONFIGURATION sta 7 =1 at interval end online or offline devices indicated to be monitored </description>
     </item>
     
@@ -196,7 +218,8 @@ Field Bit-Position Description lcd 1 =1 IF NO LCU DATA cmb 2 =1 IF CMB DATA INVA
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cni/</guid>
       <description>=1 If device connect time is invalid
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 5 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 If device connect time is invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field cnx.</description>
     </item>
     
     <item>
@@ -206,7 +229,7 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cnn/</guid>
       <description>DEVICE CONNECT TIME
-Map: SMF74B Based on: SMF74CNN </description>
+Map: SMF74B Based on: SMF74CNN Description DEVICE CONNECT TIME</description>
     </item>
     
     <item>
@@ -216,7 +239,8 @@ Map: SMF74B Based on: SMF74CNN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cnv/</guid>
       <description>Data converted from version 2
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
     </item>
     
     <item>
@@ -226,7 +250,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cnx/</guid>
       <description>Device Flag Extension see also SMF74CNF above
-Map: SMF74B Based on: SMF74CNX Flag fields This is a flag field with the following bit fields:
+Map: SMF74B Based on: SMF74CNX Description Device Flag Extension see also SMF74CNF above
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description dyc 0 Device Dynamically Changed ddt 1 =1 If device disconnect time is invalid pav 2 =1 If base exposure of a Parallel Access Volume nxc 3 =1 If number of alias exposures changed ntf 4 Timing facility not active cni 5 =1 If device connect time is invalid hpv 6 =1 If HyperPAV base device cfc 7 =1 Device connected to Ficon </description>
     </item>
     
@@ -237,7 +262,7 @@ Field Bit-Position Description dyc 0 Device Dynamically Changed ddt 1 =1 If devi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cof/</guid>
       <description>NUMBER OF REQUESTS THAT HAD CONNECT TIME OVERFLOW
-Map: SMF74B Based on: SMF74COF </description>
+Map: SMF74B Based on: SMF74COF Description NUMBER OF REQUESTS THAT HAD CONNECT TIME OVERFLOW</description>
     </item>
     
     <item>
@@ -247,7 +272,7 @@ Map: SMF74B Based on: SMF74COF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cu/</guid>
       <description>Control unit name
-Map: SMF74B Based on: SMF74CU </description>
+Map: SMF74B Based on: SMF74CU Description Control unit name</description>
     </item>
     
     <item>
@@ -257,7 +282,7 @@ Map: SMF74B Based on: SMF74CU </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cuq/</guid>
       <description>Control Unit Queuing Time
-Map: SMF74B Based on: SMF74CUQ </description>
+Map: SMF74B Based on: SMF74CUQ Description Control Unit Queuing Time</description>
     </item>
     
     <item>
@@ -266,8 +291,8 @@ Map: SMF74B Based on: SMF74CUQ </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/cyc/</guid>
-      <description>Sampling cycle length 000TTTTF
-Map: SMF74PRO Based on: SMF74CYC </description>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
     </item>
     
     <item>
@@ -276,8 +301,8 @@ Map: SMF74PRO Based on: SMF74CYC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dat/</guid>
-      <description>Date monitor interval start: 00YYDDDF
-Map: SMF74PRO Based on: SMF74DAT </description>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
     </item>
     
     <item>
@@ -297,7 +322,8 @@ Record: SMF74S1 Based on: SMF74DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dca/</guid>
       <description>Configuration Changed this interval.
-Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cfl.</description>
+Map: SMF74A Based on: cfl Description Configuration Changed this interval.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cfl.</description>
     </item>
     
     <item>
@@ -307,7 +333,8 @@ Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dcf/</guid>
       <description>Flags for DASD class
-Map: SMF74A Based on: SMF74DCF Flag fields This is a flag field with the following bit fields:
+Map: SMF74A Based on: SMF74DCF Description Flags for DASD class
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description nrf 0 Flag to cause two report areas sgf 1 Flag to cause sort by SG </description>
     </item>
     
@@ -318,7 +345,7 @@ Field Bit-Position Description nrf 0 Flag to cause two report areas sgf 1 Flag t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dcl/</guid>
       <description>LENGTH OF DEVICE CNTL SECTION
-Record: SMF74S1 Based on: SMF74DCL </description>
+Record: SMF74S1 Based on: SMF74DCL Description LENGTH OF DEVICE CNTL SECTION</description>
     </item>
     
     <item>
@@ -328,7 +355,7 @@ Record: SMF74S1 Based on: SMF74DCL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dcn/</guid>
       <description>NUMBER OF DEVICE CNTL SECTIONS
-Record: SMF74S1 Based on: SMF74DCN </description>
+Record: SMF74S1 Based on: SMF74DCN Description NUMBER OF DEVICE CNTL SECTIONS</description>
     </item>
     
     <item>
@@ -338,7 +365,7 @@ Record: SMF74S1 Based on: SMF74DCN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dcs/</guid>
       <description>OFFSET TO DEVICE CNTL SECTION
-Record: SMF74S1 Based on: SMF74DCS </description>
+Record: SMF74S1 Based on: SMF74DCS Description OFFSET TO DEVICE CNTL SECTION</description>
     </item>
     
     <item>
@@ -348,7 +375,7 @@ Record: SMF74S1 Based on: SMF74DCS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dct/</guid>
       <description>Configuration Token for self-describing devices valid if SMF74SND = 0
-Map: SMF74B Based on: SMF74DCT </description>
+Map: SMF74B Based on: SMF74DCT Description Configuration Token for self-describing devices valid if SMF74SND = 0</description>
     </item>
     
     <item>
@@ -358,7 +385,7 @@ Map: SMF74B Based on: SMF74DCT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ddl/</guid>
       <description>LENGTH OF DEVICE DATA SECTION
-Record: SMF74S1 Based on: SMF74DDL </description>
+Record: SMF74S1 Based on: SMF74DDL Description LENGTH OF DEVICE DATA SECTION</description>
     </item>
     
     <item>
@@ -368,7 +395,7 @@ Record: SMF74S1 Based on: SMF74DDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ddn/</guid>
       <description>NUMBER OF DEVICE DATA SECTIONS
-Record: SMF74S1 Based on: SMF74DDN </description>
+Record: SMF74S1 Based on: SMF74DDN Description NUMBER OF DEVICE DATA SECTIONS</description>
     </item>
     
     <item>
@@ -378,7 +405,7 @@ Record: SMF74S1 Based on: SMF74DDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dds/</guid>
       <description>OFFSET TO DEVICE DATA SECTION
-Record: SMF74S1 Based on: SMF74DDS </description>
+Record: SMF74S1 Based on: SMF74DDS Description OFFSET TO DEVICE DATA SECTION</description>
     </item>
     
     <item>
@@ -388,7 +415,8 @@ Record: SMF74S1 Based on: SMF74DDS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ddt/</guid>
       <description>=1 If device disconnect time is invalid
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 If device disconnect time is invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cnx.</description>
     </item>
     
     <item>
@@ -398,7 +426,8 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/del_/</guid>
       <description>=1 Device has been deleted
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cnf.</description>
+Map: SMF74B Based on: cnf Description =1 Device has been deleted
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cnf.</description>
     </item>
     
     <item>
@@ -408,7 +437,7 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dev/</guid>
       <description>Device name
-Map: SMF74B Based on: SMF74DEV </description>
+Map: SMF74B Based on: SMF74DEV Description Device name</description>
     </item>
     
     <item>
@@ -418,7 +447,7 @@ Map: SMF74B Based on: SMF74DEV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dis/</guid>
       <description>DEVICE DISCONNECT TIME
-Map: SMF74B Based on: SMF74DIS </description>
+Map: SMF74B Based on: SMF74DIS Description DEVICE DISCONNECT TIME</description>
     </item>
     
     <item>
@@ -428,7 +457,8 @@ Map: SMF74B Based on: SMF74DIS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dms/</guid>
       <description>Message flags
-Map: SMF74A Based on: SMF74DMS Flag fields This is a flag field with the following bit fields:
+Map: SMF74A Based on: SMF74DMS Description Message flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description _429 0 Message ERB429I sme 1 SMS Interface Error </description>
     </item>
     
@@ -439,17 +469,8 @@ Field Bit-Position Description _429 0 Message ERB429I sme 1 SMS Interface Error 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/drc/</guid>
       <description>ESCON Director in configuration
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
-    </item>
-    
-    <item>
-      <title>Field - dso</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dso/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dso/</guid>
-      <description>Not longer needed, new field is SMF74NDA, variable name is needed for conversion
-Map: SMF74B Based on: SMF74DSO </description>
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
     </item>
     
     <item>
@@ -459,7 +480,7 @@ Map: SMF74B Based on: SMF74DSO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
-Record: SMF74S1 Based on: SMF74DTE </description>
+Record: SMF74S1 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -469,8 +490,9 @@ Record: SMF74S1 Based on: SMF74DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dts/</guid>
       <description>indentify source of Token
-Map: SMF74B Based on: SMF74DTS Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description srd 0 if set: self desc. snd 1 if set: no self desc. shv 3 ON = SMF74SHR indication is valid shr 4 ON = device is shared/assigned to multiple systems </description>
+Map: SMF74B Based on: SMF74DTS Description indentify source of Token
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description srd 0 if set: self desc. device snd 1 if set: no self desc. device 4-byte device number stored shv 3 ON = SMF74SHR indication is valid shr 4 ON = device is shared/assigned to multiple systems </description>
     </item>
     
     <item>
@@ -480,7 +502,7 @@ Field Bit-Position Description srd 0 if set: self desc. snd 1 if set: no self de
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dvb/</guid>
       <description>device busy delay time
-Map: SMF74B Based on: SMF74DVB </description>
+Map: SMF74B Based on: SMF74DVB Description device busy delay time</description>
     </item>
     
     <item>
@@ -490,7 +512,8 @@ Map: SMF74B Based on: SMF74DVB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/dyc/</guid>
       <description>Device Dynamically Changed
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cnx.</description>
+Map: SMF74B Based on: cnx Description Device Dynamically Changed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cnx.</description>
     </item>
     
     <item>
@@ -500,7 +523,8 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ecm/</guid>
       <description>On = extended CMB
-Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field enf.</description>
+Map: SMF74A Based on: enf Description On = extended CMB
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field enf.</description>
     </item>
     
     <item>
@@ -510,7 +534,8 @@ Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/eed/</guid>
       <description>Speed boost was active during entire interval
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
     </item>
     
     <item>
@@ -520,7 +545,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/eme/</guid>
       <description>System in z/ARCH mode
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -530,7 +556,8 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/enf/</guid>
       <description>Flags
-Map: SMF74A Based on: SMF74ENF Flag fields This is a flag field with the following bit fields:
+Map: SMF74A Based on: SMF74ENF Description Flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description ecm 0 On = extended CMB sts 1 On = model dependent data not available by STSCH fcm 2 On = initial command response time valid (SMF74CMR) fid 3 On = interrupt delay time valid (SMF74IDT) </description>
     </item>
     
@@ -541,7 +568,8 @@ Field Bit-Position Description ecm 0 On = extended CMB sts 1 On = model dependen
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/esa/</guid>
       <description>MVS/ESA IF ON
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+Record: SMF74S1 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
     </item>
     
     <item>
@@ -551,7 +579,8 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/fcm/</guid>
       <description>On = initial command response time valid (SMF74CMR)
-Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field enf.</description>
+Map: SMF74A Based on: enf Description On = initial command response time valid (SMF74CMR)
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field enf.</description>
     </item>
     
     <item>
@@ -561,7 +590,8 @@ Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/fid/</guid>
       <description>On = interrupt delay time valid (SMF74IDT)
-Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field enf.</description>
+Map: SMF74A Based on: enf Description On = interrupt delay time valid (SMF74IDT)
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field enf.</description>
     </item>
     
     <item>
@@ -571,8 +601,9 @@ Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/fla/</guid>
       <description>Flags
-Map: SMF74PRO Based on: SMF74FLA Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. rch 5 SMF record converted to higher release or service level.</description>
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
     </item>
     
     <item>
@@ -582,7 +613,8 @@ Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
-Record: SMF74S1 Based on: SMF74FLG Flag fields This is a flag field with the following bit fields:
+Record: SMF74S1 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
     </item>
     
@@ -593,7 +625,7 @@ Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/gen/</guid>
       <description>TOTAL NUMBER OF DEVICES SYSGENED FOR ALL CLASSES
-Map: SMF74A Based on: SMF74GEN </description>
+Map: SMF74A Based on: SMF74GEN Description TOTAL NUMBER OF DEVICES SYSGENED FOR ALL CLASSES</description>
     </item>
     
     <item>
@@ -602,8 +634,8 @@ Map: SMF74A Based on: SMF74GEN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/gie/</guid>
-      <description>Projected gathering interval end GMT time (STCK format)
-Map: SMF74PRO Based on: SMF74GIE </description>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
     </item>
     
     <item>
@@ -613,7 +645,7 @@ Map: SMF74PRO Based on: SMF74GIE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/hpc/</guid>
       <description>Number of HyperPAV aliases configured for that LSS
-Map: SMF74B Based on: SMF74HPC </description>
+Map: SMF74B Based on: SMF74HPC Description Number of HyperPAV aliases configured for that LSS</description>
     </item>
     
     <item>
@@ -623,7 +655,8 @@ Map: SMF74B Based on: SMF74HPC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/hpv/</guid>
       <description>=1 If HyperPAV base device
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 If HyperPAV base device
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cnx.</description>
     </item>
     
     <item>
@@ -633,7 +666,8 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/hwr/</guid>
       <description>=1 HyperWrite requested
-Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cn2.</description>
+Map: SMF74B Based on: cn2 Description =1 HyperWrite requested
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cn2.</description>
     </item>
     
     <item>
@@ -643,7 +677,8 @@ Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iac/</guid>
       <description>Configuration Changed since last IPL
-Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cfl.</description>
+Map: SMF74A Based on: cfl Description Configuration Changed since last IPL
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cfl.</description>
     </item>
     
     <item>
@@ -653,7 +688,8 @@ Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/icv/</guid>
       <description>I/O Configuration Token is valid.
-Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cfl.</description>
+Map: SMF74A Based on: cfl Description I/O Configuration Token is valid.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cfl.</description>
     </item>
     
     <item>
@@ -662,8 +698,8 @@ Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/idt/</guid>
-      <description>Interrupt delay time in units of microseconds.
-Map: SMF74B Based on: SMF74IDT Description This field is zero if not supported by the hardware.</description>
+      <description>Interrupt delay time in units of microseconds. This field is zero if not supported by the hardware.
+Map: SMF74B Based on: SMF74IDT Description Interrupt delay time in units of microseconds. This field is zero if not supported by the hardware.</description>
     </item>
     
     <item>
@@ -673,7 +709,7 @@ Map: SMF74B Based on: SMF74IDT Description This field is zero if not supported b
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iet/</guid>
       <description>Interval expiration time token
-Map: SMF74PRO Based on: SMF74IET </description>
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
     </item>
     
     <item>
@@ -683,7 +719,8 @@ Map: SMF74PRO Based on: SMF74IET </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iip/</guid>
       <description>zIIP boost was active during entire interval
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
     </item>
     
     <item>
@@ -692,8 +729,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iml/</guid>
-      <description>Indicates the type of processor complex on which data measurements were taken.
-Map: SMF74PRO Based on: SMF74IML Description X&#39;03&amp;rsquo; = 9672, zSeries</description>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
     </item>
     
     <item>
@@ -702,8 +739,8 @@ Map: SMF74PRO Based on: SMF74IML Description X&#39;03&amp;rsquo; = 9672, zSeries
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/int/</guid>
-      <description>Duration of monitor interval: MMSSTTTF
-Map: SMF74PRO Based on: SMF74INT </description>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
     </item>
     
     <item>
@@ -713,7 +750,8 @@ Map: SMF74PRO Based on: SMF74INT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iod/</guid>
       <description>System IPLed via IODF
-Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cfl.</description>
+Map: SMF74A Based on: cfl Description System IPLed via IODF
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cfl.</description>
     </item>
     
     <item>
@@ -722,8 +760,8 @@ Map: SMF74A Based on: cfl Post-Processed This virtual field corresponds to the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ios/</guid>
-      <description>IOS Queue time in microseconds (long floating point)
-Map: SMF74B Based on: SMF74IOS </description>
+      <description>IOS Queue time in microseconds (short floating point)
+Map: SMF74B Based on: SMF74IOS Description IOS Queue time in microseconds (short floating point)</description>
     </item>
     
     <item>
@@ -733,7 +771,8 @@ Map: SMF74B Based on: SMF74IOS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ism/</guid>
       <description>Interval was under SMF control
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
     </item>
     
     <item>
@@ -743,7 +782,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/iss/</guid>
       <description>Invalid samples to be skipped
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -752,8 +792,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ist/</guid>
-      <description>TOD monitor interval start: 0HHMMSSF
-Map: SMF74PRO Based on: SMF74IST </description>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
     </item>
     
     <item>
@@ -763,7 +803,8 @@ Map: SMF74PRO Based on: SMF74IST </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/lcd/</guid>
       <description>=1 IF NO LCU DATA
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cnf.</description>
+Map: SMF74B Based on: cnf Description =1 IF NO LCU DATA
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cnf.</description>
     </item>
     
     <item>
@@ -773,7 +814,7 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/lcu/</guid>
       <description>LOGICAL CONTROL UNIT NUMBER
-Map: SMF74B Based on: SMF74LCU </description>
+Map: SMF74B Based on: SMF74LCU Description LOGICAL CONTROL UNIT NUMBER</description>
     </item>
     
     <item>
@@ -782,8 +823,8 @@ Map: SMF74B Based on: SMF74LCU </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/len/</guid>
-      <description>SMF RECORD LENGTH.
-Record: SMF74S1 Based on: SMF74LEN Description ZERO AFTER GRBSMFR REASSEMBLY</description>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S1 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
@@ -793,7 +834,7 @@ Record: SMF74S1 Based on: SMF74LEN Description ZERO AFTER GRBSMFR REASSEMBLY</de
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/lgo/</guid>
       <description>Offset GMT to local time
-Map: SMF74PRO Based on: SMF74LGO </description>
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
     </item>
     
     <item>
@@ -803,7 +844,7 @@ Map: SMF74PRO Based on: SMF74LGO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/lsn/</guid>
       <description>Logical SMF record sequence number for device class
-Map: SMF74A Based on: SMF74LSN </description>
+Map: SMF74A Based on: SMF74LSN Description Logical SMF record sequence number for device class</description>
     </item>
     
     <item>
@@ -813,7 +854,8 @@ Map: SMF74A Based on: SMF74LSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/m3r/</guid>
       <description>Record was written by RMF Monitor III
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
     </item>
     
     <item>
@@ -823,7 +865,7 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mct/</guid>
       <description>Maximum number of allocated tape devices
-Map: SMF74A Based on: SMF74MCT </description>
+Map: SMF74A Based on: SMF74MCT Description Maximum number of allocated tape devices</description>
     </item>
     
     <item>
@@ -833,7 +875,7 @@ Map: SMF74A Based on: SMF74MCT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mec/</guid>
       <description>MEASUREMENT EVENT COUNT (NUMBER OF SSCH FOR WHICH CONNECT, PENDING, AND ACTIVE TIME WERE STORED
-Map: SMF74B Based on: SMF74MEC </description>
+Map: SMF74B Based on: SMF74MEC Description MEASUREMENT EVENT COUNT (NUMBER OF SSCH FOR WHICH CONNECT, PENDING, AND ACTIVE TIME WERE STORED</description>
     </item>
     
     <item>
@@ -842,8 +884,8 @@ Map: SMF74B Based on: SMF74MEC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mfv/</guid>
-      <description>RMF version number in packed decimal format: nnnF
-Map: SMF74PRO Based on: SMF74MFV </description>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
     </item>
     
     <item>
@@ -853,7 +895,8 @@ Map: SMF74PRO Based on: SMF74MFV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/msm/</guid>
       <description>On = There are more logical SMF records in device class
-Map: SMF74A Based on: smf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field smf.</description>
+Map: SMF74A Based on: smf Description On = There are more logical SMF records in device class
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field smf.</description>
     </item>
     
     <item>
@@ -863,7 +906,7 @@ Map: SMF74A Based on: smf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mtc/</guid>
       <description>Number of mount conditions
-Map: SMF74B Based on: SMF74MTC </description>
+Map: SMF74B Based on: SMF74MTC Description Number of mount conditions</description>
     </item>
     
     <item>
@@ -873,7 +916,8 @@ Map: SMF74B Based on: SMF74MTC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mte/</guid>
       <description>Open mount at interval end
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field clf.</description>
+Map: SMF74B Based on: clf Description Open mount at interval end
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field clf.</description>
     </item>
     
     <item>
@@ -883,7 +927,7 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mtp/</guid>
       <description>NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED A MOUNT PENDING CONDITION
-Map: SMF74B Based on: SMF74MTP </description>
+Map: SMF74B Based on: SMF74MTP Description NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED A MOUNT PENDING CONDITION</description>
     </item>
     
     <item>
@@ -893,7 +937,8 @@ Map: SMF74B Based on: SMF74MTP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mts/</guid>
       <description>Open mount at interval start
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field clf.</description>
+Map: SMF74B Based on: clf Description Open mount at interval start
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field clf.</description>
     </item>
     
     <item>
@@ -903,7 +948,7 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/mvs/</guid>
       <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
-Map: SMF74PRO Based on: SMF74MVS </description>
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
     </item>
     
     <item>
@@ -913,7 +958,7 @@ Map: SMF74PRO Based on: SMF74MVS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nda/</guid>
       <description>Total number of allocations in effect for the device
-Map: SMF74B Based on: SMF74NDA </description>
+Map: SMF74B Based on: SMF74NDA Description Total number of allocations in effect for the device</description>
     </item>
     
     <item>
@@ -923,7 +968,7 @@ Map: SMF74B Based on: SMF74NDA </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ndn/</guid>
       <description>4-byte device number in EBCDIC format, if SMF74SND = 1
-Map: SMF74B Based on: SMF74NDN </description>
+Map: SMF74B Based on: SMF74NDN Description 4-byte device number in EBCDIC format, if SMF74SND = 1</description>
     </item>
     
     <item>
@@ -933,7 +978,7 @@ Map: SMF74B Based on: SMF74NDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nm2/</guid>
       <description>Device number same as SMF74NUM
-Map: SMF74B Based on: SMF74NM2 </description>
+Map: SMF74B Based on: SMF74NM2 Description Device number same as SMF74NUM</description>
     </item>
     
     <item>
@@ -943,7 +988,7 @@ Map: SMF74B Based on: SMF74NM2 </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nrd/</guid>
       <description>NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS NOT READY
-Map: SMF74B Based on: SMF74NRD </description>
+Map: SMF74B Based on: SMF74NRD Description NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS NOT READY</description>
     </item>
     
     <item>
@@ -953,7 +998,8 @@ Map: SMF74B Based on: SMF74NRD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nrf/</guid>
       <description>Flag to cause two report areas
-Map: SMF74A Based on: dcf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dcf.</description>
+Map: SMF74A Based on: dcf Description Flag to cause two report areas
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dcf.</description>
     </item>
     
     <item>
@@ -963,7 +1009,7 @@ Map: SMF74A Based on: dcf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nss/</guid>
       <description>Number of skipped samples caused by too large delta values
-Map: SMF74B Based on: SMF74NSS </description>
+Map: SMF74B Based on: SMF74NSS Description Number of skipped samples caused by too large delta values</description>
     </item>
     
     <item>
@@ -973,7 +1019,8 @@ Map: SMF74B Based on: SMF74NSS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ntf/</guid>
       <description>Timing facility not active
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cnx.</description>
+Map: SMF74B Based on: cnx Description Timing facility not active
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cnx.</description>
     </item>
     
     <item>
@@ -983,7 +1030,7 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/num/</guid>
       <description>DEVICE NUMBER
-Map: SMF74B Based on: SMF74NUM </description>
+Map: SMF74B Based on: SMF74NUM Description DEVICE NUMBER</description>
     </item>
     
     <item>
@@ -992,8 +1039,8 @@ Map: SMF74B Based on: SMF74NUM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nux/</guid>
-      <description>Number of exposures, if multiple exposure device.
-Map: SMF74B Based on: SMF74NUX Description In case of HyperPAV base device, SMF74HPV = 1, number of accumulated HyperPAV aliases</description>
+      <description>Number of exposures, if multiple exposure device. In case of HyperPAV base device, SMF74HPV = 1, number of accumulated HyperPAV aliases
+Map: SMF74B Based on: SMF74NUX Description Number of exposures, if multiple exposure device. In case of HyperPAV base device, SMF74HPV = 1, number of accumulated HyperPAV aliases</description>
     </item>
     
     <item>
@@ -1003,7 +1050,8 @@ Map: SMF74B Based on: SMF74NUX Description In case of HyperPAV base device, SMF7
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nxc/</guid>
       <description>=1 If number of alias exposures changed
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 If number of alias exposures changed
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cnx.</description>
     </item>
     
     <item>
@@ -1013,7 +1061,7 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/nxt/</guid>
       <description>NUMBER OF DEVICE DATA SECTIONS IN FOLLOWING BROKEN RECORDS FOR THIS LOGICAL DEVICE CLASS RECORD
-Map: SMF74A Based on: SMF74NXT </description>
+Map: SMF74A Based on: SMF74NXT Description NUMBER OF DEVICE DATA SECTIONS IN FOLLOWING BROKEN RECORDS FOR THIS LOGICAL DEVICE CLASS RECORD</description>
     </item>
     
     <item>
@@ -1023,7 +1071,7 @@ Map: SMF74A Based on: SMF74NXT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/oil/</guid>
       <description>Original interval length as defined in the session or by SMF (in seconds)
-Map: SMF74PRO Based on: SMF74OIL </description>
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
     </item>
     
     <item>
@@ -1033,7 +1081,8 @@ Map: SMF74PRO Based on: SMF74OIL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+Record: SMF74S1 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
     </item>
     
     <item>
@@ -1043,7 +1092,8 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/par/</guid>
       <description>=1 ONLY PARTIAL STATISTICS AVAILABLE
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cnf.</description>
+Map: SMF74B Based on: cnf Description =1 ONLY PARTIAL STATISTICS AVAILABLE
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cnf.</description>
     </item>
     
     <item>
@@ -1053,7 +1103,8 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/pav/</guid>
       <description>=1 If base exposure of a Parallel Access Volume
-Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cnx.</description>
+Map: SMF74B Based on: cnx Description =1 If base exposure of a Parallel Access Volume
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cnx.</description>
     </item>
     
     <item>
@@ -1063,7 +1114,7 @@ Map: SMF74B Based on: cnx Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/pct/</guid>
       <description>Number of unsuccessful PAV samples
-Map: SMF74B Based on: SMF74PCT </description>
+Map: SMF74B Based on: SMF74PCT Description Number of unsuccessful PAV samples</description>
     </item>
     
     <item>
@@ -1073,7 +1124,8 @@ Map: SMF74B Based on: SMF74PCT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/pe2/</guid>
       <description>Enhanced DAT facility 2
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
     </item>
     
     <item>
@@ -1083,7 +1135,8 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ped/</guid>
       <description>Enhanced DAT facility 1
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -1093,7 +1146,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/pen/</guid>
       <description>DEVICE PENDING TIME
-Map: SMF74B Based on: SMF74PEN </description>
+Map: SMF74B Based on: SMF74PEN Description DEVICE PENDING TIME</description>
     </item>
     
     <item>
@@ -1103,7 +1156,7 @@ Map: SMF74B Based on: SMF74PEN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prd/</guid>
       <description>Product name
-Map: SMF74PRO Based on: SMF74PRD </description>
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
     </item>
     
     <item>
@@ -1113,7 +1166,8 @@ Map: SMF74PRO Based on: SMF74PRD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prf/</guid>
       <description>Processor flags
-Map: SMF74PRO Based on: SMF74PRF Flag fields This is a flag field with the following bit fields:
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
     </item>
     
@@ -1124,7 +1178,8 @@ Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/pri/</guid>
       <description>At least one zAAP is currently installed
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -1134,7 +1189,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
-Record: SMF74S1 Based on: SMF74PRL </description>
+Record: SMF74S1 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -1144,7 +1199,7 @@ Record: SMF74S1 Based on: SMF74PRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
-Record: SMF74S1 Based on: SMF74PRN </description>
+Record: SMF74S1 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
     </item>
     
     <item>
@@ -1154,7 +1209,8 @@ Record: SMF74S1 Based on: SMF74PRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prp/</guid>
       <description>At least one zIIP is currently installed
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -1164,7 +1220,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
-Record: SMF74S1 Based on: SMF74PRS </description>
+Record: SMF74S1 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -1174,7 +1230,7 @@ Record: SMF74S1 Based on: SMF74PRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/psm/</guid>
       <description>Number of successful PAV samples
-Map: SMF74B Based on: SMF74PSM </description>
+Map: SMF74B Based on: SMF74PSM Description Number of successful PAV samples</description>
     </item>
     
     <item>
@@ -1184,7 +1240,7 @@ Map: SMF74B Based on: SMF74PSM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ptn/</guid>
       <description>PR/SM partition number
-Map: SMF74PRO Based on: SMF74PTN </description>
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
     </item>
     
     <item>
@@ -1194,7 +1250,8 @@ Map: SMF74PRO Based on: SMF74PTN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/qes/</guid>
       <description>System has expanded storage
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -1204,7 +1261,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/que/</guid>
       <description>NUMBER OF REQUESTS QUEUED IN IOS FOR THIS DEVICE
-Map: SMF74B Based on: SMF74QUE </description>
+Map: SMF74B Based on: SMF74QUE Description NUMBER OF REQUESTS QUEUED IN IOS FOR THIS DEVICE</description>
     </item>
     
     <item>
@@ -1213,8 +1270,8 @@ Map: SMF74B Based on: SMF74QUE </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ral/</guid>
-      <description>Length of reassembly area.
-Map: SMF74PRO Based on: SMF74RAL Description Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
     </item>
     
     <item>
@@ -1223,8 +1280,8 @@ Map: SMF74PRO Based on: SMF74RAL Description Area consists of a fixed header and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ran/</guid>
-      <description>Number of reassembly area.
-Map: SMF74PRO Based on: SMF74RAN Description This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
     </item>
     
     <item>
@@ -1234,7 +1291,7 @@ Map: SMF74PRO Based on: SMF74RAN Description This field is used to indicate whet
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
-Map: SMF74PRO Based on: SMF74RAO </description>
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
     </item>
     
     <item>
@@ -1243,8 +1300,8 @@ Map: SMF74PRO Based on: SMF74RAO </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rch/</guid>
-      <description>SMF record converted to higher release or service level.
-Map: SMF74PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
     </item>
     
@@ -1254,8 +1311,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rcl/</guid>
-      <description>SMF record converted to lower service level.
-Map: SMF74PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
@@ -1266,7 +1323,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rcs/</guid>
       <description>Flag for SG name changed during the interval
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field clf.</description>
+Map: SMF74B Based on: clf Description Flag for SG name changed during the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field clf.</description>
     </item>
     
     <item>
@@ -1276,7 +1334,8 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rnr/</guid>
       <description>Flag number option active
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field clf.</description>
+Map: SMF74B Based on: clf Description Flag number option active
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field clf.</description>
     </item>
     
     <item>
@@ -1286,7 +1345,8 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rrf/</guid>
       <description>NEW RECORD FORMAT
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF74S1 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -1296,7 +1356,8 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rsg/</guid>
       <description>Flag SG option active
-Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field clf.</description>
+Map: SMF74B Based on: clf Description Flag SG option active
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field clf.</description>
     </item>
     
     <item>
@@ -1306,7 +1367,7 @@ Map: SMF74B Based on: clf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rsv/</guid>
       <description>NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS RESERVED
-Map: SMF74B Based on: SMF74RSV </description>
+Map: SMF74B Based on: SMF74RSV Description NUMBER OF SAMPLES DURING THE INTERVAL THAT INDICATED THAT THE DEVICE WAS RESERVED</description>
     </item>
     
     <item>
@@ -1316,7 +1377,7 @@ Map: SMF74B Based on: SMF74RSV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/rty/</guid>
       <description>RECORD TYPE
-Record: SMF74S1 Based on: SMF74RTY </description>
+Record: SMF74S1 Based on: SMF74RTY Description RECORD TYPE</description>
     </item>
     
     <item>
@@ -1326,7 +1387,7 @@ Record: SMF74S1 Based on: SMF74RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/s15/</guid>
       <description>Reg 15 after SMS interface call (SSI RC)
-Map: SMF74A Based on: SMF74S15 </description>
+Map: SMF74A Based on: SMF74S15 Description Reg 15 after SMS interface call (SSI RC)</description>
     </item>
     
     <item>
@@ -1336,7 +1397,7 @@ Map: SMF74A Based on: SMF74S15 </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sam/</guid>
       <description>Number of samples
-Map: SMF74PRO Based on: SMF74SAM </description>
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
     </item>
     
     <item>
@@ -1346,7 +1407,7 @@ Map: SMF74PRO Based on: SMF74SAM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sbr/</guid>
       <description>Number of synchronous I/O read bytes transferred (long floating point)
-Map: SMF74B Based on: SMF74SBR </description>
+Map: SMF74B Based on: SMF74SBR Description Number of synchronous I/O read bytes transferred (long floating point)</description>
     </item>
     
     <item>
@@ -1356,7 +1417,7 @@ Map: SMF74B Based on: SMF74SBR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sbw/</guid>
       <description>Number of synchronous I/O write bytes transferred (long floating point)
-Map: SMF74B Based on: SMF74SBW </description>
+Map: SMF74B Based on: SMF74SBW Description Number of synchronous I/O write bytes transferred (long floating point)</description>
     </item>
     
     <item>
@@ -1365,8 +1426,8 @@ Map: SMF74B Based on: SMF74SBW </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/scmr/</guid>
-      <description>Number of cache miss conditions for synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SCMR </description>
+      <description>Number of cache miss conditions for synchronous I/O read requests (short floating point)
+Map: SMF74B Based on: SMF74SCMR Description Number of cache miss conditions for synchronous I/O read requests (short floating point)</description>
     </item>
     
     <item>
@@ -1376,7 +1437,7 @@ Map: SMF74B Based on: SMF74SCMR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/scs/</guid>
       <description>Subchannel Set the device is situated
-Map: SMF74B Based on: SMF74SCS </description>
+Map: SMF74B Based on: SMF74SCS Description Subchannel Set the device is situated</description>
     </item>
     
     <item>
@@ -1386,7 +1447,7 @@ Map: SMF74B Based on: SMF74SCS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/seg/</guid>
       <description>SEGMENT DESCRIPTOR
-Record: SMF74S1 Based on: SMF74SEG </description>
+Record: SMF74S1 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
@@ -1396,7 +1457,7 @@ Record: SMF74S1 Based on: SMF74SEG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ser/</guid>
       <description>VOLUME SERIAL NUMBER OF MOUNTED VOLUME
-Map: SMF74B Based on: SMF74SER </description>
+Map: SMF74B Based on: SMF74SER Description VOLUME SERIAL NUMBER OF MOUNTED VOLUME</description>
     </item>
     
     <item>
@@ -1406,7 +1467,7 @@ Map: SMF74B Based on: SMF74SER </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sftr/</guid>
       <description>Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SFTR </description>
+Map: SMF74B Based on: SMF74SFTR Description Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O read requests (long floating point)</description>
     </item>
     
     <item>
@@ -1416,7 +1477,7 @@ Map: SMF74B Based on: SMF74SFTR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sftw/</guid>
       <description>Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O write requests (long floating point)
-Map: SMF74B Based on: SMF74SFTW </description>
+Map: SMF74B Based on: SMF74SFTW Description Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O write requests (long floating point)</description>
     </item>
     
     <item>
@@ -1426,7 +1487,8 @@ Map: SMF74B Based on: SMF74SFTW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sgf/</guid>
       <description>Flag to cause sort by SG
-Map: SMF74A Based on: dcf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dcf.</description>
+Map: SMF74A Based on: dcf Description Flag to cause sort by SG
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dcf.</description>
     </item>
     
     <item>
@@ -1436,7 +1498,7 @@ Map: SMF74A Based on: dcf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sgn/</guid>
       <description>Storage Group Name
-Map: SMF74B Based on: SMF74SGN </description>
+Map: SMF74B Based on: SMF74SGN Description Storage Group Name</description>
     </item>
     
     <item>
@@ -1446,7 +1508,8 @@ Map: SMF74B Based on: SMF74SGN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/shr/</guid>
       <description>ON = device is shared/assigned to multiple systems
-Map: SMF74B Based on: dts Post-Processed This virtual field corresponds to the flag at bit-position 4 of field dts.</description>
+Map: SMF74B Based on: dts Description ON = device is shared/assigned to multiple systems
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field dts.</description>
     </item>
     
     <item>
@@ -1456,7 +1519,8 @@ Map: SMF74B Based on: dts Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/shv/</guid>
       <description>ON = SMF74SHR indication is valid
-Map: SMF74B Based on: dts Post-Processed This virtual field corresponds to the flag at bit-position 3 of field dts.</description>
+Map: SMF74B Based on: dts Description ON = SMF74SHR indication is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field dts.</description>
     </item>
     
     <item>
@@ -1466,7 +1530,7 @@ Map: SMF74B Based on: dts Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sid/</guid>
       <description>SYSTEM ID FROM INSTALLATION
-Record: SMF74S1 Based on: SMF74SID </description>
+Record: SMF74S1 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
     <item>
@@ -1476,7 +1540,8 @@ Record: SMF74S1 Based on: SMF74SID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sir/</guid>
       <description>=1 Device is capable of synch I/O read requests
-Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cn2.</description>
+Map: SMF74B Based on: cn2 Description =1 Device is capable of synch I/O read requests
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cn2.</description>
     </item>
     
     <item>
@@ -1486,7 +1551,8 @@ Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/siw/</guid>
       <description>=1 Device is capable of synch I/O write requests
-Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cn2.</description>
+Map: SMF74B Based on: cn2 Description =1 Device is capable of synch I/O write requests
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cn2.</description>
     </item>
     
     <item>
@@ -1495,8 +1561,8 @@ Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/slbr/</guid>
-      <description>Number of synchronous I/O read link busy conditions (long floating point)
-Map: SMF74B Based on: SMF74SLBR </description>
+      <description>Number of synchronous I/O read link busy conditions (short floating point)
+Map: SMF74B Based on: SMF74SLBR Description Number of synchronous I/O read link busy conditions (short floating point)</description>
     </item>
     
     <item>
@@ -1505,8 +1571,8 @@ Map: SMF74B Based on: SMF74SLBR </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/slbw/</guid>
-      <description>Number of synchronous I/O write link busy conditions (long floating point)
-Map: SMF74B Based on: SMF74SLBW </description>
+      <description>Number of synchronous I/O write link busy conditions (short floating point)
+Map: SMF74B Based on: SMF74SLBW Description Number of synchronous I/O write link busy conditions (short floating point)</description>
     </item>
     
     <item>
@@ -1516,7 +1582,8 @@ Map: SMF74B Based on: SMF74SLBW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sme/</guid>
       <description>SMS Interface Error
-Map: SMF74A Based on: dms Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dms.</description>
+Map: SMF74A Based on: dms Description SMS Interface Error
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dms.</description>
     </item>
     
     <item>
@@ -1526,7 +1593,8 @@ Map: SMF74A Based on: dms Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/smf/</guid>
       <description>Logical SMF record flag
-Map: SMF74A Based on: SMF74SMF Flag fields This is a flag field with the following bit fields:
+Map: SMF74A Based on: SMF74SMF Description Logical SMF record flag
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description msm 0 On = There are more logical SMF records in device class </description>
     </item>
     
@@ -1536,8 +1604,8 @@ Field Bit-Position Description msm 0 On = There are more logical SMF records in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/snd/</guid>
-      <description>if set: no self desc.
-Map: SMF74B Based on: dts Description device 4-byte device number stored
+      <description>if set: no self desc. device 4-byte device number stored
+Map: SMF74B Based on: dts Description if set: no self desc. device 4-byte device number stored
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dts.</description>
     </item>
     
@@ -1547,8 +1615,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/snis/</guid>
-      <description>Number of synchronous I/O write requests where the write data could not be immediately stored (long floating point)
-Map: SMF74B Based on: SMF74SNIS </description>
+      <description>Number of synchronous I/O write requests where the write data could not be immediately stored (short floating point)
+Map: SMF74B Based on: SMF74SNIS Description Number of synchronous I/O write requests where the write data could not be immediately stored (short floating point)</description>
     </item>
     
     <item>
@@ -1558,7 +1626,7 @@ Map: SMF74B Based on: SMF74SNIS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/snm/</guid>
       <description>System name for current system as defined in CVTSNAME
-Map: SMF74PRO Based on: SMF74SNM </description>
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
     </item>
     
     <item>
@@ -1567,8 +1635,8 @@ Map: SMF74PRO Based on: SMF74SNM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sor/</guid>
-      <description>Number of synchronous I/O read requests rejected for other reasons (long floating point)
-Map: SMF74B Based on: SMF74SOR </description>
+      <description>Number of synchronous I/O read requests rejected for other reasons (short floating point)
+Map: SMF74B Based on: SMF74SOR Description Number of synchronous I/O read requests rejected for other reasons (short floating point)</description>
     </item>
     
     <item>
@@ -1577,8 +1645,8 @@ Map: SMF74B Based on: SMF74SOR </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sow/</guid>
-      <description>Number of synchronous I/O write requests rejected for other reasons (long floating point)
-Map: SMF74B Based on: SMF74SOW </description>
+      <description>Number of synchronous I/O write requests rejected for other reasons (short floating point)
+Map: SMF74B Based on: SMF74SOW Description Number of synchronous I/O write requests rejected for other reasons (short floating point)</description>
     </item>
     
     <item>
@@ -1588,7 +1656,7 @@ Map: SMF74B Based on: SMF74SOW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/spr/</guid>
       <description>Processing time (in 0.5 micro- second units) for successful synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SPR </description>
+Map: SMF74B Based on: SMF74SPR Description Processing time (in 0.5 micro- second units) for successful synchronous I/O read requests (long floating point)</description>
     </item>
     
     <item>
@@ -1598,7 +1666,7 @@ Map: SMF74B Based on: SMF74SPR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/spw/</guid>
       <description>Processing time (in 0.5 micro- second units) for successful synchronous I/O write requests (long floating point)
-Map: SMF74B Based on: SMF74SPW </description>
+Map: SMF74B Based on: SMF74SPW Description Processing time (in 0.5 micro- second units) for successful synchronous I/O write requests (long floating point)</description>
     </item>
     
     <item>
@@ -1608,7 +1676,7 @@ Map: SMF74B Based on: SMF74SPW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sqr/</guid>
       <description>Number of successfully completed synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SQR </description>
+Map: SMF74B Based on: SMF74SQR Description Number of successfully completed synchronous I/O read requests (long floating point)</description>
     </item>
     
     <item>
@@ -1618,7 +1686,7 @@ Map: SMF74B Based on: SMF74SQR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sqw/</guid>
       <description>Number of successfully completed synchronous I/O write requests (long floating point)
-Map: SMF74B Based on: SMF74SQW </description>
+Map: SMF74B Based on: SMF74SQW Description Number of successfully completed synchronous I/O write requests (long floating point)</description>
     </item>
     
     <item>
@@ -1628,7 +1696,7 @@ Map: SMF74B Based on: SMF74SQW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/src/</guid>
       <description>Return code from SMS interface (SSOB RC)
-Map: SMF74A Based on: SMF74SRC </description>
+Map: SMF74A Based on: SMF74SRC Description Return code from SMS interface (SSOB RC)</description>
     </item>
     
     <item>
@@ -1637,8 +1705,8 @@ Map: SMF74A Based on: SMF74SRC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/srd/</guid>
-      <description>if set: self desc.
-Map: SMF74B Based on: dts Description device
+      <description>if set: self desc. device
+Map: SMF74B Based on: dts Description if set: self desc. device
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dts.</description>
     </item>
     
@@ -1649,7 +1717,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/srl/</guid>
       <description>SMF record level
-Map: SMF74PRO Based on: SMF74SRL </description>
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
     </item>
     
     <item>
@@ -1659,7 +1727,7 @@ Map: SMF74PRO Based on: SMF74SRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/srs/</guid>
       <description>Reason code from SMS interface (SSOB RS)
-Map: SMF74A Based on: SMF74SRS </description>
+Map: SMF74A Based on: SMF74SRS Description Reason code from SMS interface (SSOB RS)</description>
     </item>
     
     <item>
@@ -1669,7 +1737,7 @@ Map: SMF74A Based on: SMF74SRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ssc/</guid>
       <description>START SUBCHANNEL (SSCH) COUNT
-Map: SMF74B Based on: SMF74SSC </description>
+Map: SMF74B Based on: SMF74SSC Description START SUBCHANNEL (SSCH) COUNT</description>
     </item>
     
     <item>
@@ -1679,7 +1747,7 @@ Map: SMF74B Based on: SMF74SSC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
-Record: SMF74S1 Based on: SMF74SSI </description>
+Record: SMF74S1 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
@@ -1689,7 +1757,8 @@ Record: SMF74S1 Based on: SMF74SSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sta/</guid>
       <description>=1 at interval end online or offline devices indicated to be monitored
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cnf.</description>
+Map: SMF74B Based on: cnf Description =1 at interval end online or offline devices indicated to be monitored
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cnf.</description>
     </item>
     
     <item>
@@ -1698,8 +1767,8 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/stor/</guid>
-      <description>Number of synchronous I/O read timeout conditions (long floating point)
-Map: SMF74B Based on: SMF74STOR </description>
+      <description>Number of synchronous I/O read timeout conditions (short floating point)
+Map: SMF74B Based on: SMF74STOR Description Number of synchronous I/O read timeout conditions (short floating point)</description>
     </item>
     
     <item>
@@ -1708,8 +1777,8 @@ Map: SMF74B Based on: SMF74STOR </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/stow/</guid>
-      <description>Number of synchronous I/O write timeout conditions (long floating point)
-Map: SMF74B Based on: SMF74STOW </description>
+      <description>Number of synchronous I/O write timeout conditions (short floating point)
+Map: SMF74B Based on: SMF74STOW Description Number of synchronous I/O write timeout conditions (short floating point)</description>
     </item>
     
     <item>
@@ -1719,7 +1788,8 @@ Map: SMF74B Based on: SMF74STOW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sts/</guid>
       <description>On = model dependent data not available by STSCH
-Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field enf.</description>
+Map: SMF74A Based on: enf Description On = model dependent data not available by STSCH
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field enf.</description>
     </item>
     
     <item>
@@ -1729,7 +1799,7 @@ Map: SMF74A Based on: enf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sty/</guid>
       <description>SUBTYPE
-Record: SMF74S1 Based on: SMF74STY </description>
+Record: SMF74S1 Based on: SMF74STY Description SUBTYPE</description>
     </item>
     
     <item>
@@ -1739,7 +1809,7 @@ Record: SMF74S1 Based on: SMF74STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sub/</guid>
       <description>UCB DEV TYPE CODE IN RIGHT BYTE
-Map: SMF74A Based on: SMF74SUB </description>
+Map: SMF74A Based on: SMF74SUB Description UCB DEV TYPE CODE IN RIGHT BYTE</description>
     </item>
     
     <item>
@@ -1749,7 +1819,8 @@ Map: SMF74A Based on: SMF74SUB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sut/</guid>
       <description>SUBTYPES USED
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF74S1 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -1759,7 +1830,7 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/syn/</guid>
       <description>SYNC value in seconds
-Map: SMF74PRO Based on: SMF74SYN </description>
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
     </item>
     
     <item>
@@ -1769,7 +1840,7 @@ Map: SMF74PRO Based on: SMF74SYN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tdt/</guid>
       <description>IODF creation date mm/dd/yy
-Map: SMF74A Based on: SMF74TDT </description>
+Map: SMF74A Based on: SMF74TDT Description IODF creation date mm/dd/yy</description>
     </item>
     
     <item>
@@ -1779,7 +1850,7 @@ Map: SMF74A Based on: SMF74TDT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tdy/</guid>
       <description>IODF creation date mm/dd/yyyy
-Map: SMF74A Based on: SMF74TDY </description>
+Map: SMF74A Based on: SMF74TDY Description IODF creation date mm/dd/yyyy</description>
     </item>
     
     <item>
@@ -1809,8 +1880,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tme/</guid>
-      <description>TOD RECORD WRITTEN
-Record: SMF74S1 Based on: SMF74TME </description>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S1 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -1820,7 +1891,7 @@ Record: SMF74S1 Based on: SMF74TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tnm/</guid>
       <description>IODF Name
-Map: SMF74A Based on: SMF74TNM </description>
+Map: SMF74A Based on: SMF74TNM Description IODF Name</description>
     </item>
     
     <item>
@@ -1830,7 +1901,7 @@ Map: SMF74A Based on: SMF74TNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tok/</guid>
       <description>Configuration token
-Map: SMF74A Based on: SMF74TOK </description>
+Map: SMF74A Based on: SMF74TOK Description Configuration token</description>
     </item>
     
     <item>
@@ -1840,7 +1911,7 @@ Map: SMF74A Based on: SMF74TOK </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tot/</guid>
       <description>NUMBER OF DEVICE DATA SECTIONS IN ALL RECORDS FOR THIS LOGICAL DEVICE CLASS RECORD
-Map: SMF74A Based on: SMF74TOT </description>
+Map: SMF74A Based on: SMF74TOT Description NUMBER OF DEVICE DATA SECTIONS IN ALL RECORDS FOR THIS LOGICAL DEVICE CLASS RECORD</description>
     </item>
     
     <item>
@@ -1850,7 +1921,7 @@ Map: SMF74A Based on: SMF74TOT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
-Record: SMF74S1 Based on: SMF74TRN </description>
+Record: SMF74S1 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
@@ -1860,7 +1931,7 @@ Record: SMF74S1 Based on: SMF74TRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tsf/</guid>
       <description>Suffix of IODF Name
-Map: SMF74A Based on: SMF74TSF </description>
+Map: SMF74A Based on: SMF74TSF Description Suffix of IODF Name</description>
     </item>
     
     <item>
@@ -1870,7 +1941,7 @@ Map: SMF74A Based on: SMF74TSF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/tsr/</guid>
       <description>Number of small records written during interval
-Map: SMF74A Based on: SMF74TSR </description>
+Map: SMF74A Based on: SMF74TSR Description Number of small records written during interval</description>
     </item>
     
     <item>
@@ -1880,7 +1951,7 @@ Map: SMF74A Based on: SMF74TSR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/ttm/</guid>
       <description>IODF creation time hh.mm.ss
-Map: SMF74A Based on: SMF74TTM </description>
+Map: SMF74A Based on: SMF74TTM Description IODF creation time hh.mm.ss</description>
     </item>
     
     <item>
@@ -1890,7 +1961,7 @@ Map: SMF74A Based on: SMF74TTM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/typ/</guid>
       <description>UNIT TYPE FROM UCBTYP FIELD
-Map: SMF74B Based on: SMF74TYP </description>
+Map: SMF74B Based on: SMF74TYP Description UNIT TYPE FROM UCBTYP FIELD</description>
     </item>
     
     <item>
@@ -1900,7 +1971,7 @@ Map: SMF74B Based on: SMF74TYP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/utl/</guid>
       <description>NUMBER OF SAMPLES WHEN THE DEVICE WAS RESERVED, BUT AN SSCH HAD NOT BEEN ISSUED
-Map: SMF74B Based on: SMF74UTL </description>
+Map: SMF74B Based on: SMF74UTL Description NUMBER OF SAMPLES WHEN THE DEVICE WAS RESERVED, BUT AN SSCH HAD NOT BEEN ISSUED</description>
     </item>
     
     <item>
@@ -1910,7 +1981,8 @@ Map: SMF74B Based on: SMF74UTL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+Record: SMF74S1 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
     </item>
     
     <item>
@@ -1920,7 +1992,8 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/vac/</guid>
       <description>DATA INVALID, VARIED ON OR OFF, OR DYNAMIC RECONFIGURATION
-Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cnf.</description>
+Map: SMF74B Based on: cnf Description DATA INVALID, VARIED ON OR OFF, OR DYNAMIC RECONFIGURATION
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cnf.</description>
     </item>
     
     <item>
@@ -1930,7 +2003,8 @@ Map: SMF74B Based on: cnf Post-Processed This virtual field corresponds to the f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/vxa/</guid>
       <description>MVS/XA IF ON
-Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+Record: SMF74S1 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
     </item>
     
     <item>
@@ -1940,7 +2014,7 @@ Record: SMF74S1 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/xnm/</guid>
       <description>Sysplex name as defined in ECVTSPLX
-Map: SMF74PRO Based on: SMF74XNM </description>
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
     </item>
     
     <item>
@@ -1950,7 +2024,8 @@ Map: SMF74PRO Based on: SMF74XNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/xpv/</guid>
       <description>=1 Device in SuperPAV mode
-Map: SMF74B Based on: cn2 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cn2.</description>
+Map: SMF74B Based on: cn2 Description =1 Device in SuperPAV mode
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cn2.</description>
     </item>
     
   </channel>

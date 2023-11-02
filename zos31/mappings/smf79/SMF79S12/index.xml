@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 79 Subtype  12 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/</link>
+    <description>Recent content in SMF 79 Subtype  12 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF79PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - asl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/asl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/asl/</guid>
+      <description>LENGTH OF DATA SECTION
+Record: SMF79S12 Based on: SMF79ASL Description LENGTH OF DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - asn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/asn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/asn/</guid>
+      <description>NUMBER OF DATA SECTION
+Record: SMF79S12 Based on: SMF79ASN Description NUMBER OF DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ass</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ass/</guid>
+      <description>OFFSET TO DATA SECTION
+Record: SMF79S12 Based on: SMF79ASS Description OFFSET TO DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF79S12 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF79PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF79PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF79PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF79PRO Based on: SMF79CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF79PRO Based on: SMF79DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/date/</guid>
+      <description>Date of Record
+Record: SMF79S12 Based on: SMF79DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcl/</guid>
+      <description>LENGTH OF DATA CONTROL SECTION
+Record: SMF79S12 Based on: SMF79DCL Description LENGTH OF DATA CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - dcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcn/</guid>
+      <description>NUMBER OF DATA CONTROL SECTION
+Record: SMF79S12 Based on: SMF79DCN Description NUMBER OF DATA CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - dcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dcs/</guid>
+      <description>OFFSET TO DATA CONTROL SECTION
+Record: SMF79S12 Based on: SMF79DCS Description OFFSET TO DATA CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF79PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF79S12 Based on: SMF79DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF79PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF79PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF79S12 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/fla/</guid>
+      <description>Flags
+Map: SMF79PRO Based on: SMF79FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF79S12 Based on: SMF79FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF79PRO Based on: SMF79GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF79PRO Based on: SMF79IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF79PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF79PRO Based on: SMF79IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF79PRO Based on: SMF79INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF79PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF79PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF79PRO Based on: SMF79IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF79S12 Based on: SMF79LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF79PRO Based on: SMF79LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF79PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcl/</guid>
+      <description>LENGTH OF MONITOR II CONTROL SECTION
+Record: SMF79S12 Based on: SMF79MCL Description LENGTH OF MONITOR II CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - mcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcn/</guid>
+      <description>NUMBER OF MONITOR II CONTROL SECTION
+Record: SMF79S12 Based on: SMF79MCN Description NUMBER OF MONITOR II CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - mcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mcs/</guid>
+      <description>OFFSET TO MONITOR II CONTROL SECTION
+Record: SMF79S12 Based on: SMF79MCS Description OFFSET TO MONITOR II CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF79PRO Based on: SMF79MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF79PRO Based on: SMF79MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF79PRO Based on: SMF79OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF79S12 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF79PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF79PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prd/</guid>
+      <description>Product name
+Map: SMF79PRO Based on: SMF79PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF79PRO Based on: SMF79PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF79PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF79S12 Based on: SMF79PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF79S12 Based on: SMF79PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF79PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF79S12 Based on: SMF79PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF79PRO Based on: SMF79PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF79PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - qsl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qsl/</guid>
+      <description>LENGTH IOQ GLOBAL SECTION
+Record: SMF79S12 Based on: SMF79QSL Description LENGTH IOQ GLOBAL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - qsn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qsn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qsn/</guid>
+      <description>NUMBER IOQ GLOBAL SECTION
+Record: SMF79S12 Based on: SMF79QSN Description NUMBER IOQ GLOBAL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - qss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/qss/</guid>
+      <description>OFFSET IOQ GLOBAL SECTION
+Record: SMF79S12 Based on: SMF79QSS Description OFFSET IOQ GLOBAL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cacr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cacr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cacr/</guid>
+      <description>Channel Path acronym
+Map: R79CCHNL Based on: R79CACR Description Channel Path acronym</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cbl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cbl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cbl/</guid>
+      <description>BLOCK MULTIPLEXOR
+Map: R79CCHNL Based on: r79cfg2 Description BLOCK MULTIPLEXOR
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cbsy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cbsy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cbsy/</guid>
+      <description>Number of samples the channel path was busy, weighted by SRM.
+Map: R79CCHNL Based on: R79CBSY Description Number of samples the channel path was busy, weighted by SRM.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cby</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cby/</guid>
+      <description>BYTE MULTIPLEXOR
+Map: R79CCHNL Based on: r79cfg2 Description BYTE MULTIPLEXOR
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccc/</guid>
+      <description>Channel to Channel
+Map: R79CCHNL Based on: r79cfg2 Description Channel to Channel
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccdc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccdc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccdc/</guid>
+      <description>Channel characteristics changed
+Map: R79CCHNL Based on: r79cfg3 Description Channel characteristics changed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccfgc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfgc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfgc/</guid>
+      <description>Configuration change
+Map: R79CCNTL Based on: r79cflg1 Description Configuration change
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccfrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfrc/</guid>
+      <description>CPMF restart count
+Map: R79CCNTL Based on: R79CCFRC Description CPMF restart count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccfsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccfsc/</guid>
+      <description>CPMF sample count
+Map: R79CCNTL Based on: R79CCFSC Description CPMF sample count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccmd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmd/</guid>
+      <description>Configuration contains DCM managed channels
+Map: R79CCNTL Based on: r79cflg1 Description Configuration contains DCM managed channels
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccmg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmg/</guid>
+      <description>CPMF Channel Measurement Group
+Map: R79CCHNL Based on: R79CCMG Description CPMF Channel Measurement Group</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccmh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmh/</guid>
+      <description>DCM supported by hardware
+Map: R79CCNTL Based on: r79cflg1 Description DCM supported by hardware
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccmi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccmi/</guid>
+      <description>CPMF mode info 0 - CPMF not active 1 - Compatibility mode 2 - Extended mode
+Map: R79CCNTL Based on: R79CCMI Description CPMF mode info 0 - CPMF not active 1 - Compatibility mode 2 - Extended mode</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccnc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccnc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccnc/</guid>
+      <description>ES Connection Channel
+Map: R79CCHNL Based on: r79cfg2 Description ES Connection Channel
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpd/</guid>
+      <description>Channel path description. For an explanation, you can issue the command D M=CHP.
+Map: R79CCHNL Based on: R79CCPD Description Channel path description. For an explanation, you can issue the command D M=CHP.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpid/</guid>
+      <description>CHANNEL PATH IDENTIFICATIONS. THE RANGE OF VALUES IS X&#39;00&amp;rsquo; TO X&amp;rsquo;FF&#39;
+Map: R79CCHNL Based on: R79CCPID Description CHANNEL PATH IDENTIFICATIONS. THE RANGE OF VALUES IS X&#39;00&amp;rsquo; TO X&amp;rsquo;FF&#39;</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpm/</guid>
+      <description>Channel path is DCM managed
+Map: R79CCHNL Based on: r79cfg3 Description Channel path is DCM managed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpmf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpmf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpmf/</guid>
+      <description>CPMF available
+Map: R79CCNTL Based on: r79cflg1 Description CPMF available
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpp/</guid>
+      <description>Channel path parameter
+Map: R79CCHNL Based on: R79CCPP Description Channel path parameter</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccpts</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccpts/</guid>
+      <description>Last CPMB entry time stamp in units of 128 microseconds (be aware that this time value wraps about every 35.79 minutes)
+Map: R79CCHNL Based on: R79CCPTS Description Last CPMB entry time stamp in units of 128 microseconds (be aware that this time value wraps about every 35.79 minutes)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccss/</guid>
+      <description>Channel Subsystem Id, only valid if R79CMCS = ON
+Map: R79CCNTL Based on: R79CCSS Description Channel Subsystem Id, only valid if R79CMCS = ON</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ccvc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ccvc/</guid>
+      <description>ES Conversion Channel
+Map: R79CCHNL Based on: r79cfg2 Description ES Conversion Channel
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cdoc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cdoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cdoc/</guid>
+      <description>ESCON Director on Channel
+Map: R79CCHNL Based on: r79cfg2 Description ESCON Director on Channel
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79cfg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cecm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cecm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cecm/</guid>
+      <description>Enhanced channel measurement facility available
+Map: R79CCNTL Based on: r79cflg1 Description Enhanced channel measurement facility available
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cfg2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg2/</guid>
+      <description>CHANNEL FLAGS
+Map: R79CCHNL Based on: R79CFG2 Description CHANNEL FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r79cbl 2 BLOCK MULTIPLEXOR r79cby 3 BYTE MULTIPLEXOR r79ccvc 4 ES Conversion Channel r79ccnc 5 ES Connection Channel r79cdoc 6 ESCON Director on Channel r79ccc 7 Channel to Channel </description>
+    </item>
+    
+    <item>
+      <title>Field - r79cfg3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg3/</guid>
+      <description>Channel flags continued
+Map: R79CCHNL Based on: R79CFG3 Description Channel flags continued
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r79cshr 0 Channel path is shared between logical partitions r79cnvl 1 CPMF indication, this entry is invalid r79cfxt 3 Channel converter 3090 r79ccpm 4 Channel path is DCM managed r79ccdc 5 Channel characteristics changed r79cxcm 6 Extended channel measurements / supported </description>
+    </item>
+    
+    <item>
+      <title>Field - r79cfg4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfg4/</guid>
+      <description>Channel Path Flags
+Map: R79CCHNL Based on: R79CFG4 Description Channel Path Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r79cwd1 0 CPMF Channel characteristics word 1 valid r79cwd2 1 CPMF Channel characteristics word 2 valid r79cwd3 2 CPMF Channel characteristics word 3 valid r79cwd4 3 CPMF Channel characteristics word 4 valid r79cwd5 4 CPMF Channel characteristics word 5 valid </description>
+    </item>
+    
+    <item>
+      <title>Field - r79cflg1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cflg1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cflg1/</guid>
+      <description>Flags 1
+Map: R79CCNTL Based on: R79CFLG1 Description Flags 1
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r79ccpmf 0 CPMF available r79ccfgc 1 Configuration change r79ccmh 2 DCM supported by hardware r79ccmd 3 Configuration contains DCM managed channels r79crna 4 RMF address space not active r79cmcs 5 HW allows multiple channel subsystems r79cecm 6 Enhanced channel measurement facility available </description>
+    </item>
+    
+    <item>
+      <title>Field - r79cfxt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfxt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cfxt/</guid>
+      <description>Channel converter 3090
+Map: R79CCHNL Based on: r79cfg3 Description Channel converter 3090
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cgen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cgen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cgen/</guid>
+      <description>Channel type generation
+Map: R79CCHNL Based on: R79CGEN Description Channel type generation</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cmbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmbc/</guid>
+      <description>CPMF Maximum Bus Cycles per second (word 1)
+Map: R79CCM2 Based on: R79CMBC Description CPMF Maximum Bus Cycles per second (word 1)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cmcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmcs/</guid>
+      <description>HW allows multiple channel subsystems
+Map: R79CCNTL Based on: r79cflg1 Description HW allows multiple channel subsystems
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cmcu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmcu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmcu/</guid>
+      <description>CPMF Maximum Channel work Units per second (word 2)
+Map: R79CCM2 Based on: R79CMCU Description CPMF Maximum Channel work Units per second (word 2)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cmru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmru/</guid>
+      <description>CPMF Maximum Read data Units per second (word 4)
+Map: R79CCM2 Based on: R79CMRU Description CPMF Maximum Read data Units per second (word 4)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cmwu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmwu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cmwu/</guid>
+      <description>CPMF Maximum Write data Units per second (word 3)
+Map: R79CCM2 Based on: R79CMWU Description CPMF Maximum Write data Units per second (word 3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cnvl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cnvl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cnvl/</guid>
+      <description>CPMF indication, this entry is invalid
+Map: R79CCHNL Based on: r79cfg3 Description CPMF indication, this entry is invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpby</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpby/</guid>
+      <description>Partitions channel-path-busy time in units of 128 micro seconds
+Map: R79CCHNL Based on: R79CPBY Description Partitions channel-path-busy time in units of 128 micro seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpds/</guid>
+      <description>CPMF LPAR Data units Sent count
+Map: R79CCM3 Based on: R79CPDS Description CPMF LPAR Data units Sent count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpdu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpdu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpdu/</guid>
+      <description>CPMF LPAR Data Unit size in bytes (word 1)
+Map: R79CCM3 Based on: R79CPDU Description CPMF LPAR Data Unit size in bytes (word 1)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpms</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpms/</guid>
+      <description>CPMF LPAR Message Sent units count
+Map: R79CCM3 Based on: R79CPMS Description CPMF LPAR Message Sent units count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpru/</guid>
+      <description>CPMF LPAR Read data Units
+Map: R79CCM2 Based on: R79CPRU Description CPMF LPAR Read data Units</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpub/</guid>
+      <description>CPMF LPAR count of Unsuccessful attempts to receive messages due to unavailable Buffers
+Map: R79CCM3 Based on: R79CPUB Description CPMF LPAR count of Unsuccessful attempts to receive messages due to unavailable Buffers</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpuc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpuc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpuc/</guid>
+      <description>CPMF LPAR channel work Unit Count
+Map: R79CCM2 Based on: R79CPUC Description CPMF LPAR channel work Unit Count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpum/</guid>
+      <description>CPMF LPAR Message sent Unit size (word 3)
+Map: R79CCM3 Based on: R79CPUM Description CPMF LPAR Message sent Unit size (word 3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpus</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpus/</guid>
+      <description>CPMF LPAR count of Unsuccessful attempts to Send messages
+Map: R79CCM3 Based on: R79CPUS Description CPMF LPAR count of Unsuccessful attempts to Send messages</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cput</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cput/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cput/</guid>
+      <description>CPMF LPAR channel path busy Time in units of 128 microseconds
+Map: R79CCM1 Based on: R79CPUT Description CPMF LPAR channel path busy Time in units of 128 microseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cpwu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpwu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cpwu/</guid>
+      <description>CPMF LPAR Write data Units
+Map: R79CCM2 Based on: R79CPWU Description CPMF LPAR Write data Units</description>
+    </item>
+    
+    <item>
+      <title>Field - r79crna</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79crna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79crna/</guid>
+      <description>RMF address space not active
+Map: R79CCNTL Based on: r79cflg1 Description RMF address space not active
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79cflg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cshr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cshr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cshr/</guid>
+      <description>Channel path is shared between logical partitions
+Map: R79CCHNL Based on: r79cfg3 Description Channel path is shared between logical partitions
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79csmp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79csmp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79csmp/</guid>
+      <description>Number of samples weighted by SRM, only valid if R79CMCS = OFF
+Map: R79CCNTL Based on: R79CSMP Description Number of samples weighted by SRM, only valid if R79CMCS = OFF</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctbc/</guid>
+      <description>CPMF Total Bus Cycles Count
+Map: R79CCM2 Based on: R79CTBC Description CPMF Total Bus Cycles Count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctds/</guid>
+      <description>CPMF Total Data units Sent count
+Map: R79CCM3 Based on: R79CTDS Description CPMF Total Data units Sent count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctdu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctdu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctdu/</guid>
+      <description>CPMF Total Data Unit size in bytes (word 2)
+Map: R79CCM3 Based on: R79CTDU Description CPMF Total Data Unit size in bytes (word 2)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctext</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctext/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctext/</guid>
+      <description>Command text
+Map: R79CHL Based on: R79CTEXT Description Command text</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctms</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctms/</guid>
+      <description>CPMF Total Message Sent units count
+Map: R79CCM3 Based on: R79CTMS Description CPMF Total Message Sent units count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctru/</guid>
+      <description>CPMF Total Read data Units
+Map: R79CCM2 Based on: R79CTRU Description CPMF Total Read data Units</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctub/</guid>
+      <description>CPMF Total count of Unsuccessful attempts to receive messages due to unavailable Buffers
+Map: R79CCM3 Based on: R79CTUB Description CPMF Total count of Unsuccessful attempts to receive messages due to unavailable Buffers</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctuc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctuc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctuc/</guid>
+      <description>CPMF Total channel work Unit Count
+Map: R79CCM2 Based on: R79CTUC Description CPMF Total channel work Unit Count</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctum/</guid>
+      <description>CPMF Total Message sent Unit size (word 4)
+Map: R79CCM3 Based on: R79CTUM Description CPMF Total Message sent Unit size (word 4)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctut/</guid>
+      <description>CPMF Total channel path busy Time in units of 128 microseconds
+Map: R79CCM1 Based on: R79CTUT Description CPMF Total channel path busy Time in units of 128 microseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctwu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctwu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctwu/</guid>
+      <description>CPMF Total Write data Units
+Map: R79CCM2 Based on: R79CTWU Description CPMF Total Write data Units</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ctxtl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctxtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ctxtl/</guid>
+      <description>Length of command text
+Map: R79CHL Based on: R79CTXTL Description Length of command text</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cus</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cus/</guid>
+      <description>CPMF data Unit Size in bytes (word 5)
+Map: R79CCM2 Based on: R79CUS Description CPMF data Unit Size in bytes (word 5)</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cwd1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd1/</guid>
+      <description>CPMF Channel characteristics word 1 valid
+Map: R79CCHNL Based on: r79cfg4 Description CPMF Channel characteristics word 1 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79cfg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cwd2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd2/</guid>
+      <description>CPMF Channel characteristics word 2 valid
+Map: R79CCHNL Based on: r79cfg4 Description CPMF Channel characteristics word 2 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79cfg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cwd3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd3/</guid>
+      <description>CPMF Channel characteristics word 3 valid
+Map: R79CCHNL Based on: r79cfg4 Description CPMF Channel characteristics word 3 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79cfg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cwd4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd4/</guid>
+      <description>CPMF Channel characteristics word 4 valid
+Map: R79CCHNL Based on: r79cfg4 Description CPMF Channel characteristics word 4 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79cfg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cwd5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cwd5/</guid>
+      <description>CPMF Channel characteristics word 5 valid
+Map: R79CCHNL Based on: r79cfg4 Description CPMF Channel characteristics word 5 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79cfg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxcm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxcm/</guid>
+      <description>Extended channel measurements / supported
+Map: R79CCHNL Based on: r79cfg3 Description Extended channel measurements / supported
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79cfg3.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxoc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxoc/</guid>
+      <description>Total number of FICON command- mode operations (CPC) that have been attempted by the channel
+Map: R79CXCM2 Based on: R79CXOC Description Total number of FICON command- mode operations (CPC) that have been attempted by the channel</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxod/</guid>
+      <description>Total number of FICON command- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources
+Map: R79CXCM2 Based on: R79CXOD Description Total number of FICON command- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxos</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxos/</guid>
+      <description>Summation count of FICON command-mode operations (CPC). Each time the number of FICON command-mode operations is incremented, the number of FICON command-mode operations active at the channel, including the one being initiated, is added to this field. (doubleword format)
+Map: R79CXCM2 Based on: R79CXOS Description Summation count of FICON command-mode operations (CPC). Each time the number of FICON command-mode operations is incremented, the number of FICON command-mode operations active at the channel, including the one being initiated, is added to this field.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxtc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtc/</guid>
+      <description>Total number of FICON transport- mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.
+Map: R79CXCM2 Based on: R79CXTC Description Total number of FICON transport- mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxtd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtd/</guid>
+      <description>Total number of FICON transport- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.
+Map: R79CXCM2 Based on: R79CXTD Description Total number of FICON transport- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79cxts</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxts/</guid>
+      <description>Summation count of FICON transport-mode operations (CPC). Each time the number of FICON transport-mode operations is incremented, the number of transport-mode operations active at the channel, including the one being initiated, is added to this field. Zero when no zHPF. (doubleword format)
+Map: R79CXCM2 Based on: R79CXTS Description Summation count of FICON transport-mode operations (CPC). Each time the number of FICON transport-mode operations is incremented, the number of transport-mode operations active at the channel, including the one being initiated, is added to this field.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79dtext</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79dtext/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79dtext/</guid>
+      <description>Default DR text
+Map: R79CHL Based on: R79DTEXT Description Default DR text</description>
+    </item>
+    
+    <item>
+      <title>Field - r79dtxtl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79dtxtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79dtxtl/</guid>
+      <description>Length default DR text
+Map: R79CHL Based on: R79DTXTL Description Length default DR text</description>
+    </item>
+    
+    <item>
+      <title>Field - r79goal</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79goal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79goal/</guid>
+      <description>System is in GOAL mode
+Map: R79CHL Based on: r79lf2 Description System is in GOAL mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79gtod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79gtod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79gtod/</guid>
+      <description>Time when the call to data gatherer was issued
+Map: R79CHL Based on: R79GTOD Description Time when the call to data gatherer was issued</description>
+    </item>
+    
+    <item>
+      <title>Field - r79inv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79inv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79inv/</guid>
+      <description>inval. data fr. Mon I (DEV PGSP IOQ)
+Map: R79CHL Based on: r79lf2 Description inval. data fr. Mon I (DEV PGSP IOQ)
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ist/</guid>
+      <description>Monitor I interval start time
+Map: R79CHL Based on: R79IST Description Monitor I interval start time</description>
+    </item>
+    
+    <item>
+      <title>Field - r79iwmtk</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79iwmtk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79iwmtk/</guid>
+      <description>Token returned from IWMRCOLL service
+Map: R79CHL Based on: R79IWMTK Description Token returned from IWMRCOLL service</description>
+    </item>
+    
+    <item>
+      <title>Field - r79lf2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79lf2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79lf2/</guid>
+      <description>Flag byte
+Map: R79CHL Based on: R79LF2 Description Flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r79par 0 Not enough relocate section to complete data gathering r79sg 1 Report sorted by SG r79rsm 2 Invalid RSM data obtained r79goal 3 System is in GOAL mode r79trxi 4 Invalid transaction data r79srmc 5 SRM mode changed r79inv 6 inval. data fr. Mon I (DEV PGSP IOQ) r79maxd 7 Incomplete device data due to too many devices </description>
+    </item>
+    
+    <item>
+      <title>Field - r79maxd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79maxd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79maxd/</guid>
+      <description>Incomplete device data due to too many devices
+Map: R79CHL Based on: r79lf2 Description Incomplete device data due to too many devices
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79nxt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79nxt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79nxt/</guid>
+      <description>Number of data sections in following small records
+Map: R79CHL Based on: R79NXT Description Number of data sections in following small records</description>
+    </item>
+    
+    <item>
+      <title>Field - r79par</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79par/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79par/</guid>
+      <description>Not enough relocate section to complete data gathering
+Map: R79CHL Based on: r79lf2 Description Not enough relocate section to complete data gathering
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79rid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79rid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79rid/</guid>
+      <description>Measurement name
+Map: R79CHL Based on: R79RID Description Measurement name</description>
+    </item>
+    
+    <item>
+      <title>Field - r79rsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79rsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79rsm/</guid>
+      <description>Invalid RSM data obtained
+Map: R79CHL Based on: r79lf2 Description Invalid RSM data obtained
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79ses</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79ses/</guid>
+      <description>Session name
+Map: R79CHL Based on: R79SES Description Session name</description>
+    </item>
+    
+    <item>
+      <title>Field - r79sg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79sg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79sg/</guid>
+      <description>Report sorted by SG
+Map: R79CHL Based on: r79lf2 Description Report sorted by SG
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79srmc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79srmc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79srmc/</guid>
+      <description>SRM mode changed
+Map: R79CHL Based on: r79lf2 Description SRM mode changed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79tot</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79tot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79tot/</guid>
+      <description>Total number of data sections in large record
+Map: R79CHL Based on: R79TOT Description Total number of data sections in large record</description>
+    </item>
+    
+    <item>
+      <title>Field - r79trxi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79trxi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79trxi/</guid>
+      <description>Invalid transaction data
+Map: R79CHL Based on: r79lf2 Description Invalid transaction data
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79tsr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79tsr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79tsr/</guid>
+      <description>Total number of small records
+Map: R79CHL Based on: R79TSR Description Total number of small records</description>
+    </item>
+    
+    <item>
+      <title>Field - r79user</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79user/</guid>
+      <description>User field
+Map: R79CHL Based on: R79USER Description User field</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF79PRO Based on: SMF79RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF79PRO Based on: SMF79RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF79PRO Based on: SMF79RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF79PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF79PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF79S12 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF79S12 Based on: SMF79RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF79PRO Based on: SMF79SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF79S12 Based on: SMF79SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF79S12 Based on: SMF79SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF79PRO Based on: SMF79SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF79PRO Based on: SMF79SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF79S12 Based on: SMF79SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF79S12 Based on: SMF79STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF79S12 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF79PRO Based on: SMF79SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/time/</guid>
+      <description>Time of Record
+Record: SMF79S12 Based on: SMF79TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF79S12 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF79S12 Based on: SMF79TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF79S12 Based on: SMF79TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF79S12 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF79S12 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF79PRO Based on: SMF79XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+  </channel>
+</rss>

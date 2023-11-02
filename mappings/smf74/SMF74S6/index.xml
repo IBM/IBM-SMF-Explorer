@@ -6,93 +6,14 @@
     <description>Recent content in SMF 74 Subtype  6 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Field - _6bl</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bl/</link>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/altvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bl/</guid>
-      <description>Length of global buffer section
-Record: SMF74S6 Based on: SMF746BL </description>
-    </item>
-    
-    <item>
-      <title>Field - _6bn</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bn/</guid>
-      <description>Number of global buffer sections
-Record: SMF74S6 Based on: SMF746BN </description>
-    </item>
-    
-    <item>
-      <title>Field - _6bo</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6bo/</guid>
-      <description>Offset to global buffer section
-Record: SMF74S6 Based on: SMF746BO </description>
-    </item>
-    
-    <item>
-      <title>Field - _6dl</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6dl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6dl/</guid>
-      <description>Length of global data section
-Record: SMF74S6 Based on: SMF746DL </description>
-    </item>
-    
-    <item>
-      <title>Field - _6dn</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6dn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6dn/</guid>
-      <description>Number of global data sections
-Record: SMF74S6 Based on: SMF746DN </description>
-    </item>
-    
-    <item>
-      <title>Field - _6do</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6do/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6do/</guid>
-      <description>Offset to global data section
-Record: SMF74S6 Based on: SMF746DO </description>
-    </item>
-    
-    <item>
-      <title>Field - _6fl</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fl/</guid>
-      <description>Length of file system section
-Record: SMF74S6 Based on: SMF746FL </description>
-    </item>
-    
-    <item>
-      <title>Field - _6fn</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fn/</guid>
-      <description>Number of file system sections
-Record: SMF74S6 Based on: SMF746FN </description>
-    </item>
-    
-    <item>
-      <title>Field - _6fo</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/_6fo/</guid>
-      <description>Offset to file system section
-Record: SMF74S6 Based on: SMF746FO </description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
     </item>
     
     <item>
@@ -102,7 +23,38 @@ Record: SMF74S6 Based on: SMF746FO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bfy/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+Record: SMF74S6 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - bl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bl/</guid>
+      <description>Length of global buffer section
+Record: SMF74S6 Based on: SMF746BL Description Length of global buffer section</description>
+    </item>
+    
+    <item>
+      <title>Field - bn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bn/</guid>
+      <description>Number of global buffer sections
+Record: SMF74S6 Based on: SMF746BN Description Number of global buffer sections</description>
+    </item>
+    
+    <item>
+      <title>Field - bo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/bo/</guid>
+      <description>Offset to global buffer section
+Record: SMF74S6 Based on: SMF746BO Description Offset to global buffer section</description>
     </item>
     
     <item>
@@ -111,8 +63,9 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/boost_class/</guid>
-      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
-Map: SMF74PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
     </item>
     
     <item>
@@ -122,7 +75,8 @@ Map: SMF74PRO Based on: fla Post-Processed Flags postprocessor for multiple bit 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/cne/</guid>
       <description>Equipped with ESCON channel
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -132,7 +86,8 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/cnv/</guid>
       <description>Data converted from version 2
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
     </item>
     
     <item>
@@ -141,8 +96,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/cyc/</guid>
-      <description>Sampling cycle length 000TTTTF
-Map: SMF74PRO Based on: SMF74CYC </description>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
     </item>
     
     <item>
@@ -151,8 +106,8 @@ Map: SMF74PRO Based on: SMF74CYC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dat/</guid>
-      <description>Date monitor interval start: 00YYDDDF
-Map: SMF74PRO Based on: SMF74DAT </description>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
     </item>
     
     <item>
@@ -166,13 +121,44 @@ Record: SMF74S6 Based on: SMF74DTE </description>
     </item>
     
     <item>
+      <title>Field - dl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dl/</guid>
+      <description>Length of global data section
+Record: SMF74S6 Based on: SMF746DL Description Length of global data section</description>
+    </item>
+    
+    <item>
+      <title>Field - dn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dn/</guid>
+      <description>Number of global data sections
+Record: SMF74S6 Based on: SMF746DN Description Number of global data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - do</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/do/</guid>
+      <description>Offset to global data section
+Record: SMF74S6 Based on: SMF746DO Description Offset to global data section</description>
+    </item>
+    
+    <item>
       <title>Field - drc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/drc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/drc/</guid>
       <description>ESCON Director in configuration
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
     </item>
     
     <item>
@@ -182,7 +168,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
-Record: SMF74S6 Based on: SMF74DTE </description>
+Record: SMF74S6 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -192,7 +178,8 @@ Record: SMF74S6 Based on: SMF74DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/eed/</guid>
       <description>Speed boost was active during entire interval
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
     </item>
     
     <item>
@@ -202,7 +189,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/eme/</guid>
       <description>System in z/ARCH mode
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -212,7 +200,18 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/esa/</guid>
       <description>MVS/ESA IF ON
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+Record: SMF74S6 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fl/</guid>
+      <description>Length of file system section
+Record: SMF74S6 Based on: SMF746FL Description Length of file system section</description>
     </item>
     
     <item>
@@ -222,8 +221,9 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fla/</guid>
       <description>Flags
-Map: SMF74PRO Based on: SMF74FLA Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. rch 5 SMF record converted to higher release or service level.</description>
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
     </item>
     
     <item>
@@ -233,8 +233,29 @@ Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
-Record: SMF74S6 Based on: SMF74FLG Flag fields This is a flag field with the following bit fields:
+Record: SMF74S6 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - fn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fn/</guid>
+      <description>Number of file system sections
+Record: SMF74S6 Based on: SMF746FN Description Number of file system sections</description>
+    </item>
+    
+    <item>
+      <title>Field - fo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/fo/</guid>
+      <description>Offset to file system section
+Record: SMF74S6 Based on: SMF746FO Description Offset to file system section</description>
     </item>
     
     <item>
@@ -243,8 +264,8 @@ Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/gie/</guid>
-      <description>Projected gathering interval end GMT time (STCK format)
-Map: SMF74PRO Based on: SMF74GIE </description>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
     </item>
     
     <item>
@@ -254,7 +275,7 @@ Map: SMF74PRO Based on: SMF74GIE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/iet/</guid>
       <description>Interval expiration time token
-Map: SMF74PRO Based on: SMF74IET </description>
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
     </item>
     
     <item>
@@ -264,7 +285,8 @@ Map: SMF74PRO Based on: SMF74IET </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/iip/</guid>
       <description>zIIP boost was active during entire interval
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
     </item>
     
     <item>
@@ -273,8 +295,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/iml/</guid>
-      <description>Indicates the type of processor complex on which data measurements were taken.
-Map: SMF74PRO Based on: SMF74IML Description X&#39;03&amp;rsquo; = 9672, zSeries</description>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
     </item>
     
     <item>
@@ -283,8 +305,8 @@ Map: SMF74PRO Based on: SMF74IML Description X&#39;03&amp;rsquo; = 9672, zSeries
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/int/</guid>
-      <description>Duration of monitor interval: MMSSTTTF
-Map: SMF74PRO Based on: SMF74INT </description>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
     </item>
     
     <item>
@@ -294,7 +316,8 @@ Map: SMF74PRO Based on: SMF74INT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ism/</guid>
       <description>Interval was under SMF control
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
     </item>
     
     <item>
@@ -304,7 +327,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/iss/</guid>
       <description>Invalid samples to be skipped
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -313,8 +337,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ist/</guid>
-      <description>TOD monitor interval start: 0HHMMSSF
-Map: SMF74PRO Based on: SMF74IST </description>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
     </item>
     
     <item>
@@ -323,8 +347,8 @@ Map: SMF74PRO Based on: SMF74IST </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/len/</guid>
-      <description>SMF RECORD LENGTH.
-Record: SMF74S6 Based on: SMF74LEN Description ZERO AFTER GRBSMFR REASSEMBLY</description>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S6 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
@@ -334,7 +358,7 @@ Record: SMF74S6 Based on: SMF74LEN Description ZERO AFTER GRBSMFR REASSEMBLY</de
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/lgo/</guid>
       <description>Offset GMT to local time
-Map: SMF74PRO Based on: SMF74LGO </description>
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
     </item>
     
     <item>
@@ -344,7 +368,8 @@ Map: SMF74PRO Based on: SMF74LGO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/m3r/</guid>
       <description>Record was written by RMF Monitor III
-Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
     </item>
     
     <item>
@@ -353,8 +378,8 @@ Map: SMF74PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/mfv/</guid>
-      <description>RMF version number in packed decimal format: nnnF
-Map: SMF74PRO Based on: SMF74MFV </description>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
     </item>
     
     <item>
@@ -364,7 +389,7 @@ Map: SMF74PRO Based on: SMF74MFV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/mvs/</guid>
       <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
-Map: SMF74PRO Based on: SMF74MVS </description>
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
     </item>
     
     <item>
@@ -374,7 +399,7 @@ Map: SMF74PRO Based on: SMF74MVS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/oil/</guid>
       <description>Original interval length as defined in the session or by SMF (in seconds)
-Map: SMF74PRO Based on: SMF74OIL </description>
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
     </item>
     
     <item>
@@ -384,7 +409,8 @@ Map: SMF74PRO Based on: SMF74OIL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+Record: SMF74S6 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
     </item>
     
     <item>
@@ -394,7 +420,8 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/pe2/</guid>
       <description>Enhanced DAT facility 2
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
     </item>
     
     <item>
@@ -404,7 +431,8 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ped/</guid>
       <description>Enhanced DAT facility 1
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -414,7 +442,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prd/</guid>
       <description>Product name
-Map: SMF74PRO Based on: SMF74PRD </description>
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
     </item>
     
     <item>
@@ -424,7 +452,8 @@ Map: SMF74PRO Based on: SMF74PRD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prf/</guid>
       <description>Processor flags
-Map: SMF74PRO Based on: SMF74PRF Flag fields This is a flag field with the following bit fields:
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
     </item>
     
@@ -435,7 +464,8 @@ Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/pri/</guid>
       <description>At least one zAAP is currently installed
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -445,7 +475,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
-Record: SMF74S6 Based on: SMF74PRL </description>
+Record: SMF74S6 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -455,7 +485,7 @@ Record: SMF74S6 Based on: SMF74PRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
-Record: SMF74S6 Based on: SMF74PRN </description>
+Record: SMF74S6 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
     </item>
     
     <item>
@@ -465,7 +495,8 @@ Record: SMF74S6 Based on: SMF74PRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prp/</guid>
       <description>At least one zIIP is currently installed
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -475,7 +506,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
-Record: SMF74S6 Based on: SMF74PRS </description>
+Record: SMF74S6 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -485,7 +516,7 @@ Record: SMF74S6 Based on: SMF74PRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ptn/</guid>
       <description>PR/SM partition number
-Map: SMF74PRO Based on: SMF74PTN </description>
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
     </item>
     
     <item>
@@ -495,7 +526,8 @@ Map: SMF74PRO Based on: SMF74PTN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/qes/</guid>
       <description>System has expanded storage
-Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -505,7 +537,7 @@ Map: SMF74PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746f1c/</guid>
       <description>Number of times the first page of a data file was requested and found in virtual storage (cache), (long floating point)
-Map: R746FSYS Based on: R746F1C </description>
+Map: R746FSYS Based on: R746F1C Description Number of times the first page of a data file was requested and found in virtual storage (cache), (long floating point)</description>
     </item>
     
     <item>
@@ -515,7 +547,7 @@ Map: R746FSYS Based on: R746F1C </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746f1nc/</guid>
       <description>Number of times the first page of a data file was requested and not found in virtual storage (cache) and a I/O was necessary, (long floating point)
-Map: R746FSYS Based on: R746F1NC </description>
+Map: R746FSYS Based on: R746F1NC Description Number of times the first page of a data file was requested and not found in virtual storage (cache) and a I/O was necessary, (long floating point)</description>
     </item>
     
     <item>
@@ -525,7 +557,7 @@ Map: R746FSYS Based on: R746F1NC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fctm/</guid>
       <description>Current timestamp (when data obtained)
-Map: R746FSYS Based on: R746FCTM </description>
+Map: R746FSYS Based on: R746FCTM Description Current timestamp (when data obtained)</description>
     </item>
     
     <item>
@@ -535,7 +567,8 @@ Map: R746FSYS Based on: R746FCTM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746ffsm/</guid>
       <description>File system now mounted
-Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r746fsfl.</description>
+Map: R746FSYS Based on: r746fsfl Description File system now mounted
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r746fsfl.</description>
     </item>
     
     <item>
@@ -545,7 +578,7 @@ Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fij/</guid>
       <description>Number of index joins, (long floating point)
-Map: R746FSYS Based on: R746FIJ </description>
+Map: R746FSYS Based on: R746FIJ Description Number of index joins, (long floating point)</description>
     </item>
     
     <item>
@@ -555,7 +588,7 @@ Map: R746FSYS Based on: R746FIJ </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fint/</guid>
       <description>Number of index new tops, (long floating point)
-Map: R746FSYS Based on: R746FINT </description>
+Map: R746FSYS Based on: R746FINT Description Number of index new tops, (long floating point)</description>
     </item>
     
     <item>
@@ -565,7 +598,7 @@ Map: R746FSYS Based on: R746FINT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746firh/</guid>
       <description>Number of index page read hits, (long floating point)
-Map: R746FSYS Based on: R746FIRH </description>
+Map: R746FSYS Based on: R746FIRH Description Number of index page read hits, (long floating point)</description>
     </item>
     
     <item>
@@ -575,7 +608,7 @@ Map: R746FSYS Based on: R746FIRH </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746firm/</guid>
       <description>Number of index page read misses, (long floating point)
-Map: R746FSYS Based on: R746FIRM </description>
+Map: R746FSYS Based on: R746FIRM Description Number of index page read misses, (long floating point)</description>
     </item>
     
     <item>
@@ -585,7 +618,7 @@ Map: R746FSYS Based on: R746FIRM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fis/</guid>
       <description>Number of index splits, (long floating point)
-Map: R746FSYS Based on: R746FIS </description>
+Map: R746FSYS Based on: R746FIS Description Number of index splits, (long floating point)</description>
     </item>
     
     <item>
@@ -595,7 +628,7 @@ Map: R746FSYS Based on: R746FIS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fiwh/</guid>
       <description>Number of index page write hits, (long floating point)
-Map: R746FSYS Based on: R746FIWH </description>
+Map: R746FSYS Based on: R746FIWH Description Number of index page write hits, (long floating point)</description>
     </item>
     
     <item>
@@ -605,7 +638,7 @@ Map: R746FSYS Based on: R746FIWH </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fiwm/</guid>
       <description>Number of index page write misses, (long floating point)
-Map: R746FSYS Based on: R746FIWM </description>
+Map: R746FSYS Based on: R746FIWM Description Number of index page write misses, (long floating point)</description>
     </item>
     
     <item>
@@ -615,7 +648,7 @@ Map: R746FSYS Based on: R746FIWM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fmc/</guid>
       <description>Number of times the metadata for a file was found in virtual storage (cache) during file lookup, (long floating point)
-Map: R746FSYS Based on: R746FMC </description>
+Map: R746FSYS Based on: R746FMC Description Number of times the metadata for a file was found in virtual storage (cache) during file lookup, (long floating point)</description>
     </item>
     
     <item>
@@ -625,7 +658,7 @@ Map: R746FSYS Based on: R746FMC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fmnc/</guid>
       <description>Number of times the metadata for a file was not found in virtual storage (cache) during file lookup and an index call was necessary which may result in an I/O, (long floating point)
-Map: R746FSYS Based on: R746FMNC </description>
+Map: R746FSYS Based on: R746FMNC Description Number of times the metadata for a file was not found in virtual storage (cache) during file lookup and an index call was necessary which may result in an I/O, (long floating point)</description>
     </item>
     
     <item>
@@ -635,7 +668,8 @@ Map: R746FSYS Based on: R746FMNC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fmtc/</guid>
       <description>Mount time changed
-Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r746fsfl.</description>
+Map: R746FSYS Based on: r746fsfl Description Mount time changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r746fsfl.</description>
     </item>
     
     <item>
@@ -645,7 +679,7 @@ Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fmtm/</guid>
       <description>Mount timestamp
-Map: R746FSYS Based on: R746FMTM </description>
+Map: R746FSYS Based on: R746FMTM Description Mount timestamp</description>
     </item>
     
     <item>
@@ -655,7 +689,8 @@ Map: R746FSYS Based on: R746FMTM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fnhs/</guid>
       <description>No HFS file system statistics
-Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r746fsfl.</description>
+Map: R746FSYS Based on: r746fsfl Description No HFS file system statistics
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r746fsfl.</description>
     </item>
     
     <item>
@@ -665,7 +700,7 @@ Map: R746FSYS Based on: r746fsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fpc/</guid>
       <description>Number of data buffer pages cached by this file system
-Map: R746FSYS Based on: R746FPC </description>
+Map: R746FSYS Based on: R746FPC Description Number of data buffer pages cached by this file system</description>
     </item>
     
     <item>
@@ -675,7 +710,7 @@ Map: R746FSYS Based on: R746FPC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fpd/</guid>
       <description>Number of pages used for the attribute directory
-Map: R746FSYS Based on: R746FPD </description>
+Map: R746FSYS Based on: R746FPD Description Number of pages used for the attribute directory</description>
     </item>
     
     <item>
@@ -685,7 +720,7 @@ Map: R746FSYS Based on: R746FPD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fpf/</guid>
       <description>Number of pages internally used by HFS
-Map: R746FSYS Based on: R746FPF </description>
+Map: R746FSYS Based on: R746FPF Description Number of pages internally used by HFS</description>
     </item>
     
     <item>
@@ -695,7 +730,7 @@ Map: R746FSYS Based on: R746FPF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746frfi/</guid>
       <description>Number of random file data I/O requests issued, (long floating point)
-Map: R746FSYS Based on: R746FRFI </description>
+Map: R746FSYS Based on: R746FRFI Description Number of random file data I/O requests issued, (long floating point)</description>
     </item>
     
     <item>
@@ -705,7 +740,7 @@ Map: R746FSYS Based on: R746FRFI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsf/</guid>
       <description>Size of file system (in pages)
-Map: R746FSYS Based on: R746FSF </description>
+Map: R746FSYS Based on: R746FSF Description Size of file system (in pages)</description>
     </item>
     
     <item>
@@ -715,7 +750,7 @@ Map: R746FSYS Based on: R746FSF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsfi/</guid>
       <description>Number of sequential file data I/O requests issued, (long floating point)
-Map: R746FSYS Based on: R746FSFI </description>
+Map: R746FSYS Based on: R746FSFI Description Number of sequential file data I/O requests issued, (long floating point)</description>
     </item>
     
     <item>
@@ -725,7 +760,8 @@ Map: R746FSYS Based on: R746FSFI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsfl/</guid>
       <description>Status flags
-Map: R746FSYS Based on: R746FSFL Flag fields This is a flag field with the following bit fields:
+Map: R746FSYS Based on: R746FSFL Description Status flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description r746fnhs 0 No HFS file system statistics r746fmtc 1 Mount time changed r746ffsm 2 File system now mounted </description>
     </item>
     
@@ -736,7 +772,7 @@ Field Bit-Position Description r746fnhs 0 No HFS file system statistics r746fmtc
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsnl/</guid>
       <description>Length of file system name
-Map: R746FSYS Based on: R746FSNL </description>
+Map: R746FSYS Based on: R746FSNL Description Length of file system name</description>
     </item>
     
     <item>
@@ -746,7 +782,7 @@ Map: R746FSYS Based on: R746FSNL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsnm/</guid>
       <description>File system name (catologed dataset name)
-Map: R746FSYS Based on: R746FSNM </description>
+Map: R746FSYS Based on: R746FSNM Description File system name (catologed dataset name)</description>
     </item>
     
     <item>
@@ -756,7 +792,7 @@ Map: R746FSYS Based on: R746FSNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsrc/</guid>
       <description>Return code from OMVS BPX1PCT for DisplayFSStats command
-Map: R746FSYS Based on: R746FSRC </description>
+Map: R746FSYS Based on: R746FSRC Description Return code from OMVS BPX1PCT for DisplayFSStats command</description>
     </item>
     
     <item>
@@ -766,7 +802,7 @@ Map: R746FSYS Based on: R746FSRC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746fsrs/</guid>
       <description>Reason code from OMVS BPX1PCT for DisplayFSStats command
-Map: R746FSYS Based on: R746FSRS </description>
+Map: R746FSYS Based on: R746FSRS Description Reason code from OMVS BPX1PCT for DisplayFSStats command</description>
     </item>
     
     <item>
@@ -776,7 +812,7 @@ Map: R746FSYS Based on: R746FSRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746g1c/</guid>
       <description>Number of times the first page of a data file was requested and found in virtual storage (cache), (long floating point)
-Map: R746GDAT Based on: R746G1C </description>
+Map: R746GDAT Based on: R746G1C Description Number of times the first page of a data file was requested and found in virtual storage (cache), (long floating point)</description>
     </item>
     
     <item>
@@ -786,7 +822,7 @@ Map: R746GDAT Based on: R746G1C </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746g1nc/</guid>
       <description>Number of times the first page of a data file was requested and not found in virtual storage (cache) and a I/O was necessary, (long floating point)
-Map: R746GDAT Based on: R746G1NC </description>
+Map: R746GDAT Based on: R746G1NC Description Number of times the first page of a data file was requested and not found in virtual storage (cache) and a I/O was necessary, (long floating point)</description>
     </item>
     
     <item>
@@ -796,7 +832,7 @@ Map: R746GDAT Based on: R746G1NC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gbf/</guid>
       <description>Number of times a buffer was already fixed prior to an I/O request in buffer pool, (long floating point)
-Map: R746GBUF Based on: R746GBF </description>
+Map: R746GBUF Based on: R746GBF Description Number of times a buffer was already fixed prior to an I/O request in buffer pool, (long floating point)</description>
     </item>
     
     <item>
@@ -806,7 +842,7 @@ Map: R746GBUF Based on: R746GBF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gbnf/</guid>
       <description>Number of times a buffer was not already fixed prior to an I/O request in buffer pool, (long floating point)
-Map: R746GBUF Based on: R746GBNF </description>
+Map: R746GBUF Based on: R746GBNF Description Number of times a buffer was not already fixed prior to an I/O request in buffer pool, (long floating point)</description>
     </item>
     
     <item>
@@ -816,7 +852,7 @@ Map: R746GBUF Based on: R746GBNF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746glrc/</guid>
       <description>Return code from OMVS BPX1PCT for DisplayBufferLimits command
-Map: R746GDAT Based on: R746GLRC </description>
+Map: R746GDAT Based on: R746GLRC Description Return code from OMVS BPX1PCT for DisplayBufferLimits command</description>
     </item>
     
     <item>
@@ -826,7 +862,7 @@ Map: R746GDAT Based on: R746GLRC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746glrs/</guid>
       <description>Reason code from OMVS BPX1PCT for DisplayBufferLimits command
-Map: R746GDAT Based on: R746GLRS </description>
+Map: R746GDAT Based on: R746GLRS Description Reason code from OMVS BPX1PCT for DisplayBufferLimits command</description>
     </item>
     
     <item>
@@ -836,7 +872,7 @@ Map: R746GDAT Based on: R746GLRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gmc/</guid>
       <description>Number of times the metadata for a file was found in virtual storage (cache) during file lookup, (long floating point)
-Map: R746GDAT Based on: R746GMC </description>
+Map: R746GDAT Based on: R746GMC Description Number of times the metadata for a file was found in virtual storage (cache) during file lookup, (long floating point)</description>
     </item>
     
     <item>
@@ -846,7 +882,7 @@ Map: R746GDAT Based on: R746GMC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gmnc/</guid>
       <description>Number of times the metadata for a file was not found in virtual storage (cache) during file lookup and an index call was necessary which may result in an I/O, (long floating point)
-Map: R746GDAT Based on: R746GMNC </description>
+Map: R746GDAT Based on: R746GMNC Description Number of times the metadata for a file was not found in virtual storage (cache) during file lookup and an index call was necessary which may result in an I/O, (long floating point)</description>
     </item>
     
     <item>
@@ -856,7 +892,7 @@ Map: R746GDAT Based on: R746GMNC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gmnf/</guid>
       <description>Value of FIXED(MIN) (in MB)
-Map: R746GDAT Based on: R746GMNF </description>
+Map: R746GDAT Based on: R746GMNF Description Value of FIXED(MIN) (in MB)</description>
     </item>
     
     <item>
@@ -866,7 +902,7 @@ Map: R746GDAT Based on: R746GMNF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gmxv/</guid>
       <description>Value of VIRTUAL(MAX) (in MB)
-Map: R746GDAT Based on: R746GMXV </description>
+Map: R746GDAT Based on: R746GMXV Description Value of VIRTUAL(MAX) (in MB)</description>
     </item>
     
     <item>
@@ -876,7 +912,8 @@ Map: R746GDAT Based on: R746GMXV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gnbl/</guid>
       <description>No buffer limit data
-Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r746gsfl.</description>
+Map: R746GDAT Based on: r746gsfl Description No buffer limit data
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r746gsfl.</description>
     </item>
     
     <item>
@@ -886,7 +923,7 @@ Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gnds/</guid>
       <description>Number of data spaces for buffer pool
-Map: R746GBUF Based on: R746GNDS </description>
+Map: R746GBUF Based on: R746GNDS Description Number of data spaces for buffer pool</description>
     </item>
     
     <item>
@@ -896,7 +933,8 @@ Map: R746GBUF Based on: R746GNDS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gngd/</guid>
       <description>No global data
-Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r746gsfl.</description>
+Map: R746GDAT Based on: r746gsfl Description No global data
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r746gsfl.</description>
     </item>
     
     <item>
@@ -906,7 +944,8 @@ Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gonr/</guid>
       <description>OMVS kernel not ready
-Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r746gsfl.</description>
+Map: R746GDAT Based on: r746gsfl Description OMVS kernel not ready
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r746gsfl.</description>
     </item>
     
     <item>
@@ -916,7 +955,8 @@ Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gpgd/</guid>
       <description>Partial global data
-Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r746gsfl.</description>
+Map: R746GDAT Based on: r746gsfl Description Partial global data
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r746gsfl.</description>
     </item>
     
     <item>
@@ -926,7 +966,7 @@ Map: R746GDAT Based on: r746gsfl Post-Processed This virtual field corresponds t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsb/</guid>
       <description>Size of buffers in buffer pool (in pages)
-Map: R746GBUF Based on: R746GSB </description>
+Map: R746GBUF Based on: R746GSB Description Size of buffers in buffer pool (in pages)</description>
     </item>
     
     <item>
@@ -936,7 +976,7 @@ Map: R746GBUF Based on: R746GSB </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsbf/</guid>
       <description>Size of permanently fixed buffers in buffer pool (in pages)
-Map: R746GBUF Based on: R746GSBF </description>
+Map: R746GBUF Based on: R746GSBF Description Size of permanently fixed buffers in buffer pool (in pages)</description>
     </item>
     
     <item>
@@ -946,7 +986,7 @@ Map: R746GBUF Based on: R746GSBF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsbp/</guid>
       <description>Size of buffer pool (in pages)
-Map: R746GBUF Based on: R746GSBP </description>
+Map: R746GBUF Based on: R746GSBP Description Size of buffer pool (in pages)</description>
     </item>
     
     <item>
@@ -956,7 +996,8 @@ Map: R746GBUF Based on: R746GSBP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsfl/</guid>
       <description>Status Flags
-Map: R746GDAT Based on: R746GSFL Flag fields This is a flag field with the following bit fields:
+Map: R746GDAT Based on: R746GSFL Description Status Flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description r746gonr 0 OMVS kernel not ready r746gnbl 1 No buffer limit data r746gngd 2 No global data r746gpgd 3 Partial global data </description>
     </item>
     
@@ -967,7 +1008,7 @@ Field Bit-Position Description r746gonr 0 OMVS kernel not ready r746gnbl 1 No bu
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsrc/</guid>
       <description>Return code from OMVS BPX1PCT for DisplayGlobalStats command
-Map: R746GDAT Based on: R746GSRC </description>
+Map: R746GDAT Based on: R746GSRC Description Return code from OMVS BPX1PCT for DisplayGlobalStats command</description>
     </item>
     
     <item>
@@ -977,7 +1018,7 @@ Map: R746GDAT Based on: R746GSRC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gsrs/</guid>
       <description>Reason code from OMVS BPX1PCT for DisplayGlobalStats command
-Map: R746GDAT Based on: R746GSRS </description>
+Map: R746GDAT Based on: R746GSRS Description Reason code from OMVS BPX1PCT for DisplayGlobalStats command</description>
     </item>
     
     <item>
@@ -987,7 +1028,7 @@ Map: R746GDAT Based on: R746GSRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gusf/</guid>
       <description>Total amount (in pages ) of permanently fixed storage in use
-Map: R746GDAT Based on: R746GUSF </description>
+Map: R746GDAT Based on: R746GUSF Description Total amount (in pages ) of permanently fixed storage in use</description>
     </item>
     
     <item>
@@ -997,7 +1038,7 @@ Map: R746GDAT Based on: R746GUSF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/r746gusv/</guid>
       <description>Total amount (in pages) of virtual storage in use
-Map: R746GDAT Based on: R746GUSV </description>
+Map: R746GDAT Based on: R746GUSV Description Total amount (in pages) of virtual storage in use</description>
     </item>
     
     <item>
@@ -1006,8 +1047,8 @@ Map: R746GDAT Based on: R746GUSV </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ral/</guid>
-      <description>Length of reassembly area.
-Map: SMF74PRO Based on: SMF74RAL Description Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
     </item>
     
     <item>
@@ -1016,8 +1057,8 @@ Map: SMF74PRO Based on: SMF74RAL Description Area consists of a fixed header and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ran/</guid>
-      <description>Number of reassembly area.
-Map: SMF74PRO Based on: SMF74RAN Description This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
     </item>
     
     <item>
@@ -1027,7 +1068,7 @@ Map: SMF74PRO Based on: SMF74RAN Description This field is used to indicate whet
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
-Map: SMF74PRO Based on: SMF74RAO </description>
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
     </item>
     
     <item>
@@ -1036,8 +1077,8 @@ Map: SMF74PRO Based on: SMF74RAO </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/rch/</guid>
-      <description>SMF record converted to higher release or service level.
-Map: SMF74PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
     </item>
     
@@ -1047,8 +1088,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/rcl/</guid>
-      <description>SMF record converted to lower service level.
-Map: SMF74PRO Based on: fla Description Bit is set by SMF record retrieval service GRBSMFR.
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
@@ -1059,7 +1100,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/rrf/</guid>
       <description>NEW RECORD FORMAT
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF74S6 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -1069,7 +1111,7 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/rty/</guid>
       <description>RECORD TYPE
-Record: SMF74S6 Based on: SMF74RTY </description>
+Record: SMF74S6 Based on: SMF74RTY Description RECORD TYPE</description>
     </item>
     
     <item>
@@ -1079,7 +1121,7 @@ Record: SMF74S6 Based on: SMF74RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/sam/</guid>
       <description>Number of samples
-Map: SMF74PRO Based on: SMF74SAM </description>
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
     </item>
     
     <item>
@@ -1089,7 +1131,7 @@ Map: SMF74PRO Based on: SMF74SAM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/seg/</guid>
       <description>SEGMENT DESCRIPTOR
-Record: SMF74S6 Based on: SMF74SEG </description>
+Record: SMF74S6 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
@@ -1099,7 +1141,7 @@ Record: SMF74S6 Based on: SMF74SEG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/sid/</guid>
       <description>SYSTEM ID FROM INSTALLATION
-Record: SMF74S6 Based on: SMF74SID </description>
+Record: SMF74S6 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
     <item>
@@ -1109,7 +1151,7 @@ Record: SMF74S6 Based on: SMF74SID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/snm/</guid>
       <description>System name for current system as defined in CVTSNAME
-Map: SMF74PRO Based on: SMF74SNM </description>
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
     </item>
     
     <item>
@@ -1119,7 +1161,7 @@ Map: SMF74PRO Based on: SMF74SNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/srl/</guid>
       <description>SMF record level
-Map: SMF74PRO Based on: SMF74SRL </description>
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
     </item>
     
     <item>
@@ -1129,7 +1171,7 @@ Map: SMF74PRO Based on: SMF74SRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
-Record: SMF74S6 Based on: SMF74SSI </description>
+Record: SMF74S6 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
@@ -1139,7 +1181,7 @@ Record: SMF74S6 Based on: SMF74SSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/sty/</guid>
       <description>SUBTYPE
-Record: SMF74S6 Based on: SMF74STY </description>
+Record: SMF74S6 Based on: SMF74STY Description SUBTYPE</description>
     </item>
     
     <item>
@@ -1149,7 +1191,8 @@ Record: SMF74S6 Based on: SMF74STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/sut/</guid>
       <description>SUBTYPES USED
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF74S6 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -1159,7 +1202,7 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/syn/</guid>
       <description>SYNC value in seconds
-Map: SMF74PRO Based on: SMF74SYN </description>
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
     </item>
     
     <item>
@@ -1189,8 +1232,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/tme/</guid>
-      <description>TOD RECORD WRITTEN
-Record: SMF74S6 Based on: SMF74TME </description>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S6 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -1200,7 +1243,7 @@ Record: SMF74S6 Based on: SMF74TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
-Record: SMF74S6 Based on: SMF74TRN </description>
+Record: SMF74S6 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
@@ -1210,7 +1253,8 @@ Record: SMF74S6 Based on: SMF74TRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+Record: SMF74S6 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
     </item>
     
     <item>
@@ -1220,7 +1264,8 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/vxa/</guid>
       <description>MVS/XA IF ON
-Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+Record: SMF74S6 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
     </item>
     
     <item>
@@ -1230,7 +1275,7 @@ Record: SMF74S6 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S6/fields/xnm/</guid>
       <description>Sysplex name as defined in ECVTSPLX
-Map: SMF74PRO Based on: SMF74XNM </description>
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
     </item>
     
   </channel>

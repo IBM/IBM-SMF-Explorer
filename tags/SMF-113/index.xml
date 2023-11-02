@@ -20,9 +20,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/</guid>
-      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_1_CTR SMF113_1_CSS SMF113_1_SCDS SMF113_1_LCDS Virtual fields Name Based on Description timestamp time
-date Record Time Stamp interval intervalstart
-intervalend The interval time delta Record fields Name Based on Description Type/Format flg flagSMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtualtime</description>
+      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_1_CTR SMF113_1_CSS SMF113_1_SCDS SMF113_1_LCDS Virtual fields Name Based on Description timestamp date
+time Record Timestamp interval intervalstart
+intervalend The interval time delta Record fields Name Based on Description Type/Format date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtual date
+time Record Timestamp len SMF113LEN Record length integer seg SMF113SEG Segment descriptor integer flg flag SMF113FLG Header flag byte string ssf flg Bit 0 - Subsys ID after Sys ID sbt flg Bit 1 - Subtypes utilized rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer tme SMF113TME Record written time time dte SMF113DTE Record written date date sid SMF113SID System identifier string wid SMF113WID Subsystem identifier string sty SMF113STY Record subtype: 1 = Delta event counters 2 = Hardware event counters integer sdl SMF113SDL Length of self-defining section integer Maps and sections SMF113SDS SMF113 self defining Section</description>
     </item>
     
     <item>
@@ -31,9 +32,10 @@ intervalend The interval time delta Record fields Name Based on Description Type
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/</guid>
-      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_2_CTR SMF113_2_CSS SMF113_2_CDS Virtual fields Name Based on Description timestamp time
-date Record Time Stamp interval intervalstart
-intervalend The interval time delta Record fields Name Based on Description Type/Format flg flagSMF113FLG Header flag byte string sbt flg Bit 1 - Subtypes utilized ssf flg Bit 0 - Subsys ID after Sys ID rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtualtime</description>
+      <description>How to use this documentation? Virtual fields Record fields Maps and sections SMF113SDS SMF113SSS SMF113ID SMF113_2_CTR SMF113_2_CSS SMF113_2_CDS Virtual fields Name Based on Description timestamp date
+time Record Timestamp interval intervalstart
+intervalend The interval time delta Record fields Name Based on Description Type/Format date SMF113DTE Date of Record date time SMF113TME Time of Record time timestamp virtual date
+time Record Timestamp len SMF113LEN Record length integer seg SMF113SEG Segment descriptor integer flg flag SMF113FLG Header flag byte string ssf flg Bit 0 - Subsys ID after Sys ID sbt flg Bit 1 - Subtypes utilized rty SMF113RTY Record type - 113 (&amp;lsquo;71&amp;rsquo;x) integer tme SMF113TME Record written time time dte SMF113DTE Record written date date sid SMF113SID System identifier string wid SMF113WID Subsystem identifier string sty SMF113STY Record subtype: 1 = Delta event counters 2 = Hardware event counters integer sdl SMF113SDL Length of self-defining section integer Maps and sections SMF113SDS SMF113 self defining Section</description>
     </item>
     
     <item>
@@ -43,7 +45,7 @@ intervalend The interval time delta Record fields Name Based on Description Type
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cdln/</guid>
       <description>Length of counter data section
-Map: SMF113_1_CSS Based on: SMF113_1_CDLN </description>
+Map: SMF113_1_CSS Based on: SMF113_1_CDLN Description Length of counter data section</description>
     </item>
     
     <item>
@@ -53,7 +55,7 @@ Map: SMF113_1_CSS Based on: SMF113_1_CDLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cdln/</guid>
       <description>Length of counter data sections
-Map: SMF113_2_CTR Based on: SMF113_2_CDLN </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CDLN Description Length of counter data sections</description>
     </item>
     
     <item>
@@ -62,7 +64,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CDLN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cdof/</guid>
-      <description>Offset to counter data section for this counter set, from the beginnin&amp;hellip;
+      <description>Offset to counter data section for this counter set, from the beginning of record. This can be to a SMF113_1_SCDS section or a SMF113_1_LCDS section, depending SMF113_1_CSUseLCDS
 Map: SMF113_1_CSS Based on: SMF113_1_CDOF Description Offset to counter data section for this counter set, from the beginning of record. This can be to a SMF113_1_SCDS section or a SMF113_1_LCDS section, depending SMF113_1_CSUseLCDS</description>
     </item>
     
@@ -73,7 +75,7 @@ Map: SMF113_1_CSS Based on: SMF113_1_CDOF Description Offset to counter data sec
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cdof/</guid>
       <description>Offset to counter data section from beginning of record
-Map: SMF113_2_CTR Based on: SMF113_2_CDOF </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CDOF Description Offset to counter data section from beginning of record</description>
     </item>
     
     <item>
@@ -83,7 +85,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CDOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cdon/</guid>
       <description>Number of counter data sections
-Map: SMF113_1_CSS Based on: SMF113_1_CDON </description>
+Map: SMF113_1_CSS Based on: SMF113_1_CDON Description Number of counter data sections</description>
     </item>
     
     <item>
@@ -92,7 +94,7 @@ Map: SMF113_1_CSS Based on: SMF113_1_CDON </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cdon/</guid>
-      <description>Number of counter data sections. This is the total number of SMF113_2_&amp;hellip;
+      <description>Number of counter data sections. This is the total number of SMF113_2_CDS sections for all the counter sets
 Map: SMF113_2_CTR Based on: SMF113_2_CDON Description Number of counter data sections. This is the total number of SMF113_2_CDS sections for all the counter sets</description>
     </item>
     
@@ -103,7 +105,52 @@ Map: SMF113_2_CTR Based on: SMF113_2_CDON Description Number of counter data sec
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cf/</guid>
       <description>Record flags
-Map: SMF113_2_CTR Based on: SMF113_2_CF </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CF Description Record flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cff 0 First SMF record for the instrumentation run. The counter values are the initial values. cfm 1 Middle SMF record (activated by interval timers). The counter values are intermediate values. The number of intermediate records varies from 0 to many, depending on the duration of the instrumentation run.</description>
+    </item>
+    
+    <item>
+      <title>Field - cff</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cff/</guid>
+      <description>First SMF record for the instrumentation run. The counter values are the initial values.
+Map: SMF113_2_CTR Based on: cf Description First SMF record for the instrumentation run. The counter values are the initial values.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfl/</guid>
+      <description>Final SMF record for the instrumentation run. The counter values are the values at the end of the run.
+Map: SMF113_2_CTR Based on: cf Description Final SMF record for the instrumentation run. The counter values are the values at the end of the run.
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cfm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfm/</guid>
+      <description>Middle SMF record (activated by interval timers). The counter values are intermediate values. The number of intermediate records varies from 0 to many, depending on the duration of the instrumentation run. An intermediate recrod is produced periodically based on the SMFINTVAL parameter.
+Map: SMF113_2_CTR Based on: cf Description Middle SMF record (activated by interval timers). The counter values are intermediate values. The number of intermediate records varies from 0 to many, depending on the duration of the instrumentation run.</description>
+    </item>
+    
+    <item>
+      <title>Field - cfns</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cfns/</guid>
+      <description>1=Internal flag indicating SMF record is created on non-standard instrumentation hardware
+Map: SMF113_2_CTR Based on: cf Description 1=Internal flag indicating SMF record is created on non-standard instrumentation hardware
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cf.</description>
     </item>
     
     <item>
@@ -112,7 +159,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CF </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/coreid/</guid>
-      <description>Core ID for which the hardware event counters are recorded. Note that&amp;hellip;
+      <description>Core ID for which the hardware event counters are recorded. Note that zero is a valid core ID number.
 Map: SMF113_1_CTR Based on: SMF113_1_COREID Description Core ID for which the hardware event counters are recorded. Note that zero is a valid core ID number.</description>
     </item>
     
@@ -122,18 +169,8 @@ Map: SMF113_1_CTR Based on: SMF113_1_COREID Description Core ID for which the ha
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cpsp/</guid>
-      <description>Processor speed for which the event counters are recorded. Speed is in&amp;hellip;
+      <description>Processor speed for which the event counters are recorded. Speed is in cycles/microsecond.
 Map: SMF113_2_CTR Based on: SMF113_2_CPSP Description Processor speed for which the event counters are recorded. Speed is in cycles/microsecond.</description>
-    </item>
-    
-    <item>
-      <title>Field - cpu_num</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cpu_num/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cpu_num/</guid>
-      <description>Processor number for which the event counters are recorded. Note that &amp;hellip;
-Map: SMF113_2_CTR Based on: SMF113_2_CPU# Description Processor number for which the event counters are recorded. Note that zero is a valid processor number. This field is deprecated, use SMF113_2_CpuId instead.</description>
     </item>
     
     <item>
@@ -142,7 +179,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CPU# Description Processor number for which
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cpuid/</guid>
-      <description>Processor ID for which the hardware event counters are recorded. Note&amp;hellip;
+      <description>Processor ID for which the hardware event counters are recorded. Note that zero is a valid processor number.
 Map: SMF113_1_CTR Based on: SMF113_1_CPUID Description Processor ID for which the hardware event counters are recorded. Note that zero is a valid processor number.</description>
     </item>
     
@@ -152,7 +189,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CPUID Description Processor ID for which th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cpuid/</guid>
-      <description>Processor ID for which the hardware event counters are recorded. Note &amp;hellip;
+      <description>Processor ID for which the hardware event counters are recorded. Note that zero is a valid processor ID.
 Map: SMF113_2_CTR Based on: SMF113_2_CPUID Description Processor ID for which the hardware event counters are recorded. Note that zero is a valid processor ID.</description>
     </item>
     
@@ -162,7 +199,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CPUID Description Processor ID for which th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cpuprocclass/</guid>
-      <description>The processor type for which the hardware event counters are recorded&amp;hellip;.
+      <description>The processor type for which the hardware event counters are recorded. Will be one of the following: 0 = Standard CP 2 = zCBP or zAAP see SMF113_1_zCBP 4 = zIIP
 Map: SMF113_1_CTR Based on: SMF113_1_CPUPROCCLASS Description The processor type for which the hardware event counters are recorded. Will be one of the following: 0 = Standard CP 2 = zCBP or zAAP see SMF113_1_zCBP 4 = zIIP</description>
     </item>
     
@@ -172,7 +209,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CPUPROCCLASS Description The processor type
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cpuprocclass/</guid>
-      <description>The processor type for which the event counters are recorded. Will be &amp;hellip;
+      <description>The processor type for which the event counters are recorded. Will be one of the following: 0 = Standard CP 2 = zCBP or zAAP see SMF113_2_zCBP 4 = zIIP
 Map: SMF113_2_CTR Based on: SMF113_2_CPUPROCCLASS Description The processor type for which the event counters are recorded. Will be one of the following: 0 = Standard CP 2 = zCBP or zAAP see SMF113_2_zCBP 4 = zIIP</description>
     </item>
     
@@ -182,7 +219,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CPUPROCCLASS Description The processor type
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cpuspeed/</guid>
-      <description>Processor speed for which the event counters are recorded. Speed is in&amp;hellip;
+      <description>Processor speed for which the event counters are recorded. Speed is in cycles/microsecond.
 Map: SMF113_1_CTR Based on: SMF113_1_CPUSPEED Description Processor speed for which the event counters are recorded. Speed is in cycles/microsecond.</description>
     </item>
     
@@ -192,7 +229,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CPUSPEED Description Processor speed for wh
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cr/</guid>
-      <description>Hardware event counter value. Contains the absolute number of times a&amp;hellip;
+      <description>Hardware event counter value. Contains the absolute number of times a particular hardware counter event has occurred.
 Map: SMF113_2_CDS Based on: SMF113_2_CR Description Hardware event counter value. Contains the absolute number of times a particular hardware counter event has occurred.</description>
     </item>
     
@@ -202,9 +239,10 @@ Map: SMF113_2_CDS Based on: SMF113_2_CR Description Hardware event counter value
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/csflags/</guid>
-      <description>Flags
-Map: SMF113_1_CSS Based on: SMF113_1_CSFLAGS Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description csuselcds 0 When on the counter set&amp;rsquo;s counter data section described by fields SMF&amp;hellip; </description>
+      <description>Not available
+Map: SMF113_1_CSS Based on: SMF113_1_CSFLAGS Description Not available
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description csuselcds 0 When on the counter set&amp;rsquo;s counter data section described by fields SMF113_1_CDOF, SMF113_1_CDLN, and SMF113_1_CDON is mapped by SMF113_1_LCDS, otherwise it is mapped by SMF113_1_SCDS. </description>
     </item>
     
     <item>
@@ -214,7 +252,7 @@ Field Bit-Position Description csuselcds 0 When on the counter set&amp;rsquo;s c
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/csln/</guid>
       <description>Length of counter set section
-Map: SMF113_1_CTR Based on: SMF113_1_CSLN </description>
+Map: SMF113_1_CTR Based on: SMF113_1_CSLN Description Length of counter set section</description>
     </item>
     
     <item>
@@ -224,7 +262,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CSLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/csln/</guid>
       <description>Length of counter set sections
-Map: SMF113_2_CTR Based on: SMF113_2_CSLN </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CSLN Description Length of counter set sections</description>
     </item>
     
     <item>
@@ -234,7 +272,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CSLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/csn/</guid>
       <description>Number of counter sections
-Map: SMF113_2_CSS Based on: SMF113_2_CSN </description>
+Map: SMF113_2_CSS Based on: SMF113_2_CSN Description Number of counter sections</description>
     </item>
     
     <item>
@@ -244,7 +282,7 @@ Map: SMF113_2_CSS Based on: SMF113_2_CSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/csof/</guid>
       <description>Offset to counter set section from beginning of record
-Map: SMF113_1_CTR Based on: SMF113_1_CSOF </description>
+Map: SMF113_1_CTR Based on: SMF113_1_CSOF Description Offset to counter set section from beginning of record</description>
     </item>
     
     <item>
@@ -254,7 +292,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CSOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/csof/</guid>
       <description>Offset to counter set section from beginning of record
-Map: SMF113_2_CTR Based on: SMF113_2_CSOF </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CSOF Description Offset to counter set section from beginning of record</description>
     </item>
     
     <item>
@@ -264,7 +302,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CSOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cson/</guid>
       <description>Number of counter set sections
-Map: SMF113_1_CTR Based on: SMF113_1_CSON </description>
+Map: SMF113_1_CTR Based on: SMF113_1_CSON Description Number of counter set sections</description>
     </item>
     
     <item>
@@ -274,7 +312,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CSON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cson/</guid>
       <description>Number of counter set sections
-Map: SMF113_2_CTR Based on: SMF113_2_CSON </description>
+Map: SMF113_2_CTR Based on: SMF113_2_CSON Description Number of counter set sections</description>
     </item>
     
     <item>
@@ -283,7 +321,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CSON </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cst/</guid>
-      <description>Counterset type for counters recorded in SMF113_2_CR: 1 = Basic, 2 = P&amp;hellip;
+      <description>Counterset type for counters recorded in SMF113_2_CR: 1 = Basic, 2 = Problem state, 3 = Crypto-activity, 4 = Extended
 Map: SMF113_2_CSS Based on: SMF113_2_CST Description Counterset type for counters recorded in SMF113_2_CR: 1 = Basic, 2 = Problem state, 3 = Crypto-activity, 4 = Extended</description>
     </item>
     
@@ -293,7 +331,7 @@ Map: SMF113_2_CSS Based on: SMF113_2_CST Description Counterset type for counter
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cstype/</guid>
-      <description>Counter set type for counters recorded: 1 = Basic, 2 = Problem state, &amp;hellip;
+      <description>Counter set type for counters recorded: 1 = Basic, 2 = Problem state, 3 = Crypto-activity, 4 = Extended 5 = z/OS 6 = MT-diagnostic
 Map: SMF113_1_CSS Based on: SMF113_1_CSTYPE Description Counter set type for counters recorded: 1 = Basic, 2 = Problem state, 3 = Crypto-activity, 4 = Extended 5 = z/OS 6 = MT-diagnostic</description>
     </item>
     
@@ -303,7 +341,7 @@ Map: SMF113_1_CSS Based on: SMF113_1_CSTYPE Description Counter set type for cou
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/csuselcds/</guid>
-      <description>When on the counter set&amp;rsquo;s counter data section described by fields SMF&amp;hellip;
+      <description>When on the counter set&amp;rsquo;s counter data section described by fields SMF113_1_CDOF, SMF113_1_CDLN, and SMF113_1_CDON is mapped by SMF113_1_LCDS, otherwise it is mapped by SMF113_1_SCDS.
 Map: SMF113_1_CSS Based on: csflags Description When on the counter set&amp;rsquo;s counter data section described by fields SMF113_1_CDOF, SMF113_1_CDLN, and SMF113_1_CDON is mapped by SMF113_1_LCDS, otherwise it is mapped by SMF113_1_SCDS.
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field csflags.</description>
     </item>
@@ -314,8 +352,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ctm/</guid>
-      <description>Time when this SMF record is written &amp;ndash; STCK format
-Map: SMF113_1_CTR Based on: SMF113_1_CTM </description>
+      <description>Time when this SMF record is written
+Map: SMF113_1_CTR Based on: SMF113_1_CTM Description Time when this SMF record is written</description>
     </item>
     
     <item>
@@ -324,8 +362,8 @@ Map: SMF113_1_CTR Based on: SMF113_1_CTM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/ctm/</guid>
-      <description>Time when this SMF record is written &amp;ndash; STCK format
-Map: SMF113_2_CTR Based on: SMF113_2_CTM </description>
+      <description>Time when this SMF record is written
+Map: SMF113_2_CTR Based on: SMF113_2_CTM Description Time when this SMF record is written</description>
     </item>
     
     <item>
@@ -334,7 +372,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CTM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ctrversion0/</guid>
-      <description>Zero counter version number. This number is incremented when there is&amp;hellip;
+      <description>Zero counter version number. This number is incremented when there is a change to the meaning of a counter in the z/OS counter set
 Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION0 Description Zero counter version number. This number is incremented when there is a change to the meaning of a counter in the z/OS counter set</description>
     </item>
     
@@ -344,7 +382,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION0 Description Zero counter versio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ctrversion1/</guid>
-      <description>First counter version number. This number is incremented when there is&amp;hellip;
+      <description>First counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Basic or Problem-state counter sets
 Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION1 Description First counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Basic or Problem-state counter sets</description>
     </item>
     
@@ -354,7 +392,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION1 Description First counter versi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ctrversion2/</guid>
-      <description>Second counter version number. This number is incremented when there i&amp;hellip;
+      <description>Second counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Crypto-activity, Extended or MT-diagnostic counters
 Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION2 Description Second counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Crypto-activity, Extended or MT-diagnostic counters</description>
     </item>
     
@@ -364,7 +402,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_CTRVERSION2 Description Second counter vers
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/ctrvn1/</guid>
-      <description>First counter version number. This number is incremented when there is&amp;hellip;
+      <description>First counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Basic or Problem-state counter sets
 Map: SMF113_2_CTR Based on: SMF113_2_CTRVN1 Description First counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Basic or Problem-state counter sets</description>
     </item>
     
@@ -374,7 +412,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_CTRVN1 Description First counter version nu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/ctrvn2/</guid>
-      <description>Second counter version number. This number is incremented when there i&amp;hellip;
+      <description>Second counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Crypto-activity or Extended counter sets
 Map: SMF113_2_CTR Based on: SMF113_2_CTRVN2 Description Second counter version number. This number is incremented when there is a change to the meaning of a counter or the number of installed counters in the Crypto-activity or Extended counter sets</description>
     </item>
     
@@ -384,8 +422,8 @@ Map: SMF113_2_CTR Based on: SMF113_2_CTRVN2 Description Second counter version n
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/cts/</guid>
-      <description>Time when HIS Data collection started &amp;ndash; STCK format
-Map: SMF113_1_CTR Based on: SMF113_1_CTS </description>
+      <description>Time when HIS Data collection started
+Map: SMF113_1_CTR Based on: SMF113_1_CTS Description Time when HIS Data collection started</description>
     </item>
     
     <item>
@@ -394,8 +432,8 @@ Map: SMF113_1_CTR Based on: SMF113_1_CTS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/cts/</guid>
-      <description>Time when HIS Data collection started &amp;ndash; STCK format
-Map: SMF113_2_CTR Based on: SMF113_2_CTS </description>
+      <description>Time when HIS Data collection started
+Map: SMF113_2_CTR Based on: SMF113_2_CTS Description Time when HIS Data collection started</description>
     </item>
     
     <item>
@@ -425,7 +463,7 @@ Record: SMF113S2 Based on: SMF113DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/dln/</guid>
       <description>Length of data section
-Map: SMF113SDS Based on: SMF113DLN </description>
+Map: SMF113SDS Based on: SMF113DLN Description Length of data section</description>
     </item>
     
     <item>
@@ -435,7 +473,7 @@ Map: SMF113SDS Based on: SMF113DLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/dln/</guid>
       <description>Length of data section
-Map: SMF113SDS Based on: SMF113DLN </description>
+Map: SMF113SDS Based on: SMF113DLN Description Length of data section</description>
     </item>
     
     <item>
@@ -445,7 +483,7 @@ Map: SMF113SDS Based on: SMF113DLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/dof/</guid>
       <description>Offset of data section from beginning of record
-Map: SMF113SDS Based on: SMF113DOF </description>
+Map: SMF113SDS Based on: SMF113DOF Description Offset of data section from beginning of record</description>
     </item>
     
     <item>
@@ -455,7 +493,7 @@ Map: SMF113SDS Based on: SMF113DOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/dof/</guid>
       <description>Offset of data section from beginning of record
-Map: SMF113SDS Based on: SMF113DOF </description>
+Map: SMF113SDS Based on: SMF113DOF Description Offset of data section from beginning of record</description>
     </item>
     
     <item>
@@ -465,7 +503,7 @@ Map: SMF113SDS Based on: SMF113DOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/don/</guid>
       <description>Number of data sections
-Map: SMF113SDS Based on: SMF113DON </description>
+Map: SMF113SDS Based on: SMF113DON Description Number of data sections</description>
     </item>
     
     <item>
@@ -475,7 +513,7 @@ Map: SMF113SDS Based on: SMF113DON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/don/</guid>
       <description>Number of data sections
-Map: SMF113SDS Based on: SMF113DON </description>
+Map: SMF113SDS Based on: SMF113DON Description Number of data sections</description>
     </item>
     
     <item>
@@ -485,7 +523,7 @@ Map: SMF113SDS Based on: SMF113DON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/dte/</guid>
       <description>Record written date
-Record: SMF113S1 Based on: SMF113DTE </description>
+Record: SMF113S1 Based on: SMF113DTE Description Record written date</description>
     </item>
     
     <item>
@@ -495,7 +533,7 @@ Record: SMF113S1 Based on: SMF113DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/dte/</guid>
       <description>Record written date
-Record: SMF113S2 Based on: SMF113DTE </description>
+Record: SMF113S2 Based on: SMF113DTE Description Record written date</description>
     </item>
     
     <item>
@@ -504,8 +542,10 @@ Record: SMF113S2 Based on: SMF113DTE </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/flags/</guid>
-      <description>No description available
-Map: SMF113_1_CTR Based on: SMF113_1_FLAGS </description>
+      <description>Not available
+Map: SMF113_1_CTR Based on: SMF113_1_FLAGS Description Not available
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description lostctrdata 0 When ON, the hardware indicated the hardware has lost counter data during the current interval lostdata 1 Not available lostmtdata 2 When ON, the hardware indicated the hardware has lost MT counter data during the current interval zcbp 3 When ON, a value of 2 for SMF113_1_CpuProcClass refers to a zCBP processor type, when off a zAAP processor type.</description>
     </item>
     
     <item>
@@ -515,8 +555,9 @@ Map: SMF113_1_CTR Based on: SMF113_1_FLAGS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/flg/</guid>
       <description>Header flag byte
-Record: SMF113S1 Based on: SMF113FLG Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description sbt 1 Bit 1 - Subtypes utilized ssf 0 Bit 0 - Subsys ID after Sys ID </description>
+Record: SMF113S1 Based on: SMF113FLG Description Header flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description ssf 0 Bit 0 - Subsys ID after Sys ID sbt 1 Bit 1 - Subtypes utilized </description>
     </item>
     
     <item>
@@ -526,8 +567,9 @@ Field Bit-Position Description sbt 1 Bit 1 - Subtypes utilized ssf 0 Bit 0 - Sub
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/flg/</guid>
       <description>Header flag byte
-Record: SMF113S2 Based on: SMF113FLG Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description sbt 1 Bit 1 - Subtypes utilized ssf 0 Bit 0 - Subsys ID after Sys ID </description>
+Record: SMF113S2 Based on: SMF113FLG Description Header flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description ssf 0 Bit 0 - Subsys ID after Sys ID sbt 1 Bit 1 - Subtypes utilized </description>
     </item>
     
     <item>
@@ -537,7 +579,7 @@ Field Bit-Position Description sbt 1 Bit 1 - Subtypes utilized ssf 0 Bit 0 - Sub
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/iln/</guid>
       <description>Length of identification section
-Map: SMF113SDS Based on: SMF113ILN </description>
+Map: SMF113SDS Based on: SMF113ILN Description Length of identification section</description>
     </item>
     
     <item>
@@ -547,7 +589,7 @@ Map: SMF113SDS Based on: SMF113ILN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/iln/</guid>
       <description>Length of identification section
-Map: SMF113SDS Based on: SMF113ILN </description>
+Map: SMF113SDS Based on: SMF113ILN Description Length of identification section</description>
     </item>
     
     <item>
@@ -578,8 +620,8 @@ return intervalend - intervalstart </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/intervalend/</guid>
-      <description>The interval end time &amp;ndash; STCK format
-Map: SMF113ID Based on: SMF113INTERVALEND </description>
+      <description>The interval end time
+Map: SMF113ID Based on: SMF113INTERVALEND Description The interval end time</description>
     </item>
     
     <item>
@@ -588,8 +630,8 @@ Map: SMF113ID Based on: SMF113INTERVALEND </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/intervalend/</guid>
-      <description>The interval end time &amp;ndash; STCK format
-Map: SMF113ID Based on: SMF113INTERVALEND </description>
+      <description>The interval end time
+Map: SMF113ID Based on: SMF113INTERVALEND Description The interval end time</description>
     </item>
     
     <item>
@@ -598,8 +640,8 @@ Map: SMF113ID Based on: SMF113INTERVALEND </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/intervalstart/</guid>
-      <description>The interval start time &amp;ndash; STCK format
-Map: SMF113ID Based on: SMF113INTERVALSTART </description>
+      <description>The interval start time
+Map: SMF113ID Based on: SMF113INTERVALSTART Description The interval start time</description>
     </item>
     
     <item>
@@ -608,8 +650,8 @@ Map: SMF113ID Based on: SMF113INTERVALSTART </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/intervalstart/</guid>
-      <description>The interval start time &amp;ndash; STCK format
-Map: SMF113ID Based on: SMF113INTERVALSTART </description>
+      <description>The interval start time
+Map: SMF113ID Based on: SMF113INTERVALSTART Description The interval start time</description>
     </item>
     
     <item>
@@ -619,7 +661,7 @@ Map: SMF113ID Based on: SMF113INTERVALSTART </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/iof/</guid>
       <description>Offset of identification section from beginning of record
-Map: SMF113SDS Based on: SMF113IOF </description>
+Map: SMF113SDS Based on: SMF113IOF Description Offset of identification section from beginning of record</description>
     </item>
     
     <item>
@@ -629,7 +671,7 @@ Map: SMF113SDS Based on: SMF113IOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/iof/</guid>
       <description>Offset of identification section from beginning of record
-Map: SMF113SDS Based on: SMF113IOF </description>
+Map: SMF113SDS Based on: SMF113IOF Description Offset of identification section from beginning of record</description>
     </item>
     
     <item>
@@ -639,7 +681,7 @@ Map: SMF113SDS Based on: SMF113IOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ion/</guid>
       <description>Number of identification section
-Map: SMF113SDS Based on: SMF113ION </description>
+Map: SMF113SDS Based on: SMF113ION Description Number of identification section</description>
     </item>
     
     <item>
@@ -649,7 +691,7 @@ Map: SMF113SDS Based on: SMF113ION </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/ion/</guid>
       <description>Number of identification section
-Map: SMF113SDS Based on: SMF113ION </description>
+Map: SMF113SDS Based on: SMF113ION Description Number of identification section</description>
     </item>
     
     <item>
@@ -659,7 +701,7 @@ Map: SMF113SDS Based on: SMF113ION </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/jbn/</guid>
       <description>JobName
-Map: SMF113ID Based on: SMF113JBN </description>
+Map: SMF113ID Based on: SMF113JBN Description JobName</description>
     </item>
     
     <item>
@@ -669,7 +711,7 @@ Map: SMF113ID Based on: SMF113JBN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/jbn/</guid>
       <description>JobName
-Map: SMF113ID Based on: SMF113JBN </description>
+Map: SMF113ID Based on: SMF113JBN Description JobName</description>
     </item>
     
     <item>
@@ -678,8 +720,72 @@ Map: SMF113ID Based on: SMF113JBN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lcr/</guid>
-      <description>Event counter value delta. Contains the number of times a particular c&amp;hellip;
+      <description>Event counter value delta. Contains the number of times a particular counter event has occurred since either the start of the HIS collection run, or the previous SMF 113 Type 1 record.
 Map: SMF113_1_LCDS Based on: SMF113_1_LCR Description Event counter value delta. Contains the number of times a particular counter event has occurred since either the start of the HIS collection run, or the previous SMF 113 Type 1 record.</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/len/</guid>
+      <description>Record length
+Record: SMF113S1 Based on: SMF113LEN Description Record length</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/len/</guid>
+      <description>Record length
+Record: SMF113S2 Based on: SMF113LEN Description Record length</description>
+    </item>
+    
+    <item>
+      <title>Field - lostctrdata</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostctrdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostctrdata/</guid>
+      <description>When ON, the hardware indicated the hardware has lost counter data during the current interval
+Map: SMF113_1_CTR Based on: flags Description When ON, the hardware indicated the hardware has lost counter data during the current interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - lostdata</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostdata/</guid>
+      <description>Not available
+Map: SMF113_1_CTR Based on: flags Description Not available
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - lostdata</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/lostdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/lostdata/</guid>
+      <description>When ON, the hardware indicated the hardware has lost counter data on during the current interval
+Map: SMF113_2_CTR Based on: cf Description When ON, the hardware indicated the hardware has lost counter data on during the current interval
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cf.</description>
+    </item>
+    
+    <item>
+      <title>Field - lostmtdata</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostmtdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/lostmtdata/</guid>
+      <description>When ON, the hardware indicated the hardware has lost MT counter data during the current interval
+Map: SMF113_1_CTR Based on: flags Description When ON, the hardware indicated the hardware has lost MT counter data during the current interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field flags.</description>
     </item>
     
     <item>
@@ -689,7 +795,7 @@ Map: SMF113_1_LCDS Based on: SMF113_1_LCR Description Event counter value delta.
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/machmodel/</guid>
       <description>The machine model
-Map: SMF113_1_CTR Based on: SMF113_1_MACHMODEL </description>
+Map: SMF113_1_CTR Based on: SMF113_1_MACHMODEL Description The machine model</description>
     </item>
     
     <item>
@@ -699,7 +805,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_MACHMODEL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/machmodel/</guid>
       <description>The machine model
-Map: SMF113_2_CTR Based on: SMF113_2_MACHMODEL </description>
+Map: SMF113_2_CTR Based on: SMF113_2_MACHMODEL Description The machine model</description>
     </item>
     
     <item>
@@ -709,7 +815,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_MACHMODEL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/machseqcode/</guid>
       <description>The machine sequence code
-Map: SMF113_1_CTR Based on: SMF113_1_MACHSEQCODE </description>
+Map: SMF113_1_CTR Based on: SMF113_1_MACHSEQCODE Description The machine sequence code</description>
     </item>
     
     <item>
@@ -719,7 +825,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_MACHSEQCODE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/machseqcode/</guid>
       <description>The machine sequence code
-Map: SMF113_2_CTR Based on: SMF113_2_MACHSEQCODE </description>
+Map: SMF113_2_CTR Based on: SMF113_2_MACHSEQCODE Description The machine sequence code</description>
     </item>
     
     <item>
@@ -729,7 +835,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_MACHSEQCODE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/machtype/</guid>
       <description>The machine type
-Map: SMF113_1_CTR Based on: SMF113_1_MACHTYPE </description>
+Map: SMF113_1_CTR Based on: SMF113_1_MACHTYPE Description The machine type</description>
     </item>
     
     <item>
@@ -739,7 +845,7 @@ Map: SMF113_1_CTR Based on: SMF113_1_MACHTYPE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/machtype/</guid>
       <description>The machine type
-Map: SMF113_2_CTR Based on: SMF113_2_MACHTYPE </description>
+Map: SMF113_2_CTR Based on: SMF113_2_MACHTYPE Description The machine type</description>
     </item>
     
     <item>
@@ -749,7 +855,7 @@ Map: SMF113_2_CTR Based on: SMF113_2_MACHTYPE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/osl/</guid>
       <description>MVS product level
-Map: SMF113SSS Based on: SMF113OSL </description>
+Map: SMF113SSS Based on: SMF113OSL Description MVS product level</description>
     </item>
     
     <item>
@@ -759,7 +865,7 @@ Map: SMF113SSS Based on: SMF113OSL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/osl/</guid>
       <description>MVS product level
-Map: SMF113SSS Based on: SMF113OSL </description>
+Map: SMF113SSS Based on: SMF113OSL Description MVS product level</description>
     </item>
     
     <item>
@@ -769,7 +875,7 @@ Map: SMF113SSS Based on: SMF113OSL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/pnm/</guid>
       <description>Product name - HIS
-Map: SMF113SSS Based on: SMF113PNM </description>
+Map: SMF113SSS Based on: SMF113PNM Description Product name - HIS</description>
     </item>
     
     <item>
@@ -779,7 +885,7 @@ Map: SMF113SSS Based on: SMF113PNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/pnm/</guid>
       <description>Product name - HIS
-Map: SMF113SSS Based on: SMF113PNM </description>
+Map: SMF113SSS Based on: SMF113PNM Description Product name - HIS</description>
     </item>
     
     <item>
@@ -789,7 +895,7 @@ Map: SMF113SSS Based on: SMF113PNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/rsd/</guid>
       <description>Reader start date
-Map: SMF113ID Based on: SMF113RSD </description>
+Map: SMF113ID Based on: SMF113RSD Description Reader start date</description>
     </item>
     
     <item>
@@ -799,7 +905,7 @@ Map: SMF113ID Based on: SMF113RSD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/rsd/</guid>
       <description>Reader start date
-Map: SMF113ID Based on: SMF113RSD </description>
+Map: SMF113ID Based on: SMF113RSD Description Reader start date</description>
     </item>
     
     <item>
@@ -809,7 +915,7 @@ Map: SMF113ID Based on: SMF113RSD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/rst/</guid>
       <description>Reader start time
-Map: SMF113ID Based on: SMF113RST </description>
+Map: SMF113ID Based on: SMF113RST Description Reader start time</description>
     </item>
     
     <item>
@@ -819,7 +925,7 @@ Map: SMF113ID Based on: SMF113RST </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/rst/</guid>
       <description>Reader start time
-Map: SMF113ID Based on: SMF113RST </description>
+Map: SMF113ID Based on: SMF113RST Description Reader start time</description>
     </item>
     
     <item>
@@ -829,7 +935,7 @@ Map: SMF113ID Based on: SMF113RST </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/rty/</guid>
       <description>Record type - 113 (&amp;lsquo;71&amp;rsquo;x)
-Record: SMF113S1 Based on: SMF113RTY </description>
+Record: SMF113S1 Based on: SMF113RTY Description Record type - 113 (&amp;lsquo;71&amp;rsquo;x)</description>
     </item>
     
     <item>
@@ -839,7 +945,7 @@ Record: SMF113S1 Based on: SMF113RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/rty/</guid>
       <description>Record type - 113 (&amp;lsquo;71&amp;rsquo;x)
-Record: SMF113S2 Based on: SMF113RTY </description>
+Record: SMF113S2 Based on: SMF113RTY Description Record type - 113 (&amp;lsquo;71&amp;rsquo;x)</description>
     </item>
     
     <item>
@@ -848,8 +954,8 @@ Record: SMF113S2 Based on: SMF113RTY </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/rvn/</guid>
-      <description>Record Version Number
-Map: SMF113SSS Based on: SMF113RVN </description>
+      <description>Record version number
+Map: SMF113SSS Based on: SMF113RVN Description Record version number</description>
     </item>
     
     <item>
@@ -858,8 +964,8 @@ Map: SMF113SSS Based on: SMF113RVN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/rvn/</guid>
-      <description>Record Version Number
-Map: SMF113SSS Based on: SMF113RVN </description>
+      <description>Record version number
+Map: SMF113SSS Based on: SMF113RVN Description Record version number</description>
     </item>
     
     <item>
@@ -869,7 +975,8 @@ Map: SMF113SSS Based on: SMF113RVN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sbt/</guid>
       <description>Bit 1 - Subtypes utilized
-Record: SMF113S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF113S1 Based on: flg Description Bit 1 - Subtypes utilized
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -879,7 +986,8 @@ Record: SMF113S1 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sbt/</guid>
       <description>Bit 1 - Subtypes utilized
-Record: SMF113S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF113S2 Based on: flg Description Bit 1 - Subtypes utilized
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -888,7 +996,7 @@ Record: SMF113S2 Based on: flg Post-Processed This virtual field corresponds to 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/scr/</guid>
-      <description>Event counter value delta. Contains the number of times a particular c&amp;hellip;
+      <description>Event counter value delta. Contains the number of times a particular counter event has occurred since either the start of the HIS collection run, or the previous SMF 113 Type 1 record.
 Map: SMF113_1_SCDS Based on: SMF113_1_SCR Description Event counter value delta. Contains the number of times a particular counter event has occurred since either the start of the HIS collection run, or the previous SMF 113 Type 1 record.</description>
     </item>
     
@@ -899,7 +1007,7 @@ Map: SMF113_1_SCDS Based on: SMF113_1_SCR Description Event counter value delta.
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sdl/</guid>
       <description>Length of self-defining section
-Record: SMF113S1 Based on: SMF113SDL </description>
+Record: SMF113S1 Based on: SMF113SDL Description Length of self-defining section</description>
     </item>
     
     <item>
@@ -909,7 +1017,7 @@ Record: SMF113S1 Based on: SMF113SDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sdl/</guid>
       <description>Length of self-defining section
-Record: SMF113S2 Based on: SMF113SDL </description>
+Record: SMF113S2 Based on: SMF113SDL Description Length of self-defining section</description>
     </item>
     
     <item>
@@ -919,7 +1027,7 @@ Record: SMF113S2 Based on: SMF113SDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/seg/</guid>
       <description>Segment descriptor
-Record: SMF113S1 Based on: SMF113SEG </description>
+Record: SMF113S1 Based on: SMF113SEG Description Segment descriptor</description>
     </item>
     
     <item>
@@ -929,7 +1037,7 @@ Record: SMF113S1 Based on: SMF113SEG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/seg/</guid>
       <description>Segment descriptor
-Record: SMF113S2 Based on: SMF113SEG </description>
+Record: SMF113S2 Based on: SMF113SEG Description Segment descriptor</description>
     </item>
     
     <item>
@@ -938,7 +1046,7 @@ Record: SMF113S2 Based on: SMF113SEG </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sid/</guid>
-      <description>System ID
+      <description>System identifier
 Record: SMF113S1 Based on: SMF113SID Description System identifier</description>
     </item>
     
@@ -948,7 +1056,7 @@ Record: SMF113S1 Based on: SMF113SID Description System identifier</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sid/</guid>
-      <description>System ID
+      <description>System identifier
 Record: SMF113S2 Based on: SMF113SID Description System identifier</description>
     </item>
     
@@ -959,7 +1067,7 @@ Record: SMF113S2 Based on: SMF113SID Description System identifier</description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sln/</guid>
       <description>Length of subsystem section
-Map: SMF113SDS Based on: SMF113SLN </description>
+Map: SMF113SDS Based on: SMF113SLN Description Length of subsystem section</description>
     </item>
     
     <item>
@@ -969,7 +1077,7 @@ Map: SMF113SDS Based on: SMF113SLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sln/</guid>
       <description>Length of subsystem section
-Map: SMF113SDS Based on: SMF113SLN </description>
+Map: SMF113SDS Based on: SMF113SLN Description Length of subsystem section</description>
     </item>
     
     <item>
@@ -979,7 +1087,7 @@ Map: SMF113SDS Based on: SMF113SLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sof/</guid>
       <description>Offset to subsystem section from beginning of record
-Map: SMF113SDS Based on: SMF113SOF </description>
+Map: SMF113SDS Based on: SMF113SOF Description Offset to subsystem section from beginning of record</description>
     </item>
     
     <item>
@@ -989,7 +1097,7 @@ Map: SMF113SDS Based on: SMF113SOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sof/</guid>
       <description>Offset to subsystem section from beginning of record
-Map: SMF113SDS Based on: SMF113SOF </description>
+Map: SMF113SDS Based on: SMF113SOF Description Offset to subsystem section from beginning of record</description>
     </item>
     
     <item>
@@ -999,7 +1107,7 @@ Map: SMF113SDS Based on: SMF113SOF </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/son/</guid>
       <description>Number of subsystem sections
-Map: SMF113SDS Based on: SMF113SON </description>
+Map: SMF113SDS Based on: SMF113SON Description Number of subsystem sections</description>
     </item>
     
     <item>
@@ -1009,7 +1117,7 @@ Map: SMF113SDS Based on: SMF113SON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/son/</guid>
       <description>Number of subsystem sections
-Map: SMF113SDS Based on: SMF113SON </description>
+Map: SMF113SDS Based on: SMF113SON Description Number of subsystem sections</description>
     </item>
     
     <item>
@@ -1019,7 +1127,8 @@ Map: SMF113SDS Based on: SMF113SON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/ssf/</guid>
       <description>Bit 0 - Subsys ID after Sys ID
-Record: SMF113S1 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF113S1 Based on: flg Description Bit 0 - Subsys ID after Sys ID
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -1029,7 +1138,8 @@ Record: SMF113S1 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/ssf/</guid>
       <description>Bit 0 - Subsys ID after Sys ID
-Record: SMF113S2 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF113S2 Based on: flg Description Bit 0 - Subsys ID after Sys ID
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -1039,7 +1149,7 @@ Record: SMF113S2 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/stp/</guid>
       <description>Step name
-Map: SMF113ID Based on: SMF113STP </description>
+Map: SMF113ID Based on: SMF113STP Description Step name</description>
     </item>
     
     <item>
@@ -1049,7 +1159,7 @@ Map: SMF113ID Based on: SMF113STP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/stp/</guid>
       <description>Step name
-Map: SMF113ID Based on: SMF113STP </description>
+Map: SMF113ID Based on: SMF113STP Description Step name</description>
     </item>
     
     <item>
@@ -1059,7 +1169,7 @@ Map: SMF113ID Based on: SMF113STP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/sty/</guid>
       <description>Record subtype: 1 = Delta event counters 2 = Hardware event counters
-Record: SMF113S1 Based on: SMF113STY </description>
+Record: SMF113S1 Based on: SMF113STY Description Record subtype: 1 = Delta event counters 2 = Hardware event counters</description>
     </item>
     
     <item>
@@ -1069,7 +1179,7 @@ Record: SMF113S1 Based on: SMF113STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/sty/</guid>
       <description>Record subtype: 1 = Delta event counters 2 = Hardware event counters
-Record: SMF113S2 Based on: SMF113STY </description>
+Record: SMF113S2 Based on: SMF113STY Description Record subtype: 1 = Delta event counters 2 = Hardware event counters</description>
     </item>
     
     <item>
@@ -1098,8 +1208,8 @@ Record: SMF113S2 Based on: SMF113TME </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/timestamp/</guid>
-      <description>Record Time Stamp
-Record: SMF113S1 Based on: time, date Description Timestamp from SMF data.
+      <description>Record Timestamp
+Record: SMF113S1 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
     </item>
     
@@ -1109,8 +1219,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/timestamp/</guid>
-      <description>Record Time Stamp
-Record: SMF113S2 Based on: time, date Description Timestamp from SMF data.
+      <description>Record Timestamp
+Record: SMF113S2 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
     </item>
     
@@ -1121,7 +1231,7 @@ Post-Processed This field is combined from a date and a time field to form a tim
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/tme/</guid>
       <description>Record written time
-Record: SMF113S1 Based on: SMF113TME </description>
+Record: SMF113S1 Based on: SMF113TME Description Record written time</description>
     </item>
     
     <item>
@@ -1131,7 +1241,7 @@ Record: SMF113S1 Based on: SMF113TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/tme/</guid>
       <description>Record written time
-Record: SMF113S2 Based on: SMF113TME </description>
+Record: SMF113S2 Based on: SMF113TME Description Record written time</description>
     </item>
     
     <item>
@@ -1141,7 +1251,7 @@ Record: SMF113S2 Based on: SMF113TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/wid/</guid>
       <description>Subsystem identifier
-Record: SMF113S1 Based on: SMF113WID </description>
+Record: SMF113S1 Based on: SMF113WID Description Subsystem identifier</description>
     </item>
     
     <item>
@@ -1151,7 +1261,29 @@ Record: SMF113S1 Based on: SMF113WID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/wid/</guid>
       <description>Subsystem identifier
-Record: SMF113S2 Based on: SMF113WID </description>
+Record: SMF113S2 Based on: SMF113WID Description Subsystem identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - zcbp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/zcbp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/zcbp/</guid>
+      <description>When ON, a value of 2 for SMF113_1_CpuProcClass refers to a zCBP processor type, when off a zAAP processor type.
+Map: SMF113_1_CTR Based on: flags Description When ON, a value of 2 for SMF113_1_CpuProcClass refers to a zCBP processor type, when off a zAAP processor type.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - zcbp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/zcbp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/zcbp/</guid>
+      <description>When ON, a value of 2 for SMF113_2_CpuProcClass refers to a zCBP processor type, when off a zAAP processor type.
+Map: SMF113_2_CTR Based on: cf Description When ON, a value of 2 for SMF113_2_CpuProcClass refers to a zCBP processor type, when off a zAAP processor type.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field cf.</description>
     </item>
     
   </channel>

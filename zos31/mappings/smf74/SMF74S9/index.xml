@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 74 Subtype  9 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/</link>
+    <description>Recent content in SMF 74 Subtype  9 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF74S9 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/date/</guid>
+      <description>Date of Record
+Record: SMF74S9 Based on: SMF74DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF74S9 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF74S9 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/fla/</guid>
+      <description>Flags
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control lower_service_level 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF74S9 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - function_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/function_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/function_pcie/</guid>
+      <description>Number of PCIE function type data sections
+Record: SMF74S9 Based on: SMF749DN Description Number of PCIE function type data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - global_performance</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/global_performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/global_performance/</guid>
+      <description>Global Performance Reporting is enabled
+Map: R749PF Based on: r749flag Description Global Performance Reporting is enabled
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r749flag.</description>
+    </item>
+    
+    <item>
+      <title>Field - higher_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/higher_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/higher_service_level/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - interval_smf_control</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/interval_smf_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/interval_smf_control/</guid>
+      <description>Interval was under SMF control
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/invalid_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S9 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - length_compression_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_compression_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_compression_hw_accelerator/</guid>
+      <description>Length of HW Accelerator compression data sections
+Record: SMF74S9 Based on: SMF7491L Description Length of HW Accelerator compression data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - length_function_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_function_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_function_pcie/</guid>
+      <description>Length of PCIE function type data section
+Record: SMF74S9 Based on: SMF749DL Description Length of PCIE function type data section</description>
+    </item>
+    
+    <item>
+      <title>Field - length_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_hw_accelerator/</guid>
+      <description>Length of HW Accelerator data section
+Record: SMF74S9 Based on: SMF749FL Description Length of HW Accelerator data section</description>
+    </item>
+    
+    <item>
+      <title>Field - length_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_pcie/</guid>
+      <description>Length of PCIE function data section
+Record: SMF74S9 Based on: SMF749PL Description Length of PCIE function data section</description>
+    </item>
+    
+    <item>
+      <title>Field - length_sync_io_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_sync_io_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_sync_io_link/</guid>
+      <description>Length of Synchronous I/O Link data section
+Record: SMF74S9 Based on: SMF749SL Description Length of Synchronous I/O Link data section</description>
+    </item>
+    
+    <item>
+      <title>Field - length_sync_io_rtd_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_sync_io_rtd_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/length_sync_io_rtd_link/</guid>
+      <description>Length of Synchronous I/O RTD data section
+Record: SMF74S9 Based on: SMF749RL Description Length of Synchronous I/O RTD data section</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - lower_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/lower_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/lower_service_level/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_compression_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_compression_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_compression_hw_accelerator/</guid>
+      <description>Offset to HW Accelerator compression data sections
+Record: SMF74S9 Based on: SMF7491O Description Offset to HW Accelerator compression data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_function_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_function_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_function_pcie/</guid>
+      <description>Offset to PCIE function type data sections
+Record: SMF74S9 Based on: SMF749DO Description Offset to PCIE function type data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_hw_accelerator/</guid>
+      <description>Offset to HW Accelerator data sections
+Record: SMF74S9 Based on: SMF749FO Description Offset to HW Accelerator data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_pcie/</guid>
+      <description>Offset to PCIE function data sections
+Record: SMF74S9 Based on: SMF749PO Description Offset to PCIE function data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_sync_io_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_sync_io_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_sync_io_link/</guid>
+      <description>Offset to Synchronous I/O Link data section
+Record: SMF74S9 Based on: SMF749SO Description Offset to Synchronous I/O Link data section</description>
+    </item>
+    
+    <item>
+      <title>Field - offset_sync_io_rtd_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_sync_io_rtd_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/offset_sync_io_rtd_link/</guid>
+      <description>Offset to Synchronous I/O RTD data section
+Record: SMF74S9 Based on: SMF749RO Description Offset to Synchronous I/O RTD data section</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF74S9 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pci_oper_rates_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pci_oper_rates_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pci_oper_rates_invalid/</guid>
+      <description>PCI operation rates are invalid
+Map: R749PF Based on: r749flag Description PCI operation rates are invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r749flag.</description>
+    </item>
+    
+    <item>
+      <title>Field - pcie_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pcie_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pcie_valid/</guid>
+      <description>PCIE function type R749PFT is valid
+Map: R749PF Based on: r749flag Description PCIE function type R749PFT is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r749flag.</description>
+    </item>
+    
+    <item>
+      <title>Field - pff1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pff1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pff1/</guid>
+      <description>Final PFID function status at the end of this reporting interval.
+Map: R749PF Based on: R749PFF1 Description Final PFID function status at the end of this reporting interval.
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description pfid_dealloc_interval_end 0 PFID is de-allocated at the end of this interval pfid_realloc_interval_end 1 PFID is re-allocated at the end of this interval </description>
+    </item>
+    
+    <item>
+      <title>Field - pffl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pffl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pffl/</guid>
+      <description>PFID function status merged over all MINTIME intervals for this reporting interval.
+Map: R749PF Based on: R749PFFL Description PFID function status merged over all MINTIME intervals for this reporting interval.
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description pfid_alloc 0 PFID was allocated during this interval pfid_dealloc 1 PFID was deallocate-pending during this interval pfid_err 2 PFID was in error during this interval </description>
+    </item>
+    
+    <item>
+      <title>Field - pfid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid/</guid>
+      <description>PCIE Function ID (PFID) for the PCIE function upon which performance data is returned.
+Map: R749PF Based on: R749PFID Description PCIE Function ID (PFID) for the PCIE function upon which performance data is returned.</description>
+    </item>
+    
+    <item>
+      <title>Field - pfid_alloc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_alloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_alloc/</guid>
+      <description>PFID was allocated during this interval
+Map: R749PF Based on: pffl Description PFID was allocated during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pffl.</description>
+    </item>
+    
+    <item>
+      <title>Field - pfid_dealloc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_dealloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_dealloc/</guid>
+      <description>PFID was deallocate-pending during this interval
+Map: R749PF Based on: pffl Description PFID was deallocate-pending during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pffl.</description>
+    </item>
+    
+    <item>
+      <title>Field - pfid_dealloc_interval_end</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_dealloc_interval_end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_dealloc_interval_end/</guid>
+      <description>PFID is de-allocated at the end of this interval
+Map: R749PF Based on: pff1 Description PFID is de-allocated at the end of this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pff1.</description>
+    </item>
+    
+    <item>
+      <title>Field - pfid_err</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_err/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_err/</guid>
+      <description>PFID was in error during this interval
+Map: R749PF Based on: pffl Description PFID was in error during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field pffl.</description>
+    </item>
+    
+    <item>
+      <title>Field - pfid_realloc_interval_end</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_realloc_interval_end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/pfid_realloc_interval_end/</guid>
+      <description>PFID is re-allocated at the end of this interval
+Map: R749PF Based on: pff1 Description PFID is re-allocated at the end of this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pff1.</description>
+    </item>
+    
+    <item>
+      <title>Field - physical_network</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/physical_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/physical_network/</guid>
+      <description>Physical-network identifiers R749NET1 and R749NET2 are valid
+Map: R749PF Based on: r749flag Description Physical-network identifiers R749NET1 and R749NET2 are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r749flag.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prd/</guid>
+      <description>Product name
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF74S9 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF74S9 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF74S9 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491bpc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491bpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491bpc/</guid>
+      <description>Size of memory in megabytes for in-use buffers.
+Map: R749HWA1 Based on: R7491BPC Description Size of memory in megabytes for in-use buffers.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491bps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491bps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491bps/</guid>
+      <description>Total size of memory in megabytes allocated to the buffer pool.
+Map: R749HWA1 Based on: R7491BPS Description Total size of memory in megabytes allocated to the buffer pool.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491dct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dct/</guid>
+      <description>Total number of deflate requests.
+Map: R749HWA1 Based on: R7491DCT Description Total number of deflate requests.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491dib</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dib/</guid>
+      <description>Total number of deflate input bytes.
+Map: R749HWA1 Based on: R7491DIB Description Total number of deflate input bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491dis</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dis/</guid>
+      <description>Sum of the squares of the individual deflate input bytes.
+Map: R749HWA1 Based on: R7491DIS Description Sum of the squares of the individual deflate input bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491dob</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dob/</guid>
+      <description>Total number of deflate output bytes.
+Map: R749HWA1 Based on: R7491DOB Description Total number of deflate output bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491dos</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491dos/</guid>
+      <description>Sum of the squares of the individual deflate output bytes.
+Map: R749HWA1 Based on: R7491DOS Description Sum of the squares of the individual deflate output bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491ict</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491ict/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491ict/</guid>
+      <description>Total number of inflate requests.
+Map: R749HWA1 Based on: R7491ICT Description Total number of inflate requests.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491iib</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iib/</guid>
+      <description>Total number of inflate input bytes.
+Map: R749HWA1 Based on: R7491IIB Description Total number of inflate input bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491iis</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iis/</guid>
+      <description>Sum of the squares of the individual inflate input bytes.
+Map: R749HWA1 Based on: R7491IIS Description Sum of the squares of the individual inflate input bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491iob</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491iob/</guid>
+      <description>Total number of inflate output bytes.
+Map: R749HWA1 Based on: R7491IOB Description Total number of inflate output bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7491ios</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r7491ios/</guid>
+      <description>Sum of the squares of the individual inflate output bytes.
+Map: R749HWA1 Based on: R7491IOS Description Sum of the squares of the individual inflate output bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749allt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749allt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749allt/</guid>
+      <description>Amount of time in milliseconds for which the PCIE function was allocated or de-allocate- pending.
+Map: R749PF Based on: R749ALLT Description Amount of time in milliseconds for which the PCIE function was allocated or de-allocate- pending.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749asid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749asid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749asid/</guid>
+      <description>Address space ID of owner who allocated the PCIE function.
+Map: R749PF Based on: R749ASID Description Address space ID of owner who allocated the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749atst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749atst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749atst/</guid>
+      <description>Timestamp showing the last point in time when a PCIE function was allocated.
+Map: R749PF Based on: R749ATST Description Timestamp showing the last point in time when a PCIE function was allocated.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dbyr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyr/</guid>
+      <description>Number of bytes received on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.
+Map: R749DMA Based on: R749DBYR Description Number of bytes received on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dbyt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyt/</guid>
+      <description>Number of bytes transmitted on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.
+Map: R749DMA Based on: R749DBYT Description Number of bytes transmitted on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dbyx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dbyx/</guid>
+      <description>Number of bytes transmitted by the PCI function. Valid for PCIE function type = x&#39;03&#39;.
+Map: R749DMA Based on: R749DBYX Description Number of bytes transmitted by the PCI function. Valid for PCIE function type = x&#39;03&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749devn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749devn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749devn/</guid>
+      <description>Device name for the PCIE function.
+Map: R749PF Based on: R749DEVN Description Device name for the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749devt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749devt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749devt/</guid>
+      <description>Device type for the PCIE function.
+Map: R749PF Based on: R749DEVT Description Device type for the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dfmt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dfmt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dfmt/</guid>
+      <description>Format of PCIE Function Type data
+Map: R749DMA Based on: R749DFMT Description Format of PCIE Function Type data</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dman</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dman/</guid>
+      <description>Count of PCIE Function Type data blocks allocated for this PCIE function data section.
+Map: R749PF Based on: R749DMAN Description Count of PCIE Function Type data blocks allocated for this PCIE function data section.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dmao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmao/</guid>
+      <description>The PCIE Function Type data blocks for the PCIE functions are grouped together in the record. To get to the PCIE Function Type data block associated with this PCIE function data section, skip over the number of Function Type data blocks specified by this field, starting at the first PCIE Function Type data block in the record.
+Map: R749PF Based on: R749DMAO Description The PCIE Function Type data blocks for the PCIE functions are grouped together in the record.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dmar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmar/</guid>
+      <description>DMA read counter that reports the number of bytes transferred from all defined DMA address spaces to the PCIE function. Valid for PCIE function type = x&#39;00&#39;.
+Map: R749DMA Based on: R749DMAR Description DMA read counter that reports the number of bytes transferred from all defined DMA address spaces to the PCIE function. Valid for PCIE function type = x&#39;00&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dmaw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmaw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dmaw/</guid>
+      <description>DMA write counter that reports the number of bytes transferred from the PCIE function to all defined DMA address spaces. Valid for PCIE function type = x&#39;00&#39;.
+Map: R749DMA Based on: R749DMAW Description DMA write counter that reports the number of bytes transferred from the PCIE function to all defined DMA address spaces. Valid for PCIE function type = x&#39;00&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dpkr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dpkr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dpkr/</guid>
+      <description>Number of packets received on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.
+Map: R749DMA Based on: R749DPKR Description Number of packets received on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dpkt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dpkt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dpkt/</guid>
+      <description>Number of packets transmitted on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.
+Map: R749DMA Based on: R749DPKT Description Number of packets transmitted on the external Ethernet interface. Valid for PCIE function type = x&#39;01&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dwum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dwum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dwum/</guid>
+      <description>Maximum number of work units that the PCI function is capable of processing per second. Valid for PCIE function type = x&#39;02&#39;.
+Map: R749DMA Based on: R749DWUM Description Maximum number of work units that the PCI function is capable of processing per second. Valid for PCIE function type = x&#39;02&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749dwup</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dwup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749dwup/</guid>
+      <description>Number of work units processed by the PCI function. Valid for PCIE function type = x&#39;02&#39;.
+Map: R749DMA Based on: R749DWUP Description Number of work units processed by the PCI function. Valid for PCIE function type = x&#39;02&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749errt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749errt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749errt/</guid>
+      <description>Amount of time in milliseconds for which no valid data was reported for the PCIE function within this reporting interval.
+Map: R749PF Based on: R749ERRT Description Amount of time in milliseconds for which no valid data was reported for the PCIE function within this reporting interval.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fdrd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdrd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdrd/</guid>
+      <description>Total DMA reads in units of 256 bytes.
+Map: R749HWA Based on: R749FDRD Description Total DMA reads in units of 256 bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fdsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdsc/</guid>
+      <description>HW Accelerator application description
+Map: R749HWA Based on: R749FDSC Description HW Accelerator application description</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fdwr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdwr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fdwr/</guid>
+      <description>Total DMA writes in units of 256 bytes.
+Map: R749HWA Based on: R749FDWR Description Total DMA writes in units of 256 bytes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749flag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749flag/</guid>
+      <description>Validity flag
+Map: R749PF Based on: R749FLAG Description Validity flag
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description physical_network 0 Physical-network identifiers R749NET1 and R749NET2 are valid pcie_valid 1 PCIE function type R749PFT is valid pci_oper_rates_invalid 2 PCI operation rates are invalid global_performance 3 Global Performance Reporting is enabled </description>
+    </item>
+    
+    <item>
+      <title>Field - r749fp1n</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fp1n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fp1n/</guid>
+      <description>Count of HW Accelerator compression data blocks allocated for this PCIE function data section.
+Map: R749PF Based on: R749FP1N Description Count of HW Accelerator compression data blocks allocated for this PCIE function data section.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fp1o</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fp1o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fp1o/</guid>
+      <description>The data blocks for all HW Accelerators used for compression acceleration are grouped together in the record. To get to the HW Accelerator compression data block associated with this PCIE function data section, skip over the number of compression data blocks specified by this field, starting at the first HW Accelerator compression data block in the record.
+Map: R749PF Based on: R749FP1O Description The data blocks for all HW Accelerators used for compression acceleration are grouped together in the record.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fpfn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fpfn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fpfn/</guid>
+      <description>Count of HW Accelerator data blocks allocated for this PCIE function data section.
+Map: R749PF Based on: R749FPFN Description Count of HW Accelerator data blocks allocated for this PCIE function data section.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fpfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fpfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fpfo/</guid>
+      <description>The data blocks for all HW Accelerators are grouped together in the record. To get to the HW Accelerator data block associated with this PCIE function data section, skip over the number of HW Accelerator data blocks specified by this field, starting at the first HW Accelerator data block in the record.
+Map: R749PF Based on: R749FPFO Description The data blocks for all HW Accelerators are grouped together in the record.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fqfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fqfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fqfl/</guid>
+      <description>Number of times that the adapter queue was full when a new request was submitted.
+Map: R749HWA Based on: R749FQFL Description Number of times that the adapter queue was full when a new request was submitted.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749frqc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749frqc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749frqc/</guid>
+      <description>Total number of HW Accelerator requests that completed successfully.
+Map: R749HWA Based on: R749FRQC Description Total number of HW Accelerator requests that completed successfully.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749frqe</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749frqe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749frqe/</guid>
+      <description>Total number of HW Accelerator requests that completed with an error. Statistics for these requests are not included in the other fields of this data section.
+Map: R749HWA Based on: R749FRQE Description Total number of HW Accelerator requests that completed with an error. Statistics for these requests are not included in the other fields of this data section.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fsqe</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fsqe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fsqe/</guid>
+      <description>Sum of the squares of the individual execution times.
+Map: R749HWA Based on: R749FSQE Description Sum of the squares of the individual execution times.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749fsqq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fsqq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749fsqq/</guid>
+      <description>Sum of the squares of the individual queue times.
+Map: R749HWA Based on: R749FSQQ Description Sum of the squares of the individual queue times.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749ftet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftet/</guid>
+      <description>Total execution time of all requests in microseconds.
+Map: R749HWA Based on: R749FTET Description Total execution time of all requests in microseconds.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749ftqt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftqt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftqt/</guid>
+      <description>Total queue time of all requests in microseconds.
+Map: R749HWA Based on: R749FTQT Description Total queue time of all requests in microseconds.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749ftyp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ftyp/</guid>
+      <description>HW Accelerator application type
+Map: R749HWA Based on: R749FTYP Description HW Accelerator application type</description>
+    </item>
+    
+    <item>
+      <title>Field - r749jobn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749jobn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749jobn/</guid>
+      <description>Job name of owner who allocated the PCIE function.
+Map: R749PF Based on: R749JOBN Description Job name of owner who allocated the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749lkid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749lkid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749lkid/</guid>
+      <description>Synchronous I/O link identifier of the control unit interface
+Map: R749PF Based on: R749LKID Description Synchronous I/O link identifier of the control unit interface</description>
+    </item>
+    
+    <item>
+      <title>Field - r749loop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749loop/</guid>
+      <description>Count of PCI Load operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.
+Map: R749PF Based on: R749LOOP Description Count of PCI Load operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749net1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749net1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749net1/</guid>
+      <description>Physical-network identifier (PNET ID) that identifies the first port of the adapter. This field is only valid when the PCIE device type is defined as RoCE Express or ISM.
+Map: R749PF Based on: R749NET1 Description Physical-network identifier (PNET ID) that identifies the first port of the adapter. This field is only valid when the PCIE device type is defined as RoCE Express or ISM.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749net2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749net2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749net2/</guid>
+      <description>Physical-network identifier (PNET ID) that identifies the second port of the adapter. Only valid when the PCIE device type is defined as RoCE Express
+Map: R749PF Based on: R749NET2 Description Physical-network identifier (PNET ID) that identifies the second port of the adapter. Only valid when the PCIE device type is defined as RoCE Express</description>
+    </item>
+    
+    <item>
+      <title>Field - r749pcid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749pcid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749pcid/</guid>
+      <description>Physical or virtual channel identifier for the PCIE function.
+Map: R749PF Based on: R749PCID Description Physical or virtual channel identifier for the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749pft</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749pft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749pft/</guid>
+      <description>PCIE function type
+Map: R749PF Based on: R749PFT Description PCIE function type</description>
+    </item>
+    
+    <item>
+      <title>Field - r749port</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749port/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749port/</guid>
+      <description>Physical port number for which this PCIE function is associated. If zero, then either the port field is not applicable, or there is more than one port associated with the PCIE function.
+Map: R749PF Based on: R749PORT Description Physical port number for which this PCIE function is associated. If zero, then either the port field is not applicable, or there is more than one port associated with the PCIE function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749rflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rflg/</guid>
+      <description>RTD Flag
+Map: R749SRTD Based on: R749RFLG Description RTD Flag
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description response_time_for_sync_io_read 0 ON: Response time data measured for synchronous I/O read instructions response_time_for_sync_io_write 1 ON: Response time data measured for synchronous I/O write instructions </description>
+    </item>
+    
+    <item>
+      <title>Field - r749rfop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rfop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rfop/</guid>
+      <description>Count of PCI Refresh translation operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.
+Map: R749PF Based on: R749RFOP Description Count of PCI Refresh translation operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749rtdn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtdn/</guid>
+      <description>Count of Synchronous I/O response time distribution data blocks allocated for this PCIE Function data section.
+Map: R749PF Based on: R749RTDN Description Count of Synchronous I/O response time distribution data blocks allocated for this PCIE Function data section.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749rtdo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtdo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtdo/</guid>
+      <description>The data blocks for all Synchronous I/O response time distribution buckets are grouped together in the record. To get the first Synchronous I/O response time distribution data block associated with this PCIE Function data section, skip over the number of data blocks specified by this field, starting at the first Synchronous I/O response time distribution data block in the record.
+Map: R749PF Based on: R749RTDO Description The data blocks for all Synchronous I/O response time distribution buckets are grouped together in the record.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749rtrv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtrv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtrv/</guid>
+      <description>Response time distribution bucket range value. The range value of the first read and the first write bucket of a Synchronous I/O link represents response times less than the range value. For example, if the read range value is 10, then this bucket represents response times less than 10 microseconds. The range value of the remaining buckets represents response times less than this range value and greater than or equal to the prior range value.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749rtsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749rtsc/</guid>
+      <description>Response time distribution sample count.
+Map: R749SRTD Based on: R749RTSC Description Response time distribution sample count.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sbop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sbop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sbop/</guid>
+      <description>Count of PCI Store Block operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.
+Map: R749PF Based on: R749SBOP Description Count of PCI Store Block operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749scnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749scnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749scnt/</guid>
+      <description>Sequence number for the last time the PCI counters have been updated by the firmware
+Map: R749PF Based on: R749SCNT Description Sequence number for the last time the PCI counters have been updated by the firmware</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sion</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sion/</guid>
+      <description>Count of Synchronous I/O link data blocks allocated for this PCIE Function data section
+Map: R749PF Based on: R749SION Description Count of Synchronous I/O link data blocks allocated for this PCIE Function data section</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sioo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sioo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sioo/</guid>
+      <description>The data blocks for all Synchronous I/O links are grouped together in the record. To get the Synchronous I/O link data block associated with this PCIE Function data section, skip over the number of data blocks specified by this field, starting at the first Synchronous I/O link data block in the record.
+Map: R749PF Based on: R749SIOO Description The data blocks for all Synchronous I/O links are grouped together in the record.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749slrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749slrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749slrc/</guid>
+      <description>Number of local rejects of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set
+Map: R749DMA Based on: R749SLRC Description Number of local rejects of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r749slrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749slrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749slrf/</guid>
+      <description>Number of times the command was rejected by the processor (local rejects) for this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.
+Map: R749DMA Based on: R749SLRF Description Number of times the command was rejected by the processor (local rejects) for this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sndm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndm/</guid>
+      <description>Model number
+Map: R749SYNC Based on: R749SNDM Description Model number</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sndn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndn/</guid>
+      <description>Manufacturer
+Map: R749SYNC Based on: R749SNDN Description Manufacturer</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sndp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndp/</guid>
+      <description>Plant of Manufacture
+Map: R749SYNC Based on: R749SNDP Description Plant of Manufacture</description>
+    </item>
+    
+    <item>
+      <title>Field - r749snds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749snds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749snds/</guid>
+      <description>Sequence number
+Map: R749SYNC Based on: R749SNDS Description Sequence number</description>
+    </item>
+    
+    <item>
+      <title>Field - r749sndt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749sndt/</guid>
+      <description>Type number
+Map: R749SYNC Based on: R749SNDT Description Type number</description>
+    </item>
+    
+    <item>
+      <title>Field - r749srbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srbc/</guid>
+      <description>Number of bytes read by all syn chronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.
+Map: R749DMA Based on: R749SRBC Description Number of bytes read by all syn chronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749srbf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srbf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srbf/</guid>
+      <description>Number of bytes read by this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.
+Map: R749DMA Based on: R749SRBF Description Number of bytes read by this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749srrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srrc/</guid>
+      <description>Number of remote rejects of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.
+Map: R749DMA Based on: R749SRRC Description Number of remote rejects of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749srrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749srrf/</guid>
+      <description>Number of times the command was rejected by the storage controller (remote rejects)for this synchronous I/O function.
+Map: R749DMA Based on: R749SRRF Description Number of times the command was rejected by the storage controller (remote rejects)for this synchronous I/O function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749ssrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ssrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ssrc/</guid>
+      <description>Number of requests successfully processed by all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.
+Map: R749DMA Based on: R749SSRC Description Number of requests successfully processed by all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749ssrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ssrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749ssrf/</guid>
+      <description>Number of successful requests for this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.
+Map: R749DMA Based on: R749SSRF Description Number of successful requests for this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749stop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stop/</guid>
+      <description>Count of PCI Store operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.
+Map: R749PF Based on: R749STOP Description Count of PCI Store operations for the PCIE function. Only valid, if bit 2 of R749FLAG is not set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749stpc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stpc/</guid>
+      <description>Total processing time in micro seconds of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.
+Map: R749DMA Based on: R749STPC Description Total processing time in micro seconds of all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid, if bit 2 of R749FLAG is set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749stpf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stpf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749stpf/</guid>
+      <description>Total processing time in micro seconds for this synchronous I/O function.
+Map: R749DMA Based on: R749STPF Description Total processing time in micro seconds for this synchronous I/O function.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749swbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749swbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749swbc/</guid>
+      <description>Number of bytes written by all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid,if bit 2 of R749FLAG is set.
+Map: R749DMA Based on: R749SWBC Description Number of bytes written by all synchronous I/O functions that are using this synchronous I/O link on this CEC. Only valid,if bit 2 of R749FLAG is set.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749swbf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749swbf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749swbf/</guid>
+      <description>Number of bytes written by this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.
+Map: R749DMA Based on: R749SWBF Description Number of bytes written by this synchronous I/O function. Valid for PCIE function type = x&#39;04&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Field - r749wwnn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749wwnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/r749wwnn/</guid>
+      <description>Worldwide node name (WWNN) of the storage controller the synchronous I/O link is connected to.
+Map: R749PF Based on: R749WWNN Description Worldwide node name (WWNN) of the storage controller the synchronous I/O link is connected to.</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - response_time_for_sync_io_read</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/response_time_for_sync_io_read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/response_time_for_sync_io_read/</guid>
+      <description>ON: Response time data measured for synchronous I/O read instructions
+Map: R749SRTD Based on: r749rflg Description ON: Response time data measured for synchronous I/O read instructions
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r749rflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - response_time_for_sync_io_write</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/response_time_for_sync_io_write/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/response_time_for_sync_io_write/</guid>
+      <description>ON: Response time data measured for synchronous I/O write instructions
+Map: R749SRTD Based on: r749rflg Description ON: Response time data measured for synchronous I/O write instructions
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r749rflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF74S9 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF74S9 Based on: SMF74RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - sections_compression_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_compression_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_compression_hw_accelerator/</guid>
+      <description>Number of HW Accelerator compression data sections
+Record: SMF74S9 Based on: SMF7491N Description Number of HW Accelerator compression data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - sections_hw_accelerator</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_hw_accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_hw_accelerator/</guid>
+      <description>Number of HW Accelerator data sections
+Record: SMF74S9 Based on: SMF749FN Description Number of HW Accelerator data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - sections_pcie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_pcie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_pcie/</guid>
+      <description>Number of PCIE function data sections
+Record: SMF74S9 Based on: SMF749PN Description Number of PCIE function data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - sections_sync_io_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_sync_io_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_sync_io_link/</guid>
+      <description>Number of Synchronous I/O Link data section
+Record: SMF74S9 Based on: SMF749SN Description Number of Synchronous I/O Link data section</description>
+    </item>
+    
+    <item>
+      <title>Field - sections_sync_io_rtd_link</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_sync_io_rtd_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sections_sync_io_rtd_link/</guid>
+      <description>Number of Synchronous I/O RTD data sections
+Record: SMF74S9 Based on: SMF749RN Description Number of Synchronous I/O RTD data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF74S9 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF74S9 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - speed_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/speed_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/speed_boost/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF74S9 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF74S9 Based on: SMF74STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF74S9 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/time/</guid>
+      <description>Time of Record
+Record: SMF74S9 Based on: SMF74TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF74S9 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S9 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF74S9 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF74S9 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF74S9 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/zaap_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/zaap_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ziip_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ziip_boost/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S9/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+  </channel>
+</rss>

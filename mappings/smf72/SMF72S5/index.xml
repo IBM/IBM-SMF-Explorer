@@ -6,13 +6,25 @@
     <description>Recent content in SMF 72 Subtype  5 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF72PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - arch_mode</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/arch_mode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/arch_mode/</guid>
       <description>System in z/ARCH mode
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -22,7 +34,8 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/bfy/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+Record: SMF72S5 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
     </item>
     
     <item>
@@ -31,8 +44,9 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/boost_class/</guid>
-      <description>Boost class: 001 IPL, 010 Shutdown, 011 Recovery Process, Default: Unknown
-Map: SMF72PRO Based on: fla Post-Processed Flags postprocessor for multiple bit mapping.</description>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
     </item>
     
     <item>
@@ -42,7 +56,7 @@ Map: SMF72PRO Based on: fla Post-Processed Flags postprocessor for multiple bit 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cml/</guid>
       <description>Length of CMS lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72CML </description>
+Record: SMF72S5 Based on: SMF72CML Description Length of CMS lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -52,7 +66,7 @@ Record: SMF72S5 Based on: SMF72CML </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cmn/</guid>
       <description>Number of CMS lock data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72CMN </description>
+Record: SMF72S5 Based on: SMF72CMN Description Number of CMS lock data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -62,7 +76,7 @@ Record: SMF72S5 Based on: SMF72CMN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cms/</guid>
       <description>Offset to CMS lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72CMS </description>
+Record: SMF72S5 Based on: SMF72CMS Description Offset to CMS lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -72,7 +86,8 @@ Record: SMF72S5 Based on: SMF72CMS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cnv/</guid>
       <description>Data converted from version 2
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+Map: SMF72PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
     </item>
     
     <item>
@@ -82,7 +97,7 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/col/</guid>
       <description>Length of CML Lock Owner data section (subtype 5)
-Record: SMF72S5 Based on: SMF72COL </description>
+Record: SMF72S5 Based on: SMF72COL Description Length of CML Lock Owner data section (subtype 5)</description>
     </item>
     
     <item>
@@ -92,7 +107,7 @@ Record: SMF72S5 Based on: SMF72COL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/con/</guid>
       <description>Number of CML Lock Owner data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72CON </description>
+Record: SMF72S5 Based on: SMF72CON Description Number of CML Lock Owner data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -102,7 +117,7 @@ Record: SMF72S5 Based on: SMF72CON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cos/</guid>
       <description>Offset to CML Lock Owner data section (subtype 5)
-Record: SMF72S5 Based on: SMF72COS </description>
+Record: SMF72S5 Based on: SMF72COS Description Offset to CML Lock Owner data section (subtype 5)</description>
     </item>
     
     <item>
@@ -112,7 +127,7 @@ Record: SMF72S5 Based on: SMF72COS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/crl/</guid>
       <description>Length of CML Lock Requestor data section (subtype 5)
-Record: SMF72S5 Based on: SMF72CRL </description>
+Record: SMF72S5 Based on: SMF72CRL Description Length of CML Lock Requestor data section (subtype 5)</description>
     </item>
     
     <item>
@@ -122,7 +137,7 @@ Record: SMF72S5 Based on: SMF72CRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/crn/</guid>
       <description>Number of CML Lock Requestor data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72CRN </description>
+Record: SMF72S5 Based on: SMF72CRN Description Number of CML Lock Requestor data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -132,7 +147,7 @@ Record: SMF72S5 Based on: SMF72CRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/crs/</guid>
       <description>Offset to CML Lock Requestor data section (subtype 5)
-Record: SMF72S5 Based on: SMF72CRS </description>
+Record: SMF72S5 Based on: SMF72CRS Description Offset to CML Lock Requestor data section (subtype 5)</description>
     </item>
     
     <item>
@@ -141,8 +156,8 @@ Record: SMF72S5 Based on: SMF72CRS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/cyc/</guid>
-      <description>Sampling cycle length 000TTTTF
-Map: SMF72PRO Based on: SMF72CYC </description>
+      <description>Sampling cycle length
+Map: SMF72PRO Based on: SMF72CYC Description Sampling cycle length</description>
     </item>
     
     <item>
@@ -151,8 +166,8 @@ Map: SMF72PRO Based on: SMF72CYC </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/dat/</guid>
-      <description>Date monitor interval start: 00YYDDDF
-Map: SMF72PRO Based on: SMF72DAT </description>
+      <description>Date monitor interval start
+Map: SMF72PRO Based on: SMF72DAT Description Date monitor interval start</description>
     </item>
     
     <item>
@@ -162,7 +177,8 @@ Map: SMF72PRO Based on: SMF72DAT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/dat_facility1/</guid>
       <description>Enhanced DAT facility 1
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -172,7 +188,8 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/dat_facility2/</guid>
       <description>Enhanced DAT facility 2
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
     </item>
     
     <item>
@@ -192,7 +209,7 @@ Record: SMF72S5 Based on: SMF72DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
-Record: SMF72S5 Based on: SMF72DTE </description>
+Record: SMF72S5 Based on: SMF72DTE Description DATE RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -202,7 +219,7 @@ Record: SMF72S5 Based on: SMF72DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/edl/</guid>
       <description>Length of CMS EnqueueDequeue lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72EDL </description>
+Record: SMF72S5 Based on: SMF72EDL Description Length of CMS EnqueueDequeue lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -212,7 +229,7 @@ Record: SMF72S5 Based on: SMF72EDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/edn/</guid>
       <description>Number of CMS EnqueueDequeue lock data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72EDN </description>
+Record: SMF72S5 Based on: SMF72EDN Description Number of CMS EnqueueDequeue lock data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -222,7 +239,7 @@ Record: SMF72S5 Based on: SMF72EDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/eds/</guid>
       <description>Offset to CMS EnqueueDequeue lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72EDS </description>
+Record: SMF72S5 Based on: SMF72EDS Description Offset to CMS EnqueueDequeue lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -232,7 +249,8 @@ Record: SMF72S5 Based on: SMF72EDS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/eed/</guid>
       <description>Speed boost was active during entire interval
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+Map: SMF72PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
     </item>
     
     <item>
@@ -242,7 +260,8 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/esa/</guid>
       <description>MVS/ESA IF ON
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+Record: SMF72S5 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
     </item>
     
     <item>
@@ -252,7 +271,8 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/escon_ch/</guid>
       <description>Equipped with ESCON channel
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -262,7 +282,8 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/escon_dir/</guid>
       <description>ESCON Director in configuration
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
     </item>
     
     <item>
@@ -272,7 +293,8 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/expanded_stor/</guid>
       <description>System has expanded storage
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -282,8 +304,9 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/fla/</guid>
       <description>Flags
-Map: SMF72PRO Based on: SMF72FLA Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description eed 10 Speed boost was active during entire interval iip 9 zIIP boost was active during entire interval interval_smf_control 3 Interval was under SMF control m3r 2 Record was written by RMF Monitor III invalid_samples 1 Invalid samples to be skipped cnv 0 Data converted from version 2 </description>
+Map: SMF72PRO Based on: SMF72FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
     </item>
     
     <item>
@@ -293,8 +316,9 @@ Field Bit-Position Description eed 10 Speed boost was active during entire inter
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
-Record: SMF72S5 Based on: SMF72FLG Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description bfy 7 SYSTEM RUNNING IN PR/SM MODE os 6 OPERATING SYSTEM IS OS/VS2 vxa 5 MVS/XA IF ON esa 4 MVS/ESA IF ON v4 3 MVS/ESA V4 IF ON subtypes_used 1 SUBTYPES USED new_record 0 NEW RECORD FORMAT </description>
+Record: SMF72S5 Based on: SMF72FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description new_record 0 NEW RECORD FORMAT subtypes_used 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
     </item>
     
     <item>
@@ -303,8 +327,8 @@ Field Bit-Position Description bfy 7 SYSTEM RUNNING IN PR/SM MODE os 6 OPERATING
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/gie/</guid>
-      <description>Projected gathering interval end GMT time (STCK format)
-Map: SMF72PRO Based on: SMF72GIE </description>
+      <description>Projected gathering interval end GMT time
+Map: SMF72PRO Based on: SMF72GIE Description Projected gathering interval end GMT time</description>
     </item>
     
     <item>
@@ -314,7 +338,7 @@ Map: SMF72PRO Based on: SMF72GIE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/iet/</guid>
       <description>Interval expiration time token
-Map: SMF72PRO Based on: SMF72IET </description>
+Map: SMF72PRO Based on: SMF72IET Description Interval expiration time token</description>
     </item>
     
     <item>
@@ -324,7 +348,8 @@ Map: SMF72PRO Based on: SMF72IET </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/iip/</guid>
       <description>zIIP boost was active during entire interval
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+Map: SMF72PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
     </item>
     
     <item>
@@ -333,7 +358,7 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/iml/</guid>
-      <description>Indicates the type of processor complex on which data measurements wer&amp;hellip;
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
 Map: SMF72PRO Based on: SMF72IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
     </item>
     
@@ -343,8 +368,8 @@ Map: SMF72PRO Based on: SMF72IML Description Indicates the type of processor com
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/interval/</guid>
-      <description>Duration of monitor interval: MMSSTTTF
-Map: SMF72PRO Based on: SMF72INT </description>
+      <description>Duration of monitor interval
+Map: SMF72PRO Based on: SMF72INT Description Duration of monitor interval</description>
     </item>
     
     <item>
@@ -365,7 +390,8 @@ return interval.total_seconds() * 1e3 </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/interval_smf_control/</guid>
       <description>Interval was under SMF control
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
     </item>
     
     <item>
@@ -375,7 +401,8 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/invalid_samples/</guid>
       <description>Invalid samples to be skipped
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -384,8 +411,8 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ist/</guid>
-      <description>TOD monitor interval start: 0HHMMSSF
-Map: SMF72PRO Based on: SMF72IST </description>
+      <description>Time monitor interval start
+Map: SMF72PRO Based on: SMF72IST Description Time monitor interval start</description>
     </item>
     
     <item>
@@ -395,7 +422,7 @@ Map: SMF72PRO Based on: SMF72IST </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lal/</guid>
       <description>Length of CMS Latch lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LAL </description>
+Record: SMF72S5 Based on: SMF72LAL Description Length of CMS Latch lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -405,7 +432,7 @@ Record: SMF72S5 Based on: SMF72LAL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lan/</guid>
       <description>Number of CMS Latch lock data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72LAN </description>
+Record: SMF72S5 Based on: SMF72LAN Description Number of CMS Latch lock data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -415,7 +442,7 @@ Record: SMF72S5 Based on: SMF72LAN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/las/</guid>
       <description>Offset to CMS Latch lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LAS </description>
+Record: SMF72S5 Based on: SMF72LAS Description Offset to CMS Latch lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -425,7 +452,7 @@ Record: SMF72S5 Based on: SMF72LAS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lcl/</guid>
       <description>Length of Latch Creator data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LCL </description>
+Record: SMF72S5 Based on: SMF72LCL Description Length of Latch Creator data section (subtype 5)</description>
     </item>
     
     <item>
@@ -435,7 +462,7 @@ Record: SMF72S5 Based on: SMF72LCL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lcn/</guid>
       <description>Number of Latch Creator data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72LCN </description>
+Record: SMF72S5 Based on: SMF72LCN Description Number of Latch Creator data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -445,7 +472,7 @@ Record: SMF72S5 Based on: SMF72LCN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lcs/</guid>
       <description>Offset to Latch Creator data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LCS </description>
+Record: SMF72S5 Based on: SMF72LCS Description Offset to Latch Creator data section (subtype 5)</description>
     </item>
     
     <item>
@@ -454,8 +481,8 @@ Record: SMF72S5 Based on: SMF72LCS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/len/</guid>
-      <description>SMF RECORD LENGTH
-Record: SMF72S5 Based on: SMF72LEN </description>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF72S5 Based on: SMF72LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
@@ -465,7 +492,7 @@ Record: SMF72S5 Based on: SMF72LEN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lgo/</guid>
       <description>Offset GMT to local time
-Map: SMF72PRO Based on: SMF72LGO </description>
+Map: SMF72PRO Based on: SMF72LGO Description Offset GMT to local time</description>
     </item>
     
     <item>
@@ -475,7 +502,7 @@ Map: SMF72PRO Based on: SMF72LGO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lol/</guid>
       <description>Length of Local lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LOL </description>
+Record: SMF72S5 Based on: SMF72LOL Description Length of Local lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -485,7 +512,7 @@ Record: SMF72S5 Based on: SMF72LOL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lon/</guid>
       <description>Number of Local lock data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72LON </description>
+Record: SMF72S5 Based on: SMF72LON Description Number of Local lock data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -495,7 +522,7 @@ Record: SMF72S5 Based on: SMF72LON </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/los/</guid>
       <description>Offset to Local lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LOS </description>
+Record: SMF72S5 Based on: SMF72LOS Description Offset to Local lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -505,7 +532,7 @@ Record: SMF72S5 Based on: SMF72LOS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lrl/</guid>
       <description>Length of Latch Requestor data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LRL </description>
+Record: SMF72S5 Based on: SMF72LRL Description Length of Latch Requestor data section (subtype 5)</description>
     </item>
     
     <item>
@@ -515,7 +542,7 @@ Record: SMF72S5 Based on: SMF72LRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lrn/</guid>
       <description>Number of Latch Requestor data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72LRN </description>
+Record: SMF72S5 Based on: SMF72LRN Description Number of Latch Requestor data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -525,7 +552,7 @@ Record: SMF72S5 Based on: SMF72LRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/lrs/</guid>
       <description>Offset to Latch Requestor data section (subtype 5)
-Record: SMF72S5 Based on: SMF72LRS </description>
+Record: SMF72S5 Based on: SMF72LRS Description Offset to Latch Requestor data section (subtype 5)</description>
     </item>
     
     <item>
@@ -535,7 +562,8 @@ Record: SMF72S5 Based on: SMF72LRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/m3r/</guid>
       <description>Record was written by RMF Monitor III
-Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+Map: SMF72PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
     </item>
     
     <item>
@@ -544,8 +572,8 @@ Map: SMF72PRO Based on: fla Post-Processed This virtual field corresponds to the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/mfv/</guid>
-      <description>RMF version number in packed decimal format: nnnF
-Map: SMF72PRO Based on: SMF72MFV </description>
+      <description>RMF version number
+Map: SMF72PRO Based on: SMF72MFV Description RMF version number</description>
     </item>
     
     <item>
@@ -554,7 +582,7 @@ Map: SMF72PRO Based on: SMF72MFV </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/mvs/</guid>
-      <description>MVS software level (consists of an acronym and the version, release, a&amp;hellip;
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
 Map: SMF72PRO Based on: SMF72MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
     </item>
     
@@ -565,7 +593,8 @@ Map: SMF72PRO Based on: SMF72MVS Description MVS software level (consists of an 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/new_record/</guid>
       <description>NEW RECORD FORMAT
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF72S5 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -574,8 +603,8 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/oil/</guid>
-      <description>Original interval length as defined in the session or by SMF (in secon&amp;hellip;
-Map: SMF72PRO Based on: SMF72OIL Description Original interval length as defined in the session or by SMF (in seconds</description>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF72PRO Based on: SMF72OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
     </item>
     
     <item>
@@ -585,7 +614,8 @@ Map: SMF72PRO Based on: SMF72OIL Description Original interval length as defined
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+Record: SMF72S5 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
     </item>
     
     <item>
@@ -595,7 +625,7 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/prd/</guid>
       <description>Product name
-Map: SMF72PRO Based on: SMF72PRD </description>
+Map: SMF72PRO Based on: SMF72PRD Description Product name</description>
     </item>
     
     <item>
@@ -605,8 +635,9 @@ Map: SMF72PRO Based on: SMF72PRD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/prf/</guid>
       <description>Processor flags
-Map: SMF72PRO Based on: SMF72PRF Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description dat_facility2 7 Enhanced DAT facility 2 dat_facility1 6 Enhanced DAT facility 1 ziip_inst 5 At least one zIIP is currently installed zaap_inst 4 At least one zAAP is currently installed arch_mode 3 System in z/ARCH mode escon_dir 2 ESCON Director in configuration escon_ch 1 Equipped with ESCON channel expanded_stor 0 System has expanded storage </description>
+Map: SMF72PRO Based on: SMF72PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
     </item>
     
     <item>
@@ -616,7 +647,7 @@ Field Bit-Position Description dat_facility2 7 Enhanced DAT facility 2 dat_facil
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
-Record: SMF72S5 Based on: SMF72PRL </description>
+Record: SMF72S5 Based on: SMF72PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -626,7 +657,7 @@ Record: SMF72S5 Based on: SMF72PRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
-Record: SMF72S5 Based on: SMF72PRN </description>
+Record: SMF72S5 Based on: SMF72PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
     </item>
     
     <item>
@@ -636,7 +667,7 @@ Record: SMF72S5 Based on: SMF72PRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
-Record: SMF72S5 Based on: SMF72PRS </description>
+Record: SMF72S5 Based on: SMF72PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -646,7 +677,7 @@ Record: SMF72S5 Based on: SMF72PRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ptn/</guid>
       <description>PR/SM partition number
-Map: SMF72PRO Based on: SMF72PTN </description>
+Map: SMF72PRO Based on: SMF72PTN Description PR/SM partition number</description>
     </item>
     
     <item>
@@ -656,7 +687,7 @@ Map: SMF72PRO Based on: SMF72PTN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/qsl/</guid>
       <description>Length of GRS QScan data section (subtype 5)
-Record: SMF72S5 Based on: SMF72QSL </description>
+Record: SMF72S5 Based on: SMF72QSL Description Length of GRS QScan data section (subtype 5)</description>
     </item>
     
     <item>
@@ -666,7 +697,7 @@ Record: SMF72S5 Based on: SMF72QSL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/qsn/</guid>
       <description>Number of GRS QScan data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72QSN </description>
+Record: SMF72S5 Based on: SMF72QSN Description Number of GRS QScan data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -676,7 +707,7 @@ Record: SMF72S5 Based on: SMF72QSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/qss/</guid>
       <description>Offset to GRS QScan data section (subtype 5)
-Record: SMF72S5 Based on: SMF72QSS </description>
+Record: SMF72S5 Based on: SMF72QSS Description Offset to GRS QScan data section (subtype 5)</description>
     </item>
     
     <item>
@@ -685,7 +716,7 @@ Record: SMF72S5 Based on: SMF72QSS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725clal/</guid>
-      <description>Number of times that a unit of work of this address space was suspende&amp;hellip;
+      <description>Number of times that a unit of work of this address space was suspended on a Local lock when there was already at least one other unit of work suspended
 Map: R725CLOD Based on: R725CLAL Description Number of times that a unit of work of this address space was suspended on a Local lock when there was already at least one other unit of work suspended</description>
     </item>
     
@@ -695,7 +726,7 @@ Map: R725CLOD Based on: R725CLAL Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725clsu/</guid>
-      <description>Number of times that a unit of work of this address space was suspende&amp;hellip;
+      <description>Number of times that a unit of work of this address space was suspended on a Local lock
 Map: R725CLOD Based on: R725CLSU Description Number of times that a unit of work of this address space was suspended on a Local lock</description>
     </item>
     
@@ -705,8 +736,518 @@ Map: R725CLOD Based on: R725CLSU Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725clti/</guid>
-      <description>Total amount of time in milliseconds that a unit of work of this addre&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on a Local lock
 Map: R725CLOD Based on: R725CLTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on a Local lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_asi_flag_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsEnqDeqLockData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CM_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_asi_flag_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsLatchLockData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CM_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_asi_flag_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsLockData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725CMSD Based on: R725CM_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_asi_flag_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_asi_flag_CmsSmfLockData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CM_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_entry_index_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsEnqDeqLockData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CM_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_entry_index_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsLatchLockData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CM_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_entry_index_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsLockData/</guid>
+      <description>Artificial Entry Index
+Map: R725CMSD Based on: R725CM_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_entry_index_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_entry_index_CmsSmfLockData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CM_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_service_class_list_index_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsEnqDeqLockData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CM_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_service_class_list_index_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsLatchLockData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CM_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_service_class_list_index_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsLockData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725CMSD Based on: R725CM_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cm_service_class_list_index_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cm_service_class_list_index_CmsSmfLockData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CM_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmal_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsEnqDeqLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMAL Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmal_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsLatchLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMAL Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmal_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock
+Map: R725CMSD Based on: R725CMAL Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmal_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmal_CmsSmfLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMAL Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY when there was already at least one other unit of work suspended for this lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmas_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsEnqDeqLockData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmas_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsLatchLockData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmas_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsLockData/</guid>
+      <description>Address space ID
+Map: R725CMSD Based on: R725CMAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmas_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmas_CmsSmfLockData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmjn_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsEnqDeqLockData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmjn_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsLatchLockData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmjn_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsLockData/</guid>
+      <description>Name of job
+Map: R725CMSD Based on: R725CMJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmjn_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmjn_CmsSmfLockData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsn_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsEnqDeqLockData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsn_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsLatchLockData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsn_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsLockData/</guid>
+      <description>Service class name
+Map: R725CMSD Based on: R725CMSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsn_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsn_CmsSmfLockData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsp_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsEnqDeqLockData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsp_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsLatchLockData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsp_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsLockData/</guid>
+      <description>Service class period
+Map: R725CMSD Based on: R725CMSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsp_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsp_CmsSmfLockData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmst_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsEnqDeqLockData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmst_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsLatchLockData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmst_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsLockData/</guid>
+      <description>Address space SToken
+Map: R725CMSD Based on: R725CMST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmst_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmst_CmsSmfLockData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsu_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsEnqDeqLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMSU Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsu_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsLatchLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMSU Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsu_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: R725CMSD Based on: R725CMSU Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmsu_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmsu_CmsSmfLockData/</guid>
+      <description>Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMSU Description Number of times that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmti_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsEnqDeqLockData/</guid>
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmti_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsLatchLockData/</guid>
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmti_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsLockData/</guid>
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: R725CMSD Based on: R725CMTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmti_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmti_CmsSmfLockData/</guid>
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on the CMS lock type as specified in R725CMTY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmty_CmsEnqDeqLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsEnqDeqLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsEnqDeqLockData/</guid>
+      <description>Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock
+Map: SMF72_SUBTYPE5_CMS_ENQ_DEQ_LOCK_DATA Based on: R725CMTY Description Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmty_CmsLatchLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsLatchLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsLatchLockData/</guid>
+      <description>Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock
+Map: SMF72_SUBTYPE5_CMS_LATCH_LOCK_DATA Based on: R725CMTY Description Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmty_CmsLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsLockData/</guid>
+      <description>Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock
+Map: R725CMSD Based on: R725CMTY Description Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cmty_CmsSmfLockData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsSmfLockData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cmty_CmsSmfLockData/</guid>
+      <description>Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock
+Map: SMF72_SUBTYPE5_CMS_SMF_LOCK_DATA Based on: R725CMTY Description Lock Type X&#39;01&amp;rsquo; = CMS Lock X&#39;02&amp;rsquo; = CMS EnqueueDequeue Lock X&#39;03&amp;rsquo; = CMS Latch Lock X&#39;04&amp;rsquo; = CMS SMF Lock</description>
+    </item>
+    
+    <item>
+      <title>Field - r725co_asi_flag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_asi_flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_asi_flag/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725CLOD Based on: R725CO_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725co_entry_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_entry_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_entry_index/</guid>
+      <description>Artificial Entry Index
+Map: R725CLOD Based on: R725CO_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725co_service_class_list_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_service_class_list_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725co_service_class_list_index/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725CLOD Based on: R725CO_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
     </item>
     
     <item>
@@ -715,7 +1256,7 @@ Map: R725CLOD Based on: R725CLTI Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725coal/</guid>
-      <description>Number of times that a unit of work from another address space was sus&amp;hellip;
+      <description>Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address and there was already at least one other unit of work waiting for that lock.
 Map: R725CLOD Based on: R725COAL Description Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address and there was already at least one other unit of work waiting for that lock.</description>
     </item>
     
@@ -726,7 +1267,7 @@ Map: R725CLOD Based on: R725COAL Description Number of times that a unit of work
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725coas/</guid>
       <description>Address space ID
-Map: R725CLOD Based on: R725COAS </description>
+Map: R725CLOD Based on: R725COAS Description Address space ID</description>
     </item>
     
     <item>
@@ -736,7 +1277,7 @@ Map: R725CLOD Based on: R725COAS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cojn/</guid>
       <description>Name of job
-Map: R725CLOD Based on: R725COJN </description>
+Map: R725CLOD Based on: R725COJN Description Name of job</description>
     </item>
     
     <item>
@@ -746,7 +1287,7 @@ Map: R725CLOD Based on: R725COJN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cosn/</guid>
       <description>Service class name
-Map: R725CLOD Based on: R725COSN </description>
+Map: R725CLOD Based on: R725COSN Description Service class name</description>
     </item>
     
     <item>
@@ -756,7 +1297,7 @@ Map: R725CLOD Based on: R725COSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cosp/</guid>
       <description>Service class period
-Map: R725CLOD Based on: R725COSP </description>
+Map: R725CLOD Based on: R725COSP Description Service class period</description>
     </item>
     
     <item>
@@ -766,7 +1307,7 @@ Map: R725CLOD Based on: R725COSP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cost/</guid>
       <description>Address space SToken
-Map: R725CLOD Based on: R725COST </description>
+Map: R725CLOD Based on: R725COST Description Address space SToken</description>
     </item>
     
     <item>
@@ -775,7 +1316,7 @@ Map: R725CLOD Based on: R725COST </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cosu/</guid>
-      <description>Number of times that a unit of work from another address space was sus&amp;hellip;
+      <description>Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address
 Map: R725CLOD Based on: R725COSU Description Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address</description>
     </item>
     
@@ -785,8 +1326,38 @@ Map: R725CLOD Based on: R725COSU Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725coti/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of this address space Local lock data
 Map: R725CLOD Based on: R725COTI Description Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of this address space Local lock data</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cr_asi_flag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_asi_flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_asi_flag/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725CLRD Based on: R725CR_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cr_entry_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_entry_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_entry_index/</guid>
+      <description>Artificial Entry Index
+Map: R725CLRD Based on: R725CR_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725cr_service_class_list_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_service_class_list_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cr_service_class_list_index/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725CLRD Based on: R725CR_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
     </item>
     
     <item>
@@ -795,7 +1366,7 @@ Map: R725CLOD Based on: R725COTI Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cral/</guid>
-      <description>Number of times that a unit of work from this address space was suspen&amp;hellip;
+      <description>Number of times that a unit of work from this address space was suspended when requesting the Local lock of another address space and there was already at least one other unit of work waiting for that lock
 Map: R725CLRD Based on: R725CRAL Description Number of times that a unit of work from this address space was suspended when requesting the Local lock of another address space and there was already at least one other unit of work waiting for that lock</description>
     </item>
     
@@ -806,7 +1377,7 @@ Map: R725CLRD Based on: R725CRAL Description Number of times that a unit of work
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725cras/</guid>
       <description>Address space ID
-Map: R725CLRD Based on: R725CRAS </description>
+Map: R725CLRD Based on: R725CRAS Description Address space ID</description>
     </item>
     
     <item>
@@ -816,7 +1387,7 @@ Map: R725CLRD Based on: R725CRAS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crjn/</guid>
       <description>Name of job
-Map: R725CLRD Based on: R725CRJN </description>
+Map: R725CLRD Based on: R725CRJN Description Name of job</description>
     </item>
     
     <item>
@@ -826,7 +1397,7 @@ Map: R725CLRD Based on: R725CRJN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crsn/</guid>
       <description>Service class name
-Map: R725CLRD Based on: R725CRSN </description>
+Map: R725CLRD Based on: R725CRSN Description Service class name</description>
     </item>
     
     <item>
@@ -836,7 +1407,7 @@ Map: R725CLRD Based on: R725CRSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crsp/</guid>
       <description>Service class period
-Map: R725CLRD Based on: R725CRSP </description>
+Map: R725CLRD Based on: R725CRSP Description Service class period</description>
     </item>
     
     <item>
@@ -846,7 +1417,7 @@ Map: R725CLRD Based on: R725CRSP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crst/</guid>
       <description>Address space SToken
-Map: R725CLRD Based on: R725CRST </description>
+Map: R725CLRD Based on: R725CRST Description Address space SToken</description>
     </item>
     
     <item>
@@ -855,7 +1426,7 @@ Map: R725CLRD Based on: R725CRST </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crsu/</guid>
-      <description>Number of times that a unit of work from this address space was suspen&amp;hellip;
+      <description>Number of times that a unit of work from this address space was suspended when requesting the Local lock of another address space
 Map: R725CLRD Based on: R725CRSU Description Number of times that a unit of work from this address space was suspended when requesting the Local lock of another address space</description>
     </item>
     
@@ -865,8 +1436,638 @@ Map: R725CLRD Based on: R725CRSU Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725crti/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of another address space
 Map: R725CLRD Based on: R725CRTI Description Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of another address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_asi_flag_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqStepData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725ENTD Based on: R725EN_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_asi_flag_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqSystemData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725EN_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_asi_flag_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_asi_flag_GrsEnqSystemsData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725EN_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_entry_index_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqStepData/</guid>
+      <description>Artificial Entry Index
+Map: R725ENTD Based on: R725EN_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_entry_index_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqSystemData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725EN_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_entry_index_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_entry_index_GrsEnqSystemsData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725EN_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_service_class_list_index_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqStepData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725ENTD Based on: R725EN_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_service_class_list_index_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqSystemData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725EN_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725en_service_class_list_index_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725en_service_class_list_index_GrsEnqSystemsData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725EN_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enas_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqStepData/</guid>
+      <description>Address space ID
+Map: R725ENTD Based on: R725ENAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enas_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqSystemData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enas_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enas_GrsEnqSystemsData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enjn_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqStepData/</guid>
+      <description>Name of job
+Map: R725ENTD Based on: R725ENJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enjn_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqSystemData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enjn_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enjn_GrsEnqSystemsData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enrc_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqStepData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: R725ENTD Based on: R725ENRC Description Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enrc_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqSystemData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENRC Description Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enrc_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enrc_GrsEnqSystemsData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENRC Description Number of GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensc_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqStepData/</guid>
+      <description>Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems
+Map: R725ENTD Based on: R725ENSC Description Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensc_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqSystemData/</guid>
+      <description>Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENSC Description Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensc_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensc_GrsEnqSystemsData/</guid>
+      <description>Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENSC Description Enqueue Scope Type X&#39;01&amp;rsquo; = Scope=Step X&#39;02&amp;rsquo; = Scope=System X&#39;03&amp;rsquo; = Scope=Systems</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensn_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqStepData/</guid>
+      <description>Service class name
+Map: R725ENTD Based on: R725ENSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensn_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqSystemData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensn_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensn_GrsEnqSystemsData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENSN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensp_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqStepData/</guid>
+      <description>Service class period
+Map: R725ENTD Based on: R725ENSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensp_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqSystemData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensp_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensp_GrsEnqSystemsData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENSP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensq_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqStepData/</guid>
+      <description>Sum of squares of the individual contention times in milliseconds
+Map: R725ENTD Based on: R725ENSQ Description Sum of squares of the individual contention times in milliseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensq_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqSystemData/</guid>
+      <description>Sum of squares of the individual contention times in milliseconds
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENSQ Description Sum of squares of the individual contention times in milliseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensq_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensq_GrsEnqSystemsData/</guid>
+      <description>Sum of squares of the individual contention times in milliseconds
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENSQ Description Sum of squares of the individual contention times in milliseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enst_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqStepData/</guid>
+      <description>Address space SToken
+Map: R725ENTD Based on: R725ENST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enst_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqSystemData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enst_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enst_GrsEnqSystemsData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensu_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqStepData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space
+Map: R725ENTD Based on: R725ENSU Description Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensu_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqSystemData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENSU Description Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725ensu_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ensu_GrsEnqSystemsData/</guid>
+      <description>Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENSU Description Number of GRS ENQ requests with the scope as specified in R725ENSC that were suspended for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enti_GrsEnqStepData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqStepData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqStepData/</guid>
+      <description>Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: R725ENTD Based on: R725ENTI Description Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enti_GrsEnqSystemData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqSystemData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqSystemData/</guid>
+      <description>Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEM_DATA Based on: R725ENTI Description Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725enti_GrsEnqSystemsData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqSystemsData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725enti_GrsEnqSystemsData/</guid>
+      <description>Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space
+Map: SMF72_SUBTYPE5_GRS_ENQ_SYSTEMS_DATA Based on: R725ENTI Description Total amount of contention time in milliseconds that was caused by GRS ENQ requests with the scope as specified in R725ENSC for this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_asi_flag_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_asi_flag_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_asi_flag_GrsLatchRequestorData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LA_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_asi_flag_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_asi_flag_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_asi_flag_GrsLatchSetCreatorData/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725LATD Based on: R725LA_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_entry_index_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_entry_index_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_entry_index_GrsLatchRequestorData/</guid>
+      <description>Artificial Entry Index
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LA_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_entry_index_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_entry_index_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_entry_index_GrsLatchSetCreatorData/</guid>
+      <description>Artificial Entry Index
+Map: R725LATD Based on: R725LA_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_service_class_list_index_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_service_class_list_index_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_service_class_list_index_GrsLatchRequestorData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LA_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725la_service_class_list_index_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_service_class_list_index_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725la_service_class_list_index_GrsLatchSetCreatorData/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725LATD Based on: R725LA_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725laas_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laas_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laas_GrsLatchRequestorData/</guid>
+      <description>Address space ID
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LAAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725laas_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laas_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laas_GrsLatchSetCreatorData/</guid>
+      <description>Address space ID
+Map: R725LATD Based on: R725LAAS Description Address space ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lajn_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lajn_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lajn_GrsLatchRequestorData/</guid>
+      <description>Name of job
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LAJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lajn_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lajn_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lajn_GrsLatchSetCreatorData/</guid>
+      <description>Name of job
+Map: R725LATD Based on: R725LAJN Description Name of job</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasn_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasn_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasn_GrsLatchRequestorData/</guid>
+      <description>Service class name
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LASN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasn_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasn_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasn_GrsLatchSetCreatorData/</guid>
+      <description>Service class name
+Map: R725LATD Based on: R725LASN Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasp_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasp_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasp_GrsLatchRequestorData/</guid>
+      <description>Service class period
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LASP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasp_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasp_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasp_GrsLatchSetCreatorData/</guid>
+      <description>Service class period
+Map: R725LATD Based on: R725LASP Description Service class period</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasq_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasq_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasq_GrsLatchRequestorData/</guid>
+      <description>Sum of squares of the individual contention times in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LASQ Description Sum of squares of the individual contention times in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasq_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasq_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasq_GrsLatchSetCreatorData/</guid>
+      <description>Sum of squares of the individual contention times in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY
+Map: R725LATD Based on: R725LASQ Description Sum of squares of the individual contention times in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725last_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725last_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725last_GrsLatchRequestorData/</guid>
+      <description>Address space SToken
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LAST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725last_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725last_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725last_GrsLatchSetCreatorData/</guid>
+      <description>Address space SToken
+Map: R725LATD Based on: R725LAST Description Address space SToken</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasu_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasu_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasu_GrsLatchRequestorData/</guid>
+      <description>Number of times a Latch Obtain request was suspended for the Request Type as specified in R725LATY
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LASU Description Number of times a Latch Obtain request was suspended for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lasu_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasu_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lasu_GrsLatchSetCreatorData/</guid>
+      <description>Number of times a Latch Obtain request was suspended for the Request Type as specified in R725LATY
+Map: R725LATD Based on: R725LASU Description Number of times a Latch Obtain request was suspended for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lati_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lati_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lati_GrsLatchRequestorData/</guid>
+      <description>Total amount of contention time in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LATI Description Total amount of contention time in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lati_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lati_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lati_GrsLatchSetCreatorData/</guid>
+      <description>Total amount of contention time in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY
+Map: R725LATD Based on: R725LATI Description Total amount of contention time in milliseconds that was caused by Latch Obtain requests for the Request Type as specified in R725LATY</description>
+    </item>
+    
+    <item>
+      <title>Field - r725laty_GrsLatchRequestorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laty_GrsLatchRequestorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laty_GrsLatchRequestorData/</guid>
+      <description>Request Type X&#39;01&amp;rsquo; = Latch Set Creator X&#39;02&amp;rsquo; = Latch Requestor
+Map: SMF72_SUBTYPE5_GRS_LATCH_REQUESTOR_DATA Based on: R725LATY Description Request Type X&#39;01&amp;rsquo; = Latch Set Creator X&#39;02&amp;rsquo; = Latch Requestor</description>
+    </item>
+    
+    <item>
+      <title>Field - r725laty_GrsLatchSetCreatorData</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laty_GrsLatchSetCreatorData/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725laty_GrsLatchSetCreatorData/</guid>
+      <description>Request Type X&#39;01&amp;rsquo; = Latch Set Creator X&#39;02&amp;rsquo; = Latch Requestor
+Map: R725LATD Based on: R725LATY Description Request Type X&#39;01&amp;rsquo; = Latch Set Creator X&#39;02&amp;rsquo; = Latch Requestor</description>
     </item>
     
     <item>
@@ -875,7 +2076,7 @@ Map: R725CLRD Based on: R725CRTI Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lcal/</guid>
-      <description>Number of times that a unit of work from another address space was sus&amp;hellip;
+      <description>Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address space and there was already at least one other unit of work waiting for that lock
 Map: R725LOTD Based on: R725LCAL Description Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address space and there was already at least one other unit of work waiting for that lock</description>
     </item>
     
@@ -885,7 +2086,7 @@ Map: R725LOTD Based on: R725LCAL Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lcsu/</guid>
-      <description>Number of times that a unit of work from another address space was sus&amp;hellip;
+      <description>Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address space
 Map: R725LOTD Based on: R725LCSU Description Number of times that a unit of work from another address space was suspended when requesting the Local lock of this address space</description>
     </item>
     
@@ -895,8 +2096,38 @@ Map: R725LOTD Based on: R725LCSU Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lcti/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of this address space
 Map: R725LOTD Based on: R725LCTI Description Total amount of time in milliseconds that a unit of work was suspended when requesting the Local lock of this address space</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lo_asi_flag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_asi_flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_asi_flag/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725LOTD Based on: R725LO_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lo_entry_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_entry_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_entry_index/</guid>
+      <description>Artificial Entry Index
+Map: R725LOTD Based on: R725LO_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725lo_service_class_list_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_service_class_list_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lo_service_class_list_index/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725LOTD Based on: R725LO_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
     </item>
     
     <item>
@@ -905,7 +2136,7 @@ Map: R725LOTD Based on: R725LCTI Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725loal/</guid>
-      <description>Number of times that a unit of work of this address space was suspende&amp;hellip;
+      <description>Number of times that a unit of work of this address space was suspended on a Local lock when there was already at least one other unit of work suspended
 Map: R725LOTD Based on: R725LOAL Description Number of times that a unit of work of this address space was suspended on a Local lock when there was already at least one other unit of work suspended</description>
     </item>
     
@@ -916,7 +2147,7 @@ Map: R725LOTD Based on: R725LOAL Description Number of times that a unit of work
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725loas/</guid>
       <description>Address space ID
-Map: R725LOTD Based on: R725LOAS </description>
+Map: R725LOTD Based on: R725LOAS Description Address space ID</description>
     </item>
     
     <item>
@@ -926,7 +2157,7 @@ Map: R725LOTD Based on: R725LOAS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lojn/</guid>
       <description>Name of job
-Map: R725LOTD Based on: R725LOJN </description>
+Map: R725LOTD Based on: R725LOJN Description Name of job</description>
     </item>
     
     <item>
@@ -936,7 +2167,7 @@ Map: R725LOTD Based on: R725LOJN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725losn/</guid>
       <description>Service class name
-Map: R725LOTD Based on: R725LOSN </description>
+Map: R725LOTD Based on: R725LOSN Description Service class name</description>
     </item>
     
     <item>
@@ -946,7 +2177,7 @@ Map: R725LOTD Based on: R725LOSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725losp/</guid>
       <description>Service class period
-Map: R725LOTD Based on: R725LOSP </description>
+Map: R725LOTD Based on: R725LOSP Description Service class period</description>
     </item>
     
     <item>
@@ -956,7 +2187,7 @@ Map: R725LOTD Based on: R725LOSP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725lost/</guid>
       <description>Address space SToken
-Map: R725LOTD Based on: R725LOST </description>
+Map: R725LOTD Based on: R725LOST Description Address space SToken</description>
     </item>
     
     <item>
@@ -965,7 +2196,7 @@ Map: R725LOTD Based on: R725LOST </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725losu/</guid>
-      <description>Number of times that a unit of work of this address space was suspende&amp;hellip;
+      <description>Number of times that a unit of work of this address space was suspended on a Local lock
 Map: R725LOTD Based on: R725LOSU Description Number of times that a unit of work of this address space was suspended on a Local lock</description>
     </item>
     
@@ -975,8 +2206,38 @@ Map: R725LOTD Based on: R725LOSU Description Number of times that a unit of work
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725loti/</guid>
-      <description>Total amount of time in milliseconds that a unit of work of this addre&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work of this address space was suspended on a Local lock CML lock owner data
 Map: R725LOTD Based on: R725LOTI Description Total amount of time in milliseconds that a unit of work of this address space was suspended on a Local lock CML lock owner data</description>
+    </item>
+    
+    <item>
+      <title>Field - r725qs_asi_flag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_asi_flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_asi_flag/</guid>
+      <description>Flag Byte (See ASIFLAG1 in ERBASIG3)
+Map: R725QSAD Based on: R725QS_ASI_FLAG Description Flag Byte (See ASIFLAG1 in ERBASIG3)</description>
+    </item>
+    
+    <item>
+      <title>Field - r725qs_entry_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_entry_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_entry_index/</guid>
+      <description>Artificial Entry Index
+Map: R725QSAD Based on: R725QS_ENTRY_INDEX Description Artificial Entry Index</description>
+    </item>
+    
+    <item>
+      <title>Field - r725qs_service_class_list_index</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_service_class_list_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qs_service_class_list_index/</guid>
+      <description>Service class list index (See ASICLX in ERBASIG3)
+Map: R725QSAD Based on: R725QS_SERVICE_CLASS_LIST_INDEX Description Service class list index (See ASICLX in ERBASIG3)</description>
     </item>
     
     <item>
@@ -986,7 +2247,7 @@ Map: R725LOTD Based on: R725LOTI Description Total amount of time in millisecond
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsas/</guid>
       <description>Address space ID
-Map: R725QSAD Based on: R725QSAS </description>
+Map: R725QSAD Based on: R725QSAS Description Address space ID</description>
     </item>
     
     <item>
@@ -996,7 +2257,7 @@ Map: R725QSAD Based on: R725QSAS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsjn/</guid>
       <description>Name of job
-Map: R725QSAD Based on: R725QSJN </description>
+Map: R725QSAD Based on: R725QSJN Description Name of job</description>
     </item>
     
     <item>
@@ -1006,7 +2267,7 @@ Map: R725QSAD Based on: R725QSJN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsrc/</guid>
       <description>Number of requests including START and RESUME, but not QUIT requests
-Map: R725QSAD Based on: R725QSRC </description>
+Map: R725QSAD Based on: R725QSRC Description Number of requests including START and RESUME, but not QUIT requests</description>
     </item>
     
     <item>
@@ -1016,7 +2277,7 @@ Map: R725QSAD Based on: R725QSRC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsrq/</guid>
       <description>Sum of squares of number of resources returned for these requests
-Map: R725QSAD Based on: R725QSRQ </description>
+Map: R725QSAD Based on: R725QSRQ Description Sum of squares of number of resources returned for these requests</description>
     </item>
     
     <item>
@@ -1026,7 +2287,7 @@ Map: R725QSAD Based on: R725QSRQ </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsrr/</guid>
       <description>Total number of resources returned for these requests.
-Map: R725QSAD Based on: R725QSRR </description>
+Map: R725QSAD Based on: R725QSRR Description Total number of resources returned for these requests.</description>
     </item>
     
     <item>
@@ -1035,7 +2296,7 @@ Map: R725QSAD Based on: R725QSRR </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qssc/</guid>
-      <description>Number of specific requests with GQSCAN requests specified by QNAME an&amp;hellip;
+      <description>Number of specific requests with GQSCAN requests specified by QNAME and RNAME or ISGQUERY requests specifying a search by ENQTOKEN
 Map: R725QSAD Based on: R725QSSC Description Number of specific requests with GQSCAN requests specified by QNAME and RNAME or ISGQUERY requests specifying a search by ENQTOKEN</description>
     </item>
     
@@ -1046,7 +2307,7 @@ Map: R725QSAD Based on: R725QSSC Description Number of specific requests with GQ
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qssn/</guid>
       <description>Service class name
-Map: R725QSAD Based on: R725QSSN </description>
+Map: R725QSAD Based on: R725QSSN Description Service class name</description>
     </item>
     
     <item>
@@ -1056,7 +2317,7 @@ Map: R725QSAD Based on: R725QSSN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qssp/</guid>
       <description>Service class period
-Map: R725QSAD Based on: R725QSSP </description>
+Map: R725QSAD Based on: R725QSSP Description Service class period</description>
     </item>
     
     <item>
@@ -1066,7 +2327,7 @@ Map: R725QSAD Based on: R725QSSP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsst/</guid>
       <description>Address space SToken
-Map: R725QSAD Based on: R725QSST </description>
+Map: R725QSAD Based on: R725QSST Description Address space SToken</description>
     </item>
     
     <item>
@@ -1075,7 +2336,7 @@ Map: R725QSAD Based on: R725QSST </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qsti/</guid>
-      <description>Total amount of execution times within GRS for these requests in micro&amp;hellip;
+      <description>Total amount of execution times within GRS for these requests in microseconds
 Map: R725QSAD Based on: R725QSTI Description Total amount of execution times within GRS for these requests in microseconds</description>
     </item>
     
@@ -1086,7 +2347,7 @@ Map: R725QSAD Based on: R725QSTI Description Total amount of execution times wit
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725qstq/</guid>
       <description>Sum of squares of individual request execution times in microseconds
-Map: R725QSAD Based on: R725QSTQ </description>
+Map: R725QSAD Based on: R725QSTQ Description Sum of squares of individual request execution times in microseconds</description>
     </item>
     
     <item>
@@ -1095,8 +2356,8 @@ Map: R725QSAD Based on: R725QSTQ </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725scla/</guid>
-      <description>Total number of times that a unit of work from another address space w&amp;hellip;
-Map: R725SCTL Based on: R725SCLA Description Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an an address space when there was already at least one other unit of work suspended for the lock</description>
+      <description>Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an address space when there was already at least one other unit of work suspended for the lock
+Map: R725SCTL Based on: R725SCLA Description Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an address space when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
     <item>
@@ -1105,8 +2366,8 @@ Map: R725SCTL Based on: R725SCLA Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725scls/</guid>
-      <description>Total number of times that a unit of work from another address space w&amp;hellip;
-Map: R725SCTL Based on: R725SCLS Description Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an an address space</description>
+      <description>Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an address space
+Map: R725SCTL Based on: R725SCLS Description Total number of times that a unit of work from another address space was suspended when requesting the Local lock of an address space</description>
     </item>
     
     <item>
@@ -1115,7 +2376,7 @@ Map: R725SCTL Based on: R725SCLS Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sclt/</guid>
-      <description>Total amount of time in milliseconds that a unit of work from another &amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work from another address space was suspended when requesting the Local lock of an address space
 Map: R725SCTL Based on: R725SCLT Description Total amount of time in milliseconds that a unit of work from another address space was suspended when requesting the Local lock of an address space</description>
     </item>
     
@@ -1125,7 +2386,7 @@ Map: R725SCTL Based on: R725SCLT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725scma/</guid>
-      <description>Total number of times that a unit of work was suspended on a CMS lock &amp;hellip;
+      <description>Total number of times that a unit of work was suspended on a CMS lock when there was already at least one other unit of work suspended for the lock
 Map: R725SCTL Based on: R725SCMA Description Total number of times that a unit of work was suspended on a CMS lock when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
@@ -1136,7 +2397,7 @@ Map: R725SCTL Based on: R725SCMA Description Total number of times that a unit o
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725scms/</guid>
       <description>Total number of times that a unit of work was suspended on a CMS lock
-Map: R725SCTL Based on: R725SCMS </description>
+Map: R725SCTL Based on: R725SCMS Description Total number of times that a unit of work was suspended on a CMS lock</description>
     </item>
     
     <item>
@@ -1145,7 +2406,7 @@ Map: R725SCTL Based on: R725SCMS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725scmt/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended on a CMS lock
 Map: R725SCTL Based on: R725SCMT Description Total amount of time in milliseconds that a unit of work was suspended on a CMS lock</description>
     </item>
     
@@ -1155,7 +2416,7 @@ Map: R725SCTL Based on: R725SCMT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725seda/</guid>
-      <description>Total number of times that a unit of work was suspended on CMS Enqueue&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on CMS EnqueueDequeue lock when there was already at least one other unit of work suspended for the lock
 Map: R725SCTL Based on: R725SEDA Description Total number of times that a unit of work was suspended on CMS EnqueueDequeue lock when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
@@ -1165,7 +2426,7 @@ Map: R725SCTL Based on: R725SEDA Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725seds/</guid>
-      <description>Total number of times that a unit of work was suspended on a CMS Enque&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on a CMS EnqueueDequeue lock
 Map: R725SCTL Based on: R725SEDS Description Total number of times that a unit of work was suspended on a CMS EnqueueDequeue lock</description>
     </item>
     
@@ -1175,7 +2436,7 @@ Map: R725SCTL Based on: R725SEDS Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sedt/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended on a CMS EnqueueDequeue lock
 Map: R725SCTL Based on: R725SEDT Description Total amount of time in milliseconds that a unit of work was suspended on a CMS EnqueueDequeue lock</description>
     </item>
     
@@ -1186,7 +2447,7 @@ Map: R725SCTL Based on: R725SEDT Description Total amount of time in millisecond
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sgmo/</guid>
       <description>GRS Mode: X&#39;00&amp;rsquo; = NONE X&#39;01&amp;rsquo; = RING X&#39;02&amp;rsquo; = STAR
-Map: R725SCTL Based on: R725SGMO </description>
+Map: R725SCTL Based on: R725SGMO Description GRS Mode: X&#39;00&amp;rsquo; = NONE X&#39;01&amp;rsquo; = RING X&#39;02&amp;rsquo; = STAR</description>
     </item>
     
     <item>
@@ -1195,7 +2456,7 @@ Map: R725SCTL Based on: R725SGMO </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slaa/</guid>
-      <description>Total number of times that a unit of work was suspended on CMS Latch l&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on CMS Latch lock when there was already at least one other unit of work suspended for the lock
 Map: R725SCTL Based on: R725SLAA Description Total number of times that a unit of work was suspended on CMS Latch lock when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
@@ -1205,7 +2466,7 @@ Map: R725SCTL Based on: R725SLAA Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slas/</guid>
-      <description>Total number of times that a unit of work was suspended on a CMS Latch&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on a CMS Latch lock
 Map: R725SCTL Based on: R725SLAS Description Total number of times that a unit of work was suspended on a CMS Latch lock</description>
     </item>
     
@@ -1215,7 +2476,7 @@ Map: R725SCTL Based on: R725SLAS Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slat/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended on a CMS Latch lock
 Map: R725SCTL Based on: R725SLAT Description Total amount of time in milliseconds that a unit of work was suspended on a CMS Latch lock</description>
     </item>
     
@@ -1225,7 +2486,7 @@ Map: R725SCTL Based on: R725SLAT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sloa/</guid>
-      <description>Total number of times that a unit of work was suspended on Local lock &amp;hellip;
+      <description>Total number of times that a unit of work was suspended on Local lock when there was already at least one other unit of work suspended for the lock
 Map: R725SCTL Based on: R725SLOA Description Total number of times that a unit of work was suspended on Local lock when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
@@ -1235,7 +2496,7 @@ Map: R725SCTL Based on: R725SLOA Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slos/</guid>
-      <description>Total number of times that a unit of work was suspended on a Local loc&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on a Local lock
 Map: R725SCTL Based on: R725SLOS Description Total number of times that a unit of work was suspended on a Local lock</description>
     </item>
     
@@ -1245,7 +2506,7 @@ Map: R725SCTL Based on: R725SLOS Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slot/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended on a Local lock
 Map: R725SCTL Based on: R725SLOT Description Total amount of time in milliseconds that a unit of work was suspended on a Local lock</description>
     </item>
     
@@ -1255,7 +2516,7 @@ Map: R725SCTL Based on: R725SLOT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slrq/</guid>
-      <description>Total sum of squares of time in milliseconds that Latch Obtain request&amp;hellip;
+      <description>Total sum of squares of time in milliseconds that Latch Obtain requests were suspended
 Map: R725SCTL Based on: R725SLRQ Description Total sum of squares of time in milliseconds that Latch Obtain requests were suspended</description>
     </item>
     
@@ -1266,7 +2527,7 @@ Map: R725SCTL Based on: R725SLRQ Description Total sum of squares of time in mil
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slrs/</guid>
       <description>Total number of suspended Latch Obtain requests
-Map: R725SCTL Based on: R725SLRS </description>
+Map: R725SCTL Based on: R725SLRS Description Total number of suspended Latch Obtain requests</description>
     </item>
     
     <item>
@@ -1275,7 +2536,7 @@ Map: R725SCTL Based on: R725SLRS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725slrt/</guid>
-      <description>Total amount of time in milliseconds that Latch Obtain requests were s&amp;hellip;
+      <description>Total amount of time in milliseconds that Latch Obtain requests were suspended
 Map: R725SCTL Based on: R725SLRT Description Total amount of time in milliseconds that Latch Obtain requests were suspended</description>
     </item>
     
@@ -1285,7 +2546,7 @@ Map: R725SCTL Based on: R725SLRT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssma/</guid>
-      <description>Total number of times that a unit of work was suspended on CMS SMF loc&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on CMS SMF lock when there was already at least one other unit of work suspended for the lock
 Map: R725SCTL Based on: R725SSMA Description Total number of times that a unit of work was suspended on CMS SMF lock when there was already at least one other unit of work suspended for the lock</description>
     </item>
     
@@ -1295,7 +2556,7 @@ Map: R725SCTL Based on: R725SSMA Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssms/</guid>
-      <description>Total number of times that a unit of work was suspended on a CMS SMF l&amp;hellip;
+      <description>Total number of times that a unit of work was suspended on a CMS SMF lock
 Map: R725SCTL Based on: R725SSMS Description Total number of times that a unit of work was suspended on a CMS SMF lock</description>
     </item>
     
@@ -1305,7 +2566,7 @@ Map: R725SCTL Based on: R725SSMS Description Total number of times that a unit o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssmt/</guid>
-      <description>Total amount of time in milliseconds that a unit of work was suspended&amp;hellip;
+      <description>Total amount of time in milliseconds that a unit of work was suspended on a CMS SMF lock
 Map: R725SCTL Based on: R725SSMT Description Total amount of time in milliseconds that a unit of work was suspended on a CMS SMF lock</description>
     </item>
     
@@ -1315,7 +2576,7 @@ Map: R725SCTL Based on: R725SSMT Description Total amount of time in millisecond
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sssq/</guid>
-      <description>Total sum of squares of contention time in milliseconds caused by ENQ &amp;hellip;
+      <description>Total sum of squares of contention time in milliseconds caused by ENQ SCOPE=SYSTEMS requests
 Map: R725SCTL Based on: R725SSSQ Description Total sum of squares of contention time in milliseconds caused by ENQ SCOPE=SYSTEMS requests</description>
     </item>
     
@@ -1326,7 +2587,7 @@ Map: R725SCTL Based on: R725SSSQ Description Total sum of squares of contention 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sssr/</guid>
       <description>Total number of ENQ SCOPE=SYSTEMS requests
-Map: R725SCTL Based on: R725SSSR </description>
+Map: R725SCTL Based on: R725SSSR Description Total number of ENQ SCOPE=SYSTEMS requests</description>
     </item>
     
     <item>
@@ -1336,7 +2597,7 @@ Map: R725SCTL Based on: R725SSSR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssss/</guid>
       <description>Total number of ENQ SCOPE=SYSTEMS requests that were suspended
-Map: R725SCTL Based on: R725SSSS </description>
+Map: R725SCTL Based on: R725SSSS Description Total number of ENQ SCOPE=SYSTEMS requests that were suspended</description>
     </item>
     
     <item>
@@ -1345,7 +2606,7 @@ Map: R725SCTL Based on: R725SSSS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssst/</guid>
-      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=SY&amp;hellip;
+      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=SYSTEMS requests
 Map: R725SCTL Based on: R725SSST Description Total amount of contention time in milliseconds caused by ENQ SCOPE=SYSTEMS requests</description>
     </item>
     
@@ -1355,7 +2616,7 @@ Map: R725SCTL Based on: R725SSST Description Total amount of contention time in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sstq/</guid>
-      <description>Total sum of squares of contention time in milliseconds caused by ENQ &amp;hellip;
+      <description>Total sum of squares of contention time in milliseconds caused by ENQ SCOPE=STEP requests
 Map: R725SCTL Based on: R725SSTQ Description Total sum of squares of contention time in milliseconds caused by ENQ SCOPE=STEP requests</description>
     </item>
     
@@ -1366,7 +2627,7 @@ Map: R725SCTL Based on: R725SSTQ Description Total sum of squares of contention 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sstr/</guid>
       <description>Total number of ENQ SCOPE=STEP requests
-Map: R725SCTL Based on: R725SSTR </description>
+Map: R725SCTL Based on: R725SSTR Description Total number of ENQ SCOPE=STEP requests</description>
     </item>
     
     <item>
@@ -1376,7 +2637,7 @@ Map: R725SCTL Based on: R725SSTR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssts/</guid>
       <description>Total number of ENQ SCOPE=STEP requests that were suspended
-Map: R725SCTL Based on: R725SSTS </description>
+Map: R725SCTL Based on: R725SSTS Description Total number of ENQ SCOPE=STEP requests that were suspended</description>
     </item>
     
     <item>
@@ -1385,7 +2646,7 @@ Map: R725SCTL Based on: R725SSTS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725sstt/</guid>
-      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=ST&amp;hellip;
+      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=STEP requests
 Map: R725SCTL Based on: R725SSTT Description Total amount of contention time in milliseconds caused by ENQ SCOPE=STEP requests</description>
     </item>
     
@@ -1395,7 +2656,7 @@ Map: R725SCTL Based on: R725SSTT Description Total amount of contention time in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssyq/</guid>
-      <description>Total sum of squares of suspend contention time in milliseconds caused&amp;hellip;
+      <description>Total sum of squares of suspend contention time in milliseconds caused by ENQ SCOPE=SYSTEM requests
 Map: R725SCTL Based on: R725SSYQ Description Total sum of squares of suspend contention time in milliseconds caused by ENQ SCOPE=SYSTEM requests</description>
     </item>
     
@@ -1406,7 +2667,7 @@ Map: R725SCTL Based on: R725SSYQ Description Total sum of squares of suspend con
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssyr/</guid>
       <description>Total number of ENQ SCOPE=SYSTEM requests
-Map: R725SCTL Based on: R725SSYR </description>
+Map: R725SCTL Based on: R725SSYR Description Total number of ENQ SCOPE=SYSTEM requests</description>
     </item>
     
     <item>
@@ -1416,7 +2677,7 @@ Map: R725SCTL Based on: R725SSYR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssys/</guid>
       <description>Total number of ENQ SCOPE=SYSTEM requests that were suspended
-Map: R725SCTL Based on: R725SSYS </description>
+Map: R725SCTL Based on: R725SSYS Description Total number of ENQ SCOPE=SYSTEM requests that were suspended</description>
     </item>
     
     <item>
@@ -1425,7 +2686,7 @@ Map: R725SCTL Based on: R725SSYS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/r725ssyt/</guid>
-      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=SY&amp;hellip;
+      <description>Total amount of contention time in milliseconds caused by ENQ SCOPE=SYSTEM requests
 Map: R725SCTL Based on: R725SSYT Description Total amount of contention time in milliseconds caused by ENQ SCOPE=SYSTEM requests</description>
     </item>
     
@@ -1435,7 +2696,7 @@ Map: R725SCTL Based on: R725SSYT Description Total amount of contention time in 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ral/</guid>
-      <description>Length of reassembly area. Area consists of a fixed header and a varia&amp;hellip;
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
 Map: SMF72PRO Based on: SMF72RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
     </item>
     
@@ -1445,8 +2706,8 @@ Map: SMF72PRO Based on: SMF72RAL Description Length of reassembly area. Area con
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ran/</guid>
-      <description>Number of reassembly area. This field is used to indicate whether SMF &amp;hellip;
-Map: SMF72PRO Based on: SMF72RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.</description>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF72PRO Based on: SMF72RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
     </item>
     
     <item>
@@ -1456,7 +2717,29 @@ Map: SMF72PRO Based on: SMF72RAN Description Number of reassembly area. This fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
-Map: SMF72PRO Based on: SMF72RAO </description>
+Map: SMF72PRO Based on: SMF72RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF72PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF72PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
     <item>
@@ -1466,7 +2749,7 @@ Map: SMF72PRO Based on: SMF72RAO </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/rty/</guid>
       <description>RECORD TYPE
-Record: SMF72S5 Based on: SMF72RTY </description>
+Record: SMF72S5 Based on: SMF72RTY Description RECORD TYPE</description>
     </item>
     
     <item>
@@ -1476,7 +2759,7 @@ Record: SMF72S5 Based on: SMF72RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sam/</guid>
       <description>Number of samples
-Map: SMF72PRO Based on: SMF72SAM </description>
+Map: SMF72PRO Based on: SMF72SAM Description Number of samples</description>
     </item>
     
     <item>
@@ -1486,7 +2769,7 @@ Map: SMF72PRO Based on: SMF72SAM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sdl/</guid>
       <description>Length of ENQ SCOPE=SYSTEMS data section (subtype 5)
-Record: SMF72S5 Based on: SMF72SDL </description>
+Record: SMF72S5 Based on: SMF72SDL Description Length of ENQ SCOPE=SYSTEMS data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1496,7 +2779,7 @@ Record: SMF72S5 Based on: SMF72SDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sdn/</guid>
       <description>Number of ENQ SCOPE=SYSTEMS data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72SDN </description>
+Record: SMF72S5 Based on: SMF72SDN Description Number of ENQ SCOPE=SYSTEMS data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -1506,7 +2789,7 @@ Record: SMF72S5 Based on: SMF72SDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sds/</guid>
       <description>Offset to ENQ SCOPE=SYSTEMS data section (subtype 5)
-Record: SMF72S5 Based on: SMF72SDS </description>
+Record: SMF72S5 Based on: SMF72SDS Description Offset to ENQ SCOPE=SYSTEMS data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1516,7 +2799,7 @@ Record: SMF72S5 Based on: SMF72SDS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/seg/</guid>
       <description>SEGMENT DESCRIPTOR
-Record: SMF72S5 Based on: SMF72SEG </description>
+Record: SMF72S5 Based on: SMF72SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
@@ -1526,7 +2809,7 @@ Record: SMF72S5 Based on: SMF72SEG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sel/</guid>
       <description>Length of serialization control section (subtype5)
-Record: SMF72S5 Based on: SMF72SEL </description>
+Record: SMF72S5 Based on: SMF72SEL Description Length of serialization control section (subtype5)</description>
     </item>
     
     <item>
@@ -1536,7 +2819,7 @@ Record: SMF72S5 Based on: SMF72SEL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sen/</guid>
       <description>Number of serialization control section (subtype5)
-Record: SMF72S5 Based on: SMF72SEN </description>
+Record: SMF72S5 Based on: SMF72SEN Description Number of serialization control section (subtype5)</description>
     </item>
     
     <item>
@@ -1546,7 +2829,7 @@ Record: SMF72S5 Based on: SMF72SEN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ses/</guid>
       <description>Offset to serialization control section (subtype5)
-Record: SMF72S5 Based on: SMF72SES </description>
+Record: SMF72S5 Based on: SMF72SES Description Offset to serialization control section (subtype5)</description>
     </item>
     
     <item>
@@ -1555,7 +2838,7 @@ Record: SMF72S5 Based on: SMF72SES </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sid/</guid>
-      <description>System ID
+      <description>SYSTEM ID FROM INSTALLATION
 Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
@@ -1566,7 +2849,7 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sml/</guid>
       <description>Length of CMS SMF lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72SML </description>
+Record: SMF72S5 Based on: SMF72SML Description Length of CMS SMF lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1576,7 +2859,7 @@ Record: SMF72S5 Based on: SMF72SML </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/smn/</guid>
       <description>Number of CMS SMF lock data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72SMN </description>
+Record: SMF72S5 Based on: SMF72SMN Description Number of CMS SMF lock data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -1586,7 +2869,7 @@ Record: SMF72S5 Based on: SMF72SMN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sms/</guid>
       <description>Offset to CMS SMF lock data section (subtype 5)
-Record: SMF72S5 Based on: SMF72SMS </description>
+Record: SMF72S5 Based on: SMF72SMS Description Offset to CMS SMF lock data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1596,7 +2879,7 @@ Record: SMF72S5 Based on: SMF72SMS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/snm/</guid>
       <description>System name for current system as defined in CVTSNAME
-Map: SMF72PRO Based on: SMF72SNM </description>
+Map: SMF72PRO Based on: SMF72SNM Description System name for current system as defined in CVTSNAME</description>
     </item>
     
     <item>
@@ -1606,7 +2889,7 @@ Map: SMF72PRO Based on: SMF72SNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/srl/</guid>
       <description>SMF record level
-Map: SMF72PRO Based on: SMF72SRL </description>
+Map: SMF72PRO Based on: SMF72SRL Description SMF record level</description>
     </item>
     
     <item>
@@ -1616,7 +2899,7 @@ Map: SMF72PRO Based on: SMF72SRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
-Record: SMF72S5 Based on: SMF72SSI </description>
+Record: SMF72S5 Based on: SMF72SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
@@ -1626,7 +2909,7 @@ Record: SMF72S5 Based on: SMF72SSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/sty/</guid>
       <description>SUBTYPE
-Record: SMF72S5 Based on: SMF72STY </description>
+Record: SMF72S5 Based on: SMF72STY Description SUBTYPE</description>
     </item>
     
     <item>
@@ -1636,7 +2919,8 @@ Record: SMF72S5 Based on: SMF72STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/subtypes_used/</guid>
       <description>SUBTYPES USED
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF72S5 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -1646,7 +2930,7 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/syn/</guid>
       <description>SYNC value in seconds
-Map: SMF72PRO Based on: SMF72SYN </description>
+Map: SMF72PRO Based on: SMF72SYN Description SYNC value in seconds</description>
     </item>
     
     <item>
@@ -1656,7 +2940,7 @@ Map: SMF72PRO Based on: SMF72SYN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/tdl/</guid>
       <description>Length of ENQ SCOPE=STEP data section (subtype 5)
-Record: SMF72S5 Based on: SMF72TDL </description>
+Record: SMF72S5 Based on: SMF72TDL Description Length of ENQ SCOPE=STEP data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1666,7 +2950,7 @@ Record: SMF72S5 Based on: SMF72TDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/tdn/</guid>
       <description>Number of ENQ SCOPE=STEP data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72TDN </description>
+Record: SMF72S5 Based on: SMF72TDN Description Number of ENQ SCOPE=STEP data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -1676,7 +2960,7 @@ Record: SMF72S5 Based on: SMF72TDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/tds/</guid>
       <description>Offset to ENQ SCOPE=STEP data section (subtype 5)
-Record: SMF72S5 Based on: SMF72TDS </description>
+Record: SMF72S5 Based on: SMF72TDS Description Offset to ENQ SCOPE=STEP data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1695,8 +2979,8 @@ Record: SMF72S5 Based on: SMF72TME </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/timestamp/</guid>
-      <description>Record Time Stamp
-Record: SMF72S5 Based on: time, date Description Timestamp from SMF data.
+      <description>Record Timestamp
+Record: SMF72S5 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
     </item>
     
@@ -1706,8 +2990,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/tme/</guid>
-      <description>TOD RECORD WRITTEN
-Record: SMF72S5 Based on: SMF72TME </description>
+      <description>TIME RECORD WRITTEN
+Record: SMF72S5 Based on: SMF72TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -1717,7 +3001,7 @@ Record: SMF72S5 Based on: SMF72TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
-Record: SMF72S5 Based on: SMF72TRN </description>
+Record: SMF72S5 Based on: SMF72TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
@@ -1727,7 +3011,8 @@ Record: SMF72S5 Based on: SMF72TRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+Record: SMF72S5 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
     </item>
     
     <item>
@@ -1737,7 +3022,8 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/vxa/</guid>
       <description>MVS/XA IF ON
-Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+Record: SMF72S5 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
     </item>
     
     <item>
@@ -1747,7 +3033,7 @@ Record: SMF72S5 Based on: flg Post-Processed This virtual field corresponds to t
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/xnm/</guid>
       <description>Sysplex name as defined in ECVTSPLX
-Map: SMF72PRO Based on: SMF72XNM </description>
+Map: SMF72PRO Based on: SMF72XNM Description Sysplex name as defined in ECVTSPLX</description>
     </item>
     
     <item>
@@ -1757,7 +3043,7 @@ Map: SMF72PRO Based on: SMF72XNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ydl/</guid>
       <description>Length of ENQ SCOPE=SYSTEM data section (subtype 5)
-Record: SMF72S5 Based on: SMF72YDL </description>
+Record: SMF72S5 Based on: SMF72YDL Description Length of ENQ SCOPE=SYSTEM data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1767,7 +3053,7 @@ Record: SMF72S5 Based on: SMF72YDL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ydn/</guid>
       <description>Number of ENQ SCOPE=SYSTEM data sections (subtype 5)
-Record: SMF72S5 Based on: SMF72YDN </description>
+Record: SMF72S5 Based on: SMF72YDN Description Number of ENQ SCOPE=SYSTEM data sections (subtype 5)</description>
     </item>
     
     <item>
@@ -1777,7 +3063,7 @@ Record: SMF72S5 Based on: SMF72YDN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/yds/</guid>
       <description>Offset to ENQ SCOPE=SYSTEM data section (subtype 5)
-Record: SMF72S5 Based on: SMF72YDS </description>
+Record: SMF72S5 Based on: SMF72YDS Description Offset to ENQ SCOPE=SYSTEM data section (subtype 5)</description>
     </item>
     
     <item>
@@ -1787,7 +3073,8 @@ Record: SMF72S5 Based on: SMF72YDS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/zaap_inst/</guid>
       <description>At least one zAAP is currently installed
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -1797,7 +3084,8 @@ Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S5/fields/ziip_inst/</guid>
       <description>At least one zIIP is currently installed
-Map: SMF72PRO Based on: prf Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
   </channel>

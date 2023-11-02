@@ -6,13 +6,23 @@
     <description>Recent content in SMF 99 Subtype  12 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Field - c_vcm_srb_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/c_vcm_srb_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/c_vcm_srb_flags/</guid>
+      <description>For IBM use only
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_SRB_FLAGS Description For IBM use only</description>
+    </item>
+    
+    <item>
       <title>Field - cec_capacity_used</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cec_capacity_used/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cec_capacity_used/</guid>
-      <description>CEC capacity used in microseconds, adjusted to the scheduled VCM inter&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSEDADJ Description CEC capacity used in microseconds, adjusted to the scheduled VCM interval length @OA37736C</description>
+      <description>CEC capacity used in microseconds, adjusted to the scheduled VCM interval length
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSEDADJ Description CEC capacity used in microseconds, adjusted to the scheduled VCM interval length</description>
     </item>
     
     <item>
@@ -21,8 +31,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSEDADJ Description CEC
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cec_capacity_used_ms/</guid>
-      <description>CEC capacity used in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSED </description>
+      <description>CEC capacity used in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSED Description CEC capacity used in microseconds</description>
     </item>
     
     <item>
@@ -31,8 +41,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPUSED </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cec_free_capacity/</guid>
-      <description>Free CEC capacity in microseconds, adjusted to the scheduled VCM inter&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREE Description Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length @OA37736C</description>
+      <description>Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREE Description Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length</description>
     </item>
     
     <item>
@@ -41,8 +51,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREE Description Free C
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cec_utilization/</guid>
-      <description>Total CEC utilization, scaled by 256 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECUTIL Post-Processed The value is scaled by 25600.</description>
+      <description>Total CEC utilization, scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECUTIL Description Total CEC utilization, scaled by 256
+Post-Processed The value is scaled by 25600.</description>
     </item>
     
     <item>
@@ -73,8 +84,8 @@ Source value IBM SMF Explorer meaning 1 CP 2 zAAP 3 zIIP default No Processor </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cpu_vh/</guid>
-      <description>Number VHs @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPUHI </description>
+      <description>Number VHs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPUHI Description Number VHs</description>
     </item>
     
     <item>
@@ -83,8 +94,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPUHI </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cpu_vl/</guid>
-      <description>Number VLs @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULO </description>
+      <description>Number VLs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULO Description Number VLs</description>
     </item>
     
     <item>
@@ -93,8 +104,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULO </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/cpu_vm/</guid>
-      <description>Number of VMs @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPUMED </description>
+      <description>Number of VMs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPUMED Description Number of VMs</description>
     </item>
     
     <item>
@@ -114,7 +125,7 @@ Record: SMF99S12 Based on: SMF99DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/dln/</guid>
       <description>Length of the data section
-Map: SMF99_SDEF_MAP Based on: SMF99DLN </description>
+Map: SMF99_SDEF_MAP Based on: SMF99DLN Description Length of the data section</description>
     </item>
     
     <item>
@@ -123,7 +134,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99DLN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/dof/</guid>
-      <description>Offset to the data section from the beginning of the record (including&amp;hellip;
+      <description>Offset to the data section from the beginning of the record (including RDW)
 Map: SMF99_SDEF_MAP Based on: SMF99DOF Description Offset to the data section from the beginning of the record (including RDW)</description>
     </item>
     
@@ -134,7 +145,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99DOF Description Offset to the data section fr
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/don/</guid>
       <description>Number of data sections
-Map: SMF99_SDEF_MAP Based on: SMF99DON </description>
+Map: SMF99_SDEF_MAP Based on: SMF99DON Description Number of data sections</description>
     </item>
     
     <item>
@@ -143,7 +154,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99DON </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/dte/</guid>
-      <description>Date when the record was moved into the SMF buffer, in the form 0cyydd&amp;hellip;
+      <description>Date when the record was moved into the SMF buffer, in the form 0cyydddF.
 Record: SMF99S12 Based on: SMF99DTE Description Date when the record was moved into the SMF buffer, in the form 0cyydddF.</description>
     </item>
     
@@ -153,8 +164,8 @@ Record: SMF99S12 Based on: SMF99DTE Description Date when the record was moved i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/flg/</guid>
-      <description>System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reser&amp;hellip;
-Record: SMF99S12 Based on: SMF99FLG Description &amp;ldquo;System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved&amp;rdquo;
+      <description>System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved
+Record: SMF99S12 Based on: SMF99FLG Description System indicator: Bit 0 reserved, Bit 1 subtypes utilized, Bit 2 reserved, Bits 3-6 version indicators, Bit 7 reserved
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description stu 1 Subtypes utilized </description>
     </item>
@@ -338,8 +349,8 @@ return vcm_diagincrunusedcap &amp;amp; vcm_diagdecrprsmcapvhutil &amp;amp; vcm_d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_cap_length/</guid>
-      <description>Length of capacity data section @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_LENGTH </description>
+      <description>Length of capacity data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_LENGTH Description Length of capacity data section</description>
     </item>
     
     <item>
@@ -348,8 +359,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_LENGTH </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_cap_number/</guid>
-      <description>Number of capacity data sections @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_NUMBER </description>
+      <description>Number of capacity data sections
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_NUMBER Description Number of capacity data sections</description>
     </item>
     
     <item>
@@ -358,8 +369,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_NUMBER </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_cap_offset/</guid>
-      <description>Offset to capacity data section @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_OFFSET </description>
+      <description>Offset to capacity data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_OFFSET Description Offset to capacity data section</description>
     </item>
     
     <item>
@@ -368,8 +379,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_CAP_OFFSET </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_cap_proctype/</guid>
-      <description>SMF99.12 capacity data processor type @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_HD_INT_CAP_PROCTYPE </description>
+      <description>SMF99.12 capacity data processor type
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_HD_INT_CAP_PROCTYPE Description SMF99.12 capacity data processor type</description>
     </item>
     
     <item>
@@ -378,8 +389,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_HD_INT_CAP_PROCTYPE </description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_hdr_length/</guid>
-      <description>Length of header data section @ME14601C
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_LENGTH </description>
+      <description>Length of header data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_LENGTH Description Length of header data section</description>
     </item>
     
     <item>
@@ -388,8 +399,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_LENGTH </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_hdr_number/</guid>
-      <description>Number of header data sections @ME14601C
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_NUMBER </description>
+      <description>Number of header data sections
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_NUMBER Description Number of header data sections</description>
     </item>
     
     <item>
@@ -398,8 +409,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_NUMBER </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_hdr_offset/</guid>
-      <description>Offset to header data section @ME14601C
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_OFFSET </description>
+      <description>Offset to header data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_OFFSET Description Offset to header data section</description>
     </item>
     
     <item>
@@ -408,8 +419,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_HDR_OFFSET </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_proc_idx/</guid>
-      <description>HiperDispatch interval processor index @ME14601A
-Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_HD_INT_PROC_IDX </description>
+      <description>HiperDispatch interval processor index
+Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_HD_INT_PROC_IDX Description HiperDispatch interval processor index</description>
     </item>
     
     <item>
@@ -418,8 +429,8 @@ Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_HD_INT_PROC_IDX </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_proc_length/</guid>
-      <description>Length of processor data section @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_LENGTH </description>
+      <description>Length of processor data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_LENGTH Description Length of processor data section</description>
     </item>
     
     <item>
@@ -428,8 +439,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_LENGTH </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_proc_number/</guid>
-      <description>Number of processor data sections @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_NUMBER </description>
+      <description>Number of processor data sections
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_NUMBER Description Number of processor data sections</description>
     </item>
     
     <item>
@@ -438,8 +449,8 @@ Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_NUMBER </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/hd_int_proc_offset/</guid>
-      <description>Offset to processor data section @ME14601A
-Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_OFFSET </description>
+      <description>Offset to processor data section
+Map: SMF99_S12_SDEF_MAP Based on: SMF9912_HD_INT_PROC_OFFSET Description Offset to processor data section</description>
     </item>
     
     <item>
@@ -461,7 +472,10 @@ hd_action_unpark_filter = ~hd_action_unpark hd_action_unpark_capping_filter= ~hd
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/samples/hiper_dispatch/</guid>
       <description>Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_capacity_guaranteed_vm SMF99C_VCM_LPARCAPMEDGUARAN Guaranteed LPAR capacity on VMs in microseconds @OA37736C integer vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds @OA37736C integer lpar_capacity_unused SMF99C_VCM_LPARUNUSEDCAP Unused LPAR capacity in microseconds, including the unused capacity sh&amp;hellip; integer lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated fr&amp;hellip; integer vcm_ceccaptotal SMF99C_VCM_CECCAPTOTAL Total CEC capacity in microseconds @OA37736C integer lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval l&amp;hellip; integer cec_capacity_used SMF99C_VCM_CECCAPUSEDADJ CEC capacity used in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer lpar_busy_projected processedSMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 @OA37736C integer cec_free_capacity SMF99C_VCM_CECCAPFREE Free CEC capacity in microseconds, adjusted to the scheduled VCM inter&amp;hellip; integer cpu_vm SMF99C_VCM_CPUMED Number of VMs @OA37736C integer lpar_busy virtuallpar_capacity_used</description>
+Name Based on Description Type/Format vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer lpar_capacity_unused SMF99C_VCM_LPARUNUSEDCAP Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR integer hd_action_explanation virtual hd_action_no_unparking_no_free_capacity
+hd_action_no_unparking_no_vl
+hd_action_unpark
+hd_action_unpark_no_free_capacity</description>
     </item>
     
     <item>
@@ -470,9 +484,10 @@ Name Based on Description Type/Format lpar_capacity_guaranteed_vm SMF99C_VCM_LPA
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lccadsf2/</guid>
-      <description>Processor Flag 1 @ME14601A
-Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_LCCADSF2 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description lccapark 1 Processor parked @ME14601A </description>
+      <description>Processor Flag 1
+Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_LCCADSF2 Description Processor Flag 1
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description lccapark 1 Processor parked </description>
     </item>
     
     <item>
@@ -481,8 +496,9 @@ Field Bit-Position Description lccapark 1 Processor parked @ME14601A </descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lccapark/</guid>
-      <description>Processor parked @ME14601A
-Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccadsf2 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field lccadsf2.</description>
+      <description>Processor parked
+Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccadsf2 Description Processor parked
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field lccadsf2.</description>
     </item>
     
     <item>
@@ -491,8 +507,9 @@ Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccadsf2 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lccappnd/</guid>
-      <description>Processor park request pending @ME14601A
-Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccascfl Post-Processed This virtual field corresponds to the flag at bit-position 7 of field lccascfl.</description>
+      <description>Processor park request pending
+Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccascfl Description Processor park request pending
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field lccascfl.</description>
     </item>
     
     <item>
@@ -501,9 +518,10 @@ Map: SMF99_S12_HD_INT_PROC_MAP Based on: lccascfl Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lccascfl/</guid>
-      <description>Processor Flag 2 @ME14601A
-Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_LCCASCFL Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description lccappnd 7 Processor park request pending @ME14601A </description>
+      <description>Processor Flag 2
+Map: SMF99_S12_HD_INT_PROC_MAP Based on: SMF99C_LCCASCFL Description Processor Flag 2
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description lccappnd 7 Processor park request pending </description>
     </item>
     
     <item>
@@ -512,7 +530,7 @@ Field Bit-Position Description lccappnd 7 Processor park request pending @ME1460
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/len/</guid>
-      <description>Record Length. This field and the next field (total of four bytes) for&amp;hellip;
+      <description>Record Length. This field and the next field (total of four bytes) form the RDW (record descriptor word).
 Record: SMF99S12 Based on: SMF99LEN Description Record Length. This field and the next field (total of four bytes) form the RDW (record descriptor word).</description>
     </item>
     
@@ -534,8 +552,9 @@ return lpar_capacity_used / cpu_total / 20000 </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_busy_projected/</guid>
-      <description>Projected MvsBusy, scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYPROJECTED Post-Processed The value is scaled by 16.</description>
+      <description>Projected MvsBusy, scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYPROJECTED Description Projected MvsBusy, scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -544,8 +563,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYPROJECTED Post-Process
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_cap_used_non_guaranteed/</guid>
-      <description>Used capacity of the non-guaranteed capacity (partially VM and unparke&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDDISCR Description Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length @OA37736C</description>
+      <description>Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDDISCR Description Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length</description>
     </item>
     
     <item>
@@ -554,8 +573,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDDISCR Description 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_allocated/</guid>
-      <description>Allocated LPAR capcacity in microseconds. The allocated capacity is pr&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOC Description Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs @OA37736C</description>
+      <description>Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOC Description Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs</description>
     </item>
     
     <item>
@@ -564,8 +583,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOC Description Allo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed/</guid>
-      <description>Guaranteed LPAR capcacity in microseconds. This value is calculated fr&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPGUARAN Description Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. @OA37736C</description>
+      <description>Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPGUARAN Description Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.</description>
     </item>
     
     <item>
@@ -574,8 +593,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPGUARAN Description Gua
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed_vm/</guid>
-      <description>Guaranteed LPAR capacity on VMs in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPMEDGUARAN </description>
+      <description>Guaranteed LPAR capacity on VMs in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPMEDGUARAN Description Guaranteed LPAR capacity on VMs in microseconds</description>
     </item>
     
     <item>
@@ -584,8 +603,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPMEDGUARAN </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_non_guaranteed/</guid>
-      <description>Non guaranteed LPAR capacity in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPNONGUARAN </description>
+      <description>Non guaranteed LPAR capacity in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPNONGUARAN Description Non guaranteed LPAR capacity in microseconds</description>
     </item>
     
     <item>
@@ -594,8 +613,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPNONGUARAN </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_share_unused/</guid>
-      <description>Unused capacity share for this LPAR in microseconds @OA37736A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAPSHARE </description>
+      <description>Unused capacity share for this LPAR in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAPSHARE Description Unused capacity share for this LPAR in microseconds</description>
     </item>
     
     <item>
@@ -604,8 +623,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAPSHARE </descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_unused/</guid>
-      <description>Unused LPAR capacity in microseconds, including the unused capacity sh&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAP Description Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR @OA37736A</description>
+      <description>Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAP Description Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR</description>
     </item>
     
     <item>
@@ -614,7 +633,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARUNUSEDCAP Description Unu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_used/</guid>
-      <description>Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&amp;hellip;
+      <description>Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length
 Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDADJ Description Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length</description>
     </item>
     
@@ -624,8 +643,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDADJ Description Us
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vh/</guid>
-      <description>Used VH capacity of previous interval in microseconds @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVHADJ </description>
+      <description>Used VH capacity of previous interval in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVHADJ Description Used VH capacity of previous interval in microseconds</description>
     </item>
     
     <item>
@@ -634,8 +653,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVHADJ </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vm_vl/</guid>
-      <description>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval l&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMVL Description Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length @OA37736C</description>
+      <description>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMVL Description Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length</description>
     </item>
     
     <item>
@@ -645,7 +664,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMVL Description U
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_badrv_ready_for_mt/</guid>
       <description>HiperDispatch is now ready for MT mode switches
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field mt_flag1.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Description HiperDispatch is now ready for MT mode switches
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field mt_flag1.</description>
     </item>
     
     <item>
@@ -654,8 +674,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual fie
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_cf/</guid>
-      <description>Capacity factor of processor class.
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CF Description Scaled by 1024</description>
+      <description>Capacity factor of processor class. Scaled by 1024
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CF Description Capacity factor of processor class. Scaled by 1024</description>
     </item>
     
     <item>
@@ -665,7 +685,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CF Description Scaled by 1024<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_curr/</guid>
       <description>MT mode currently in use
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CURR </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CURR Description MT mode currently in use</description>
     </item>
     
     <item>
@@ -675,8 +695,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_CURR </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_flag1/</guid>
       <description>1st MT flag byte
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_MT_FLAG1 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description mt_badrv_ready_for_mt 4 HiperDispatch is now ready for MT mode switches mt_multicpuspercore 1 Multiple CPUs defined within a CPU Core mt_procascore 0 Processor resource is viewed as a CPU core </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_MT_FLAG1 Description 1st MT flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description mt_procascore 0 Processor resource is viewed as a CPU core mt_multicpuspercore 1 Multiple CPUs defined within a CPU Core mt_badrv_ready_for_mt 4 HiperDispatch is now ready for MT mode switches </description>
     </item>
     
     <item>
@@ -686,8 +707,9 @@ Field Bit-Position Description mt_badrv_ready_for_mt 4 HiperDispatch is now read
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_flag2/</guid>
       <description>2nd MT flag byte
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_MT_FLAG2 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description mt_modechgduetosupmt1_pend 4 MT mode change is pending due to supervisor request mt_modechgduetowaitcmp_pend 3 MT mode change is pending due to Wait completion status change mt_modechgduetohismt_pend 2 MT mode change is pending due to HISMT recovery mt_sup_recovery_pend 1 The supervisor requested MT reconfiguration is pending mt_modechgduetostsi_pend 0 MT mode change is pending due to STSI </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_MT_FLAG2 Description 2nd MT flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description mt_modechgduetostsi_pend 0 MT mode change is pending due to STSI mt_sup_recovery_pend 1 The supervisor requested MT reconfiguration is pending mt_modechgduetohismt_pend 2 MT mode change is pending due to HISMT recovery mt_modechgduetowaitcmp_pend 3 MT mode change is pending due to Wait completion status change mt_modechgduetosupmt1_pend 4 MT mode change is pending due to supervisor request </description>
     </item>
     
     <item>
@@ -696,8 +718,8 @@ Field Bit-Position Description mt_modechgduetosupmt1_pend 4 MT mode change is pe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_mcf/</guid>
-      <description>Maximum capacity factor of processor class.
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_MCF Description Scaled by 1024</description>
+      <description>Maximum capacity factor of processor class. Scaled by 1024
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_MCF Description Maximum capacity factor of processor class. Scaled by 1024</description>
     </item>
     
     <item>
@@ -707,7 +729,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_MCF Description Scaled by 1024
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_modechgduetohismt_pend/</guid>
       <description>MT mode change is pending due to HISMT recovery
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field mt_flag2.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Description MT mode change is pending due to HISMT recovery
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field mt_flag2.</description>
     </item>
     
     <item>
@@ -717,7 +740,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_modechgduetostsi_pend/</guid>
       <description>MT mode change is pending due to STSI
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field mt_flag2.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Description MT mode change is pending due to STSI
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field mt_flag2.</description>
     </item>
     
     <item>
@@ -727,7 +751,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_modechgduetosupmt1_pend/</guid>
       <description>MT mode change is pending due to supervisor request
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field mt_flag2.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Description MT mode change is pending due to supervisor request
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field mt_flag2.</description>
     </item>
     
     <item>
@@ -737,7 +762,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_modechgduetowaitcmp_pend/</guid>
       <description>MT mode change is pending due to Wait completion status change
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field mt_flag2.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Description MT mode change is pending due to Wait completion status change
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field mt_flag2.</description>
     </item>
     
     <item>
@@ -747,7 +773,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_multicpuspercore/</guid>
       <description>Multiple CPUs defined within a CPU Core
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field mt_flag1.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Description Multiple CPUs defined within a CPU Core
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field mt_flag1.</description>
     </item>
     
     <item>
@@ -757,7 +784,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_opt_inuse/</guid>
       <description>MT mode value as forced by environment
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_INUSE </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_INUSE Description MT mode value as forced by environment</description>
     </item>
     
     <item>
@@ -767,7 +794,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_INUSE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_opt_orig/</guid>
       <description>MT mode value
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_ORIG </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_ORIG Description MT mode value</description>
     </item>
     
     <item>
@@ -777,7 +804,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_OPT_ORIG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_procascore/</guid>
       <description>Processor resource is viewed as a CPU core
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field mt_flag1.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Description Processor resource is viewed as a CPU core
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field mt_flag1.</description>
     </item>
     
     <item>
@@ -787,7 +815,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag1 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_sup_recovery_pend/</guid>
       <description>The supervisor requested MT reconfiguration is pending
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field mt_flag2.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Description The supervisor requested MT reconfiguration is pending
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field mt_flag2.</description>
     </item>
     
     <item>
@@ -797,7 +826,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: mt_flag2 Post-Processed This virtual fie
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mt_tgt/</guid>
       <description>MT mode target value
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_TGT </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_TGT Description MT mode target value</description>
     </item>
     
     <item>
@@ -806,8 +835,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_MT_TGT </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/mvs_busy/</guid>
-      <description>Average CPU usage scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSY Post-Processed The value is scaled by 16.</description>
+      <description>Average CPU usage scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSY Description Average CPU usage scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -817,8 +847,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSY Post-Processed The va
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/pflg/</guid>
       <description>Record flags
-Map: SMF99_PRODUCT_MAP Based on: SMF99PFLG Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description reasm_indicator 1 Only a subset of the available data is written to this record. The res&amp;hellip; record_incomplete 0 Only a subset of the available data was written to avoid that this rec&amp;hellip; </description>
+Map: SMF99_PRODUCT_MAP Based on: SMF99PFLG Description Record flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description record_incomplete 0 Only a subset of the available data was written to avoid that this record gets larger than 32 kByte reasm_indicator 1 Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.</description>
     </item>
     
     <item>
@@ -828,7 +859,7 @@ Field Bit-Position Description reasm_indicator 1 Only a subset of the available 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/pln/</guid>
       <description>Length of the product section
-Map: SMF99_SDEF_MAP Based on: SMF99PLN </description>
+Map: SMF99_SDEF_MAP Based on: SMF99PLN Description Length of the product section</description>
     </item>
     
     <item>
@@ -838,7 +869,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99PLN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/pnm/</guid>
       <description>Product Name - SRM
-Map: SMF99_PRODUCT_MAP Based on: SMF99PNM </description>
+Map: SMF99_PRODUCT_MAP Based on: SMF99PNM Description Product Name - SRM</description>
     </item>
     
     <item>
@@ -847,7 +878,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99PNM </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/pof/</guid>
-      <description>Offset to the product section from the beginning of the record (includ&amp;hellip;
+      <description>Offset to the product section from the beginning of the record (including RDW)
 Map: SMF99_SDEF_MAP Based on: SMF99POF Description Offset to the product section from the beginning of the record (including RDW)</description>
     </item>
     
@@ -858,7 +889,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99POF Description Offset to the product section
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/pon/</guid>
       <description>Number of product sections
-Map: SMF99_SDEF_MAP Based on: SMF99PON </description>
+Map: SMF99_SDEF_MAP Based on: SMF99PON Description Number of product sections</description>
     </item>
     
     <item>
@@ -867,7 +898,7 @@ Map: SMF99_SDEF_MAP Based on: SMF99PON </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/reasm_indicator/</guid>
-      <description>Only a subset of the available data is written to this record. The res&amp;hellip;
+      <description>Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
 Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data is written to this record. The rest follows in subsequent records. This record contains a reassembly area.
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pflg.</description>
     </item>
@@ -878,7 +909,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/record_incomplete/</guid>
-      <description>Only a subset of the available data was written to avoid that this rec&amp;hellip;
+      <description>Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
 Map: SMF99_PRODUCT_MAP Based on: pflg Description Only a subset of the available data was written to avoid that this record gets larger than 32 kByte
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pflg.</description>
     </item>
@@ -890,7 +921,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/rty/</guid>
       <description>Record type 99
-Record: SMF99S12 Based on: SMF99RTY </description>
+Record: SMF99S12 Based on: SMF99RTY Description Record type 99</description>
     </item>
     
     <item>
@@ -900,7 +931,7 @@ Record: SMF99S12 Based on: SMF99RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/rvn/</guid>
       <description>Record Version Number
-Map: SMF99_PRODUCT_MAP Based on: SMF99RVN </description>
+Map: SMF99_PRODUCT_MAP Based on: SMF99RVN Description Record Version Number</description>
     </item>
     
     <item>
@@ -910,7 +941,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99RVN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/sdef_len/</guid>
       <description>Length of self definition section
-Record: SMF99S12 Based on: SMF99_SDEF_LEN </description>
+Record: SMF99S12 Based on: SMF99_SDEF_LEN Description Length of self definition section</description>
     </item>
     
     <item>
@@ -920,7 +951,7 @@ Record: SMF99S12 Based on: SMF99_SDEF_LEN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/seg/</guid>
       <description>Segment descriptor (see record length field)
-Record: SMF99S12 Based on: SMF99SEG </description>
+Record: SMF99S12 Based on: SMF99SEG Description Segment descriptor (see record length field)</description>
     </item>
     
     <item>
@@ -929,7 +960,7 @@ Record: SMF99S12 Based on: SMF99SEG </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/sid/</guid>
-      <description>System ID
+      <description>System identification (from the SID parameter).
 Record: SMF99S12 Based on: SMF99SID Description System identification (from the SID parameter).</description>
     </item>
     
@@ -940,7 +971,7 @@ Record: SMF99S12 Based on: SMF99SID Description System identification (from the 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/slv/</guid>
       <description>System level from which record was cut (copied from CVTPRODN)
-Map: SMF99_PRODUCT_MAP Based on: SMF99SLV </description>
+Map: SMF99_PRODUCT_MAP Based on: SMF99SLV Description System level from which record was cut (copied from CVTPRODN)</description>
     </item>
     
     <item>
@@ -950,7 +981,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99SLV </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/snm/</guid>
       <description>System name from which record was cut (copied from CVTSNAME)
-Map: SMF99_PRODUCT_MAP Based on: SMF99SNM </description>
+Map: SMF99_PRODUCT_MAP Based on: SMF99SNM Description System name from which record was cut (copied from CVTSNAME)</description>
     </item>
     
     <item>
@@ -960,7 +991,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99SNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/ssid/</guid>
       <description>Sub System Identification
-Record: SMF99S12 Based on: SMF99SSID </description>
+Record: SMF99S12 Based on: SMF99SSID Description Sub System Identification</description>
     </item>
     
     <item>
@@ -970,7 +1001,8 @@ Record: SMF99S12 Based on: SMF99SSID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/stu/</guid>
       <description>Subtypes utilized
-Record: SMF99S12 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF99S12 Based on: flg Description Subtypes utilized
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -980,7 +1012,7 @@ Record: SMF99S12 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/tid/</guid>
       <description>Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)
-Record: SMF99S12 Based on: SMF99TID </description>
+Record: SMF99S12 Based on: SMF99TID Description Record subtype (must be at offset &amp;lsquo;16&amp;rsquo;X)</description>
     </item>
     
     <item>
@@ -999,8 +1031,8 @@ Record: SMF99S12 Based on: SMF99TME </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/timestamp/</guid>
-      <description>Record Time Stamp
-Record: SMF99S12 Based on: time, date Description Timestamp from SMF data.
+      <description>Record Timestamp
+Record: SMF99S12 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
     </item>
     
@@ -1010,7 +1042,7 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/tme/</guid>
-      <description>Time since midnight, in hundreths of a second, that the record was mov&amp;hellip;
+      <description>Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer
 Record: SMF99S12 Based on: SMF99TME Description Time since midnight, in hundreths of a second, that the record was moved into the SMF buffer</description>
     </item>
     
@@ -1020,8 +1052,8 @@ Record: SMF99S12 Based on: SMF99TME Description Time since midnight, in hundreth
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ceccapfreelimit/</guid>
-      <description>CEC free limit for unparking, scaled by 256 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREELIMIT </description>
+      <description>CEC free limit for unparking, scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREELIMIT Description CEC free limit for unparking, scaled by 256</description>
     </item>
     
     <item>
@@ -1030,8 +1062,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPFREELIMIT </description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ceccaptotal/</guid>
-      <description>Total CEC capacity in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPTOTAL </description>
+      <description>Total CEC capacity in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPTOTAL Description Total CEC capacity in microseconds</description>
     </item>
     
     <item>
@@ -1040,8 +1072,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECCAPTOTAL </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ceccapvalid/</guid>
-      <description>CEC capacities are valid @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag2.</description>
+      <description>CEC capacities are valid
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description CEC capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -1050,8 +1083,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cecphysmgmtime/</guid>
-      <description>Physical LPAR management time of all CPUs in microseconds @OA37736A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIME </description>
+      <description>Physical LPAR management time of all CPUs in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIME Description Physical LPAR management time of all CPUs in microseconds</description>
     </item>
     
     <item>
@@ -1060,8 +1093,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIME </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cecphysmgmtimeadj/</guid>
-      <description>Physical LPAR management time of all CPUs, adjusted to the scheduled V&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIMEADJ Description Physical LPAR management time of all CPUs, adjusted to the scheduled VCM interval length @OA37736A</description>
+      <description>Physical LPAR management time of all CPUs, adjusted to the scheduled VCM interval length
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIMEADJ Description Physical LPAR management time of all CPUs, adjusted to the scheduled VCM interval length</description>
     </item>
     
     <item>
@@ -1071,7 +1104,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECPHYSMGMTIMEADJ Description
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cecsharedcps/</guid>
       <description>Number of shared CPUs/Cores
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECSHAREDCPS </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECSHAREDCPS Description Number of shared CPUs/Cores</description>
     </item>
     
     <item>
@@ -1080,8 +1113,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECSHAREDCPS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cectotlparwgtaboveguaran/</guid>
-      <description>Total weight of all LPARs with a processor demand above guaranteed cap&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTLPARWGTABOVEGUARAN Description Total weight of all LPARs with a processor demand above guaranteed capacity. The weight of the requesting LPAR is always included @OA37736A</description>
+      <description>Total weight of all LPARs with a processor demand above guaranteed capacity. The weight of the requesting LPAR is always included
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTLPARWGTABOVEGUARAN Description Total weight of all LPARs with a processor demand above guaranteed capacity. The weight of the requesting LPAR is always included</description>
     </item>
     
     <item>
@@ -1090,8 +1123,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTLPARWGTABOVEGUARAN Desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cectotunusedcap/</guid>
-      <description>Total unused capacity of all LPARs in CEC in microseconds. The unused &amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTUNUSEDCAP Description Total unused capacity of all LPARs in CEC in microseconds. The unused capacity of the requesting LPAR is not included @OA37736A</description>
+      <description>Total unused capacity of all LPARs in CEC in microseconds. The unused capacity of the requesting LPAR is not included
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTUNUSEDCAP Description Total unused capacity of all LPARs in CEC in microseconds. The unused capacity of the requesting LPAR is not included</description>
     </item>
     
     <item>
@@ -1101,7 +1134,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECTOTUNUSEDCAP Description T
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cecutilthrpark/</guid>
       <description>CEC utilization threshold for parking scaled by 256
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECUTILTHRPARK </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECUTILTHRPARK Description CEC utilization threshold for parking scaled by 256</description>
     </item>
     
     <item>
@@ -1110,8 +1143,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CECUTILTHRPARK </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_cmset_active/</guid>
-      <description>Cross memory set @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag3.</description>
+      <description>Cross memory set
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description Cross memory set
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag3.</description>
     </item>
     
     <item>
@@ -1121,7 +1155,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_current_state/</guid>
       <description>Current HiperDispatch state
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_CURRENT_STATE </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_CURRENT_STATE Description Current HiperDispatch state</description>
     </item>
     
     <item>
@@ -1130,8 +1164,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_CURRENT_STATE </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_currentw/</guid>
-      <description>Current LPAR weight @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_CURRENTW </description>
+      <description>Current LPAR weight
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_CURRENTW Description Current LPAR weight</description>
     </item>
     
     <item>
@@ -1141,7 +1175,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_CURRENTW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_flags1/</guid>
       <description>Flags
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_FLAGS1 Flag fields This is a flag field with the following bit fields:
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_FLAGS1 Description Flags
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description vcm_d204_lparcappingpt 0 LPAR capped by customer, per processor type </description>
     </item>
     
@@ -1151,8 +1186,8 @@ Field Bit-Position Description vcm_d204_lparcappingpt 0 LPAR capped by customer,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_lcpus/</guid>
-      <description>Number of logical CPUs/Cores for this LPAR
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_LCPUS </description>
+      <description>Number of logical CPUs/Cores for this LPAR.
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_LCPUS Description Number of logical CPUs/Cores for this LPAR.</description>
     </item>
     
     <item>
@@ -1161,8 +1196,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_LCPUS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_lparcapping/</guid>
-      <description>LPAR capped by customer @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diag204_flags.</description>
+      <description>LPAR capped by customer
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Description LPAR capped by customer
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diag204_flags.</description>
     </item>
     
     <item>
@@ -1172,7 +1208,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This vi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_lparcappingpt/</guid>
       <description>LPAR capped by customer, per processor type
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_d204_flags1 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_d204_flags1.</description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_d204_flags1 Description LPAR capped by customer, per processor type
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_d204_flags1.</description>
     </item>
     
     <item>
@@ -1182,7 +1219,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_d204_flags1 Post-Processed This virt
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_phwgtisneg/</guid>
       <description>Phantom weight type
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diag204_flags.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Description Phantom weight type
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diag204_flags.</description>
     </item>
     
     <item>
@@ -1191,8 +1229,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This vi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_totalw/</guid>
-      <description>Total LPAR weight @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_TOTALW </description>
+      <description>Total LPAR weight
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_TOTALW Description Total LPAR weight</description>
     </item>
     
     <item>
@@ -1202,7 +1240,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_TOTALW </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_waitcompletion/</guid>
       <description>WaitCompletion
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diag204_flags.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Description WaitCompletion
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diag204_flags.</description>
     </item>
     
     <item>
@@ -1211,8 +1250,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This vi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_wlmcapping/</guid>
-      <description>LPAR capped by WLM @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diag204_flags.</description>
+      <description>LPAR capped by WLM
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Description LPAR capped by WLM
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diag204_flags.</description>
     </item>
     
     <item>
@@ -1222,7 +1262,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_diag204_flags Post-Processed This vi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204_wrkcurrw/</guid>
       <description>Accumulated current LPAR weight
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_WRKCURRW </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_WRKCURRW Description Accumulated current LPAR weight</description>
     </item>
     
     <item>
@@ -1231,8 +1271,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204_WRKCURRW </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204cputypecapval/</guid>
-      <description>PR/SM capping limit
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204CPUTYPECAPVAL Description Count of hundredths of CPU/Core units</description>
+      <description>PR/SM capping limit. Count of hundredths of CPU/Core units
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204CPUTYPECAPVAL Description PR/SM capping limit. Count of hundredths of CPU/Core units</description>
     </item>
     
     <item>
@@ -1241,8 +1281,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204CPUTYPECAPVAL Description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_d204hardwaregroupcputypecap/</guid>
-      <description>HWGroup capping limit
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204HARDWAREGROUPCPUTYPECAP Description Count of 100ths of procs units</description>
+      <description>HWGroup capping limit. Count of 100ths of procs units
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204HARDWAREGROUPCPUTYPECAP Description HWGroup capping limit. Count of 100ths of procs units</description>
     </item>
     
     <item>
@@ -1251,9 +1291,10 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_D204HARDWAREGROUPCPUTYPECAP D
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diag204_flags/</guid>
-      <description>Flags @OA37736C
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAG204_FLAGS Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_d204_phwgtisneg 3 Phantom weight type vcm_d204_waitcompletion 2 WaitCompletion vcm_d204_lparcapping 1 LPAR capped by customer @ME14601A vcm_d204_wlmcapping 0 LPAR capped by WLM @ME14601A </description>
+      <description>Flags
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAG204_FLAGS Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_d204_wlmcapping 0 LPAR capped by WLM vcm_d204_lparcapping 1 LPAR capped by customer vcm_d204_waitcompletion 2 WaitCompletion vcm_d204_phwgtisneg 3 Phantom weight type </description>
     </item>
     
     <item>
@@ -1263,8 +1304,9 @@ Field Bit-Position Description vcm_d204_phwgtisneg 3 Phantom weight type vcm_d20
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagcapdecr/</guid>
       <description>Capacity decrease flags
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPDECR Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_diagdecrprsmcap 15 PR/SM capped LPAR: Adjust capacity decrease @ME26914A vcm_diagdecrprsmcapbusythr 14 PR/SM capped LPAR: MVS busy too low @ME26914A vcm_diagdecrprsmcapeffectthr 13 PR/SM capped LPAR: VL effect too low @ME26914A vcm_diagdecrprsmcapvhutil 12 PR/SM capped LPAR: Vh utilization is low @ME26914A vcm_diagdecrprsmcapcecutil 11 PR/SM capped LPAR: Park all. High CEC utilization and there is no unus&amp;hellip; vcm_diagdecrprsmcapparkallhw 10 PR/SM capped LPAR.</description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPDECR Description Capacity decrease flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_diagdecr 0 Adjust capacity decrease vcm_diagdecrdiscrpark 1 Adjust capacity decrease by parking a processor vcm_diagdecrdiscrparequ 2 Park requested vcm_diagdecrdiscrpaallrq 3 Park all request vcm_diagdecrbusythr 4 MvsBusy too low vcm_diagdecreffectthr 5 VL effect too low vcm_diagdecreffectsmall 6 small VM/VL effectiveness vcm_diagdecreffectnone 7 no VM/VL effectiveness vcm_diagdecrefflowthr 8 if no VH exists vcm_diagnodecrlowutil 9 No capacity decrease adjustment.</description>
     </item>
     
     <item>
@@ -1274,8 +1316,9 @@ Field Bit-Position Description vcm_diagdecrprsmcap 15 PR/SM capped LPAR: Adjust 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagcapdecr_cont/</guid>
       <description>Capacity decrease flags continuation
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPDECR_CONT Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_diagnodecrprsmcaplowutil 1 PR/SM capped LPAR: No capacity decrease adjustment. Reason: Low CEC ut&amp;hellip; vcm_diagdecrparkallful 0 Park all request. Free capacity unpark threshold at or above upper lim&amp;hellip; </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPDECR_CONT Description Capacity decrease flags continuation
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_diagdecrparkallful 0 Park all request. Free capacity unpark threshold at or above upper limit vcm_diagnodecrprsmcaplowutil 1 PR/SM capped LPAR: No capacity decrease adjustment. Reason: Low CEC utilization </description>
     </item>
     
     <item>
@@ -1284,9 +1327,10 @@ Field Bit-Position Description vcm_diagnodecrprsmcaplowutil 1 PR/SM capped LPAR:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagcapincr/</guid>
-      <description>Capacity increase flags @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPINCR Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_diagincrprsmcapvhutil 6 PR/SM capped LPAR: Unpark requested because of high VH utilization @ME&amp;hellip; vcm_diagincrunusedcap 5 unpark requested because the LPAR capacity is below the guaranteed cap&amp;hellip; vcm_diagincrdiscrupallrq 3 Unpark all request @OA26789C vcm_diagincrdiscruprequ 2 Unpark request vcm_diagincrdiscrunpark 1 Adjust capacity increase by unparking a processor vcm_diagincr 0 Adjust capacity increase @ME14601A </description>
+      <description>Capacity increase flags
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_DIAGCAPINCR Description Capacity increase flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_diagincr 0 Adjust capacity increase vcm_diagincrdiscrunpark 1 Adjust capacity increase by unparking a processor vcm_diagincrdiscruprequ 2 Unpark request vcm_diagincrdiscrupallrq 3 Unpark all request vcm_diagincrunusedcap 5 unpark requested because the LPAR capacity is below the guaranteed capacity + unused capacity share vcm_diagincrprsmcapvhutil 6 PR/SM capped LPAR: Unpark requested because of high VH utilization </description>
     </item>
     
     <item>
@@ -1296,7 +1340,8 @@ Field Bit-Position Description vcm_diagincrprsmcapvhutil 6 PR/SM capped LPAR: Un
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecr/</guid>
       <description>Adjust capacity decrease
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diagcapdecr.</description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Adjust capacity decrease
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1305,8 +1350,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrbusythr/</guid>
-      <description>MvsBusy too low @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_diagcapdecr.</description>
+      <description>MvsBusy too low
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description MvsBusy too low
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1315,8 +1361,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrdiscrpaallrq/</guid>
-      <description>Park all request @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diagcapdecr.</description>
+      <description>Park all request
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Park all request
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1325,8 +1372,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrdiscrparequ/</guid>
-      <description>Park requested @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diagcapdecr.</description>
+      <description>Park requested
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Park requested
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1335,8 +1383,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrdiscrpark/</guid>
-      <description>Adjust capacity decrease by parking a processor @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diagcapdecr.</description>
+      <description>Adjust capacity decrease by parking a processor
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Adjust capacity decrease by parking a processor
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1345,8 +1394,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecreffectnone/</guid>
-      <description>no VM/VL effectiveness @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 7 of field vcm_diagcapdecr.</description>
+      <description>no VM/VL effectiveness
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description no VM/VL effectiveness
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1355,8 +1405,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecreffectsmall/</guid>
-      <description>small VM/VL effectiveness @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_diagcapdecr.</description>
+      <description>small VM/VL effectiveness
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description small VM/VL effectiveness
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1365,8 +1416,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecreffectthr/</guid>
-      <description>VL effect too low @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_diagcapdecr.</description>
+      <description>VL effect too low
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description VL effect too low
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1375,8 +1427,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrefflowthr/</guid>
-      <description>if no VH exists @OA36459A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 8 of field vcm_diagcapdecr.</description>
+      <description>if no VH exists
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description if no VH exists
+Post-Processed This virtual field corresponds to the flag at bit-position 8 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1385,8 +1438,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrparkallful/</guid>
-      <description>Park all request. Free capacity unpark threshold at or above upper lim&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr_cont Description Park all request. Free capacity unpark threshold at or above upper limit @OA47968A
+      <description>Park all request. Free capacity unpark threshold at or above upper limit
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr_cont Description Park all request. Free capacity unpark threshold at or above upper limit
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diagcapdecr_cont.</description>
     </item>
     
@@ -1396,8 +1449,9 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcap/</guid>
-      <description>PR/SM capped LPAR: Adjust capacity decrease @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 15 of field vcm_diagcapdecr.</description>
+      <description>PR/SM capped LPAR: Adjust capacity decrease
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR: Adjust capacity decrease
+Post-Processed This virtual field corresponds to the flag at bit-position 15 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1406,8 +1460,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcapbusythr/</guid>
-      <description>PR/SM capped LPAR: MVS busy too low @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 14 of field vcm_diagcapdecr.</description>
+      <description>PR/SM capped LPAR: MVS busy too low
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR: MVS busy too low
+Post-Processed This virtual field corresponds to the flag at bit-position 14 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1416,8 +1471,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcapcecutil/</guid>
-      <description>PR/SM capped LPAR: Park all. High CEC utilization and there is no unus&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description &amp;ldquo;PR/SM capped LPAR: Park all. High CEC utilization and there is no unused LPAR cap @ME26914A&amp;rdquo;
+      <description>PR/SM capped LPAR: Park all. High CEC utilization and there is no unused LPAR cap
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR: Park all. High CEC utilization and there is no unused LPAR cap
 Post-Processed This virtual field corresponds to the flag at bit-position 11 of field vcm_diagcapdecr.</description>
     </item>
     
@@ -1427,8 +1482,9 @@ Post-Processed This virtual field corresponds to the flag at bit-position 11 of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcapeffectthr/</guid>
-      <description>PR/SM capped LPAR: VL effect too low @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 13 of field vcm_diagcapdecr.</description>
+      <description>PR/SM capped LPAR: VL effect too low
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR: VL effect too low
+Post-Processed This virtual field corresponds to the flag at bit-position 13 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1437,8 +1493,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcapparkallhw/</guid>
-      <description>PR/SM capped LPAR.
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Park all. Below zEC12 hardware @ME26914A
+      <description>PR/SM capped LPAR. Park all. Below zEC12 hardware
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR. Park all. Below zEC12 hardware
 Post-Processed This virtual field corresponds to the flag at bit-position 10 of field vcm_diagcapdecr.</description>
     </item>
     
@@ -1448,8 +1504,9 @@ Post-Processed This virtual field corresponds to the flag at bit-position 10 of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagdecrprsmcapvhutil/</guid>
-      <description>PR/SM capped LPAR: Vh utilization is low @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virtual field corresponds to the flag at bit-position 12 of field vcm_diagcapdecr.</description>
+      <description>PR/SM capped LPAR: Vh utilization is low
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description PR/SM capped LPAR: Vh utilization is low
+Post-Processed This virtual field corresponds to the flag at bit-position 12 of field vcm_diagcapdecr.</description>
     </item>
     
     <item>
@@ -1458,8 +1515,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagecpx/</guid>
-      <description>Diagnostic ECPX data @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGECPX </description>
+      <description>Data element of diagnostic ECPX data array
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGECPX Description Data element of diagnostic ECPX data array</description>
     </item>
     
     <item>
@@ -1468,8 +1525,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGECPX </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincr/</guid>
-      <description>Adjust capacity increase @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diagcapincr.</description>
+      <description>Adjust capacity increase
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description Adjust capacity increase
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_diagcapincr.</description>
     </item>
     
     <item>
@@ -1479,7 +1537,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virt
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincrdiscrunpark/</guid>
       <description>Adjust capacity increase by unparking a processor
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diagcapincr.</description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description Adjust capacity increase by unparking a processor
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diagcapincr.</description>
     </item>
     
     <item>
@@ -1488,8 +1547,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincrdiscrupallrq/</guid>
-      <description>Unpark all request @OA26789C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diagcapincr.</description>
+      <description>Unpark all request
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description Unpark all request
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_diagcapincr.</description>
     </item>
     
     <item>
@@ -1499,7 +1559,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virt
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincrdiscruprequ/</guid>
       <description>Unpark request
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diagcapincr.</description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description Unpark request
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_diagcapincr.</description>
     </item>
     
     <item>
@@ -1508,8 +1569,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Post-Processed This virt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincrprsmcapvhutil/</guid>
-      <description>PR/SM capped LPAR: Unpark requested because of high VH utilization @ME&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description PR/SM capped LPAR: Unpark requested because of high VH utilization @ME26914A
+      <description>PR/SM capped LPAR: Unpark requested because of high VH utilization
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description PR/SM capped LPAR: Unpark requested because of high VH utilization
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_diagcapincr.</description>
     </item>
     
@@ -1519,8 +1580,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagincrunusedcap/</guid>
-      <description>unpark requested because the LPAR capacity is below the guaranteed cap&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description unpark requested because the LPAR capacity is below the guaranteed capacity + unused capacity share @OA37736A
+      <description>unpark requested because the LPAR capacity is below the guaranteed capacity + unused capacity share
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapincr Description unpark requested because the LPAR capacity is below the guaranteed capacity + unused capacity share
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_diagcapincr.</description>
     </item>
     
@@ -1530,8 +1591,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagmpwq/</guid>
-      <description>Diagnostic MPWQ data @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGMPWQ </description>
+      <description>Data element of diagnostic MPWQ data array
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGMPWQ Description Data element of diagnostic MPWQ data array</description>
     </item>
     
     <item>
@@ -1540,8 +1601,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_DIAGMPWQ </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagnodecrlowutil/</guid>
-      <description>No capacity decrease adjustment.
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description Reason: Low CEC utilization
+      <description>No capacity decrease adjustment. Reason: Low CEC utilization
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr Description No capacity decrease adjustment. Reason: Low CEC utilization
 Post-Processed This virtual field corresponds to the flag at bit-position 9 of field vcm_diagcapdecr.</description>
     </item>
     
@@ -1551,7 +1612,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 9 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_diagnodecrprsmcaplowutil/</guid>
-      <description>PR/SM capped LPAR: No capacity decrease adjustment. Reason: Low CEC ut&amp;hellip;
+      <description>PR/SM capped LPAR: No capacity decrease adjustment. Reason: Low CEC utilization
 Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_diagcapdecr_cont Description PR/SM capped LPAR: No capacity decrease adjustment. Reason: Low CEC utilization
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_diagcapdecr_cont.</description>
     </item>
@@ -1562,8 +1623,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_errorcode/</guid>
-      <description>HiperDispatch Error Code @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_ERRORCODE </description>
+      <description>HiperDispatch Error Code
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_ERRORCODE Description HiperDispatch Error Code</description>
     </item>
     
     <item>
@@ -1572,9 +1633,10 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_ERRORCODE </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_flag1/</guid>
-      <description>HD 1st flag byte @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG1 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_procspeedchg 4 processor speed change @OA37736A vcm_topochg_wuqe 3 dispatcher WUQ error @OA37736A vcm_topochg_hp 2 honor priority has changed @OA37736A vcm_rebuildans 1 rebuild affinity nodes @OA37736A vcm_topochanged 0 topology has changed @OA37736A </description>
+      <description>HD 1st flag byte
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG1 Description HD 1st flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_topochanged 0 topology has changed vcm_rebuildans 1 rebuild affinity nodes vcm_topochg_hp 2 honor priority has changed vcm_topochg_wuqe 3 dispatcher WUQ error vcm_procspeedchg 4 processor speed change </description>
     </item>
     
     <item>
@@ -1583,9 +1645,10 @@ Field Bit-Position Description vcm_procspeedchg 4 processor speed change @OA3773
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_flag2/</guid>
-      <description>HD 2nd flag byte @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG2 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_transition 6 VCM is transitioning to/from vertical @OA37736A vcm_ptf_switched 5 PTF was issued to initiate a switch into the opposite mode. However, t&amp;hellip; vcm_mpwq_updated 4 dispatcher affinity was updated @OA37736A vcm_old_state 2 old VCM state @OA37736A vcm_lparcapvalid 1 LPAR capacities are valid @OA37736A vcm_ceccapvalid 0 CEC capacities are valid @OA37736A </description>
+      <description>HD 2nd flag byte
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG2 Description HD 2nd flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_ceccapvalid 0 CEC capacities are valid vcm_lparcapvalid 1 LPAR capacities are valid vcm_old_state 2 old VCM state vcm_mpwq_updated 4 dispatcher affinity was updated vcm_ptf_switched 5 PTF was issued to initiate a switch into the opposite mode. However, the PTF return info tells us that we are already in the requested mode vcm_transition 6 VCM is transitioning to/from vertical </description>
     </item>
     
     <item>
@@ -1594,9 +1657,10 @@ Field Bit-Position Description vcm_transition 6 VCM is transitioning to/from ver
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_flag3/</guid>
-      <description>HD 3rd flag byte @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG3 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_smf_topochg 6 Write TopoChg section @OA37736A vcm_newconttle 4 new container TLE @OA37736A vcm_cmset_active 3 Cross memory set @OA37736A vcm_lpardedicps 2 LPAR has only dedicated CPUs/Cores vcm_ifafac 1 IFA facility installed @OA37736A vcm_topofac 0 topology facility installed @OA37736A </description>
+      <description>HD 3rd flag byte
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG3 Description HD 3rd flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_topofac 0 topology facility installed vcm_ifafac 1 IFA facility installed vcm_lpardedicps 2 LPAR has only dedicated CPUs/Cores vcm_cmset_active 3 Cross memory set vcm_newconttle 4 new container TLE vcm_smf_topochg 6 Write TopoChg section </description>
     </item>
     
     <item>
@@ -1605,9 +1669,10 @@ Field Bit-Position Description vcm_smf_topochg 6 Write TopoChg section @OA37736A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_flag4/</guid>
-      <description>HD 4th flag byte @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG4 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_old_sup_hp 1 SUP honor priority state of previous interval @OA37736A vcm_old_ifa_hp 0 IFA honor priority state of previous interval @OA37736A </description>
+      <description>HD 4th flag byte
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_FLAG4 Description HD 4th flag byte
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_old_ifa_hp 0 IFA honor priority state of previous interval vcm_old_sup_hp 1 SUP honor priority state of previous interval </description>
     </item>
     
     <item>
@@ -1617,7 +1682,7 @@ Field Bit-Position Description vcm_old_sup_hp 1 SUP honor priority state of prev
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hardwaregroupname/</guid>
       <description>HardwareGroupname
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_HARDWAREGROUPNAME </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_HARDWAREGROUPNAME Description HardwareGroupname</description>
     </item>
     
     <item>
@@ -1627,7 +1692,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_HARDWAREGROUPNAME </descripti
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hdmahsct/</guid>
       <description>High storage consumer threshold
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDMAHSCT </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDMAHSCT Description High storage consumer threshold</description>
     </item>
     
     <item>
@@ -1637,7 +1702,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDMAHSCT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hdtdmu/</guid>
       <description>Maximum topology distance value
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDTDMU </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDTDMU Description Maximum topology distance value</description>
     </item>
     
     <item>
@@ -1647,7 +1712,18 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HDTDMU </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hscdynmvsbusythr/</guid>
       <description>Dynamic MVS busy threshold
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HSCDYNMVSBUSYTHR </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HSCDYNMVSBUSYTHR Description Dynamic MVS busy threshold</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_hwlevel</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hwlevel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_hwlevel/</guid>
+      <description>Memory affinity not supported for this hardware
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_ma_flgs Description Memory affinity not supported for this hardware
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_ma_flgs.</description>
     </item>
     
     <item>
@@ -1656,8 +1732,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_HSCDYNMVSBUSYTHR </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ifafac/</guid>
-      <description>IFA facility installed @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag3.</description>
+      <description>IFA facility installed
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description IFA facility installed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag3.</description>
     </item>
     
     <item>
@@ -1666,8 +1743,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_interval_len/</guid>
-      <description>Measured interval length in microseconds @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_LEN </description>
+      <description>Measured interval length in microseconds
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_LEN Description Measured interval length in microseconds</description>
     </item>
     
     <item>
@@ -1676,8 +1753,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_LEN </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_interval_tod/</guid>
-      <description>TOD when HiperDispatch code got control in STCK format @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_TOD </description>
+      <description>Date and time when HiperDispatch code got control
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_TOD Description Date and time when HiperDispatch code got control</description>
     </item>
     
     <item>
@@ -1687,7 +1764,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_INTERVAL_TOD </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lowcecmaxup/</guid>
       <description>Maximum number of VLs unparked if low CEC utilization
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMAXUP </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMAXUP Description Maximum number of VLs unparked if low CEC utilization</description>
     </item>
     
     <item>
@@ -1697,7 +1774,7 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMAXUP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lowcecmvsbusy/</guid>
       <description>Park threshold for low CEC utilization scaled by 16
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMVSBUSY </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMVSBUSY Description Park threshold for low CEC utilization scaled by 16</description>
     </item>
     
     <item>
@@ -1706,8 +1783,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LOWCECMVSBUSY </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcapused/</guid>
-      <description>Used LPAR capacity in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSED </description>
+      <description>Used LPAR capacity in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSED Description Used LPAR capacity in microseconds</description>
     </item>
     
     <item>
@@ -1716,8 +1793,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSED </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcapusedvmadj/</guid>
-      <description>Used VM capacity of previous interval in microseconds @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMADJ </description>
+      <description>Used VM capacity of previous interval in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMADJ Description Used VM capacity of previous interval in microseconds</description>
     </item>
     
     <item>
@@ -1726,8 +1803,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPUSEDVMADJ </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcapvalid/</guid>
-      <description>LPAR capacities are valid @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag2.</description>
+      <description>LPAR capacities are valid
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description LPAR capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -1748,7 +1826,7 @@ return vcm_lparflags[0:3] </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcpsharehi/</guid>
-      <description>The physical CPU/Core share is higher than the number of VHs and VMs p&amp;hellip;
+      <description>The physical CPU/Core share is higher than the number of VHs and VMs passed by the topology info
 Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_lparflags Description The physical CPU/Core share is higher than the number of VHs and VMs passed by the topology info
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_lparflags.</description>
     </item>
@@ -1759,7 +1837,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcpsharelo/</guid>
-      <description>The physical CPU/Core share is lower than the number of VHs and VMs pa&amp;hellip;
+      <description>The physical CPU/Core share is lower than the number of VHs and VMs passed by the topology info
 Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_lparflags Description The physical CPU/Core share is lower than the number of VHs and VMs passed by the topology info
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_lparflags.</description>
     </item>
@@ -1770,7 +1848,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparcpshareok/</guid>
-      <description>The physical CPU/Core share matches the number and polarization of the&amp;hellip;
+      <description>The physical CPU/Core share matches the number and polarization of the CPUs/Cores passed by the topology information
 Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_lparflags Description The physical CPU/Core share matches the number and polarization of the CPUs/Cores passed by the topology information
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_lparflags.</description>
     </item>
@@ -1782,7 +1860,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lpardedicps/</guid>
       <description>LPAR has only dedicated CPUs/Cores
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag3.</description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description LPAR has only dedicated CPUs/Cores
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag3.</description>
     </item>
     
     <item>
@@ -1791,9 +1870,10 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparflags/</guid>
-      <description>LPAR Status Flags @ME14601A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARFLAGS Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description vcm_lparcpsharelo 2 The physical CPU/Core share is lower than the number of VHs and VMs pa&amp;hellip; vcm_lparcpsharehi 1 The physical CPU/Core share is higher than the number of VHs and VMs p&amp;hellip; vcm_lparcpshareok 0 The physical CPU/Core share matches the number and polarization of the&amp;hellip; </description>
+      <description>LPAR Status Flags
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARFLAGS Description LPAR Status Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_lparcpshareok 0 The physical CPU/Core share matches the number and polarization of the CPUs/Cores passed by the topology information vcm_lparcpsharehi 1 The physical CPU/Core share is higher than the number of VHs and VMs passed by the topology info vcm_lparcpsharelo 2 The physical CPU/Core share is lower than the number of VHs and VMs passed by the topology info </description>
     </item>
     
     <item>
@@ -1803,7 +1883,7 @@ Field Bit-Position Description vcm_lparcpsharelo 2 The physical CPU/Core share i
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_lparphysprocshr/</guid>
       <description>LPAR physical processor share for general CPUs/Core scaled by 256
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_LPARPHYSPROCSHR </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_LPARPHYSPROCSHR Description LPAR physical processor share for general CPUs/Core scaled by 256</description>
     </item>
     
     <item>
@@ -1813,7 +1893,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_LPARPHYSPROCSHR </description
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ma_flgs/</guid>
       <description>Memory affinity status indicators
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MA_FLGS </description>
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MA_FLGS Description Memory affinity status indicators
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description vcm_stop_brk_bal 0 Broken up address spaces are not balanced in consideration of memory affinity aspects vcm_nocros 1 No processor topology location crossing vcm_oneafn 2 Single AFN vcm_hwlevel 3 Memory affinity not supported for this hardware vcm_stop_memaff_bal 4 High storage consumer address spaces are not balanced in consideration of memory affinity aspects </description>
     </item>
     
     <item>
@@ -1822,8 +1904,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MA_FLGS </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_mpwq_updated/</guid>
-      <description>dispatcher affinity was updated @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag2.</description>
+      <description>dispatcher affinity was updated
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description dispatcher affinity was updated
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -1832,8 +1915,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrpark/</guid>
-      <description>Dynamic MvsBusy threshhold for parking scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRPARK Post-Processed The value is scaled by 16.</description>
+      <description>Dynamic MvsBusy threshhold for parking scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRPARK Description Dynamic MvsBusy threshhold for parking scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -1842,8 +1926,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRPARK Post-Proce
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrunpark/</guid>
-      <description>Dynamic MvsBusy threshhold for unparking scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRUNPARK Post-Processed The value is scaled by 16.</description>
+      <description>Dynamic MvsBusy threshhold for unparking scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRUNPARK Description Dynamic MvsBusy threshhold for unparking scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -1852,8 +1937,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYDYNATHRUNPARK Post-Pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_mvsbusythrpark/</guid>
-      <description>MvsBusy threshhold for parking scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRPARK Post-Processed The value is scaled by 16.</description>
+      <description>MvsBusy threshhold for parking scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRPARK Description MvsBusy threshhold for parking scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -1862,8 +1948,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRPARK Post-Processed
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_mvsbusythrunpark/</guid>
-      <description>MvsBusy threshhold for unparking scaled by 16 @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRUNPARK Post-Processed The value is scaled by 16.</description>
+      <description>MvsBusy threshhold for unparking scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRUNPARK Description MvsBusy threshhold for unparking scaled by 16
+Post-Processed The value is scaled by 16.</description>
     </item>
     
     <item>
@@ -1872,8 +1959,20 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_MVSBUSYTHRUNPARK Post-Process
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_newconttle/</guid>
-      <description>new container TLE @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag3.</description>
+      <description>new container TLE
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description new container TLE
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag3.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_nocros</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_nocros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_nocros/</guid>
+      <description>No processor topology location crossing
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_ma_flgs Description No processor topology location crossing
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_ma_flgs.</description>
     </item>
     
     <item>
@@ -1882,8 +1981,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_old_ifa_hp/</guid>
-      <description>IFA honor priority state of previous interval @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag4.</description>
+      <description>IFA honor priority state of previous interval
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Description IFA honor priority state of previous interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag4.</description>
     </item>
     
     <item>
@@ -1892,8 +1992,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_old_state/</guid>
-      <description>old VCM state @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag2.</description>
+      <description>old VCM state
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description old VCM state
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -1902,8 +2003,20 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_old_sup_hp/</guid>
-      <description>SUP honor priority state of previous interval @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag4.</description>
+      <description>SUP honor priority state of previous interval
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Description SUP honor priority state of previous interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag4.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_oneafn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_oneafn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_oneafn/</guid>
+      <description>Single AFN
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_ma_flgs Description Single AFN
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_ma_flgs.</description>
     </item>
     
     <item>
@@ -1913,7 +2026,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag4 Post-Processed This virtual fi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_previous_state/</guid>
       <description>Previous HiperDispatch state
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_PREVIOUS_STATE </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_PREVIOUS_STATE Description Previous HiperDispatch state</description>
     </item>
     
     <item>
@@ -1922,8 +2035,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_PREVIOUS_STATE </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_procspeedchg/</guid>
-      <description>processor speed change @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag1.</description>
+      <description>processor speed change
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Description processor speed change
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag1.</description>
     </item>
     
     <item>
@@ -1932,8 +2046,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_projvhmutil/</guid>
-      <description>Projected VH utilization (or projected VM utilization if there is no V&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PROJVHMUTIL Description Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked @ME26914A</description>
+      <description>Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PROJVHMUTIL Description Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked</description>
     </item>
     
     <item>
@@ -1942,8 +2056,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PROJVHMUTIL Description Proje
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_prsmcapcecutilparkallthr/</guid>
-      <description>PR/SM capping: CEC utilization park all threshold scaled by 256 @ME269&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPCECUTILPARKALLTHR Description PR/SM capping: CEC utilization park all threshold scaled by 256 @ME26914A</description>
+      <description>PR/SM capping: CEC utilization park all threshold scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPCECUTILPARKALLTHR Description PR/SM capping: CEC utilization park all threshold scaled by 256</description>
     </item>
     
     <item>
@@ -1952,8 +2066,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPCECUTILPARKALLTHR Desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_prsmcapvhutilthr_max/</guid>
-      <description>PR/SM capping: VH/VM utilization unpark threshold scaled by 256 @ME269&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MAX Description PR/SM capping: VH/VM utilization unpark threshold scaled by 256 @ME26914A</description>
+      <description>PR/SM capping: VH/VM utilization unpark threshold scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MAX Description PR/SM capping: VH/VM utilization unpark threshold scaled by 256</description>
     </item>
     
     <item>
@@ -1962,8 +2076,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MAX Descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_prsmcapvhutilthr_min/</guid>
-      <description>PR/SM capping: VH/VM utilization park threshold scaled by 256 @ME26914&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MIN Description PR/SM capping: VH/VM utilization park threshold scaled by 256 @ME26914A</description>
+      <description>PR/SM capping: VH/VM utilization park threshold scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MIN Description PR/SM capping: VH/VM utilization park threshold scaled by 256</description>
     </item>
     
     <item>
@@ -1972,8 +2086,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PRSMCAPVHUTILTHR_MIN Descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_ptf_switched/</guid>
-      <description>PTF was issued to initiate a switch into the opposite mode. However, t&amp;hellip;
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description PTF was issued to initiate a switch into the opposite mode. However, the PTF return info tells us that we are already in the requested mode @OA37736A
+      <description>PTF was issued to initiate a switch into the opposite mode. However, the PTF return info tells us that we are already in the requested mode
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description PTF was issued to initiate a switch into the opposite mode. However, the PTF return info tells us that we are already in the requested mode
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_flag2.</description>
     </item>
     
@@ -1983,8 +2097,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_pupdispl/</guid>
-      <description>Park / Unpark displacement.
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PUPDISPL Description Scaled by 16</description>
+      <description>Park / Unpark displacement. Scaled by 16
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PUPDISPL Description Park / Unpark displacement. Scaled by 16</description>
     </item>
     
     <item>
@@ -1993,8 +2107,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_PUPDISPL Description Scaled b
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_rebuildans/</guid>
-      <description>rebuild affinity nodes @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag1.</description>
+      <description>rebuild affinity nodes
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Description rebuild affinity nodes
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag1.</description>
     </item>
     
     <item>
@@ -2004,7 +2119,7 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual fi
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_restart_ctr/</guid>
       <description>Recovery restart counter
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_RESTART_CTR </description>
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_RESTART_CTR Description Recovery restart counter</description>
     </item>
     
     <item>
@@ -2013,8 +2128,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_RESTART_CTR </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_smf_sequ/</guid>
-      <description>HiperDispatch SMF sequence number @ME14601A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_SMF_SEQU </description>
+      <description>HiperDispatch SMF sequence number
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_SMF_SEQU Description HiperDispatch SMF sequence number</description>
     </item>
     
     <item>
@@ -2023,8 +2138,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: SMF99C_VCM_SMF_SEQU </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_smf_topochg/</guid>
-      <description>Write TopoChg section @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag3.</description>
+      <description>Write TopoChg section
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description Write TopoChg section
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag3.</description>
     </item>
     
     <item>
@@ -2033,8 +2149,30 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_srb_blurring/</guid>
-      <description>Internal use by IBM
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_SRB_BLURRING </description>
+      <description>For IBM use only
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_SRB_BLURRING Description For IBM use only</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_stop_brk_bal</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_stop_brk_bal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_stop_brk_bal/</guid>
+      <description>Broken up address spaces are not balanced in consideration of memory affinity aspects
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_ma_flgs Description Broken up address spaces are not balanced in consideration of memory affinity aspects
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_ma_flgs.</description>
+    </item>
+    
+    <item>
+      <title>Field - vcm_stop_memaff_bal</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_stop_memaff_bal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_stop_memaff_bal/</guid>
+      <description>High storage consumer address spaces are not balanced in consideration of memory affinity aspects
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: vcm_ma_flgs Description High storage consumer address spaces are not balanced in consideration of memory affinity aspects
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_ma_flgs.</description>
     </item>
     
     <item>
@@ -2043,8 +2181,9 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_SRB_BLURRING </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_topochanged/</guid>
-      <description>topology has changed @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag1.</description>
+      <description>topology has changed
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Description topology has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag1.</description>
     </item>
     
     <item>
@@ -2053,8 +2192,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_topochg_hp/</guid>
-      <description>honor priority has changed @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag1.</description>
+      <description>honor priority has changed
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Description honor priority has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag1.</description>
     </item>
     
     <item>
@@ -2063,8 +2203,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_topochg_wuqe/</guid>
-      <description>dispatcher WUQ error @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag1.</description>
+      <description>dispatcher WUQ error
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Description dispatcher WUQ error
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag1.</description>
     </item>
     
     <item>
@@ -2073,8 +2214,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag1 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_topofac/</guid>
-      <description>topology facility installed @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag3.</description>
+      <description>topology facility installed
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Description topology facility installed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag3.</description>
     </item>
     
     <item>
@@ -2083,8 +2225,9 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag3 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_transition/</guid>
-      <description>VCM is transitioning to/from vertical @OA37736A
-Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag2.</description>
+      <description>VCM is transitioning to/from vertical
+Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Description VCM is transitioning to/from vertical
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -2093,8 +2236,8 @@ Map: SMF99_S12_HD_INT_HDR_MAP Based on: vcm_flag2 Post-Processed This virtual fi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_vhutil/</guid>
-      <description>VH utilization of previous interval scaled by 256 @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VHUTIL </description>
+      <description>VH utilization of previous interval scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VHUTIL Description VH utilization of previous interval scaled by 256</description>
     </item>
     
     <item>
@@ -2103,8 +2246,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VHUTIL </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vcm_vmutil/</guid>
-      <description>VM utilization of previous interval scaled by 256 @ME26914A
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VMUTIL </description>
+      <description>VM utilization of previous interval scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VMUTIL Description VM utilization of previous interval scaled by 256</description>
     </item>
     
     <item>
@@ -2113,8 +2256,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_VMUTIL </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vl_parked/</guid>
-      <description>Number of parked VLs @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOPARKED </description>
+      <description>Number of parked VLs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOPARKED Description Number of parked VLs</description>
     </item>
     
     <item>
@@ -2123,8 +2266,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOPARKED </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vl_unparked/</guid>
-      <description>Number of unparked VLs @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOUNPARKED </description>
+      <description>Number of unparked VLs
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOUNPARKED Description Number of unparked VLs</description>
     </item>
     
     <item>
@@ -2133,8 +2276,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_CPULOUNPARKED </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vm_vl_allocated_capacity/</guid>
-      <description>Allocated LPAR capacity on VMs and VLs in microseconds @OA37736C
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOCVMVL </description>
+      <description>Allocated LPAR capacity on VMs and VLs in microseconds
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOCVMVL Description Allocated LPAR capacity on VMs and VLs in microseconds</description>
     </item>
     
     <item>
@@ -2143,8 +2286,8 @@ Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPALLOCVMVL </descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vm_vl_cap_above_guaranteed/</guid>
-      <description>Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 @O&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Description Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 @OA37736C
+      <description>Percentage of guaranteed VM capacity used by VM + VL, scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Description Percentage of guaranteed VM capacity used by VM + VL, scaled by 256
 Post-Processed The value is scaled by 256.</description>
     </item>
     
@@ -2154,8 +2297,8 @@ Post-Processed The value is scaled by 256.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vm_vl_capacity_of_allocated/</guid>
-      <description>Percentage used of allocated VM + VL capacity, scaled by 256 @OA37736C&amp;hellip;
-Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPVMVLUSEDOFALLOC Description Percentage used of allocated VM + VL capacity, scaled by 256 @OA37736C
+      <description>Percentage used of allocated VM + VL capacity, scaled by 256
+Map: SMF99_S12_HD_INT_CAP_MAP Based on: SMF99C_VCM_LPARCAPVMVLUSEDOFALLOC Description Percentage used of allocated VM + VL capacity, scaled by 256
 Post-Processed The value is scaled by 256.</description>
     </item>
     
@@ -2165,7 +2308,7 @@ Post-Processed The value is scaled by 256.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S12/fields/vn2/</guid>
-      <description>Record Subversion Number
+      <description>Record sub version. Used to identify changes to the record in the service stream
 Map: SMF99_PRODUCT_MAP Based on: SMF99VN2 Description Record sub version. Used to identify changes to the record in the service stream</description>
     </item>
     

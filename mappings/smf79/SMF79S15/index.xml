@@ -12,7 +12,8 @@
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/bfy/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+Record: SMF79S15 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
     </item>
     
     <item>
@@ -32,7 +33,7 @@ Record: SMF79S15 Based on: SMF79DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
-Record: SMF79S15 Based on: SMF79DTE </description>
+Record: SMF79S15 Based on: SMF79DTE Description DATE RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -42,7 +43,8 @@ Record: SMF79S15 Based on: SMF79DTE </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/esa/</guid>
       <description>MVS/ESA IF ON
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+Record: SMF79S15 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
     </item>
     
     <item>
@@ -52,7 +54,8 @@ Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
-Record: SMF79S15 Based on: SMF79FLG Flag fields This is a flag field with the following bit fields:
+Record: SMF79S15 Based on: SMF79FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
     </item>
     
@@ -63,7 +66,7 @@ Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpl/</guid>
       <description>Length of IMS Long Lock Data Section
-Record: SMF79S15 Based on: SMF79FPL </description>
+Record: SMF79S15 Based on: SMF79FPL Description Length of IMS Long Lock Data Section</description>
     </item>
     
     <item>
@@ -73,7 +76,7 @@ Record: SMF79S15 Based on: SMF79FPL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpn/</guid>
       <description>Number of IMS Long Lock Data Sections
-Record: SMF79S15 Based on: SMF79FPN </description>
+Record: SMF79S15 Based on: SMF79FPN Description Number of IMS Long Lock Data Sections</description>
     </item>
     
     <item>
@@ -83,7 +86,7 @@ Record: SMF79S15 Based on: SMF79FPN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpo/</guid>
       <description>Offset to IMS Long Lock Data Section
-Record: SMF79S15 Based on: SMF79FPO </description>
+Record: SMF79S15 Based on: SMF79FPO Description Offset to IMS Long Lock Data Section</description>
     </item>
     
     <item>
@@ -92,8 +95,8 @@ Record: SMF79S15 Based on: SMF79FPO </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/len/</guid>
-      <description>SMF RECORD LENGTH.
-Record: SMF79S15 Based on: SMF79LEN Description ZERO AFTER GRBSMFR REASSEMBLY</description>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF79S15 Based on: SMF79LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
@@ -103,7 +106,8 @@ Record: SMF79S15 Based on: SMF79LEN Description ZERO AFTER GRBSMFR REASSEMBLY</d
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+Record: SMF79S15 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
     </item>
     
     <item>
@@ -113,7 +117,7 @@ Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
-Record: SMF79S15 Based on: SMF79PRL </description>
+Record: SMF79S15 Based on: SMF79PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -123,7 +127,7 @@ Record: SMF79S15 Based on: SMF79PRL </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
-Record: SMF79S15 Based on: SMF79PRN </description>
+Record: SMF79S15 Based on: SMF79PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
     </item>
     
     <item>
@@ -133,7 +137,7 @@ Record: SMF79S15 Based on: SMF79PRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
-Record: SMF79S15 Based on: SMF79PRS </description>
+Record: SMF79S15 Based on: SMF79PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
@@ -143,7 +147,7 @@ Record: SMF79S15 Based on: SMF79PRS </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fctid/</guid>
       <description>CICS Task ID (If CICS)
-Map: R79FIRLM Based on: R79FCTID </description>
+Map: R79FIRLM Based on: R79FCTID Description CICS Task ID (If CICS)</description>
     </item>
     
     <item>
@@ -153,7 +157,7 @@ Map: R79FIRLM Based on: R79FCTID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fdlkc/</guid>
       <description>Dead Lock Cycle Number
-Map: R79FIRLM Based on: R79FDLKC </description>
+Map: R79FIRLM Based on: R79FDLKC Description Dead Lock Cycle Number</description>
     </item>
     
     <item>
@@ -163,7 +167,7 @@ Map: R79FIRLM Based on: R79FDLKC </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fetyp/</guid>
       <description>&amp;lsquo;B&amp;rsquo;=Blocker / &amp;lsquo;W&amp;rsquo;=Waiter
-Map: R79FIRLM Based on: R79FETYP </description>
+Map: R79FIRLM Based on: R79FETYP Description &amp;lsquo;B&amp;rsquo;=Blocker / &amp;lsquo;W&amp;rsquo;=Waiter</description>
     </item>
     
     <item>
@@ -173,7 +177,7 @@ Map: R79FIRLM Based on: R79FETYP </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fimsi/</guid>
       <description>IMS Subsystem ID
-Map: R79FIRLM Based on: R79FIMSI </description>
+Map: R79FIRLM Based on: R79FIMSI Description IMS Subsystem ID</description>
     </item>
     
     <item>
@@ -183,7 +187,7 @@ Map: R79FIRLM Based on: R79FIMSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fistn/</guid>
       <description>IRLM Lock Structure Name
-Map: R79FIRLM Based on: R79FISTN </description>
+Map: R79FIRLM Based on: R79FISTN Description IRLM Lock Structure Name</description>
     </item>
     
     <item>
@@ -193,7 +197,7 @@ Map: R79FIRLM Based on: R79FISTN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhcn/</guid>
       <description>Max Lock Held-PSTLKHLD
-Map: R79FIRLM Based on: R79FLHCN </description>
+Map: R79FIRLM Based on: R79FLHCN Description Max Lock Held-PSTLKHLD</description>
     </item>
     
     <item>
@@ -203,7 +207,7 @@ Map: R79FIRLM Based on: R79FLHCN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhti/</guid>
       <description>Scheduled elapsed time
-Map: R79FIRLM Based on: R79FLHTI </description>
+Map: R79FIRLM Based on: R79FLHTI Description Scheduled elapsed time</description>
     </item>
     
     <item>
@@ -213,7 +217,7 @@ Map: R79FIRLM Based on: R79FLHTI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flkna/</guid>
       <description>Lock Name
-Map: R79FIRLM Based on: R79FLKNA </description>
+Map: R79FIRLM Based on: R79FLKNA Description Lock Name</description>
     </item>
     
     <item>
@@ -223,7 +227,7 @@ Map: R79FIRLM Based on: R79FLKNA </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpsbn/</guid>
       <description>PSB Name
-Map: R79FIRLM Based on: R79FPSBN </description>
+Map: R79FIRLM Based on: R79FPSBN Description PSB Name</description>
     </item>
     
     <item>
@@ -233,7 +237,7 @@ Map: R79FIRLM Based on: R79FPSBN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpstn/</guid>
       <description>PST Number
-Map: R79FIRLM Based on: R79FPSTN </description>
+Map: R79FIRLM Based on: R79FPSTN Description PST Number</description>
     </item>
     
     <item>
@@ -243,7 +247,7 @@ Map: R79FIRLM Based on: R79FPSTN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frcvt/</guid>
       <description>Recovery Token
-Map: R79FIRLM Based on: R79FRCVT </description>
+Map: R79FIRLM Based on: R79FRCVT Description Recovery Token</description>
     </item>
     
     <item>
@@ -253,7 +257,7 @@ Map: R79FIRLM Based on: R79FRCVT </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frgty/</guid>
       <description>Region Type
-Map: R79FIRLM Based on: R79FRGTY </description>
+Map: R79FIRLM Based on: R79FRGTY Description Region Type</description>
     </item>
     
     <item>
@@ -263,7 +267,7 @@ Map: R79FIRLM Based on: R79FRGTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frsna/</guid>
       <description>Resource (DB/Area) Name
-Map: R79FIRLM Based on: R79FRSNA </description>
+Map: R79FIRLM Based on: R79FRSNA Description Resource (DB/Area) Name</description>
     </item>
     
     <item>
@@ -273,7 +277,7 @@ Map: R79FIRLM Based on: R79FRSNA </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79ftrnm/</guid>
       <description>Trans name / Job name
-Map: R79FIRLM Based on: R79FTRNM </description>
+Map: R79FIRLM Based on: R79FTRNM Description Trans name / Job name</description>
     </item>
     
     <item>
@@ -283,7 +287,8 @@ Map: R79FIRLM Based on: R79FTRNM </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rrf/</guid>
       <description>NEW RECORD FORMAT
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+Record: SMF79S15 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
     </item>
     
     <item>
@@ -293,7 +298,7 @@ Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rty/</guid>
       <description>RECORD TYPE
-Record: SMF79S15 Based on: SMF79RTY </description>
+Record: SMF79S15 Based on: SMF79RTY Description RECORD TYPE</description>
     </item>
     
     <item>
@@ -303,7 +308,7 @@ Record: SMF79S15 Based on: SMF79RTY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/seg/</guid>
       <description>SEGMENT DESCRIPTOR
-Record: SMF79S15 Based on: SMF79SEG </description>
+Record: SMF79S15 Based on: SMF79SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
@@ -313,7 +318,7 @@ Record: SMF79S15 Based on: SMF79SEG </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sid/</guid>
       <description>SYSTEM ID FROM INSTALLATION
-Record: SMF79S15 Based on: SMF79SID </description>
+Record: SMF79S15 Based on: SMF79SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
     <item>
@@ -323,7 +328,7 @@ Record: SMF79S15 Based on: SMF79SID </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
-Record: SMF79S15 Based on: SMF79SSI </description>
+Record: SMF79S15 Based on: SMF79SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
@@ -333,7 +338,7 @@ Record: SMF79S15 Based on: SMF79SSI </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sty/</guid>
       <description>SUBTYPE
-Record: SMF79S15 Based on: SMF79STY </description>
+Record: SMF79S15 Based on: SMF79STY Description SUBTYPE</description>
     </item>
     
     <item>
@@ -343,7 +348,8 @@ Record: SMF79S15 Based on: SMF79STY </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sut/</guid>
       <description>SUBTYPES USED
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+Record: SMF79S15 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
     </item>
     
     <item>
@@ -373,8 +379,8 @@ Post-Processed This field is combined from a date and a time field to form a tim
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/tme/</guid>
-      <description>TOD RECORD WRITTEN
-Record: SMF79S15 Based on: SMF79TME </description>
+      <description>TIME RECORD WRITTEN
+Record: SMF79S15 Based on: SMF79TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
@@ -384,7 +390,7 @@ Record: SMF79S15 Based on: SMF79TME </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
-Record: SMF79S15 Based on: SMF79TRN </description>
+Record: SMF79S15 Based on: SMF79TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
@@ -394,7 +400,8 @@ Record: SMF79S15 Based on: SMF79TRN </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+Record: SMF79S15 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
     </item>
     
     <item>
@@ -404,7 +411,8 @@ Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/vxa/</guid>
       <description>MVS/XA IF ON
-Record: SMF79S15 Based on: flg Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+Record: SMF79S15 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
     </item>
     
   </channel>
