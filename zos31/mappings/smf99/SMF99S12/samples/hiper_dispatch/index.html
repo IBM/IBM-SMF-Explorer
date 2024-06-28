@@ -14,9 +14,7 @@
 
   <meta name="description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy virtual lpar_capacity_used
-cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip; vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds integer timestamp virtual date
-time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds." />
+Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
 
     <title>Sample - hiper_dispatch | IBM SMF Explorer</title>
 
@@ -44,9 +42,7 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy virtual lpar_capacity_used
-cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds integer timestamp virtual date
-time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds." />
+Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/samples/hiper_dispatch/" />
 
@@ -61,9 +57,7 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <meta name="twitter:title" content="Sample - hiper_dispatch" />
   <meta name="twitter:description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy virtual lpar_capacity_used
-cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds integer timestamp virtual date
-time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds." />
+Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
 
 
   <script type="application/ld+json">
@@ -74,7 +68,7 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       "name": "Sample - hiper_dispatch",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/samples/hiper_dispatch/",
       "headline": "Sample - hiper_dispatch",
-      "description": "Request hiper dispatch information per processor type.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM \u002b VL, scaled by 256 integer lpar_busy virtual lpar_capacity_used\ncpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… vm_vl_allocated_capacity SMF99C_VCM_LPARCAPALLOCVMVL Allocated LPAR capacity on VMs and VLs in microseconds integer timestamp virtual date\ntime Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer lpar_capacity_allocated SMF99C_VCM_LPARCAPALLOC Allocated LPAR capcacity in microseconds.",
+      "description": "Request hiper dispatch information per processor type.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM \u002b VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99.",
       "wordCount" : "439",
       "inLanguage": "zos31",
       "isFamilyFriendly": "true",
@@ -758,6 +752,10 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
       
         
       
@@ -2941,6 +2939,18 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4063,6 +4073,18 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4124,6 +4146,18 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -6383,6 +6417,18 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -6444,64 +6490,6 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8656,6 +8644,136 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8717,6 +8835,50 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9236,6 +9398,28 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10930,6 +11114,80 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11268,6 +11526,28 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11329,6 +11609,28 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16706,6 +17008,92 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17277,6 +17665,42 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17592,6 +18016,52 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17710,6 +18180,64 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18990,6 +19518,8 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
     
   </ul>
 
@@ -19051,6 +19581,116 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22185,6 +22825,80 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24472,6 +25186,14 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24533,30 +25255,6 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -25990,6 +26688,142 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -26051,6 +26885,36 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26859,6 +27723,34 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed/"
+>lpar_capacity_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPGUARAN</td>
+<td>Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_projvhmutil/"
+>vcm_projvhmutil</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_PROJVHMUTIL</td>
+<td>Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrpark/"
+>vcm_mvsbusydynathrpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_MVSBUSYDYNATHRPARK</td>
+<td>Dynamic MvsBusy threshhold for parking scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_cap_above_guaranteed/"
 >vm_vl_cap_above_guaranteed</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
 </span></span></td>
@@ -26869,26 +27761,52 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy/"
->lpar_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy_projected/"
+>lpar_busy_projected</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_MVSBUSYPROJECTED</td>
+<td>Projected MvsBusy, scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/mvs_busy/"
+>mvs_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_MVSBUSY</td>
+<td>Average CPU usage scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_type/"
+>cpu_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
->lpar_capacity_used</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_total/"
->cpu_total</a></td>
-<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip;</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/hd_int_cap_proctype/"
+>hd_int_cap_proctype</a></td>
+<td>SMF99.12 capacity data processor type @ME14601A</td>
 <td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_allocated_capacity/"
->vm_vl_allocated_capacity</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPALLOCVMVL</td>
-<td>Allocated LPAR capacity on VMs and VLs in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vh/"
+>cpu_vh</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPUHI</td>
+<td>Number VHs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vh/"
+>lpar_capacity_used_vh</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDVHADJ</td>
+<td>Used VH capacity of previous interval in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -26910,124 +27828,19 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vm_vl/"
->lpar_capacity_used_vm_vl</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDVMVL</td>
-<td>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vm/"
+>cpu_vm</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPUMED</td>
+<td>Number of VMs</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_projvhmutil/"
->vcm_projvhmutil</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_PROJVHMUTIL</td>
-<td>Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_allocated/"
->lpar_capacity_allocated</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPALLOC</td>
-<td>Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_capacity_used/"
->cec_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CECCAPUSEDADJ</td>
-<td>CEC capacity used in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_cap_used_non_guaranteed/"
->lpar_cap_used_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDDISCR</td>
-<td>Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_type/"
->cpu_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/hd_int_cap_proctype/"
->hd_int_cap_proctype</a></td>
-<td>SMF99.12 capacity data processor type @ME14601A</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrunpark/"
->vcm_mvsbusydynathrunpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_MVSBUSYDYNATHRUNPARK</td>
-<td>Dynamic MvsBusy threshhold for unparking scaled by 16</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_utilization/"
->cec_utilization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_CECUTIL</td>
-<td>Total CEC utilization, scaled by 256</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_non_guaranteed/"
->lpar_capacity_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPNONGUARAN</td>
-<td>Non guaranteed LPAR capacity in microseconds</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_unparked/"
->vl_unparked</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPULOUNPARKED</td>
-<td>Number of unparked VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vh/"
->cpu_vh</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPUHI</td>
-<td>Number VHs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System identification (from the SID parameter).</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed_vm/"
->lpar_capacity_guaranteed_vm</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPMEDGUARAN</td>
-<td>Guaranteed LPAR capacity on VMs in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_ceccaptotal/"
+>vcm_ceccaptotal</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CECCAPTOTAL</td>
+<td>Total CEC capacity in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27085,10 +27898,93 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_ceccaptotal/"
->vcm_ceccaptotal</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CECCAPTOTAL</td>
-<td>Total CEC capacity in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_cap_used_non_guaranteed/"
+>lpar_cap_used_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDDISCR</td>
+<td>Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_free_capacity/"
+>cec_free_capacity</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CECCAPFREE</td>
+<td>Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_utilization/"
+>cec_utilization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_CECUTIL</td>
+<td>Total CEC utilization, scaled by 256</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vl/"
+>cpu_vl</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPULO</td>
+<td>Number VLs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_allocated/"
+>lpar_capacity_allocated</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPALLOC</td>
+<td>Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_unused/"
+>lpar_capacity_unused</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARUNUSEDCAP</td>
+<td>Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
+>lpar_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDADJ</td>
+<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrunpark/"
+>vcm_mvsbusydynathrunpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_MVSBUSYDYNATHRUNPARK</td>
+<td>Dynamic MvsBusy threshhold for unparking scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_parked/"
+>vl_parked</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPULOPARKED</td>
+<td>Number of parked VLs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed_vm/"
+>lpar_capacity_guaranteed_vm</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPMEDGUARAN</td>
+<td>Guaranteed LPAR capacity on VMs in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27146,50 +28042,11 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
->lpar_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDADJ</td>
-<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/mvs_busy/"
->mvs_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_MVSBUSY</td>
-<td>Average CPU usage scaled by 16</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrpark/"
->vcm_mvsbusydynathrpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_MVSBUSYDYNATHRPARK</td>
-<td>Dynamic MvsBusy threshhold for parking scaled by 16</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vl/"
->cpu_vl</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPULO</td>
-<td>Number VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy_projected/"
->lpar_busy_projected</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_MVSBUSYPROJECTED</td>
-<td>Projected MvsBusy, scaled by 16</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System identification (from the SID parameter).</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27204,55 +28061,62 @@ time Record Timestamp lpar_capacity_used_vm_vl SMF99C_VCM_LPARCAPUSEDVMVL Used c
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_free_capacity/"
->cec_free_capacity</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CECCAPFREE</td>
-<td>Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_non_guaranteed/"
+>lpar_capacity_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPNONGUARAN</td>
+<td>Non guaranteed LPAR capacity in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_unused/"
->lpar_capacity_unused</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARUNUSEDCAP</td>
-<td>Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy/"
+>lpar_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
+>lpar_capacity_used</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_total/"
+>cpu_total</a></td>
+<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_allocated_capacity/"
+>vm_vl_allocated_capacity</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPALLOCVMVL</td>
+<td>Allocated LPAR capacity on VMs and VLs in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vm/"
->cpu_vm</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPUMED</td>
-<td>Number of VMs</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_capacity_used/"
+>cec_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CECCAPUSEDADJ</td>
+<td>CEC capacity used in microseconds, adjusted to the scheduled VCM interval length</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vh/"
->lpar_capacity_used_vh</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDVHADJ</td>
-<td>Used VH capacity of previous interval in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_unparked/"
+>vl_unparked</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPULOUNPARKED</td>
+<td>Number of unparked VLs</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_parked/"
->vl_parked</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPULOPARKED</td>
-<td>Number of parked VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed/"
->lpar_capacity_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPGUARAN</td>
-<td>Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vm_vl/"
+>lpar_capacity_used_vm_vl</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDVMVL</td>
+<td>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length</td>
 <td>integer</td>
 </tr>
 </tbody>

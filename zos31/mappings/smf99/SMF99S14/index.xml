@@ -363,6 +363,28 @@ Record: SMF99S14 Based on: SMF99DTE Description Date when the record was moved i
     </item>
     
     <item>
+      <title>Field - e_an_ci_notopoinfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_an_ci_notopoinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_an_ci_notopoinfo/</guid>
+      <description>No CPU/Core topology information available in SMF99E_AN_TOPO
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_ci_flags Description No CPU/Core topology information available in SMF99E_AN_TOPO
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field an_ci_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_cp_ci_notopoinfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_ci_notopoinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_ci_notopoinfo/</guid>
+      <description>No CPU/Core topology information available in SMF99E_CP_TOPO
+Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: cp_ci_flags Description No CPU/Core topology information available in SMF99E_CP_TOPO
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cp_ci_flags.</description>
+    </item>
+    
+    <item>
       <title>Field - e_cp_polar</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_polar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -370,6 +392,149 @@ Record: SMF99S14 Based on: SMF99DTE Description Date when the record was moved i
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_cp_polar/</guid>
       <description>CPU/Core polarization
 Map: SMF99_S14_HD_TOPOCHG_CPU_MAP Based on: SMF99E_CP_POLAR Description CPU/Core polarization</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_an_bdycrossing</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_an_bdycrossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_an_bdycrossing/</guid>
+      <description>CPs on this node are boundary crossing.
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_flags Description CPs on this node are boundary crossing.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field an_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_an_hnsbdycrossing</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_an_hnsbdycrossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_an_hnsbdycrossing/</guid>
+      <description>Helper nodes are boundary crossing.
+Map: SMF99_S14_HD_TOPOCHG_NODE_MAP Based on: an_flags Description Helper nodes are boundary crossing.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field an_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_ceccapvalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_ceccapvalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_ceccapvalid/</guid>
+      <description>CEC capacities are valid
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description CEC capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_lparcapvalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_lparcapvalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_lparcapvalid/</guid>
+      <description>LPAR capacities are valid
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description LPAR capacities are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_mpwq_updated</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_mpwq_updated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_mpwq_updated/</guid>
+      <description>dispatcher affinity was updated
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description dispatcher affinity was updated
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_old_state</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_old_state/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_old_state/</guid>
+      <description>old VCM state
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description old VCM state
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_procspeedchg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_procspeedchg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_procspeedchg/</guid>
+      <description>processor speed change
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description processor speed change
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_ptf_switched</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_ptf_switched/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_ptf_switched/</guid>
+      <description>PTF was issued to initiate a switch opposite mode. However, the PTF return info tells us that we are already in the requested mode
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description PTF was issued to initiate a switch opposite mode. However, the PTF return info tells us that we are already in the requested mode
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vcm_flag2.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_rebuildans</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_rebuildans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_rebuildans/</guid>
+      <description>rebuild affinity nodes
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description rebuild affinity nodes
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_topochanged</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochanged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochanged/</guid>
+      <description>topology has changed
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description topology has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_topochg_hp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochg_hp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochg_hp/</guid>
+      <description>honor priority has changed
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description honor priority has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_topochg_wuqe</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochg_wuqe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_topochg_wuqe/</guid>
+      <description>dispatcher WUQ error
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag1 Description dispatcher WUQ error
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vcm_flag1.</description>
+    </item>
+    
+    <item>
+      <title>Field - e_vcm_transition</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_transition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/fields/e_vcm_transition/</guid>
+      <description>VCM in transition to/from vertical
+Map: SMF99_S14_HD_TOPOCHG_HDR_MAP Based on: vcm_flag2 Description VCM in transition to/from vertical
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vcm_flag2.</description>
     </item>
     
     <item>
@@ -987,8 +1152,10 @@ Record: SMF99S14 Based on: SMF99TME Description Time since midnight, in hundreth
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format topology_change virtual vcm_flag1 topology has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer timestamp virtual date
-time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.</description>
+Name Based on Description Type/Format processor virtual high
+medium
+low processor type cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer timestamp virtual date
+time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer speed_change virtual vcm_flag1 processor speed change topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.</description>
     </item>
     
     <item>

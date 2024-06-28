@@ -644,8 +644,8 @@ Map: SMF71PAG Based on: SMF71C4X Description Maximum number of high virtual comm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/caa/</guid>
-      <description>Average number of available central storage frames (rceafc+rce_freemainedframes- max(rceafcok,mccafcok*mccdefam )) (long floating point)
-Map: SMF71PAG Based on: SMF71CAA Description Average number of available central storage frames (rceafc+rce_freemainedframes- max(rceafcok,mccafcok*mccdefam )) (long floating point)</description>
+      <description>Average number of available central storage frames (rceafc+rce_freemainedframes max(rceafcok,mccafcok*mccdefam )) (long floating point)
+Map: SMF71PAG Based on: SMF71CAA Description Average number of available central storage frames (rceafc+rce_freemainedframes max(rceafcok,mccafcok*mccdefam )) (long floating point)</description>
     </item>
     
     <item>
@@ -786,6 +786,17 @@ Map: SMF71PAG Based on: SMF71CMM Description Minimum number of medium impact cen
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/cmx/</guid>
       <description>Maximum number of medium impact central storage frames (long floating point)
 Map: SMF71PAG Based on: SMF71CMX Description Maximum number of medium impact central storage frames (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF71PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -1353,6 +1364,17 @@ Map: SMF71PAG Based on: SMF71_DMEMTOTALONLINE2G_X Description Maximum amount of 
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF71PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dsc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/dsc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1370,6 +1392,28 @@ Map: SMF71PAG Based on: SMF71DSC Description AUX DATA SET SLOT COUNT (SNAPSHOT O
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
 Record: SMF71S1 Based on: SMF71DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF71PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF71PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -1721,6 +1765,17 @@ Map: SMF71PRO Based on: SMF71IET Description Interval expiration time token</des
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF71PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1802,6 +1857,17 @@ Map: SMF71PAG Based on: SMF71ISC Description no of invalid samples returned from
       <description>Interval was under SMF control
 Map: SMF71PRO Based on: fla Description Interval was under SMF control
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF71PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -2100,8 +2166,8 @@ Map: SMF71PAG Based on: SMF71LRA Description Average number of 1 MB pages fixed 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/lri/</guid>
-      <description>Average number of request-ini- tiated demotions from pageable large frame groups to 4K page frames (long floating point)
-Map: SMF71PAG Based on: SMF71LRI Description Average number of request-ini- tiated demotions from pageable large frame groups to 4K page frames (long floating point)</description>
+      <description>Average number of request-ini tiated demotions from pageable large frame groups to 4K page frames (long floating point)
+Map: SMF71PAG Based on: SMF71LRI Description Average number of request-ini tiated demotions from pageable large frame groups to 4K page frames (long floating point)</description>
     </item>
     
     <item>
@@ -2130,8 +2196,8 @@ Map: SMF71PAG Based on: SMF71LRX Description Maximum number of 1 MB pages fixed 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/lsi/</guid>
-      <description>Average number of system-ini- tiated demotions from pageable large frame groups to 4K page frames (long floating point)
-Map: SMF71PAG Based on: SMF71LSI Description Average number of system-ini- tiated demotions from pageable large frame groups to 4K page frames (long floating point)</description>
+      <description>Average number of system-ini tiated demotions from pageable large frame groups to 4K page frames (long floating point)
+Map: SMF71PAG Based on: SMF71LSI Description Average number of system-ini tiated demotions from pageable large frame groups to 4K page frames (long floating point)</description>
     </item>
     
     <item>
@@ -2461,8 +2527,8 @@ Map: SMF71PAG Based on: SMF71MNL Description Minimum number of fixed frames belo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/mnm/</guid>
-      <description>MIN LOCAL PAGE DATA SET SLOTS ALLOCATED TO NON VIO PRIVATE AREA PAGES- FROM ASMNVSC
-Map: SMF71PAG Based on: SMF71MNM Description MIN LOCAL PAGE DATA SET SLOTS ALLOCATED TO NON VIO PRIVATE AREA PAGES- FROM ASMNVSC</description>
+      <description>MIN LOCAL PAGE DATA SET SLOTS ALLOCATED TO NON VIO PRIVATE AREA PAGES FROM ASMNVSC
+Map: SMF71PAG Based on: SMF71MNM Description MIN LOCAL PAGE DATA SET SLOTS ALLOCATED TO NON VIO PRIVATE AREA PAGES FROM ASMNVSC</description>
     </item>
     
     <item>
@@ -2857,6 +2923,28 @@ Record: SMF71S1 Based on: SMF71PDS Description OFFSET TO PAGING DATA SECTION</de
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF71PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF71PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - pi1</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pi1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2963,8 +3051,8 @@ Map: SMF71PAG Based on: SMF71PMV Description TOTAL PAGE MOVES - FROM (RCEPAGMV)<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/po1/</guid>
-      <description>Average total number of page- outs of 1 MB pages to SCM (long floating point)
-Map: SMF71PAG Based on: SMF71PO1 Description Average total number of page- outs of 1 MB pages to SCM (long floating point)</description>
+      <description>Average total number of page outs of 1 MB pages to SCM (long floating point)
+Map: SMF71PAG Based on: SMF71PO1 Description Average total number of page outs of 1 MB pages to SCM (long floating point)</description>
     </item>
     
     <item>
@@ -2983,8 +3071,8 @@ Map: SMF71PAG Based on: SMF71POH Description Number of page-outs to auxiliary st
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pos/</guid>
-      <description>Average total number of page- outs of 4 KB pages to SCM (long floating point)
-Map: SMF71PAG Based on: SMF71POS Description Average total number of page- outs of 4 KB pages to SCM (long floating point)</description>
+      <description>Average total number of page outs of 4 KB pages to SCM (long floating point)
+Map: SMF71PAG Based on: SMF71POS Description Average total number of page outs of 4 KB pages to SCM (long floating point)</description>
     </item>
     
     <item>
@@ -3020,6 +3108,17 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF71PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3037,6 +3136,17 @@ Record: SMF71S1 Based on: SMF71PRL Description LENGTH OF RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
 Record: SMF71S1 Based on: SMF71PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF71PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -3067,6 +3177,17 @@ Map: SMF71PAG Based on: SMF71PTH Description Average number of pages in the syst
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF71PRO Based on: SMF71PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf71/SMF71S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF71PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>

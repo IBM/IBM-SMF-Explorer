@@ -14,7 +14,7 @@
 
   <meta name="description" content="Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[3] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_imp SMF99_PIMPOR importance integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer timestamp virtual date" />
+Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter)." />
 
     <title>Sample - response_time | IBM SMF Explorer</title>
 
@@ -42,7 +42,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[3] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_imp SMF99_PIMPOR importance integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer timestamp virtual date" />
+Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/" />
 
@@ -57,7 +57,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <meta name="twitter:title" content="Sample - response_time" />
   <meta name="twitter:description" content="Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[3] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_imp SMF99_PIMPOR importance integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer timestamp virtual date" />
+Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter)." />
 
 
   <script type="application/ld+json">
@@ -68,7 +68,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       "name": "Sample - response_time",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/",
       "headline": "Sample - response_time",
-      "description": "Request sampling information for response time distribution.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[3] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_imp SMF99_PIMPOR importance integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer timestamp virtual date",
+      "description": "Request sampling information for response time distribution.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter).",
       "wordCount" : "379",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -1759,66 +1759,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1880,58 +1820,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4023,58 +3911,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4136,58 +3972,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6355,58 +6139,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6468,118 +6200,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8686,6 +8306,136 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8747,6 +8497,50 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9266,6 +9060,28 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10880,6 +10696,80 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11218,6 +11108,28 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11279,6 +11191,28 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16656,6 +16590,92 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17227,6 +17247,42 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17542,6 +17598,52 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17660,6 +17762,64 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18940,6 +19100,8 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
     
   </ul>
 
@@ -19001,6 +19163,116 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22131,6 +22403,80 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24418,6 +24764,14 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24479,6 +24833,12 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
       
         
       
@@ -25874,6 +26234,140 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -25935,6 +26429,36 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26743,31 +27267,21 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[25]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/prtp/"
+>prtp</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_PRTP</td>
+<td>Response time goal percentile. Zero if period does not have a percentile response time goal.</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[23]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[16]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
 <td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_name/"
->srv_class_name</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_CNAM</td>
-<td>service class name</td>
-<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -26792,18 +27306,17 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[6]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/srv_class_name/"
+>srv_class_name</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_CNAM</td>
+<td>service class name</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[0]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[9]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -26822,7 +27335,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[3]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[10]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -26832,7 +27345,74 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[10]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[23]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[24]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_int_sum_trans/"
+>rt_distri_int_sum_trans</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RT_DISTRI_INT_SUM_TRANS</td>
+<td>Response time distribution total number of transactions completed during last interval</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_avg_resp_time/"
+>rt_distri_avg_resp_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RT_DISTRI_AVG_RESP_TIME</td>
+<td>Response time distribution average response time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_sum_trans/"
+>rt_distri_sum_trans</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RT_DISTRI_SUM_TRANS</td>
+<td>Response time distribution total number of transactions completed</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[21]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[17]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[20]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -26851,6 +27431,15 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System identification (from the SID parameter).</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/goal_value/"
 >goal_value</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_PGOALVAL</td>
@@ -26860,49 +27449,11 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_int_sum_trans/"
->rt_distri_int_sum_trans</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RT_DISTRI_INT_SUM_TRANS</td>
-<td>Response time distribution total number of transactions completed during last interval</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[22]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[4]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[14]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[2]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_imp/"
->period_imp</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_PIMPOR</td>
-<td>importance</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -26910,16 +27461,6 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
 >rt_distri_num_trans[12]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[17]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -26942,10 +27483,49 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[13]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[19]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[18]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[22]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[0]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/period_imp/"
+>period_imp</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_PIMPOR</td>
+<td>importance</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -26961,10 +27541,51 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_sum_trans/"
->rt_distri_sum_trans</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RT_DISTRI_SUM_TRANS</td>
-<td>Response time distribution total number of transactions completed</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[14]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[8]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[26]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[7]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
+>rt_distri_num_trans[2]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+</span></span></td>
+<td>SMF99_RT_DISTRI_NUM_TRANS</td>
+<td>Response time distribution, 28 buckets</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -26987,104 +27608,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[20]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System identification (from the SID parameter).</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[19]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_avg_resp_time/"
->rt_distri_avg_resp_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RT_DISTRI_AVG_RESP_TIME</td>
-<td>Response time distribution average response time</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[26]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[9]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/prtp/"
->prtp</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_PRTP</td>
-<td>Response time goal percentile. Zero if period does not have a percentile response time goal.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[21]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[24]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[4]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
-</span></span></td>
-<td>SMF99_RT_DISTRI_NUM_TRANS</td>
-<td>Response time distribution, 28 buckets</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[16]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[13]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -27104,7 +27628,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[7]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[3]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -27114,7 +27638,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[18]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[6]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>
@@ -27124,7 +27648,7 @@ Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DI
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rt_distri_num_trans/"
->rt_distri_num_trans[8]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
+>rt_distri_num_trans[25]</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-array);color:var(--tag-color-array);border: none'>array</span>
 </span></span></td>
 <td>SMF99_RT_DISTRI_NUM_TRANS</td>
 <td>Response time distribution, 28 buckets</td>

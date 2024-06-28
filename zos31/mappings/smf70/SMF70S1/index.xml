@@ -6,6 +6,39 @@
     <description>Recent content in SMF 70 Subtype  1 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Field - _boostinfo_speed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_boostinfo_speed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_boostinfo_speed/</guid>
+      <description>Speed boost was active at some point within the interval.
+Map: SMF70BCT Based on: boostinfo Description Speed boost was active at some point within the interval.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field boostinfo.</description>
+    </item>
+    
+    <item>
+      <title>Field - _boostinfo_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_boostinfo_ziip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_boostinfo_ziip/</guid>
+      <description>zIIP boost was active at some point within the interval.
+Map: SMF70BCT Based on: boostinfo Description zIIP boost was active at some point within the interval.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field boostinfo.</description>
+    </item>
+    
+    <item>
+      <title>Field - _lpb_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_lpb_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/_lpb_valid/</guid>
+      <description>Core LPAR Busy time is valid
+Map: SMF70LCS Based on: core_flg Description Core LPAR Busy time is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field core_flg.</description>
+    </item>
+    
+    <item>
       <title>Field - a00</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/a00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,6 +155,17 @@
       <description>Absolute MSU capping is active
 Map: SMF70CTL Based on: hhf Description Absolute MSU capping is active
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field hhf.</description>
+    </item>
+    
+    <item>
+      <title>Field - adc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/adc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/adc/</guid>
+      <description>Physical CPU adjustment factor changed
+Map: SMF70CTL Based on: stf Description Physical CPU adjustment factor changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field stf.</description>
     </item>
     
     <item>
@@ -541,6 +585,17 @@ Map: SMF70CTL Based on: SMF70CAI Description Capacity-adjustment indication. Whe
     </item>
     
     <item>
+      <title>Field - cap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cap/</guid>
+      <description>&amp;lsquo;Initial Capping&amp;rsquo; was set to &amp;lsquo;ON&amp;rsquo; on the Hardware Management Console
+Map: SMF70BPD Based on: vpf Description &amp;lsquo;Initial Capping&amp;rsquo; was set to &amp;lsquo;ON&amp;rsquo; on the Hardware Management Console
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - cap_absolute</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cap_absolute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -661,6 +716,17 @@ Map: SMF70CTL Based on: SMF70CCR Description Capacity-change reason. Valid if SM
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ccs/</guid>
       <description>OFFSET TO CPU CONTROL SECTION
 Record: SMF70S1 Based on: SMF70CCS Description OFFSET TO CPU CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF70PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -942,6 +1008,17 @@ cpa_actual_filter = (cpu_adjustment_factor_actual != 0) &amp;amp; (cpu_control_s
     </item>
     
     <item>
+      <title>Field - cpc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpc/</guid>
+      <description>&amp;lsquo;Initial Capping&amp;rsquo; status has changed during the interval
+Map: SMF70BPD Based on: vpf Description &amp;lsquo;Initial Capping&amp;rsquo; status has changed during the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - cpc_type</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpc_type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -949,6 +1026,26 @@ cpa_actual_filter = (cpu_adjustment_factor_actual != 0) &amp;amp; (cpu_control_s
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpc_type/</guid>
       <description>CPC Type
 Map: SMF70CTL Based on: SMF70CPC_TYPE Description CPC Type</description>
+    </item>
+    
+    <item>
+      <title>Field - cpe_hi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpe_hi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpe_hi/</guid>
+      <description>High threshold value of OPT parameter CPENABLE
+Map: SMF70CTL Based on: SMF70CPE_HI Description High threshold value of OPT parameter CPENABLE</description>
+    </item>
+    
+    <item>
+      <title>Field - cpe_lo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpe_lo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpe_lo/</guid>
+      <description>Low threshold value of OPT parameter CPENABLE
+Map: SMF70CTL Based on: SMF70CPE_LO Description Low threshold value of OPT parameter CPENABLE</description>
     </item>
     
     <item>
@@ -1352,6 +1449,17 @@ Record: SMF70S1 Based on: SMF70DTE </description>
     </item>
     
     <item>
+      <title>Field - dci</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dci/</guid>
+      <description>Data available for a complete interval
+Map: SMF70CPU Based on: cnf Description Data available for a complete interval
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - dedicated_proc_chng</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dedicated_proc_chng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1360,6 +1468,17 @@ Record: SMF70S1 Based on: SMF70DTE </description>
       <description>Partition&amp;rsquo;s number of dedicated processors has changed
 Map: SMF70BCT Based on: pfg Description Partition&amp;rsquo;s number of dedicated processors has changed
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field pfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - dge</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dge/</guid>
+      <description>PR/SM - Diagnose X&#39;204&amp;rsquo; extended data is supported
+Map: SMF70CTL Based on: inb Description PR/SM - Diagnose X&#39;204&amp;rsquo; extended data is supported
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field inb.</description>
     </item>
     
     <item>
@@ -1393,6 +1512,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <description>Simplified Diagnose X&#39;204&amp;rsquo; data provided for system running as z/VM guest. CPU consumption by z/VM itself provided with partition data section named &amp;ldquo;PHYSICAL&amp;rdquo;
 Map: SMF70CTL Based on: inb Description Simplified Diagnose X&#39;204&amp;rsquo; data provided for system running as z/VM guest. CPU consumption by z/VM itself provided with partition data section named &amp;ldquo;PHYSICAL&amp;rdquo;
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field inb.</description>
+    </item>
+    
+    <item>
+      <title>Field - dif</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dif/</guid>
+      <description>PR/SM - Diagnose X&#39;204&amp;rsquo; failure
+Map: SMF70CTL Based on: inb Description PR/SM - Diagnose X&#39;204&amp;rsquo; failure
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field inb.</description>
     </item>
     
     <item>
@@ -1435,6 +1565,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF70PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1442,6 +1583,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
 Record: SMF70S1 Based on: SMF70DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF70PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF70PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -1584,6 +1747,39 @@ Map: SMF70BCT Based on: SMF70GMU Description Group maximum licensing units. The 
     </item>
     
     <item>
+      <title>Field - grp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/grp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/grp/</guid>
+      <description>Group flag. This partition is member of a capacity group.
+Map: SMF70BCT Based on: pfl Description Group flag. This partition is member of a capacity group.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - ham</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ham/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ham/</guid>
+      <description>Absolute MSU capping is active
+Map: SMF70CTL Based on: hhf Description Absolute MSU capping is active
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field hhf.</description>
+    </item>
+    
+    <item>
+      <title>Field - hcc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hcc/</guid>
+      <description>SMF70HW_Cap_Limit has changed during the interval
+Map: SMF70BPD Based on: vpf Description SMF70HW_Cap_Limit has changed during the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - hd_active</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hd_active/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1617,6 +1813,39 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - hgc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hgc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hgc/</guid>
+      <description>SMF70HWGr_Name or SMF70HWGr_Cap_Limit has changed during the interval
+Map: SMF70BPD Based on: vpf Description SMF70HWGr_Name or SMF70HWGr_Cap_Limit has changed during the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field vpf.</description>
+    </item>
+    
+    <item>
+      <title>Field - hha</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hha/</guid>
+      <description>HiperDispatch is active
+Map: SMF70CTL Based on: hhf Description HiperDispatch is active
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field hhf.</description>
+    </item>
+    
+    <item>
+      <title>Field - hhc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hhc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hhc/</guid>
+      <description>HiperDispatch status changed during interval
+Map: SMF70CTL Based on: hhf Description HiperDispatch status changed during interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field hhf.</description>
+    </item>
+    
+    <item>
       <title>Field - hhf</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hhf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1626,6 +1855,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
 Map: SMF70CTL Based on: SMF70HHF Description Additional flags
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description hd_supported 0 HiperDispatch supported hd_active 1 HiperDispatch is active hd_staus_chng 2 HiperDispatch status changed during interval hismt_failure 3 Failure returned by HisMT service. Values in logical core data section, multithreading capacity factors and average thread density values are invalid. absolut_msu_capping 4 Absolute MSU capping is active prtct_valid 5 SMF70OS_PRTCT is valid </description>
+    </item>
+    
+    <item>
+      <title>Field - hhs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hhs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hhs/</guid>
+      <description>HiperDispatch supported
+Map: SMF70CTL Based on: hhf Description HiperDispatch supported
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field hhf.</description>
+    </item>
+    
+    <item>
+      <title>Field - hif</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hif/</guid>
+      <description>Failure returned by HisMT service. Values in logical core data section, multithreading capacity factors and average thread density values are invalid.
+Map: SMF70CTL Based on: hhf Description Failure returned by HisMT service. Values in logical core data section, multithreading capacity factors and average thread density values are invalid.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field hhf.</description>
     </item>
     
     <item>
@@ -1647,6 +1898,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hof/</guid>
       <description>Hypervisor date/time offset (aka Sysplex timer offset)
 Map: SMF70CTL Based on: SMF70HOF Description Hypervisor date/time offset (aka Sysplex timer offset)</description>
+    </item>
+    
+    <item>
+      <title>Field - hop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/hop/</guid>
+      <description>SMF70OS_PRTCT is valid
+Map: SMF70CTL Based on: hhf Description SMF70OS_PRTCT is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field hhf.</description>
     </item>
     
     <item>
@@ -1830,6 +2092,17 @@ Map: SMF70CTL Based on: SMF70IFA Description zAAPs online at the end of the inte
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF70PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1958,6 +2231,28 @@ Map: SMF70CTL Based on: SMF70_IPL_TIME Description IPL time of partition (TOD fo
     </item>
     
     <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF70PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF70PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - ist</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1975,6 +2270,26 @@ Map: SMF70PRO Based on: SMF70IST Description Time monitor interval start</descri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/itt/</guid>
       <description>IN USERS TOTAL VALUE
 Map: SMF70AID Based on: SMF70ITT Description IN USERS TOTAL VALUE</description>
+    </item>
+    
+    <item>
+      <title>Field - jsu_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/jsu_on_cp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/jsu_on_cp/</guid>
+      <description>Unweighted zIIP-eligible Java service units spent on CP for the entire system
+Map: SMF70CTL Based on: SMF70JSU_ON_CP Description Unweighted zIIP-eligible Java service units spent on CP for the entire system</description>
+    </item>
+    
+    <item>
+      <title>Field - jsu_on_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/jsu_on_ziip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/jsu_on_ziip/</guid>
+      <description>Unweighted zIIP-eligible Java service units spent on zIIP for the entire system
+Map: SMF70CTL Based on: SMF70JSU_ON_ZIIP Description Unweighted zIIP-eligible Java service units spent on zIIP for the entire system</description>
     </item>
     
     <item>
@@ -2247,8 +2562,7 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer lpar_system_name virtual lpar_name
-system_name LPAR-System name system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date</description>
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</description>
     </item>
     
     <item>
@@ -2329,6 +2643,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - lpo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpo/</guid>
+      <description>Logical processor varied online during measurment interval
+Map: SMF70BPD Based on: vpf Description Logical processor varied online during measurment interval
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - ltt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ltt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2400,6 +2725,16 @@ Map: SMF70CTL Based on: SMF70MDL Description EBCDIC CPC model identifier. See Bi
     </item>
     
     <item>
+      <title>Field - mdl_var</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mdl_var/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mdl_var/</guid>
+      <description>EBCDIC model variable capacity identifier. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
+Map: SMF70CTL Based on: SMF70MDL_VAR Description EBCDIC model variable capacity identifier. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.</description>
+    </item>
+    
+    <item>
       <title>Field - mfv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mfv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2437,6 +2772,17 @@ Map: SMF70CTL Based on: SMF70MPC Description When non-zero, EBCDIC model permane
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mpr/</guid>
       <description>Model permanent capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MPC.
 Map: SMF70CTL Based on: SMF70MPR Description Model permanent capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MPC.</description>
+    </item>
+    
+    <item>
+      <title>Field - msc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/msc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/msc/</guid>
+      <description>Defined capacity limit has been changed
+Map: SMF70BCT Based on: pfg Description Defined capacity limit has been changed
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field pfg.</description>
     </item>
     
     <item>
@@ -2489,6 +2835,17 @@ return dispatch_time_total * 16 * cpa_scaling_factor_effective / cpu_adjustment_
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mtc/</guid>
       <description>When non-zero, EBCDIC model temporary capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.
 Map: SMF70CTL Based on: SMF70MTC Description When non-zero, EBCDIC model temporary capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.</description>
+    </item>
+    
+    <item>
+      <title>Field - mti</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mti/</guid>
+      <description>CPU is offline while core is online
+Map: SMF70CPU Based on: cnf Description CPU is offline while core is online
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cnf.</description>
     </item>
     
     <item>
@@ -2583,6 +2940,16 @@ Map: SMF70CTL Based on: SMF70MCFS Description Multithreading maximum capacity nu
     </item>
     
     <item>
+      <title>Field - mvcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mvcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mvcr/</guid>
+      <description>Model variable capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MDL_VAR.
+Map: SMF70CTL Based on: SMF70MVCR Description Model variable capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MDL_VAR.</description>
+    </item>
+    
+    <item>
       <title>Field - mvs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/mvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2614,6 +2981,17 @@ Map: SMF70CTL Based on: SMF70NCR Description Nominal model-capacity rating. When
     </item>
     
     <item>
+      <title>Field - ndc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ndc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ndc/</guid>
+      <description>Partition&amp;rsquo;s number of dedicated processors has changed
+Map: SMF70BCT Based on: pfg Description Partition&amp;rsquo;s number of dedicated processors has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field pfg.</description>
+    </item>
+    
+    <item>
       <title>Field - new_record</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/new_record/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2622,6 +3000,17 @@ Map: SMF70CTL Based on: SMF70NCR Description Nominal model-capacity rating. When
       <description>NEW RECORD FORMAT
 Record: SMF70S1 Based on: flg Description NEW RECORD FORMAT
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - npc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/npc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/npc/</guid>
+      <description>PR/SM - Number of physical processors has changed
+Map: SMF70CTL Based on: inb Description PR/SM - Number of physical processors has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field inb.</description>
     </item>
     
     <item>
@@ -2655,6 +3044,17 @@ Map: SMF70BPD Based on: SMF70NSA Description Number of Diagnose samples within t
     </item>
     
     <item>
+      <title>Field - nsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nsc/</guid>
+      <description>Partition&amp;rsquo;s number of shared processors has changed
+Map: SMF70BCT Based on: pfg Description Partition&amp;rsquo;s number of shared processors has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field pfg.</description>
+    </item>
+    
+    <item>
       <title>Field - nsi</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nsi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2672,6 +3072,27 @@ Map: SMF70BPD Based on: SMF70NSI Description Number of Diagnose samples within t
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ntr/</guid>
       <description>Nominal temporary model-capacity rating. When non-zero, this value is associated with the nominal temporary model capacity as identified in field SMF70MTC. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MTR.
 Map: SMF70CTL Based on: SMF70NTR Description Nominal temporary model-capacity rating. When non-zero, this value is associated with the nominal temporary model capacity as identified in field SMF70MTC. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MTR.</description>
+    </item>
+    
+    <item>
+      <title>Field - nvc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nvc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nvc/</guid>
+      <description>Partition&amp;rsquo;s number of logical processors has changed
+Map: SMF70BCT Based on: pfg Description Partition&amp;rsquo;s number of logical processors has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field pfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - nvcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nvcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/nvcr/</guid>
+      <description>Nominal model variable capacity rating. When non-zero, this value is associated with the nominal model capacity as identified in field SMF70MDL_VAR. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MVCR.
+Map: SMF70CTL Based on: SMF70NVCR Description Nominal model variable capacity rating. When non-zero, this value is associated with the nominal model capacity as identified in field SMF70MDL_VAR. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MVCR.</description>
     </item>
     
     <item>
@@ -2952,6 +3373,17 @@ Map: SMF70AID Based on: SMF70OTT Description OUT USERS TOTAL VALUE</description>
     </item>
     
     <item>
+      <title>Field - par</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/par/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/par/</guid>
+      <description>CPU was varied during Postprocessor duration interval
+Map: SMF70CPU Based on: cnf Description CPU was varied during Postprocessor duration interval
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - pdv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pdv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2960,6 +3392,28 @@ Map: SMF70AID Based on: SMF70OTT Description OUT USERS TOTAL VALUE</description>
       <description>Partition has changed from activated to deactivated, or vice versa, during interval
 Map: SMF70BCT Based on: pfg Description Partition has changed from activated to deactivated, or vice versa, during interval
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field pfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -2987,6 +3441,16 @@ Field Bit-Position Description uvf 0 Content of SMF70UPI is valid capacity_group
     </item>
     
     <item>
+      <title>Field - phy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/phy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/phy/</guid>
+      <description>PR/SM - An additional partition is presented with the name &amp;ldquo;PHYSICAL&amp;rdquo;. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition
+Map: SMF70CTL Based on: inb Description PR/SM - An additional partition is presented with the name &amp;ldquo;PHYSICAL&amp;rdquo;. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition</description>
+    </item>
+    
+    <item>
       <title>Field - physical_part</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/physical_part/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3005,6 +3469,17 @@ Map: SMF70CTL Based on: inb Description PR/SM - An additional partition is prese
       <description>PR/SM - Number of physical processors has changed
 Map: SMF70CTL Based on: inb Description PR/SM - Number of physical processors has changed
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field inb.</description>
+    </item>
+    
+    <item>
+      <title>Field - plc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/plc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/plc/</guid>
+      <description>Swapped-in starvation threshold (OPT parameter BLWLINTHD) changed
+Map: SMF70CTL Based on: stf Description Swapped-in starvation threshold (OPT parameter BLWLINTHD) changed
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field stf.</description>
     </item>
     
     <item>
@@ -3162,6 +3637,17 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3189,11 +3675,9 @@ Record: SMF70S1 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_minimum SMF70MIS Processor minimum share integer timestamp virtual date
-time Record Timestamp msu_physical virtual dispatch_time_total
-cpa_scaling_factor_effective
-cpu_adjustment_factor_effective
-interval_in_milliseconds Physical MSU cpu_name processed SMF70CIN CPU-identification name string cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer cpu_polarization virtual flags_polarization Polarization indicator: 00 = Horizontally polarized or polarization no&amp;hellip; dispatch_time_total SMF70PDT Logical processor total dispatch time, in microseconds.</description>
+Name Based on Description Type/Format utilization_per_cpu_physical virtual dispatch_time_total
+logical_processor_online_time
+cpu_count Physical per CPU Utilization logical_processor_is_online virtual logical_processor_online_time Logical processor is online for the given partition share_maximum SMF70MAS Processor maximum share integer dispatch_time_total SMF70PDT Logical processor total dispatch time, in microseconds. When associated with partition name PHYSICAL, this field contains the accumulated number of microseconds during which a physical CPU was busy but the time could not be attributed to a specific logical partition.</description>
     </item>
     
     <item>
@@ -3227,6 +3711,17 @@ valid_filter = logical_processor_online_time &amp;gt; 0 return processor_weight.
     </item>
     
     <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/prs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3248,6 +3743,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
     </item>
     
     <item>
+      <title>Field - ptc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ptc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ptc/</guid>
+      <description>CP promote slices (OPT parameter BLWLTRPCT) changed
+Map: SMF70CTL Based on: stf Description CP promote slices (OPT parameter BLWLTRPCT) changed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field stf.</description>
+    </item>
+    
+    <item>
       <title>Field - ptn</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ptn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3265,6 +3771,17 @@ Map: SMF70PRO Based on: SMF70PTN Description PR/SM partition number</description
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ptt/</guid>
       <description>ASCH USERS TOTAL VALUE
 Map: SMF70AID Based on: SMF70PTT Description ASCH USERS TOTAL VALUE</description>
+    </item>
+    
+    <item>
+      <title>Field - pwf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pwf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/pwf/</guid>
+      <description>Polarization flag. This partition is vertically polarized. That is, HiperDispatch mode is active. The SMF70POW fields in the logical processor data section are valid for CPUs of this partition.
+Map: SMF70BCT Based on: pfl Description Polarization flag. This partition is vertically polarized. That is, HiperDispatch mode is active. The SMF70POW fields in the logical processor data section are valid for CPUs of this partition.
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field pfl.</description>
     </item>
     
     <item>
@@ -3395,6 +3912,17 @@ Map: SMF70AID Based on: SMF70Q11 Description Count of times In Ready was N+61 to
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/q12/</guid>
       <description>Count of times In Ready was greater N+80
 Map: SMF70AID Based on: SMF70Q12 Description Count of times In Ready was greater N+80</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF70PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -3691,6 +4219,17 @@ Map: SMF70AID Based on: SMF70RMN Description READY MINIMUM VALUE</description>
     </item>
     
     <item>
+      <title>Field - rsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/rsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/rsc/</guid>
+      <description>Relative share value has changed during interval
+Map: SMF70BPD Based on: vpf Description Relative share value has changed during interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - rtt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/rtt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3866,7 +4405,7 @@ Map: SMF70BPD Based on: SMF70ACS Description Accumulated processor actual share<
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/share_current/</guid>
       <description>Accumulated processor current share
 Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:
-zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &amp;gt; 0 return share_current.where(nonzero_current_share, processor_weight) </description>
+zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_actual = share_actual.astype(&amp;#39;float&amp;#39;) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &amp;gt; 0 return share_current.where(nonzero_current_share, processor_weight) </description>
     </item>
     
     <item>
@@ -3992,6 +4531,17 @@ Record: SMF70S1 Based on: SMF70SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
+      <title>Field - sta</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sta/</guid>
+      <description>CPU online at end of interval
+Map: SMF70CPU Based on: cnf Description CPU online at end of interval
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - starvation_threshold</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/starvation_threshold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4020,6 +4570,17 @@ Field Bit-Position Description store_sys_info 0 Store-system-information facilit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/store_sys_info/</guid>
+      <description>Store-system-information facility installed
+Map: SMF70CTL Based on: stf Description Store-system-information facility installed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field stf.</description>
+    </item>
+    
+    <item>
+      <title>Field - sts</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sts/</guid>
       <description>Store-system-information facility installed
 Map: SMF70CTL Based on: stf Description Store-system-information facility installed
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field stf.</description>
@@ -4287,6 +4848,17 @@ Record: SMF70S1 Based on: SMF70TNS Description OFFSET TO TENANT RESOURCE GROUP D
     </item>
     
     <item>
+      <title>Field - topoc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/topoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/topoc/</guid>
+      <description>CPU topology has changed during the interval
+Map: SMF70BPD Based on: lpf Description CPU topology has changed during the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field lpf.</description>
+    </item>
+    
+    <item>
       <title>Field - trg_desc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/trg_desc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4414,6 +4986,17 @@ Map: SMF70TNT Based on: SMF70_TRG_TNTNAME Description Tenant name</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
 Record: SMF70S1 Based on: SMF70TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - tsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/tsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/tsc/</guid>
+      <description>PR/SM - Dispatch interval value has changed
+Map: SMF70CTL Based on: inb Description PR/SM - Dispatch interval value has changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field inb.</description>
     </item>
     
     <item>
@@ -4587,6 +5170,17 @@ Map: SMF70AID Based on: SMF70U15 Description Count of times the number of work u
     </item>
     
     <item>
+      <title>Field - uiw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/uiw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/uiw/</guid>
+      <description>Initial weight instead of current weight should be used to project usage of the members in the capacity group.
+Map: SMF70BCT Based on: pfl Description Initial weight instead of current weight should be used to project usage of the members in the capacity group.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field pfl.</description>
+    </item>
+    
+    <item>
       <title>Field - unparked_percentage</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/unparked_percentage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4653,6 +5247,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     </item>
     
     <item>
+      <title>Field - vac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vac/</guid>
+      <description>Data invalid, CPU reconfigured in measurement interval
+Map: SMF70CPU Based on: cnf Description Data invalid, CPU reconfigured in measurement interval
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - vector_online</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vector_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4692,6 +5297,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vfs/</guid>
       <description>Number of samples where the vector bit in the PSA image was ON
 Map: SMF70CPU Based on: SMF70VFS Description Number of samples where the vector bit in the PSA image was ON</description>
+    </item>
+    
+    <item>
+      <title>Field - vmg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/vmg/</guid>
+      <description>Simplified Diagnose X&#39;204&amp;rsquo; data provided for system running as z/VM guest. CPU consumption by z/VM itself provided with partition data section named &amp;ldquo;PHYSICAL&amp;rdquo;
+Map: SMF70CTL Based on: inb Description Simplified Diagnose X&#39;204&amp;rsquo; data provided for system running as z/VM guest. CPU consumption by z/VM itself provided with partition data section named &amp;ldquo;PHYSICAL&amp;rdquo;
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field inb.</description>
+    </item>
+    
+    <item>
+      <title>Field - von</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/von/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/von/</guid>
+      <description>Vector was online
+Map: SMF70CPU Based on: v Description Vector was online
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field v.</description>
     </item>
     
     <item>
@@ -4879,6 +5506,17 @@ Map: SMF70CTL Based on: SMF70WLA Description Millions of service units available
     </item>
     
     <item>
+      <title>Field - wlm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wlm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wlm/</guid>
+      <description>WLM LPAR Management is active for this partition
+Map: SMF70BCT Based on: pfg Description WLM LPAR Management is active for this partition
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field pfg.</description>
+    </item>
+    
+    <item>
       <title>Field - wlm_active</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wlm_active/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4910,6 +5548,28 @@ Map: SMF70AID Based on: SMF70WMN Description WAIT USER MINIMUM</description>
     </item>
     
     <item>
+      <title>Field - wsa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wsa/</guid>
+      <description>Wait Completion state enabled
+Map: SMF70BPD Based on: vpf Description Wait Completion state enabled
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field vpf.</description>
+    </item>
+    
+    <item>
+      <title>Field - wsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wsc/</guid>
+      <description>Wait Completion status has changed during interval
+Map: SMF70BPD Based on: vpf Description Wait Completion status has changed during interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field vpf.</description>
+    </item>
+    
+    <item>
       <title>Field - wst</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4930,13 +5590,24 @@ Map: SMF70CPU Based on: SMF70WTD Description Wait dispatch count for this CPU</d
     </item>
     
     <item>
+      <title>Field - wtf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wtf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wtf/</guid>
+      <description>Wait time field (SMF70WST) is is defined
+Map: SMF70BCT Based on: pfg Description Wait time field (SMF70WST) is is defined
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field pfg.</description>
+    </item>
+    
+    <item>
       <title>Field - wti</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wti/</guid>
-      <description>Amount of time in milliseconds that a logical processor was yielded to PR/SM due to warning- track processing
-Map: SMF70CPU Based on: SMF70WTI Description Amount of time in milliseconds that a logical processor was yielded to PR/SM due to warning- track processing</description>
+      <description>Amount of time in milliseconds that a logical processor was yielded to PR/SM due to warning track processing
+Map: SMF70CPU Based on: SMF70WTI Description Amount of time in milliseconds that a logical processor was yielded to PR/SM due to warning track processing</description>
     </item>
     
     <item>
@@ -4967,6 +5638,17 @@ Map: SMF70AID Based on: SMF70WTT Description WAIT USERS TOTAL VALUE</description
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wtu/</guid>
       <description>The number of times PR/SM issued a warning-track interruption to a logical processor and z/OS was unable to return the logical processor to PR/SM within the grace period
 Map: SMF70CPU Based on: SMF70WTU Description The number of times PR/SM issued a warning-track interruption to a logical processor and z/OS was unable to return the logical processor to PR/SM within the grace period</description>
+    </item>
+    
+    <item>
+      <title>Field - wuc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wuc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/wuc/</guid>
+      <description>Service units available to MVS image changed
+Map: SMF70CTL Based on: stf Description Service units available to MVS image changed
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field stf.</description>
     </item>
     
     <item>
@@ -5268,6 +5950,26 @@ Map: SMF70CTL Based on: SMF70SUP Description zIIPs online at the end of the inte
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ziip_total/</guid>
       <description>IIP processors total value
 Map: SMF70AID Based on: SMF70ETT Description IIP processors total value</description>
+    </item>
+    
+    <item>
+      <title>Field - zsu_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/zsu_on_cp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/zsu_on_cp/</guid>
+      <description>Unweighted zIIP-eligible service units spent on CP for the entire system
+Map: SMF70CTL Based on: SMF70ZSU_ON_CP Description Unweighted zIIP-eligible service units spent on CP for the entire system</description>
+    </item>
+    
+    <item>
+      <title>Field - zsu_on_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/zsu_on_ziip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/zsu_on_ziip/</guid>
+      <description>Unweighted zIIP-eligible service units spent on zIIP for the entire system
+Map: SMF70CTL Based on: SMF70ZSU_ON_ZIIP Description Unweighted zIIP-eligible service units spent on zIIP for the entire system</description>
     </item>
     
   </channel>

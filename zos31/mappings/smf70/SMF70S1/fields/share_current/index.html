@@ -14,7 +14,7 @@
 
   <meta name="description" content="Accumulated processor current share
 Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:
-zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
+zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_actual = share_actual.astype(&#39;float&#39;) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
 
     <title>Field - share_current | IBM SMF Explorer</title>
 
@@ -42,7 +42,7 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Accumulated processor current share
 Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:
-zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
+zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_actual = share_actual.astype(&#39;float&#39;) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/share_current/" />
 
@@ -57,7 +57,7 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
 <meta name="twitter:title" content="Field - share_current" />
   <meta name="twitter:description" content="Accumulated processor current share
 Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:
-zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
+zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_actual = share_actual.astype(&#39;float&#39;) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &gt; 0 return share_current.where(nonzero_current_share, processor_weight) " />
 
 
   <script type="application/ld+json">
@@ -68,8 +68,8 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       "name": "Field - share_current",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/share_current/",
       "headline": "Field - share_current",
-      "description": "Accumulated processor current share\nMap: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:\nzero_samples = sample_diagnose == 0 divided_share = share_actual \/ sample_diagnose share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current \u003e 0 return share_current.where(nonzero_current_share, processor_weight) ",
-      "wordCount" : "42",
+      "description": "Accumulated processor current share\nMap: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:\nzero_samples = sample_diagnose == 0 divided_share = share_actual \/ sample_diagnose share_actual = share_actual.astype(\u0027float\u0027) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current \u003e 0 return share_current.where(nonzero_current_share, processor_weight) ",
+      "wordCount" : "45",
       "inLanguage": "zos31",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -752,6 +752,10 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
       
         
       
@@ -2935,6 +2939,18 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4057,6 +4073,18 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4118,6 +4146,18 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -6377,6 +6417,18 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -6438,64 +6490,6 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8650,6 +8644,136 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8711,6 +8835,50 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9230,6 +9398,28 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10924,6 +11114,80 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11262,6 +11526,28 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11323,6 +11609,28 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16700,6 +17008,92 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17271,6 +17665,42 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17586,6 +18016,52 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17704,6 +18180,64 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18984,6 +19518,8 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
     
   </ul>
 
@@ -19045,6 +19581,116 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22179,6 +22825,80 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24466,6 +25186,14 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24527,30 +25255,6 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -25984,6 +26688,142 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -26045,6 +26885,36 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26858,6 +27728,7 @@ zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagno
 <p>The field is created using the following pseudocode:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="n">zero_samples</span> <span class="o">=</span> <span class="n">sample_diagnose</span> <span class="o">==</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="n">divided_share</span> <span class="o">=</span> <span class="n">share_actual</span> <span class="o">/</span> <span class="n">sample_diagnose</span>
+</span></span><span class="line"><span class="cl"><span class="n">share_actual</span> <span class="o">=</span> <span class="n">share_actual</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">share_current</span> <span class="o">=</span> <span class="n">share_actual</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">zero_samples</span><span class="p">,</span> <span class="n">divided_share</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">nonzero_current_share</span> <span class="o">=</span> <span class="n">share_current</span> <span class="o">&gt;</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="n">share_current</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">nonzero_current_share</span><span class="p">,</span> <span class="n">processor_weight</span><span class="p">)</span>

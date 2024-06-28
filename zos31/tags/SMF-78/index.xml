@@ -161,6 +161,26 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     </item>
     
     <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF78PRO Based on: SMF78BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
+    </item>
+    
+    <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF78PRO Based on: SMF78BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
+    </item>
+    
+    <item>
       <title>Field - boost_class</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/boost_class/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -271,6 +291,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
     </item>
     
     <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF78PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - cnv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/cnv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -298,8 +329,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/command_response_time_supported/</guid>
-      <description>Initial-command-response- time measurements supported
-Map: R783GD Based on: r783gflg Description Initial-command-response- time measurements supported
+      <description>Initial-command-response time measurements supported
+Map: R783GD Based on: r783gflg Description Initial-command-response time measurements supported
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783gflg.</description>
     </item>
     
@@ -556,6 +587,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF78PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -620,11 +662,33 @@ Post-Processed This virtual field corresponds to the flag at bit-position 10 of 
     </item>
     
     <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF78PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - eme</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/eme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF78PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/eme/</guid>
       <description>System in z/ARCH mode
 Map: SMF78PRO Based on: prf Description System in z/ARCH mode
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
@@ -701,8 +765,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/extended_io_mesurment1/</guid>
-      <description>1= extended I/O- measurement-block format-1 data available
-Map: R783CPD Based on: r783cpxf Description 1= extended I/O- measurement-block format-1 data available
+      <description>1= extended I/O measurement-block format-1 data available
+Map: R783CPD Based on: r783cpxf Description 1= extended I/O measurement-block format-1 data available
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cpxf.</description>
     </item>
     
@@ -712,8 +776,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/extended_io_mesurment2/</guid>
-      <description>1= extended I/O- measurement-block format-2 data available
-Map: R783CPD Based on: r783cpxf Description 1= extended I/O- measurement-block format-2 data available
+      <description>1= extended I/O measurement-block format-2 data available
+Map: R783CPD Based on: r783cpxf Description 1= extended I/O measurement-block format-2 data available
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cpxf.</description>
     </item>
     
@@ -723,8 +787,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/first_transfer_ready_disabled/</guid>
-      <description>1= First-transfer-ready- disabled supported
-Map: R783CPD Based on: r783cpxf Description 1= First-transfer-ready- disabled supported
+      <description>1= First-transfer-ready disabled supported
+Map: R783CPD Based on: r783cpxf Description 1= First-transfer-ready disabled supported
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cpxf.</description>
     </item>
     
@@ -869,6 +933,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 9 of f
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF78PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -986,11 +1061,33 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     </item>
     
     <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF78PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iss</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/iss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF78PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/iss/</guid>
       <description>Invalid samples to be skipped
 Map: SMF78PRO Based on: fla Description Invalid samples to be skipped
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
@@ -1272,11 +1369,33 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF78PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - ped</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/ped/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF78PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/ped/</guid>
       <description>Enhanced DAT facility 1
 Map: SMF78PRO Based on: prf Description Enhanced DAT facility 1
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
@@ -1338,6 +1457,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF78PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1383,6 +1513,17 @@ Record: SMF78S3 Based on: SMF78PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF78PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/prp/</guid>
       <description>At least one zIIP is currently installed
 Map: SMF78PRO Based on: prf Description At least one zIIP is currently installed
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
@@ -1494,6 +1635,17 @@ Record: SMF78S3 Based on: SMF78QDS Description Offset to IOQ global section</des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF78PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/qes/</guid>
       <description>System has expanded storage
 Map: SMF78PRO Based on: prf Description System has expanded storage
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
@@ -2242,6 +2394,17 @@ Map: R783CS Based on: R783CPDS Description Offset to configuration data section<
     </item>
     
     <item>
+      <title>Field - r783cpi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpi/</guid>
+      <description>X&#39;80&amp;rsquo; Channel path installed
+Map: R783CPD Based on: r783cpst Description X&#39;80&amp;rsquo; Channel path installed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cpst.</description>
+    </item>
+    
+    <item>
       <title>Field - r783cpid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2249,6 +2412,39 @@ Map: R783CS Based on: R783CPDS Description Offset to configuration data section<
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpid/</guid>
       <description>Channel path identifier
 Map: R783CPD Based on: R783CPID Description Channel path identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpm/</guid>
+      <description>X&#39;02&amp;rsquo; Channel path is DCM managed
+Map: R783CPD Based on: r783cpst Description X&#39;02&amp;rsquo; Channel path is DCM managed
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpmr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpmr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpmr/</guid>
+      <description>X&#39;01&amp;rsquo; CHPID manipulated, requiring data reset
+Map: R783CPD Based on: r783cpst Description X&#39;01&amp;rsquo; CHPID manipulated, requiring data reset
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpo/</guid>
+      <description>X&#39;40&amp;rsquo; Channel path online
+Map: R783CPD Based on: r783cpst Description X&#39;40&amp;rsquo; Channel path online
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cpst.</description>
     </item>
     
     <item>
@@ -2264,6 +2460,39 @@ Field Bit-Position Description ch_path_installed 0 X&#39;80&amp;rsquo; Channel p
     </item>
     
     <item>
+      <title>Field - r783cptd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cptd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cptd/</guid>
+      <description>1= First-transfer-ready- disabled supported
+Map: R783CPD Based on: r783cpxf Description 1= First-transfer-ready- disabled supported
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cpxf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpv/</guid>
+      <description>X&#39;20&amp;rsquo; Channel path varied
+Map: R783CPD Based on: r783cpst Description X&#39;20&amp;rsquo; Channel path varied
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpx2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpx2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpx2/</guid>
+      <description>1= extended I/O- measurement-block format-2 data available
+Map: R783CPD Based on: r783cpxf Description 1= extended I/O- measurement-block format-2 data available
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cpxf.</description>
+    </item>
+    
+    <item>
       <title>Field - r783cpxf</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpxf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2272,7 +2501,18 @@ Field Bit-Position Description ch_path_installed 0 X&#39;80&amp;rsquo; Channel p
       <description>Channel Path extended flags
 Map: R783CPD Based on: R783CPXF Description Channel Path extended flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description extended_io_mesurment1 0 1= extended I/O- measurement-block format-1 data available extended_io_mesurment2 1 1= extended I/O- measurement-block format-2 data available first_transfer_ready_disabled 2 1= First-transfer-ready- disabled supported </description>
+Field Bit-Position Description extended_io_mesurment1 0 1= extended I/O measurement-block format-1 data available extended_io_mesurment2 1 1= extended I/O measurement-block format-2 data available first_transfer_ready_disabled 2 1= First-transfer-ready disabled supported </description>
+    </item>
+    
+    <item>
+      <title>Field - r783cpxm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpxm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783cpxm/</guid>
+      <description>1= extended I/O- measurement-block format-1 data available
+Map: R783CPD Based on: r783cpxf Description 1= extended I/O- measurement-block format-1 data available
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cpxf.</description>
     </item>
     
     <item>
@@ -2311,8 +2551,8 @@ Map: R783CPD Based on: R783CTMW Description Transport mode write count valid if 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ctrd/</guid>
-      <description>First-transfer-ready- disabled write count valid if R783CPTD=1
-Map: R783CPD Based on: R783CTRD Description First-transfer-ready- disabled write count valid if R783CPTD=1</description>
+      <description>First-transfer-ready disabled write count valid if R783CPTD=1
+Map: R783CPD Based on: R783CTRD Description First-transfer-ready disabled write count valid if R783CPTD=1</description>
     </item>
     
     <item>
@@ -2386,6 +2626,17 @@ Map: R783CPD Based on: R783CUN Description Number of control units attached</des
     </item>
     
     <item>
+      <title>Field - r783dca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783dca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783dca/</guid>
+      <description>Configuration changed last interval
+Map: R783GD Based on: r783cfl Description Configuration changed last interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783cfl.</description>
+    </item>
+    
+    <item>
       <title>Field - r783dctm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783dctm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2450,6 +2701,83 @@ Field Bit-Position Description lcu_has_ficom 0 X&#39;80&amp;rsquo; LCU contains 
     </item>
     
     <item>
+      <title>Field - r783gamg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gamg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gamg/</guid>
+      <description>X&#39;80&amp;rsquo; Alias Management Groups available
+Map: R783GD Based on: r783gflx Description X&#39;80&amp;rsquo; Alias Management Groups available
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783gflx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gcmd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmd/</guid>
+      <description>X&#39;08&amp;rsquo; Configuration contains DCM managed channels
+Map: R783GD Based on: r783gflg Description X&#39;08&amp;rsquo; Configuration contains DCM managed channels
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gcmf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmf/</guid>
+      <description>X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility
+Map: R783GD Based on: r783gflg Description X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gcmh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmh/</guid>
+      <description>X&#39;10&amp;rsquo; DCM supported by hardware
+Map: R783GD Based on: r783gflg Description X&#39;10&amp;rsquo; DCM supported by hardware
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gcmr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gcmr/</guid>
+      <description>Initial-command-response- time measurements supported
+Map: R783GD Based on: r783gflg Description Initial-command-response- time measurements supported
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gdif</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gdif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gdif/</guid>
+      <description>X&#39;40&amp;rsquo; DIAGNOSE interface failed
+Map: R783GD Based on: r783gflg Description X&#39;40&amp;rsquo; DIAGNOSE interface failed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gecp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gecp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gecp/</guid>
+      <description>X&#39;40&amp;rsquo; EADM-compression facility available
+Map: R783GD Based on: r783gflx Description X&#39;40&amp;rsquo; EADM-compression facility available
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783gflx.</description>
+    </item>
+    
+    <item>
       <title>Field - r783gflg</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gflg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2458,7 +2786,7 @@ Field Bit-Position Description lcu_has_ficom 0 X&#39;80&amp;rsquo; LCU contains 
       <description>IOQ global flag
 Map: R783GD Based on: R783GFLG Description IOQ global flag
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description data_invalid_ch_failure 0 X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility diagnose_failed 1 X&#39;40&amp;rsquo; DIAGNOSE interface failed store_primary_not_supported 2 X&#39;20&amp;rsquo; Store Primary Queue Data not supported dcm_hw_supported 3 X&#39;10&amp;rsquo; DCM supported by hardware dcm_managed_ch 4 X&#39;08&amp;rsquo; Configuration contains DCM managed channels iop_util_data_supported 5 X&#39;04&amp;rsquo; IOP utilization data supported command_response_time_supported 6 Initial-command-response- time measurements supported transfer_ready_disabled_aval 7 First-transfer-ready- disabled write data available </description>
+Field Bit-Position Description data_invalid_ch_failure 0 X&#39;80&amp;rsquo; Data is invalid due to failure of the channel measurement facility diagnose_failed 1 X&#39;40&amp;rsquo; DIAGNOSE interface failed store_primary_not_supported 2 X&#39;20&amp;rsquo; Store Primary Queue Data not supported dcm_hw_supported 3 X&#39;10&amp;rsquo; DCM supported by hardware dcm_managed_ch 4 X&#39;08&amp;rsquo; Configuration contains DCM managed channels iop_util_data_supported 5 X&#39;04&amp;rsquo; IOP utilization data supported command_response_time_supported 6 Initial-command-response time measurements supported transfer_ready_disabled_aval 7 First-transfer-ready disabled write data available </description>
     </item>
     
     <item>
@@ -2504,6 +2832,17 @@ Map: R783GD Based on: R783GIDS Description Offset to IOP initiative queue data s
     </item>
     
     <item>
+      <title>Field - r783giud</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783giud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783giud/</guid>
+      <description>X&#39;04&amp;rsquo; IOP utilization data supported
+Map: R783GD Based on: r783gflg Description X&#39;04&amp;rsquo; IOP utilization data supported
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783gflg.</description>
+    </item>
+    
+    <item>
       <title>Field - r783gntr</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gntr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2511,6 +2850,39 @@ Map: R783GD Based on: R783GIDS Description Offset to IOP initiative queue data s
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gntr/</guid>
       <description>Number of triplets
 Map: R783GD Based on: R783GNTR Description Number of triplets</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gscm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gscm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gscm/</guid>
+      <description>X&#39;20&amp;rsquo; SCM facility available
+Map: R783GD Based on: r783gflx Description X&#39;20&amp;rsquo; SCM facility available
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783gflx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gspq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gspq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gspq/</guid>
+      <description>X&#39;20&amp;rsquo; Store Primary Queue Data not supported
+Map: R783GD Based on: r783gflg Description X&#39;20&amp;rsquo; Store Primary Queue Data not supported
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783gflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783gtrd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gtrd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783gtrd/</guid>
+      <description>First-transfer-ready- disabled write data available
+Map: R783GD Based on: r783gflg Description First-transfer-ready- disabled write data available
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783gflg.</description>
     </item>
     
     <item>
@@ -2551,6 +2923,17 @@ Map: R783DS Based on: R783HCNT Description Number of HyperPAV sections for that 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783hcu/</guid>
       <description>HyperPAV control unit identifier
 Map: R783HPAV Based on: R783HCU Description HyperPAV control unit identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - r783hind</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783hind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783hind/</guid>
+      <description>X&#39;02&amp;rsquo; LCU has HyperPAV devices
+Map: R783DS Based on: r783dst Description X&#39;02&amp;rsquo; LCU has HyperPAV devices
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r783dst.</description>
     </item>
     
     <item>
@@ -2604,6 +2987,17 @@ Map: R783HPAV Based on: R783HTIO Description The total number of HyperPAV I/O re
     </item>
     
     <item>
+      <title>Field - r783iac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iac/</guid>
+      <description>Configuration Changed since last IPL
+Map: R783GD Based on: r783cfl Description Configuration Changed since last IPL
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783cfl.</description>
+    </item>
+    
+    <item>
       <title>Field - r783icpb</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783icpb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2621,6 +3015,17 @@ Map: R783IQD Based on: R783ICPB Description Number of times an I/O was retried d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783icub/</guid>
       <description>Number of times an I/O was retried due to control unit busy, (long floating point)
 Map: R783IQD Based on: R783ICUB Description Number of times an I/O was retried due to control unit busy, (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r783icv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783icv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783icv/</guid>
+      <description>I/O Configuration Token is valid
+Map: R783GD Based on: r783cfl Description I/O Configuration Token is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783cfl.</description>
     </item>
     
     <item>
@@ -2716,6 +3121,17 @@ Map: R783IQD Based on: R783IIPI Description Number of times the I/O processor wa
     </item>
     
     <item>
+      <title>Field - r783iod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iod/</guid>
+      <description>System IPLed via IODF
+Map: R783GD Based on: r783cfl Description System IPLed via IODF
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783cfl.</description>
+    </item>
+    
+    <item>
       <title>Field - r783ipii</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ipii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2736,6 +3152,17 @@ Map: R783IQD Based on: R783IQCT Description Count of number of entries placed on
     </item>
     
     <item>
+      <title>Field - r783iqi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iqi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iqi/</guid>
+      <description>= 1, if IOP is installed
+Map: R783IQD Based on: r783iflg Description = 1, if IOP is installed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783iflg.</description>
+    </item>
+    
+    <item>
       <title>Field - r783iqid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iqid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2746,6 +3173,16 @@ Map: R783IQD Based on: R783IQID Description IOP initiative queue identifier</des
     </item>
     
     <item>
+      <title>Field - r783iqsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iqsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iqsm/</guid>
+      <description>Sum of number of entries placed on the IOP initiative queue
+Map: R783IQD Based on: R783IQSM Description Sum of number of entries placed on the IOP initiative queue</description>
+    </item>
+    
+    <item>
       <title>Field - r783iscb</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iscb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2753,6 +3190,94 @@ Map: R783IQD Based on: R783IQID Description IOP initiative queue identifier</des
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783iscb/</guid>
       <description>Number of times the I/O processor was busy with SCM operations (long floating point)
 Map: R783IQD Based on: R783ISCB Description Number of times the I/O processor was busy with SCM operations (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r783l1fc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783l1fc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783l1fc/</guid>
+      <description>X&#39;80&amp;rsquo; LCU contains at least one FICON channel
+Map: R783DS Based on: r783dstx Description X&#39;80&amp;rsquo; LCU contains at least one FICON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783lca</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lca/</guid>
+      <description>X&#39;10&amp;rsquo; Conf. Chg. Attempt
+Map: R783DS Based on: r783dst Description X&#39;10&amp;rsquo; Conf. Chg. Attempt
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783lcc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lcc/</guid>
+      <description>X&#39;40&amp;rsquo; Dynamically changed
+Map: R783DS Based on: r783dst Description X&#39;40&amp;rsquo; Dynamically changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783lctv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lctv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lctv/</guid>
+      <description>X&#39;40&amp;rsquo; connect time of at least one device invalid
+Map: R783DS Based on: r783dstx Description X&#39;40&amp;rsquo; connect time of at least one device invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783ldc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldc/</guid>
+      <description>X&#39;20&amp;rsquo; Dynamically added
+Map: R783DS Based on: r783dst Description X&#39;20&amp;rsquo; Dynamically added
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783ldcm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldcm/</guid>
+      <description>X&#39;08&amp;rsquo; LCU contains DCM managed channels
+Map: R783DS Based on: r783dst Description X&#39;08&amp;rsquo; LCU contains DCM managed channels
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783ldtv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldtv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ldtv/</guid>
+      <description>X&#39;20&amp;rsquo; disconnect time of at least one device invalid
+Map: R783DS Based on: r783dstx Description X&#39;20&amp;rsquo; disconnect time of at least one device invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r783dstx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783lpat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lpat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783lpat/</guid>
+      <description>X&#39;04&amp;rsquo; Path attributes are valid
+Map: R783DS Based on: r783dst Description X&#39;04&amp;rsquo; Path attributes are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783dst.</description>
     </item>
     
     <item>
@@ -2783,6 +3308,39 @@ Map: R783DS Based on: R783MCMN Description Minimum number of DCM managed channel
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783mcmx/</guid>
       <description>Maximum number of DCM managed channels used
 Map: R783DS Based on: R783MCMX Description Maximum number of DCM managed channels used</description>
+    </item>
+    
+    <item>
+      <title>Field - r783mcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783mcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783mcs/</guid>
+      <description>Hardware allows multiple channel subsystems
+Map: R783GD Based on: r783cfl Description Hardware allows multiple channel subsystems
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783nhma</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783nhma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783nhma/</guid>
+      <description>X&#39;80&amp;rsquo; No hardware measurements
+Map: R783DS Based on: r783dst Description X&#39;80&amp;rsquo; No hardware measurements
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r783dst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783nmcd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783nmcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783nmcd/</guid>
+      <description>X&#39;04&amp;rsquo; Measured channel path data invalid
+Map: R783CPD Based on: r783cpst Description X&#39;04&amp;rsquo; Measured channel path data invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r783cpst.</description>
     </item>
     
     <item>
@@ -2931,8 +3489,8 @@ Map: R783GD Based on: R783TOT Description Total number of data sections in large
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783trdm/</guid>
-      <description>Accumulated first-transfer- ready-disabled write count for DCM managed channels valid if R783CPTD=1
-Map: R783DS Based on: R783TRDM Description Accumulated first-transfer- ready-disabled write count for DCM managed channels valid if R783CPTD=1</description>
+      <description>Accumulated first-transfer ready-disabled write count for DCM managed channels valid if R783CPTD=1
+Map: R783DS Based on: R783TRDM Description Accumulated first-transfer ready-disabled write count for DCM managed channels valid if R783CPTD=1</description>
     </item>
     
     <item>
@@ -2963,6 +3521,28 @@ Map: R783GD Based on: R783TSR Description Total number of small records</descrip
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783ttm/</guid>
       <description>IODF Creation Time hh.mm.ss
 Map: R783GD Based on: R783TTM Description IODF Creation Time hh.mm.ss</description>
+    </item>
+    
+    <item>
+      <title>Field - r783vp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783vp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783vp/</guid>
+      <description>X&#39;08&amp;rsquo; The connectivity of this channel path to devices of this LCU has manipulated via VARY PATH during this measurement interval
+Map: R783CPD Based on: r783cpst Description X&#39;08&amp;rsquo; The connectivity of this channel path to devices of this LCU has manipulated via VARY PATH during this measurement interval
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r783cpst.</description>
+    </item>
+    
+    <item>
+      <title>Field - r783vpof</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783vpof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783vpof/</guid>
+      <description>X&#39;10&amp;rsquo; This channel path is offline to all devices to the LCU
+Map: R783CPD Based on: r783cpst Description X&#39;10&amp;rsquo; This channel path is offline to all devices to the LCU
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r783cpst.</description>
     </item>
     
     <item>
@@ -3066,6 +3646,17 @@ Map: R783HPAV Based on: R783XHLC Description The high water mark of concurrently
     </item>
     
     <item>
+      <title>Field - r783xind</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783xind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783xind/</guid>
+      <description>X&#39;01&amp;rsquo; LCU has SuperPAV devices
+Map: R783DS Based on: r783dst Description X&#39;01&amp;rsquo; LCU has SuperPAV devices
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783dst.</description>
+    </item>
+    
+    <item>
       <title>Field - r783xnag</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/r783xnag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3157,11 +3748,33 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
     </item>
     
     <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF78PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - rcl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/rcl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S2/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF78PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/rcl/</guid>
       <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
 Map: SMF78PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
@@ -3492,8 +4105,8 @@ Record: SMF78S3 Based on: SMF78TME Description TIME RECORD WRITTEN</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf78/SMF78S3/fields/transfer_ready_disabled_aval/</guid>
-      <description>First-transfer-ready- disabled write data available
-Map: R783GD Based on: r783gflg Description First-transfer-ready- disabled write data available
+      <description>First-transfer-ready disabled write data available
+Map: R783GD Based on: r783gflg Description First-transfer-ready disabled write data available
 Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r783gflg.</description>
     </item>
     

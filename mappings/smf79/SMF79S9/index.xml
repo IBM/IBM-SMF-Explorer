@@ -102,6 +102,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
     </item>
     
     <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF79PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - cnv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/cnv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -250,6 +261,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF79PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -268,6 +290,28 @@ Record: SMF79S9 Based on: SMF79DTE Description DATE RECORD WRITTEN</description>
       <description>=1 ECMB mode
 Map: R799ELEM Based on: r799cnx Description =1 ECMB mode
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r799cnx.</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF79PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF79PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -392,6 +436,17 @@ Map: SMF79PRO Based on: SMF79IET Description Interval expiration time token</des
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF79PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -450,6 +505,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF79PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF79PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/iss/</guid>
       <description>Invalid samples to be skipped
 Map: SMF79PRO Based on: fla Description Invalid samples to be skipped
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
@@ -633,6 +710,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF79PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF79PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prd</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/prd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -652,6 +751,17 @@ Map: SMF79PRO Based on: SMF79PRD Description Product name</description>
 Map: SMF79PRO Based on: SMF79PRF Description Processor flags
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF79PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -675,6 +785,17 @@ Record: SMF79S9 Based on: SMF79PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
     </item>
     
     <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF79PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/prs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -692,6 +813,17 @@ Record: SMF79S9 Based on: SMF79PRS Description OFFSET TO RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF79PRO Based on: SMF79PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF79PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -753,6 +885,28 @@ Map: R799ELEM Based on: R799ALC Description NUMBER OF SAMPLES DURING THE INTERVA
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799atv/</guid>
       <description>FUNCTION ACTIV TIME
 Map: R799ELEM Based on: R799ATV Description FUNCTION ACTIV TIME</description>
+    </item>
+    
+    <item>
+      <title>Field - r799cfc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799cfc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799cfc/</guid>
+      <description>Device connected to FICON
+Map: R799ELEM Based on: r799cn2 Description Device connected to FICON
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r799cn2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799cmb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799cmb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799cmb/</guid>
+      <description>=1 IF CMB DATA INVALID
+Map: R799ELEM Based on: r799cnf Description =1 IF CMB DATA INVALID
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r799cnf.</description>
     </item>
     
     <item>
@@ -832,6 +986,17 @@ Map: R799ELEM Based on: R799DIS Description DEVICE DISCONNECT TIME</description>
     </item>
     
     <item>
+      <title>Field - r799dtf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799dtf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799dtf/</guid>
+      <description>=1 IF DEVICE CONNECT OR PENDING OR DISCONNECT TIME IS INVALID
+Map: R799ELEM Based on: r799cnf Description =1 IF DEVICE CONNECT OR PENDING OR DISCONNECT TIME IS INVALID
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r799cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - r799dvb</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799dvb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -839,6 +1004,50 @@ Map: R799ELEM Based on: R799DIS Description DEVICE DISCONNECT TIME</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799dvb/</guid>
       <description>device busy delay time (3090,9021,9121,9221 support)
 Map: R799ELEM Based on: R799DVB Description device busy delay time (3090,9021,9121,9221 support)</description>
+    </item>
+    
+    <item>
+      <title>Field - r799ecm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799ecm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799ecm/</guid>
+      <description>=1 ECMB mode
+Map: R799ELEM Based on: r799cnx Description =1 ECMB mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r799cnx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799fcm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799fcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799fcm/</guid>
+      <description>=1 Initial command response time available
+Map: R799ELEM Based on: r799cnx Description =1 Initial command response time available
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r799cnx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799fid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799fid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799fid/</guid>
+      <description>=1 Interrupt delay time available
+Map: R799ELEM Based on: r799cnx Description =1 Interrupt delay time available
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r799cnx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799hpv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799hpv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799hpv/</guid>
+      <description>=1 HyperPAV base device
+Map: R799ELEM Based on: r799cnx Description =1 HyperPAV base device
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r799cnx.</description>
     </item>
     
     <item>
@@ -859,6 +1068,17 @@ Map: R799ELEM Based on: R799IDT Description Interrupt delay time in units of 128
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799ios/</guid>
       <description>IOS Queue time in microseconds
 Map: R799ELEM Based on: R799IOS Description IOS Queue time in microseconds</description>
+    </item>
+    
+    <item>
+      <title>Field - r799lcd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799lcd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799lcd/</guid>
+      <description>=1 IF NO LCUD INFORMATION
+Map: R799ELEM Based on: r799cnf Description =1 IF NO LCUD INFORMATION
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r799cnf.</description>
     </item>
     
     <item>
@@ -902,6 +1122,17 @@ Map: R799ELEM Based on: R799NM2 Description Device number same as R799NUM</descr
     </item>
     
     <item>
+      <title>Field - r799ntf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799ntf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799ntf/</guid>
+      <description>Timing facility not active
+Map: R799ELEM Based on: r799cnx Description Timing facility not active
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r799cnx.</description>
+    </item>
+    
+    <item>
       <title>Field - r799num</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799num/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -919,6 +1150,28 @@ Map: R799ELEM Based on: R799NUM Description DEVICE NUMBER</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799nux/</guid>
       <description>Number of exposures (if multiple). In case of a HyperPAV base device, R799HPV = 1, number of accumulated HyperPAV aliases
 Map: R799ELEM Based on: R799NUX Description Number of exposures (if multiple). In case of a HyperPAV base device, R799HPV = 1, number of accumulated HyperPAV aliases</description>
+    </item>
+    
+    <item>
+      <title>Field - r799nxc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799nxc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799nxc/</guid>
+      <description>=1 If number of alias exposures changed
+Map: R799ELEM Based on: r799cnx Description =1 If number of alias exposures changed
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r799cnx.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799pav</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799pav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799pav/</guid>
+      <description>=1 If base exposure of a Parallel Access Volume
+Map: R799ELEM Based on: r799cnx Description =1 If base exposure of a Parallel Access Volume
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r799cnx.</description>
     </item>
     
     <item>
@@ -962,6 +1215,17 @@ Map: R799ELEM Based on: R799QUE Description NUMBER OF REQUESTS QUEUED IN IOS FOR
     </item>
     
     <item>
+      <title>Field - r799qul</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799qul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799qul/</guid>
+      <description>=1 IF IOS Q-LENGTH INVALID
+Map: R799ELEM Based on: r799cnf Description =1 IF IOS Q-LENGTH INVALID
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r799cnf.</description>
+    </item>
+    
+    <item>
       <title>Field - r799rsv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799rsv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -992,6 +1256,28 @@ Map: R799ELEM Based on: R799SSC Description START SUBCHANNEL (SSCH) COUNT</descr
     </item>
     
     <item>
+      <title>Field - r799sta</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799sta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799sta/</guid>
+      <description>=1 FOR ONLINE AT END OF INTERVAL
+Map: R799ELEM Based on: r799cnf Description =1 FOR ONLINE AT END OF INTERVAL
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r799cnf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r799sts</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799sts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799sts/</guid>
+      <description>=1 model dependent data not available by STSCH
+Map: R799ELEM Based on: r799cnx Description =1 model dependent data not available by STSCH
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r799cnx.</description>
+    </item>
+    
+    <item>
       <title>Field - r799typ</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799typ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1009,6 +1295,17 @@ Map: R799ELEM Based on: R799TYP Description UNIT TYPE FROM UCBTYP FIELD</descrip
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799utl/</guid>
       <description>NUMBER OF SAMPLES WHEN THE DEVICE WAS RESERVED, BUT AN SSCH HAD NOT BEEN ISSUED
 Map: R799ELEM Based on: R799UTL Description NUMBER OF SAMPLES WHEN THE DEVICE WAS RESERVED, BUT AN SSCH HAD NOT BEEN ISSUED</description>
+    </item>
+    
+    <item>
+      <title>Field - r799vac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799vac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r799vac/</guid>
+      <description>DATA INVALID, VARIED ON OR OFF, OR DYNAMIC RECONFIGURATION
+Map: R799ELEM Based on: r799cnf Description DATA INVALID, VARIED ON OR OFF, OR DYNAMIC RECONFIGURATION
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r799cnf.</description>
     </item>
     
     <item>
@@ -1052,6 +1349,17 @@ Map: R79CHL Based on: R79DTXTL Description Length default DR text</description>
     </item>
     
     <item>
+      <title>Field - r79goal</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79goal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79goal/</guid>
+      <description>System is in GOAL mode
+Map: R79CHL Based on: r79lf2 Description System is in GOAL mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r79lf2.</description>
+    </item>
+    
+    <item>
       <title>Field - r79gtod</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79gtod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1059,6 +1367,17 @@ Map: R79CHL Based on: R79DTXTL Description Length default DR text</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79gtod/</guid>
       <description>Time when the call to data gatherer was issued
 Map: R79CHL Based on: R79GTOD Description Time when the call to data gatherer was issued</description>
+    </item>
+    
+    <item>
+      <title>Field - r79inv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79inv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79inv/</guid>
+      <description>inval. data fr. Mon I (DEV PGSP IOQ)
+Map: R79CHL Based on: r79lf2 Description inval. data fr. Mon I (DEV PGSP IOQ)
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79lf2.</description>
     </item>
     
     <item>
@@ -1094,6 +1413,17 @@ Field Bit-Position Description relocate_section_deficient 0 Not enough relocate 
     </item>
     
     <item>
+      <title>Field - r79maxd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79maxd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79maxd/</guid>
+      <description>Incomplete device data due to too many devices
+Map: R79CHL Based on: r79lf2 Description Incomplete device data due to too many devices
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r79lf2.</description>
+    </item>
+    
+    <item>
       <title>Field - r79nxt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79nxt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1101,6 +1431,17 @@ Field Bit-Position Description relocate_section_deficient 0 Not enough relocate 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79nxt/</guid>
       <description>Number of data sections in following small records
 Map: R79CHL Based on: R79NXT Description Number of data sections in following small records</description>
+    </item>
+    
+    <item>
+      <title>Field - r79par</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79par/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79par/</guid>
+      <description>Not enough relocate section to complete data gathering
+Map: R79CHL Based on: r79lf2 Description Not enough relocate section to complete data gathering
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79lf2.</description>
     </item>
     
     <item>
@@ -1114,6 +1455,17 @@ Map: R79CHL Based on: R79RID Description Measurement name</description>
     </item>
     
     <item>
+      <title>Field - r79rsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79rsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79rsm/</guid>
+      <description>Invalid RSM data obtained
+Map: R79CHL Based on: r79lf2 Description Invalid RSM data obtained
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79lf2.</description>
+    </item>
+    
+    <item>
       <title>Field - r79ses</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79ses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1124,6 +1476,28 @@ Map: R79CHL Based on: R79SES Description Session name</description>
     </item>
     
     <item>
+      <title>Field - r79sg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79sg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79sg/</guid>
+      <description>Report sorted by SG
+Map: R79CHL Based on: r79lf2 Description Report sorted by SG
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79lf2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r79srmc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79srmc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79srmc/</guid>
+      <description>SRM mode changed
+Map: R79CHL Based on: r79lf2 Description SRM mode changed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r79lf2.</description>
+    </item>
+    
+    <item>
       <title>Field - r79tot</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79tot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1131,6 +1505,17 @@ Map: R79CHL Based on: R79SES Description Session name</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79tot/</guid>
       <description>Total number of data sections in large record
 Map: R79CHL Based on: R79TOT Description Total number of data sections in large record</description>
+    </item>
+    
+    <item>
+      <title>Field - r79trxi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79trxi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/r79trxi/</guid>
+      <description>Invalid transaction data
+Map: R79CHL Based on: r79lf2 Description Invalid transaction data
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r79lf2.</description>
     </item>
     
     <item>
@@ -1171,6 +1556,28 @@ Map: SMF79PRO Based on: SMF79RAL Description Length of reassembly area. Area con
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
 Map: SMF79PRO Based on: SMF79RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF79PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S9/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF79PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
     <item>

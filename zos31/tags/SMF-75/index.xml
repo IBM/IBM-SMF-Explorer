@@ -25,6 +25,17 @@ time Record Timestamp boost_class fla Boost class is set at end of interval, val
     </item>
     
     <item>
+      <title>Field - acu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/acu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/acu/</guid>
+      <description>DATASET IS ON A DEVICE WITH AN ALTERNATE CONTROL UNIT
+Map: SMF75PSD Based on: fl2 Description DATASET IS ON A DEVICE WITH AN ALTERNATE CONTROL UNIT
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fl2.</description>
+    </item>
+    
+    <item>
       <title>Field - altvm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/altvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -86,6 +97,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
       <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Map: SMF75PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF75PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -214,6 +236,28 @@ Map: SMF75PSD Based on: SMF75TYP Description DEVICE TYPE. VALID ONLY WHEN SMF75S
     </item>
     
     <item>
+      <title>Field - dnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/dnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/dnm/</guid>
+      <description>DEVICE NAME PROVIDED IN FIELD SMF75DEV IS VALID
+Map: SMF75PSD Based on: fl2 Description DEVICE NAME PROVIDED IN FIELD SMF75DEV IS VALID
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fl2.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF75PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - ds_accepts_vio</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ds_accepts_vio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -264,6 +308,28 @@ Map: SMF75PSD Based on: SMF75DSN Description PAGE DATA SET NAME. VALID ONLY WHEN
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
 Record: SMF75S1 Based on: SMF75DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF75PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF75PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -378,6 +444,17 @@ Map: SMF75PRO Based on: SMF75IET Description Interval expiration time token</des
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF75PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -414,6 +491,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF75PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF75PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/iss/</guid>
       <description>Invalid samples to be skipped
 Map: SMF75PRO Based on: fla Description Invalid samples to be skipped
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
@@ -598,6 +697,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF75PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF75PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - pgx</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/pgx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -630,6 +751,17 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF75PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -647,6 +779,17 @@ Record: SMF75S1 Based on: SMF75PRL Description LENGTH OF RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
 Record: SMF75S1 Based on: SMF75PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF75PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -712,6 +855,17 @@ Map: SMF75PRO Based on: SMF75PTN Description PR/SM partition number</description
     </item>
     
     <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF75PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - ral</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/ral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -739,6 +893,28 @@ Map: SMF75PRO Based on: SMF75RAN Description Number of reassembly area. This fie
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
 Map: SMF75PRO Based on: SMF75RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF75PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF75PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
     <item>
@@ -780,6 +956,17 @@ Record: SMF75S1 Based on: SMF75RTY Description RECORD TYPE</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/sam/</guid>
       <description>Number of samples
 Map: SMF75PRO Based on: SMF75SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - scm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/scm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/scm/</guid>
+      <description>Page Space Type SCM
+Map: SMF75PSD Based on: fl2 Description Page Space Type SCM
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fl2.</description>
     </item>
     
     <item>
@@ -964,6 +1151,17 @@ Map: SMF75PSD Based on: SMF75USE Description NO. TIMES DS IN USE BY ASM</descrip
       <description>MVS/ESA V4 IF ON
 Record: SMF75S1 Based on: flg Description MVS/ESA V4 IF ON
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/vio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf75/SMF75S1/fields/vio/</guid>
+      <description>DATASET ACCEPTS VIO PAGES
+Map: SMF75PSD Based on: fl2 Description DATASET ACCEPTS VIO PAGES
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fl2.</description>
     </item>
     
     <item>

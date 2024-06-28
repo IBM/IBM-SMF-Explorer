@@ -17,6 +17,50 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     </item>
     
     <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF70PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - asym_key_fast</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_fast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_fast/</guid>
+      <description>Valid data for fast asymmetric key functions
+Map: R702TYP5 Based on: r7025msk Description Valid data for fast asymmetric key functions
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7025msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - asym_key_gen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_gen/</guid>
+      <description>Valid data for asymmetric-key generation function
+Map: R702TYP5 Based on: r7025msk Description Valid data for asymmetric-key generation function
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7025msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - asym_key_slow</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_slow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/asym_key_slow/</guid>
+      <description>Valid data for slow asymmetric key functions
+Map: R702TYP5 Based on: r7025msk Description Valid data for slow asymmetric key functions
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7025msk.</description>
+    </item>
+    
+    <item>
       <title>Field - boost_class</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/boost_class/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,6 +114,39 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - crt_1024</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_1024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_1024/</guid>
+      <description>Valid data for 1024-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 1024-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - crt_2048</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_2048/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_2048/</guid>
+      <description>Valid data for 2048-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 2048-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - crt_4096</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_4096/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/crt_4096/</guid>
+      <description>Valid data for 4096-bit CRT-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 4096-bit CRT-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r7024msk.</description>
+    </item>
+    
+    <item>
       <title>Field - cs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,6 +174,28 @@ Map: SMF70PRO Based on: SMF70CYC Description Sampling cycle length</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat/</guid>
       <description>Date monitor interval start
 Map: SMF70PRO Based on: SMF70DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF70PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
     </item>
     
     <item>
@@ -161,6 +260,39 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <description>MVS/ESA IF ON
 Record: SMF70S2 Based on: flg Description MVS/ESA IF ON
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF70PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF70PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF70PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -229,8 +361,8 @@ Record: SMF70S2 Based on: SMF7024S Description Offset to crypto accelerator sect
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5l/</guid>
-      <description>Length of crypto PKCS11 copro- cessor section
-Record: SMF70S2 Based on: SMF7025L Description Length of crypto PKCS11 copro- cessor section</description>
+      <description>Length of crypto PKCS11 copro cessor section
+Record: SMF70S2 Based on: SMF7025L Description Length of crypto PKCS11 copro cessor section</description>
     </item>
     
     <item>
@@ -239,8 +371,8 @@ Record: SMF70S2 Based on: SMF7025L Description Length of crypto PKCS11 copro- ce
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5n/</guid>
-      <description>Number of crypto PKCS11 copro- cessor sections
-Record: SMF70S2 Based on: SMF7025N Description Number of crypto PKCS11 copro- cessor sections</description>
+      <description>Number of crypto PKCS11 copro cessor sections
+Record: SMF70S2 Based on: SMF7025N Description Number of crypto PKCS11 copro cessor sections</description>
     </item>
     
     <item>
@@ -249,8 +381,8 @@ Record: SMF70S2 Based on: SMF7025N Description Number of crypto PKCS11 copro- ce
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/f5s/</guid>
-      <description>Offset to crypto PKCS11 copro- cessor section
-Record: SMF70S2 Based on: SMF7025S Description Offset to crypto PKCS11 copro- cessor section</description>
+      <description>Offset to crypto PKCS11 copro cessor section
+Record: SMF70S2 Based on: SMF7025S Description Offset to crypto PKCS11 copro cessor section</description>
     </item>
     
     <item>
@@ -262,7 +394,7 @@ Record: SMF70S2 Based on: SMF7025S Description Offset to crypto PKCS11 copro- ce
       <description>Flags
 Map: SMF70PRO Based on: SMF70FLA Description Flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
     </item>
     
     <item>
@@ -340,6 +472,28 @@ return interval.total_seconds() * 1e3 </description>
     </item>
     
     <item>
+      <title>Field - interval_smf_control</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/interval_smf_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/interval_smf_control/</guid>
+      <description>Interval was under SMF control
+Map: SMF70PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/invalid_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF70PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - ism</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -388,7 +542,8 @@ Record: SMF70S2 Based on: SMF70LEN Description SMF RECORD LENGTH. ZERO AFTER GRB
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/lgo/</guid>
       <description>Offset GMT to local time
-Map: SMF70PRO Based on: SMF70LGO Description Offset GMT to local time</description>
+Map: SMF70PRO Based on: SMF70LGO Description Offset GMT to local time
+Post-Processed This field is converted to a Timedelta type. The original value is measuered in h.</description>
     </item>
     
     <item>
@@ -400,6 +555,39 @@ Map: SMF70PRO Based on: SMF70LGO Description Offset GMT to local time</descripti
       <description>Record was written by RMF Monitor III
 Map: SMF70PRO Based on: fla Description Record was written by RMF Monitor III
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - me_1024</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_1024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_1024/</guid>
+      <description>Valid data for 1024-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 1024-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - me_2048</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_2048/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_2048/</guid>
+      <description>Valid data for 2048-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 2048-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7024msk.</description>
+    </item>
+    
+    <item>
+      <title>Field - me_4096</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_4096/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/me_4096/</guid>
+      <description>Valid data for 4096-bit ME-format operations
+Map: R702TYP4 Based on: r7024msk Description Valid data for 4096-bit ME-format operations
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7024msk.</description>
     </item>
     
     <item>
@@ -495,7 +683,7 @@ Map: SMF70PRO Based on: SMF70PRD Description Product name</description>
       <description>Processor flags
 Map: SMF70PRO Based on: SMF70PRF Description Processor flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
     </item>
     
     <item>
@@ -774,7 +962,8 @@ Map: R702TYP4 Based on: R7023CRT Description Execution time for 4096-bit CRT-for
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023ct/</guid>
       <description>Crypto processor type: 11 = CEX5C, 12 = CEX6C, 13 = CEX7C, 14 = CEX8C
-Map: R702TYP3 Based on: R7023CT Description Crypto processor type: 11 = CEX5C, 12 = CEX6C, 13 = CEX7C, 14 = CEX8C</description>
+Map: R702TYP3 Based on: R7023CT Description Crypto processor type: 11 = CEX5C, 12 = CEX6C, 13 = CEX7C, 14 = CEX8C
+Post-Processed This field is processed using the core.flagmap post-processor.</description>
     </item>
     
     <item>
@@ -845,8 +1034,8 @@ Map: R702TYP3 Based on: R7023MSK Description Validity bit mask. Each bit positio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7023rsa/</guid>
-      <description>Valid data for RSA-key- generation operations
-Map: R702TYP3 Based on: r7023msk Description Valid data for RSA-key- generation operations
+      <description>Valid data for RSA-key generation operations
+Map: R702TYP3 Based on: r7023msk Description Valid data for RSA-key generation operations
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7023msk.</description>
     </item>
     
@@ -897,7 +1086,8 @@ Map: R702TYP4 Based on: R7024AX Description Crypto processor index</description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7024ct/</guid>
       <description>Crypto processor type: 11 = CEX5A, 12 = CEX6A, 13 = CEX7A, 14 = CEX8A
-Map: R702TYP4 Based on: R7024CT Description Crypto processor type: 11 = CEX5A, 12 = CEX6A, 13 = CEX7A, 14 = CEX8A</description>
+Map: R702TYP4 Based on: R7024CT Description Crypto processor type: 11 = CEX5A, 12 = CEX6A, 13 = CEX7A, 14 = CEX8A
+Post-Processed This field is processed using the core.flagmap post-processor.</description>
     </item>
     
     <item>
@@ -998,7 +1188,8 @@ Map: R702TYP5 Based on: R7025AX Description Crypto processor index</description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/r7025ct/</guid>
       <description>Crypto processor type: 11 = CEX5P, 12 = CEX6P, 13 = CEX7P, 14 = CEX8P
-Map: R702TYP5 Based on: R7025CT Description Crypto processor type: 11 = CEX5P, 12 = CEX6P, 13 = CEX7P, 14 = CEX8P</description>
+Map: R702TYP5 Based on: R7025CT Description Crypto processor type: 11 = CEX5P, 12 = CEX6P, 13 = CEX7P, 14 = CEX8P
+Post-Processed This field is processed using the core.flagmap post-processor.</description>
     </item>
     
     <item>
@@ -1929,6 +2120,17 @@ Map: SMF70PRO Based on: SMF70SNM Description System name for current system as d
     </item>
     
     <item>
+      <title>Field - speed_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/speed_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/speed_boost/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF70PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - srl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/srl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1967,6 +2169,17 @@ Record: SMF70S2 Based on: SMF70STY Description SUBTYPE</description>
       <description>SUBTYPES USED
 Record: SMF70S2 Based on: flg Description SUBTYPES USED
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sym_key_gen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sym_key_gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/sym_key_gen/</guid>
+      <description>Valid data for symmetric-key functions that return complete or final result
+Map: R702TYP5 Based on: r7025msk Description Valid data for symmetric-key functions that return complete or final result
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7025msk.</description>
     </item>
     
     <item>
@@ -2050,6 +2263,39 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/xnm/</guid>
       <description>Sysplex name as defined in ECVTSPLX
 Map: SMF70PRO Based on: SMF70XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/zaap_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/zaap_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_boost/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF70PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S2/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF70PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
   </channel>

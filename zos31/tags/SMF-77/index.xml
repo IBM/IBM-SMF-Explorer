@@ -25,6 +25,17 @@ time Record Timestamp boost_class fla Boost class is set at end of interval, val
     </item>
     
     <item>
+      <title>Field - abd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/abd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/abd/</guid>
+      <description>ENQUEUE EVENT PROCESSING ABEND
+Map: SMF77CTL Based on: fg1 Description ENQUEUE EVENT PROCESSING ABEND
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fg1.</description>
+    </item>
+    
+    <item>
       <title>Field - altvm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/altvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,6 +90,28 @@ Post-Processed Flags postprocessor for multiple bit mapping.</description>
     </item>
     
     <item>
+      <title>Field - btm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/btm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/btm/</guid>
+      <description>ENQUEUE HAD BAD CPU CLOCK
+Map: SMF77CTL Based on: fg1 Description ENQUEUE HAD BAD CPU CLOCK
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fg1.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF77PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - cnv</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/cnv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,6 +150,28 @@ Map: SMF77ENQ Based on: SMF77DOW Description NUMBER OF CURRENT OWNER</descriptio
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/cyc/</guid>
       <description>Sampling cycle length
 Map: SMF77PRO Based on: SMF77CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - d1e</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/d1e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/d1e/</guid>
+      <description>ON = WAITING JOB 1 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 1 FOR SHARED USE
+Map: SMF77ENQ Based on: dfg Description ON = WAITING JOB 1 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 1 FOR SHARED USE
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field dfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - d2e</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/d2e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/d2e/</guid>
+      <description>ON = WAITING JOB 2 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 2 FOR SHARED USE
+Map: SMF77ENQ Based on: dfg Description ON = WAITING JOB 2 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 2 FOR SHARED USE
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field dfg.</description>
     </item>
     
     <item>
@@ -162,6 +217,17 @@ Record: SMF77S1 Based on: SMF77DTE </description>
     </item>
     
     <item>
+      <title>Field - det</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/det/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/det/</guid>
+      <description>DETAIL DATA REQUESTED
+Map: SMF77CTL Based on: fg1 Description DETAIL DATA REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fg1.</description>
+    </item>
+    
+    <item>
       <title>Field - detail_data_req</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/detail_data_req/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -182,6 +248,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
 Map: SMF77ENQ Based on: SMF77DFG Description ENQ DETAIL DATA STATUS
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description resource_contention 0 RESOURCE IN CONTENTION system_scope 1 ON = SCOPE OF SYSTEMS OFF = SCOPE OF SYSTEM exclusive_owner 2 ON = EXCLUSIVE OWNER, OFF = OWNER SHARES RESOURCE job_wait_for_exc_usage 3 ON = WAITING JOB 1 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 1 FOR SHARED USE job_wait_for_2exc_usage 4 ON = WAITING JOB 2 FOR EXCLUSIVE USAGE, OFF = WAITING JOB 2 FOR SHARED USE global_resource 5 ON = GLOBAL RESOURCE, OFF = LOCAL RESOURCE </description>
+    </item>
+    
+    <item>
+      <title>Field - dou</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/dou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/dou/</guid>
+      <description>ON = EXCLUSIVE OWNER, OFF = OWNER SHARES RESOURCE
+Map: SMF77ENQ Based on: dfg Description ON = EXCLUSIVE OWNER, OFF = OWNER SHARES RESOURCE
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field dfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF77PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
     </item>
     
     <item>
@@ -222,6 +310,28 @@ Record: SMF77S1 Based on: SMF77EDN Description NUMBER OF ENQUEUE DATA SECTIONS</
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/eds/</guid>
       <description>OFFSET TO ENQUEUE DATA SECTION
 Record: SMF77S1 Based on: SMF77EDS Description OFFSET TO ENQUEUE DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF77PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF77PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -408,6 +518,17 @@ Map: SMF77PRO Based on: SMF77GIE Description Projected gathering interval end GM
     </item>
     
     <item>
+      <title>Field - glb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/glb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/glb/</guid>
+      <description>ON = GLOBAL RESOURCE, OFF = LOCAL RESOURCE
+Map: SMF77ENQ Based on: dfg Description ON = GLOBAL RESOURCE, OFF = LOCAL RESOURCE
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field dfg.</description>
+    </item>
+    
+    <item>
       <title>Field - global_resource</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/global_resource/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -416,6 +537,17 @@ Map: SMF77PRO Based on: SMF77GIE Description Projected gathering interval end GM
       <description>ON = GLOBAL RESOURCE, OFF = LOCAL RESOURCE
 Map: SMF77ENQ Based on: dfg Description ON = GLOBAL RESOURCE, OFF = LOCAL RESOURCE
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field dfg.</description>
+    </item>
+    
+    <item>
+      <title>Field - gmv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/gmv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/gmv/</guid>
+      <description>GRS mode flags SMF77NON and SMF77STR are valid, if set
+Map: SMF77CTL Based on: fg1 Description GRS mode flags SMF77NON and SMF77STR are valid, if set
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field fg1.</description>
     </item>
     
     <item>
@@ -474,6 +606,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - gsp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/gsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/gsp/</guid>
+      <description>GRS system problems
+Map: SMF77CTL Based on: rf2 Description GRS system problems
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field rf2.</description>
+    </item>
+    
+    <item>
       <title>Field - higher_service_level</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/higher_service_level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -485,6 +628,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
     </item>
     
     <item>
+      <title>Field - hld</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/hld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/hld/</guid>
+      <description>RESOURCE IN CONTENTION
+Map: SMF77ENQ Based on: dfg Description RESOURCE IN CONTENTION
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field dfg.</description>
+    </item>
+    
+    <item>
       <title>Field - iet</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -492,6 +646,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iet/</guid>
       <description>Interval expiration time token
 Map: SMF77PRO Based on: SMF77IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF77PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
     </item>
     
     <item>
@@ -531,6 +696,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF77PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF77PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/iss/</guid>
       <description>Invalid samples to be skipped
 Map: SMF77PRO Based on: fla Description Invalid samples to be skipped
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
@@ -631,6 +818,17 @@ Map: SMF77PRO Based on: SMF77MFV Description RMF version number</description>
     </item>
     
     <item>
+      <title>Field - mis</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/mis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/mis/</guid>
+      <description>SPECIFIED RESOURCE HAD NO CONTENTION
+Map: SMF77CTL Based on: fg1 Description SPECIFIED RESOURCE HAD NO CONTENTION
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fg1.</description>
+    </item>
+    
+    <item>
       <title>Field - mvs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/mvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -648,6 +846,17 @@ Map: SMF77PRO Based on: SMF77MVS Description MVS software level (consists of an 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/nod/</guid>
       <description>Total number of contention status change events, accumulated during the measurement interval which did not provide specific contention detail data.
 Map: SMF77ENQ Based on: SMF77NOD Description Total number of contention status change events, accumulated during the measurement interval which did not provide specific contention detail data.</description>
+    </item>
+    
+    <item>
+      <title>Field - non</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/non/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/non/</guid>
+      <description>GRS=NONE mode or local SYSPLEX if set
+Map: SMF77CTL Based on: fg1 Description GRS=NONE mode or local SYSPLEX if set
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fg1.</description>
     </item>
     
     <item>
@@ -669,6 +878,28 @@ Map: SMF77PRO Based on: SMF77OIL Description Original interval length as defined
       <description>OPERATING SYSTEM IS OS/VS2
 Record: SMF77S1 Based on: flg Description OPERATING SYSTEM IS OS/VS2
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF77PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF77PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
     </item>
     
     <item>
@@ -694,6 +925,17 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF77PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -714,6 +956,17 @@ Record: SMF77S1 Based on: SMF77PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
     </item>
     
     <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF77PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/prs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -731,6 +984,17 @@ Record: SMF77S1 Based on: SMF77PRS Description OFFSET TO RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF77PRO Based on: SMF77PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF77PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -814,6 +1078,28 @@ Map: SMF77PRO Based on: SMF77RAO Description Offset to reassembly area relative 
     </item>
     
     <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF77PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF77PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - resource_contention</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/resource_contention/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -888,6 +1174,17 @@ Field Bit-Position Description grs_sys_problem 0 GRS system problems grs_interfa
     </item>
     
     <item>
+      <title>Field - rgi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rgi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rgi/</guid>
+      <description>RMF/GRS interface problem
+Map: SMF77CTL Based on: rf2 Description RMF/GRS interface problem
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field rf2.</description>
+    </item>
+    
+    <item>
       <title>Field - rln</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/rln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -936,6 +1233,17 @@ Record: SMF77S1 Based on: SMF77RTY Description RECORD TYPE</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/sam/</guid>
       <description>Number of samples
 Map: SMF77PRO Based on: SMF77SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - scp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/scp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/scp/</guid>
+      <description>ON = SCOPE OF SYSTEMS OFF = SCOPE OF SYSTEM
+Map: SMF77ENQ Based on: dfg Description ON = SCOPE OF SYSTEMS OFF = SCOPE OF SYSTEM
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field dfg.</description>
     </item>
     
     <item>
@@ -1017,6 +1325,17 @@ Map: SMF77PRO Based on: SMF77SRL Description SMF record level</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
 Record: SMF77S1 Based on: SMF77SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - str</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/str/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf77/SMF77S1/fields/str/</guid>
+      <description>GRS=RING, if not set and SMF77NON off
+Map: SMF77CTL Based on: fg1 Description GRS=RING, if not set and SMF77NON off
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fg1.</description>
     </item>
     
     <item>

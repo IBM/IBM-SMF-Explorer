@@ -14,10 +14,7 @@
 
   <meta name="description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_name processed SMF70CIN CPU-identification name string msu_physical virtual dispatch_time_total
-cpa_scaling_factor_effective
-cpu_adjustment_factor_effective
-interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum share integer share_maximum SMF70MAS Processor maximum share integer cpu_polarization virtual flags_polarization Polarization indicator: 00 = Horizontally polarized or polarization no&hellip; logical_processor_online_time SMF70ONT Logical processor online time integer processor_weight SMF70BPS Processor relative share integer cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer utilization_per_cpu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA). integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs." />
 
     <title>Sample - processor_information | IBM SMF Explorer</title>
 
@@ -45,10 +42,7 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_name processed SMF70CIN CPU-identification name string msu_physical virtual dispatch_time_total
-cpa_scaling_factor_effective
-cpu_adjustment_factor_effective
-interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum share integer share_maximum SMF70MAS Processor maximum share integer cpu_polarization virtual flags_polarization Polarization indicator: 00 = Horizontally polarized or polarization no… logical_processor_online_time SMF70ONT Logical processor online time integer processor_weight SMF70BPS Processor relative share integer cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer utilization_per_cpu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA). integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/" />
 
@@ -63,10 +57,7 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
 <meta name="twitter:title" content="Sample - processor_information" />
   <meta name="twitter:description" content="Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_name processed SMF70CIN CPU-identification name string msu_physical virtual dispatch_time_total
-cpa_scaling_factor_effective
-cpu_adjustment_factor_effective
-interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum share integer share_maximum SMF70MAS Processor maximum share integer cpu_polarization virtual flags_polarization Polarization indicator: 00 = Horizontally polarized or polarization no… logical_processor_online_time SMF70ONT Logical processor online time integer processor_weight SMF70BPS Processor relative share integer cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer utilization_per_cpu_physical virtual dispatch_time_total" />
+Name Based on Description Type/Format cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA). integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs." />
 
 
   <script type="application/ld+json">
@@ -77,7 +68,7 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       "name": "Sample - processor_information",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/",
       "headline": "Sample - processor_information",
-      "description": "Request necessary fields from SMF70S1 on processors\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format cpu_name processed SMF70CIN CPU-identification name string msu_physical virtual dispatch_time_total\ncpa_scaling_factor_effective\ncpu_adjustment_factor_effective\ninterval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum share integer share_maximum SMF70MAS Processor maximum share integer cpu_polarization virtual flags_polarization Polarization indicator: 00 = Horizontally polarized or polarization no… logical_processor_online_time SMF70ONT Logical processor online time integer processor_weight SMF70BPS Processor relative share integer cpu_count SMF70CTN Number of physical CPUs of this type at interval end integer utilization_per_cpu_physical virtual dispatch_time_total",
+      "description": "Request necessary fields from SMF70S1 on processors\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA). integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.",
       "wordCount" : "355",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -1768,66 +1759,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1889,58 +1820,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4032,58 +3911,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4145,58 +3972,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6364,58 +6139,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6477,118 +6200,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8695,6 +8306,136 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8756,6 +8497,50 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9275,6 +9060,28 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10889,6 +10696,80 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11227,6 +11108,28 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11288,6 +11191,28 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16665,6 +16590,92 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17236,6 +17247,42 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17551,6 +17598,52 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17669,6 +17762,64 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18949,6 +19100,8 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
     
   </ul>
 
@@ -19010,6 +19163,116 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22140,6 +22403,80 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24427,6 +24764,14 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24488,6 +24833,12 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
       
         
       
@@ -25883,6 +26234,140 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -25944,6 +26429,36 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26752,12 +27267,47 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_name/"
->cpu_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF70CIN</td>
-<td>CPU-identification name</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_wlm_percentage/"
+>cap_wlm_percentage</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70NSW</td>
+<td>Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA).</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute_group/"
+>cap_absolute_group</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70HWGR_CAP_LIMIT</td>
+<td>If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70ONT</td>
+<td>Logical processor online time</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70SID</td>
+<td>SYSTEM ID FROM INSTALLATION</td>
 <td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
+>share_actual</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70ACS</td>
+<td>Accumulated processor actual share</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -26780,201 +27330,6 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
 >interval_in_milliseconds</a></td>
 <td>Physical MSU</td>
 <td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_minimum/"
->share_minimum</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70MIS</td>
-<td>Processor minimum share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_maximum/"
->share_maximum</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70MAS</td>
-<td>Processor maximum share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_polarization/"
->cpu_polarization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/flags_polarization/"
->flags_polarization</a></td>
-<td>Polarization indicator: 00 = Horizontally polarized or polarization no&hellip;</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70ONT</td>
-<td>Logical processor online time</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
->processor_weight</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70BPS</td>
-<td>Processor relative share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
->cpu_count</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70CTN</td>
-<td>Number of physical CPUs of this type at interval end</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/utilization_per_cpu_physical/"
->utilization_per_cpu_physical</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
->dispatch_time_total</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
->cpu_count</a></td>
-<td>Physical per CPU Utilization</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_management_per_cpu/"
->lpar_management_per_cpu</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
->dispatch_time_total</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_effective/"
->dispatch_time_effective</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
->cpu_count</a></td>
-<td>Physical per CPU Utilization</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute_group/"
->cap_absolute_group</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70HWGR_CAP_LIMIT</td>
-<td>If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval_in_milliseconds/"
->interval_in_milliseconds</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval/"
->interval</a></td>
-<td>Interval duration in milliseconds</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/date/"
->date</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/time/"
->time</a></td>
-<td>Record Timestamp</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_is_online/"
->logical_processor_is_online</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
->logical_processor_online_time</a></td>
-<td>Logical processor is online for the given partition</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
->dispatch_time_total</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70PDT</td>
-<td>Logical processor total dispatch time, in microseconds. When associated with partition name <em>PHYSICAL</em>, this field contains the accumulated number of microseconds during which a physical CPU was busy but the time could not be attributed to a specific logical partition. This time includes the time PR/SM was controlling the physical processor (LPAR management time) as well as any other time the processor was busy for any reason such as managing coupling facility traffic.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_actual/"
->share_actual</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70ACS</td>
-<td>Accumulated processor actual share</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_actual_percentage/"
->cap_actual_percentage</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70NCA</td>
-<td>Number of Diagnose samples where capping actually limited the usage of processor resources for the set of logical CPUs of type SMF70CIX within the logical partition</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute/"
->cap_absolute</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70HW_CAP_LIMIT</td>
-<td>If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX in terms of numbers of hundredth of CPUs.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_wlm_percentage/"
->cap_wlm_percentage</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70NSW</td>
-<td>Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA).</td>
-<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27020,11 +27375,171 @@ interval_in_milliseconds Physical MSU share_minimum SMF70MIS Processor minimum s
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70SID</td>
-<td>SYSTEM ID FROM INSTALLATION</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_management_per_cpu/"
+>lpar_management_per_cpu</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
+>dispatch_time_total</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_effective/"
+>dispatch_time_effective</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
+>cpu_count</a></td>
+<td>Physical per CPU Utilization</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_minimum/"
+>share_minimum</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70MIS</td>
+<td>Processor minimum share</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval_in_milliseconds/"
+>interval_in_milliseconds</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/interval/"
+>interval</a></td>
+<td>Interval duration in milliseconds</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_actual_percentage/"
+>cap_actual_percentage</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70NCA</td>
+<td>Number of Diagnose samples where capping actually limited the usage of processor resources for the set of logical CPUs of type SMF70CIX within the logical partition</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
+>cpu_count</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70CTN</td>
+<td>Number of physical CPUs of this type at interval end</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cap_absolute/"
+>cap_absolute</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70HW_CAP_LIMIT</td>
+<td>If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX in terms of numbers of hundredth of CPUs.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/"
+>processor_weight</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70BPS</td>
+<td>Processor relative share</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_polarization/"
+>cpu_polarization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/flags_polarization/"
+>flags_polarization</a></td>
+<td>Polarization indicator: 00 = Horizontally polarized or polarization no&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_maximum/"
+>share_maximum</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70MAS</td>
+<td>Processor maximum share</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/utilization_per_cpu_physical/"
+>utilization_per_cpu_physical</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
+>dispatch_time_total</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_count/"
+>cpu_count</a></td>
+<td>Physical per CPU Utilization</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_is_online/"
+>logical_processor_is_online</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/logical_processor_online_time/"
+>logical_processor_online_time</a></td>
+<td>Logical processor is online for the given partition</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_name/"
+>cpu_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF70CIN</td>
+<td>CPU-identification name</td>
 <td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/date/"
+>date</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/time/"
+>time</a></td>
+<td>Record Timestamp</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_time_total/"
+>dispatch_time_total</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70PDT</td>
+<td>Logical processor total dispatch time, in microseconds. When associated with partition name <em>PHYSICAL</em>, this field contains the accumulated number of microseconds during which a physical CPU was busy but the time could not be attributed to a specific logical partition. This time includes the time PR/SM was controlling the physical processor (LPAR management time) as well as any other time the processor was busy for any reason such as managing coupling facility traffic.</td>
+<td>integer</td>
 </tr>
 </tbody>
 </table> </div>

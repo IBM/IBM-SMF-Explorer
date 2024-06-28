@@ -859,8 +859,8 @@ Map: R744ADUP Based on: R744ALAO Description Number of asynchronous duplex opera
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744alaoh/</guid>
-      <description>Highest sequence number of the operation that has been exe- cuted in the primary structure (Valid if bit 4 of R744SFLG is set.)
-Map: R744ADUP Based on: R744ALAOH Description Highest sequence number of the operation that has been exe- cuted in the primary structure (Valid if bit 4 of R744SFLG is set.)</description>
+      <description>Highest sequence number of the operation that has been exe cuted in the primary structure (Valid if bit 4 of R744SFLG is set.)
+Map: R744ADUP Based on: R744ALAOH Description Highest sequence number of the operation that has been exe cuted in the primary structure (Valid if bit 4 of R744SFLG is set.)</description>
     </item>
     
     <item>
@@ -2728,8 +2728,8 @@ Map: R744CFRF Based on: R744RAMSQ Description Total amount of squares of service
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744ramst/</guid>
-      <description>Total amount of service time for asynchronous messages sent to this remote CF, in micro- seconds.
-Map: R744CFRF Based on: R744RAMST Description Total amount of service time for asynchronous messages sent to this remote CF, in micro- seconds.</description>
+      <description>Total amount of service time for asynchronous messages sent to this remote CF, in micro seconds.
+Map: R744CFRF Based on: R744RAMST Description Total amount of service time for asynchronous messages sent to this remote CF, in micro seconds.</description>
     </item>
     
     <item>
@@ -2801,7 +2801,10 @@ Map: R744CFRF Based on: R744RHES Description Halt execution signal counter</desc
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744ridp/</guid>
       <description>Array for receiver/peer channel path IDs.
-Map: R744CFRF Based on: R744RIDP Description Array for receiver/peer channel path IDs.</description>
+Map: R744CFRF
+Array Length: 8
+Based on: R744RIDP
+Description Array for receiver/peer channel path IDs.</description>
     </item>
     
     <item>
@@ -3466,8 +3469,8 @@ Map: R744SREQ Based on: R744SMHN Description Minimum number of high priority ope
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744smht/</guid>
-      <description>Total number of high priority operations queued for CF mono- polization avoidance. (Valid if bit 3 of R744SXFL is set.)
-Map: R744SREQ Based on: R744SMHT Description Total number of high priority operations queued for CF mono- polization avoidance. (Valid if bit 3 of R744SXFL is set.)</description>
+      <description>Total number of high priority operations queued for CF mono polization avoidance. (Valid if bit 3 of R744SXFL is set.)
+Map: R744SREQ Based on: R744SMHT Description Total number of high priority operations queued for CF mono polization avoidance. (Valid if bit 3 of R744SXFL is set.)</description>
     </item>
     
     <item>
@@ -3476,8 +3479,8 @@ Map: R744SREQ Based on: R744SMHT Description Total number of high priority opera
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744smhx/</guid>
-      <description>Maximum number of high priority operations queued for CF mono- polization avoidance during this interval. (Valid if bit 3 of R744SXFL is set.)
-Map: R744SREQ Based on: R744SMHX Description Maximum number of high priority operations queued for CF mono- polization avoidance during this interval. (Valid if bit 3 of R744SXFL is set.)</description>
+      <description>Maximum number of high priority operations queued for CF mono polization avoidance during this interval. (Valid if bit 3 of R744SXFL is set.)
+Map: R744SREQ Based on: R744SMHX Description Maximum number of high priority operations queued for CF mono polization avoidance during this interval. (Valid if bit 3 of R744SXFL is set.)</description>
     </item>
     
     <item>
@@ -3737,8 +3740,8 @@ Map: R744SREQ Based on: R744SRED Description Sum of 256 byte increments accumula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf74/SMF74S4/fields/r744sres/</guid>
-      <description>Squares of summed number of 256 byte increments accumula- ted for entry data with data elements read from the CF structure. (Valid if bit 2 of R744SXFL is set.)
-Map: R744SREQ Based on: R744SRES Description Squares of summed number of 256 byte increments accumula- ted for entry data with data elements read from the CF structure. (Valid if bit 2 of R744SXFL is set.)</description>
+      <description>Squares of summed number of 256 byte increments accumula ted for entry data with data elements read from the CF structure. (Valid if bit 2 of R744SXFL is set.)
+Map: R744SREQ Based on: R744SRES Description Squares of summed number of 256 byte increments accumula ted for entry data with data elements read from the CF structure. (Valid if bit 2 of R744SXFL is set.)</description>
     </item>
     
     <item>

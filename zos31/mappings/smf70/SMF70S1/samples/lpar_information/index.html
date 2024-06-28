@@ -14,8 +14,7 @@
 
   <meta name="description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer lpar_system_name virtual lpar_name
-system_name LPAR-System name system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date" />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 
     <title>Sample - lpar_information | IBM SMF Explorer</title>
 
@@ -43,8 +42,7 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer lpar_system_name virtual lpar_name
-system_name LPAR-System name system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date" />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/samples/lpar_information/" />
 
@@ -59,8 +57,7 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
 <meta name="twitter:title" content="Sample - lpar_information" />
   <meta name="twitter:description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer lpar_system_name virtual lpar_name
-system_name LPAR-System name system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date" />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 
 
   <script type="application/ld+json">
@@ -71,7 +68,7 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       "name": "Sample - lpar_information",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/samples/lpar_information/",
       "headline": "Sample - lpar_information",
-      "description": "Request necessary fields from SMF70S1 on LPARs\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR\/SM logical processor data sections integer lpar_system_name virtual lpar_name\nsystem_name LPAR-System name system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date",
+      "description": "Request necessary fields from SMF70S1 on LPARs\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z\/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.",
       "wordCount" : "138",
       "inLanguage": "zos31",
       "isFamilyFriendly": "true",
@@ -755,6 +752,10 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
       
         
       
@@ -2938,6 +2939,18 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4060,6 +4073,18 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -4121,6 +4146,18 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -6380,6 +6417,18 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -6441,64 +6490,6 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8653,6 +8644,136 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8714,6 +8835,50 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9233,6 +9398,28 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10927,6 +11114,80 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11265,6 +11526,28 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11326,6 +11609,28 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16703,6 +17008,92 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17274,6 +17665,42 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17589,6 +18016,52 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17707,6 +18180,64 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18987,6 +19518,8 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
     
   </ul>
 
@@ -19048,6 +19581,116 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22182,6 +22825,80 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24469,6 +25186,14 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24530,30 +25255,6 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -25987,6 +26688,142 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -26048,6 +26885,36 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26856,44 +27723,19 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_number/"
->lpar_number</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70LPN</td>
-<td>Logical partition number</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_cpu_count/"
->lpar_cpu_count</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70BDN</td>
-<td>Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_system_name/"
->lpar_system_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_name/"
->lpar_name</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/system_name/"
->system_name</a></td>
-<td>LPAR-System name</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/system_name/"
 >system_name</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF70STN</td>
 <td>Name of the operating-system instance. Zeros if no name declared for this partition</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sysplex_name/"
+>sysplex_name</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70SPN</td>
+<td>Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</td>
 <td>string</td>
 </tr>
 <tr>
@@ -26924,11 +27766,27 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/sysplex_name/"
->sysplex_name</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70SPN</td>
-<td>Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</td>
-<td>string</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_system_name/"
+>lpar_system_name</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_name/"
+>lpar_name</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/system_name/"
+>system_name</a></td>
+<td>LPAR-System name</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_number/"
+>lpar_number</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70LPN</td>
+<td>Logical partition number</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -26938,6 +27796,15 @@ system_name LPAR-System name system_name SMF70STN Name of the operating-system i
 <td>SMF70SID</td>
 <td>SYSTEM ID FROM INSTALLATION</td>
 <td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/lpar_cpu_count/"
+>lpar_cpu_count</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70BDN</td>
+<td>Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections</td>
+<td>integer</td>
 </tr>
 </tbody>
 </table> </div>

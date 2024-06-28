@@ -25,6 +25,17 @@ time Record Timestamp boost_class fla Boost class is set at end of interval, val
     </item>
     
     <item>
+      <title>Field - alb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/alb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/alb/</guid>
+      <description>ALL OPTIONS REQUESTED
+Map: SMF76B Based on: opt Description ALL OPTIONS REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field opt.</description>
+    </item>
+    
+    <item>
       <title>Field - all_req</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/all_req/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,6 +66,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <description>System in z/ARCH mode
 Map: SMF76PRO Based on: prf Description System in z/ARCH mode
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - avb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/avb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/avb/</guid>
+      <description>AVERAGE REQUESTED
+Map: SMF76B Based on: opt Description AVERAGE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field opt.</description>
     </item>
     
     <item>
@@ -98,6 +120,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
       <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Map: SMF76PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF76PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -174,6 +207,28 @@ Map: SMF76B Based on: SMF76DLN Description LENGTH OF FIELD SAMPLED</description>
     </item>
     
     <item>
+      <title>Field - dmb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/dmb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/dmb/</guid>
+      <description>NAME IS A DOMAIN TABLE FIELD
+Map: SMF76B Based on: opt Description NAME IS A DOMAIN TABLE FIELD
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF76PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,6 +236,39 @@ Map: SMF76B Based on: SMF76DLN Description LENGTH OF FIELD SAMPLED</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
 Record: SMF76S1 Based on: SMF76DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF76PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF76PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - enb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/enb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/enb/</guid>
+      <description>END VALUE REQUESTED
+Map: SMF76B Based on: opt Description END VALUE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field opt.</description>
     </item>
     
     <item>
@@ -304,6 +392,17 @@ Map: SMF76PRO Based on: SMF76IET Description Interval expiration time token</des
     </item>
     
     <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF76PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - iml</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/iml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -354,6 +453,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <description>IPS CHANGE OCCURRED (AFTER INITIALIZATION)
 Map: SMF76B Based on: opt Description IPS CHANGE OCCURRED (AFTER INITIALIZATION)
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF76PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF76PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -414,6 +535,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/lpb_end/</guid>
+      <description>LPB TRACE REQUEST ENDED
+Map: SMF76B Based on: op1 Description LPB TRACE REQUEST ENDED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - lpf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/lpf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/lpf/</guid>
       <description>LPB TRACE REQUEST ENDED
 Map: SMF76B Based on: op1 Description LPB TRACE REQUEST ENDED
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field op1.</description>
@@ -483,6 +615,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - mnb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mnb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mnb/</guid>
+      <description>MINIMUM REQUESTED
+Map: SMF76B Based on: opt Description MINIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field opt.</description>
+    </item>
+    
+    <item>
       <title>Field - mvs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -490,6 +633,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mvs/</guid>
       <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
 Map: SMF76PRO Based on: SMF76MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - mxb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mxb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/mxb/</guid>
+      <description>MAXIMUM REQUESTED
+Map: SMF76B Based on: opt Description MAXIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field opt.</description>
     </item>
     
     <item>
@@ -569,6 +723,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prd</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/prd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -588,6 +764,17 @@ Map: SMF76PRO Based on: SMF76PRD Description Product name</description>
 Map: SMF76PRO Based on: SMF76PRF Description Processor flags
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
     </item>
     
     <item>
@@ -611,6 +798,17 @@ Record: SMF76S1 Based on: SMF76PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
     </item>
     
     <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prs</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/prs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -628,6 +826,17 @@ Record: SMF76S1 Based on: SMF76PRS Description OFFSET TO RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF76PRO Based on: SMF76PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF76PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -658,6 +867,28 @@ Map: SMF76PRO Based on: SMF76RAN Description Number of reassembly area. This fie
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/rao/</guid>
       <description>Offset to reassembly area relative to start of RMF product section
 Map: SMF76PRO Based on: SMF76RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
     </item>
     
     <item>
@@ -780,6 +1011,17 @@ Map: SMF76B Based on: SMF76SSL Description SAMPLES PER SET FOR LAST SET IN INTER
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/sss/</guid>
       <description>SAMPLES PER SET
 Map: SMF76B Based on: SMF76SSS Description SAMPLES PER SET</description>
+    </item>
+    
+    <item>
+      <title>Field - stb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/stb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/stb/</guid>
+      <description>STD. DEV. REQUESTED
+Map: SMF76B Based on: opt Description STD. DEV. REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field opt.</description>
     </item>
     
     <item>
@@ -994,6 +1236,17 @@ Record: SMF76S1 Based on: SMF76VFN Description NUMBER OF VARIABLE FORMAT SET</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/vfs/</guid>
       <description>OFFSET TO VARIABLE FORMAT SET
 Record: SMF76S1 Based on: SMF76VFS Description OFFSET TO VARIABLE FORMAT SET</description>
+    </item>
+    
+    <item>
+      <title>Field - vld</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/vld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf76/SMF76S1/fields/vld/</guid>
+      <description>ON = VALID DATA
+Map: SMF76B Based on: op1 Description ON = VALID DATA
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field op1.</description>
     </item>
     
     <item>

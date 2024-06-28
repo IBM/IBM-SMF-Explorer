@@ -752,8 +752,8 @@ Field Bit-Position Description r79ecpi 0 =1 IF CHANNEL PATH INST. r79ecpo 1 =1 I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79ecptd/</guid>
-      <description>1 = First-transfer-ready- disabled supported
-Map: R79ECPD Based on: r79ecpxf Description 1 = First-transfer-ready- disabled supported
+      <description>1 = First-transfer-ready disabled supported
+Map: R79ECPD Based on: r79ecpxf Description 1 = First-transfer-ready disabled supported
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r79ecpxf.</description>
     </item>
     
@@ -774,8 +774,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79ecpx2/</guid>
-      <description>1 = extended I/O- measurement-block format-2 data available
-Map: R79ECPD Based on: r79ecpxf Description 1 = extended I/O- measurement-block format-2 data available
+      <description>1 = extended I/O measurement-block format-2 data available
+Map: R79ECPD Based on: r79ecpxf Description 1 = extended I/O measurement-block format-2 data available
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r79ecpxf.</description>
     </item>
     
@@ -788,7 +788,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <description>Channel Path extended flags
 Map: R79ECPD Based on: R79ECPXF Description Channel Path extended flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r79ecpxm 0 1 = extended I/O- measurement-block format-1 data available r79ecpx2 1 1 = extended I/O- measurement-block format-2 data available r79ecptd 2 1 = First-transfer-ready- disabled supported </description>
+Field Bit-Position Description r79ecpxm 0 1 = extended I/O measurement-block format-1 data available r79ecpx2 1 1 = extended I/O measurement-block format-2 data available r79ecptd 2 1 = First-transfer-ready disabled supported </description>
     </item>
     
     <item>
@@ -797,8 +797,8 @@ Field Bit-Position Description r79ecpxm 0 1 = extended I/O- measurement-block fo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79ecpxm/</guid>
-      <description>1 = extended I/O- measurement-block format-1 data available
-Map: R79ECPD Based on: r79ecpxf Description 1 = extended I/O- measurement-block format-1 data available
+      <description>1 = extended I/O measurement-block format-1 data available
+Map: R79ECPD Based on: r79ecpxf Description 1 = extended I/O measurement-block format-1 data available
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r79ecpxf.</description>
     </item>
     
@@ -828,8 +828,8 @@ Map: R79ECPD Based on: R79ECTMW Description Transport mode write count valid if 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79ectrd/</guid>
-      <description>First-transfer-ready- disabled write count valid if R79ECPTD=1
-Map: R79ECPD Based on: R79ECTRD Description First-transfer-ready- disabled write count valid if R79ECPTD=1</description>
+      <description>First-transfer-ready disabled write count valid if R79ECPTD=1
+Map: R79ECPD Based on: R79ECTRD Description First-transfer-ready disabled write count valid if R79ECPTD=1</description>
     </item>
     
     <item>
@@ -973,8 +973,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79egcmr/</guid>
-      <description>=1 initial-command-response- time supported
-Map: R79EGD Based on: r79egflg Description =1 initial-command-response- time supported
+      <description>=1 initial-command-response time supported
+Map: R79EGD Based on: r79egflg Description =1 initial-command-response time supported
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r79egflg.</description>
     </item>
     
@@ -1009,7 +1009,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <description>GLOBAL IOQ STATUS
 Map: R79EGD Based on: R79EGFLG Description GLOBAL IOQ STATUS
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r79egcmf 0 =1 DATA IS INVALID DUE TO FAILURE OF THE CHANNEL MESUREMENT FACILITY r79egdif 1 =1 DIAGNOSE INTERFACE FAILURE r79egdir 2 =1 ESCON Director in configuration r79egssq 3 =1 CHSC store secondary queue data not supported r79egcmh 4 =1 DCM is supported by hardware r79egcmd 5 =1 Configuration contains DCM managed channels r79egcmr 6 =1 initial-command-response- time supported r79egtrd 7 First-transfer-ready- disabled write data available </description>
+Field Bit-Position Description r79egcmf 0 =1 DATA IS INVALID DUE TO FAILURE OF THE CHANNEL MESUREMENT FACILITY r79egdif 1 =1 DIAGNOSE INTERFACE FAILURE r79egdir 2 =1 ESCON Director in configuration r79egssq 3 =1 CHSC store secondary queue data not supported r79egcmh 4 =1 DCM is supported by hardware r79egcmd 5 =1 Configuration contains DCM managed channels r79egcmr 6 =1 initial-command-response time supported r79egtrd 7 First-transfer-ready disabled write data available </description>
     </item>
     
     <item>
@@ -1039,8 +1039,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79egtrd/</guid>
-      <description>First-transfer-ready- disabled write data available
-Map: R79EGD Based on: r79egflg Description First-transfer-ready- disabled write data available
+      <description>First-transfer-ready disabled write data available
+Map: R79EGD Based on: r79egflg Description First-transfer-ready disabled write data available
 Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r79egflg.</description>
     </item>
     
@@ -1213,8 +1213,8 @@ Map: R79EDS Based on: R79ETMWM Description Accumulated transport mode write coun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S14/fields/r79etrdm/</guid>
-      <description>Accumulated first-transfer- ready-disabled write count for DCM managed channels valid if R79ECPTD=1
-Map: R79EDS Based on: R79ETRDM Description Accumulated first-transfer- ready-disabled write count for DCM managed channels valid if R79ECPTD=1</description>
+      <description>Accumulated first-transfer ready-disabled write count for DCM managed channels valid if R79ECPTD=1
+Map: R79EDS Based on: R79ETRDM Description Accumulated first-transfer ready-disabled write count for DCM managed channels valid if R79ECPTD=1</description>
     </item>
     
     <item>

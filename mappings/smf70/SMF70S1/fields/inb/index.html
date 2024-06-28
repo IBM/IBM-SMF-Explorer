@@ -15,7 +15,7 @@
   <meta name="description" content="PR/SM indicator bits
 Map: SMF70CTL Based on: SMF70INB Description PR/SM indicator bits
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204&rsquo; failure npc 1 PR/SM - Number of physical processors has changed tsc 2 PR/SM - Dispatch interval value has changed phy 3 PR/SM - An additional partition is presented with the name &ldquo;PHYSICAL&rdquo;. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition dge 4 PR/SM - Diagnose X&#39;204&rsquo; extended data is supported vmg 5 Simplified Diagnose X&#39;204&rsquo; data provided for system running as z/VM guest." />
+Field Bit-Position Description diagnose_204_failure 0 PR/SM - Diagnose X&#39;204&rsquo; failure physical_proc_chng 1 PR/SM - Number of physical processors has changed dispatch_interval_chng 2 PR/SM - Dispatch interval value has changed physical_part 3 PR/SM - An additional partition is presented with the name &ldquo;PHYSICAL&rdquo;. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition diagnose_204_ext 4 PR/SM - Diagnose X&#39;204&rsquo; extended data is supported diagnose_204_smpl 5 Simplified Diagnose X&#39;204&rsquo; data provided for system running as z/VM guest." />
 
     <title>Field - inb | IBM SMF Explorer</title>
 
@@ -44,7 +44,7 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204&rsquo; failure n
   <meta property="og:description" content="PR/SM indicator bits
 Map: SMF70CTL Based on: SMF70INB Description PR/SM indicator bits
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1 PR/SM - Number of physical processors has changed tsc 2 PR/SM - Dispatch interval value has changed phy 3 PR/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition dge 4 PR/SM - Diagnose X&#39;204’ extended data is supported vmg 5 Simplified Diagnose X&#39;204’ data provided for system running as z/VM guest." />
+Field Bit-Position Description diagnose_204_failure 0 PR/SM - Diagnose X&#39;204’ failure physical_proc_chng 1 PR/SM - Number of physical processors has changed dispatch_interval_chng 2 PR/SM - Dispatch interval value has changed physical_part 3 PR/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition diagnose_204_ext 4 PR/SM - Diagnose X&#39;204’ extended data is supported diagnose_204_smpl 5 Simplified Diagnose X&#39;204’ data provided for system running as z/VM guest." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/inb/" />
 
@@ -60,7 +60,7 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
   <meta name="twitter:description" content="PR/SM indicator bits
 Map: SMF70CTL Based on: SMF70INB Description PR/SM indicator bits
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1 PR/SM - Number of physical processors has changed tsc 2 PR/SM - Dispatch interval value has changed phy 3 PR/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition dge 4 PR/SM - Diagnose X&#39;204’ extended data is supported vmg 5 Simplified Diagnose X&#39;204’ data provided for system running as z/VM guest." />
+Field Bit-Position Description diagnose_204_failure 0 PR/SM - Diagnose X&#39;204’ failure physical_proc_chng 1 PR/SM - Number of physical processors has changed dispatch_interval_chng 2 PR/SM - Dispatch interval value has changed physical_part 3 PR/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition diagnose_204_ext 4 PR/SM - Diagnose X&#39;204’ extended data is supported diagnose_204_smpl 5 Simplified Diagnose X&#39;204’ data provided for system running as z/VM guest." />
 
 
   <script type="application/ld+json">
@@ -71,7 +71,7 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       "name": "Field - inb",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/inb/",
       "headline": "Field - inb",
-      "description": "PR\/SM indicator bits\nMap: SMF70CTL Based on: SMF70INB Description PR\/SM indicator bits\nFlag fields This is a flag field with the following bit fields:\nField Bit-Position Description dif 0 PR\/SM - Diagnose X\u0027204’ failure npc 1 PR\/SM - Number of physical processors has changed tsc 2 PR\/SM - Dispatch interval value has changed phy 3 PR\/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition dge 4 PR\/SM - Diagnose X\u0027204’ extended data is supported vmg 5 Simplified Diagnose X\u0027204’ data provided for system running as z\/VM guest.",
+      "description": "PR\/SM indicator bits\nMap: SMF70CTL Based on: SMF70INB Description PR\/SM indicator bits\nFlag fields This is a flag field with the following bit fields:\nField Bit-Position Description diagnose_204_failure 0 PR\/SM - Diagnose X\u0027204’ failure physical_proc_chng 1 PR\/SM - Number of physical processors has changed dispatch_interval_chng 2 PR\/SM - Dispatch interval value has changed physical_part 3 PR\/SM - An additional partition is presented with the name “PHYSICAL”. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition diagnose_204_ext 4 PR\/SM - Diagnose X\u0027204’ extended data is supported diagnose_204_smpl 5 Simplified Diagnose X\u0027204’ data provided for system running as z\/VM guest.",
       "wordCount" : "125",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -1762,66 +1762,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1883,58 +1823,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4026,58 +3914,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4139,58 +3975,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6358,58 +6142,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6471,118 +6203,6 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8689,6 +8309,136 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8750,6 +8500,50 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9269,6 +9063,28 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10883,6 +10699,80 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11221,6 +11111,28 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11282,6 +11194,28 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16659,6 +16593,92 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17230,6 +17250,42 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17545,6 +17601,52 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17663,6 +17765,64 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18943,6 +19103,8 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
     
   </ul>
 
@@ -19004,6 +19166,116 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22134,6 +22406,80 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24421,6 +24767,14 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24482,6 +24836,12 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
       
         
       
@@ -25877,6 +26237,140 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -25938,6 +26432,36 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26762,48 +27286,48 @@ Field Bit-Position Description dif 0 PR/SM - Diagnose X&#39;204’ failure npc 1
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dif/"
->dif</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/diagnose_204_failure/"
+>diagnose_204_failure</a></td>
 <td>0</td>
 <td>PR/SM - Diagnose X'204&rsquo; failure</td>
 </tr>
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/npc/"
->npc</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/physical_proc_chng/"
+>physical_proc_chng</a></td>
 <td>1</td>
 <td>PR/SM - Number of physical processors has changed</td>
 </tr>
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/tsc/"
->tsc</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dispatch_interval_chng/"
+>dispatch_interval_chng</a></td>
 <td>2</td>
 <td>PR/SM - Dispatch interval value has changed</td>
 </tr>
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/phy/"
->phy</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/physical_part/"
+>physical_part</a></td>
 <td>3</td>
 <td>PR/SM - An additional partition is presented with the name &ldquo;PHYSICAL&rdquo;. This partition includes all of the otherwise uncaptured time which was used by LPAR but could not be attributed to a specific logical partition</td>
 </tr>
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/dge/"
->dge</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/diagnose_204_ext/"
+>diagnose_204_ext</a></td>
 <td>4</td>
 <td>PR/SM - Diagnose X'204&rsquo; extended data is supported</td>
 </tr>
 <tr>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/vmg/"
->vmg</a></td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/diagnose_204_smpl/"
+>diagnose_204_smpl</a></td>
 <td>5</td>
 <td>Simplified Diagnose X'204&rsquo; data provided for system running as z/VM guest. CPU consumption by z/VM itself provided with partition data section named &ldquo;PHYSICAL&rdquo;</td>
 </tr>

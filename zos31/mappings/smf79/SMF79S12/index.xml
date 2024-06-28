@@ -1288,8 +1288,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxoc/</guid>
-      <description>Total number of FICON command- mode operations (CPC) that have been attempted by the channel
-Map: R79CXCM2 Based on: R79CXOC Description Total number of FICON command- mode operations (CPC) that have been attempted by the channel</description>
+      <description>Total number of FICON command mode operations (CPC) that have been attempted by the channel
+Map: R79CXCM2 Based on: R79CXOC Description Total number of FICON command mode operations (CPC) that have been attempted by the channel</description>
     </item>
     
     <item>
@@ -1298,8 +1298,8 @@ Map: R79CXCM2 Based on: R79CXOC Description Total number of FICON command- mode 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxod/</guid>
-      <description>Total number of FICON command- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources
-Map: R79CXCM2 Based on: R79CXOD Description Total number of FICON command- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources</description>
+      <description>Total number of FICON command mode operations (CPC) that could not be initiated by the channel due to a lack of available resources
+Map: R79CXCM2 Based on: R79CXOD Description Total number of FICON command mode operations (CPC) that could not be initiated by the channel due to a lack of available resources</description>
     </item>
     
     <item>
@@ -1318,8 +1318,8 @@ Map: R79CXCM2 Based on: R79CXOS Description Summation count of FICON command-mod
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtc/</guid>
-      <description>Total number of FICON transport- mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.
-Map: R79CXCM2 Based on: R79CXTC Description Total number of FICON transport- mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.</description>
+      <description>Total number of FICON transport mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.
+Map: R79CXCM2 Based on: R79CXTC Description Total number of FICON transport mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.</description>
     </item>
     
     <item>
@@ -1328,8 +1328,8 @@ Map: R79CXCM2 Based on: R79CXTC Description Total number of FICON transport- mod
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S12/fields/r79cxtd/</guid>
-      <description>Total number of FICON transport- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.
-Map: R79CXCM2 Based on: R79CXTD Description Total number of FICON transport- mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.</description>
+      <description>Total number of FICON transport mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.
+Map: R79CXCM2 Based on: R79CXTD Description Total number of FICON transport mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.</description>
     </item>
     
     <item>

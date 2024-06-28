@@ -78,6 +78,17 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_BA_MEMSCORE Description Memory score</d
     </item>
     
     <item>
+      <title>Field - as_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_boost/</guid>
+      <description>Address space matched a classification rule in the active policy which enables for recovery process boost
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Description Address space matched a classification rule in the active policy which enables for recovery process boost
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field as_esp_flags.</description>
+    </item>
+    
+    <item>
       <title>Field - as_cpsrp_cur_fp_samp</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_cpsrp_cur_fp_samp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -143,8 +154,8 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_CPU_SERVICE Description Accumul
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_ifa_time/</guid>
-      <description>Total IFA time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_ifa)
-Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_IFA_TIME Description Total IFA time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_ifa)</description>
+      <description>Total IFA time for the enclaves owned by the address space OucbxEncTim eOnPro(pro_ifa)
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_IFA_TIME Description Total IFA time for the enclaves owned by the address space OucbxEncTim eOnPro(pro_ifa)</description>
     </item>
     
     <item>
@@ -163,8 +174,8 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_IFACP_TIME Description Total IF
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_enclave_sup_time/</guid>
-      <description>Total SUP time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_sup)
-Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_SUP_TIME Description Total SUP time for the enclaves owned by the address space - OucbxEncTim- eOnPro(pro_sup)</description>
+      <description>Total SUP time for the enclaves owned by the address space OucbxEncTim eOnPro(pro_sup)
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_ENCLAVE_SUP_TIME Description Total SUP time for the enclaves owned by the address space OucbxEncTim eOnPro(pro_sup)</description>
     </item>
     
     <item>
@@ -533,6 +544,17 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TRG Description Tenant resource group o
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_trn_service/</guid>
       <description>Accumulated transaction service for the address space - OUCBTRS
 Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_TRN_SERVICE Description Accumulated transaction service for the address space - OUCBTRS</description>
+    </item>
+    
+    <item>
+      <title>Field - as_zcontainer</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_zcontainer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_zcontainer/</guid>
+      <description>Address space was supplied with a container ID and is therefore a container address space
+Map: SMF99_AS_ESP_MAP Based on: as_esp_flags Description Address space was supplied with a container ID and is therefore a container address space
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field as_esp_flags.</description>
     </item>
     
     <item>
@@ -1080,8 +1102,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</guid>
       <description>Request IO samples for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer timestamp virtual date
-time Record Timestamp samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer srv_class_name SMF99_CNAM service class name string sid SMF99SID System identification (from the SID parameter). string samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer period_num SMF99_PNUM period number integer </description>
+Name Based on Description Type/Format samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer srv_class_name SMF99_CNAM service class name string samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer period_num SMF99_PNUM period number integer sid SMF99SID System identification (from the SID parameter).</description>
     </item>
     
     <item>
@@ -2346,8 +2367,8 @@ Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_ENV_NAME Description associated envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/qdata_inst_per_server/</guid>
-      <description>Number of server instances per server. Only applies if SMF99_QDATA- _TASKS_MANAGED is set
-Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_INST_PER_SERVER Description Number of server instances per server. Only applies if SMF99_QDATA- _TASKS_MANAGED is set</description>
+      <description>Number of server instances per server. Only applies if SMF99_QDATA _TASKS_MANAGED is set
+Map: SMF99_QDATA_MAP Based on: SMF99_QDATA_INST_PER_SERVER Description Number of server instances per server. Only applies if SMF99_QDATA _TASKS_MANAGED is set</description>
     </item>
     
     <item>
@@ -2598,7 +2619,7 @@ Map: SMF99_S2_CLS_MAP Based on: SMF99_CGRN Description group name or blank if cl
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</guid>
       <description>Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[6] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[3] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[14] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_imp SMF99_PIMPOR importance integer rt_distri_num_trans[12] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer goal_type_name virtual goal_type Goal type name rt_distri_num_trans[13] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[5] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer timestamp virtual date</description>
+Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter).</description>
     </item>
     
     <item>
@@ -2689,6 +2710,17 @@ Map: SMF99_RQDATA_MAP Based on: SMF99_RQDATA_#_SERVERS Description Number of ser
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_deferred_start_server/</guid>
+      <description>This system wanted to add servers for this work queue on the just-completed policy interval, but deferred since another system appears to be a better candidate.
+Map: SMF99_RQDATA_MAP Based on: rqdata_flags Description This system wanted to add servers for this work queue on the just-completed policy interval, but deferred since another system appears to be a better candidate.
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field rqdata_flags.</description>
+    </item>
+    
+    <item>
+      <title>Field - rqdata_deferred_starting_server</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_deferred_starting_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/rqdata_deferred_starting_server/</guid>
       <description>This system wanted to add servers for this work queue on the just-completed policy interval, but deferred since another system appears to be a better candidate.
 Map: SMF99_RQDATA_MAP Based on: rqdata_flags Description This system wanted to add servers for this work queue on the just-completed policy interval, but deferred since another system appears to be a better candidate.
 Post-Processed This virtual field corresponds to the flag at bit-position 2 of field rqdata_flags.</description>
@@ -3213,7 +3245,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99SLV Description System level from which re
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</guid>
       <description>Request for commonly used SMF 99 Subtype 2 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer srv_class_name SMF99_CNAM service class name string srv_cp_service SMF99_PSERV service accumulated during interval integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer cpu_delay SMF99_PCPUD processor delay samples integer period_num SMF99_PNUM period number integer srv_ziip_service SMF99_PSSERV Accumulated SUP service integer pi_local processed SMF99_PLPI local performance index integer ready_user_av SMF99_PRUA Ready user average integer ziip_using SMF99_PSUPU SUP using samples integer goal_value SMF99_PGOALVAL goal value: response time goal - goal in milliseconds, velocity - velocity, discretionary - zero integer samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer ziip_delay SMF99_PSUPD SUP delay samples integer period_imp SMF99_PIMPOR importance integer cross_mem_delay SMF99_PXMO Cross memory other delays integer mpl_delay SMF99_PMPLD MPL Delay integer goal_type_name virtual goal_type Goal type name zaap_using SMF99_PIFAU IFA using samples integer mpl_in SMF99_PMPLI MPL in-target integer cpu_using SMF99_PCPUU processor using samples integer zaap_delay SMF99_PIFAD IFA delay samples integer cap_delay SMF99_PCAPD CPU CAP delay integer timestamp virtual date</description>
+Name Based on Description Type/Format ready_user_av SMF99_PRUA Ready user average integer mpl_delay SMF99_PMPLD MPL Delay integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer srv_class_name SMF99_CNAM service class name string mpl_in SMF99_PMPLI MPL in-target integer period_num SMF99_PNUM period number integer io_using SMF99_PIOU I/O using samples integer ziip_using SMF99_PSUPU SUP using samples integer zaap_delay SMF99_PIFAD IFA delay samples integer cap_delay SMF99_PCAPD CPU CAP delay integer samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer ziip_delay SMF99_PSUPD SUP delay samples integer mpl_av SMF99_PAMTA Average Maximum MPL Target achieved integer disp_prio SMF99_PBDP base dispatching priority integer pi_local processed SMF99_PLPI local performance index integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer cross_mem_delay SMF99_PXMO Cross memory other delays integer zaap_using SMF99_PIFAU IFA using samples integer samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer idle SMF99_PIDLE idle samples integer sid SMF99SID System identification (from the SID parameter).</description>
     </item>
     
     <item>
@@ -3354,8 +3386,7 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</guid>
       <description>Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format mpl_delay SMF99_PMPLD MPL Delay integer io_delay SMF99_PIOD I/O delay samples integer zaap_using SMF99_PIFAU IFA using samples integer idle SMF99_PIDLE idle samples integer cpu_using SMF99_PCPUU processor using samples integer ziip_using SMF99_PSUPU SUP using samples integer zaap_delay SMF99_PIFAD IFA delay samples integer cap_delay SMF99_PCAPD CPU CAP delay integer timestamp virtual date
-time Record Timestamp srv_class_name SMF99_CNAM service class name string sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format mpl_delay SMF99_PMPLD MPL Delay integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer io_delay SMF99_PIOD I/O delay samples integer cpu_delay SMF99_PCPUD processor delay samples integer cross_mem_delay SMF99_PXMO Cross memory other delays integer zaap_using SMF99_PIFAU IFA using samples integer srv_class_name SMF99_CNAM service class name string io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE idle samples integer ziip_using SMF99_PSUPU SUP using samples integer sid SMF99SID System identification (from the SID parameter).</description>
     </item>
     
     <item>
@@ -3366,8 +3397,8 @@ time Record Timestamp srv_class_name SMF99_CNAM service class name string sid SM
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</guid>
       <description>Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format srv_zaap_service SMF99_PISERV IFA service accumulated during interval integer timestamp virtual date
-time Record Timestamp srv_class_name SMF99_CNAM service class name string sid SMF99SID System identification (from the SID parameter). string srv_cp_service SMF99_PSERV service accumulated during interval integer period_num SMF99_PNUM period number integer srv_ziip_service SMF99_PSSERV Accumulated SUP service integer </description>
+Name Based on Description Type/Format srv_ziip_service SMF99_PSSERV Accumulated SUP service integer srv_zaap_service SMF99_PISERV IFA service accumulated during interval integer srv_class_name SMF99_CNAM service class name string period_num SMF99_PNUM period number integer sid SMF99SID System identification (from the SID parameter). string timestamp virtual date
+time Record Timestamp srv_cp_service SMF99_PSERV service accumulated during interval integer </description>
     </item>
     
     <item>
@@ -3437,8 +3468,8 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_SWCT Description Short wait count accumula
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/thro_iosm_accum/</guid>
-      <description>DASD I/O induced throttle samples accumulated over SMF99_Num_S- amp_Hist_Rows_Used
-Map: SMF99_S2_PER_MAP Based on: SMF99_THRO_IOSM_ACCUM Description DASD I/O induced throttle samples accumulated over SMF99_Num_S- amp_Hist_Rows_Used</description>
+      <description>DASD I/O induced throttle samples accumulated over SMF99_Num_S amp_Hist_Rows_Used
+Map: SMF99_S2_PER_MAP Based on: SMF99_THRO_IOSM_ACCUM Description DASD I/O induced throttle samples accumulated over SMF99_Num_S amp_Hist_Rows_Used</description>
     </item>
     
     <item>

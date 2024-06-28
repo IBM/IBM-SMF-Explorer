@@ -14,9 +14,7 @@
 
   <meta name="description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM data sections integer lpar_name SMF70LPM Logical partition name string lpar_system_name virtual lpar_name
-system_name LPAR-System name timestamp virtual date
-time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member." />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 
     <title>Sample - lpar_information | IBM SMF Explorer</title>
 
@@ -44,9 +42,7 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM data sections integer lpar_name SMF70LPM Logical partition name string lpar_system_name virtual lpar_name
-system_name LPAR-System name timestamp virtual date
-time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member." />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/" />
 
@@ -61,9 +57,7 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
 <meta name="twitter:title" content="Sample - lpar_information" />
   <meta name="twitter:description" content="Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM data sections integer lpar_name SMF70LPM Logical partition name string lpar_system_name virtual lpar_name
-system_name LPAR-System name timestamp virtual date
-time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member." />
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition." />
 
 
   <script type="application/ld+json">
@@ -74,8 +68,8 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       "name": "Sample - lpar_information",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/",
       "headline": "Sample - lpar_information",
-      "description": "Request necessary fields from SMF70S1 on LPARs\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR\/SM data sections integer lpar_name SMF70LPM Logical partition name string lpar_system_name virtual lpar_name\nsystem_name LPAR-System name timestamp virtual date\ntime Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member.",
-      "wordCount" : "136",
+      "description": "Request necessary fields from SMF70S1 on LPARs\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z\/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.",
+      "wordCount" : "138",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -1765,66 +1759,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1886,58 +1820,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4029,58 +3911,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4142,58 +3972,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6361,58 +6139,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6474,118 +6200,6 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -8692,6 +8306,136 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -8753,6 +8497,50 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9272,6 +9060,28 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -10886,6 +10696,80 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11224,6 +11108,28 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -11285,6 +11191,28 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -16662,6 +16590,92 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17233,6 +17247,42 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17548,6 +17598,52 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -17666,6 +17762,64 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -18946,6 +19100,8 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
     
   </ul>
 
@@ -19007,6 +19163,116 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -22137,6 +22403,80 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24424,6 +24764,14 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -24485,6 +24833,12 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
       
         
       
@@ -25880,6 +26234,140 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -25941,6 +26429,36 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -26749,20 +27267,38 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_cpu_count/"
->lpar_cpu_count</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70BDN</td>
-<td>Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM data sections</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/system_name/"
+>system_name</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70STN</td>
+<td>Name of the operating-system instance. Zeros if no name declared for this partition</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_name/"
->lpar_name</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70LPM</td>
-<td>Logical partition name</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sysplex_name/"
+>sysplex_name</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70SPN</td>
+<td>Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</td>
 <td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70SID</td>
+<td>SYSTEM ID FROM INSTALLATION</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_number/"
+>lpar_number</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70LPN</td>
+<td>Logical partition number</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -26783,6 +27319,15 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_cpu_count/"
+>lpar_cpu_count</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70BDN</td>
+<td>Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/timestamp/"
 >timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
@@ -26799,37 +27344,10 @@ time Record Timestamp sysplex_name SMF70SPN Name of the logical-partition cluste
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sysplex_name/"
->sysplex_name</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70SPN</td>
-<td>Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/system_name/"
->system_name</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70STN</td>
-<td>Name of the operating-system instance. Zeros if no name declared for this partition</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_number/"
->lpar_number</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70LPN</td>
-<td>Logical partition number</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF70SID</td>
-<td>SYSTEM ID FROM INSTALLATION</td>
+  href="/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/lpar_name/"
+>lpar_name</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF70LPM</td>
+<td>Logical partition name</td>
 <td>string</td>
 </tr>
 </tbody>

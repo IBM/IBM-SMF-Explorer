@@ -21,7 +21,7 @@
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/</guid>
       <description>How to use this documentation? Samples Virtual fields Record fields Maps and sections SMF72PRO R723WMS R723RGS R723SCS R723WRS R723SSS R723DNS R723RTS Samples Name Description smf_72_03_sample Request necessary fields for SMF72 subtype 3 analysis Virtual fields Name Based on Description timestamp date
-time Record Timestamp boost_class fla Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process interval_in_milliseconds interval Interval duration in milliseconds cpu_service_coefficient_adjusted cpu_service_coefficient</description>
+time Record Timestamp timestamp_mod timestamp Adjusted timestamp that accounts for small difference in milliseconds boost_class fla Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process interval_in_milliseconds interval Interval duration in milliseconds cpu_service_coefficient_adjusted cpu_service_coefficient</description>
     </item>
     
     <item>
@@ -130,6 +130,36 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
       <description>SYSTEM RUNNING IN PR/SM MODE
 Record: SMF72S5 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
 Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: SMF72BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
+    </item>
+    
+    <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: SMF72BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
+    </item>
+    
+    <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: SMF72BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
     </item>
     
     <item>
@@ -418,6 +448,39 @@ Record: SMF72S5 Based on: SMF72CMN Description Number of CMS lock data sections 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/cms/</guid>
       <description>Offset to CMS lock data section (subtype 5)
 Record: SMF72S5 Based on: SMF72CMS Description Offset to CMS lock data section (subtype 5)</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -792,6 +855,39 @@ Record: SMF72S3 Based on: SMF72DNS Description Offset to resource delay names se
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -864,6 +960,17 @@ Record: SMF72S5 Based on: SMF72EDS Description Offset to CMS EnqueueDequeue lock
     
     <item>
       <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF72PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/eed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -882,6 +989,39 @@ Post-Processed This virtual field corresponds to the flag at bit-position 10 of 
       <description>Speed boost was active during entire interval
 Map: SMF72PRO Based on: fla Description Speed boost was active during entire interval
 Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -1227,6 +1367,17 @@ Map: SMF72PRO Based on: SMF72IET Description Interval expiration time token</des
     
     <item>
       <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF72PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1458,6 +1609,72 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <description>Indicator for a tenant resource group
 Map: R723RGS Based on: r723ggtf Description Indicator for a tenant resource group
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723ggtf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
     </item>
     
     <item>
@@ -1880,6 +2097,72 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - performance_index</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/performance_index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1986,6 +2269,39 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2043,6 +2359,39 @@ Record: SMF72S4 Based on: SMF72PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
 Record: SMF72S5 Based on: SMF72PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -2114,6 +2463,39 @@ Map: SMF72PRO Based on: SMF72PTN Description PR/SM partition number</description
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF72PRO Based on: SMF72PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S5/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>
@@ -2393,6 +2775,17 @@ Map: R723SCS Based on: R723CFEA Description Foreign enclave total transaction ac
     </item>
     
     <item>
+      <title>Field - r723chou</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723chou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723chou/</guid>
+      <description>x&#39;10&amp;rsquo; Response time specified in hours
+Map: R723SCS Based on: r723crtf Description x&#39;10&amp;rsquo; Response time specified in hours
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r723crtf.</description>
+    </item>
+    
+    <item>
       <title>Field - r723chpi</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723chpi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2470,6 +2863,28 @@ Map: R723SCS Based on: R723CIQTX Description Total time batch jobs spend on job 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ciwt/</guid>
       <description>Total DASD I/O wait time (queue time + pending time in 128 microsecond units)
 Map: R723SCS Based on: R723CIWT Description Total DASD I/O wait time (queue time + pending time in 128 microsecond units)</description>
+    </item>
+    
+    <item>
+      <title>Field - r723cmil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723cmil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723cmil/</guid>
+      <description>x&#39;80&amp;rsquo; Response time specified in milliseconds
+Map: R723SCS Based on: r723crtf Description x&#39;80&amp;rsquo; Response time specified in milliseconds
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723crtf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723cmin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723cmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723cmin/</guid>
+      <description>x&#39;20&amp;rsquo; Response time specified in minutes
+Map: R723SCS Based on: r723crtf Description x&#39;20&amp;rsquo; Response time specified in minutes
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r723crtf.</description>
     </item>
     
     <item>
@@ -2555,6 +2970,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
+      <title>Field - r723crph</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723crph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723crph/</guid>
+      <description>This report class period is heterogeneous.
+Map: R723SCS Based on: r723crs1 Description This report class period is heterogeneous.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723crs1.</description>
+    </item>
+    
+    <item>
       <title>Field - r723crs1</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723crs1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2597,6 +3023,17 @@ Field Bit-Position Description response_time_millisec 0 x&#39;80&amp;rsquo; Resp
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723crtx/</guid>
       <description>Index into the response time distribution buckets. Entry 0 represents the distribution map
 Map: R723SCS Based on: R723CRTX Description Index into the response time distribution buckets. Entry 0 represents the distribution map</description>
+    </item>
+    
+    <item>
+      <title>Field - r723csec</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723csec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723csec/</guid>
+      <description>x&#39;40&amp;rsquo; Response time specified in seconds
+Map: R723SCS Based on: r723crtf Description x&#39;40&amp;rsquo; Response time specified in seconds
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723crtf.</description>
     </item>
     
     <item>
@@ -2919,6 +3356,61 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     </item>
     
     <item>
+      <title>Field - r723gmls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmls/</guid>
+      <description>Memory limit was specified
+Map: R723RGS Based on: r723gglt Description Memory limit was specified
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r723gglt.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723gmns</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmns/</guid>
+      <description>x&#39;40&amp;rsquo; Minimum capacity was specified
+Map: R723RGS Based on: r723gglt Description x&#39;40&amp;rsquo; Minimum capacity was specified
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723gglt.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723gmxs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmxs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gmxs/</guid>
+      <description>x&#39;80&amp;rsquo; Maximum capacity was specified
+Map: R723RGS Based on: r723gglt Description x&#39;80&amp;rsquo; Maximum capacity was specified
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723gglt.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723gtrg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gtrg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723gtrg/</guid>
+      <description>Indicator for a tenant resource group
+Map: R723RGS Based on: r723ggtf Description Indicator for a tenant resource group
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723ggtf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723hisf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723hisf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723hisf/</guid>
+      <description>Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid.
+Map: R723WMS Based on: r723mflg Description Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r723mflg.</description>
+    </item>
+    
+    <item>
       <title>Field - r723ifcu</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ifcu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2961,13 +3453,24 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     </item>
     
     <item>
+      <title>Field - r723mcaa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcaa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcaa/</guid>
+      <description>x&#39;40&amp;rsquo; RCAA data not available RC 08/RSN 0831 from IWMRCOLL
+Map: R723WMS Based on: r723mscf Description x&#39;40&amp;rsquo; RCAA data not available RC 08/RSN 0831 from IWMRCOLL
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723mscf.</description>
+    </item>
+    
+    <item>
       <title>Field - r723mcf</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcf/</guid>
-      <description>Multithreading maximum capacity numerator for general purpose processors. Divide this value by 1024 to get the multi- threading maximum capacity factor for all general purpose processors that were configured ONLINE for the complete interval.
-Map: R723WMS Based on: R723MCF Description Multithreading maximum capacity numerator for general purpose processors. Divide this value by 1024 to get the multi- threading maximum capacity factor for all general purpose processors that were configured ONLINE for the complete interval.</description>
+      <description>Multithreading maximum capacity numerator for general purpose processors. Divide this value by 1024 to get the multi threading maximum capacity factor for all general purpose processors that were configured ONLINE for the complete interval.
+Map: R723WMS Based on: R723MCF Description Multithreading maximum capacity numerator for general purpose processors. Divide this value by 1024 to get the multi threading maximum capacity factor for all general purpose processors that were configured ONLINE for the complete interval.</description>
     </item>
     
     <item>
@@ -2991,13 +3494,35 @@ Map: R723WMS Based on: R723MCFS Description Multithreading maximum capacity nume
     </item>
     
     <item>
+      <title>Field - r723mcpp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mcpp/</guid>
+      <description>x&#39;08&amp;rsquo; Indicator for CPU protection
+Map: R723WMS Based on: r723mscf Description x&#39;08&amp;rsquo; Indicator for CPU protection
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r723mscf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mdat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mdat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mdat/</guid>
+      <description>x&#39;02&amp;rsquo; Indicator for dynamic alias management
+Map: R723WMS Based on: r723mscf Description x&#39;02&amp;rsquo; Indicator for dynamic alias management
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r723mscf.</description>
+    </item>
+    
+    <item>
       <title>Field - r723mdis</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mdis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mdis/</guid>
-      <description>Service class and tenant report class periods that are assoc- iated with a resource group and have assigned a discretionary goal are excluded from workload management
-Map: R723WMS Based on: r723mflg Description Service class and tenant report class periods that are assoc- iated with a resource group and have assigned a discretionary goal are excluded from workload management
+      <description>Service class and tenant report class periods that are assoc iated with a resource group and have assigned a discretionary goal are excluded from workload management
+Map: R723WMS Based on: r723mflg Description Service class and tenant report class periods that are assoc iated with a resource group and have assigned a discretionary goal are excluded from workload management
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r723mflg.</description>
     </item>
     
@@ -3032,7 +3557,40 @@ Field Bit-Position Description r723mapo 0 At least one zAAP online in sysplex (o
       <description>Flags
 Map: R723WMS Based on: R723MFLG Description Flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description zaap_crossover 0 Indicates zAAP crossover zaap_honor_prio 1 Indicates zAAP honor priority ziip_honor_prio 2 Indicates zIIP honor priority hismt_failure 3 Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid. honor_prio 4 Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing tenant_report_class 5 Indicator for a tenant report class r723mdis 6 Service class and tenant report class periods that are assoc- iated with a resource group and have assigned a discretionary goal are excluded from workload management r723mbai 7 WLM batch initiator management is AI infused </description>
+Field Bit-Position Description zaap_crossover 0 Indicates zAAP crossover zaap_honor_prio 1 Indicates zAAP honor priority ziip_honor_prio 2 Indicates zIIP honor priority hismt_failure 3 Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid. honor_prio 4 Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing tenant_report_class 5 Indicator for a tenant report class r723mdis 6 Service class and tenant report class periods that are assoc iated with a resource group and have assigned a discretionary goal are excluded from workload management r723mbai 7 WLM batch initiator management is AI infused </description>
+    </item>
+    
+    <item>
+      <title>Field - r723mhpo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mhpo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mhpo/</guid>
+      <description>Indicates zAAP (IFA) honor priority
+Map: R723WMS Based on: r723mflg Description Indicates zAAP (IFA) honor priority
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723mflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mhpz</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mhpz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mhpz/</guid>
+      <description>Indicates zIIP honor priority
+Map: R723WMS Based on: r723mflg Description Indicates zIIP honor priority
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r723mflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mico</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mico/</guid>
+      <description>Indicates zAAP (IFA) crossover
+Map: R723WMS Based on: r723mflg Description Indicates zAAP (IFA) crossover
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723mflg.</description>
     </item>
     
     <item>
@@ -3046,6 +3604,28 @@ Map: R723WMS Based on: R723MIDU Description Userid that installed the service de
     </item>
     
     <item>
+      <title>Field - r723mipg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mipg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mipg/</guid>
+      <description>x&#39;01&amp;rsquo; Indicator for I/O priority group HIGH
+Map: R723WMS Based on: r723mscf Description x&#39;01&amp;rsquo; Indicator for I/O priority group HIGH
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r723mscf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mnhp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mnhp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mnhp/</guid>
+      <description>Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing
+Map: R723WMS Based on: r723mflg Description Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r723mflg.</description>
+    </item>
+    
+    <item>
       <title>Field - r723mopt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mopt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3053,6 +3633,39 @@ Map: R723WMS Based on: R723MIDU Description Userid that installed the service de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mopt/</guid>
       <description>OPT member suffix (RCAAOPT)
 Map: R723WMS Based on: R723MOPT Description OPT member suffix (RCAAOPT)</description>
+    </item>
+    
+    <item>
+      <title>Field - r723move</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723move/</guid>
+      <description>x&#39;10&amp;rsquo; System is calculating velocity using I/O delays
+Map: R723WMS Based on: r723mscf Description x&#39;10&amp;rsquo; System is calculating velocity using I/O delays
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r723mscf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mpol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mpol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mpol/</guid>
+      <description>x&#39;20&amp;rsquo; SVPOL data not available
+Map: R723WMS Based on: r723mscf Description x&#39;20&amp;rsquo; SVPOL data not available
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r723mscf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mrcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mrcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mrcl/</guid>
+      <description>x&#39;80&amp;rsquo; This is a report class (RCAARCL)
+Map: R723WMS Based on: r723mscf Description x&#39;80&amp;rsquo; This is a report class (RCAARCL)
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723mscf.</description>
     </item>
     
     <item>
@@ -3065,6 +3678,17 @@ Map: R723WMS Based on: R723MOPT Description OPT member suffix (RCAAOPT)</descrip
 Map: R723WMS Based on: R723MSCF Description Service class flags
 Flag fields This is a flag field with the following bit fields:
 Field Bit-Position Description is_report_class 0 x&#39;80&amp;rsquo; This is a report class (RCAARCL) rcaa_unaval 1 x&#39;40&amp;rsquo; RCAA data not available RC 08/RSN 0831 from IWMRCOLL svpol_unaval 2 x&#39;20&amp;rsquo; SVPOL data not available velocity_io_delays 3 x&#39;10&amp;rsquo; System is calculating velocity using I/O delays cpu_protection 4 x&#39;08&amp;rsquo; Indicator for CPU protection stor_protection 5 x&#39;04&amp;rsquo; Indicator for storage protection dynamic_alias 6 x&#39;02&amp;rsquo; Indicator for dynamic alias management io_high 7 x&#39;01&amp;rsquo; Indicator for I/O priority group HIGH </description>
+    </item>
+    
+    <item>
+      <title>Field - r723mstp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mstp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mstp/</guid>
+      <description>x&#39;04&amp;rsquo; Indicator for storage protection
+Map: R723WMS Based on: r723mscf Description x&#39;04&amp;rsquo; Indicator for storage protection
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r723mscf.</description>
     </item>
     
     <item>
@@ -3115,6 +3739,17 @@ Map: R723WMS Based on: R723MTDI Description Local time/date the service definiti
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mtpa/</guid>
       <description>Local time/date of policy activation
 Map: R723WMS Based on: R723MTPA Description Local time/date of policy activation</description>
+    </item>
+    
+    <item>
+      <title>Field - r723mtrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mtrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mtrc/</guid>
+      <description>Indicator for a tenant report class
+Map: R723WMS Based on: r723mflg Description Indicator for a tenant report class
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r723mflg.</description>
     </item>
     
     <item>
@@ -3327,7 +3962,7 @@ Map: R723SCS Based on: R723RTDC Description Number of midpoint changes that occu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723rtdm/</guid>
-      <description>Midpoint of all response times that were collected in the response time distribution buckets in milliseconds. For response time goals, the mid- point is always the response time goal. For execution velocity goals, it is the average of all response times that were collected in the response time distribution buckets. The field equals zero for discretionary goals.
+      <description>Midpoint of all response times that were collected in the response time distribution buckets in milliseconds. For response time goals, the mid point is always the response time goal. For execution velocity goals, it is the average of all response times that were collected in the response time distribution buckets. The field equals zero for discretionary goals.
 Map: R723SCS Based on: R723RTDM Description Midpoint of all response times that were collected in the response time distribution buckets in milliseconds.</description>
     </item>
     
@@ -6770,8 +7405,8 @@ Map: R723SCS Based on: R723CIOD Description DASD I/O delay samples</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/sample_io_using/</guid>
-      <description>Total I/O usings. These are included in R723CTOU. Only non- paging DASD I/Os can contribute to I/O usings.
-Map: R723SCS Based on: R723CIOU Description Total I/O usings. These are included in R723CTOU. Only non- paging DASD I/Os can contribute to I/O usings.</description>
+      <description>Total I/O usings. These are included in R723CTOU. Only non paging DASD I/Os can contribute to I/O usings.
+Map: R723SCS Based on: R723CIOU Description Total I/O usings. These are included in R723CTOU. Only non paging DASD I/Os can contribute to I/O usings.</description>
     </item>
     
     <item>
@@ -7154,13 +7789,16 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sample_io_delay R723CIOD DASD I/O delay samples integer sample_server_delay virtual sample_server_prv_paging_delay
+Name Based on Description Type/Format utilization_zaap virtual total_service_units_zaap
+normalization_factor_zaap
+interval_in_milliseconds Percentage zaap utilization utilization_ziip virtual total_service_units_ziip
+normalization_factor_ziip
+interval_in_milliseconds
+cpu_service_coefficient_adjusted Percentage ziip utilization class_goal_value R723CVAL Response time goal - or Execution velocity goal - or zero if discretionary, system or no goal integer sample_server_delay virtual sample_server_prv_paging_delay
 sample_server_vio_paging_delay
 sample_server_hsp_paging_delay
 sample_server_mpl_delay
-sample_server_swapin_delay Server delay samples utilization_zaap_on_cp virtual total_service_units_zaap_on_cp
-interval_in_milliseconds Percentage CP utilization of zAAP eligible workload. sample_mpl_delay R723CMPL MPL delay. Ready but swap-in has not started integer transaction_inel_delay_time_mean virtual transaction_inel_delay_time
-transaction_total_count Mean transaction not-affinity-related delay time timestamp virtual date</description>
+sample_server_swapin_delay Server delay samples transaction_inel_delay_time_mean virtual transaction_inel_delay_time</description>
     </item>
     
     <item>
@@ -7635,6 +8273,17 @@ Post-Processed This field is combined from a date and a time field to form a tim
     </item>
     
     <item>
+      <title>Field - timestamp_mod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/timestamp_mod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/timestamp_mod/</guid>
+      <description>Adjusted timestamp that accounts for small difference in milliseconds
+Record: SMF72S3 Based on: timestamp Post-Processed The field is created using the following pseudocode:
+timestamp_mod = [&amp;#39;timestamp&amp;#39;] + pd.to_timedelta(&amp;#39;500ms&amp;#39;) return timestamp_mod.floor(&amp;#39;s&amp;#39;) </description>
+    </item>
+    
+    <item>
       <title>Field - tme</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/tme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7944,7 +8593,7 @@ transaction_jcl_time_mean = transaction_jcl_time / transaction_total_count * 102
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/transaction_queue_delay_time/</guid>
-      <description>Total queue delay time. For batch jobs this is the time jobs spent on the job queue while eligible to run on some system. It represents the time the jobs spent waiting for an initiator. For TSO users, this time can be a portion of the LOGON process. For APPC this is the time an APPC request spends on an APPC queue. (long floating point in 1024 micro- second units)</description>
+      <description>Total queue delay time. For batch jobs this is the time jobs spent on the job queue while eligible to run on some system. It represents the time the jobs spent waiting for an initiator. For TSO users, this time can be a portion of the LOGON process. For APPC this is the time an APPC request spends on an APPC queue. (long floating point in 1024 micro second units)</description>
     </item>
     
     <item>

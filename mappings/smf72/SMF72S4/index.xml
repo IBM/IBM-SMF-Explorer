@@ -28,6 +28,16 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     </item>
     
     <item>
+      <title>Field - boo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/boo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/boo/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: SMF72BOO Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process</description>
+    </item>
+    
+    <item>
       <title>Field - boost_class</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/boost_class/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +46,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Map: SMF72PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
 Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
     </item>
     
     <item>
@@ -132,6 +153,17 @@ Record: SMF72S4 Based on: SMF72DTE </description>
     </item>
     
     <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - dte</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -150,6 +182,17 @@ Record: SMF72S4 Based on: SMF72DTE Description DATE RECORD WRITTEN</description>
       <description>Speed boost was active during entire interval
 Map: SMF72PRO Based on: fla Description Speed boost was active during entire interval
 Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
     </item>
     
     <item>
@@ -305,6 +348,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
     </item>
     
     <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
       <title>Field - ist</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -398,6 +463,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     </item>
     
     <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prd</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/prd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -420,6 +507,17 @@ Field Bit-Position Description expanded_stor 0 System has expanded storage escon
     </item>
     
     <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
       <title>Field - prl</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -437,6 +535,17 @@ Record: SMF72S4 Based on: SMF72PRL Description LENGTH OF RMF PRODUCT SECTION</de
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
 Record: SMF72S4 Based on: SMF72PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
     </item>
     
     <item>
@@ -468,6 +577,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/ptn/</guid>
       <description>PR/SM partition number
 Map: SMF72PRO Based on: SMF72PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S4/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
     </item>
     
     <item>

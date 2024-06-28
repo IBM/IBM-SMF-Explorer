@@ -11,7 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/get-started/installation/</guid>
-      <description>Install Python Access the IBM SMF Explorer Python package Download package from z/OS host JupyterLab setup Get the IBM SMF Explorer GitHub repository Run JupyterLab environment setup Install Graphviz (optional) Update the setup and IBM SMF Explorer This installation guide describes the procedures to set up a working environment for IBM SMF Explorer. This environment consists of two parts. The first part is the installation of the IBM® SMF Explorer Python package itself.</description>
+      <description>Install Python Access the IBM SMF Explorer Python package Download package from z/OS host Install SMF Explorer package with a Jupyter Lab environment (using the setup script in the IBM-SMF-Explorer repository) Get the IBM SMF Explorer GitHub repository Run JupyterLab environment setup Update the setup and IBM SMF Explorer Install SMF Explorer package (without the setup script in the IBM-SMF-Explorer repository) Install Graphviz (optional) This installation guide describes the procedures to set up a working environment for IBM SMF Explorer.</description>
     </item>
     
     <item>
@@ -20,8 +20,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/get-started/usage/</guid>
-      <description>Configure the certificate for your workstation Starting the environment Using the environment Shutting down Before you can use the IBM® SMF Explorer JupyterLab environment you need the URL used for the z/OS® Data Gatherer: SMF Data REST Services endpoint and your User IDs credentials for the z/OS Host.
-The URL for the z/OS Data Gatherer: SMF Data REST Services endpoint usually has the form https://[host-domain/IP]/zosmf/zosdg/smf. If you access the URL you should see the SMF Data REST Services Swagger page.</description>
+      <description>Using SMF Explorer Jupyter Lab Environment Configure the certificate for your workstation Starting the environment Using the environment Shutting down Run SMF Explorer as a Python script Before you can use the IBM® SMF Explorer, you need the URL used for the z/OS® Data Gatherer: SMF Data REST Services endpoint and your User IDs credentials for the z/OS Host.
+The URL for the z/OS Data Gatherer: SMF Data REST Services endpoint usually has the form https://[host-domain/IP]/zosmf/zosdg/smf.</description>
     </item>
     
   </channel>

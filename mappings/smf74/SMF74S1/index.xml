@@ -1466,8 +1466,8 @@ Map: SMF74B Based on: SMF74SER Description VOLUME SERIAL NUMBER OF MOUNTED VOLUM
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sftr/</guid>
-      <description>Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SFTR Description Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O read requests (long floating point)</description>
+      <description>Elapsed (fail) time (in 0.5 micro second units) for unsuccessful synchronous I/O read requests (long floating point)
+Map: SMF74B Based on: SMF74SFTR Description Elapsed (fail) time (in 0.5 micro second units) for unsuccessful synchronous I/O read requests (long floating point)</description>
     </item>
     
     <item>
@@ -1476,8 +1476,8 @@ Map: SMF74B Based on: SMF74SFTR Description Elapsed (fail) time (in 0.5 micro- s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/sftw/</guid>
-      <description>Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O write requests (long floating point)
-Map: SMF74B Based on: SMF74SFTW Description Elapsed (fail) time (in 0.5 micro- second units) for unsuccessful synchronous I/O write requests (long floating point)</description>
+      <description>Elapsed (fail) time (in 0.5 micro second units) for unsuccessful synchronous I/O write requests (long floating point)
+Map: SMF74B Based on: SMF74SFTW Description Elapsed (fail) time (in 0.5 micro second units) for unsuccessful synchronous I/O write requests (long floating point)</description>
     </item>
     
     <item>
@@ -1655,8 +1655,8 @@ Map: SMF74B Based on: SMF74SOW Description Number of synchronous I/O write reque
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/spr/</guid>
-      <description>Processing time (in 0.5 micro- second units) for successful synchronous I/O read requests (long floating point)
-Map: SMF74B Based on: SMF74SPR Description Processing time (in 0.5 micro- second units) for successful synchronous I/O read requests (long floating point)</description>
+      <description>Processing time (in 0.5 micro second units) for successful synchronous I/O read requests (long floating point)
+Map: SMF74B Based on: SMF74SPR Description Processing time (in 0.5 micro second units) for successful synchronous I/O read requests (long floating point)</description>
     </item>
     
     <item>
@@ -1665,8 +1665,8 @@ Map: SMF74B Based on: SMF74SPR Description Processing time (in 0.5 micro- second
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S1/fields/spw/</guid>
-      <description>Processing time (in 0.5 micro- second units) for successful synchronous I/O write requests (long floating point)
-Map: SMF74B Based on: SMF74SPW Description Processing time (in 0.5 micro- second units) for successful synchronous I/O write requests (long floating point)</description>
+      <description>Processing time (in 0.5 micro second units) for successful synchronous I/O write requests (long floating point)
+Map: SMF74B Based on: SMF74SPW Description Processing time (in 0.5 micro second units) for successful synchronous I/O write requests (long floating point)</description>
     </item>
     
     <item>

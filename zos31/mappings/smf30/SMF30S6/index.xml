@@ -76,7 +76,7 @@ Map: SMF30SAP Based on: SMF30NSW Description As of z/OS 1.8, this field is no lo
       <description>More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
 Map: SMF30CAS Based on: SMF30T32 Description More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description time_on_ziip_f 0 Not available enclave_time_on_ziip_f 1 Not available depenc_time_on_ziip_f 2 Not available time_ziip_on_cp_f 3 Not available enclave_time_ziip_on_cp_f 4 Not available depenc_time_ziip_on_cp_f 5 Not available </description>
+Field Bit-Position Description time_on_ziip_f 0 Not available enclave_time_on_ziip_f 1 Not available depenc_time_on_ziip_f 2 Not available time_ziip_on_cp_f 3 Not available enclave_time_ziip_on_cp_f 4 Not available depenc_time_ziip_on_cp_f 5 Not available time_java_on_ziip_f 6 Failure Flag enclave_time_java_on_ziip_f 7 Failure Flag </description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@ Field Bit-Position Description time_on_ziip_f 0 Not available enclave_time_on_zi
       <description>More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
 Map: SMF30CAS Based on: SMF30T33 Description More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description enclave_time_on_ziip_n_f 0 Not available depenc_time_on_ziip_n_f 1 Not available enclave_time_ziip_qual_f 2 Not available depenc_time_ziip_qual_f 3 Not available </description>
+Field Bit-Position Description enclave_time_on_ziip_n_f 0 Not available depenc_time_on_ziip_n_f 1 Not available enclave_time_ziip_qual_f 2 Not available depenc_time_ziip_qual_f 3 Not available depenc_time_java_on_ziip_f 4 Failure Flag time_java_on_cp_f 5 Failure Flag enclave_time_java_on_cp_f 6 Failure Flag depenc_time_java_on_cp_f 7 Failure Flag </description>
     </item>
     
     <item>
@@ -256,18 +256,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 12 of 
     </item>
     
     <item>
-      <title>Field - bi</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/bi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/bi/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_BI Description Not available
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description ziipboost_active 0 zIIP boost was active at some point within the interval speedboost_active 1 Speed boost was active at some point within the interval </description>
-    </item>
-    
-    <item>
       <title>Field - block_count</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/block_count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -375,6 +363,18 @@ Map: SMF30SAP Based on: SMF30KOE Description As of z/OS 1.6, this field is no lo
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/boostclass/</guid>
       <description>See SMF30_BoostClass_xxx equates. For step and job records, the boost class when a boost was first found active for the step/job
 Map: SMF30CAS Based on: SMF30_BOOSTCLASS Description See SMF30_BoostClass_xxx equates. For step and job records, the boost class when a boost was first found active for the step/job</description>
+    </item>
+    
+    <item>
+      <title>Field - boostinfo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/boostinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/boostinfo/</guid>
+      <description>Boost information
+Map: SMF30CAS Based on: SMF30_BOOSTINFO Description Boost information
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description ziipboost_active 0 zIIP boost was active at some point within the interval speedboost_active 1 Speed boost was active at some point within the interval </description>
     </item>
     
     <item>
@@ -505,6 +505,36 @@ Map: SMF30CAS Based on: SMF30CRP Description CPU time consumed for an address sp
     </item>
     
     <item>
+      <title>Field - cnl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cnl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cnl/</guid>
+      <description>Length of the Container section
+Record: SMF30S6 Based on: SMF30CNL Description Length of the Container section</description>
+    </item>
+    
+    <item>
+      <title>Field - cnn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cnn/</guid>
+      <description>Number of Container sections. Because only one Container section can appear on the record, this field is 1 (if the section exists) or 0 (if it does not).
+Record: SMF30S6 Based on: SMF30CNN Description Number of Container sections. Because only one Container section can appear on the record, this field is 1 (if the section exists) or 0 (if it does not).</description>
+    </item>
+    
+    <item>
+      <title>Field - cno</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cno/</guid>
+      <description>Offset to the Container section
+Record: SMF30S6 Based on: SMF30CNO Description Offset to the Container section</description>
+    </item>
+    
+    <item>
       <title>Field - completion_len</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/completion_len/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -562,6 +592,26 @@ Map: SMF30USS Based on: SMF30_US_DEF_COMPROUT Description Total number (in bytes
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/cont_recs_to_follow/</guid>
       <description>The number of continuation records to follow this record. When SMF30_RecCont_LastRec is on, this field will be zero.
 Record: SMF30S6 Based on: SMF30_CONT_RECS_TO_FOLLOW Description The number of continuation records to follow this record. When SMF30_RecCont_LastRec is on, this field will be zero.</description>
+    </item>
+    
+    <item>
+      <title>Field - container_id</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/container_id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/container_id/</guid>
+      <description>Container ID, padded with blanks if needed
+Map: SMF30CONTAINER Based on: SMF30_CONTAINER_ID Description Container ID, padded with blanks if needed</description>
+    </item>
+    
+    <item>
+      <title>Field - container_qual</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/container_qual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/container_qual/</guid>
+      <description>Container Qualifier, padded with blanks if needed
+Map: SMF30CONTAINER Based on: SMF30_CONTAINER_QUAL Description Container Qualifier, padded with blanks if needed</description>
     </item>
     
     <item>
@@ -884,16 +934,6 @@ Map: SMF30URA Based on: SMF30DAS Description Number of DDs which had their DD Ac
     </item>
     
     <item>
-      <title>Field - deadline</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/deadline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/deadline/</guid>
-      <description>First 6 bytes of a STCKE timestamp that is the resolved DEADLINE value for the job (from JES2 symbol on the internal reader interface)
-Map: SMF30ID Based on: SMF30DEADLINE Description First 6 bytes of a STCKE timestamp that is the resolved DEADLINE value for the job (from JES2 symbol on the internal reader interface)</description>
-    </item>
-    
-    <item>
       <title>Field - decompr_out</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/decompr_out/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -914,6 +954,16 @@ Map: SMF30CAS Based on: SMF30DET Description Dependent enclave CPU time for the 
     </item>
     
     <item>
+      <title>Field - dep_enclave_time_ifa_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_enclave_time_ifa_on_cp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_enclave_time_ifa_on_cp/</guid>
+      <description>IFA Dependent enclave time spent on CP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_DEP_ENCLAVE_TIME_IFA_ON_CP Description IFA Dependent enclave time spent on CP. In hundredths of a second</description>
+    </item>
+    
+    <item>
       <title>Field - dep_enclave_time_ifa_on_cp_invalid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_enclave_time_ifa_on_cp_invalid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -922,6 +972,16 @@ Map: SMF30CAS Based on: SMF30DET Description Dependent enclave CPU time for the 
       <description>Not available
 Map: SMF30CAS Based on: additional_timer_flg Description Not available
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field additional_timer_flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - dep_enclave_time_on_ifa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_enclave_time_on_ifa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_enclave_time_on_ifa/</guid>
+      <description>Dependent enclave time spent on IFA. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_DEP_ENCLAVE_TIME_ON_IFA Description Dependent enclave time spent on IFA. In hundredths of a second</description>
     </item>
     
     <item>
@@ -936,54 +996,65 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
     </item>
     
     <item>
-      <title>Field - dep_sup_on_cp_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_sup_on_cp_time/</link>
+      <title>Field - dep_ziip_on_cp_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_ziip_on_cp_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_sup_on_cp_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_DEPENC_TIME_SUP_ON_CP Description Not available</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_ziip_on_cp_time/</guid>
+      <description>zIIP Dependent enclave time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP Dependent enclave time spent on CP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_DEPENC_TIME_ZIIP_ON_CP Description zIIP Dependent enclave time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP Dependent enclave time spent on CP. In hundredths of a second</description>
     </item>
     
     <item>
-      <title>Field - dep_sup_qual_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_sup_qual_time/</link>
+      <title>Field - dep_ziip_qual_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_ziip_qual_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_sup_qual_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_DEPENC_TIME_SUP_QUAL Description Not available</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dep_ziip_qual_time/</guid>
+      <description>Dependent enclave time qualified to run on zIIP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_DEPENC_TIME_ZIIP_QUAL Description Dependent enclave time qualified to run on zIIP. In hundredths of a second</description>
     </item>
     
     <item>
-      <title>Field - depenc_time_ifa_on_cp</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_ifa_on_cp/</link>
+      <title>Field - depenc_time_java_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_cp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_ifa_on_cp/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_DEPENC_TIME_IFA_ON_CP Description Not available</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_cp/</guid>
+      <description>zIIP eligible dependent enclave time spent in Java work on CP in hundredths of a second. Valid when SMF30_DEPENC_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_DEPENC_TIME_JAVA_ON_CP Description zIIP eligible dependent enclave time spent in Java work on CP in hundredths of a second. Valid when SMF30_DEPENC_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
     </item>
     
     <item>
-      <title>Field - depenc_time_on_ifa</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_on_ifa/</link>
+      <title>Field - depenc_time_java_on_cp_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_cp_f/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_on_ifa/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_DEPENC_TIME_ON_IFA Description Not available</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_cp_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg_2 Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field additional_failure_flg_2.</description>
     </item>
     
     <item>
-      <title>Field - depenc_time_on_sup_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_on_sup_invalid/</link>
+      <title>Field - depenc_time_java_on_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_ziip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_on_sup_invalid/</guid>
-      <description>SMF30_ENCLAVE_TIME_ZIIP_QUAL_F
-Map: SMF30CAS Based on: additional_failure_flg_2 Description SMF30_ENCLAVE_TIME_ZIIP_QUAL_F
-Post-Processed This virtual field corresponds to the flag at bit-position 1 of field additional_failure_flg_2.</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_ziip/</guid>
+      <description>Dependent enclave time spent in Java work on zIIP in hundredths of a second. Valid when SMF30_DEP ENC_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_DEPENC_TIME_JAVA_ON_ZIIP Description Dependent enclave time spent in Java work on zIIP in hundredths of a second. Valid when SMF30_DEP ENC_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
+    </item>
+    
+    <item>
+      <title>Field - depenc_time_java_on_ziip_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_ziip_f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_java_on_ziip_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg_2 Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field additional_failure_flg_2.</description>
     </item>
     
     <item>
@@ -1006,28 +1077,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <description>Not available
 Map: SMF30CAS Based on: additional_failure_flg_2 Description Not available
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field additional_failure_flg_2.</description>
-    </item>
-    
-    <item>
-      <title>Field - depenc_time_sup_on_cp_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_sup_on_cp_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_sup_on_cp_invalid/</guid>
-      <description>More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
-Map: SMF30CAS Based on: additional_failure_flg Description More failure bits. Each flag name is of form xxxx_F and indicates that field xxxx is not valid
-Post-Processed This virtual field corresponds to the flag at bit-position 5 of field additional_failure_flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - depenc_time_sup_qual_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_sup_qual_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/depenc_time_sup_qual_invalid/</guid>
-      <description>Boost information
-Map: SMF30CAS Based on: additional_failure_flg_2 Description Boost information
-Post-Processed This virtual field corresponds to the flag at bit-position 3 of field additional_failure_flg_2.</description>
     </item>
     
     <item>
@@ -1086,23 +1135,13 @@ Map: SMF30EXP Based on: SMF30DCT Description DEVICE CONNECT TIME</description>
     </item>
     
     <item>
-      <title>Field - dev_encl_sup_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dev_encl_sup_time/</link>
+      <title>Field - dev_encl_ziip_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dev_encl_ziip_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dev_encl_sup_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_DEPENC_TIME_ON_SUP Description Not available</description>
-    </item>
-    
-    <item>
-      <title>Field - device_alloc_start_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/device_alloc_start_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/device_alloc_start_time/</guid>
-      <description>DEVICE ALLOCATION START TIME
-Map: SMF30ID Based on: SMF30AST Description DEVICE ALLOCATION START TIME</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/dev_encl_ziip_time/</guid>
+      <description>Dependent enclave time spent on zIIP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_DEPENC_TIME_ON_ZIIP Description Dependent enclave time spent on zIIP. In hundredths of a second</description>
     </item>
     
     <item>
@@ -1328,26 +1367,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 13 of 
     </item>
     
     <item>
-      <title>Field - encl_sup_qual_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sup_qual_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sup_qual_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_SUP_QUAL Description Not available</description>
-    </item>
-    
-    <item>
-      <title>Field - encl_sup_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sup_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sup_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ON_SUP Description Not available</description>
-    </item>
-    
-    <item>
       <title>Field - encl_sys</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1355,6 +1374,26 @@ Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ON_SUP Description Not available</des
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_sys/</guid>
       <description>System name.
 Map: SMF30MSE Based on: SMF30MRS Description System name.</description>
+    </item>
+    
+    <item>
+      <title>Field - encl_ziip_qual_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_ziip_qual_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_ziip_qual_time/</guid>
+      <description>Enclave time qualified to run on zIIP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ZIIP_QUAL Description Enclave time qualified to run on zIIP. In hundredths of a second</description>
+    </item>
+    
+    <item>
+      <title>Field - encl_ziip_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_ziip_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/encl_ziip_time/</guid>
+      <description>Enclave time spent on zIIP In hundredths of a second
+Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ON_ZIIP Description Enclave time spent on zIIP In hundredths of a second</description>
     </item>
     
     <item>
@@ -1379,6 +1418,48 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
     </item>
     
     <item>
+      <title>Field - enclave_time_java_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_cp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_cp/</guid>
+      <description>zIIP eligible time spent in Java work on CP in hundredths of a second. Valid when SMF30_ENCLA VE_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_JAVA_ON_CP Description zIIP eligible time spent in Java work on CP in hundredths of a second. Valid when SMF30_ENCLA VE_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
+    </item>
+    
+    <item>
+      <title>Field - enclave_time_java_on_cp_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_cp_f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_cp_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg_2 Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field additional_failure_flg_2.</description>
+    </item>
+    
+    <item>
+      <title>Field - enclave_time_java_on_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_ziip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_ziip/</guid>
+      <description>Enclave time spent in Java work on zIIP in hundredths of a second. Valid when SMF30_ENCLA VE_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_JAVA_ON_ZIIP Description Enclave time spent in Java work on zIIP in hundredths of a second. Valid when SMF30_ENCLA VE_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
+    </item>
+    
+    <item>
+      <title>Field - enclave_time_java_on_ziip_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_ziip_f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_java_on_ziip_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field additional_failure_flg.</description>
+    </item>
+    
+    <item>
       <title>Field - enclave_time_on_ifa</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_on_ifa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1397,17 +1478,6 @@ Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ON_IFA Description Enclave time spent
       <description>Not available
 Map: SMF30CAS Based on: additional_timer_flg Description Not available
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field additional_timer_flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - enclave_time_on_sup_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_on_sup_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_on_sup_invalid/</guid>
-      <description>SMF30_DEPENC_TIME_ON_ZIIP_N_F
-Map: SMF30CAS Based on: additional_failure_flg_2 Description SMF30_DEPENC_TIME_ON_ZIIP_N_F
-Post-Processed This virtual field corresponds to the flag at bit-position 0 of field additional_failure_flg_2.</description>
     </item>
     
     <item>
@@ -1433,35 +1503,13 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
-      <title>Field - enclave_time_sup_on_cp</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_on_cp/</link>
+      <title>Field - enclave_time_ziip_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_ziip_on_cp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_on_cp/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_SUP_ON_CP Description Not available</description>
-    </item>
-    
-    <item>
-      <title>Field - enclave_time_sup_on_cp_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_on_cp_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_on_cp_invalid/</guid>
-      <description>SMF30_DEPENC_TIME_ZIIP_ON_CP_F
-Map: SMF30CAS Based on: additional_failure_flg Description SMF30_DEPENC_TIME_ZIIP_ON_CP_F
-Post-Processed This virtual field corresponds to the flag at bit-position 4 of field additional_failure_flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - enclave_time_sup_qual_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_qual_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_sup_qual_invalid/</guid>
-      <description>SMF30_DEPENC_TIME_ZIIP_QUAL_F
-Map: SMF30CAS Based on: additional_failure_flg_2 Description SMF30_DEPENC_TIME_ZIIP_QUAL_F
-Post-Processed This virtual field corresponds to the flag at bit-position 2 of field additional_failure_flg_2.</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/enclave_time_ziip_on_cp/</guid>
+      <description>zIIP Enclave time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP Enclave time spent on CP. In hundredths of a second
+Map: SMF30CAS Based on: SMF30_ENCLAVE_TIME_ZIIP_ON_CP Description zIIP Enclave time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP Enclave time spent on CP. In hundredths of a second</description>
     </item>
     
     <item>
@@ -1593,7 +1641,7 @@ Map: SMF30SAP Based on: SMF30ERS Description As of z/OS 1.6, this field is no lo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/factor_ifa_svc_time/</guid>
-      <description>zAAP Normalization Factor for zAAP service time. Used to convert between real zAAP times and normalized zAAP times, that is, the equivalent time on a standard CP. Multiply SMF30_TIME_ON_zAAP by this value and divide by 256 to calculate the normalized zAAP time.&amp;quot;
+      <description>zAAP Normalization Factor for zAAP service time. Used to convert between real zAAP times and normalized zAAP times, that is, the equivalent time on a standard CP. Multiply SMF30_TIME_ON_zAAP by this value and divide by 256 to calculate the normalized zAAP time.
 Map: SMF30PRF Based on: SMF30ZNF Description zAAP Normalization Factor for zAAP service time. Used to convert between real zAAP times and normalized zAAP times, that is, the equivalent time on a standard CP.</description>
     </item>
     
@@ -1654,16 +1702,6 @@ Map: SMF30CAS Based on: SMF30_HIGHEST_TASK_CPU_PERCENT Description For interval 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/hiperspace_processing_time/</guid>
       <description>HIPERSPACE PROCESSING TIME
 Map: SMF30CAS Based on: SMF30HPT Description HIPERSPACE PROCESSING TIME</description>
-    </item>
-    
-    <item>
-      <title>Field - holduntil</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/holduntil/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/holduntil/</guid>
-      <description>First 6 bytes of a STCKE timestamp that is the resolved HOLDUNTL value for the job (from JCL or JES2 symbol on the internal reader interface)
-Map: SMF30ID Based on: SMF30HOLDUNTIL Description First 6 bytes of a STCKE timestamp that is the resolved HOLDUNTL value for the job (from JCL or JES2 symbol on the internal reader interface)</description>
     </item>
     
     <item>
@@ -1776,16 +1814,6 @@ Map: SMF30CAS Based on: SMF30ICU_STEP_INIT Description CPU TCB time spent by the
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/icu_step_term/</guid>
       <description>CPU TCB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ICU which is reported in the next step end record
 Map: SMF30CAS Based on: SMF30ICU_STEP_TERM Description CPU TCB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ICU which is reported in the next step end record</description>
-    </item>
-    
-    <item>
-      <title>Field - id_end_v2</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/id_end_v2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/id_end_v2/</guid>
-      <description>SMF30ID_Len_V2 is the length from the start of SMF30ID to here
-Map: SMF30ID Based on: SMF30ID_END_V2 Description SMF30ID_Len_V2 is the length from the start of SMF30ID to here</description>
     </item>
     
     <item>
@@ -1917,16 +1945,6 @@ Map: SMF30PRF Based on: SMF30ETC Description Independent Enclave Transaction Cou
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/initiator_cpu_time/</guid>
       <description>INIT CPU TIME UNDER TCB
 Map: SMF30CAS Based on: SMF30ICU Description INIT CPU TIME UNDER TCB</description>
-    </item>
-    
-    <item>
-      <title>Field - initiator_job_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/initiator_job_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/initiator_job_time/</guid>
-      <description>STEP INITIATION TIME
-Map: SMF30ID Based on: SMF30SIT Description STEP INITIATION TIME</description>
     </item>
     
     <item>
@@ -2092,16 +2110,6 @@ Map: SMF30CDS Based on: SMF30_INST_OFFLOAD_ENCLAVE Description The number of ins
     </item>
     
     <item>
-      <title>Field - interval_end_tod</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_end_tod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_end_tod/</guid>
-      <description>Interval End Time for Subtype 2, 3 and 6 Records (STCK format)
-Map: SMF30ID Based on: SMF30IET Description Interval End Time for Subtype 2, 3 and 6 Records (STCK format)</description>
-    </item>
-    
-    <item>
       <title>Field - interval_start_date</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_start_date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2119,16 +2127,6 @@ Map: SMF30CAS Based on: SMF30IDT Description INTERVAL START DATE</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_start_time/</guid>
       <description>INTERVAL START TIME
 Map: SMF30CAS Based on: SMF30IST Description INTERVAL START TIME</description>
-    </item>
-    
-    <item>
-      <title>Field - interval_start_tod</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_start_tod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/interval_start_tod/</guid>
-      <description>Interval Start Time for Subtype 2 and 3 records (STCK format)
-Map: SMF30ID Based on: SMF30ISS Description Interval Start Time for Subtype 2 and 3 records (STCK format)</description>
     </item>
     
     <item>
@@ -2317,76 +2315,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     </item>
     
     <item>
-      <title>Field - jclid1</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jclid1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jclid1/</guid>
-      <description>JES-computed binary identifier for the job that was submitted (using method 1)
-Map: SMF30ID Based on: SMF30JCLID1 Description JES-computed binary identifier for the job that was submitted (using method 1)</description>
-    </item>
-    
-    <item>
-      <title>Field - jclid2</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jclid2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jclid2/</guid>
-      <description>JES-computed binary identifier for the job that was submitted (using method 2)
-Map: SMF30ID Based on: SMF30JCLID2 Description JES-computed binary identifier for the job that was submitted (using method 2)</description>
-    </item>
-    
-    <item>
-      <title>Field - jes_input_priority</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_input_priority/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_input_priority/</guid>
-      <description>JES INPUT PRIORITY
-Map: SMF30ID Based on: SMF30JPT Description JES INPUT PRIORITY</description>
-    </item>
-    
-    <item>
-      <title>Field - jes_job_correlator</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_job_correlator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_job_correlator/</guid>
-      <description>JES Job Correlator
-Map: SMF30ID Based on: SMF30COR Description JES Job Correlator</description>
-    </item>
-    
-    <item>
-      <title>Field - jes_job_id</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_job_id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jes_job_id/</guid>
-      <description>JES JOB NUMBER
-Map: SMF30ID Based on: SMF30JNM Description JES JOB NUMBER</description>
-    </item>
-    
-    <item>
-      <title>Field - job_class</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_class/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_class/</guid>
-      <description>JOB CLASS
-Map: SMF30ID Based on: SMF30CLS Description JOB CLASS</description>
-    </item>
-    
-    <item>
-      <title>Field - job_class_8b</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_class_8b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_class_8b/</guid>
-      <description>8-CHARACTER JOB CLASS
-Map: SMF30ID Based on: SMF30CL8 Description 8-CHARACTER JOB CLASS</description>
-    </item>
-    
-    <item>
       <title>Field - job_eligible_exec_time</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_eligible_exec_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2394,18 +2322,6 @@ Map: SMF30ID Based on: SMF30CL8 Description 8-CHARACTER JOB CLASS</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_eligible_exec_time/</guid>
       <description>Time that job was eligible for execution: not held, waiting for an initiator. Valid for all types of work. 1.024 millisecond units
 Map: SMF30PRF Based on: SMF30SQT Description Time that job was eligible for execution: not held, waiting for an initiator. Valid for all types of work. 1.024 millisecond units</description>
-    </item>
-    
-    <item>
-      <title>Field - job_flg</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_flg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_flg/</guid>
-      <description>Job / Session ID section flag
-Map: SMF30ID Based on: SMF30JF1 Description Job / Session ID section flag
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description pgn_invalid 0 SMF30PGN is invalid </description>
     </item>
     
     <item>
@@ -2446,16 +2362,6 @@ Map: SMF30ID Based on: SMF30JBN Description JOB/SESSION NAME</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/job_prep_time/</guid>
       <description>JCL conversion time for batch jobs, 0 for other types of work. 1.024 millisecond units
 Map: SMF30PRF Based on: SMF30JQT Description JCL conversion time for batch jobs, 0 for other types of work. 1.024 millisecond units</description>
-    </item>
-    
-    <item>
-      <title>Field - jobtoken</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jobtoken/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/jobtoken/</guid>
-      <description>Binary identifier for the job
-Map: SMF30ID Based on: SMF30JOBTOKEN Description Binary identifier for the job</description>
     </item>
     
     <item>
@@ -3105,18 +3011,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
-      <title>Field - pflags</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pflags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pflags/</guid>
-      <description>Product Flags
-Map: SMF30PSS Based on: SMF30PFLAGS Description Product Flags
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description zcbp 0 When bit is on, SMF30 fields with both zCBP names and aliases with corresponding zAAP names contain data about zCBP processors. Also, fields beginning with SMF30_Inst_CP include CP and zCBP instruction counts, while fields beginning with SMF30_Inst_Offload contain zIIP instruction counts. When bit is off, SMF30 fields with both zCBP names and aliases with corresponding zAAP names contain data about zAAP processors.</description>
-    </item>
-    
-    <item>
       <title>Field - pfr</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pfr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3125,37 +3019,6 @@ Field Bit-Position Description zcbp 0 When bit is on, SMF30 fields with both zCB
       <description>Job service class association was modified by a system operator during job execution
 Map: SMF30PRF Based on: perf_flg_1 Description Job service class association was modified by a system operator during job execution
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field perf_flg_1.</description>
-    </item>
-    
-    <item>
-      <title>Field - pgm_prog_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgm_prog_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgm_prog_name/</guid>
-      <description>PROGRAM NAME
-Map: SMF30ID Based on: SMF30PGM Description PROGRAM NAME</description>
-    </item>
-    
-    <item>
-      <title>Field - pgn</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgn/</guid>
-      <description>Job performance group number
-Map: SMF30ID Based on: SMF30PGN Description Job performance group number</description>
-    </item>
-    
-    <item>
-      <title>Field - pgn_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgn_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pgn_invalid/</guid>
-      <description>SMF30PGN is invalid
-Map: SMF30ID Based on: job_flg Description SMF30PGN is invalid
-Post-Processed This virtual field corresponds to the flag at bit-position 0 of field job_flg.</description>
     </item>
     
     <item>
@@ -3209,13 +3072,13 @@ Map: SMF30OP Based on: SMF30OLL Description Number of path name Lookup calls to 
     </item>
     
     <item>
-      <title>Field - problem_alloc_start_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/problem_alloc_start_time/</link>
+      <title>Field - pod_id</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pod_id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/problem_alloc_start_time/</guid>
-      <description>PROBLEM PROGRAM START TIME
-Map: SMF30ID Based on: SMF30PPS Description PROBLEM PROGRAM START TIME</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/pod_id/</guid>
+      <description>Pod ID, padded with blanks if needed
+Map: SMF30CONTAINER Based on: SMF30_POD_ID Description Pod ID, padded with blanks if needed</description>
     </item>
     
     <item>
@@ -3236,16 +3099,6 @@ Map: SMF30OP Based on: SMF30OPG Description Process Group ID</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/proc_id/</guid>
       <description>Process ID
 Map: SMF30OP Based on: SMF30OPI Description Process ID</description>
-    </item>
-    
-    <item>
-      <title>Field - proc_step_inv_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/proc_step_inv_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/proc_step_inv_name/</guid>
-      <description>STEP NAME THAT INVOKED PROC
-Map: SMF30ID Based on: SMF30PSN Description STEP NAME THAT INVOKED PROC</description>
     </item>
     
     <item>
@@ -3391,16 +3244,6 @@ Map: SMF30PSS Based on: SMF30PNM Description PRODUCT NAME - SMF</description>
     </item>
     
     <item>
-      <title>Field - prog_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/prog_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/prog_name/</guid>
-      <description>OpenMVS Exec&amp;rsquo;ed program name
-Map: SMF30ID Based on: SMF30EXN Description OpenMVS Exec&amp;rsquo;ed program name</description>
-    </item>
-    
-    <item>
       <title>Field - prvt_area_size_above16</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/prvt_area_size_above16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3438,36 +3281,6 @@ Map: SMF30SAP Based on: SMF30PRV Description VIRT STOR - USER PRIVATE AREA</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/prvt_max_storage_top/</guid>
       <description>VIRT STOR - SYSTEM AREA
 Map: SMF30SAP Based on: SMF30SYS Description VIRT STOR - SYSTEM AREA</description>
-    </item>
-    
-    <item>
-      <title>Field - racf_grp_id</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_grp_id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_grp_id/</guid>
-      <description>RACF GROUP ID
-Map: SMF30ID Based on: SMF30GRP Description RACF GROUP ID</description>
-    </item>
-    
-    <item>
-      <title>Field - racf_terminal_id</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_terminal_id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_terminal_id/</guid>
-      <description>RACF TERMINAL ID
-Map: SMF30ID Based on: SMF30TID Description RACF TERMINAL ID</description>
-    </item>
-    
-    <item>
-      <title>Field - racf_usr_id</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_usr_id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/racf_usr_id/</guid>
-      <description>RACF USER ID
-Map: SMF30ID Based on: SMF30RUD Description RACF USER ID</description>
     </item>
     
     <item>
@@ -3509,8 +3322,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 11 of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/rctpcpua_actual/</guid>
-      <description>Physical CPU adjustment factor (i.e. adjustment factor for converting CPU time to equivalent service in basic- mode with all processors online). Based on Model Capacity Rating.
-Map: SMF30PRF Based on: SMF30_RCTPCPUA_ACTUAL Description Physical CPU adjustment factor (i.e. adjustment factor for converting CPU time to equivalent service in basic- mode with all processors online). Based on Model Capacity Rating.</description>
+      <description>Physical CPU adjustment factor (i.e. adjustment factor for converting CPU time to equivalent service in basic mode with all processors online). Based on Model Capacity Rating.
+Map: SMF30PRF Based on: SMF30_RCTPCPUA_ACTUAL Description Physical CPU adjustment factor (i.e. adjustment factor for converting CPU time to equivalent service in basic mode with all processors online). Based on Model Capacity Rating.</description>
     </item>
     
     <item>
@@ -3661,46 +3474,6 @@ Map: SMF30URA Based on: SMF30RDR Description READER DEVICE CLASS</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_device_type/</guid>
       <description>READER DEVICE TYPE
 Map: SMF30URA Based on: SMF30RDT Description READER DEVICE TYPE</description>
-    </item>
-    
-    <item>
-      <title>Field - reader_end_date</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_end_date/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_end_date/</guid>
-      <description>READER END DATE
-Map: SMF30ID Based on: SMF30RED Description READER END DATE</description>
-    </item>
-    
-    <item>
-      <title>Field - reader_end_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_end_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_end_time/</guid>
-      <description>READER END TIME
-Map: SMF30ID Based on: SMF30RET Description READER END TIME</description>
-    </item>
-    
-    <item>
-      <title>Field - reader_start_date</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_start_date/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_start_date/</guid>
-      <description>READER START DATE
-Map: SMF30ID Based on: SMF30RSD Description READER START DATE</description>
-    </item>
-    
-    <item>
-      <title>Field - reader_start_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_start_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/reader_start_time/</guid>
-      <description>READER START TIME
-Map: SMF30ID Based on: SMF30RST Description READER START TIME</description>
     </item>
     
     <item>
@@ -3918,16 +3691,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/rucsaearlyusage/</guid>
       <description>When on, successful access to RUCSA was made by an address space that was authorized to RUCSA during early IPL or early started task initialization due to DIAGxx VSM AllowEarlyRucsa(YES) Scope is life of an address space
 Map: SMF30SAP Based on: raxflags Description When on, successful access to RUCSA was made by an address space that was authorized to RUCSA during early IPL or early started task initialization due to DIAGxx VSM AllowEarlyRucsa(YES) Scope is life of an address space</description>
-    </item>
-    
-    <item>
-      <title>Field - sap_end_v4</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sap_end_v4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sap_end_v4/</guid>
-      <description>SMF30SAP_Len_V4 is the length to here
-Map: SMF30SAP Based on: SMF30SAP_END_V4 Description SMF30SAP_Len_V4 is the length to here</description>
     </item>
     
     <item>
@@ -4155,8 +3918,8 @@ Map: SMF30OPS Based on: SMF30MSR Description NUMBER OF SPECIFIC MSS MOUNTS</desc
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/speedboost_active/</guid>
       <description>Speed boost was active at some point within the interval
-Map: SMF30CAS Based on: bi Description Speed boost was active at some point within the interval
-Post-Processed This virtual field corresponds to the flag at bit-position 1 of field bi.</description>
+Map: SMF30CAS Based on: boostinfo Description Speed boost was active at some point within the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field boostinfo.</description>
     </item>
     
     <item>
@@ -4281,16 +4044,6 @@ Map: SMF30PRF Based on: perf_flg_3 Description Bit 0 When on, indicates that the
     </item>
     
     <item>
-      <title>Field - step</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step/</guid>
-      <description>STEP NUMBER
-Map: SMF30ID Based on: SMF30STN Description STEP NUMBER</description>
-    </item>
-    
-    <item>
       <title>Field - step_data_space</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_data_space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4298,26 +4051,6 @@ Map: SMF30ID Based on: SMF30STN Description STEP NUMBER</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_data_space/</guid>
       <description>AMOUNT OF USER KEY DATA SPACE STORAGE (HIGH WATER MARK) USED DURING THE STEP/JOB (IN MEGABYTES)
 Map: SMF30SAP Based on: SMF30DSV Description AMOUNT OF USER KEY DATA SPACE STORAGE (HIGH WATER MARK) USED DURING THE STEP/JOB (IN MEGABYTES)</description>
-    </item>
-    
-    <item>
-      <title>Field - step_initiation_date</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_initiation_date/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_initiation_date/</guid>
-      <description>STEP INITIATION DATE
-Map: SMF30ID Based on: SMF30STD Description STEP INITIATION DATE</description>
-    </item>
-    
-    <item>
-      <title>Field - step_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/step_name/</guid>
-      <description>STEP NAME
-Map: SMF30ID Based on: SMF30STM Description STEP NAME</description>
     </item>
     
     <item>
@@ -4446,16 +4179,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
-      <title>Field - substep_num</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/substep_num/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/substep_num/</guid>
-      <description>Sub-Step Number
-Map: SMF30ID Based on: SMF30SSN Description Sub-Step Number</description>
-    </item>
-    
-    <item>
       <title>Field - subsys_coll_name</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/subsys_coll_name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4528,26 +4251,6 @@ Map: SMF30SAP Based on: SMF30_SUMSQUARESREAL1M Description Sum of squared sample
     </item>
     
     <item>
-      <title>Field - sup_on_cp_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sup_on_cp_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sup_on_cp_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_TIME_SUP_ON_CP Description Not available</description>
-    </item>
-    
-    <item>
-      <title>Field - sup_time</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sup_time/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sup_time/</guid>
-      <description>Not available
-Map: SMF30CAS Based on: SMF30_TIME_ON_SUP Description Not available</description>
-    </item>
-    
-    <item>
       <title>Field - sync_call_num</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sync_call_num/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4575,16 +4278,6 @@ Map: SMF30PSS Based on: SMF30SYN Description Current System Name Value (from SYS
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/sysplex_name/</guid>
       <description>Sysplex name
 Map: SMF30PSS Based on: SMF30SYP Description Sysplex name</description>
-    </item>
-    
-    <item>
-      <title>Field - terminal_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/terminal_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/terminal_name/</guid>
-      <description>TERMINAL SYMBOLIC NAME
-Map: SMF30ID Based on: SMF30TSN Description TERMINAL SYMBOLIC NAME</description>
     </item>
     
     <item>
@@ -4639,6 +4332,48 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     </item>
     
     <item>
+      <title>Field - time_java_on_cp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_cp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_cp/</guid>
+      <description>zIIP eligible time spent in Java work on CP in hundredths of a second including enclave time. Valid when SMF30_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_TIME_JAVA_ON_CP Description zIIP eligible time spent in Java work on CP in hundredths of a second including enclave time. Valid when SMF30_Time_Java_On_CP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
+    </item>
+    
+    <item>
+      <title>Field - time_java_on_cp_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_cp_f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_cp_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg_2 Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field additional_failure_flg_2.</description>
+    </item>
+    
+    <item>
+      <title>Field - time_java_on_ziip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_ziip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_ziip/</guid>
+      <description>Time spent in Java work on zIIP in hundredths of a second including enclave time. Valid when SMF30_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.
+Map: SMF30CAS Based on: SMF30_TIME_JAVA_ON_ZIIP Description Time spent in Java work on zIIP in hundredths of a second including enclave time. Valid when SMF30_Time_Java_On_zIIP_F is 0 and SMF30CLN &amp;gt;= SMF30CAS_Len_V2.</description>
+    </item>
+    
+    <item>
+      <title>Field - time_java_on_ziip_f</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_ziip_f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_java_on_ziip_f/</guid>
+      <description>Failure Flag
+Map: SMF30CAS Based on: additional_failure_flg Description Failure Flag
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field additional_failure_flg.</description>
+    </item>
+    
+    <item>
       <title>Field - time_on_ifa_invalid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_on_ifa_invalid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4650,16 +4385,6 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     </item>
     
     <item>
-      <title>Field - time_on_sup_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_on_sup_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_on_sup_invalid/</guid>
-      <description>None
-Map: SMF30CAS Based on: additional_failure_flg Post-Processed This virtual field corresponds to the flag at bit-position 0 of field additional_failure_flg.</description>
-    </item>
-    
-    <item>
       <title>Field - time_on_ziip_f</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_on_ziip_f/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4668,17 +4393,6 @@ Map: SMF30CAS Based on: additional_failure_flg Post-Processed This virtual field
       <description>Not available
 Map: SMF30CAS Based on: additional_failure_flg Description Not available
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field additional_failure_flg.</description>
-    </item>
-    
-    <item>
-      <title>Field - time_sup_on_cp_invalid</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_sup_on_cp_invalid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/time_sup_on_cp_invalid/</guid>
-      <description>SMF30_ENCLAVE_TIME_ZIIP_ON_CP_F
-Map: SMF30CAS Based on: additional_failure_flg Description SMF30_ENCLAVE_TIME_ZIIP_ON_CP_F
-Post-Processed This virtual field corresponds to the flag at bit-position 3 of field additional_failure_flg.</description>
     </item>
     
     <item>
@@ -4998,26 +4712,6 @@ Field Bit-Position Description unauth_register_requested 0 UNAUTHORIZED REGISTER
     </item>
     
     <item>
-      <title>Field - user_defined_id</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/user_defined_id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/user_defined_id/</guid>
-      <description>User-defined identification field (taken from common exit parameter area, not from USER= parameter on job statement).
-Map: SMF30ID Based on: SMF30UIF Description User-defined identification field (taken from common exit parameter area, not from USER= parameter on job statement).</description>
-    </item>
-    
-    <item>
-      <title>Field - user_name</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/user_name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/user_name/</guid>
-      <description>PROGRAMMER&amp;rsquo;S NAME
-Map: SMF30ID Based on: SMF30USR Description PROGRAMMER&amp;rsquo;S NAME</description>
-    </item>
-    
-    <item>
       <title>Field - userdataspacecreatereqcount</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/userdataspacecreatereqcount/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5238,15 +4932,6 @@ Map: SMF30PRF Based on: SMF30WLM Description Workload Name - Blanks if the syste
     </item>
     
     <item>
-      <title>Field - zcbp</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/zcbp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/zcbp/</guid>
-      <description>When bit is on, SMF30 fields with both zCBP names and aliases with corresponding zAAP names contain data about zCBP processors. Also, fields beginning with SMF30_Inst_CP include CP and zCBP instruction counts, while fields beginning with SMF30_Inst_Offload contain zIIP instruction counts. When bit is off, SMF30 fields with both zCBP names and aliases with corresponding zAAP names contain data about zAAP processors. Also, fields beginning with SMF30_Inst_CP include CP instruction counts, while fields beginning with SMF30_Inst_Offload contain zIIP and zAAP instruction counts.</description>
-    </item>
-    
-    <item>
       <title>Field - zedc_count</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/zedc_count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5317,14 +5002,34 @@ Map: SMF30USS Based on: SMF30_US_EXECTIME Description Total execution time (in m
     </item>
     
     <item>
+      <title>Field - ziip_on_cp_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziip_on_cp_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziip_on_cp_time/</guid>
+      <description>zIIP CPU time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP CPU time spent on CP. In hundredths of a second (including enclave time)
+Map: SMF30CAS Based on: SMF30_TIME_ZIIP_ON_CP Description zIIP CPU time spent on CP. When zAAPzIIP=YES is in effect, zAAP-eligible work is included in zIIP CPU time spent on CP. In hundredths of a second (including enclave time)</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziip_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziip_time/</guid>
+      <description>Time spent on zIIP In hundredths of a second (including enclave time)
+Map: SMF30CAS Based on: SMF30_TIME_ON_ZIIP Description Time spent on zIIP In hundredths of a second (including enclave time)</description>
+    </item>
+    
+    <item>
       <title>Field - ziipboost_active</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziipboost_active/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf30/SMF30S6/fields/ziipboost_active/</guid>
       <description>zIIP boost was active at some point within the interval
-Map: SMF30CAS Based on: bi Description zIIP boost was active at some point within the interval
-Post-Processed This virtual field corresponds to the flag at bit-position 0 of field bi.</description>
+Map: SMF30CAS Based on: boostinfo Description zIIP boost was active at some point within the interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field boostinfo.</description>
     </item>
     
   </channel>
