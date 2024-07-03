@@ -599,7 +599,8 @@ Map: SMF113SDS Based on: SMF113ILN Description Length of identification section<
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S1/fields/interval/</guid>
       <description>The interval time delta
-Map: SMF113ID Based on: intervalstart, intervalend Post-Processed The field is created using the following pseudocode:
+Map: SMF113ID Based on: intervalstart, intervalend Description The interval time delta
+Post-Processed The field is created using the following pseudocode:
 return intervalend - intervalstart </description>
     </item>
     
@@ -610,7 +611,8 @@ return intervalend - intervalstart </description>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf113/SMF113S2/fields/interval/</guid>
       <description>The interval time delta
-Map: SMF113ID Based on: intervalstart, intervalend Post-Processed The field is created using the following pseudocode:
+Map: SMF113ID Based on: intervalstart, intervalend Description The interval time delta
+Post-Processed The field is created using the following pseudocode:
 return intervalend - intervalstart </description>
     </item>
     

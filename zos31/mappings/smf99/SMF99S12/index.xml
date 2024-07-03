@@ -1210,7 +1210,8 @@ hd_action_unpark_filter = ~hd_action_unpark hd_action_unpark_capping_filter= ~hd
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/samples/hiper_dispatch/</guid>
       <description>Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM + VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99.</description>
+Name Based on Description Type/Format vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrunpark processed SMF99C_VCM_MVSBUSYDYNATHRUNPARK Dynamic MvsBusy threshhold for unparking scaled by 16 integer lpar_busy virtual lpar_capacity_used
+cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&amp;hellip; lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds.</description>
     </item>
     
     <item>

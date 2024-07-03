@@ -93,8 +93,8 @@ Map: SMF30DR Based on: SMF30DAC Description Number of active conversations.</des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/add_swap_seq_num/</guid>
-      <description>NUMBER OF SWAPS
-Map: SMF30SAP Based on: SMF30NSW Description NUMBER OF SWAPS</description>
+      <description>As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.8, this field contained: Number of address space swap sequences. (A swap sequence consists of an address space swap-out and swap-in. Logical swap-out and swap-in are not included.)
+Map: SMF30SAP Based on: SMF30NSW Description As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.</description>
     </item>
     
     <item>
@@ -361,8 +361,8 @@ Map: SMF30SAP Based on: SMF30BIA Description NUMBER OF BLOCKED PAGES PAGED IN FR
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/block_pagein_exp_num/</guid>
-      <description>NUMBER OF BLOCKED PAGES PAGED IN FROM EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30BIE Description NUMBER OF BLOCKED PAGES PAGED IN FROM EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocked pages that were paged in from expanded storage.
+Map: SMF30SAP Based on: SMF30BIE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocked pages that were paged in from expanded storage.</description>
     </item>
     
     <item>
@@ -381,8 +381,8 @@ Map: SMF30SAP Based on: SMF30BOA Description NUMBER OF BLOCKED PAGES PAGED OUT T
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/block_pageout_exp_num/</guid>
-      <description>NUMBER OF BLOCKED PAGES PAGED OUT TO EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30BOE Description NUMBER OF BLOCKED PAGES PAGED OUT TO EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocked pages that were paged out to expanded storage.
+Map: SMF30SAP Based on: SMF30BOE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocked pages that were paged out to expanded storage.</description>
     </item>
     
     <item>
@@ -411,8 +411,8 @@ Map: SMF30SAP Based on: SMF30KIA Description NUMBER OF BLOCKS PAGED IN FROM AUXI
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/blocks_pagein_exp_num/</guid>
-      <description>NUMBER OF BLOCKS PAGED IN FROM EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30KIE Description NUMBER OF BLOCKS PAGED IN FROM EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocks that were paged in from expanded storage.
+Map: SMF30SAP Based on: SMF30KIE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocks that were paged in from expanded storage.</description>
     </item>
     
     <item>
@@ -431,8 +431,8 @@ Map: SMF30SAP Based on: SMF30KOA Description NUMBER OF BLOCKS PAGED OUT TO AUXIL
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/blocks_pageout_exp_num/</guid>
-      <description>NUMBER OF BLOCKS PAGED OUT TO EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30KOE Description NUMBER OF BLOCKS PAGED OUT TO EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocks that were paged out to expanded storage.
+Map: SMF30SAP Based on: SMF30KOE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of blocks that were paged out to expanded storage.</description>
     </item>
     
     <item>
@@ -845,8 +845,8 @@ Map: SMF30MSE Based on: SMF30MRI Description CPU Time used by independent enclav
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/cpu_page_second_num/</guid>
-      <description>NUMBER OF CPU PAGE-SECONDS
-Map: SMF30SAP Based on: SMF30PSC Description NUMBER OF CPU PAGE-SECONDS</description>
+      <description>Number of CPU page milliseconds for this address space. A page millisecond unit equals 1.024 milliseconds * 1 page (4K). It can be used to illustrate the duration of memory consumption where a small spike in memory demand may have less of an impact than a smaller amount of memory used over a longer period of time.
+Map: SMF30SAP Based on: SMF30PSC Description Number of CPU page milliseconds for this address space.</description>
     </item>
     
     <item>
@@ -978,8 +978,8 @@ Map: SMF30CAS Based on: SMF30CEP Description CPU time consumed for an A/S or Job
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/date/</guid>
-      <description>Date of Record
-Record: SMF30S2 Based on: SMF30DTE </description>
+      <description>RECORD WRITTEN DATE
+Record: SMF30S2 Based on: SMF30DTE Description RECORD WRITTEN DATE</description>
     </item>
     
     <item>
@@ -1011,6 +1011,16 @@ Map: SMF30EXP Based on: SMF30DDN Description DD NAME FOR THIS DATA SET</descript
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dds_acc_info_supp/</guid>
       <description>Number of DDs which had their DD Accounting information suppressed
 Map: SMF30URA Based on: SMF30DAS Description Number of DDs which had their DD Accounting information suppressed</description>
+    </item>
+    
+    <item>
+      <title>Field - deadline</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/deadline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/deadline/</guid>
+      <description>A UTC timestamp represented by the first 6 bytes (bits 0-47) of an ETOD value. This is the resolved DEADLINE value for the job (from JES2 symbol on the internal reader interface), if provided by the primary subsystem
+Map: SMF30ID Based on: SMF30DEADLINE Description A UTC timestamp represented by the first 6 bytes (bits 0-47) of an ETOD value. This is the resolved DEADLINE value for the job (from JES2 symbol on the internal reader interface), if provided by the primary subsystem</description>
     </item>
     
     <item>
@@ -1266,13 +1276,173 @@ Map: SMF30EXP Based on: SMF30CUA Description Device number</description>
     </item>
     
     <item>
-      <title>Field - dte</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dte/</link>
+      <title>Field - dmemassigned2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemassigned2g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dte/</guid>
-      <description>RECORD WRITTEN DATE
-Record: SMF30S2 Based on: SMF30DTE Description RECORD WRITTEN DATE</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemassigned2g/</guid>
+      <description>Assigned Dedicated Memory in 2G units at start of job step
+Map: SMF30SAP Based on: SMF30_DMEMASSIGNED2G Description Assigned Dedicated Memory in 2G units at start of job step</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemminrequested2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemminrequested2g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemminrequested2g/</guid>
+      <description>Requested minimum amount of Dedicated Memory in 2G units at start of job step
+Map: SMF30SAP Based on: SMF30_DMEMMINREQUESTED2G Description Requested minimum amount of Dedicated Memory in 2G units at start of job step</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnum1mfailed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum1mfailed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum1mfailed/</guid>
+      <description>Count of requested 1M frames eligible to be backed by Dedicated Memory frames but were not due to availability
+Map: SMF30SAP Based on: SMF30_DMEMNUM1MFAILED Description Count of requested 1M frames eligible to be backed by Dedicated Memory frames but were not due to availability</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnum2gfailed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum2gfailed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum2gfailed/</guid>
+      <description>Count of requested 2G frames eligible to be backed by Dedicated Memory frames but were not due to availability
+Map: SMF30SAP Based on: SMF30_DMEMNUM2GFAILED Description Count of requested 2G frames eligible to be backed by Dedicated Memory frames but were not due to availability</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnum4kfailed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum4kfailed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnum4kfailed/</guid>
+      <description>Count of requested 4K frames eligible to be backed by Dedicated Memory frames but were not due to availability
+Map: SMF30SAP Based on: SMF30_DMEMNUM4KFAILED Description Count of requested 4K frames eligible to be backed by Dedicated Memory frames but were not due to availability</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseas2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas2g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas2g/</guid>
+      <description>Number of 2G Dedicated Memory frames in use
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEAS2G Description Number of 2G Dedicated Memory frames in use</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseas2ghwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas2ghwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas2ghwm/</guid>
+      <description>High water mark for the number of Dedicated real storage frames (2G units) that is used to back 2G pages
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEAS2GHWM Description High water mark for the number of Dedicated real storage frames (2G units) that is used to back 2G pages</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseas4k</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas4k/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas4k/</guid>
+      <description>Number of 4K Dedicated Memory frames in use
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEAS4K Description Number of 4K Dedicated Memory frames in use</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseas4khwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas4khwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseas4khwm/</guid>
+      <description>High water mark for the number of Dedicated real storage frames (4K units) that is used to back 64-bit private storage
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEAS4KHWM Description High water mark for the number of Dedicated real storage frames (4K units) that is used to back 64-bit private storage</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseasdattables</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasdattables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasdattables/</guid>
+      <description>Number of 4K Dedicated Memory frames in use as DAT tables
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASDATTABLES Description Number of 4K Dedicated Memory frames in use as DAT tables</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseasdattableshwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasdattableshwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasdattableshwm/</guid>
+      <description>High water mark for the number of Dedicated real storage frames (4K units) that is used to back DAT tables
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASDATTABLESHWM Description High water mark for the number of Dedicated real storage frames (4K units) that is used to back DAT tables</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseasfixed1m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasfixed1m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasfixed1m/</guid>
+      <description>Number of fixed 1M Dedicated Memory frames in use
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASFIXED1M Description Number of fixed 1M Dedicated Memory frames in use</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseasfixed1mhwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasfixed1mhwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseasfixed1mhwm/</guid>
+      <description>High water mark for the number of Dedicated real storage frames (1M units) that is used to back fixed 1M pages
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASFIXED1MHWM Description High water mark for the number of Dedicated real storage frames (1M units) that is used to back fixed 1M pages</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseaspageable1m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseaspageable1m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseaspageable1m/</guid>
+      <description>Number of pageable 1M Dedicated Memory frames in use
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASPAGEABLE1M Description Number of pageable 1M Dedicated Memory frames in use</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminuseaspageable1mhwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseaspageable1mhwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminuseaspageable1mhwm/</guid>
+      <description>High water mark for the number of Dedicated real storage frames (1M units) that is used to back pageable 1M pages
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEASPAGEABLE1MHWM Description High water mark for the number of Dedicated real storage frames (1M units) that is used to back pageable 1M pages</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnuminusehwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminusehwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemnuminusehwm/</guid>
+      <description>High water mark for the number of Dedicated Memory frames in use 4K units
+Map: SMF30SAP Based on: SMF30_DMEMNUMINUSEHWM Description High water mark for the number of Dedicated Memory frames in use 4K units</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemrequested2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemrequested2g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/dmemrequested2g/</guid>
+      <description>Requested Dedicated Memory in 2G units at start of job step
+Map: SMF30SAP Based on: SMF30_DMEMREQUESTED2G Description Requested Dedicated Memory in 2G units at start of job step</description>
     </item>
     
     <item>
@@ -1561,8 +1731,8 @@ Record: SMF30S2 Based on: SMF30EOF Description OFFSET TO EXCP SEGMENT</descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/exp_storage_page_res_time/</guid>
-      <description>Expanded storage residency time in page-milliseconds
-Map: SMF30SAP Based on: SMF30ERS Description Expanded storage residency time in page-milliseconds</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Expanded storage page residency time in page-milliseconds
+Map: SMF30SAP Based on: SMF30ERS Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Expanded storage page residency time in page-milliseconds</description>
     </item>
     
     <item>
@@ -1596,6 +1766,16 @@ Record: SMF30S2 Based on: SMF30FLG Description HEADER FLAG BYTE</description>
     </item>
     
     <item>
+      <title>Field - framesfirstreferencebacking</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/framesfirstreferencebacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/framesfirstreferencebacking/</guid>
+      <description>Count of real storage frames (4K units) backing both 31-bit and 64-bit virtual storage within the scope of the record, either for the current interval, job step or job. Count includes dedicated real storage frames.
+Map: SMF30SAP Based on: SMF30_FRAMESFIRSTREFERENCEBACKING Description Count of real storage frames (4K units) backing both 31-bit and 64-bit virtual storage within the scope of the record, either for the current interval, job step or job. Count includes dedicated real storage frames.</description>
+    </item>
+    
+    <item>
       <title>Field - highest_task_cpu_percent</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/highest_task_cpu_percent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1625,6 +1805,16 @@ Map: SMF30CAS Based on: SMF30HPT Description HIPERSPACE PROCESSING TIME</descrip
     </item>
     
     <item>
+      <title>Field - holduntil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/holduntil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/holduntil/</guid>
+      <description>A UTC timestamp represented by the first 6 bytes (bits 0-47) of an ETOD value. This is the resolved HOLDUNTL value for the job (from JCL or JES2 symbol on the internal reader interface), if provided by the primary subsystem
+Map: SMF30ID Based on: SMF30HOLDUNTIL Description A UTC timestamp represented by the first 6 bytes (bits 0-47) of an ETOD value. This is the resolved HOLDUNTL value for the job (from JCL or JES2 symbol on the internal reader interface), if provided by the primary subsystem</description>
+    </item>
+    
+    <item>
       <title>Field - hpt_invalid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hpt_invalid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1651,8 +1841,8 @@ Map: SMF30SAP Based on: SMF30HVA Description High water mark for the number of a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hwm_real_storage/</guid>
-      <description>High water mark for the number of real storage frames used to back 64-bit private storage
-Map: SMF30SAP Based on: SMF30HVR Description High water mark for the number of real storage frames used to back 64-bit private storage</description>
+      <description>High water mark for the number of real storage frames that is used to back 64-bit private storage. The high water mark does not include 2G frames.
+Map: SMF30SAP Based on: SMF30HVR Description High water mark for the number of real storage frames that is used to back 64-bit private storage. The high water mark does not include 2G frames.</description>
     </item>
     
     <item>
@@ -1661,8 +1851,8 @@ Map: SMF30SAP Based on: SMF30HVR Description High water mark for the number of r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hwm_shared_step/</guid>
-      <description>High water mark for the number of bytes of 64-bit shared this step/job has access to
-Map: SMF30SAP Based on: SMF30HSH Description High water mark for the number of bytes of 64-bit shared this step/job has access to</description>
+      <description>High water mark for the number of usable bytes of 64-bit IARV64 REQUEST=SHAREMEMOBJ shared storage to which this step or job has access. This does not include guard areas which are, by definition, not usable.
+Map: SMF30SAP Based on: SMF30HSH Description High water mark for the number of usable bytes of 64-bit IARV64 REQUEST=SHAREMEMOBJ shared storage to which this step or job has access. This does not include guard areas which are, by definition, not usable.</description>
     </item>
     
     <item>
@@ -1671,8 +1861,28 @@ Map: SMF30SAP Based on: SMF30HSH Description High water mark for the number of b
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hwm_usable_prvt/</guid>
-      <description>High water mark for the number of usable bytes of 64-bit private obtained by this step/job. This does not include guarded virtual storage
-Map: SMF30SAP Based on: SMF30HVH Description High water mark for the number of usable bytes of 64-bit private obtained by this step/job. This does not include guarded virtual storage</description>
+      <description>High water mark for the number of usable bytes of 64-bit private storage that is obtained by this step or job. This does not include guarded virtual storage. Note: this is not the amount of 64-bit High Virtual storage that is charged toward the MEMLIMIT as it includes IARV64 MEMLIMIT=NO storage as well.
+Map: SMF30SAP Based on: SMF30HVH Description High water mark for the number of usable bytes of 64-bit private storage that is obtained by this step or job.</description>
+    </item>
+    
+    <item>
+      <title>Field - hwmhvreal1m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hwmhvreal1m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/hwmhvreal1m/</guid>
+      <description>High water mark for the number, in 1M units, of real frames (includes Dedicated Memory) backing 64-bit virtual private storage for all frame types (4K, 1M and 2G) within the scope of the record, either for the current interval, job step or job.
+Map: SMF30SAP Based on: SMF30_HWMHVREAL1M Description High water mark for the number, in 1M units, of real frames (includes Dedicated Memory) backing 64-bit virtual private storage for all frame types (4K, 1M and 2G) within the scope of the record, either for the current interval, job step or job.</description>
+    </item>
+    
+    <item>
+      <title>Field - iarv64obtainshomespace</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/iarv64obtainshomespace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/iarv64obtainshomespace/</guid>
+      <description>Number of IARV64 GETSTOR and GETCOMMON requests within the scope of the record, either for the current interval, job step or job. Results are for the home address space at the time of the invocation.
+Map: SMF30SAP Based on: SMF30_IARV64OBTAINSHOMESPACE Description Number of IARV64 GETSTOR and GETCOMMON requests within the scope of the record, either for the current interval, job step or job. Results are for the home address space at the time of the invocation.</description>
     </item>
     
     <item>
@@ -2245,6 +2455,26 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     </item>
     
     <item>
+      <title>Field - jclid1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jclid1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jclid1/</guid>
+      <description>JES-computed binary identifier for the job that was submitted (using method 1), if provided by the primary subsystem
+Map: SMF30ID Based on: SMF30JCLID1 Description JES-computed binary identifier for the job that was submitted (using method 1), if provided by the primary subsystem</description>
+    </item>
+    
+    <item>
+      <title>Field - jclid2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jclid2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jclid2/</guid>
+      <description>JES-computed binary identifier for the job that was submitted (using method 2), if provided by the primary subsystem
+Map: SMF30ID Based on: SMF30JCLID2 Description JES-computed binary identifier for the job that was submitted (using method 2), if provided by the primary subsystem</description>
+    </item>
+    
+    <item>
       <title>Field - jes_input_priority</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jes_input_priority/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2357,6 +2587,16 @@ Map: SMF30PRF Based on: SMF30JQT Description JCL conversion time for batch jobs,
     </item>
     
     <item>
+      <title>Field - jobtoken</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jobtoken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jobtoken/</guid>
+      <description>Binary identifier for the job, if provided by the primary subsystem
+Map: SMF30ID Based on: SMF30JOBTOKEN Description Binary identifier for the job, if provided by the primary subsystem</description>
+    </item>
+    
+    <item>
       <title>Field - jva_invalid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/jva_invalid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2447,8 +2687,8 @@ Map: SMF30SAP Based on: SMF30URB Description MAX VIRTUAL SPACE ALLOCATED FROM TH
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/mem_limit/</guid>
-      <description>MEMLIMIT value in 1MB units as determined at step initialization time, after IEFUSI processing. An increase in the system default memlimit value is not reflected here. This field&amp;rsquo;s maximum value is &amp;lsquo;00000FFFFFFFF000&amp;rsquo;x which is equivalent to MEMLIMIT having no limit.
-Map: SMF30SAP Based on: SMF30MEM Description MEMLIMIT value in 1MB units as determined at step initialization time, after IEFUSI processing. An increase in the system default memlimit value is not reflected here.</description>
+      <description>MEMLIMIT value in 1MB units as determined at step initialization time, after IEFUSI and SMFLIMxx processing. Changes to the MEMLIMIT value after step initialization time are not reflected here. Refer to the related documentation to see how the MEMLIMIT value can change. The maximum value of this field is &amp;lsquo;00000FFFFFFFF000&amp;rsquo;x that is equivalent to MEMLIMIT having no limit.
+Map: SMF30SAP Based on: SMF30MEM Description MEMLIMIT value in 1MB units as determined at step initialization time, after IEFUSI and SMFLIMxx processing.</description>
     </item>
     
     <item>
@@ -2684,6 +2924,16 @@ Record: SMF30S2 Based on: SMF30NPO Description Offset to the NNPI counters secti
     </item>
     
     <item>
+      <title>Field - num2gfailed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/num2gfailed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/num2gfailed/</guid>
+      <description>Number of 2G frames that could not be obtained because none were available at the time of the IARV64 request
+Map: SMF30SAP Based on: SMF30_NUM2GFAILED Description Number of 2G frames that could not be obtained because none were available at the time of the IARV64 request</description>
+    </item>
+    
+    <item>
       <title>Field - numberofdataspaceshwm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numberofdataspaceshwm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2691,6 +2941,36 @@ Record: SMF30S2 Based on: SMF30NPO Description Offset to the NNPI counters secti
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numberofdataspaceshwm/</guid>
       <description>The high water mark of the number of data spaces owned by this job step.
 Map: SMF30SAP Based on: SMF30NUMBEROFDATASPACESHWM Description The high water mark of the number of data spaces owned by this job step.</description>
+    </item>
+    
+    <item>
+      <title>Field - numinuseas2ghwm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numinuseas2ghwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numinuseas2ghwm/</guid>
+      <description>Number of 2G frames in use by job step high water mark
+Map: SMF30SAP Based on: SMF30_NUMINUSEAS2GHWM Description Number of 2G frames in use by job step high water mark</description>
+    </item>
+    
+    <item>
+      <title>Field - numsamples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numsamples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/numsamples/</guid>
+      <description>Number of samples for both SMF30_SumReal1M and SMF30_SumSquaresReal1M within the scope of the record, either for the current interval, job step or job.
+Map: SMF30SAP Based on: SMF30_NUMSAMPLES Description Number of samples for both SMF30_SumReal1M and SMF30_SumSquaresReal1M within the scope of the record, either for the current interval, job step or job.</description>
+    </item>
+    
+    <item>
+      <title>Field - obtainshomespace</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/obtainshomespace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/obtainshomespace/</guid>
+      <description>Number of GETMAIN or STORAGE OBTAIN requests within the scope of the record, either for the current interval, job step or job. Results are for the home address space at the time of the invocation.
+Map: SMF30SAP Based on: SMF30_OBTAINSHOMESPACE Description Number of GETMAIN or STORAGE OBTAIN requests within the scope of the record, either for the current interval, job step or job. Results are for the home address space at the time of the invocation.</description>
     </item>
     
     <item>
@@ -2760,8 +3040,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/page_in_num/</guid>
-      <description>NUMBER OF PAGE-INS
-Map: SMF30SAP Based on: SMF30PGI Description NUMBER OF PAGE-INS</description>
+      <description>Number of page ins from auxiliary storage, regardless of the page size (4K or 1M).
+Map: SMF30SAP Based on: SMF30PGI Description Number of page ins from auxiliary storage, regardless of the page size (4K or 1M).</description>
     </item>
     
     <item>
@@ -2770,8 +3050,8 @@ Map: SMF30SAP Based on: SMF30PGI Description NUMBER OF PAGE-INS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/page_out_num/</guid>
-      <description>NUMBER OF PAGE-OUTS
-Map: SMF30SAP Based on: SMF30PGO Description NUMBER OF PAGE-OUTS</description>
+      <description>Number of page outs to auxiliary storage, regardless of the page size (4K or 1M).
+Map: SMF30SAP Based on: SMF30PGO Description Number of page outs to auxiliary storage, regardless of the page size (4K or 1M).</description>
     </item>
     
     <item>
@@ -2790,8 +3070,8 @@ Map: SMF30SAP Based on: SMF30PSF Description Number of CPU page seconds for the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/page_stolen_num/</guid>
-      <description>NUMBER OF PAGES STOLEN FROM HERE
-Map: SMF30SAP Based on: SMF30PST Description NUMBER OF PAGES STOLEN FROM HERE</description>
+      <description>As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.8, this field contained: Number of pages stolen from this address space.
+Map: SMF30SAP Based on: SMF30PST Description As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.8, this field contained: Number of pages stolen from this address space.</description>
     </item>
     
     <item>
@@ -2800,8 +3080,7 @@ Map: SMF30SAP Based on: SMF30PST Description NUMBER OF PAGES STOLEN FROM HERE</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/pagein_aux_central/</guid>
-      <description>NUMBER OF PAGES SWAPPED IN
-Map: SMF30SAP Based on: SMF30PSI Description NUMBER OF PAGES SWAPPED IN</description>
+      <description>As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.8, this field contained: Number of pages swapped in from auxiliary storage to central storage. This field includes: (local system queue area (LSQA), fixed pages, and pages that the real storage manager determined to be active when the address space was swapping in. It does not include page reclaims or pages found in storage during the swap-in process (such as pages brought in by the service request blocks (SRB), started after completion of swap-in Stage 1 processing).</description>
     </item>
     
     <item>
@@ -2840,8 +3119,8 @@ Map: SMF30SAP Based on: SMF30HPI Description HIPERSPACE PAGE-IN COUNT</descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/pageout_central_aux/</guid>
-      <description>NUMBER OF PAGES SWAPPED OUT
-Map: SMF30SAP Based on: SMF30PSO Description NUMBER OF PAGES SWAPPED OUT</description>
+      <description>As of z/OS 1.8, this field is no longer valid. This value will always be zero. Prior to z/OS 1.8, this field contained: Number of pages swapped out from central storage to auxiliary storage. This field includes: local system queue area (LSQA), private area fixed pages, and private area non-fixed changed pages.
+Map: SMF30SAP Based on: SMF30PSO Description As of z/OS 1.8, this field is no longer valid. This value will always be zero.</description>
     </item>
     
     <item>
@@ -3263,8 +3542,8 @@ Map: SMF30ID Based on: SMF30EXN Description OpenMVS Exec&amp;rsquo;ed program na
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/prvt_area_size_above16/</guid>
-      <description>PRIVATE AREA ABOVE 16M IN BYTES
-Map: SMF30SAP Based on: SMF30ERG Description PRIVATE AREA ABOVE 16M IN BYTES</description>
+      <description>Maximum possible above 16MB region size, in bytes.
+Map: SMF30SAP Based on: SMF30ERG Description Maximum possible above 16MB region size, in bytes.</description>
     </item>
     
     <item>
@@ -3273,8 +3552,8 @@ Map: SMF30SAP Based on: SMF30ERG Description PRIVATE AREA ABOVE 16M IN BYTES</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/prvt_area_size_below16/</guid>
-      <description>PRIVATE AREA BELOW 16M IN BYTES
-Map: SMF30SAP Based on: SMF30RGB Description PRIVATE AREA BELOW 16M IN BYTES</description>
+      <description>Maximum possible below 16MB region size, in bytes.
+Map: SMF30SAP Based on: SMF30RGB Description Maximum possible below 16MB region size, in bytes.</description>
     </item>
     
     <item>
@@ -3823,8 +4102,8 @@ Map: SMF30SAP Based on: SMF30PAI Description Number of shared pages that were pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/shared_pagein_exp_num/</guid>
-      <description>Number of shared pages that were paged in from expanded storage in this address space
-Map: SMF30SAP Based on: SMF30PEI Description Number of shared pages that were paged in from expanded storage in this address space</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of IARVSERV shared pages that were paged in from expanded storage in this address space.
+Map: SMF30SAP Based on: SMF30PEI Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of IARVSERV shared pages that were paged in from expanded storage in this address space.</description>
     </item>
     
     <item>
@@ -4355,6 +4634,26 @@ Source value IBM SMF Explorer meaning 1 Job start or start of other work unit. 2
     </item>
     
     <item>
+      <title>Field - sumreal1m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/sumreal1m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/sumreal1m/</guid>
+      <description>Sum of samples of the amount of real memory (includes Dedicated Memory) in 1M units within the scope of the record, either for the current interval, job step or job.
+Map: SMF30SAP Based on: SMF30_SUMREAL1M Description Sum of samples of the amount of real memory (includes Dedicated Memory) in 1M units within the scope of the record, either for the current interval, job step or job.</description>
+    </item>
+    
+    <item>
+      <title>Field - sumsquaresreal1m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/sumsquaresreal1m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/sumsquaresreal1m/</guid>
+      <description>Sum of squared samples of the amount of real memory (includes Dedicated Memory) in 1M units within the scope of the record, either for the current interval, job step or job.
+Map: SMF30SAP Based on: SMF30_SUMSQUARESREAL1M Description Sum of squared samples of the amount of real memory (includes Dedicated Memory) in 1M units within the scope of the record, either for the current interval, job step or job.</description>
+    </item>
+    
+    <item>
       <title>Field - sync_call_num</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/sync_call_num/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4420,8 +4719,8 @@ Map: SMF30SAP Based on: SMF30TIH Description High water mark of TIOT space used 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/time/</guid>
-      <description>Time of Record
-Record: SMF30S2 Based on: SMF30TME </description>
+      <description>RECORD WRITTEN TIME
+Record: SMF30S2 Based on: SMF30TME Description RECORD WRITTEN TIME</description>
     </item>
     
     <item>
@@ -4563,16 +4862,6 @@ Map: SMF30SAP Based on: SMF30TIU Description Current TIOT space used for TIOT en
     </item>
     
     <item>
-      <title>Field - tme</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/tme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/tme/</guid>
-      <description>RECORD WRITTEN TIME
-Record: SMF30S2 Based on: SMF30TME Description RECORD WRITTEN TIME</description>
-    </item>
-    
-    <item>
       <title>Field - tot_active_convs_num</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/tot_active_convs_num/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4709,8 +4998,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/unblock_pagein_exp_num/</guid>
-      <description>NUMBER OF UNBLOCKED PAGES PAGED IN FROM EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30PIE Description NUMBER OF UNBLOCKED PAGES PAGED IN FROM EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of unblocked pages that were paged in from expanded storage.
+Map: SMF30SAP Based on: SMF30PIE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of unblocked pages that were paged in from expanded storage.</description>
     </item>
     
     <item>
@@ -4719,8 +5008,8 @@ Map: SMF30SAP Based on: SMF30PIE Description NUMBER OF UNBLOCKED PAGES PAGED IN 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S2/fields/unblock_pageout_exp_num/</guid>
-      <description>NUMBER OF UNBLOCKED PAGES PAGED OUT TO EXPANDED STORAGE
-Map: SMF30SAP Based on: SMF30POE Description NUMBER OF UNBLOCKED PAGES PAGED OUT TO EXPANDED STORAGE</description>
+      <description>As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of unblocked pages that were paged out to expanded storage.
+Map: SMF30SAP Based on: SMF30POE Description As of z/OS 1.6, this field is no longer valid. This value will always be zero. Prior to z/OS 1.6, this field contained: Number of unblocked pages that were paged out to expanded storage.</description>
     </item>
     
     <item>

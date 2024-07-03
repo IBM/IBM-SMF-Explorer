@@ -552,8 +552,8 @@ Record: SMF72S5 Based on: SMF72COS Description Offset to CML Lock Owner data sec
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/cpa_scaling_factor/</guid>
-      <description>Scaling factor for R723CPA_actual
-Map: R723WMS Based on: R723CPA_SCALING_FACTOR Description Scaling factor for R723CPA_actual</description>
+      <description>Scaling factor for R723CPA_actual and R723CPA_actual_zCBP
+Map: R723WMS Based on: R723CPA_SCALING_FACTOR Description Scaling factor for R723CPA_actual and R723CPA_actual_zCBP</description>
     </item>
     
     <item>
@@ -2019,8 +2019,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/normalization_factor_zaap/</guid>
-      <description>Normalization factor for zAAP. Multiply zAAP service times or service units with this value and divide by 256 to calculate the CP equivalent value
-Map: R723WMS Based on: R723NFFI Description Normalization factor for zAAP. Multiply zAAP service times or service units with this value and divide by 256 to calculate the CP equivalent value</description>
+      <description>Normalization factor for zAAP (IFA). Multiply zAAP service times or service units with this value and divide by 256 to calculate the CP equivalent value
+Map: R723WMS Based on: R723NFFI Description Normalization factor for zAAP (IFA). Multiply zAAP service times or service units with this value and divide by 256 to calculate the CP equivalent value</description>
     </item>
     
     <item>
@@ -2682,17 +2682,6 @@ Map: R723SCS Based on: R723CBPI Description Total block page-in from aux count (
     </item>
     
     <item>
-      <title>Field - r723ccimp</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ccimp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ccimp/</guid>
-      <description>Service class period implicitly designated CPU critical
-Map: R723SCS Based on: r723crs1 Description Service class period implicitly designated CPU critical
-Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723crs1.</description>
-    </item>
-    
-    <item>
       <title>Field - r723ccrm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ccrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2986,10 +2975,10 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723crs1/</guid>
-      <description>Service and Report class period flags
-Map: R723SCS Based on: R723CRS1 Description Service and Report class period flags
+      <description>Report class period flags
+Map: R723SCS Based on: R723CRS1 Description Report class period flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description is_heterogeneous 0 This report class period is heterogeneous. r723ccimp 1 Service class period implicitly designated CPU critical </description>
+Field Bit-Position Description is_heterogeneous 0 This report class period is heterogeneous. </description>
     </item>
     
     <item>
@@ -3416,8 +3405,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723ifcu/</guid>
-      <description>zAAP on CP using samples. These are included in R723CCUS
-Map: R723SCS Based on: R723IFCU Description zAAP on CP using samples. These are included in R723CCUS</description>
+      <description>zAAP (IFA) on CP using samples. These are included in R723CCUS
+Map: R723SCS Based on: R723IFCU Description zAAP (IFA) on CP using samples. These are included in R723CCUS</description>
     </item>
     
     <item>
@@ -3439,17 +3428,6 @@ Map: R723SCS Based on: R723LPDP Description CPU time consumed while dispatching 
       <description>At least one zAAP online in sysplex (or local system when not joined to a sysplex)
 Map: R723WMS Based on: r723mfl2 Description At least one zAAP online in sysplex (or local system when not joined to a sysplex)
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723mfl2.</description>
-    </item>
-    
-    <item>
-      <title>Field - r723mbai</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mbai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/r723mbai/</guid>
-      <description>WLM batch initiator management is AI infused
-Map: R723WMS Based on: r723mflg Description WLM batch initiator management is AI infused
-Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r723mflg.</description>
     </item>
     
     <item>
@@ -3557,7 +3535,7 @@ Field Bit-Position Description r723mapo 0 At least one zAAP online in sysplex (o
       <description>Flags
 Map: R723WMS Based on: R723MFLG Description Flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description zaap_crossover 0 Indicates zAAP crossover zaap_honor_prio 1 Indicates zAAP honor priority ziip_honor_prio 2 Indicates zIIP honor priority hismt_failure 3 Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid. honor_prio 4 Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing tenant_report_class 5 Indicator for a tenant report class r723mdis 6 Service class and tenant report class periods that are assoc iated with a resource group and have assigned a discretionary goal are excluded from workload management r723mbai 7 WLM batch initiator management is AI infused </description>
+Field Bit-Position Description zaap_crossover 0 Indicates zAAP (IFA) crossover zaap_honor_prio 1 Indicates zAAP (IFA) honor priority ziip_honor_prio 2 Indicates zIIP honor priority hismt_failure 3 Failure returned by HISMT service. Multithreading maximum capacity numerator values are invalid. honor_prio 4 Indicates ineligibility for honor priority. When ON, specialty engine eligible work in this service class is not offloaded to CPs for help processing tenant_report_class 5 Indicator for a tenant report class r723mdis 6 Service class and tenant report class periods that are assoc iated with a resource group and have assigned a discretionary goal are excluded from workload management </description>
     </item>
     
     <item>
@@ -7567,8 +7545,8 @@ Map: R723SCS Based on: R723CUNK Description Unknown. Dispatchable unit or AS is 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/sample_zaap_delay/</guid>
-      <description>zAAP delay samples
-Map: R723SCS Based on: R723IFAD Description zAAP delay samples</description>
+      <description>zAAP (IFA) delay samples
+Map: R723SCS Based on: R723IFAD Description zAAP (IFA) delay samples</description>
     </item>
     
     <item>
@@ -7577,8 +7555,8 @@ Map: R723SCS Based on: R723IFAD Description zAAP delay samples</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/sample_zaap_using/</guid>
-      <description>zAAP using samples
-Map: R723SCS Based on: R723IFAU Description zAAP using samples</description>
+      <description>zAAP (IFA) using samples
+Map: R723SCS Based on: R723IFAU Description zAAP (IFA) using samples</description>
     </item>
     
     <item>
@@ -7789,16 +7767,8 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format utilization_zaap virtual total_service_units_zaap
-normalization_factor_zaap
-interval_in_milliseconds Percentage zaap utilization utilization_ziip virtual total_service_units_ziip
-normalization_factor_ziip
-interval_in_milliseconds
-cpu_service_coefficient_adjusted Percentage ziip utilization class_goal_value R723CVAL Response time goal - or Execution velocity goal - or zero if discretionary, system or no goal integer sample_server_delay virtual sample_server_prv_paging_delay
-sample_server_vio_paging_delay
-sample_server_hsp_paging_delay
-sample_server_mpl_delay
-sample_server_swapin_delay Server delay samples transaction_inel_delay_time_mean virtual transaction_inel_delay_time</description>
+Name Based on Description Type/Format sample_queue_delay R723CQ Queue delay samples. Work is waiting for a server integer execution_velocity virtual sample_total_using
+sample_total_delay Execution velocity of service class. sample_cpu_delay R723CCDE CPU delay. A TCB or SRB is waiting to be dispatched (other than the first in-line behind sampler) or a TCB is waiting for local lock integer performance_index virtual class_goal_percentile</description>
     </item>
     
     <item>
@@ -9016,8 +8986,8 @@ Record: SMF72S5 Based on: SMF72YDS Description Offset to ENQ SCOPE=SYSTEM data s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/zaap_crossover/</guid>
-      <description>Indicates zAAP crossover
-Map: R723WMS Based on: r723mflg Description Indicates zAAP crossover
+      <description>Indicates zAAP (IFA) crossover
+Map: R723WMS Based on: r723mflg Description Indicates zAAP (IFA) crossover
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r723mflg.</description>
     </item>
     
@@ -9027,8 +8997,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/fields/zaap_honor_prio/</guid>
-      <description>Indicates zAAP honor priority
-Map: R723WMS Based on: r723mflg Description Indicates zAAP honor priority
+      <description>Indicates zAAP (IFA) honor priority
+Map: R723WMS Based on: r723mflg Description Indicates zAAP (IFA) honor priority
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r723mflg.</description>
     </item>
     

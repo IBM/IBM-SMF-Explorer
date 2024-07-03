@@ -14,8 +14,7 @@
 
   <meta name="description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption rg_mem_usage_4k SMF99_RG_MEM_USAGE_4K Amount of memory used by a memory pool normalized to 4K frames. integer slices SMF99_SLICES Number of time slices that work in this group was capped integer timestamp virtual date
-time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages." />
+Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. integer rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the policy) integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 
     <title>Sample - rg_capping | IBM SMF Explorer</title>
 
@@ -43,15 +42,14 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption rg_mem_usage_4k SMF99_RG_MEM_USAGE_4K Amount of memory used by a memory pool normalized to 4K frames. integer slices SMF99_SLICES Number of time slices that work in this group was capped integer timestamp virtual date
-time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages." />
+Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. integer rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the policy) integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/samples/rg_capping/" />
 
 <meta property="article:section" content="Mappings" />
     <meta
       property="article:modified_time"
-      content="2023-07-28T11:41:04+02:00"
+      content="2024-07-02T16:53:42+02:00"
     />
 
 
@@ -59,8 +57,7 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <meta name="twitter:title" content="Sample - rg_capping" />
   <meta name="twitter:description" content="Request for RG and TRG capping data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption rg_mem_usage_4k SMF99_RG_MEM_USAGE_4K Amount of memory used by a memory pool normalized to 4K frames. integer slices SMF99_SLICES Number of time slices that work in this group was capped integer timestamp virtual date
-time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min/max specified in percentages." />
+Name Based on Description Type/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. integer rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the policy) integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags." />
 
 
   <script type="application/ld+json">
@@ -71,7 +68,7 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       "name": "Sample - rg_capping",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/samples/rg_capping/",
       "headline": "Sample - rg_capping",
-      "description": "Request for RG and TRG capping data.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption rg_mem_usage_4k SMF99_RG_MEM_USAGE_4K Amount of memory used by a memory pool normalized to 4K frames. integer slices SMF99_SLICES Number of time slices that work in this group was capped integer timestamp virtual date\ntime Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min\/max specified in percentages.",
+      "description": "Request for RG and TRG capping data.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format rg_mem_fixed_frames_4k SMF99_RG_MEM_FIXED_FRAMES_4K Amount of fixed frames in a memory pool nomalized to 4K frames. integer rg_isp virtual rg_flags Indicates that specialty processor consumption is included in the group consumption max_sr SMF99_MAX_SR Maximum service rate for the group (FFFFFFFF if not specified in the policy) integer rg_mem_shortage_flags processed SMF99_RG_MEM_SHORTAGE_FLAGS Memory Pool shortage flags.",
       "wordCount" : "338",
       "inLanguage": "zos31",
       "isFamilyFriendly": "true",
@@ -84,7 +81,7 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       "copyrightYear" : "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
-      "dateModified": "2023-07-28T11:41:04.00Z",
+      "dateModified": "2024-07-02T16:53:42.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "IBM SMF Explorer",
@@ -293,7 +290,7 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
           
             <span class="flex align-center">
               <svg class="gdoc-icon gdoc_language"><use xlink:href="#"></use></svg>
-              <span>ZOS-3.1</span>
+              <span>ZOS-2.5</span>
             </span>
           
         
@@ -307,12 +304,12 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
               <li>
                 <a
                   class="flex gdoc-language__entry"
-                  title="zOS-2.5"
+                  title="zOS-3.1"
                   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S1/samples/rg_capping/"
                   hreflang="en"
                   lang="en"
                 >
-                  zOS-2.5
+                  zOS-3.1
                 </a>
               </li>
             
@@ -1762,64 +1759,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1881,64 +1820,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4030,64 +3911,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4149,64 +3972,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6374,64 +6139,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6493,54 +6200,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -10164,82 +9823,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -10358,10 +9941,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
         
       
 
-      
-        
-      
-        
       
         
       
@@ -20580,8 +20159,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
     
   </ul>
 
@@ -20643,8 +20220,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
         
       
 
-      
-        
       
         
       
@@ -25977,40 +25552,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -27726,6 +27267,15 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_fixed_frames_4k/"
+>rg_mem_fixed_frames_4k</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_FIXED_FRAMES_4K</td>
+<td>Amount of fixed frames in a memory pool nomalized to 4K frames.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_isp/"
 >rg_isp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
@@ -27739,6 +27289,25 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/max_sr/"
+>max_sr</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_MAX_SR</td>
+<td>Maximum service rate for the group (FFFFFFFF if not specified in the policy)</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_shortage_flags/"
+>rg_mem_shortage_flags</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99_RG_MEM_SHORTAGE_FLAGS</td>
+<td>Memory Pool shortage flags.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_usage_4k/"
 >rg_mem_usage_4k</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_RG_MEM_USAGE_4K</td>
@@ -27748,45 +27317,20 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/slices/"
->slices</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_SLICES</td>
-<td>Number of time slices that work in this group was capped</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System identification (from the SID parameter).</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/date/"
->date</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/time/"
->time</a></td>
-<td>Record Timestamp</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_perc_max/"
->rg_perc_max</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_PERC_MAX</td>
-<td>Percentage max value, if min/max specified in percentages. Or MSU max value if min/max specified in MSU</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_sussup/"
->rg_sussup</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_SUSSUP</td>
-<td>Tenant resource group&rsquo;s aggregated SUP service units. Only valid if SMF99_RG_TRG is ON</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rgname/"
+>rgname</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RGNAME</td>
+<td>name</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27809,19 +27353,6 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_type/"
->rg_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_flags/"
->rg_flags</a></td>
-<td>Type of resource group</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/min_sr/"
 >min_sr</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99_MIN_SR</td>
@@ -27831,10 +27362,59 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_susifa/"
->rg_susifa</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_SUSIFA</td>
-<td>Tenant resource group&rsquo;s aggregated IFA service units. Only valid if SMF99_RG_TRG is ON</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_lacs/"
+>rg_lacs</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_LACS</td>
+<td>Tenant resource group long-term average of CPU service in MSU/h. Only valid if SMF99_RG_TRG is ON</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/act_sr/"
+>act_sr</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_ACT_SR</td>
+<td>Service rate received in last interval on the local system</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_capacity/"
+>rg_capacity</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_flags/"
+>rg_flags</a></td>
+<td>Unit resource group capacity is specified in</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_sussup/"
+>rg_sussup</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_SUSSUP</td>
+<td>Tenant resource group&rsquo;s aggregated SUP service units. Only valid if SMF99_RG_TRG is ON</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_limit/"
+>rg_mem_limit</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_LIMIT</td>
+<td>Maximum memory limit for resource group in Gigabytes</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/slices/"
+>slices</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_SLICES</td>
+<td>Number of time slices that work in this group was capped</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27849,11 +27429,15 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/act_sr/"
->act_sr</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_ACT_SR</td>
-<td>Service rate received in last interval on the local system</td>
-<td>integer</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_type/"
+>rg_type</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_flags/"
+>rg_flags</a></td>
+<td>Type of resource group</td>
+<td></td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27872,70 +27456,36 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rgname/"
->rgname</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RGNAME</td>
-<td>name</td>
-<td>string</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_4k/"
+>rg_mem_discretionary_4k</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_MEM_DISCRETIONARY_4K</td>
+<td>Amount of available disrectionary memory normalized to 4K frames.</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_capacity/"
->rg_capacity</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_susifa/"
+>rg_susifa</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_SUSIFA</td>
+<td>Tenant resource group&rsquo;s aggregated IFA service units. Only valid if SMF99_RG_TRG is ON</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_flags/"
->rg_flags</a></td>
-<td>Unit resource group capacity is specified in</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/date/"
+>date</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/time/"
+>time</a></td>
+<td>Record Timestamp</td>
 <td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_fixed_frames_4k/"
->rg_mem_fixed_frames_4k</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_FIXED_FRAMES_4K</td>
-<td>Amount of fixed frames in a memory pool nomalized to 4K frames.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/max_sr/"
->max_sr</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_MAX_SR</td>
-<td>Maximum service rate for the group (FFFFFFFF if not specified in the policy)</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_limit/"
->rg_mem_limit</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_LIMIT</td>
-<td>Maximum memory limit for resource group in Gigabytes</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_shortage_flags/"
->rg_mem_shortage_flags</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99_RG_MEM_SHORTAGE_FLAGS</td>
-<td>Memory Pool shortage flags.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System identification (from the SID parameter).</td>
-<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27949,19 +27499,10 @@ time Record Timestamp rg_perc_max SMF99_RG_PERC_MAX Percentage max value, if min
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_lacs/"
->rg_lacs</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_LACS</td>
-<td>Tenant resource group long-term average of CPU service in MSU/h. Only valid if SMF99_RG_TRG is ON</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_mem_discretionary_4k/"
->rg_mem_discretionary_4k</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99_RG_MEM_DISCRETIONARY_4K</td>
-<td>Amount of available disrectionary memory normalized to 4K frames.</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S1/fields/rg_perc_max/"
+>rg_perc_max</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99_RG_PERC_MAX</td>
+<td>Percentage max value, if min/max specified in percentages. Or MSU max value if min/max specified in MSU</td>
 <td>integer</td>
 </tr>
 </tbody>

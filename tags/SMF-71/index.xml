@@ -983,6 +983,387 @@ Record: SMF71S1 Based on: SMF71DTE </description>
     </item>
     
     <item>
+      <title>Field - dmemassignable2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassignable2g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassignable2g/</guid>
+      <description>Total amount of dedicated memory at system initialization that can be used by address spaces in 2G units. Note: This field does not include dedicated memory used by the system. (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMASSIGNABLE2G Description Total amount of dedicated memory at system initialization that can be used by address spaces in 2G units. Note: This field does not include dedicated memory used by the system. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemassigned2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_a/</guid>
+      <description>Average amount of assigned dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMASSIGNED2G_A Description Average amount of assigned dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemassigned2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_m/</guid>
+      <description>Minimum amount of assigned dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMASSIGNED2G_M Description Minimum amount of assigned dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemassigned2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemassigned2g_x/</guid>
+      <description>Maximum amount of assigned dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMASSIGNED2G_X Description Maximum amount of assigned dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemavailable2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_a/</guid>
+      <description>Average amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMAVAILABLE2G_A Description Average amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemavailable2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_m/</guid>
+      <description>Minimum amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMAVAILABLE2G_M Description Minimum amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemavailable2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemavailable2g_x/</guid>
+      <description>Maximum amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMAVAILABLE2G_X Description Maximum amount of available dedicated memory in 2G units that can be used by address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemi/</guid>
+      <description>Dedicated memory usage counts are invalid
+Map: SMF71PAG Based on: rfl Description Dedicated memory usage counts are invalid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field rfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mfixed_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_a/</guid>
+      <description>Average amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MFIXED_A Description Average amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mfixed_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_m/</guid>
+      <description>Minimum amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MFIXED_M Description Minimum amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mfixed_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mfixed_x/</guid>
+      <description>Maximum amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MFIXED_X Description Maximum amount of dedicated memory used as 1M fixed frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mpageable_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_a/</guid>
+      <description>Average amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MPAGEABLE_A Description Average amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mpageable_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_m/</guid>
+      <description>Minimum amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MPAGEABLE_M Description Minimum amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas1mpageable_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas1mpageable_x/</guid>
+      <description>Maximum amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS1MPAGEABLE_X Description Maximum amount of dedicated memory used as 1M pageable frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_a/</guid>
+      <description>Average amount of dedicated memory used as 2G frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS2G_A Description Average amount of dedicated memory used as 2G frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_m/</guid>
+      <description>Minimum amount of dedicated memory used as 2G frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS2G_M Description Minimum amount of dedicated memory used as 2G frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas2g_x/</guid>
+      <description>Maximum amount of dedicated memory used as 2G frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS2G_X Description Maximum amount of dedicated memory used as 2G frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas4k_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_a/</guid>
+      <description>Average amount of dedicated memory used as 4K frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS4K_A Description Average amount of dedicated memory used as 4K frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas4k_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_m/</guid>
+      <description>Minimum amount of dedicated memory used as 4K frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS4K_M Description Minimum amount of dedicated memory used as 4K frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseas4k_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseas4k_x/</guid>
+      <description>Maximum amount of dedicated memory used as 4K frames over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEAS4K_X Description Maximum amount of dedicated memory used as 4K frames over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseasdattables4k_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_a/</guid>
+      <description>Average number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEASDATTABLES4K_A Description Average number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseasdattables4k_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_m/</guid>
+      <description>Minimum number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEASDATTABLES4K_M Description Minimum number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmeminuseasdattables4k_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmeminuseasdattables4k_x/</guid>
+      <description>Maximum number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMINUSEASDATTABLES4K_X Description Maximum number of dedicated memory frames in 4K units backing DAT tables (system use) (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemminrequested2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_a/</guid>
+      <description>Average minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMMINREQUESTED2G_A Description Average minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemminrequested2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_m/</guid>
+      <description>Lowest minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMMINREQUESTED2G_M Description Lowest minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemminrequested2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemminrequested2g_x/</guid>
+      <description>Highest minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMMINREQUESTED2G_X Description Highest minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnumberofjobsusingdmem_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_a/</guid>
+      <description>Average number of address spaces using dedicated memory (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMNUMBEROFJOBSUSINGDMEM_A Description Average number of address spaces using dedicated memory (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnumberofjobsusingdmem_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_m/</guid>
+      <description>Minimum number of address spaces using dedicated memory (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMNUMBEROFJOBSUSINGDMEM_M Description Minimum number of address spaces using dedicated memory (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemnumberofjobsusingdmem_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemnumberofjobsusingdmem_x/</guid>
+      <description>Maximum number of address spaces using dedicated memory (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMNUMBEROFJOBSUSINGDMEM_X Description Maximum number of address spaces using dedicated memory (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemrequested2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_a/</guid>
+      <description>Average amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMREQUESTED2G_A Description Average amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemrequested2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_m/</guid>
+      <description>Minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMREQUESTED2G_M Description Minimum amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemrequested2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemrequested2g_x/</guid>
+      <description>Maximum amount of requested dedicated memory in 2G units over all address spaces (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMREQUESTED2G_X Description Maximum amount of requested dedicated memory in 2G units over all address spaces (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotal2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_a/</guid>
+      <description>Average amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTAL2G_A Description Average amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotal2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_m/</guid>
+      <description>Minimum amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTAL2G_M Description Minimum amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotal2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotal2g_x/</guid>
+      <description>Maximum amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTAL2G_X Description Maximum amount of online and offline dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotalonline2g_a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_a/</guid>
+      <description>Average amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTALONLINE2G_A Description Average amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotalonline2g_m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_m/</guid>
+      <description>Minimum amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTALONLINE2G_M Description Minimum amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - dmemtotalonline2g_x</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/dmemtotalonline2g_x/</guid>
+      <description>Maximum amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)
+Map: SMF71PAG Based on: SMF71_DMEMTOTALONLINE2G_X Description Maximum amount of online dedicated memory in 2G units, including dedicated memory used by the system (long floating point)</description>
+    </item>
+    
+    <item>
       <title>Field - drc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf71/SMF71S1/fields/drc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2870,7 +3251,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
       <description>Flags
 Map: SMF71PAG Based on: SMF71RFL Description Flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description scm 0 SCM support enabled plp 1 Pageable Large Pages support enabled </description>
+Field Bit-Position Description scm 0 SCM support enabled plp 1 Pageable Large Pages support enabled dmemi 2 Dedicated memory usage counts are invalid </description>
     </item>
     
     <item>

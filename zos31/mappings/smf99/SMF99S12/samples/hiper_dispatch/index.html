@@ -14,7 +14,8 @@
 
   <meta name="description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
+Name Based on Description Type/Format vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrunpark processed SMF99C_VCM_MVSBUSYDYNATHRUNPARK Dynamic MvsBusy threshhold for unparking scaled by 16 integer lpar_busy virtual lpar_capacity_used
+cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip; lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds." />
 
     <title>Sample - hiper_dispatch | IBM SMF Explorer</title>
 
@@ -42,14 +43,15 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
+Name Based on Description Type/Format vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrunpark processed SMF99C_VCM_MVSBUSYDYNATHRUNPARK Dynamic MvsBusy threshhold for unparking scaled by 16 integer lpar_busy virtual lpar_capacity_used
+cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/samples/hiper_dispatch/" />
 
 <meta property="article:section" content="Mappings" />
     <meta
       property="article:modified_time"
-      content="2023-07-28T11:41:04+02:00"
+      content="2024-07-02T16:53:42+02:00"
     />
 
 
@@ -57,7 +59,8 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <meta name="twitter:title" content="Sample - hiper_dispatch" />
   <meta name="twitter:description" content="Request hiper dispatch information per processor type.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM &#43; VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99." />
+Name Based on Description Type/Format vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrunpark processed SMF99C_VCM_MVSBUSYDYNATHRUNPARK Dynamic MvsBusy threshhold for unparking scaled by 16 integer lpar_busy virtual lpar_capacity_used
+cpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds." />
 
 
   <script type="application/ld+json">
@@ -68,7 +71,7 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       "name": "Sample - hiper_dispatch",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/samples/hiper_dispatch/",
       "headline": "Sample - hiper_dispatch",
-      "description": "Request hiper dispatch information per processor type.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR. integer vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrpark processed SMF99C_VCM_MVSBUSYDYNATHRPARK Dynamic MvsBusy threshhold for parking scaled by 16 integer vm_vl_cap_above_guaranteed processed SMF99C_VCM_LPARCAPVMVLUSEDOVERGUARAN Percentage of guaranteed VM capacity used by VM \u002b VL, scaled by 256 integer lpar_busy_projected processed SMF99C_VCM_MVSBUSYPROJECTED Projected MvsBusy, scaled by 16 integer mvs_busy processed SMF99C_VCM_MVSBUSY Average CPU usage scaled by 16 integer cpu_type virtual hd_int_cap_proctype SMF99.",
+      "description": "Request hiper dispatch information per processor type.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format vcm_projvhmutil SMF99C_VCM_PROJVHMUTIL Projected VH utilization (or projected VM utilization if there is no VH in the topology) if one VL would have been parked integer vcm_mvsbusydynathrunpark processed SMF99C_VCM_MVSBUSYDYNATHRUNPARK Dynamic MvsBusy threshhold for unparking scaled by 16 integer lpar_busy virtual lpar_capacity_used\ncpu_total Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte… lpar_capacity_guaranteed SMF99C_VCM_LPARCAPGUARAN Guaranteed LPAR capcacity in microseconds.",
       "wordCount" : "439",
       "inLanguage": "zos31",
       "isFamilyFriendly": "true",
@@ -81,7 +84,7 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       "copyrightYear" : "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
-      "dateModified": "2023-07-28T11:41:04.00Z",
+      "dateModified": "2024-07-02T16:53:42.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "IBM SMF Explorer",
@@ -290,7 +293,7 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
           
             <span class="flex align-center">
               <svg class="gdoc-icon gdoc_language"><use xlink:href="#"></use></svg>
-              <span>ZOS-3.1</span>
+              <span>ZOS-2.5</span>
             </span>
           
         
@@ -304,12 +307,12 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
               <li>
                 <a
                   class="flex gdoc-language__entry"
-                  title="zOS-2.5"
+                  title="zOS-3.1"
                   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S12/samples/hiper_dispatch/"
                   hreflang="en"
                   lang="en"
                 >
-                  zOS-2.5
+                  zOS-3.1
                 </a>
               </li>
             
@@ -1759,64 +1762,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -1878,64 +1823,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -4027,64 +3914,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -4146,64 +3975,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -6371,64 +6142,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -6490,54 +6203,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
         
       
 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
       
         
       
@@ -10161,82 +9826,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -10355,10 +9944,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
         
       
 
-      
-        
-      
-        
       
         
       
@@ -20577,8 +20162,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
     
   </ul>
 
@@ -20640,8 +20223,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
         
       
 
-      
-        
       
         
       
@@ -25974,40 +25555,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
   </ul>
 
@@ -27723,15 +27270,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed/"
->lpar_capacity_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPGUARAN</td>
-<td>Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_projvhmutil/"
 >vcm_projvhmutil</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99C_VCM_PROJVHMUTIL</td>
@@ -27741,11 +27279,36 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrpark/"
->vcm_mvsbusydynathrpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrunpark/"
+>vcm_mvsbusydynathrunpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
 </span></span></td>
-<td>SMF99C_VCM_MVSBUSYDYNATHRPARK</td>
-<td>Dynamic MvsBusy threshhold for parking scaled by 16</td>
+<td>SMF99C_VCM_MVSBUSYDYNATHRUNPARK</td>
+<td>Dynamic MvsBusy threshhold for unparking scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy/"
+>lpar_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
+>lpar_capacity_used</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_total/"
+>cpu_total</a></td>
+<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip;</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed/"
+>lpar_capacity_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPGUARAN</td>
+<td>Guaranteed LPAR capcacity in microseconds. This value is calculated from the physical processor share of this LPAR.</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27761,11 +27324,47 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy_projected/"
->lpar_busy_projected</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_non_guaranteed/"
+>lpar_capacity_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPNONGUARAN</td>
+<td>Non guaranteed LPAR capacity in microseconds</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_cap_used_non_guaranteed/"
+>lpar_cap_used_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDDISCR</td>
+<td>Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_utilization/"
+>cec_utilization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
 </span></span></td>
-<td>SMF99C_VCM_MVSBUSYPROJECTED</td>
-<td>Projected MvsBusy, scaled by 16</td>
+<td>SMF99C_VCM_CECUTIL</td>
+<td>Total CEC utilization, scaled by 256</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vl/"
+>cpu_vl</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPULO</td>
+<td>Number VLs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_free_capacity/"
+>cec_free_capacity</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CECCAPFREE</td>
+<td>Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27776,6 +27375,70 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 </span></span></td>
 <td>SMF99C_VCM_MVSBUSY</td>
 <td>Average CPU usage scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_unused/"
+>lpar_capacity_unused</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARUNUSEDCAP</td>
+<td>Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System identification (from the SID parameter).</td>
+<td>string</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_ceccaptotal/"
+>vcm_ceccaptotal</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CECCAPTOTAL</td>
+<td>Total CEC capacity in microseconds</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrpark/"
+>vcm_mvsbusydynathrpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_MVSBUSYDYNATHRPARK</td>
+<td>Dynamic MvsBusy threshhold for parking scaled by 16</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vh/"
+>cpu_vh</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPUHI</td>
+<td>Number VHs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vm/"
+>cpu_vm</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPUMED</td>
+<td>Number of VMs</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
+>lpar_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDADJ</td>
+<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27794,53 +27457,10 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vh/"
->cpu_vh</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPUHI</td>
-<td>Number VHs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vh/"
->lpar_capacity_used_vh</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDVHADJ</td>
-<td>Used VH capacity of previous interval in microseconds</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/date/"
->date</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/time/"
->time</a></td>
-<td>Record Timestamp</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vm/"
->cpu_vm</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPUMED</td>
-<td>Number of VMs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_ceccaptotal/"
->vcm_ceccaptotal</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CECCAPTOTAL</td>
-<td>Total CEC capacity in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_allocated/"
+>lpar_capacity_allocated</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPALLOC</td>
+<td>Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -27898,80 +27518,6 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_cap_used_non_guaranteed/"
->lpar_cap_used_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDDISCR</td>
-<td>Used capacity of the non-guaranteed capacity (partially VM and unparked VLs) in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_free_capacity/"
->cec_free_capacity</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CECCAPFREE</td>
-<td>Free CEC capacity in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cec_utilization/"
->cec_utilization</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_CECUTIL</td>
-<td>Total CEC utilization, scaled by 256</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_vl/"
->cpu_vl</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPULO</td>
-<td>Number VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_allocated/"
->lpar_capacity_allocated</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPALLOC</td>
-<td>Allocated LPAR capcacity in microseconds. The allocated capacity is provided by the guaranteed capacity on VHs and VMs, plus extra capacity on VMs and unparked VLs</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_unused/"
->lpar_capacity_unused</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARUNUSEDCAP</td>
-<td>Unused LPAR capacity in microseconds, including the unused capacity share for this LPAR</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
->lpar_capacity_used</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDADJ</td>
-<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM interval length</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vcm_mvsbusydynathrunpark/"
->vcm_mvsbusydynathrunpark</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99C_VCM_MVSBUSYDYNATHRUNPARK</td>
-<td>Dynamic MvsBusy threshhold for unparking scaled by 16</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_parked/"
 >vl_parked</a><span style="white-space: nowrap;"></span></span></td>
 <td>SMF99C_VCM_CPULOPARKED</td>
@@ -27981,10 +27527,19 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed_vm/"
->lpar_capacity_guaranteed_vm</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPMEDGUARAN</td>
-<td>Guaranteed LPAR capacity on VMs in microseconds</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vm_vl/"
+>lpar_capacity_used_vm_vl</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDVMVL</td>
+<td>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_unparked/"
+>vl_unparked</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_CPULOUNPARKED</td>
+<td>Number of unparked VLs</td>
 <td>integer</td>
 </tr>
 <tr>
@@ -28042,55 +27597,37 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System identification (from the SID parameter).</td>
-<td>string</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vh/"
+>lpar_capacity_used_vh</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPUSEDVHADJ</td>
+<td>Used VH capacity of previous interval in microseconds</td>
+<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_capacity_of_allocated/"
->vm_vl_capacity_of_allocated</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy_projected/"
+>lpar_busy_projected</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
 </span></span></td>
-<td>SMF99C_VCM_LPARCAPVMVLUSEDOFALLOC</td>
-<td>Percentage used of allocated VM + VL capacity, scaled by 256</td>
+<td>SMF99C_VCM_MVSBUSYPROJECTED</td>
+<td>Projected MvsBusy, scaled by 16</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_non_guaranteed/"
->lpar_capacity_non_guaranteed</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPNONGUARAN</td>
-<td>Non guaranteed LPAR capacity in microseconds</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_busy/"
->lpar_busy</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used/"
->lpar_capacity_used</a><br><a
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/date/"
+>date</a><br><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/cpu_total/"
->cpu_total</a></td>
-<td>Used LPAR capacity in microseconds, adjusted to the scheduled VCM inte&hellip;</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/time/"
+>time</a></td>
+<td>Record Timestamp</td>
 <td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_allocated_capacity/"
->vm_vl_allocated_capacity</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPALLOCVMVL</td>
-<td>Allocated LPAR capacity on VMs and VLs in microseconds</td>
-<td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -28104,19 +27641,29 @@ Name Based on Description Type/Format lpar_capacity_guaranteed SMF99C_VCM_LPARCA
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vl_unparked/"
->vl_unparked</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_CPULOUNPARKED</td>
-<td>Number of unparked VLs</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_allocated_capacity/"
+>vm_vl_allocated_capacity</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPALLOCVMVL</td>
+<td>Allocated LPAR capacity on VMs and VLs in microseconds</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_used_vm_vl/"
->lpar_capacity_used_vm_vl</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99C_VCM_LPARCAPUSEDVMVL</td>
-<td>Used capacity on VMs and VLs, adjusted to the scheduled VCM interval length</td>
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/lpar_capacity_guaranteed_vm/"
+>lpar_capacity_guaranteed_vm</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99C_VCM_LPARCAPMEDGUARAN</td>
+<td>Guaranteed LPAR capacity on VMs in microseconds</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S12/fields/vm_vl_capacity_of_allocated/"
+>vm_vl_capacity_of_allocated</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99C_VCM_LPARCAPVMVLUSEDOFALLOC</td>
+<td>Percentage used of allocated VM + VL capacity, scaled by 256</td>
 <td>integer</td>
 </tr>
 </tbody>

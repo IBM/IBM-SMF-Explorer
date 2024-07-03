@@ -1432,8 +1432,8 @@ Map: SMF70LCS Based on: SMF70_CPU_SKIP Description The CPU data sections for thi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/cpu_type/</guid>
-      <description>CPU type: 0 = General purpose CP 1 = zAAP 2 = zIIP
-Map: SMF70CPU Based on: SMF70TYP Description CPU type: 0 = General purpose CP 1 = zAAP 2 = zIIP
+      <description>CPU type: 0 = General purpose CP 1 = zAAP (IFA) 2 = zIIP
+Map: SMF70CPU Based on: SMF70TYP Description CPU type: 0 = General purpose CP 1 = zAAP (IFA) 2 = zIIP
 Post-Processed The source values (SMF) are mapped in IBM SMF Explorer as follows:
 Source value IBM SMF Explorer meaning 0 CP 1 zAAP 2 zIIP default Unknown </description>
     </item>
@@ -2540,8 +2540,8 @@ Map: SMF70PRO Based on: SMF70IET Description Interval expiration time token</des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/fields/ifa_online/</guid>
-      <description>zAAPs online at the end of the interval
-Map: SMF70CTL Based on: SMF70IFA Description zAAPs online at the end of the interval</description>
+      <description>zAAPs (IFAs) online at the end of the interval
+Map: SMF70CTL Based on: SMF70IFA Description zAAPs (IFAs) online at the end of the interval</description>
     </item>
     
     <item>
@@ -4416,9 +4416,7 @@ Record: SMF70S2 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format utilization_per_cpu_physical virtual dispatch_time_total
-logical_processor_online_time
-cpu_count Physical per CPU Utilization logical_processor_is_online virtual logical_processor_online_time Logical processor is online for the given partition share_maximum SMF70MAS Processor maximum share integer dispatch_time_total SMF70PDT Logical processor total dispatch time, in microseconds. When associated with partition name PHYSICAL, this field contains the accumulated number of microseconds during which a physical CPU was busy but the time could not be attributed to a specific logical partition.</description>
+Name Based on Description Type/Format cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA). integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.</description>
     </item>
     
     <item>

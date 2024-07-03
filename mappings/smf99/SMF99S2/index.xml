@@ -6,6 +6,176 @@
     <description>Recent content in SMF 99 Subtype  2 on IBM SMF Explorer</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Field - ai_data0</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data0/</guid>
+      <description>Timestamp of last inference result in TOD format
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA0 Description Timestamp of last inference result in TOD format</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data2/</guid>
+      <description>AI data: active server prediction error
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA2 Description AI data: active server prediction error</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data3/</guid>
+      <description>AI data: cp service prediction
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA3 Description AI data: cp service prediction</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data4/</guid>
+      <description>AI data: cp service prediction error
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA4 Description AI data: cp service prediction error</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data5/</guid>
+      <description>AI data: ziip service prediction
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA5 Description AI data: ziip service prediction</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data6</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data6/</guid>
+      <description>AI data: ziip service prediction error
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA6 Description AI data: ziip service prediction error</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data7</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data7/</guid>
+      <description>AI data: model data fetch time
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA7 Description AI data: model data fetch time</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_data8</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_data8/</guid>
+      <description>AI data: model processing time
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA8 Description AI data: model processing time</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_flags</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_flags/</guid>
+      <description>AI flags
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_FLAGS Description AI flags</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_inference_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_inference_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_inference_time/</guid>
+      <description>Duration of last inference request in TOD format
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_INFTIME Description Duration of last inference request in TOD format</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_ln/</guid>
+      <description>Length of AI entry
+Map: SMF99_S2_PER_MAP Based on: SMF99_AI_LN Description Length of AI entry</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_modelname</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelname/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelname/</guid>
+      <description>Model name identifier
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_MODELNAME Description Model name identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_modelusecase</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelusecase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelusecase/</guid>
+      <description>Model use case identifier
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_MODELUSECASE Description Model use case identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_modelversion</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_modelversion/</guid>
+      <description>Model version
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_MODELVERSION Description Model version</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_of</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_of/</guid>
+      <description>Offset to AI section from beginning of record (including RDW)
+Map: SMF99_S2_PER_MAP Based on: SMF99_AI_OF Description Offset to AI section from beginning of record (including RDW)</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_on</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_on/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_on/</guid>
+      <description>Number of AI entries
+Map: SMF99_S2_PER_MAP Based on: SMF99_AI_ON Description Number of AI entries</description>
+    </item>
+    
+    <item>
+      <title>Field - ai_prediction</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/ai_prediction/</guid>
+      <description>AI data: active server prediction
+Map: SMF99_S2_AI_DATA_MAP Based on: SMF99_S2_AI_DATA1 Description AI data: active server prediction</description>
+    </item>
+    
+    <item>
       <title>Field - as_ba_brkloc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_ba_brkloc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -440,8 +610,8 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_SERVICE Description Transaction serv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbp_service/</guid>
-      <description>Transaction service units on zCBP reported for PBs running in this address space - OucbxPBzCBP
-Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBP_SERVICE Description Transaction service units on zCBP reported for PBs running in this address space - OucbxPBzCBP</description>
+      <description>For IBM use only
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBP_SERVICE Description For IBM use only</description>
     </item>
     
     <item>
@@ -450,8 +620,8 @@ Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBP_SERVICE Description Transaction
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/as_pb_zcbponcp_service/</guid>
-      <description>Transaction service units on standard CP that were zCBP eligible reported for PBs running in this address space - OucbxPBzCBPOnCP
-Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBPONCP_SERVICE Description Transaction service units on standard CP that were zCBP eligible reported for PBs running in this address space - OucbxPBzCBPOnCP</description>
+      <description>For IBM use only
+Map: SMF99_AS_ESP_MAP Based on: SMF99_AS_PB_ZCBPONCP_SERVICE Description For IBM use only</description>
     </item>
     
     <item>
@@ -1102,7 +1272,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/io_samples/</guid>
       <description>Request IO samples for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer srv_class_name SMF99_CNAM service class name string samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer period_num SMF99_PNUM period number integer sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format sid SMF99SID System identification (from the SID parameter). string timestamp virtual date
+time Record Timestamp srv_class_name SMF99_CNAM service class name string samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer period_num SMF99_PNUM period number integer samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer </description>
     </item>
     
     <item>
@@ -2619,7 +2790,7 @@ Map: SMF99_S2_CLS_MAP Based on: SMF99_CGRN Description group name or blank if cl
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/response_time/</guid>
       <description>Request sampling information for response time distribution.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer rt_distri_num_trans[16] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[11] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[1] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[9] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer period_num SMF99_PNUM period number integer rt_distri_num_trans[10] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[23] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[24] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_sum_trans SMF99_RT_DISTRI_SUM_TRANS Response time distribution total number of transactions completed integer rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[17] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[27] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format prtp SMF99_PRTP Response time goal percentile. Zero if period does not have a percentile response time goal. integer period_imp SMF99_PIMPOR importance integer srv_class_name SMF99_CNAM service class name string rt_distri_num_trans[21] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[20] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[2] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_num_trans[0] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_avg_resp_time SMF99_RT_DISTRI_AVG_RESP_TIME Response time distribution average response time integer rt_distri_num_trans[22] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer rt_distri_int_sum_trans SMF99_RT_DISTRI_INT_SUM_TRANS Response time distribution total number of transactions completed during last interval integer rt_distri_num_trans[25] array SMF99_RT_DISTRI_NUM_TRANS Response time distribution, 28 buckets integer timestamp virtual date</description>
     </item>
     
     <item>
@@ -3245,7 +3416,7 @@ Map: SMF99_PRODUCT_MAP Based on: SMF99SLV Description System level from which re
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/smf_99_02_sample/</guid>
       <description>Request for commonly used SMF 99 Subtype 2 data.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format ready_user_av SMF99_PRUA Ready user average integer mpl_delay SMF99_PMPLD MPL Delay integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer srv_class_name SMF99_CNAM service class name string mpl_in SMF99_PMPLI MPL in-target integer period_num SMF99_PNUM period number integer io_using SMF99_PIOU I/O using samples integer ziip_using SMF99_PSUPU SUP using samples integer zaap_delay SMF99_PIFAD IFA delay samples integer cap_delay SMF99_PCAPD CPU CAP delay integer samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer ziip_delay SMF99_PSUPD SUP delay samples integer mpl_av SMF99_PAMTA Average Maximum MPL Target achieved integer disp_prio SMF99_PBDP base dispatching priority integer pi_local processed SMF99_PLPI local performance index integer samp_io_unit_queue SMF99_CUQT_IOSM_CURR DASD I/O control unit queue samples for the current interval integer cross_mem_delay SMF99_PXMO Cross memory other delays integer zaap_using SMF99_PIFAU IFA using samples integer samp_io_delay SMF99_DELAY_IOSM_CURR DASD I/O delay samples for the current interval integer idle SMF99_PIDLE idle samples integer sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format ready_user_av SMF99_PRUA Ready user average integer period_imp SMF99_PIMPOR importance integer srv_class_name SMF99_CNAM service class name string ziip_delay SMF99_PSUPD SUP delay samples integer samp_io_using SMF99_USING_IOSM_CURR DASD I/O using samples for the current interval integer samp_io_disconnected SMF99_DISC_IOSM_CURR DASD I/O disconnect samples for the current interval integer disp_prio SMF99_PBDP base dispatching priority integer idle SMF99_PIDLE idle samples integer pi_local processed SMF99_PLPI local performance index integer timestamp virtual date</description>
     </item>
     
     <item>
@@ -3324,8 +3495,8 @@ Map: SMF99_SPECRPT Based on: SMF99_SPECOFFLOADONCP2 Description word 2</descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbp/</guid>
-      <description>Transaction service units on zCBP
-Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBP Description Transaction service units on zCBP</description>
+      <description>Not available
+Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBP Description Not available</description>
     </item>
     
     <item>
@@ -3334,8 +3505,8 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBP Description Transaction service u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/fields/speczcbponcp/</guid>
-      <description>Transaction service units on standard CP that were zCBP eligible
-Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBPONCP Description Transaction service units on standard CP that were zCBP eligible</description>
+      <description>Not available
+Map: SMF99_S2_PER_MAP Based on: SMF99_SPECZCBPONCP Description Not available</description>
     </item>
     
     <item>
@@ -3386,7 +3557,8 @@ Map: SMF99_S2_PER_MAP Based on: SMF99_PSERV Description service accumulated duri
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_samples/</guid>
       <description>Request sampling information for service class.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format mpl_delay SMF99_PMPLD MPL Delay integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer io_delay SMF99_PIOD I/O delay samples integer cpu_delay SMF99_PCPUD processor delay samples integer cross_mem_delay SMF99_PXMO Cross memory other delays integer zaap_using SMF99_PIFAU IFA using samples integer srv_class_name SMF99_CNAM service class name string io_using SMF99_PIOU I/O using samples integer idle SMF99_PIDLE idle samples integer ziip_using SMF99_PSUPU SUP using samples integer sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format sid SMF99SID System identification (from the SID parameter). string history_rows SMF99_NUM_SAMP_HIST_ROWS_USED Number of sample history rows used to build sample set integer timestamp virtual date
+time Record Timestamp io_delay SMF99_PIOD I/O delay samples integer mpl_delay SMF99_PMPLD MPL Delay integer srv_class_name SMF99_CNAM service class name string cross_mem_delay SMF99_PXMO Cross memory other delays integer io_using SMF99_PIOU I/O using samples integer cpu_using SMF99_PCPUU processor using samples integer cpu_delay SMF99_PCPUD processor delay samples integer ziip_using SMF99_PSUPU SUP using samples integer ziip_delay SMF99_PSUPD SUP delay samples integer zaap_using SMF99_PIFAU IFA using samples integer buffer_pool_delay SMF99_PBPD buffer pool delay samples integer idle SMF99_PIDLE idle samples integer zaap_delay SMF99_PIFAD IFA delay samples integer cap_delay SMF99_PCAPD CPU CAP delay integer </description>
     </item>
     
     <item>
@@ -3397,8 +3569,8 @@ Name Based on Description Type/Format mpl_delay SMF99_PMPLD MPL Delay integer bu
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S2/samples/srv_service/</guid>
       <description>Request service Class service consumption for CP, zIIP and zAAP.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format srv_ziip_service SMF99_PSSERV Accumulated SUP service integer srv_zaap_service SMF99_PISERV IFA service accumulated during interval integer srv_class_name SMF99_CNAM service class name string period_num SMF99_PNUM period number integer sid SMF99SID System identification (from the SID parameter). string timestamp virtual date
-time Record Timestamp srv_cp_service SMF99_PSERV service accumulated during interval integer </description>
+Name Based on Description Type/Format sid SMF99SID System identification (from the SID parameter). string timestamp virtual date
+time Record Timestamp srv_cp_service SMF99_PSERV service accumulated during interval integer srv_class_name SMF99_CNAM service class name string srv_zaap_service SMF99_PISERV IFA service accumulated during interval integer period_num SMF99_PNUM period number integer srv_ziip_service SMF99_PSSERV Accumulated SUP service integer </description>
     </item>
     
     <item>

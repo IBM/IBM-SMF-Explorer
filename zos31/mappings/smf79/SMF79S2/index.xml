@@ -591,17 +591,6 @@ Map: R792ELEM Based on: R792ASST Description CPU time consumed by preemptible cl
     </item>
     
     <item>
-      <title>Field - r792ccimp</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792ccimp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792ccimp/</guid>
-      <description>CPU protection was implicitly assigned
-Map: R792ELEM Based on: r792flg3 Description CPU protection was implicitly assigned
-Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r792flg3.</description>
-    </item>
-    
-    <item>
       <title>Field - r792cipg</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792cipg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -671,8 +660,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792cpup/</guid>
-      <description>CPU protection was assigned either to the address space or to transaction service classes being served by the space or implicitly
-Map: R792ELEM Based on: r792flg2 Description CPU protection was assigned either to the address space or to transaction service classes being served by the space or implicitly
+      <description>CPU protection was assigned either to the address space or to transaction service classes being served by the space
+Map: R792ELEM Based on: r792flg2 Description CPU protection was assigned either to the address space or to transaction service classes being served by the space
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r792flg2.</description>
     </item>
     
@@ -758,7 +747,7 @@ Field Bit-Position Description r792xm 0 Cross memory address space r792rsm 1 Inv
       <description>Additional flags
 Map: R792ELEM Based on: R792FLG2 Description Additional flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r792cprc 0 Service class assigned by classification or RESET SRVCLASS was designated CPU-critical in the active policy r792cpre 1 Address space matched a classification rule in the active policy which was designated storage-critical r792cpri 2 Address space is serving transactions which belong to a service class that was designated storage-critical in the active policy&amp;rsquo;s classification rule, or is running in SYSTEM/SYSSTC r792cpup 3 CPU protection was assigned either to the address space or to transaction service classes being served by the space or implicitly r792stop 4 Storage protection was assigned either to the address space or to transaction service classes being served by the space r792crmp 5 The dispatch priority of the address space is currently promoted due to a chronic resource contention r792txmb 6 Address space is a CICS TOR that matched a classification rule in the active policy which allows managing the region based on the region goals but also ensures that completed transactions are reported and used for management of the CICS AORs r792nohp 7 Honor priority ineligibility was assigned either to the address space or to transaction service classes being served by the space </description>
+Field Bit-Position Description r792cprc 0 Service class assigned by classification or RESET SRVCLASS was designated CPU-critical in the active policy r792cpre 1 Address space matched a classification rule in the active policy which was designated storage-critical r792cpri 2 Address space is serving transactions which belong to a service class that was designated storage-critical in the active policy&amp;rsquo;s classification rule, or is running in SYSTEM/SYSSTC r792cpup 3 CPU protection was assigned either to the address space or to transaction service classes being served by the space r792stop 4 Storage protection was assigned either to the address space or to transaction service classes being served by the space r792crmp 5 The dispatch priority of the address space is currently promoted due to a chronic resource contention r792txmb 6 Address space is a CICS TOR that matched a classification rule in the active policy which allows managing the region based on the region goals but also ensures that completed transactions are reported and used for management of the CICS AORs r792nohp 7 Honor priority ineligibility was assigned either to the address space or to transaction service classes being served by the space </description>
     </item>
     
     <item>
@@ -904,8 +893,8 @@ Map: R792ELEM Based on: R792LSQR Description LSQA pages in real storage</descrip
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792nffi/</guid>
-      <description>Normalization factor for zAAP service time. Used to convert between real zAAP times and &amp;ldquo;normalized&amp;rdquo; zAAP times, i.e. the equivalent time on a standard CP. Multiply R792TIFA by this value and divide by 256 to calculate the normalized zAAP time
-Map: R792ELEM Based on: R792NFFI Description Normalization factor for zAAP service time. Used to convert between real zAAP times and &amp;ldquo;normalized&amp;rdquo; zAAP times, i.e. the equivalent time on a standard CP.</description>
+      <description>Normalization factor for IFA service time. Used to convert between real IFA times and &amp;ldquo;normalized&amp;rdquo; IFA times, i.e. the equivalent time on a standard CP. Multiply R792TIFA by this value and divide by 256 to calculate the normalized IFA time
+Map: R792ELEM Based on: R792NFFI Description Normalization factor for IFA service time. Used to convert between real IFA times and &amp;ldquo;normalized&amp;rdquo; IFA times, i.e. the equivalent time on a standard CP.</description>
     </item>
     
     <item>
@@ -1231,8 +1220,8 @@ Map: R792ELEM Based on: R792TDEV Description Total device connect time in millis
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792tifa/</guid>
-      <description>CPU time consumed on zAAPs (ASSB_TIME_ON_IFA)
-Map: R792ELEM Based on: R792TIFA Description CPU time consumed on zAAPs (ASSB_TIME_ON_IFA)</description>
+      <description>CPU time consumed on zAAPs (IFAs) (ASSB_TIME_ON_IFA)
+Map: R792ELEM Based on: R792TIFA Description CPU time consumed on zAAPs (IFAs) (ASSB_TIME_ON_IFA)</description>
     </item>
     
     <item>
@@ -1241,8 +1230,8 @@ Map: R792ELEM Based on: R792TIFA Description CPU time consumed on zAAPs (ASSB_TI
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf79/SMF79S2/fields/r792tifc/</guid>
-      <description>CPU time consumed on standard CPs by zAAP eligible work (ASSB_TIME_IFA_ON_CP)
-Map: R792ELEM Based on: R792TIFC Description CPU time consumed on standard CPs by zAAP eligible work (ASSB_TIME_IFA_ON_CP)</description>
+      <description>CPU time consumed on standard CPs by zAAP (IFA) eligible work (ASSB_TIME_IFA_ON_CP)
+Map: R792ELEM Based on: R792TIFC Description CPU time consumed on standard CPs by zAAP (IFA) eligible work (ASSB_TIME_IFA_ON_CP)</description>
     </item>
     
     <item>

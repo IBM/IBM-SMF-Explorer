@@ -14,7 +14,10 @@
 
   <meta name="description" content="Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer topology_change virtual vcm_flag1 topology has changed honor_priority_change virtual vcm_flag1 honor priority has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer sid SMF99SID System identification (from the SID parameter). string cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer speed_change virtual vcm_flag1 processor speed change mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
+Name Based on Description Type/Format processor virtual high
+medium
+low processor type cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer timestamp virtual date
+time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer speed_change virtual vcm_flag1 processor speed change topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
 
     <title>Sample - topology | IBM SMF Explorer</title>
 
@@ -42,14 +45,17 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
   <meta property="og:site_name" content="IBM SMF Explorer" />
   <meta property="og:description" content="Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer topology_change virtual vcm_flag1 topology has changed honor_priority_change virtual vcm_flag1 honor priority has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer sid SMF99SID System identification (from the SID parameter). string cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer speed_change virtual vcm_flag1 processor speed change mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
+Name Based on Description Type/Format processor virtual high
+medium
+low processor type cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer timestamp virtual date
+time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer speed_change virtual vcm_flag1 processor speed change topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/" />
 
 <meta property="article:section" content="Mappings" />
     <meta
       property="article:modified_time"
-      content="2023-07-28T11:41:04+02:00"
+      content="2024-07-02T16:53:42+02:00"
     />
 
 
@@ -57,7 +63,10 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
 <meta name="twitter:title" content="Sample - topology" />
   <meta name="twitter:description" content="Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer topology_change virtual vcm_flag1 topology has changed honor_priority_change virtual vcm_flag1 honor priority has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer sid SMF99SID System identification (from the SID parameter). string cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer speed_change virtual vcm_flag1 processor speed change mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
+Name Based on Description Type/Format processor virtual high
+medium
+low processor type cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer timestamp virtual date
+time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer speed_change virtual vcm_flag1 processor speed change topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL." />
 
 
   <script type="application/ld+json">
@@ -68,7 +77,7 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       "name": "Sample - topology",
       "url" : "https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/",
       "headline": "Sample - topology",
-      "description": "Request topology information per processor.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format cp_cputype processed SMF99E_CP_CPUTYPE CPU\/Core type integer topology_change virtual vcm_flag1 topology has changed honor_priority_change virtual vcm_flag1 honor priority has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs\/Cores per affinity node integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU\/Core number integer sid SMF99SID System identification (from the SID parameter). string cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer speed_change virtual vcm_flag1 processor speed change mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU\/Core belongs to integer cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.",
+      "description": "Request topology information per processor.\nSample fields The sample will fetch the following fields.\nName Based on Description Type\/Format processor virtual high\nmedium\nlow processor type cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU\/Core type integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer timestamp virtual date\ntime Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl4 SMF99E_CP_CI_NL4 Container ID of nesting level 4 integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU\/Core belongs to integer vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs\/Cores scaled by 256 integer speed_change virtual vcm_flag1 processor speed change topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU\/Core number integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.",
       "wordCount" : "183",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
@@ -81,7 +90,7 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       "copyrightYear" : "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
-      "dateModified": "2023-07-28T11:41:04.00Z",
+      "dateModified": "2024-07-02T16:53:42.00Z",
       "publisher":{
           "@type":"Organization",
           "name": "IBM SMF Explorer",
@@ -292,7 +301,7 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
           
             <span class="flex align-center">
               <svg class="gdoc-icon gdoc_language"><use xlink:href="#"></use></svg>
-              <span>ZOS-2.5</span>
+              <span>ZOS-3.1</span>
             </span>
           
         
@@ -304,12 +313,12 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
               <li>
                 <a
                   class="flex gdoc-language__entry"
-                  title="zOS-3.1"
+                  title="zOS-2.5"
                   href="/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/samples/topology/"
                   hreflang="zos31"
                   lang="zos31"
                 >
-                  zOS-3.1
+                  zOS-2.5
                 </a>
               </li>
             
@@ -1759,6 +1768,64 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -1820,6 +1887,64 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -3911,6 +4036,64 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -3972,6 +4155,64 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -6139,6 +6380,64 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -6200,6 +6499,54 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
         
       
 
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -9823,6 +10170,82 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -9941,6 +10364,10 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
         
       
 
+      
+        
+      
+        
       
         
       
@@ -20159,6 +20586,8 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
     
   </ul>
 
@@ -20220,6 +20649,8 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
         
       
 
+      
+        
       
         
       
@@ -25552,6 +25983,40 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
   </ul>
 
@@ -27267,141 +27732,6 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_cputype/"
->cp_cputype</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99E_CP_CPUTYPE</td>
-<td>CPU/Core type</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/topology_change/"
->topology_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
->vcm_flag1</a></td>
-<td>topology has changed</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/honor_priority_change/"
->honor_priority_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
->vcm_flag1</a></td>
-<td>honor priority has changed</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_cpsperan/"
->vcm_cpsperan</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_VCM_CPSPERAN</td>
-<td>CPUs/Cores per affinity node</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl3/"
->cp_ci_nl3</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_CP_CI_NL3</td>
-<td>Container ID of nesting level 3</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_index/"
->hd_topochg_cpu_index</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_HD_TOPOCHG_CPU_INDEX</td>
-<td>Logical CPU/Core number</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/sid/"
->sid</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99SID</td>
-<td>System identification (from the SID parameter).</td>
-<td>string</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl2/"
->cp_ci_nl2</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_CP_CI_NL2</td>
-<td>Container ID of nesting level 2</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/speed_change/"
->speed_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
->vcm_flag1</a></td>
-<td>processor speed change</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/mpwq_affinity_node/"
->mpwq_affinity_node</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_MPWQ_AFFINITY_NODE</td>
-<td>affinity node this CPU/Core belongs to</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl4/"
->cp_ci_nl4</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_CP_CI_NL4</td>
-<td>Container ID of nesting level 4</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/affinity_nodes_rebuild/"
->affinity_nodes_rebuild</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
-</span></span></td>
-<td><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
->vcm_flag1</a></td>
-<td>rebuild affinity nodes</td>
-<td></td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nlinuse/"
->cp_ci_nlinuse</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
-</span></span></td>
-<td>SMF99E_CP_CI_NLINUSE</td>
-<td>Number of highest nesting level in use in array SMF99E_CP_CI_NL. 0 = there is no container information available in SMF99E_CP_CI_NL</td>
-<td>integer</td>
-</tr>
-<tr>
-<td><span style="display : block;"><a
-  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/processor/"
 >processor</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
@@ -27421,12 +27751,150 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl1/"
+>cp_ci_nl1</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_CP_CI_NL1</td>
+<td>Container ID of nesting level 1</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_cputype/"
+>cp_cputype</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99E_CP_CPUTYPE</td>
+<td>CPU/Core type</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl3/"
+>cp_ci_nl3</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_CP_CI_NL3</td>
+<td>Container ID of nesting level 3</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/timestamp/"
+>timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/date/"
+>date</a><br><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/time/"
+>time</a></td>
+<td>Record Timestamp</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/honor_priority_change/"
+>honor_priority_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
+>vcm_flag1</a></td>
+<td>honor priority has changed</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl4/"
+>cp_ci_nl4</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_CP_CI_NL4</td>
+<td>Container ID of nesting level 4</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/mpwq_affinity_node/"
+>mpwq_affinity_node</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_MPWQ_AFFINITY_NODE</td>
+<td>affinity node this CPU/Core belongs to</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
   href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_lparphysprocshr/"
 >vcm_lparphysprocshr</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
 </span></span></td>
 <td>SMF99E_VCM_LPARPHYSPROCSHR</td>
 <td>LPAR physical processor share for general CPUs/Cores scaled by 256</td>
 <td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/speed_change/"
+>speed_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
+>vcm_flag1</a></td>
+<td>processor speed change</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/topology_change/"
+>topology_change</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+</span></span></td>
+<td><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
+>vcm_flag1</a></td>
+<td>topology has changed</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/hd_topochg_cpu_index/"
+>hd_topochg_cpu_index</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_HD_TOPOCHG_CPU_INDEX</td>
+<td>Logical CPU/Core number</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl2/"
+>cp_ci_nl2</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_CP_CI_NL2</td>
+<td>Container ID of nesting level 2</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nlinuse/"
+>cp_ci_nlinuse</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-processed);color:var(--tag-color-processed);border: none'>processed</span>
+</span></span></td>
+<td>SMF99E_CP_CI_NLINUSE</td>
+<td>Number of highest nesting level in use in array SMF99E_CP_CI_NL. 0 = there is no container information available in SMF99E_CP_CI_NL</td>
+<td>integer</td>
+</tr>
+<tr>
+<td><span style="display : block;"><a
+  class="gdoc-markdown__link"
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/sid/"
+>sid</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99SID</td>
+<td>System identification (from the SID parameter).</td>
+<td>string</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
@@ -27453,26 +27921,23 @@ Name Based on Description Type/Format cp_cputype processed SMF99E_CP_CPUTYPE CP
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/cp_ci_nl1/"
->cp_ci_nl1</a><span style="white-space: nowrap;"></span></span></td>
-<td>SMF99E_CP_CI_NL1</td>
-<td>Container ID of nesting level 1</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_cpsperan/"
+>vcm_cpsperan</a><span style="white-space: nowrap;"></span></span></td>
+<td>SMF99E_VCM_CPSPERAN</td>
+<td>CPUs/Cores per affinity node</td>
 <td>integer</td>
 </tr>
 <tr>
 <td><span style="display : block;"><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/timestamp/"
->timestamp</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/affinity_nodes_rebuild/"
+>affinity_nodes_rebuild</a><span style="white-space: nowrap;"> <span class="gdoc-props__tag badge rounded-pill badge-primary" style='background-color:var(--tag-background-virtual);color:var(--tag-color-virtual);border: none'>virtual</span>
 </span></span></td>
 <td><a
   class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/date/"
->date</a><br><a
-  class="gdoc-markdown__link"
-  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/time/"
->time</a></td>
-<td>Record Timestamp</td>
+  href="/IBM-SMF-Explorer/mappings/smf99/SMF99S14/fields/vcm_flag1/"
+>vcm_flag1</a></td>
+<td>rebuild affinity nodes</td>
 <td></td>
 </tr>
 </tbody>
