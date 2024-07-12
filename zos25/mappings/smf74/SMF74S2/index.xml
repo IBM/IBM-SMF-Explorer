@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 74 Subtype  2 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/</link>
+    <description>Recent content in SMF 74 Subtype  2 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF74S2 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cl/</guid>
+      <description>Length of control data section
+Record: SMF74S2 Based on: SMF742CL Description Length of control data section</description>
+    </item>
+    
+    <item>
+      <title>Field - cn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cn/</guid>
+      <description>Number of control data sections
+Record: SMF74S2 Based on: SMF742CN Description Number of control data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - co</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/co/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/co/</guid>
+      <description>Offset to control data section
+Record: SMF74S2 Based on: SMF742CO Description Offset to control data section</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/date/</guid>
+      <description>Date of Record
+Record: SMF74S2 Based on: SMF74DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF74S2 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF74S2 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/fla/</guid>
+      <description>Flags
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF74S2 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S2 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - ml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ml/</guid>
+      <description>Length of member data section
+Record: SMF74S2 Based on: SMF742ML Description Length of member data section</description>
+    </item>
+    
+    <item>
+      <title>Field - mn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mn/</guid>
+      <description>Number of member data sections
+Record: SMF74S2 Based on: SMF742MN Description Number of member data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - mo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mo/</guid>
+      <description>Offset to Member data section
+Record: SMF74S2 Based on: SMF742MO Description Offset to Member data section</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF74S2 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pl/</guid>
+      <description>Length of path data section
+Record: SMF74S2 Based on: SMF742PL Description Length of path data section</description>
+    </item>
+    
+    <item>
+      <title>Field - pn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pn/</guid>
+      <description>Number of path data sections
+Record: SMF74S2 Based on: SMF742PN Description Number of path data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - po</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/po/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/po/</guid>
+      <description>Offset to path data section
+Record: SMF74S2 Based on: SMF742PO Description Offset to path data section</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prd/</guid>
+      <description>Product name
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF74S2 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF74S2 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF74S2 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mact</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mact/</guid>
+      <description>Member became active during this interval
+Map: R742MBR Based on: r742mstf Description Member became active during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742mstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mgrp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mgrp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mgrp/</guid>
+      <description>Group name
+Map: R742MBR Based on: R742MGRP Description Group name</description>
+    </item>
+    
+    <item>
+      <title>Field - r742miac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742miac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742miac/</guid>
+      <description>Member became inactive during this interval
+Map: R742MBR Based on: r742mstf Description Member became inactive during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742mstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mint</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mint/</guid>
+      <description>Status checking interval
+Map: R742MBR Based on: R742MINT Description Status checking interval</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mjob</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mjob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mjob/</guid>
+      <description>Job name that joined the member
+Map: R742MBR Based on: R742MJOB Description Job name that joined the member</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mmem</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmem/</guid>
+      <description>Member name
+Map: R742MBR Based on: R742MMEM Description Member name</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mmsd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmsd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmsd/</guid>
+      <description>Status update missing (not confirmed)
+Map: R742MBR Based on: r742mst2 Description Status update missing (not confirmed)
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r742mst2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mmsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mmsm/</guid>
+      <description>Status update missing (confirmed)
+Map: R742MBR Based on: r742mst2 Description Status update missing (confirmed)
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r742mst2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mnoq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mnoq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mnoq/</guid>
+      <description>No information returned from IXCQUERY
+Map: R742MBR Based on: r742mstf Description No information returned from IXCQUERY
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r742mstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mpar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mpar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mpar/</guid>
+      <description>Partially not active during RMF post processor interval
+Map: R742MBR Based on: r742mstf Description Partially not active during RMF post processor interval
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r742mstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mrcv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mrcv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mrcv/</guid>
+      <description>Number of signals received by member.
+Map: R742MBR Based on: R742MRCV Description Number of signals received by member.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mrem</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mrem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mrem/</guid>
+      <description>Monitoring has been removed
+Map: R742MBR Based on: r742mst2 Description Monitoring has been removed
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r742mst2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mres</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mres/</guid>
+      <description>Counts reset by XCF during this interval
+Map: R742MBR Based on: r742mstf Description Counts reset by XCF during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r742mstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742msnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742msnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742msnt/</guid>
+      <description>Number of signals sent by member.
+Map: R742MBR Based on: R742MSNT Description Number of signals sent by member.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mssm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mssm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mssm/</guid>
+      <description>System status update missing
+Map: R742MBR Based on: r742mst2 Description System status update missing
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742mst2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mst1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mst1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mst1/</guid>
+      <description>Extended member state (1) 2=CREATED, 3=ACTIVE, 4=QUIESCED, 5=FAILED
+Map: R742MBR Based on: R742MST1 Description Extended member state (1) 2=CREATED, 3=ACTIVE, 4=QUIESCED, 5=FAILED</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mst2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mst2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mst2/</guid>
+      <description>Extended member state (2)
+Map: R742MBR Based on: R742MST2 Description Extended member state (2)
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742mssm 0 System status update missing r742mtrm 1 System termination started r742mmsm 3 Status update missing (confirmed) r742mmsd 4 Status update missing (not confirmed) r742mrem 6 Monitoring has been removed </description>
+    </item>
+    
+    <item>
+      <title>Field - r742mstf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mstf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mstf/</guid>
+      <description>Status flags
+Map: R742MBR Based on: R742MSTF Description Status flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742mact 0 Member became active during this interval r742miac 1 Member became inactive during this interval r742mres 2 Counts reset by XCF during this interval r742mpar 3 Partially not active during RMF post processor interval r742mnoq 4 No information returned from IXCQUERY </description>
+    </item>
+    
+    <item>
+      <title>Field - r742msys</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742msys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742msys/</guid>
+      <description>System name
+Map: R742MBR Based on: R742MSYS Description System name</description>
+    </item>
+    
+    <item>
+      <title>Field - r742mtrm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mtrm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742mtrm/</guid>
+      <description>System termination started
+Map: R742MBR Based on: r742mst2 Description System termination started
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742mst2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pact</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pact/</guid>
+      <description>Path became active during this interval
+Map: R742PTH Based on: r742pstf Description Path became active during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742pstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742papp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742papp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742papp/</guid>
+      <description>Number of outbound signal requests satisfied by this path while active.
+Map: R742PTH Based on: R742PAPP Description Number of outbound signal requests satisfied by this path while active.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pdev</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pdev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pdev/</guid>
+      <description>Device number
+Map: R742PTH Based on: R742PDEV Description Device number</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pdir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pdir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pdir/</guid>
+      <description>Direction path
+Map: R742PTH Based on: R742PDIR Description Direction path
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742pin 0 Inbound path r742pout 1 Outbound path </description>
+    </item>
+    
+    <item>
+      <title>Field - r742piac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742piac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742piac/</guid>
+      <description>Path became inactive during this interval
+Map: R742PTH Based on: r742pstf Description Path became inactive during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742pstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pibr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pibr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pibr/</guid>
+      <description>Number of inbound signals refused due to maximum message limit.
+Map: R742PTH Based on: R742PIBR Description Number of inbound signals refused due to maximum message limit.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pin/</guid>
+      <description>Inbound path
+Map: R742PTH Based on: r742pdir Description Inbound path
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742pdir.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742piot</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742piot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742piot/</guid>
+      <description>For inbound paths: Average I/O transfer time for the most recently received signals. Units: Micro Seconds. Zero if not available. X&amp;rsquo;FFFFFFFF&amp;rsquo; if overflow (more than 35 minutes)
+Map: R742PTH Based on: R742PIOT Description For inbound paths: Average I/O transfer time for the most recently received signals. Units: Micro Seconds. Zero if not available. X&amp;rsquo;FFFFFFFF&amp;rsquo; if overflow (more than 35 minutes)</description>
+    </item>
+    
+    <item>
+      <title>Field - r742plin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742plin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742plin/</guid>
+      <description>List number within structure
+Map: R742PTH Based on: R742PLIN Description List number within structure</description>
+    </item>
+    
+    <item>
+      <title>Field - r742plk</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742plk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742plk/</guid>
+      <description>Waiting for completion of communication link.
+Map: R742PTH Based on: r742psta Description Waiting for completion of communication link.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pmxm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pmxm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pmxm/</guid>
+      <description>Maximum number of 1K blocks message buffer space.
+Map: R742PTH Based on: R742PMXM Description Maximum number of 1K blocks message buffer space.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pnib_timenum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timenum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timenum/</guid>
+      <description>Number of times this path was impacted by a no-inbound-buffer condition
+Map: R742PTH Based on: R742PNIB_TIME# Description Number of times this path was impacted by a no-inbound-buffer condition</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pnib_timessq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timessq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timessq/</guid>
+      <description>Squared microseconds for each no-inbound-buffer impact condition
+Map: R742PTH Based on: R742PNIB_TIMESSQ Description Squared microseconds for each no-inbound-buffer impact condition</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pnib_timesum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timesum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnib_timesum/</guid>
+      <description>Total time this path had a no-inbound-buffer impact condition (in ms)
+Map: R742PTH Based on: R742PNIB_TIMESUM Description Total time this path had a no-inbound-buffer impact condition (in ms)</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pnme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnme/</guid>
+      <description>System name
+Map: R742PTH Based on: R742PNME Description System name</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pnp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pnp/</guid>
+      <description>Not operational. Path defined to XCF but not usable until hardware and/or definition problems are resolved
+Map: R742PTH Based on: r742psta Description Not operational. Path defined to XCF but not usable until hardware and/or definition problems are resolved
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742podv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742podv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742podv/</guid>
+      <description>Device number on other end if known, otherwise blanks.
+Map: R742PTH Based on: R742PODV Description Device number on other end if known, otherwise blanks.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pona</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pona/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pona/</guid>
+      <description>Name of system on other end if known, otherwise blanks.
+Map: R742PTH Based on: R742PONA Description Name of system on other end if known, otherwise blanks.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pout</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pout/</guid>
+      <description>Outbound path
+Map: R742PTH Based on: r742pdir Description Outbound path
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742pdir.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742ppnd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ppnd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ppnd/</guid>
+      <description>The current number of signals pending transfer on the path (outbound only)
+Map: R742PTH Based on: R742PPND Description The current number of signals pending transfer on the path (outbound only)</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pqd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqd/</guid>
+      <description>Quiesced
+Map: R742PTH Based on: r742pstm Description Quiesced
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742pstm.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pqg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqg/</guid>
+      <description>Quiescing
+Map: R742PTH Based on: r742pstm Description Quiescing
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742pstm.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pqln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pqln/</guid>
+      <description>Number of outbound signals pending transfer on path
+Map: R742PTH Based on: R742PQLN Description Number of outbound signals pending transfer on path</description>
+    </item>
+    
+    <item>
+      <title>Field - r742prb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prb/</guid>
+      <description>Rebuilding
+Map: R742PTH Based on: r742psta Description Rebuilding
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742prct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prct/</guid>
+      <description>Path retry count
+Map: R742PTH Based on: R742PRCT Description Path retry count</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pres</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pres/</guid>
+      <description>Counts reset by XCF during this interval
+Map: R742PTH Based on: r742pstf Description Counts reset by XCF during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r742pstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pret</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pret/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pret/</guid>
+      <description>Path retry limit
+Map: R742PTH Based on: R742PRET Description Path retry limit</description>
+    </item>
+    
+    <item>
+      <title>Field - r742prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prs/</guid>
+      <description>Restarting
+Map: R742PTH Based on: r742psta Description Restarting
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742prst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742prst/</guid>
+      <description>Number of restarts
+Map: R742PTH Based on: R742PRST Description Number of restarts</description>
+    </item>
+    
+    <item>
+      <title>Field - r742psf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psf/</guid>
+      <description>Stop failed
+Map: R742PTH Based on: r742psta Description Stop failed
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742psig</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psig/</guid>
+      <description>Number of outbound (inbound) signals sent (received) over path.
+Map: R742PTH Based on: R742PSIG Description Number of outbound (inbound) signals sent (received) over path.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742psp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psp/</guid>
+      <description>Stopping
+Map: R742PTH Based on: r742psta Description Stopping
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pst/</guid>
+      <description>Starting
+Map: R742PTH Based on: r742psta Description Starting
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742psta</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psta/</guid>
+      <description>Path status
+Map: R742PTH Based on: R742PSTA Description Path status
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742pst 0 Starting r742prs 1 Restarting r742pwk 2 Working r742psp 3 Stopping r742plk 4 Waiting for completion of communication link. r742pnp 5 Not operational. Path defined to XCF but not usable until hardware and/or definition problems are resolved r742psf 6 Stop failed r742prb 7 Rebuilding </description>
+    </item>
+    
+    <item>
+      <title>Field - r742pstf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstf/</guid>
+      <description>Status flags
+Map: R742PTH Based on: R742PSTF Description Status flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742pact 0 Path became active during this interval r742piac 1 Path became inactive during this interval r742pres 2 Counts reset by XCF during this interval </description>
+    </item>
+    
+    <item>
+      <title>Field - r742pstm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstm/</guid>
+      <description>More path status flags
+Map: R742PTH Based on: R742PSTM Description More path status flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742pqg 0 Quiescing r742pqd 1 Quiesced </description>
+    </item>
+    
+    <item>
+      <title>Field - r742pstr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pstr/</guid>
+      <description>Name of XES list structure being used as a path, blank for CTC&amp;rsquo;s
+Map: R742PTH Based on: R742PSTR Description Name of XES list structure being used as a path, blank for CTC&amp;rsquo;s</description>
+    </item>
+    
+    <item>
+      <title>Field - r742psus</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742psus/</guid>
+      <description>Number of outbound signals satisfied by suspended path.
+Map: R742PTH Based on: R742PSUS Description Number of outbound signals satisfied by suspended path.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742ptcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ptcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ptcn/</guid>
+      <description>Transport class name. For an outbound path, the class to which the path is assigned. For an inbound path, the class to which the outbound side of the path is assigned, blanks if not known.
+Map: R742PTH Based on: R742PTCN Description Transport class name. For an outbound path, the class to which the path is assigned. For an inbound path, the class to which the outbound side of the path is assigned, blanks if not known.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742ptyp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ptyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ptyp/</guid>
+      <description>Path type indicator: &amp;lsquo;01&amp;rsquo;x for CTC, &amp;lsquo;03&amp;rsquo;x for list structure
+Map: R742PTH Based on: R742PTYP Description Path type indicator: &amp;lsquo;01&amp;rsquo;x for CTC, &amp;lsquo;03&amp;rsquo;x for list structure</description>
+    </item>
+    
+    <item>
+      <title>Field - r742puse</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742puse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742puse/</guid>
+      <description>The current number of 1K byte blocks of message buffer space in use by this path
+Map: R742PTH Based on: R742PUSE Description The current number of 1K byte blocks of message buffer space in use by this path</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pusg_percent</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_percent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_percent/</guid>
+      <description>Percent utilization this entry represents
+Map: R742PTH Based on: R742PUSG_PERCENT Description Percent utilization this entry represents</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pusg_sigcnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_sigcnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_sigcnt/</guid>
+      <description>Number of signals sent for this usage entry
+Map: R742PTH Based on: R742PUSG_SIGCNT Description Number of signals sent for this usage entry</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pusg_timenum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timenum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timenum/</guid>
+      <description>Number of times this path was in use at the indicated percent utilization
+Map: R742PTH Based on: R742PUSG_TIME# Description Number of times this path was in use at the indicated percent utilization</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pusg_timessq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timessq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timessq/</guid>
+      <description>Squared microseconds this path was in use at the indicated percent utilization
+Map: R742PTH Based on: R742PUSG_TIMESSQ Description Squared microseconds this path was in use at the indicated percent utilization</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pusg_timesum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timesum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pusg_timesum/</guid>
+      <description>Total time this path was in use at the indicated percent utilization (in ms)
+Map: R742PTH Based on: R742PUSG_TIMESUM Description Total time this path was in use at the indicated percent utilization (in ms)</description>
+    </item>
+    
+    <item>
+      <title>Field - r742pwk</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pwk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742pwk/</guid>
+      <description>Working
+Map: R742PTH Based on: r742psta Description Working
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r742psta.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sact</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sact/</guid>
+      <description>System became active during this interval
+Map: R742SYS Based on: r742sstf Description System became active during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742sstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sbig</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sbig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sbig/</guid>
+      <description>Number of message too big conditions. Zero for inbound entry.
+Map: R742SYS Based on: R742SBIG Description Number of message too big conditions. Zero for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sbsy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sbsy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sbsy/</guid>
+      <description>Number of no buffer conditions. For local or outbound entry, count is for indicated transport class.
+Map: R742SYS Based on: R742SBSY Description Number of no buffer conditions. For local or outbound entry, count is for indicated transport class.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sdir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sdir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sdir/</guid>
+      <description>Direction
+Map: R742SYS Based on: R742SDIR Description Direction
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742sin 0 Inbound r742sout 1 Outbound r742slcl 2 Local </description>
+    </item>
+    
+    <item>
+      <title>Field - r742sfit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sfit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sfit/</guid>
+      <description>Number of messages that fits in buffer. Zero for inbound entry.
+Map: R742SYS Based on: R742SFIT Description Number of messages that fits in buffer. Zero for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742siac</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742siac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742siac/</guid>
+      <description>System became inactive during this interval
+Map: R742SYS Based on: r742sstf Description System became inactive during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742sstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sin/</guid>
+      <description>Inbound
+Map: R742SYS Based on: r742sdir Description Inbound
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r742sdir.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742slcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742slcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742slcl/</guid>
+      <description>Local
+Map: R742SYS Based on: r742sdir Description Local
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r742sdir.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742smxb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742smxb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742smxb/</guid>
+      <description>Maximum 1K blocks of message buffer space. For local or outbound entry, count is for indicated transport class
+Map: R742SYS Based on: R742SMXB Description Maximum 1K blocks of message buffer space. For local or outbound entry, count is for indicated transport class</description>
+    </item>
+    
+    <item>
+      <title>Field - r742snme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742snme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742snme/</guid>
+      <description>System name
+Map: R742SYS Based on: R742SNME Description System name</description>
+    </item>
+    
+    <item>
+      <title>Field - r742snop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742snop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742snop/</guid>
+      <description>Number of no path conditions Zero for local entry. For outbound entry, count is for indicated transport class
+Map: R742SYS Based on: R742SNOP Description Number of no path conditions Zero for local entry. For outbound entry, count is for indicated transport class</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sout</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sout/</guid>
+      <description>Outbound
+Map: R742SYS Based on: r742sdir Description Outbound
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r742sdir.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sovr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sovr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sovr/</guid>
+      <description>Number of messages for which signalling service was optimized. Zero for inbound entry.
+Map: R742SYS Based on: R742SOVR Description Number of messages for which signalling service was optimized. Zero for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742spar</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742spar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742spar/</guid>
+      <description>Partially not active during RMF post processor interval.
+Map: R742SYS Based on: r742sstf Description Partially not active during RMF post processor interval.
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r742sstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742spth</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742spth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742spth/</guid>
+      <description>Current number of paths in service. Zero for local entry. If outbound entry, count is for indicated transport class
+Map: R742SYS Based on: R742SPTH Description Current number of paths in service. Zero for local entry. If outbound entry, count is for indicated transport class</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sres</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sres/</guid>
+      <description>Counts reset by XCF during this interval
+Map: R742SYS Based on: r742sstf Description Counts reset by XCF during this interval
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r742sstf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742ssml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ssml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742ssml/</guid>
+      <description>Number of messages too small conditions. Zero for inbound entry.
+Map: R742SYS Based on: R742SSML Description Number of messages too small conditions. Zero for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742sstf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sstf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742sstf/</guid>
+      <description>Status flags
+Map: R742SYS Based on: R742SSTF Description Status flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r742sact 0 System became active during this interval r742siac 1 System became inactive during this interval r742sres 2 Counts reset by XCF during this interval r742spar 3 Partially not active during RMF post processor interval. </description>
+    </item>
+    
+    <item>
+      <title>Field - r742stcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742stcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742stcl/</guid>
+      <description>Message length for transport class. Zero for inbound entry.
+Map: R742SYS Based on: R742STCL Description Message length for transport class. Zero for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - r742stcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742stcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/r742stcn/</guid>
+      <description>Transport class name. Blanks for inbound entry.
+Map: R742SYS Based on: R742STCN Description Transport class name. Blanks for inbound entry.</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF74S2 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF74S2 Based on: SMF74RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF74S2 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF74S2 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - sl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sl/</guid>
+      <description>Length of system data section
+Record: SMF74S2 Based on: SMF742SL Description Length of system data section</description>
+    </item>
+    
+    <item>
+      <title>Field - sn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sn/</guid>
+      <description>Number of system data section
+Record: SMF74S2 Based on: SMF742SN Description Number of system data section</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - so</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/so/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/so/</guid>
+      <description>Offset to system data section
+Record: SMF74S2 Based on: SMF742SO Description Offset to system data section</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF74S2 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF74S2 Based on: SMF74STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF74S2 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/time/</guid>
+      <description>Time of Record
+Record: SMF74S2 Based on: SMF74TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF74S2 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S2 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF74S2 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF74S2 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF74S2 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S2/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+  </channel>
+</rss>

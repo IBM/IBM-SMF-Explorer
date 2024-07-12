@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 76 Subtype  1 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/</link>
+    <description>Recent content in SMF 76 Subtype  1 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - alb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/alb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/alb/</guid>
+      <description>ALL OPTIONS REQUESTED
+Map: SMF76B Based on: opt Description ALL OPTIONS REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - all_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/all_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/all_req/</guid>
+      <description>ALL OPTIONS REQUESTED
+Map: SMF76B Based on: opt Description ALL OPTIONS REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF76PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF76PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - avb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avb/</guid>
+      <description>AVERAGE REQUESTED
+Map: SMF76B Based on: opt Description AVERAGE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - avg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avg/</guid>
+      <description>ACCUMULATED VALUE USED TO COMPUTE THE AVERAGE STANDARD DEVIATION (VALID IF BIT 2 OR BIT 5 OF SMF76OPT IS SET)
+Map: SMF76B Based on: SMF76AVG Description ACCUMULATED VALUE USED TO COMPUTE THE AVERAGE STANDARD DEVIATION (VALID IF BIT 2 OR BIT 5 OF SMF76OPT IS SET)</description>
+    </item>
+    
+    <item>
+      <title>Field - avr_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avr_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/avr_req/</guid>
+      <description>AVERAGE REQUESTED
+Map: SMF76B Based on: opt Description AVERAGE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF76S1 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF76PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF76PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF76PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF76PRO Based on: SMF76CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF76PRO Based on: SMF76DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/date/</guid>
+      <description>Date of Record
+Record: SMF76S1 Based on: SMF76DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dln/</guid>
+      <description>LENGTH OF FIELD SAMPLED
+Map: SMF76B Based on: SMF76DLN Description LENGTH OF FIELD SAMPLED</description>
+    </item>
+    
+    <item>
+      <title>Field - dmb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dmb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dmb/</guid>
+      <description>NAME IS A DOMAIN TABLE FIELD
+Map: SMF76B Based on: opt Description NAME IS A DOMAIN TABLE FIELD
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF76PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF76S1 Based on: SMF76DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF76PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF76PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - enb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/enb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/enb/</guid>
+      <description>END VALUE REQUESTED
+Map: SMF76B Based on: opt Description END VALUE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - end_value_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/end_value_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/end_value_req/</guid>
+      <description>END VALUE REQUESTED
+Map: SMF76B Based on: opt Description END VALUE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - env</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/env/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/env/</guid>
+      <description>END VALUE OF CONTENTS OF FIELD (VALID IF BIT 4 OR BIT 5 OF SMF76OPT IS SET)
+Map: SMF76B Based on: SMF76ENV Description END VALUE OF CONTENTS OF FIELD (VALID IF BIT 4 OR BIT 5 OF SMF76OPT IS SET)</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF76S1 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF76PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF76PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF76PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/fla/</guid>
+      <description>Flags
+Map: SMF76PRO Based on: SMF76FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control lower_service_level 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF76S1 Based on: SMF76FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF76PRO Based on: SMF76GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - higher_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/higher_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/higher_service_level/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF76PRO Based on: SMF76IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF76PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF76PRO Based on: SMF76IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF76PRO Based on: SMF76INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - interval_smf_control</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/interval_smf_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/interval_smf_control/</guid>
+      <description>Interval was under SMF control
+Map: SMF76PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/invalid_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF76PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ips</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ips/</guid>
+      <description>IPS CHANGE OCCURRED (AFTER INITIALIZATION)
+Map: SMF76B Based on: opt Description IPS CHANGE OCCURRED (AFTER INITIALIZATION)
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF76PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF76PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF76PRO Based on: SMF76IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF76S1 Based on: SMF76LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF76PRO Based on: SMF76LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - lower_service_level</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lower_service_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lower_service_level/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - lpb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpb/</guid>
+      <description>LPB - ID TRACE REQUESTED
+Map: SMF76B Based on: op1 Description LPB - ID TRACE REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - lpb_end</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpb_end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpb_end/</guid>
+      <description>LPB TRACE REQUEST ENDED
+Map: SMF76B Based on: op1 Description LPB TRACE REQUEST ENDED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - lpf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/lpf/</guid>
+      <description>LPB TRACE REQUEST ENDED
+Map: SMF76B Based on: op1 Description LPB TRACE REQUEST ENDED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF76PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - max</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/max/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/max/</guid>
+      <description>MAX. VALUE OF CONTENTS OF FIELD DURING INTERVAL (VALID IF BIT 1 OR BIT 5 OF SMF76OPT IS SET)
+Map: SMF76B Based on: SMF76MAX Description MAX. VALUE OF CONTENTS OF FIELD DURING INTERVAL (VALID IF BIT 1 OR BIT 5 OF SMF76OPT IS SET)</description>
+    </item>
+    
+    <item>
+      <title>Field - max_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/max_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/max_req/</guid>
+      <description>MAXIMUM REQUESTED
+Map: SMF76B Based on: opt Description MAXIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF76PRO Based on: SMF76MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - min</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/min/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/min/</guid>
+      <description>MIN. VALUE OF CONTENTS OF FIELD DURING INTERVAL (VALID IF BIT 0 OR BIT 5 OF SMF76OPT IS SET)
+Map: SMF76B Based on: SMF76MIN Description MIN. VALUE OF CONTENTS OF FIELD DURING INTERVAL (VALID IF BIT 0 OR BIT 5 OF SMF76OPT IS SET)</description>
+    </item>
+    
+    <item>
+      <title>Field - min_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/min_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/min_req/</guid>
+      <description>MINIMUM REQUESTED
+Map: SMF76B Based on: opt Description MINIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - mnb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mnb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mnb/</guid>
+      <description>MINIMUM REQUESTED
+Map: SMF76B Based on: opt Description MINIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF76PRO Based on: SMF76MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - mxb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mxb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/mxb/</guid>
+      <description>MAXIMUM REQUESTED
+Map: SMF76B Based on: opt Description MAXIMUM REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - nam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/nam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/nam/</guid>
+      <description>FIELD NAME
+Map: SMF76B Based on: SMF76NAM Description FIELD NAME</description>
+    </item>
+    
+    <item>
+      <title>Field - name_is_domain</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/name_is_domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/name_is_domain/</guid>
+      <description>NAME IS A DOMAIN TABLE FIELD
+Map: SMF76B Based on: opt Description NAME IS A DOMAIN TABLE FIELD
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - num</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/num/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/num/</guid>
+      <description>NUMBER OF SET ENTRIES THAT FOLLOW THE TOTAL VALUES
+Map: SMF76A Based on: SMF76NUM Description NUMBER OF SET ENTRIES THAT FOLLOW THE TOTAL VALUES</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF76PRO Based on: SMF76OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - op1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/op1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/op1/</guid>
+      <description>FLAGS
+Map: SMF76B Based on: SMF76OP1 Description FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description lpb 0 LPB - ID TRACE REQUESTED lpb_end 1 LPB TRACE REQUEST ENDED valid_data 2 ON = VALID DATA </description>
+    </item>
+    
+    <item>
+      <title>Field - opt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/opt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/opt/</guid>
+      <description>FLAGS(OPTIONS SPECIFIED ON TRACE INPUT IN RMF PARMLIB MEMBER FOR THE FIELD NAME)
+Map: SMF76B Based on: SMF76OPT Description FLAGS(OPTIONS SPECIFIED ON TRACE INPUT IN RMF PARMLIB MEMBER FOR THE FIELD NAME)
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description min_req 0 MINIMUM REQUESTED max_req 1 MAXIMUM REQUESTED avr_req 2 AVERAGE REQUESTED std_dev_req 3 STD. DEV. REQUESTED end_value_req 4 END VALUE REQUESTED all_req 5 ALL OPTIONS REQUESTED ips 6 IPS CHANGE OCCURRED (AFTER INITIALIZATION) name_is_domain 7 NAME IS A DOMAIN TABLE FIELD </description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF76S1 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF76PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prd/</guid>
+      <description>Product name
+Map: SMF76PRO Based on: SMF76PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF76PRO Based on: SMF76PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF76S1 Based on: SMF76PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF76S1 Based on: SMF76PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF76S1 Based on: SMF76PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF76PRO Based on: SMF76PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF76PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF76PRO Based on: SMF76RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF76PRO Based on: SMF76RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF76PRO Based on: SMF76RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF76PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF76S1 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF76S1 Based on: SMF76RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF76PRO Based on: SMF76SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF76S1 Based on: SMF76SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF76S1 Based on: SMF76SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - sln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sln/</guid>
+      <description>LENGTH OF A SET
+Map: SMF76B Based on: SMF76SLN Description LENGTH OF A SET</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF76PRO Based on: SMF76SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - speed_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/speed_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/speed_boost/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF76PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF76PRO Based on: SMF76SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF76S1 Based on: SMF76SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - ssl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ssl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ssl/</guid>
+      <description>SAMPLES PER SET FOR LAST SET IN INTERVAL
+Map: SMF76B Based on: SMF76SSL Description SAMPLES PER SET FOR LAST SET IN INTERVAL</description>
+    </item>
+    
+    <item>
+      <title>Field - sss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sss/</guid>
+      <description>SAMPLES PER SET
+Map: SMF76B Based on: SMF76SSS Description SAMPLES PER SET</description>
+    </item>
+    
+    <item>
+      <title>Field - stb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/stb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/stb/</guid>
+      <description>STD. DEV. REQUESTED
+Map: SMF76B Based on: opt Description STD. DEV. REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - std</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/std/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/std/</guid>
+      <description>SUM OF SQUARES USED TO COMPUTE STANDARD DEVIATION (VALID IF BIT 3 OR BIT 5 OF SMF76OPT IS SET)
+Map: SMF76B Based on: SMF76STD Description SUM OF SQUARES USED TO COMPUTE STANDARD DEVIATION (VALID IF BIT 3 OR BIT 5 OF SMF76OPT IS SET)</description>
+    </item>
+    
+    <item>
+      <title>Field - std_dev_req</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/std_dev_req/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/std_dev_req/</guid>
+      <description>STD. DEV. REQUESTED
+Map: SMF76B Based on: opt Description STD. DEV. REQUESTED
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field opt.</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF76S1 Based on: SMF76STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - subtype1_variable_trace_data_section_array</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/subtype1_variable_trace_data_section_array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/subtype1_variable_trace_data_section_array/</guid>
+      <description> Record: SMF76S1 Based on: SMF76_SUBTYPE1_VARIABLE_TRACE_DATA_SECTION_ARRAY </description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF76S1 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF76PRO Based on: SMF76SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - tcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcl/</guid>
+      <description>LENGTH OF TRACE CONTROL SECTION
+Record: SMF76S1 Based on: SMF76TCL Description LENGTH OF TRACE CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - tcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcn/</guid>
+      <description>NUMBER OF TRACE CONTROL SECTIONS
+Record: SMF76S1 Based on: SMF76TCN Description NUMBER OF TRACE CONTROL SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - tcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tcs/</guid>
+      <description>OFFSET TO TRACE CONTROL SECTION
+Record: SMF76S1 Based on: SMF76TCS Description OFFSET TO TRACE CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - tdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tdl/</guid>
+      <description>LENGTH OF TRACE DATA ENTRY SECTION
+Record: SMF76S1 Based on: SMF76TDL Description LENGTH OF TRACE DATA ENTRY SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - tdn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tdn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tdn/</guid>
+      <description>NUMBER OF TRACE DATA ENTRY SECT.
+Record: SMF76S1 Based on: SMF76TDN Description NUMBER OF TRACE DATA ENTRY SECT.</description>
+    </item>
+    
+    <item>
+      <title>Field - tds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tds/</guid>
+      <description>OFFSET TO TRACE DATA ENTRY SECTION
+Record: SMF76S1 Based on: SMF76TDS Description OFFSET TO TRACE DATA ENTRY SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/time/</guid>
+      <description>Time of Record
+Record: SMF76S1 Based on: SMF76TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF76S1 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF76S1 Based on: SMF76TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF76S1 Based on: SMF76TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF76S1 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - valid_data</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/valid_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/valid_data/</guid>
+      <description>ON = VALID DATA
+Map: SMF76B Based on: op1 Description ON = VALID DATA
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - vfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfl/</guid>
+      <description>LENGTH OF VARIABLE FORMAT SET
+Record: SMF76S1 Based on: SMF76VFL Description LENGTH OF VARIABLE FORMAT SET</description>
+    </item>
+    
+    <item>
+      <title>Field - vfn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfn/</guid>
+      <description>NUMBER OF VARIABLE FORMAT SET
+Record: SMF76S1 Based on: SMF76VFN Description NUMBER OF VARIABLE FORMAT SET</description>
+    </item>
+    
+    <item>
+      <title>Field - vfs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vfs/</guid>
+      <description>OFFSET TO VARIABLE FORMAT SET
+Record: SMF76S1 Based on: SMF76VFS Description OFFSET TO VARIABLE FORMAT SET</description>
+    </item>
+    
+    <item>
+      <title>Field - vld</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vld/</guid>
+      <description>ON = VALID DATA
+Map: SMF76B Based on: op1 Description ON = VALID DATA
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field op1.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF76S1 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF76PRO Based on: SMF76XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/zaap_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/zaap_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ziip_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ziip_boost/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF76PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf76/SMF76S1/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF76PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+  </channel>
+</rss>

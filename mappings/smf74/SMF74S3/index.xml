@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 74 Subtype  3 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/</link>
+    <description>Recent content in SMF 74 Subtype  3 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF74S3 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/date/</guid>
+      <description>Date of Record
+Record: SMF74S3 Based on: SMF74DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF74S3 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF74S3 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/fla/</guid>
+      <description>Flags
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF74S3 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S3 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF74S3 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - pl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pl/</guid>
+      <description>Length of data section
+Record: SMF74S3 Based on: SMF743PL Description Length of data section</description>
+    </item>
+    
+    <item>
+      <title>Field - pn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pn/</guid>
+      <description>Number of data sections
+Record: SMF74S3 Based on: SMF743PN Description Number of data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - po</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/po/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/po/</guid>
+      <description>Offset to data section
+Record: SMF74S3 Based on: SMF743PO Description Offset to data section</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prd/</guid>
+      <description>Product name
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF74S3 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF74S3 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF74S3 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743camn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743camn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743camn/</guid>
+      <description>Minimum number of memory map storage pages per cycle
+Map: R743DATA Based on: R743CAMN Description Minimum number of memory map storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743camx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743camx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743camx/</guid>
+      <description>Maximum number of memory map storage pages per cycle
+Map: R743DATA Based on: R743CAMX Description Maximum number of memory map storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cgmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cgmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cgmn/</guid>
+      <description>Minimum number of shared memory pages per cycle
+Map: R743DATA Based on: R743CGMN Description Minimum number of shared memory pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cgmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cgmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cgmx/</guid>
+      <description>Maximum number of shared memory pages per cycle
+Map: R743DATA Based on: R743CGMX Description Maximum number of shared memory pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chlr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chlr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chlr/</guid>
+      <description>Max. size of shared library region changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. size of shared library region changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chma</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chma/</guid>
+      <description>Max. number of memory map st pages changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of memory map st pages changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 8 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chmn/</guid>
+      <description>Minimum number of shared memory IDs per cycle
+Map: R743DATA Based on: R743CHMN Description Minimum number of shared memory IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chms</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chms/</guid>
+      <description>Max. number of message queue ids changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of message queue ids changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chmx/</guid>
+      <description>Maximum number of shared memory IDs per cycle
+Map: R743DATA Based on: R743CHMX Description Maximum number of shared memory IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chpa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpa/</guid>
+      <description>Max. number of shared storage pages changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of shared storage pages changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chpr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpr/</guid>
+      <description>Max. number of processes changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of processes changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chpu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chpu/</guid>
+      <description>Max. number of processes per user changed during reporting intervall when set
+Map: R743DATA Based on: r743flg Description Max. number of processes per user changed during reporting intervall when set
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chse</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chse/</guid>
+      <description>Max. number of semaphore ids changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of semaphore ids changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chsh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chsh/</guid>
+      <description>Max. number of shared memory ids changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of shared memory ids changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chsp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chsp/</guid>
+      <description>Max. number of shared memory pages changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of shared memory pages changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743chus</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743chus/</guid>
+      <description>Max. number of users changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of users changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743clmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743clmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743clmn/</guid>
+      <description>Minimum amount of shared library storage allocated per cycle
+Map: R743DATA Based on: R743CLMN Description Minimum amount of shared library storage allocated per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743clmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743clmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743clmx/</guid>
+      <description>Maximum number of shared library storage allocated per cycle
+Map: R743DATA Based on: R743CLMX Description Maximum number of shared library storage allocated per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cmap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmap/</guid>
+      <description>Accumulated number of memory map storage pages during one interval (short floating point)
+Map: R743DATA Based on: R743CMAP Description Accumulated number of memory map storage pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cmmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmmn/</guid>
+      <description>Minimum number of message queue IDs per cycle
+Map: R743DATA Based on: R743CMMN Description Minimum number of message queue IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cmmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmmx/</guid>
+      <description>Maximum number of message queue IDs per cycle
+Map: R743DATA Based on: R743CMMX Description Maximum number of message queue IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cmsg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cmsg/</guid>
+      <description>Accumulated number of message queue IDs during one interval (short floating point)
+Map: R743DATA Based on: R743CMSG Description Accumulated number of message queue IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cpag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpag/</guid>
+      <description>Accumulated number of shared storage pages during one interval (short floating point)
+Map: R743DATA Based on: R743CPAG Description Accumulated number of shared storage pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cpmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpmn/</guid>
+      <description>Min. number of OMVS processes during one cycle
+Map: R743DATA Based on: R743CPMN Description Min. number of OMVS processes during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cpmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpmx/</guid>
+      <description>Max. number of OMVS processes during one cycle
+Map: R743DATA Based on: R743CPMX Description Max. number of OMVS processes during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cpu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cpu/</guid>
+      <description>Total CPU time spent processing syscalls in OMVS during the interval (short floating point)
+Map: R743DATA Based on: R743CPU Description Total CPU time spent processing syscalls in OMVS during the interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cqsg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cqsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cqsg/</guid>
+      <description>Max. number of queued signals per process changed during reporting interval when set
+Map: R743DATA Based on: r743flg Description Max. number of queued signals per process changed during reporting interval when set
+Post-Processed This virtual field corresponds to the flag at bit-position 11 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743csem</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csem/</guid>
+      <description>Accumulated number of semaphore IDs during one interval (short floating point)
+Map: R743DATA Based on: R743CSEM Description Accumulated number of semaphore IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cshm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cshm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cshm/</guid>
+      <description>Accumulated number of shared memory IDs during one interval (short floating point)
+Map: R743DATA Based on: R743CSHM Description Accumulated number of shared memory IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cslr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cslr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cslr/</guid>
+      <description>Accumulated amount of shared library storage allocated in one interval in MB (short floating point)
+Map: R743DATA Based on: R743CSLR Description Accumulated amount of shared library storage allocated in one interval in MB (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743csmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csmn/</guid>
+      <description>Minimum number of semaphore IDs per cycle
+Map: R743DATA Based on: R743CSMN Description Minimum number of semaphore IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743csmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743csmx/</guid>
+      <description>Maximum number of semaphore IDs per cycle
+Map: R743DATA Based on: R743CSMX Description Maximum number of semaphore IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cspg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cspg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cspg/</guid>
+      <description>Accumulated number of shared memory pages during one interval (short floating point)
+Map: R743DATA Based on: R743CSPG Description Accumulated number of shared memory pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ctmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ctmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ctmn/</guid>
+      <description>Min. CPU time spent processing syscalls in OMVS during one cycle
+Map: R743DATA Based on: R743CTMN Description Min. CPU time spent processing syscalls in OMVS during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ctmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ctmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ctmx/</guid>
+      <description>Max. CPU time spent processing syscalls in OMVS during one cycle
+Map: R743DATA Based on: R743CTMX Description Max. CPU time spent processing syscalls in OMVS during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cumn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cumn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cumn/</guid>
+      <description>Min. number of OMVS users during one cycle
+Map: R743DATA Based on: R743CUMN Description Min. number of OMVS users during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cumx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cumx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cumx/</guid>
+      <description>Max. number of OMVS users during one cycle
+Map: R743DATA Based on: R743CUMX Description Max. number of OMVS users during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743curp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743curp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743curp/</guid>
+      <description>Accumulated number of OMVS processes during the interval (short floating point)
+Map: R743DATA Based on: R743CURP Description Accumulated number of OMVS processes during the interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743curu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743curu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743curu/</guid>
+      <description>Accumulated number of OMVS users during the interval (short floating point)
+Map: R743DATA Based on: R743CURU Description Accumulated number of OMVS users during the interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cxmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cxmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cxmn/</guid>
+      <description>Minimum number of shared storage pages per cycle
+Map: R743DATA Based on: R743CXMN Description Minimum number of shared storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cxmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cxmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cxmx/</guid>
+      <description>Maximum number of shared storage pages per cycle
+Map: R743DATA Based on: R743CXMX Description Maximum number of shared storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cyct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cyct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cyct/</guid>
+      <description>Cycle time value obtained from Monitor III options
+Map: R743DATA Based on: R743CYCT Description Cycle time value obtained from Monitor III options</description>
+    </item>
+    
+    <item>
+      <title>Field - r743cycu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cycu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743cycu/</guid>
+      <description>Number of cycle units elapsed between first and last measured sample
+Map: R743DATA Based on: R743CYCU Description Number of cycle units elapsed between first and last measured sample</description>
+    </item>
+    
+    <item>
+      <title>Field - r743flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743flg/</guid>
+      <description>Processing flags
+Map: R743DATA Based on: R743FLG Description Processing flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r743ter 0 OMVS terminated or reinstated this intervall when set r743chpr 1 Max. number of processes changed during reporting interval when set r743chus 2 Max. number of users changed during reporting interval when set r743chpu 3 Max. number of processes per user changed during reporting intervall when set r743chms 4 Max.</description>
+    </item>
+    
+    <item>
+      <title>Field - r743maxp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743maxp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743maxp/</guid>
+      <description>Max. number of OMVS processes (const.)
+Map: R743DATA Based on: R743MAXP Description Max. number of OMVS processes (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743maxu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743maxu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743maxu/</guid>
+      <description>Max. number of OMVS users (const.)
+Map: R743DATA Based on: R743MAXU Description Max. number of OMVS users (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mmap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mmap/</guid>
+      <description>Maximum number of memory map storage pages (const.)
+Map: R743DATA Based on: R743MMAP Description Maximum number of memory map storage pages (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mmsg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mmsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mmsg/</guid>
+      <description>Maximum number of message queue IDs (const.)
+Map: R743DATA Based on: R743MMSG Description Maximum number of message queue IDs (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mpag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mpag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mpag/</guid>
+      <description>Maximum number of shared storage pages (const.)
+Map: R743DATA Based on: R743MPAG Description Maximum number of shared storage pages (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mqds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mqds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mqds/</guid>
+      <description>Maximum amount of queued signals allowed per process (const.)
+Map: R743DATA Based on: R743MQDS Description Maximum amount of queued signals allowed per process (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743msem</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743msem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743msem/</guid>
+      <description>Maximum number of semaphore IDs (const.)
+Map: R743DATA Based on: R743MSEM Description Maximum number of semaphore IDs (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mshm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mshm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mshm/</guid>
+      <description>Maximum number of shared memory IDs (const.)
+Map: R743DATA Based on: R743MSHM Description Maximum number of shared memory IDs (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mslr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mslr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mslr/</guid>
+      <description>Maximum amount of storage available for shared library region (const. in MB)
+Map: R743DATA Based on: R743MSLR Description Maximum amount of storage available for shared library region (const. in MB)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mspg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mspg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mspg/</guid>
+      <description>Maximum number of shared memory pages (const.)
+Map: R743DATA Based on: R743MSPG Description Maximum number of shared memory pages (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743mxpu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mxpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743mxpu/</guid>
+      <description>Max. number of OMVS processes per user (const.)
+Map: R743DATA Based on: R743MXPU Description Max. number of OMVS processes per user (const.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oamn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oamn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oamn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of memory map storage pages per cycle
+Map: R743DATA Based on: R743OAMN Description Minimum number of attempts to exceed maximum number of memory map storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oamx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oamx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oamx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of memory map storage pages per cycle
+Map: R743DATA Based on: R743OAMX Description Maximum number of attempts to exceed maximum number of memory map storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ogmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ogmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ogmn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of shared memory pages per cycle
+Map: R743DATA Based on: R743OGMN Description Minimum number of attempts to exceed maximum number of shared memory pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ogmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ogmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ogmx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of shared memory pages per cycle
+Map: R743DATA Based on: R743OGMX Description Maximum number of attempts to exceed maximum number of shared memory pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ohmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ohmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ohmn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of shared memory IDs per cycle
+Map: R743DATA Based on: R743OHMN Description Minimum number of attempts to exceed maximum number of shared memory IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ohmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ohmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ohmx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of shared memory IDs per cycle
+Map: R743DATA Based on: R743OHMX Description Maximum number of attempts to exceed maximum number of shared memory IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743olmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743olmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743olmn/</guid>
+      <description>Minimum number of attempts to exceed maximum amount of shared library region per cycle
+Map: R743DATA Based on: R743OLMN Description Minimum number of attempts to exceed maximum amount of shared library region per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743olmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743olmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743olmx/</guid>
+      <description>Maximum number of attempts to exceed maximum amount of shared library region per cycle
+Map: R743DATA Based on: R743OLMX Description Maximum number of attempts to exceed maximum amount of shared library region per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743omap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743omap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743omap/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of memory map storage pages during one interval (short floating point)
+Map: R743DATA Based on: R743OMAP Description Accumulated number of attempts to exceed maximum number of memory map storage pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ommn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ommn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ommn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of message queue IDs per cycle
+Map: R743DATA Based on: R743OMMN Description Minimum number of attempts to exceed maximum number of message queue IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ommx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ommx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ommx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of message queue IDs per cycle
+Map: R743DATA Based on: R743OMMX Description Maximum number of attempts to exceed maximum number of message queue IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743omsg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743omsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743omsg/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of message queue IDs during one interval (short floating point)
+Map: R743DATA Based on: R743OMSG Description Accumulated number of attempts to exceed maximum number of message queue IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743opag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opag/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of shared storage pages during one interval (short floating point)
+Map: R743DATA Based on: R743OPAG Description Accumulated number of attempts to exceed maximum number of shared storage pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743opmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opmn/</guid>
+      <description>Min. mumber of times Fork/Dub failed because max. number of processes was exceeded during one cycle
+Map: R743DATA Based on: R743OPMN Description Min. mumber of times Fork/Dub failed because max. number of processes was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743opmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opmx/</guid>
+      <description>Max. mumber of times Fork/Dub failed because max. number of processes was exceeded during one cycle
+Map: R743DATA Based on: R743OPMX Description Max. mumber of times Fork/Dub failed because max. number of processes was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743opr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opr/</guid>
+      <description>Count of times Fork/Dub failed because max. number of processes was exceeded during one cycle (short floating point)
+Map: R743DATA Based on: R743OPR Description Count of times Fork/Dub failed because max. number of processes was exceeded during one cycle (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743opru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743opru/</guid>
+      <description>Count of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle (short floating point)
+Map: R743DATA Based on: R743OPRU Description Count of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oqds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqds/</guid>
+      <description>Accumulated number of attempts to exceed maximum amount of queued signals per interval (short floating point)
+Map: R743DATA Based on: R743OQDS Description Accumulated number of attempts to exceed maximum amount of queued signals per interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oqmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqmn/</guid>
+      <description>Minimum number of attempts to exceed maximum amount of queued signals per cycle
+Map: R743DATA Based on: R743OQMN Description Minimum number of attempts to exceed maximum amount of queued signals per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oqmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oqmx/</guid>
+      <description>Maximum number of attempts to exceed maximum amount of queued signals per cycle
+Map: R743DATA Based on: R743OQMX Description Maximum number of attempts to exceed maximum amount of queued signals per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ormn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ormn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ormn/</guid>
+      <description>Min. number of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle
+Map: R743DATA Based on: R743ORMN Description Min. number of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ormx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ormx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ormx/</guid>
+      <description>Max. number of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle
+Map: R743DATA Based on: R743ORMX Description Max. number of times Fork/Dub failed because max. number of processes per user was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743osem</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osem/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of semaphore IDs during one interval (short floating point)
+Map: R743DATA Based on: R743OSEM Description Accumulated number of attempts to exceed maximum number of semaphore IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oshm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oshm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oshm/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of shared memory IDs during one interval (short floating point)
+Map: R743DATA Based on: R743OSHM Description Accumulated number of attempts to exceed maximum number of shared memory IDs during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oslr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oslr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oslr/</guid>
+      <description>Accumulated number of attempts to exceed maximum amount of shared library region size during one interval (short floating point)
+Map: R743DATA Based on: R743OSLR Description Accumulated number of attempts to exceed maximum amount of shared library region size during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743osmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osmn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of semaphore IDs per cycle
+Map: R743DATA Based on: R743OSMN Description Minimum number of attempts to exceed maximum number of semaphore IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743osmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743osmx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of semaphore IDs per cycle
+Map: R743DATA Based on: R743OSMX Description Maximum number of attempts to exceed maximum number of semaphore IDs per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ospg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ospg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ospg/</guid>
+      <description>Accumulated number of attempts to exceed maximum number of shared memory pages during one interval (short floating point)
+Map: R743DATA Based on: R743OSPG Description Accumulated number of attempts to exceed maximum number of shared memory pages during one interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oumn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oumn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oumn/</guid>
+      <description>Min. mumber of times Fork/Dub failed because max. number of users was exceeded during one cycle
+Map: R743DATA Based on: R743OUMN Description Min. mumber of times Fork/Dub failed because max. number of users was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oumx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oumx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oumx/</guid>
+      <description>Max. mumber of times Fork/Dub failed because max. number of users was exceeded during one cycle
+Map: R743DATA Based on: R743OUMX Description Max. mumber of times Fork/Dub failed because max. number of users was exceeded during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ous</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ous/</guid>
+      <description>Count of times Fork/Dub failed because max. number of users was exceeded during one cycle (short floating point)
+Map: R743DATA Based on: R743OUS Description Count of times Fork/Dub failed because max. number of users was exceeded during one cycle (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oxmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oxmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oxmn/</guid>
+      <description>Minimum number of attempts to exceed maximum number of shared storage pages per cycle
+Map: R743DATA Based on: R743OXMN Description Minimum number of attempts to exceed maximum number of shared storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743oxmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oxmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743oxmx/</guid>
+      <description>Maximum number of attempts to exceed maximum number of shared storage pages per cycle
+Map: R743DATA Based on: R743OXMX Description Maximum number of attempts to exceed maximum number of shared storage pages per cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743scmn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743scmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743scmn/</guid>
+      <description>Min. number of OMVS system calls invoked during one cycle
+Map: R743DATA Based on: R743SCMN Description Min. number of OMVS system calls invoked during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743scmx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743scmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743scmx/</guid>
+      <description>Max. number of OMVS system calls invoked during one cycle
+Map: R743DATA Based on: R743SCMX Description Max. number of OMVS system calls invoked during one cycle</description>
+    </item>
+    
+    <item>
+      <title>Field - r743sysc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743sysc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743sysc/</guid>
+      <description>Total number of OMVS system calls invoked during the interval (short floating point)
+Map: R743DATA Based on: R743SYSC Description Total number of OMVS system calls invoked during the interval (short floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r743ter</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/r743ter/</guid>
+      <description>OMVS terminated or reinstated this intervall when set
+Map: R743DATA Based on: r743flg Description OMVS terminated or reinstated this intervall when set
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r743flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF74S3 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF74S3 Based on: SMF74RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF74S3 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF74S3 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF74S3 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF74S3 Based on: SMF74STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF74S3 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/time/</guid>
+      <description>Time of Record
+Record: SMF74S3 Based on: SMF74TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF74S3 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S3 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF74S3 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF74S3 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF74S3 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S3/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+  </channel>
+</rss>

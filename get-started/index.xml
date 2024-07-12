@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get Started on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/get-started/</link>
+    <description>Recent content in Get Started on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/get-started/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/get-started/installation/</guid>
+      <description>Install Python Access the IBM SMF Explorer Python package Download package from z/OS host Install SMF Explorer package with a Jupyter Lab environment (using the setup script in the IBM-SMF-Explorer repository) Get the IBM SMF Explorer GitHub repository Run JupyterLab environment setup Update the setup and IBM SMF Explorer Install SMF Explorer package (without the setup script in the IBM-SMF-Explorer repository) Install Graphviz (optional) This installation guide describes the procedures to set up a working environment for IBM SMF Explorer.</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/get-started/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/get-started/usage/</guid>
+      <description>Using SMF Explorer Jupyter Lab Environment Configure the certificate for your workstation Starting the environment Using the environment Shutting down Run SMF Explorer as a Python script Before you can use the IBM® SMF Explorer, you need the URL used for the z/OS® Data Gatherer: SMF Data REST Services endpoint and your User IDs credentials for the z/OS Host.
+The URL for the z/OS Data Gatherer: SMF Data REST Services endpoint usually has the form https://[host-domain/IP]/zosmf/zosdg/smf.</description>
+    </item>
+    
+  </channel>
+</rss>
