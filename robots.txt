@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /tags/*
-
-Sitemap: https://ibm.github.io/IBM-SMF-Explorer/sitemap.xml
