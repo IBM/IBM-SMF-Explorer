@@ -27292,7 +27292,7 @@ add Python to your PATH environment variable.</p>
         </a>
     </h4>
 </div>
-<p><strong>Note</strong>: this step is not needed if you are installing on USS system</p>
+
 <p>This tutorial assumes that you already have the <em>z/OS Data Gatherer: SMF Data REST Services</em> installed on your z/OS Host. The IBM SMF Explorer Python package is provided in a ZIP archive on the z/OS host on which the <em>z/OS Data Gatherer: SMF Data REST Services</em> was installed.</p>
 <p>You will find the ZIP archive <code>smf_explorer.zip</code> in USS directory <code>/usr/lpp/IBM/zdg/smf_explorer</code>.
 Use FTP or any other methods available to download the archive from the z/OS Host.
@@ -27508,21 +27508,6 @@ If you want to setup the environment from scratch, you can add the <em>reset</em
       type="radio"
       class="gdoc-tabs__control hidden"
       name="tabs-Install"
-      id="tabs-Install-0"
-      checked="checked"
-    />
-    <label for="tabs-Install-0" class="gdoc-tabs__label">
-      USS
-    </label>
-    <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">pip install -r /usr/lpp/IBM/zdg/smf_explorer/uss_requirements.txt
-</span></span><span class="line"><span class="cl">pip install --no-deps /usr/lpp/IBM/zdg/smf_explorer/smfexplorer*.whl
-</span></span></code></pre></div>
-    </div>
-    <input
-      type="radio"
-      class="gdoc-tabs__control hidden"
-      name="tabs-Install"
       id="tabs-Install-1"
       
     />
@@ -27535,10 +27520,7 @@ If you want to setup the environment from scratch, you can add the <em>reset</em
     </div>
 </div>
 
-<p>Please note that on USS, we leverage the <a
-  class="gdoc-markdown__link"
-  href="https://ibm-z-oss-oda.github.io/python_ai_toolkit_zos/"
->Python® AI Toolkit for IBM® z/OS®</a> that provides a secure foundation for AI development on z/OS.</p>
+
 <div class="gdoc-page__anchorwrap">
     <h4 id="install-graphviz-optional"
     >
