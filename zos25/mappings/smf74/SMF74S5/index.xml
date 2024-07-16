@@ -1,0 +1,2613 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 74 Subtype  5 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/</link>
+    <description>Recent content in SMF 74 Subtype  5 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - _1l</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1l/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1l/</guid>
+      <description>Length of RAID rank data section
+Record: SMF74S5 Based on: SMF7451L Description Length of RAID rank data section</description>
+    </item>
+    
+    <item>
+      <title>Field - _1n</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1n/</guid>
+      <description>Number of RAID rank data sections
+Record: SMF74S5 Based on: SMF7451N Description Number of RAID rank data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - _1o</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1o/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/_1o/</guid>
+      <description>Offset to RAID rank data section
+Record: SMF74S5 Based on: SMF7451O Description Offset to RAID rank data section</description>
+    </item>
+    
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF74S5 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cl/</guid>
+      <description>Length of control section
+Record: SMF74S5 Based on: SMF745CL Description Length of control section</description>
+    </item>
+    
+    <item>
+      <title>Field - cn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cn/</guid>
+      <description>Number of control sections
+Record: SMF74S5 Based on: SMF745CN Description Number of control sections</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - co</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/co/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/co/</guid>
+      <description>Offset to control section
+Record: SMF74S5 Based on: SMF745CO Description Offset to control section</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/date/</guid>
+      <description>Date of Record
+Record: SMF74S5 Based on: SMF74DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dl/</guid>
+      <description>Length of CACHE device data section
+Record: SMF74S5 Based on: SMF745DL Description Length of CACHE device data section</description>
+    </item>
+    
+    <item>
+      <title>Field - dn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dn/</guid>
+      <description>Number of CACHE device data sections
+Record: SMF74S5 Based on: SMF745DN Description Number of CACHE device data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - do</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/do/</guid>
+      <description>Offset to CACHE device data section
+Record: SMF74S5 Based on: SMF745DO Description Offset to CACHE device data section</description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF74S5 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF74S5 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/fla/</guid>
+      <description>Flags
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF74S5 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S5 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - nedmanuf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedmanuf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedmanuf/</guid>
+      <description>Manufacturer
+Map: R745CNTL Based on: NEDMANUF Description Manufacturer</description>
+    </item>
+    
+    <item>
+      <title>Field - nedmodn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedmodn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedmodn/</guid>
+      <description>Model number
+Map: R745CNTL Based on: NEDMODN Description Model number</description>
+    </item>
+    
+    <item>
+      <title>Field - nedpmanu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedpmanu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedpmanu/</guid>
+      <description>Plant of manufacture
+Map: R745CNTL Based on: NEDPMANU Description Plant of manufacture</description>
+    </item>
+    
+    <item>
+      <title>Field - nedseqn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedseqn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedseqn/</guid>
+      <description>Sequence number
+Map: R745CNTL Based on: NEDSEQN Description Sequence number</description>
+    </item>
+    
+    <item>
+      <title>Field - nedtag</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedtag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedtag/</guid>
+      <description>Tag
+Map: R745CNTL Based on: NEDTAG Description Tag</description>
+    </item>
+    
+    <item>
+      <title>Field - nedtypen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedtypen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/nedtypen/</guid>
+      <description>Type number
+Map: R745CNTL Based on: NEDTYPEN Description Type number</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF74S5 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prd/</guid>
+      <description>Product name
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF74S5 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF74S5 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF74S5 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451aid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451aid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451aid/</guid>
+      <description>Device adapter ID. Only valid with RAID rank data
+Map: R7451DEV Based on: R7451AID Description Device adapter ID. Only valid with RAID rank data</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct1/</guid>
+      <description>Bytes read (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7451CT1 Description Bytes read (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct2/</guid>
+      <description>Bytes written (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7451CT2 Description Bytes written (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct3/</guid>
+      <description>Read response time (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7451CT3 Description Read response time (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct4/</guid>
+      <description>Write response time (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7451CT4 Description Write response time (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct5/</guid>
+      <description>z/HPF Read I/O requests (short float)
+Map: R7451DEV Based on: R7451CT5 Description z/HPF Read I/O requests (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451ct6</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451ct6/</guid>
+      <description>z/HPF Write I/O requests (short float)
+Map: R7451DEV Based on: R7451CT6 Description z/HPF Write I/O requests (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451dvn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451dvn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451dvn/</guid>
+      <description>Device number (binary)
+Map: R7451DEV Based on: R7451DVN Description Device number (binary)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451flg/</guid>
+      <description>Information in this section: X&#39;00&amp;rsquo; = No additional data. X&#39;01&amp;rsquo; = RAID rank data. X&#39;02&amp;rsquo; = Physical storage data.
+Map: R7451DEV Based on: R7451FLG Description Information in this section: X&#39;00&amp;rsquo; = No additional data. X&#39;01&amp;rsquo; = RAID rank data. X&#39;02&amp;rsquo; = Physical storage data.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451gsf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451gsf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451gsf/</guid>
+      <description>Global Mirror Collisions (GMC) sidefile count (short float). A GMC occurs when, during the sending of data in the secondary to create a consistency group, a subsequent host update is attempted before the modified track has been transmitted to the secondary volume. The modified track will be moved to the sidefile before allowing a new host write. The counter will be incremented by one when a track is added to the sidefile.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451gss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451gss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451gss/</guid>
+      <description>Global Mirror Collisions Send synchronous count (short float). When a write collision occurs, the modified track data which belongs to the current consistency group may be sent to the remote control unit before allowing the write. The data may come from the sidefile if it is full or from cache if the collision sidefile is not being utilized.
+Map: R7451DEV Based on: R7451GSS Description Global Mirror Collisions Send synchronous count (short float).</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451hpf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451hpf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451hpf/</guid>
+      <description>zHPF read and write I/O requests available
+Map: R7451DEV Based on: r7451inc Description zHPF read and write I/O requests available
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r7451inc.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451hss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451hss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451hss/</guid>
+      <description>HDD sector size. Only valid with RAID rank data
+Map: R7451DEV Based on: R7451HSS Description HDD sector size. Only valid with RAID rank data</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451inc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451inc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451inc/</guid>
+      <description>Increment values
+Map: R7451DEV Based on: R7451INC Description Increment values
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r7451sio 3 &amp;lsquo;1&amp;rsquo; = Synchronous I/O cache data are valid r7451hpf 4 zHPF read and write I/O requests available </description>
+    </item>
+    
+    <item>
+      <title>Field - r7451nvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451nvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451nvs/</guid>
+      <description>NVS space allocation (short float)
+Map: R7451DEV Based on: R7451NVS Description NVS space allocation (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451rmr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451rmr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451rmr/</guid>
+      <description>Record mode read request (short float)
+Map: R7451DEV Based on: R7451RMR Description Record mode read request (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451rsv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451rsv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451rsv/</guid>
+      <description>Lower interface I/O activity in msec (short float). Zero for 2107
+Map: R7451DEV Based on: R7451RSV Description Lower interface I/O activity in msec (short float). Zero for 2107</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451scs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451scs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451scs/</guid>
+      <description>Subchannel set ID
+Map: R7451DEV Based on: R7451SCS Description Subchannel set ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451sio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451sio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451sio/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Synchronous I/O cache data are valid
+Map: R7451DEV Based on: r7451inc Description &amp;lsquo;1&amp;rsquo; = Synchronous I/O cache data are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r7451inc.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451srh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451srh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451srh/</guid>
+      <description>Number of synchronous I/O cache read request hits. (Valid if bit 3 of R7451INC is set.)
+Map: R7451DEV Based on: R7451SRH Description Number of synchronous I/O cache read request hits. (Valid if bit 3 of R7451INC is set.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451srr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451srr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451srr/</guid>
+      <description>Number of synchronous I/O cache read requests. (Valid if bit 3 of R7451INC is set.)
+Map: R7451DEV Based on: R7451SRR Description Number of synchronous I/O cache read requests. (Valid if bit 3 of R7451INC is set.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451swh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451swh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451swh/</guid>
+      <description>Number of synchronous I/O cache write request hits. (Valid if bit 3 of R7451INC is set.)
+Map: R7451DEV Based on: R7451SWH Description Number of synchronous I/O cache write request hits. (Valid if bit 3 of R7451INC is set.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451swr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451swr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451swr/</guid>
+      <description>Number of synchronous I/O cache write requests. (Valid if bit 3 of R7451INC is set.)
+Map: R7451DEV Based on: R7451SWR Description Number of synchronous I/O cache write requests. (Valid if bit 3 of R7451INC is set.)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451tsp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451tsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451tsp/</guid>
+      <description>Number of tracks transferred to secondary PPRC volume (short float)
+Map: R7451DEV Based on: R7451TSP Description Number of tracks transferred to secondary PPRC volume (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451unt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451unt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451unt/</guid>
+      <description>Units: &amp;lsquo;00&amp;rsquo; = Bytes in units of 128K. Times in units of 16 milliseconds. &amp;lsquo;01&amp;rsquo; = Reserved. &amp;lsquo;10&amp;rsquo; = Reserved. &amp;lsquo;11&amp;rsquo; = Reserved.
+Map: R7451DEV Based on: R7451UNT Description Units: &amp;lsquo;00&amp;rsquo; = Bytes in units of 128K. Times in units of 16 milliseconds. &amp;lsquo;01&amp;rsquo; = Reserved. &amp;lsquo;10&amp;rsquo; = Reserved. &amp;lsquo;11&amp;rsquo; = Reserved.
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r7451xfl 7 &amp;lsquo;1&amp;rsquo; = Transfer statistics R7451XFR valid </description>
+    </item>
+    
+    <item>
+      <title>Field - r7451xcw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xcw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xcw/</guid>
+      <description>XRC or CC contaminated writes (short float)
+Map: R7451DEV Based on: R7451XCW Description XRC or CC contaminated writes (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451xfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xfl/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Transfer statistics R7451XFR valid
+Map: R7451DEV Based on: r7451unt Description &amp;lsquo;1&amp;rsquo; = Transfer statistics R7451XFR valid
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r7451unt.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451xsf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xsf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451xsf/</guid>
+      <description>XRC or CC sidefile reads (short float)
+Map: R7451DEV Based on: R7451XSF Description XRC or CC sidefile reads (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451zhh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451zhh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451zhh/</guid>
+      <description>zHPF List Pre-fetch I/O Request Hits. Number of command chains, where - the Transport Mode operation specified a non-zero Imbedded Locate Record Count. - the chain was completed without requiring access to any DDM.
+Map: R7451DEV Based on: R7451ZHH Description zHPF List Pre-fetch I/O Request Hits. Number of command chains, where - the Transport Mode operation specified a non-zero Imbedded Locate Record Count. - the chain was completed without requiring access to any DDM.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7451zhl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451zhl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7451zhl/</guid>
+      <description>zHPF List Pre-fetch I/O Requests. Number of command chains, where the Transport Mode operation specified a non-zero Imbedded Locate Record Count
+Map: R7451DEV Based on: R7451ZHL Description zHPF List Pre-fetch I/O Requests. Number of command chains, where the Transport Mode operation specified a non-zero Imbedded Locate Record Count</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452dsh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452dsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452dsh/</guid>
+      <description>Data sharing
+Map: R7451DEV Based on: r7452xfl Description Data sharing
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r7452xfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452dxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452dxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452dxa/</guid>
+      <description>Dynamic extent allocation
+Map: R7451DEV Based on: r7452xfl Description Dynamic extent allocation
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r7452xfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452mis</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452mis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452mis/</guid>
+      <description>Migrating/migration state
+Map: R7451DEV Based on: r7452xfl Description Migrating/migration state
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r7452xfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452pbr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pbr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pbr/</guid>
+      <description>Physical storage bytes read (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7452PBR Description Physical storage bytes read (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452pbw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pbw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pbw/</guid>
+      <description>Physical storage bytes written (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7452PBW Description Physical storage bytes written (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452pro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pro/</guid>
+      <description>Physical storage read operations (short float)
+Map: R7451DEV Based on: R7452PRO Description Physical storage read operations (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452prt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452prt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452prt/</guid>
+      <description>Physical storage read response time (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7452PRT Description Physical storage read response time (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452pwo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pwo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pwo/</guid>
+      <description>Physical storage write operations (short float)
+Map: R7451DEV Based on: R7452PWO Description Physical storage write operations (short float)</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452pwt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pwt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452pwt/</guid>
+      <description>Physical storage write response time (short float). Units in R7451UNT
+Map: R7451DEV Based on: R7452PWT Description Physical storage write response time (short float). Units in R7451UNT</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452xfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xfl/</guid>
+      <description>Extent flags
+Map: R7451DEV Based on: R7452XFL Description Extent flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r7452dxa 0 Dynamic extent allocation r7452dsh 1 Data sharing r7452mis 2 Migrating/migration state </description>
+    </item>
+    
+    <item>
+      <title>Field - r7452xid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xid/</guid>
+      <description>Extent pool id
+Map: R7451DEV Based on: R7452XID Description Extent pool id</description>
+    </item>
+    
+    <item>
+      <title>Field - r7452xty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r7452xty/</guid>
+      <description>Extent type: X&#39;04&amp;rsquo; = FB 1Gb. X&#39;84&amp;rsquo; = CKD 1Gb
+Map: R7451DEV Based on: R7452XTY Description Extent type: X&#39;04&amp;rsquo; = FB 1Gb. X&#39;84&amp;rsquo; = CKD 1Gb</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cae</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cae/</guid>
+      <description>ABEND CODE (SDWACMPC). System and User completion code (12 bits each)
+Map: R745CNTL Based on: R745CAE Description ABEND CODE (SDWACMPC). System and User completion code (12 bits each)</description>
+    </item>
+    
+    <item>
+      <title>Field - r745ccnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ccnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ccnt/</guid>
+      <description>Record sequence number
+Map: R745CNTL Based on: R745CCNT Description Record sequence number</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cfdv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cfdv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cfdv/</guid>
+      <description>Failing device
+Map: R745CNTL Based on: R745CFDV Description Failing device</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cint</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cint/</guid>
+      <description>Number of seconds since subsystem statistics last collected
+Map: R745CNTL Based on: R745CINT Description Number of seconds since subsystem statistics last collected</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cioc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cioc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cioc/</guid>
+      <description>IOS return code. If not zero, no device data sections. SMF745DN = 0
+Map: R745CNTL Based on: R745CIOC Description IOS return code. If not zero, no device data sections. SMF745DN = 0</description>
+    </item>
+    
+    <item>
+      <title>Field - r745clvl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745clvl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745clvl/</guid>
+      <description>Gatherer level
+Map: R745CNTL Based on: R745CLVL Description Gatherer level</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cmdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cmdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cmdl/</guid>
+      <description>Caching subsystem model
+Map: R745CNTL Based on: R745CMDL Description Caching subsystem model</description>
+    </item>
+    
+    <item>
+      <title>Field - r745crtn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745crtn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745crtn/</guid>
+      <description>IDCSS01 return code. If not zero, no device data sections. SMF745DN = 0
+Map: R745CNTL Based on: R745CRTN Description IDCSS01 return code. If not zero, no device data sections. SMF745DN = 0</description>
+    </item>
+    
+    <item>
+      <title>Field - r745csc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745csc/</guid>
+      <description>Status code 00 = successful processed, 04 = IOS return code R745CIOC ^= 0, 08 = IDCSS01 return code R745CRTN ^= 0, 98 = SYSTEM or USER ABEND R745CEA ^= 0
+Map: R745CNTL Based on: R745CSC Description Status code 00 = successful processed, 04 = IOS return code R745CIOC ^= 0, 08 = IDCSS01 return code R745CRTN ^= 0, 98 = SYSTEM or USER ABEND R745CEA ^= 0</description>
+    </item>
+    
+    <item>
+      <title>Field - r745cuid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cuid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745cuid/</guid>
+      <description>Real CU type code. If R745CMDL=1, configured CU type code
+Map: R745CNTL Based on: R745CUID Description Real CU type code. If R745CMDL=1, configured CU type code</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dbcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dbcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dbcr/</guid>
+      <description>Bypass cache requests Floating point short
+Map: R745DEV Based on: R745DBCR Description Bypass cache requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dbdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dbdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dbdp/</guid>
+      <description>Device in a Soft Fenced state
+Map: R745DEV Based on: r745dcol Description Device in a Soft Fenced state
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r745dcol.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dccu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dccu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dccu/</guid>
+      <description>Configured control unit type code if R745CMDL = 1
+Map: R745DEV Based on: R745DCCU Description Configured control unit type code if R745CMDL = 1</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dcol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcol/</guid>
+      <description>Volume Space Management B&#39;00&amp;rsquo; = Standard volume B&#39;01&amp;rsquo; = Track Space Efficient Volume B&#39;10&amp;rsquo; = Extent Space Efficient Volume B&#39;11&amp;rsquo; = Reserved
+Map: R745DEV Based on: R745DCOL Description Volume Space Management B&#39;00&amp;rsquo; = Standard volume B&#39;01&amp;rsquo; = Track Space Efficient Volume B&#39;10&amp;rsquo; = Extent Space Efficient Volume B&#39;11&amp;rsquo; = Reserved
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745defn 2 Data exits in failed NVS r745dbdp 3 Device in a Soft Fenced state </description>
+    </item>
+    
+    <item>
+      <title>Field - r745dcrh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcrh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcrh/</guid>
+      <description>Search read caching hits Floating point short
+Map: R745DEV Based on: R745DCRH Description Search read caching hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dcrm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcrm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcrm/</guid>
+      <description>Record cache read misses Floating point short
+Map: R745DEV Based on: R745DCRM Description Record cache read misses Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dctd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dctd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dctd/</guid>
+      <description>CACHE to DASD XFRs Floating point short
+Map: R745DEV Based on: R745DCTD Description CACHE to DASD XFRs Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dcwp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcwp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dcwp/</guid>
+      <description>RCD cache write promotions Floating point short
+Map: R745DEV Based on: R745DCWP Description RCD cache write promotions Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745defn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745defn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745defn/</guid>
+      <description>Data exits in failed NVS
+Map: R745DEV Based on: r745dcol Description Data exits in failed NVS
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r745dcol.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dev4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dev4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dev4/</guid>
+      <description>B&#39;1&amp;rsquo; 4 digit device addr.
+Map: R745DEV Based on: r745dfl4 Description B&#39;1&amp;rsquo; 4 digit device addr.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r745dfl4.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745devn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745devn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745devn/</guid>
+      <description>Device number (binary)
+Map: R745DEV Based on: R745DEVN Description Device number (binary)</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfl4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfl4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfl4/</guid>
+      <description>Flags
+Map: R745DEV Based on: R745DFL4 Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745dev4 0 B&#39;1&amp;rsquo; 4 digit device addr. </description>
+    </item>
+    
+    <item>
+      <title>Field - r745dflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dflg/</guid>
+      <description>Flags
+Map: R745DEV Based on: R745DFLG Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745dnav 0 Cache storage not available set to 0 for DS8000 </description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfrm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfrm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfrm/</guid>
+      <description>Format of data returned B&#39;0000&amp;rsquo; = 3990 Models 1,2 and 3 or Basic Operation Mode B&#39;0001&amp;rsquo; = 3990 Model 6 Enhanced Operation Mode 1 or host supports DS8000 Disk Controller
+Map: R745DEV Based on: R745DFRM Description Format of data returned B&#39;0000&amp;rsquo; = 3990 Models 1,2 and 3 or Basic Operation Mode B&#39;0001&amp;rsquo; = 3990 Model 6 Enhanced Operation Mode 1 or host supports DS8000 Disk Controller</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfwb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwb/</guid>
+      <description>DASD Fast Write operations delayed due to non-volatile storage space constraints Floating point short
+Map: R745DEV Based on: R745DFWB Description DASD Fast Write operations delayed due to non-volatile storage space constraints Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfwc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwc/</guid>
+      <description>Fast write caching req. Floating point short
+Map: R745DEV Based on: R745DFWC Description Fast write caching req. Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfwi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwi/</guid>
+      <description>DFW inhibited
+Map: R745STAT Based on: r745svss Description DFW inhibited
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r745svss.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfwr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfwr/</guid>
+      <description>Operations delayed due to cache space constraints Floating point short
+Map: R745DEV Based on: R745DFWR Description Operations delayed due to cache space constraints Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dfws</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dfws/</guid>
+      <description>Fast write sequ. req. Floating point short
+Map: R745DEV Based on: R745DFWS Description Fast write sequ. req. Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dicl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dicl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dicl/</guid>
+      <description>Inhibit cache load req. Floating point short
+Map: R745DEV Based on: R745DICL Description Inhibit cache load req. Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dkdh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dkdh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dkdh/</guid>
+      <description>CKD write hits, collected for 3990-03/06, 2105 Floating point short
+Map: R745DEV Based on: R745DKDH Description CKD write hits, collected for 3990-03/06, 2105 Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dkdw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dkdw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dkdw/</guid>
+      <description>CKD writes, collected for 3990-03/06, 2105 Floating point short
+Map: R745DEV Based on: R745DKDW Description CKD writes, collected for 3990-03/06, 2105 Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dnav</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dnav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dnav/</guid>
+      <description>Cache storage not available set to 0 for DS8000
+Map: R745DEV Based on: r745dflg Description Cache storage not available set to 0 for DS8000
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r745dflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dnrh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dnrh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dnrh/</guid>
+      <description>Search read non-retentive request hits Floating point short
+Map: R745DEV Based on: R745DNRH Description Search read non-retentive request hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dntd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dntd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dntd/</guid>
+      <description>Normal cache requests DASD to CACHE XFRs Floating point short
+Map: R745DEV Based on: R745DNTD Description Normal cache requests DASD to CACHE XFRs Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dpdf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dpdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dpdf/</guid>
+      <description>Format of Performance Data returned B&#39;000&amp;rsquo; = 3990 Format B&#39;001&amp;rsquo; = DS8000 Disk Controller Format
+Map: R745DEV Based on: R745DPDF Description Format of Performance Data returned B&#39;000&amp;rsquo; = 3990 Format B&#39;001&amp;rsquo; = DS8000 Disk Controller Format</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dpdt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dpdt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dpdt/</guid>
+      <description>If R745SFT = 1 or 2 Pinned data B&#39;00&amp;rsquo; = No pinned data B&#39;01&amp;rsquo; = Pinned data exists for the device B&#39;10&amp;rsquo; = Reserved B&#39;11&amp;rsquo; = Not used
+Map: R745DEV Based on: R745DPDT Description If R745SFT = 1 or 2 Pinned data B&#39;00&amp;rsquo; = No pinned data B&#39;01&amp;rsquo; = Pinned data exists for the device B&#39;10&amp;rsquo; = Reserved B&#39;11&amp;rsquo; = Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r745drcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drcr/</guid>
+      <description>Search read caching requ. Floating point short
+Map: R745DEV Based on: R745DRCR Description Search read caching requ. Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745drnr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drnr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drnr/</guid>
+      <description>Search read non-retentive requests Floating point short
+Map: R745DEV Based on: R745DRNR Description Search read non-retentive requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745drsh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drsh/</guid>
+      <description>Read sequential requ.hits Floating point short
+Map: R745DEV Based on: R745DRSH Description Read sequential requ.hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745drsr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drsr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745drsr/</guid>
+      <description>Read sequential requests Floating point short
+Map: R745DEV Based on: R745DRSR Description Read sequential requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dscs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dscs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dscs/</guid>
+      <description>Subchannel set ID 00 - Subchannel set ID 0 01 - Subchannel set ID 1 10 - Subchannel set ID 2 11 - Subchannel set ID 3
+Map: R745DEV Based on: R745DSCS Description Subchannel set ID 00 - Subchannel set ID 0 01 - Subchannel set ID 1 10 - Subchannel set ID 2 11 - Subchannel set ID 3</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dsdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsdp/</guid>
+      <description>PPRC pair status B&#39;00&amp;rsquo; = PPRC pair available (full duplex) B&#39;01&amp;rsquo; = PPRC pair pending B&#39;10&amp;rsquo; = Not used B&#39;11&amp;rsquo; = Suspended
+Map: R745DEV Based on: R745DSDP Description PPRC pair status B&#39;00&amp;rsquo; = PPRC pair available (full duplex) B&#39;01&amp;rsquo; = PPRC pair pending B&#39;10&amp;rsquo; = Not used B&#39;11&amp;rsquo; = Suspended</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dsdv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsdv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsdv/</guid>
+      <description>Device caching status B&#39;00&amp;rsquo; = Caching activated
+Map: R745DEV Based on: R745DSDV Description Device caching status B&#39;00&amp;rsquo; = Caching activated</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dsfw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsfw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsfw/</guid>
+      <description>DASD fast write device status B&#39;00&amp;rsquo; = DFW allowed
+Map: R745DEV Based on: R745DSFW Description DASD fast write device status B&#39;00&amp;rsquo; = DFW allowed
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745dspd 4 PPRC copy pair suspended r745dssd 5 PPRC copy pair is duplex pending </description>
+    </item>
+    
+    <item>
+      <title>Field - r745dsg2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsg2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsg2/</guid>
+      <description>Device status group 2 &amp;hellip;. 1&amp;hellip; Device in a SPID Fenced state &amp;hellip;. .1.. Volume is part of a RAID rank that is undergoing RAID rebuild
+Map: R745DEV Based on: R745DSG2 Description Device status group 2 &amp;hellip;. 1&amp;hellip; Device in a SPID Fenced state &amp;hellip;. .1.. Volume is part of a RAID rank that is undergoing RAID rebuild</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dsid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dsid/</guid>
+      <description>Subsystem ID
+Map: R745DEV Based on: R745DSID Description Subsystem ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dspd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dspd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dspd/</guid>
+      <description>PPRC copy pair suspended
+Map: R745DEV Based on: r745dsfw Description PPRC copy pair suspended
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r745dsfw.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dssd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dssd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dssd/</guid>
+      <description>PPRC copy pair is duplex pending
+Map: R745DEV Based on: r745dsfw Description PPRC copy pair is duplex pending
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r745dsfw.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dtc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dtc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dtc/</guid>
+      <description>Seq DASD to cache XFRs Floating point short
+Map: R745DEV Based on: R745DTC Description Seq DASD to cache XFRs Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dunt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dunt/</guid>
+      <description>Unit addr. for sense CMD
+Map: R745DEV Based on: R745DUNT Description Unit addr. for sense CMD</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dvid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvid/</guid>
+      <description>Device address
+Map: R745DEV Based on: R745DVID Description Device address</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dvol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvol/</guid>
+      <description>Volume serial of device
+Map: R745DEV Based on: R745DVOL Description Volume serial of device</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dvs1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvs1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvs1/</guid>
+      <description>Addressed device status 1
+Map: R745DEV Based on: R745DVS1 Description Addressed device status 1</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dvs2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvs2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dvs2/</guid>
+      <description>Addressed device status 2 If R745SFT = 0 Pinned data (2 bits) 00.. &amp;hellip;. No pinned data 01.. &amp;hellip;. Pinned data exists for device 10.. &amp;hellip;. Reserved 11.. &amp;hellip;. Not used ..xx xx.. Not used &amp;hellip;. ..1. Advanced FlashCopy enabled &amp;hellip;. &amp;hellip;1 FlashCopy volume enabled If R745SFT = 1 or 2 Global Mirror State (3 bits) 000. &amp;hellip;. No Global Mirror configured 001. &amp;hellip;. Global Mirror running optimal 010. &amp;hellip;. Global Mirror running suboptimal 011.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwch/</guid>
+      <description>Write caching requ. hits Floating point short
+Map: R745DEV Based on: R745DWCH Description Write caching requ. hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwnh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwnh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwnh/</guid>
+      <description>Write non-retentive hits Floating point short
+Map: R745DEV Based on: R745DWNH Description Write non-retentive hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwnr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwnr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwnr/</guid>
+      <description>Write non-retentive requests Floating point short
+Map: R745DEV Based on: R745DWNR Description Write non-retentive requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwrc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwrc/</guid>
+      <description>Write caching requests Floating point short
+Map: R745DEV Based on: R745DWRC Description Write caching requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwsh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwsh/</guid>
+      <description>Write sequ. request hits Floating point short
+Map: R745DEV Based on: R745DWSH Description Write sequ. request hits Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745dwsr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwsr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745dwsr/</guid>
+      <description>Write sequential requests Floating point short
+Map: R745DEV Based on: R745DWSR Description Write sequential requests Floating point short</description>
+    </item>
+    
+    <item>
+      <title>Field - r745savl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745savl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745savl/</guid>
+      <description>Available subsystem storage if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SAVL Description Available subsystem storage if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745scln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scln/</guid>
+      <description>Lng.of subsys. count area
+Map: R745STAT Based on: R745SCLN Description Lng.of subsys. count area</description>
+    </item>
+    
+    <item>
+      <title>Field - r745scnf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scnf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scnf/</guid>
+      <description>Configured subsystem storage if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SCNF Description Configured subsystem storage if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745scnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scnv/</guid>
+      <description>Config. non-volatile cache, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SCNV Description Config. non-volatile cache, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745scol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scol/</guid>
+      <description>Colume Space Management B&#39;00&amp;rsquo; = Standard volume B&#39;01&amp;rsquo; = Track Space Efficient Volume B&#39;10&amp;rsquo; = Extent Space Efficient Volume B&#39;11&amp;rsquo; = Reserved
+Map: R745STAT Based on: R745SCOL Description Colume Space Management B&#39;00&amp;rsquo; = Standard volume B&#39;01&amp;rsquo; = Track Space Efficient Volume B&#39;10&amp;rsquo; = Extent Space Efficient Volume B&#39;11&amp;rsquo; = Reserved
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745sfvs 2 Data on failed NVS r745sdbp 3 Device in a Soft Fenced state pending </description>
+    </item>
+    
+    <item>
+      <title>Field - r745scs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scs/</guid>
+      <description>Caching status &amp;hellip;1 &amp;hellip;. Reserved &amp;hellip;. 1&amp;hellip; Storage Facility running as a single cluster &amp;hellip;. .1.. Must be zero &amp;hellip;. ..1. Reserved
+Map: R745STAT Based on: R745SCS Description Caching status &amp;hellip;1 &amp;hellip;. Reserved &amp;hellip;. 1&amp;hellip; Storage Facility running as a single cluster &amp;hellip;. .1.. Must be zero &amp;hellip;. ..1. Reserved</description>
+    </item>
+    
+    <item>
+      <title>Field - r745scsf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scsf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745scsf/</guid>
+      <description>State of Copy Services Function
+Map: R745STAT Based on: R745SCSF Description State of Copy Services Function</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdbp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdbp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdbp/</guid>
+      <description>Device in a Soft Fenced state pending
+Map: R745STAT Based on: r745scol Description Device in a Soft Fenced state pending
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r745scol.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdcs/</guid>
+      <description>Device caching status B&#39;00&amp;rsquo; = Caching activated
+Map: R745STAT Based on: R745SDCS Description Device caching status B&#39;00&amp;rsquo; = Caching activated</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdev</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdev/</guid>
+      <description>Device number (binary)
+Map: R745STAT Based on: R745SDEV Description Device number (binary)</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdfw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdfw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdfw/</guid>
+      <description>DASD fast write status B&#39;00&amp;rsquo; = DFW allowed
+Map: R745STAT Based on: R745SDFW Description DASD fast write status B&#39;00&amp;rsquo; = DFW allowed
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745spdp 4 PPRC copy pair suspended r745ssdp 5 PPRC copy pair is duplex pending </description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdid/</guid>
+      <description>Device ID
+Map: R745STAT Based on: R745SDID Description Device ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdpn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdpn/</guid>
+      <description>Pinned data (no longer used)
+Map: R745STAT Based on: r745sds2 Description Pinned data (no longer used)
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r745sds2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sdps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sdps/</guid>
+      <description>PPRC pair status B&#39;00&amp;rsquo; = PPRC pair available (full duplex) B&#39;01&amp;rsquo; = PPRC pair pending B&#39;10&amp;rsquo; = Not used B&#39;11&amp;rsquo; = Suspended
+Map: R745STAT Based on: R745SDPS Description PPRC pair status B&#39;00&amp;rsquo; = PPRC pair available (full duplex) B&#39;01&amp;rsquo; = PPRC pair pending B&#39;10&amp;rsquo; = Not used B&#39;11&amp;rsquo; = Suspended</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds/</guid>
+      <description>Disabled for maintenance (No longer used)
+Map: R745STAT Based on: r745sos Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r745sos.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sds1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds1/</guid>
+      <description>Addressed device status 1
+Map: R745STAT Based on: R745SDS1 Description Addressed device status 1</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sds2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sds2/</guid>
+      <description>Addressed device status 2 If R745SFT = 0 Pinned data (2 bits) 00.. &amp;hellip;. No pinned data 01.. &amp;hellip;. Pinned data exists for device 10.. &amp;hellip;. Reserved 11.. &amp;hellip;. Not used ..xx xx.. Not used &amp;hellip;. ..1. Advanced FlashCopy enabled &amp;hellip;. &amp;hellip;1 FlashCopy volume enabled If R745SFT = 1 or 2 Global Mirror State (3 bits) 000. &amp;hellip;. No Global Mirror configured 001. &amp;hellip;. Global Mirror running optimal 010. &amp;hellip;. Global Mirror running suboptimal 011.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sfdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sfdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sfdp/</guid>
+      <description>Device is failed duplex (no longer used)
+Map: R745STAT Based on: r745sds2 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r745sds2.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sft</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sft/</guid>
+      <description>Status data format B&amp;rsquo;&amp;hellip;.0000&amp;rsquo; = 40 bytes sense B&amp;rsquo;&amp;hellip;&amp;hellip;.1&amp;rsquo; = 44 bytes sense/ unit KB B&amp;rsquo;&amp;hellip;&amp;hellip;10&amp;rsquo; = 96 bytes sense/ unit KB
+Map: R745STAT Based on: R745SFT Description Status data format B&amp;rsquo;&amp;hellip;.0000&amp;rsquo; = 40 bytes sense B&amp;rsquo;&amp;hellip;&amp;hellip;.1&amp;rsquo; = 44 bytes sense/ unit KB B&amp;rsquo;&amp;hellip;&amp;hellip;10&amp;rsquo; = 96 bytes sense/ unit KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sfvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sfvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sfvs/</guid>
+      <description>Data on failed NVS
+Map: R745STAT Based on: r745scol Description Data on failed NVS
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r745scol.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sg2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sg2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sg2/</guid>
+      <description>Device status group 2 &amp;hellip;. 1&amp;hellip; Device in a SPID Fenced state &amp;hellip;. .1.. Volume is part of a RAID rank that is undergoing RAID rebuild
+Map: R745STAT Based on: R745SG2 Description Device status group 2 &amp;hellip;. 1&amp;hellip; Device in a SPID Fenced state &amp;hellip;. .1.. Volume is part of a RAID rank that is undergoing RAID rebuild</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sgl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sgl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sgl/</guid>
+      <description>Global status X&#39;80&amp;rsquo; CFW &amp;amp; DFW suspended
+Map: R745STAT Based on: R745SGL Description Global status X&#39;80&amp;rsquo; CFW &amp;amp; DFW suspended</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sim</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sim/</guid>
+      <description>IML device not available (no longer used)
+Map: R745STAT Based on: r745sos Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r745sos.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sln/</guid>
+      <description>Length of data section
+Map: R745STAT Based on: R745SLN Description Length of data section</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snad</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snad/</guid>
+      <description>Num. of attached devices
+Map: R745STAT Based on: R745SNAD Description Num. of attached devices</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snds/</guid>
+      <description>Disabled for maintenance
+Map: R745STAT Based on: r745svss Description Disabled for maintenance
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r745svss.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snht</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snht/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snht/</guid>
+      <description>Host termination
+Map: R745STAT Based on: r745svss Description Host termination
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r745svss.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snis</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snis/</guid>
+      <description>Problem termination
+Map: R745STAT Based on: r745svss Description Problem termination
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r745svss.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snpe</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snpe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snpe/</guid>
+      <description>Pending due to problem
+Map: R745STAT Based on: r745svss Description Pending due to problem
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r745svss.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snr/</guid>
+      <description>Non-retentive deactivated
+Map: R745STAT Based on: r745sos Description Non-retentive deactivated
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r745sos.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745snss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745snss/</guid>
+      <description>Num. of statistic sets
+Map: R745STAT Based on: R745SNSS Description Num. of statistic sets</description>
+    </item>
+    
+    <item>
+      <title>Field - r745soff</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745soff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745soff/</guid>
+      <description>Offline subsystem storage, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SOFF Description Offline subsystem storage, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sos</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sos/</guid>
+      <description>Overall caching status B&#39;000&amp;rsquo; = Caching active B&#39;001&amp;rsquo; = Reserved B&#39;010&amp;rsquo; = Subsystem error B&#39;011&amp;rsquo;- B&#39;111&amp;rsquo; = Reserved
+Map: R745STAT Based on: R745SOS Description Overall caching status B&#39;000&amp;rsquo; = Caching active B&#39;001&amp;rsquo; = Reserved B&#39;010&amp;rsquo; = Subsystem error B&#39;011&amp;rsquo;- B&#39;111&amp;rsquo; = Reserved
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745snr 7 Non-retentive deactivated r745sds 3 Disabled for maintenance (No longer used) r745sim 6 IML device not available (no longer used) </description>
+    </item>
+    
+    <item>
+      <title>Field - r745spda</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spda/</guid>
+      <description>If R745SFT = 1 or 2 Pinned data B&#39;00&amp;rsquo; = No pinned data B&#39;01&amp;rsquo; = Pinned data exists for the device B&#39;10&amp;rsquo; = Reserved B&#39;11&amp;rsquo; = Not used
+Map: R745STAT Based on: R745SPDA Description If R745SFT = 1 or 2 Pinned data B&#39;00&amp;rsquo; = No pinned data B&#39;01&amp;rsquo; = Pinned data exists for the device B&#39;10&amp;rsquo; = Reserved B&#39;11&amp;rsquo; = Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r745spdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spdp/</guid>
+      <description>PPRC copy pair suspended
+Map: R745STAT Based on: r745sdfw Description PPRC copy pair suspended
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r745sdfw.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745spin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spin/</guid>
+      <description>Pinned subsystem storage,collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SPIN Description Pinned subsystem storage,collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745spnd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spnd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745spnd/</guid>
+      <description>Pinned non-volatile cache, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB
+Map: R745STAT Based on: R745SPND Description Pinned non-volatile cache, collected for if R745SFT = 0 in bytes if R745SFT = 1 or 2 in KB</description>
+    </item>
+    
+    <item>
+      <title>Field - r745ssdp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ssdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ssdp/</guid>
+      <description>PPRC copy pair is duplex pending
+Map: R745STAT Based on: r745sdfw Description PPRC copy pair is duplex pending
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field r745sdfw.</description>
+    </item>
+    
+    <item>
+      <title>Field - r745ssid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ssid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745ssid/</guid>
+      <description>Subsystem Id
+Map: R745STAT Based on: R745SSID Description Subsystem Id</description>
+    </item>
+    
+    <item>
+      <title>Field - r745sunt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745sunt/</guid>
+      <description>Unit addr. for sense CMD
+Map: R745STAT Based on: R745SUNT Description Unit addr. for sense CMD</description>
+    </item>
+    
+    <item>
+      <title>Field - r745svol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745svol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745svol/</guid>
+      <description>Volume serial of device
+Map: R745STAT Based on: R745SVOL Description Volume serial of device</description>
+    </item>
+    
+    <item>
+      <title>Field - r745svss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745svss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745svss/</guid>
+      <description>Non-volatile storage stat.
+Map: R745STAT Based on: R745SVSS Description Non-volatile storage stat.
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r745snht 0 Host termination r745snis 1 Problem termination r745dfwi 2 DFW inhibited r745snds 3 Disabled for maintenance r745snpe 4 Pending due to problem </description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct1/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT1 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct2/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT2 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct3/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT3 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct4/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT4 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct5/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT5 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct6</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct6/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT6 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct7</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct7/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT7 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct8</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct8/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT8 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xct9</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xct9/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCT9 Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xcta</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xcta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xcta/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCTA Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xctc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xctc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xctc/</guid>
+      <description>Not Used by RMF
+Map: R745XDEV Based on: R745XCTC Description Not Used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xctr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xctr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xctr/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XCTR Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xdvn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xdvn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xdvn/</guid>
+      <description>Device number (binary)
+Map: R745XDEV Based on: R745XDVN Description Device number (binary)</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xfrd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xfrd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xfrd/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XFRD Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xprc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xprc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xprc/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XPRC Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xrsv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xrsv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xrsv/</guid>
+      <description>Lower interface I/O msec
+Map: R745XDEV Based on: R745XRSV Description Lower interface I/O msec</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xscs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xscs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xscs/</guid>
+      <description>Subchannel set ID
+Map: R745XDEV Based on: R745XSCS Description Subchannel set ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xsrr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xsrr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xsrr/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XSRR Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xvrd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvrd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvrd/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XVRD Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xvrh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvrh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvrh/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XVRH Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xvwh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvwh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvwh/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XVWH Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xvwr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvwr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xvwr/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XVWR Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - r745xwcc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xwcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/r745xwcc/</guid>
+      <description>Not used by RMF
+Map: R745XDEV Based on: R745XWCC Description Not used by RMF</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF74S5 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF74S5 Based on: SMF74RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF74S5 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF74S5 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - sl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sl/</guid>
+      <description>Length of CACHE status data section
+Record: SMF74S5 Based on: SMF745SL Description Length of CACHE status data section</description>
+    </item>
+    
+    <item>
+      <title>Field - sn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sn/</guid>
+      <description>Number of CACHE status data sections
+Record: SMF74S5 Based on: SMF745SN Description Number of CACHE status data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - so</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/so/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/so/</guid>
+      <description>Offset to CACHE status data section
+Record: SMF74S5 Based on: SMF745SO Description Offset to CACHE status data section</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF74S5 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF74S5 Based on: SMF74STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF74S5 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/time/</guid>
+      <description>Time of Record
+Record: SMF74S5 Based on: SMF74TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF74S5 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S5 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF74S5 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF74S5 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF74S5 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xl/</guid>
+      <description>Length of CACHE device data section extension
+Record: SMF74S5 Based on: SMF745XL Description Length of CACHE device data section extension</description>
+    </item>
+    
+    <item>
+      <title>Field - xn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xn/</guid>
+      <description>Number of CACHE device data section extensions
+Record: SMF74S5 Based on: SMF745XN Description Number of CACHE device data section extensions</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - xo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S5/fields/xo/</guid>
+      <description>Offset to CACHE device data section extension
+Record: SMF74S5 Based on: SMF745XO Description Offset to CACHE device data section extension</description>
+    </item>
+    
+  </channel>
+</rss>

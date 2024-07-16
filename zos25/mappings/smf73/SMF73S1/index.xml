@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 73 Subtype  1 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/</link>
+    <description>Recent content in SMF 73 Subtype  1 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - acr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/acr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/acr/</guid>
+      <description>Channel Path Acronym
+Map: SMF73CHA Based on: SMF73ACR Description Channel Path Acronym</description>
+    </item>
+    
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF73PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF73PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF73S1 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - block_multiplexor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/block_multiplexor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/block_multiplexor/</guid>
+      <description>BLOCK MULTIPLEXOR
+Map: SMF73CHA Based on: fg2 Description BLOCK MULTIPLEXOR
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF73PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - byte_multiplexor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/byte_multiplexor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/byte_multiplexor/</guid>
+      <description>BYTE MULTIPLEXOR
+Map: SMF73CHA Based on: fg2 Description BYTE MULTIPLEXOR
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - cfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cfl/</guid>
+      <description>Configuration change flags
+Map: SMF73CTL Based on: SMF73CFL Description Configuration change flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description config_changed 0 Configuration changed config_change_since_ipl 1 Configuration changed since last IPL ipl_iodf 2 System IPLed via IODF io_token_valid 3 I/O Token is valid invalid_ds 4 Record may include invalid data sections cpmf 5 CPMF available cpmf_change 7 CPMF mode change used for duration report </description>
+    </item>
+    
+    <item>
+      <title>Field - ch_charact_changed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_charact_changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_charact_changed/</guid>
+      <description>Channel characteristics changed during interval
+Map: SMF73CHA Based on: fg4 Description Channel characteristics changed during interval
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_conversion</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_conversion/</guid>
+      <description>Channel conversion 3090
+Map: SMF73CHA Based on: fg4 Description Channel conversion 3090
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_flags_ext</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_flags_ext/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_flags_ext/</guid>
+      <description>Channel flags extension
+Map: SMF73CHA Based on: SMF73FG3 Description Channel flags extension
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description es_connection_ch 0 ES CONNECTION CHANNEL es_connection_dir 1 ES CONNECTION DIRECTOR ATTACHED TO CHANNEL PATH es_conv_ch 2 ES CONVERSION CHANNEL ch_path_modified 3 Channel path modified ch_path_deleted 4 Channel path deleted ch_path_inserted 5 Channel path inserted valid_path 6 Valid Path ch_path_shared 7 Channel path is shared between logical partitions.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_busy_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_busy_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_busy_samples/</guid>
+      <description>NUMBER OF SAMPLES IN WHICH THE CHANNEL PATH WAS BUSY. WEIGHTED BY SRM.
+Map: SMF73CHA Based on: SMF73BSY Description NUMBER OF SAMPLES IN WHICH THE CHANNEL PATH WAS BUSY. WEIGHTED BY SRM.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_dcm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_dcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_dcm/</guid>
+      <description>Channel path is DCM managed
+Map: SMF73CHA Based on: fg4 Description Channel path is DCM managed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_deleted</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_deleted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_deleted/</guid>
+      <description>Channel path deleted
+Map: SMF73CHA Based on: ch_flags_ext Description Channel path deleted
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_extended</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_extended/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_extended/</guid>
+      <description>Extended channel path measurements are supported
+Map: SMF73CHA Based on: fg4 Description Extended channel path measurements are supported
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_inserted</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_inserted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_inserted/</guid>
+      <description>Channel path inserted
+Map: SMF73CHA Based on: ch_flags_ext Description Channel path inserted
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_modified</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_modified/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_modified/</guid>
+      <description>Channel path modified
+Map: SMF73CHA Based on: ch_flags_ext Description Channel path modified
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_online</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_online/</guid>
+      <description>CHANNEL PATH IS CURRENTLY ONLINE
+Map: SMF73CHA Based on: fg2 Description CHANNEL PATH IS CURRENTLY ONLINE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field fg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_parameter</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_parameter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_parameter/</guid>
+      <description>Channel path parameter
+Map: SMF73CHA Based on: SMF73CPP Description Channel path parameter</description>
+    </item>
+    
+    <item>
+      <title>Field - ch_path_shared</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_shared/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ch_path_shared/</guid>
+      <description>Channel path is shared between logical partitions.
+Map: SMF73CHA Based on: ch_flags_ext Description Channel path is shared between logical partitions.
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - cmg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cmg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cmg/</guid>
+      <description>CPMF Channel Measurement Group
+Map: SMF73CHA Based on: SMF73CMG Description CPMF Channel Measurement Group</description>
+    </item>
+    
+    <item>
+      <title>Field - cmi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cmi/</guid>
+      <description>CPMF mode info 0 - CPMF not active 1 - Compatibility Mode 2 - Extended Mode
+Map: SMF73CTL Based on: SMF73CMI Description CPMF mode info 0 - CPMF not active 1 - Compatibility Mode 2 - Extended Mode</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF73PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - config_change_since_ipl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/config_change_since_ipl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/config_change_since_ipl/</guid>
+      <description>Configuration changed since last IPL
+Map: SMF73CTL Based on: cfl Description Configuration changed since last IPL
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - config_changed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/config_changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/config_changed/</guid>
+      <description>Configuration changed
+Map: SMF73CTL Based on: cfl Description Configuration changed
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpd/</guid>
+      <description>Channel path description. For an explanation, you can issue the command D M=CHP.
+Map: SMF73CHA Based on: SMF73CPD Description Channel path description. For an explanation, you can issue the command D M=CHP.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmb_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmb_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmb_invalid/</guid>
+      <description>Entry in CPMB was not valid
+Map: SMF73CHA Based on: fg4 Description Entry in CPMB was not valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf/</guid>
+      <description>CPMF available
+Map: SMF73CTL Based on: cfl Description CPMF available
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_change</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_change/</guid>
+      <description>CPMF mode change used for duration report
+Map: SMF73CTL Based on: cfl Description CPMF mode change used for duration report
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_word1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word1/</guid>
+      <description>CPMF Channel characteristics word 1 valid
+Map: SMF73CHA Based on: fg5 Description CPMF Channel characteristics word 1 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fg5.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_word2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word2/</guid>
+      <description>CPMF Channel characteristics word 2 valid
+Map: SMF73CHA Based on: fg5 Description CPMF Channel characteristics word 2 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fg5.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_word3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word3/</guid>
+      <description>CPMF Channel characteristics word 3 valid
+Map: SMF73CHA Based on: fg5 Description CPMF Channel characteristics word 3 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fg5.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_word4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word4/</guid>
+      <description>CPMF Channel characteristics word 4 valid
+Map: SMF73CHA Based on: fg5 Description CPMF Channel characteristics word 4 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fg5.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpmf_word5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cpmf_word5/</guid>
+      <description>CPMF Channel characteristics word 5 valid
+Map: SMF73CHA Based on: fg5 Description CPMF Channel characteristics word 5 valid
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fg5.</description>
+    </item>
+    
+    <item>
+      <title>Field - crc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/crc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/crc/</guid>
+      <description>Count of times SRM has restarted the Channel Path Measurement Facility (CPMF).
+Map: SMF73CTL Based on: SMF73CRC Description Count of times SRM has restarted the Channel Path Measurement Facility (CPMF).</description>
+    </item>
+    
+    <item>
+      <title>Field - csc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/csc/</guid>
+      <description>Last CPMF sample count
+Map: SMF73CTL Based on: SMF73CSC Description Last CPMF sample count</description>
+    </item>
+    
+    <item>
+      <title>Field - css</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/css/</guid>
+      <description>Channel SubSystem Id, only valid if SMF73MCS = ON
+Map: SMF73CTL Based on: SMF73CSS Description Channel SubSystem Id, only valid if SMF73MCS = ON</description>
+    </item>
+    
+    <item>
+      <title>Field - ctc_defined</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ctc_defined/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ctc_defined/</guid>
+      <description>Channel path is CTC defined.
+Map: SMF73CHA Based on: fg4 Description Channel path is CTC defined.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF73PRO Based on: SMF73CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF73PRO Based on: SMF73DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF73PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF73PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - data_invalid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/data_invalid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/data_invalid/</guid>
+      <description>DATA INVALID. CHANNEL PATH WAS VARIED DURING INTERVAL
+Map: SMF73CHA Based on: fg2 Description DATA INVALID. CHANNEL PATH WAS VARIED DURING INTERVAL
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/date/</guid>
+      <description>Date of Record
+Record: SMF73S1 Based on: SMF73DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dcm_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dcm_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dcm_ch/</guid>
+      <description>Configuration contains DCM managed channels
+Map: SMF73CTL Based on: sfl Description Configuration contains DCM managed channels
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field sfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - dcm_supported</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dcm_supported/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dcm_supported/</guid>
+      <description>DCM supported by the hardware
+Map: SMF73CTL Based on: sfl Description DCM supported by the hardware
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field sfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF73S1 Based on: SMF73DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - ecp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ecp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ecp/</guid>
+      <description>Channel path identifier
+Map: SMF73ECD Based on: SMF73ECP Description Channel path identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - eix</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eix/</guid>
+      <description>Index to Extended Channel Data section. Only valid if SMF73XCM (bit 6 of SMF73FG4) is ON
+Map: SMF73CHA Based on: SMF73EIX Description Index to Extended Channel Data section. Only valid if SMF73XCM (bit 6 of SMF73FG4) is ON</description>
+    </item>
+    
+    <item>
+      <title>Field - ench_ch_measurement</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ench_ch_measurement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ench_ch_measurement/</guid>
+      <description>1 = Enhanced channel measurement facility available
+Map: SMF73CTL Based on: sfl Description 1 = Enhanced channel measurement facility available
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field sfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - eoc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eoc/</guid>
+      <description>Total number of FICON command-mode operations (CPC) that have been attempted by the channel.
+Map: SMF73EM2 Based on: SMF73EOC Description Total number of FICON command-mode operations (CPC) that have been attempted by the channel.</description>
+    </item>
+    
+    <item>
+      <title>Field - eod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eod/</guid>
+      <description>Total number of FICON command-mode operations (CPC) that could not be initiated by the channel due to a lack of available resources
+Map: SMF73EM2 Based on: SMF73EOD Description Total number of FICON command-mode operations (CPC) that could not be initiated by the channel due to a lack of available resources</description>
+    </item>
+    
+    <item>
+      <title>Field - eos</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/eos/</guid>
+      <description>Summation count of FICON command-mode operations (CPC). Each time the number of FICON command-mode operations is incremented, the number of FICON command-mode operations active at the channel, including the one being initiated, is added to this field
+Map: SMF73EM2 Based on: SMF73EOS Description Summation count of FICON command-mode operations (CPC). Each time the number of FICON command-mode operations is incremented, the number of FICON command-mode operations active at the channel, including the one being initiated, is added to this field</description>
+    </item>
+    
+    <item>
+      <title>Field - es_connection_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_connection_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_connection_ch/</guid>
+      <description>ES CONNECTION CHANNEL
+Map: SMF73CHA Based on: ch_flags_ext Description ES CONNECTION CHANNEL
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - es_connection_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_connection_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_connection_dir/</guid>
+      <description>ES CONNECTION DIRECTOR ATTACHED TO CHANNEL PATH
+Map: SMF73CHA Based on: ch_flags_ext Description ES CONNECTION DIRECTOR ATTACHED TO CHANNEL PATH
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - es_conv_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_conv_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/es_conv_ch/</guid>
+      <description>ES CONVERSION CHANNEL
+Map: SMF73CHA Based on: ch_flags_ext Description ES CONVERSION CHANNEL
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF73S1 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF73PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF73PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - etc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/etc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/etc/</guid>
+      <description>Total number of FICON transport-mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.
+Map: SMF73EM2 Based on: SMF73ETC Description Total number of FICON transport-mode operations (CPC) that have been attempted by the channel. Zero when no zHPF.</description>
+    </item>
+    
+    <item>
+      <title>Field - etd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/etd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/etd/</guid>
+      <description>Total number of FICON transport-mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.
+Map: SMF73EM2 Based on: SMF73ETD Description Total number of FICON transport-mode operations (CPC) that could not be initiated by the channel due to a lack of available resources. Zero when no zHPF.</description>
+    </item>
+    
+    <item>
+      <title>Field - ets</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ets/</guid>
+      <description>Summation count of FICON transport-mode operations (CPC). Each time the number of FICON transport-mode operations is incremented, the number of transport-mode operations active at the channel, including the one being initiated, is added to this field. Zero when no zHPF.
+Map: SMF73EM2 Based on: SMF73ETS Description Summation count of FICON transport-mode operations (CPC). Each time the number of FICON transport-mode operations is incremented, the number of transport-mode operations active at the channel, including the one being initiated, is added to this field.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF73PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - fg2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg2/</guid>
+      <description>CHANNEL FLAGS
+Map: SMF73CHA Based on: SMF73FG2 Description CHANNEL FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description block_multiplexor 2 BLOCK MULTIPLEXOR byte_multiplexor 3 BYTE MULTIPLEXOR partial_stat 5 ONLY PARTIAL STATISTICS data_invalid 6 DATA INVALID. CHANNEL PATH WAS VARIED DURING INTERVAL ch_path_online 7 CHANNEL PATH IS CURRENTLY ONLINE </description>
+    </item>
+    
+    <item>
+      <title>Field - fg4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg4/</guid>
+      <description>Channel path flags
+Map: SMF73CHA Based on: SMF73FG4 Description Channel path flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cpmb_invalid 0 Entry in CPMB was not valid ctc_defined 1 Channel path is CTC defined. ch_conversion 2 Channel conversion 3090 ch_path_dcm 4 Channel path is DCM managed ch_charact_changed 5 Channel characteristics changed during interval ch_path_extended 6 Extended channel path measurements are supported physical_network 7 Physical-network identifiers SMF73NT1 and SMF73NT2 are valid </description>
+    </item>
+    
+    <item>
+      <title>Field - fg5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fg5/</guid>
+      <description>Channel path Flags
+Map: SMF73CHA Based on: SMF73FG5 Description Channel path Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cpmf_word1 0 CPMF Channel characteristics word 1 valid cpmf_word2 1 CPMF Channel characteristics word 2 valid cpmf_word3 2 CPMF Channel characteristics word 3 valid cpmf_word4 3 CPMF Channel characteristics word 4 valid cpmf_word5 4 CPMF Channel characteristics word 5 valid </description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/fla/</guid>
+      <description>Flags
+Map: SMF73PRO Based on: SMF73FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF73S1 Based on: SMF73FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/gen/</guid>
+      <description>Channel type generation
+Map: SMF73CHA Based on: SMF73GEN Description Channel type generation</description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF73PRO Based on: SMF73GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - hel</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hel/</guid>
+      <description>LENGTH OF EXTENDED CHANNEL PATH DATA SECTION
+Record: SMF73S1 Based on: SMF73HEL Description LENGTH OF EXTENDED CHANNEL PATH DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - hen</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hen/</guid>
+      <description>NUMBER OF EXTENDED CHANNEL PATH DATA SECTIONS
+Record: SMF73S1 Based on: SMF73HEN Description NUMBER OF EXTENDED CHANNEL PATH DATA SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - hes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hes/</guid>
+      <description>OFFSET TO EXTENDED CHANNEL PATH DATA SECTION
+Record: SMF73S1 Based on: SMF73HES Description OFFSET TO EXTENDED CHANNEL PATH DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - hil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hil/</guid>
+      <description>LENGTH OF CHANNEL PATH CONTROL SECTION
+Record: SMF73S1 Based on: SMF73HIL Description LENGTH OF CHANNEL PATH CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - hin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hin/</guid>
+      <description>NUMBER OF CHANNEL PATH CONTROL SECTIONS
+Record: SMF73S1 Based on: SMF73HIN Description NUMBER OF CHANNEL PATH CONTROL SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - his</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/his/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/his/</guid>
+      <description>OFFSET TO CHANNEL PATH CONTROL SECTION
+Record: SMF73S1 Based on: SMF73HIS Description OFFSET TO CHANNEL PATH CONTROL SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - hpl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hpl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hpl/</guid>
+      <description>LENGTH OF CHANNEL PATH DATA SECTION
+Record: SMF73S1 Based on: SMF73HPL Description LENGTH OF CHANNEL PATH DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - hpn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hpn/</guid>
+      <description>NUMBER OF CHANNEL PATH DATA SECTIONS
+Record: SMF73S1 Based on: SMF73HPN Description NUMBER OF CHANNEL PATH DATA SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - hps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/hps/</guid>
+      <description>OFFSET TO CHANNEL PATH DATA SECTION
+Record: SMF73S1 Based on: SMF73HPS Description OFFSET TO CHANNEL PATH DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF73PRO Based on: SMF73IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF73PRO Based on: SMF73IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF73PRO Based on: SMF73INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_ds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/invalid_ds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/invalid_ds/</guid>
+      <description>Record may include invalid data sections
+Map: SMF73CTL Based on: cfl Description Record may include invalid data sections
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - io_token_valid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/io_token_valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/io_token_valid/</guid>
+      <description>I/O Token is valid
+Map: SMF73CTL Based on: cfl Description I/O Token is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - iodf_date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_date/</guid>
+      <description>IODF creation date mm/dd/yy
+Map: SMF73CTL Based on: SMF73TDT Description IODF creation date mm/dd/yy</description>
+    </item>
+    
+    <item>
+      <title>Field - iodf_name</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_name/</guid>
+      <description>IODF name
+Map: SMF73CTL Based on: SMF73TNM Description IODF name</description>
+    </item>
+    
+    <item>
+      <title>Field - iodf_suffix</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_suffix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_suffix/</guid>
+      <description>Suffix of IODF Name
+Map: SMF73CTL Based on: SMF73TSF Description Suffix of IODF Name</description>
+    </item>
+    
+    <item>
+      <title>Field - iodf_time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iodf_time/</guid>
+      <description>IODF creation time hh.mm.ss
+Map: SMF73CTL Based on: SMF73TTM Description IODF creation time hh.mm.ss</description>
+    </item>
+    
+    <item>
+      <title>Field - ipl_iodf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ipl_iodf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ipl_iodf/</guid>
+      <description>System IPLed via IODF
+Map: SMF73CTL Based on: cfl Description System IPLed via IODF
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field cfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF73PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF73PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF73PRO Based on: SMF73IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF73S1 Based on: SMF73LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF73PRO Based on: SMF73LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF73PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mbc/</guid>
+      <description>CPMF Maximum Bus Cycles per second (word 1) short floating point
+Map: SMF73CM2 Based on: SMF73MBC Description CPMF Maximum Bus Cycles per second (word 1) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - mcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mcs/</guid>
+      <description>1 = Hardware allows multiple channel subsystems
+Map: SMF73CTL Based on: sfl Description 1 = Hardware allows multiple channel subsystems
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field sfl.</description>
+    </item>
+    
+    <item>
+      <title>Field - mcu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mcu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mcu/</guid>
+      <description>CPMF Maximum Channel work Units per second (word 2) short floating point
+Map: SMF73CM2 Based on: SMF73MCU Description CPMF Maximum Channel work Units per second (word 2) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF73PRO Based on: SMF73MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mru/</guid>
+      <description>CPMF Maximum Read data Units per second (word 4) short floating point
+Map: SMF73CM2 Based on: SMF73MRU Description CPMF Maximum Read data Units per second (word 4) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - msc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/msc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/msc/</guid>
+      <description>Miscellaneous
+Map: SMF73CHA Based on: SMF73MSC Description Miscellaneous</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF73PRO Based on: SMF73MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - mwu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mwu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/mwu/</guid>
+      <description>CPMF Maximum Write data Units per second (word 3) short floating point
+Map: SMF73CM2 Based on: SMF73MWU Description CPMF Maximum Write data Units per second (word 3) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - nt1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/nt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/nt1/</guid>
+      <description>Physical-network identifier (PNET ID) of an Ethernet network that is accessible from the first port of the channel path. Only valid for OSD and IQD channel path types.
+Map: SMF73CHA Based on: SMF73NT1 Description Physical-network identifier (PNET ID) of an Ethernet network that is accessible from the first port of the channel path. Only valid for OSD and IQD channel path types.</description>
+    </item>
+    
+    <item>
+      <title>Field - nt2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/nt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/nt2/</guid>
+      <description>Physical-network identifier (PNET ID) of an Ethernet network that is accessible from the second port of the channel path. Only valid for OSD channel path type.
+Map: SMF73CHA Based on: SMF73NT2 Description Physical-network identifier (PNET ID) of an Ethernet network that is accessible from the second port of the channel path. Only valid for OSD channel path type.</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF73PRO Based on: SMF73OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF73S1 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - partial_stat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/partial_stat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/partial_stat/</guid>
+      <description>ONLY PARTIAL STATISTICS
+Map: SMF73CHA Based on: fg2 Description ONLY PARTIAL STATISTICS
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fg2.</description>
+    </item>
+    
+    <item>
+      <title>Field - pby</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pby/</guid>
+      <description>Partition&amp;rsquo;s channel path busy time since last interval (in units of 1024 microseconds)
+Map: SMF73CHA Based on: SMF73PBY Description Partition&amp;rsquo;s channel path busy time since last interval (in units of 1024 microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - pds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pds/</guid>
+      <description>CPMF LPAR Data units Sent count short floating point
+Map: SMF73CM3 Based on: SMF73PDS Description CPMF LPAR Data units Sent count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pdu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pdu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pdu/</guid>
+      <description>CPMF LPAR Data Unit size in bytes (word 1) short floating point
+Map: SMF73CM3 Based on: SMF73PDU Description CPMF LPAR Data Unit size in bytes (word 1) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - physical_network</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/physical_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/physical_network/</guid>
+      <description>Physical-network identifiers SMF73NT1 and SMF73NT2 are valid
+Map: SMF73CHA Based on: fg4 Description Physical-network identifiers SMF73NT1 and SMF73NT2 are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field fg4.</description>
+    </item>
+    
+    <item>
+      <title>Field - pid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pid/</guid>
+      <description>CHANNEL PATH IDENTIFICATIONS. THE RANGE OF VALUES IS 0 TO FF
+Map: SMF73CHA Based on: SMF73PID Description CHANNEL PATH IDENTIFICATIONS. THE RANGE OF VALUES IS 0 TO FF</description>
+    </item>
+    
+    <item>
+      <title>Field - pms</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pms/</guid>
+      <description>CPMF LPAR Message Sent units count short floating point
+Map: SMF73CM3 Based on: SMF73PMS Description CPMF LPAR Message Sent units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pow</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pow/</guid>
+      <description>Channel path power at the end of interval. If non-zero, this value can be used to calculate the channel path speed (SMF73SPD * 10**Power)
+Map: SMF73CHA Based on: SMF73POW Description Channel path power at the end of interval. If non-zero, this value can be used to calculate the channel path speed (SMF73SPD * 10**Power)</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prd/</guid>
+      <description>Product name
+Map: SMF73PRO Based on: SMF73PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF73PRO Based on: SMF73PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF73S1 Based on: SMF73PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF73S1 Based on: SMF73PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF73S1 Based on: SMF73PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - pru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pru/</guid>
+      <description>CPMF LPAR Read data Units count short floating point
+Map: SMF73CM2 Based on: SMF73PRU Description CPMF LPAR Read data Units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pti</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pti/</guid>
+      <description>Channel path measurement interval (in units of 1024 microseconds)
+Map: SMF73CHA Based on: SMF73PTI Description Channel path measurement interval (in units of 1024 microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF73PRO Based on: SMF73PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - pub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pub/</guid>
+      <description>CPMF LPAR count of Unsuccessful attempts to receive messages due to unavailable Buffers short floating point
+Map: SMF73CM3 Based on: SMF73PUB Description CPMF LPAR count of Unsuccessful attempts to receive messages due to unavailable Buffers short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - puc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/puc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/puc/</guid>
+      <description>CPMF LPAR channel work Units Count short floating point
+Map: SMF73CM2 Based on: SMF73PUC Description CPMF LPAR channel work Units Count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pum/</guid>
+      <description>CPMF LPAR Message sent unit size (word 3) short floating point
+Map: SMF73CM3 Based on: SMF73PUM Description CPMF LPAR Message sent unit size (word 3) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pus</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pus/</guid>
+      <description>CPMF LPAR count of Unsuccessful attempts to Send messages short floating point
+Map: SMF73CM3 Based on: SMF73PUS Description CPMF LPAR count of Unsuccessful attempts to Send messages short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - put</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/put/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/put/</guid>
+      <description>CPMF LPAR channel path busy Time in units of 128 microseconds short floating point
+Map: SMF73CM1 Based on: SMF73PUT Description CPMF LPAR channel path busy Time in units of 128 microseconds short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - pwu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pwu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/pwu/</guid>
+      <description>CPMF LPAR Write data Units count short floating point
+Map: SMF73CM2 Based on: SMF73PWU Description CPMF LPAR Write data Units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF73PRO Based on: SMF73RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF73PRO Based on: SMF73RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF73PRO Based on: SMF73RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF73PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF73PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF73S1 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF73S1 Based on: SMF73RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF73PRO Based on: SMF73SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF73S1 Based on: SMF73SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sfl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sfl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sfl/</guid>
+      <description>Status flags
+Map: SMF73CTL Based on: SMF73SFL Description Status flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description dcm_supported 0 DCM supported by the hardware dcm_ch 1 Configuration contains DCM managed channels mcs 2 1 = Hardware allows multiple channel subsystems ench_ch_measurement 3 1 = Enhanced channel measurement facility available </description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF73S1 Based on: SMF73SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - smp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/smp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/smp/</guid>
+      <description>NUMBER OF SAMPLES, WEIGHTED BY SRM, only valid if SMF73MCS = OFF
+Map: SMF73CTL Based on: SMF73SMP Description NUMBER OF SAMPLES, WEIGHTED BY SRM, only valid if SMF73MCS = OFF</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF73PRO Based on: SMF73SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - spd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/spd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/spd/</guid>
+      <description>Channel path speed at the end of interval. If channel path power (bits 4-7 of SMF73MSC) is zero, the channel path speed is in units of 100 megabits per second. Otherwise, this value must be multiplied by 10**Power to get the speed in units of bits per second
+Map: SMF73CHA Based on: SMF73SPD Description Channel path speed at the end of interval. If channel path power (bits 4-7 of SMF73MSC) is zero, the channel path speed is in units of 100 megabits per second.</description>
+    </item>
+    
+    <item>
+      <title>Field - speed_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/speed_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/speed_boost/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF73PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF73PRO Based on: SMF73SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF73S1 Based on: SMF73SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF73S1 Based on: SMF73STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF73S1 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF73PRO Based on: SMF73SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - tbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tbc/</guid>
+      <description>CPMF Total Bus Cycles count short floating point
+Map: SMF73CM2 Based on: SMF73TBC Description CPMF Total Bus Cycles count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tds/</guid>
+      <description>CPMF Total Data units Sent count short floating point
+Map: SMF73CM3 Based on: SMF73TDS Description CPMF Total Data units Sent count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tdu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tdu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tdu/</guid>
+      <description>CPMF Total Data Unit size in bytes (word 2) short floating point
+Map: SMF73CM3 Based on: SMF73TDU Description CPMF Total Data Unit size in bytes (word 2) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tdy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tdy/</guid>
+      <description>IODF creation date mm/dd/yyyy
+Map: SMF73CTL Based on: SMF73TDY Description IODF creation date mm/dd/yyyy</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/time/</guid>
+      <description>Time of Record
+Record: SMF73S1 Based on: SMF73TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF73S1 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF73S1 Based on: SMF73TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - tms</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tms/</guid>
+      <description>CPMF Total Messages Sent units count short floating point
+Map: SMF73CM3 Based on: SMF73TMS Description CPMF Total Messages Sent units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF73S1 Based on: SMF73TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - tru</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tru/</guid>
+      <description>CPMF Total Read data Units count short floating point
+Map: SMF73CM2 Based on: SMF73TRU Description CPMF Total Read data Units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tub</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tub/</guid>
+      <description>CPMF Total count of Unsuccessful attempts to receive messages due to unavailable Buffers short floating point
+Map: SMF73CM3 Based on: SMF73TUB Description CPMF Total count of Unsuccessful attempts to receive messages due to unavailable Buffers short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tuc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tuc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tuc/</guid>
+      <description>CPMF Total channel work Unit Count short floating point
+Map: SMF73CM2 Based on: SMF73TUC Description CPMF Total channel work Unit Count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tum</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tum/</guid>
+      <description>CPMF Total Message sent unit size (word 4) short floating point
+Map: SMF73CM3 Based on: SMF73TUM Description CPMF Total Message sent unit size (word 4) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - tut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/tut/</guid>
+      <description>CPMF Total channel path busy Time in units of 128 microseconds short floating point
+Map: SMF73CM1 Based on: SMF73TUT Description CPMF Total channel path busy Time in units of 128 microseconds short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - twu</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/twu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/twu/</guid>
+      <description>CPMF Total Write data Units count short floating point
+Map: SMF73CM2 Based on: SMF73TWU Description CPMF Total Write data Units count short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - us</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/us/</guid>
+      <description>CPMF data Unit Size in bytes (word 5) short floating point
+Map: SMF73CM2 Based on: SMF73US Description CPMF data Unit Size in bytes (word 5) short floating point</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF73S1 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - valid_path</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/valid_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/valid_path/</guid>
+      <description>Valid Path
+Map: SMF73CHA Based on: ch_flags_ext Description Valid Path
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field ch_flags_ext.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF73S1 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF73PRO Based on: SMF73XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/zaap_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/zaap_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF73PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_boost</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ziip_boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ziip_boost/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF73PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf73/SMF73S1/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF73PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+  </channel>
+</rss>

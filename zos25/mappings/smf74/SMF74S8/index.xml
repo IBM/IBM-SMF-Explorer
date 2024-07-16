@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 74 Subtype  8 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/</link>
+    <description>Recent content in SMF 74 Subtype  8 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - al</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/al/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/al/</guid>
+      <description>Length of Rank Array data section
+Record: SMF74S8 Based on: SMF748AL Description Length of Rank Array data section</description>
+    </item>
+    
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF74PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - an</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/an/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/an/</guid>
+      <description>Number of Rank Array data section
+Record: SMF74S8 Based on: SMF748AN Description Number of Rank Array data section</description>
+    </item>
+    
+    <item>
+      <title>Field - ao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ao/</guid>
+      <description>Offset to Rank Array data section
+Record: SMF74S8 Based on: SMF748AO Description Offset to Rank Array data section</description>
+    </item>
+    
+    <item>
+      <title>Field - bfy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/bfy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/bfy/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF74S8 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF74PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cl/</guid>
+      <description>Length of link control section
+Record: SMF74S8 Based on: SMF748CL Description Length of link control section</description>
+    </item>
+    
+    <item>
+      <title>Field - cn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cn/</guid>
+      <description>Number of link control sections
+Record: SMF74S8 Based on: SMF748CN Description Number of link control sections</description>
+    </item>
+    
+    <item>
+      <title>Field - cne</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cne/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF74PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF74PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - co</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/co/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/co/</guid>
+      <description>Offset to link control section
+Record: SMF74S8 Based on: SMF748CO Description Offset to link control section</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF74PRO Based on: SMF74CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF74PRO Based on: SMF74DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/date/</guid>
+      <description>Date of Record
+Record: SMF74S8 Based on: SMF74DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - drc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/drc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/drc/</guid>
+      <description>ESCON Director in configuration
+Map: SMF74PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF74S8 Based on: SMF74DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF74PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - eme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/eme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/eme/</guid>
+      <description>System in z/ARCH mode
+Map: SMF74PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF74S8 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/fla/</guid>
+      <description>Flags
+Map: SMF74PRO Based on: SMF74FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 iss 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III ism 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF74S8 Based on: SMF74FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 bfy 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF74PRO Based on: SMF74GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF74PRO Based on: SMF74IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF74PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF74PRO Based on: SMF74IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - int</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/int/</guid>
+      <description>Duration of monitor interval
+Map: SMF74PRO Based on: SMF74INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - ism</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ism/</guid>
+      <description>Interval was under SMF control
+Map: SMF74PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iss</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/iss/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF74PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF74PRO Based on: SMF74IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF74S8 Based on: SMF74LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF74PRO Based on: SMF74LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - ll</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ll/</guid>
+      <description>Length of link data section
+Record: SMF74S8 Based on: SMF748LL Description Length of link data section</description>
+    </item>
+    
+    <item>
+      <title>Field - ln</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ln/</guid>
+      <description>Number of link data sections
+Record: SMF74S8 Based on: SMF748LN Description Number of link data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - lo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/lo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/lo/</guid>
+      <description>Offset to link data section
+Record: SMF74S8 Based on: SMF748LO Description Offset to link data section</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF74PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF74PRO Based on: SMF74MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF74PRO Based on: SMF74MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF74PRO Based on: SMF74OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF74S8 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - pe2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/pe2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/pe2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ped</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ped/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF74PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prd/</guid>
+      <description>Product name
+Map: SMF74PRO Based on: SMF74PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF74PRO Based on: SMF74PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description qes 0 System has expanded storage cne 1 Equipped with ESCON channel drc 2 ESCON Director in configuration eme 3 System in z/ARCH mode pri 4 At least one zAAP is currently installed prp 5 At least one zIIP is currently installed ped 6 Enhanced DAT facility 1 pe2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - pri</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/pri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/pri/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF74S8 Based on: SMF74PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF74S8 Based on: SMF74PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prp/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF74PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF74S8 Based on: SMF74PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF74PRO Based on: SMF74PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - qes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/qes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/qes/</guid>
+      <description>System has expanded storage
+Map: SMF74PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aacp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aacp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aacp/</guid>
+      <description>Array capacity in GB
+Map: R748ARRY Based on: R748AACP Description Array capacity in GB</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aaid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aaid/</guid>
+      <description>Rank array identifier
+Map: R748ARRY Based on: R748AAID Description Rank array identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aasp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aasp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aasp/</guid>
+      <description>Array speed in 1000 RPM
+Map: R748ARRY Based on: R748AASP Description Array speed in 1000 RPM</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aast</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aast/</guid>
+      <description>Array device class and Array status
+Map: R748ARRY Based on: R748AAST Description Array device class and Array status</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aawd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aawd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aawd/</guid>
+      <description>Array width
+Map: R748ARRY Based on: R748AAWD Description Array width</description>
+    </item>
+    
+    <item>
+      <title>Field - r748adc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748adc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748adc/</guid>
+      <description>Array device class 00 = Enterprise 01 = Near-line 10 = SATA 11 = Solid state drive
+Map: R748ARRY Based on: R748ADC Description Array device class 00 = Enterprise 01 = Near-line 10 = SATA 11 = Solid state drive
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748ard 2 &amp;lsquo;1&amp;rsquo; = Raid degraded r748adt 3 &amp;lsquo;1&amp;rsquo; = DDM throttling r748are 4 &amp;lsquo;1&amp;rsquo; = RPM exception </description>
+    </item>
+    
+    <item>
+      <title>Field - r748adt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748adt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748adt/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = DDM throttling
+Map: R748ARRY Based on: r748adc Description &amp;lsquo;1&amp;rsquo; = DDM throttling
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r748adc.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748aebc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aebc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748aebc/</guid>
+      <description>Array type in EBCDIC
+Map: R748ARRY Based on: R748AEBC Description Array type in EBCDIC</description>
+    </item>
+    
+    <item>
+      <title>Field - r748ard</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ard/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Raid degraded
+Map: R748ARRY Based on: r748adc Description &amp;lsquo;1&amp;rsquo; = Raid degraded
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r748adc.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748are</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748are/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748are/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = RPM exception
+Map: R748ARRY Based on: r748adc Description &amp;lsquo;1&amp;rsquo; = RPM exception
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field r748adc.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748arid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748arid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748arid/</guid>
+      <description>Rank identfier
+Map: R748ARRY Based on: R748ARID Description Rank identfier</description>
+    </item>
+    
+    <item>
+      <title>Field - r748atyp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748atyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748atyp/</guid>
+      <description>Array type 01 = RAID-5, 02 = RAID-10, 03 = RAID-6, 04-FF Not used
+Map: R748ARRY Based on: R748ATYP Description Array type 01 = RAID-5, 02 = RAID-10, 03 = RAID-6, 04-FF Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cae</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cae/</guid>
+      <description>Abend Code (SDWACMPC) System and User completion code (12 bits each)
+Map: R748CNTL Based on: R748CAE Description Abend Code (SDWACMPC) System and User completion code (12 bits each)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cdev</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cdev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cdev/</guid>
+      <description>Device number of device that statistics where read from
+Map: R748CNTL Based on: R748CDEV Description Device number of device that statistics where read from</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cfci</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfci/</guid>
+      <description>Interval length of first record (Reserved for duration processing)
+Map: R748CNTL Based on: R748CFCI Description Interval length of first record (Reserved for duration processing)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cfdt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfdt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfdt/</guid>
+      <description>Date when first record was written (Reserved for duration processing)
+Map: R748CNTL Based on: R748CFDT Description Date when first record was written (Reserved for duration processing)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cfdv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfdv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfdv/</guid>
+      <description>Failing device
+Map: R748CNTL Based on: R748CFDV Description Failing device</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cflg/</guid>
+      <description>Flags
+Map: R748CNTL Based on: R748CFLG Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748cxvl 0 Extent Pool statistics valid </description>
+    </item>
+    
+    <item>
+      <title>Field - r748cfsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cfsc/</guid>
+      <description>Subchannel set ID of failing device
+Map: R748CNTL Based on: R748CFSC Description Subchannel set ID of failing device</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cftm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cftm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cftm/</guid>
+      <description>Time when first record was written (Reserved for duration processing)
+Map: R748CNTL Based on: R748CFTM Description Time when first record was written (Reserved for duration processing)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cint</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cint/</guid>
+      <description>Number of seconds since statistics last collected
+Map: R748CNTL Based on: R748CINT Description Number of seconds since statistics last collected</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cioc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cioc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cioc/</guid>
+      <description>IOS return code. If not zero, no link statistic data sections
+Map: R748CNTL Based on: R748CIOC Description IOS return code. If not zero, no link statistic data sections</description>
+    </item>
+    
+    <item>
+      <title>Field - r748clvl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748clvl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748clvl/</guid>
+      <description>Gatherer level
+Map: R748CNTL Based on: R748CLVL Description Gatherer level</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cmdl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cmdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cmdl/</guid>
+      <description>CU MoDeL
+Map: R748CNTL Based on: R748CMDL Description CU MoDeL</description>
+    </item>
+    
+    <item>
+      <title>Field - r748crtn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748crtn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748crtn/</guid>
+      <description>IDCSS01 return code
+Map: R748CNTL Based on: R748CRTN Description IDCSS01 return code</description>
+    </item>
+    
+    <item>
+      <title>Field - r748csc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748csc/</guid>
+      <description>Status code 00 = successful processed, 04 = IOS return code R748CIOC ^= 0, 08 = IDCSS01 return code R748CRTN ^= 0, 98 = SYSTEM or USER ABEND R748CAE ^= 0
+Map: R748CNTL Based on: R748CSC Description Status code 00 = successful processed, 04 = IOS return code R748CIOC ^= 0, 08 = IDCSS01 return code R748CRTN ^= 0, 98 = SYSTEM or USER ABEND R748CAE ^= 0</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cscs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cscs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cscs/</guid>
+      <description>ID of the subchannel set which is physically configured to the device from which statistics are measured
+Map: R748CNTL Based on: R748CSCS Description ID of the subchannel set which is physically configured to the device from which statistics are measured</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cser</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cser/</guid>
+      <description>Primary CU serial number
+Map: R748CNTL Based on: R748CSER Description Primary CU serial number</description>
+    </item>
+    
+    <item>
+      <title>Field - r748ctyp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ctyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ctyp/</guid>
+      <description>CU TYPe
+Map: R748CNTL Based on: R748CTYP Description CU TYPe</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cvol</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cvol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cvol/</guid>
+      <description>Volume serial of device that statistics where read from
+Map: R748CNTL Based on: R748CVOL Description Volume serial of device that statistics where read from</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cvsn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cvsn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cvsn/</guid>
+      <description>VerSioN of link statistics definition 00 = Original length of link statistics 01 = Link statistics extended 02 = Link statistics V2 format
+Map: R748CNTL Based on: R748CVSN Description VerSioN of link statistics definition 00 = Original length of link statistics 01 = Link statistics extended 02 = Link statistics V2 format</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cxvl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cxvl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748cxvl/</guid>
+      <description>Extent Pool statistics valid
+Map: R748CNTL Based on: r748cflg Description Extent Pool statistics valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748cflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748laid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748laid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748laid/</guid>
+      <description>Adapter ID
+Map: R748LSS Based on: R748LAID Description Adapter ID</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lbyt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lbyt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lbyt/</guid>
+      <description>On = Units of bytes indeterminable. Byte values incorrect.
+Map: R748LSS Based on: r748lflg Description On = Units of bytes indeterminable. Byte values incorrect.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748lflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lerb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lerb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lerb/</guid>
+      <description>ECKD architecture Read in units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LERB Description ECKD architecture Read in units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lero</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lero/</guid>
+      <description>ECKD architecture Read Operations. For ESCON ports, one count per chain which transfers customer data to the host. For FICON ports, one count per command which transfers customer data to the host (long floating point).
+Map: R748LSS Based on: R748LERO Description ECKD architecture Read Operations. For ESCON ports, one count per chain which transfers customer data to the host. For FICON ports, one count per command which transfers customer data to the host (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lert</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lert/</guid>
+      <description>ECKD architecture Read accumulated time on channel in milliseconds. The active processing time for each command is accumulated (long floating point).
+Map: R748LSS Based on: R748LERT Description ECKD architecture Read accumulated time on channel in milliseconds. The active processing time for each command is accumulated (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lewb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewb/</guid>
+      <description>ECKD architecture Write units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LEWB Description ECKD architecture Write units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lewo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewo/</guid>
+      <description>ECKD architecture Write Operations. For ESCON ports, one count per chain which transfers customer data from the host. For FICON ports, one count per command which transfers customer data from the host (long floating point). Note: A chain on an ESCON port that has read and write commands is counted as a read chain.
+Map: R748LSS Based on: R748LEWO Description ECKD architecture Write Operations. For ESCON ports, one count per chain which transfers customer data from the host.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lewt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lewt/</guid>
+      <description>ECKD architecture Write accumulated time on channel in milliseconds. The active processing time for each command is accumulated (long floating point).
+Map: R748LSS Based on: R748LEWT Description ECKD architecture Write accumulated time on channel in milliseconds. The active processing time for each command is accumulated (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfbc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfbc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfbc/</guid>
+      <description>Fibre Channel bit error rate
+Map: R748LSS Based on: R748LFBC Description Fibre Channel bit error rate</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfcr/</guid>
+      <description>Fibre Channel cyclic redundancy check (CRC) errors (short floating point).
+Map: R748LSS Based on: R748LFCR Description Fibre Channel cyclic redundancy check (CRC) errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfdf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfdf/</guid>
+      <description>Fibre Channel duplicate frame errors (short floating point).
+Map: R748LSS Based on: R748LFDF Description Fibre Channel duplicate frame errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfif</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfif/</guid>
+      <description>Fibre Channel illegal frame errors (short floating point).
+Map: R748LSS Based on: R748LFIF Description Fibre Channel illegal frame errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfio</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfio/</guid>
+      <description>Fibre Channel invalid relative offset failures (short floating point).
+Map: R748LSS Based on: R748LFIO Description Fibre Channel invalid relative offset failures (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfit</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfit/</guid>
+      <description>Fibre Channel invalid transmission word errors (short floating point).
+Map: R748LSS Based on: R748LFIT Description Fibre Channel invalid transmission word errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lflf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lflf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lflf/</guid>
+      <description>Fibre Channel link failures (short floating point).
+Map: R748LSS Based on: R748LFLF Description Fibre Channel link failures (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lflg/</guid>
+      <description>Flags
+Map: R748LSS Based on: R748LFLG Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748lbyt 0 On = Units of bytes indeterminable. Byte values incorrect. r748ltim 1 On = Units of time indeterminable. Time values incorrect. </description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfls/</guid>
+      <description>Fibre Channel signal failures (short floating point).
+Map: R748LSS Based on: R748LFLS Description Fibre Channel signal failures (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfly</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfly/</guid>
+      <description>Fibre Channel synchronization failures (short floating point).
+Map: R748LSS Based on: R748LFLY Description Fibre Channel synchronization failures (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfoa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfoa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfoa/</guid>
+      <description>Fibre Channel out of order ACK errors (short floating point).
+Map: R748LSS Based on: R748LFOA Description Fibre Channel out of order ACK errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfod</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfod/</guid>
+      <description>Fibre Channel out of order data errors (short floating point).
+Map: R748LSS Based on: R748LFOD Description Fibre Channel out of order data errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfpq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfpq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfpq/</guid>
+      <description>Number of Fibre Channel primitive sequnece errors (short floating point).
+Map: R748LSS Based on: R748LFPQ Description Number of Fibre Channel primitive sequnece errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfr1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfr1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfr1/</guid>
+      <description>Fibre Channel link recovery (LR) sent (short floating point).
+Map: R748LSS Based on: R748LFR1 Description Fibre Channel link recovery (LR) sent (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lfr2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfr2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lfr2/</guid>
+      <description>Fibre Channel link recovery (LR) received (short floating point).
+Map: R748LSS Based on: R748LFR2 Description Fibre Channel link recovery (LR) received (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lftc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lftc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lftc/</guid>
+      <description>Fibre Channel sequence timeout errors (short floating point).
+Map: R748LSS Based on: R748LFTC Description Fibre Channel sequence timeout errors (short floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lprb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lprb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lprb/</guid>
+      <description>PPRC Received in units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LPRB Description PPRC Received in units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lpro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpro/</guid>
+      <description>PPRC Received Operations. Each PPRC write command received by the PPRC secondary (long floating point).
+Map: R748LSS Based on: R748LPRO Description PPRC Received Operations. Each PPRC write command received by the PPRC secondary (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lprt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lprt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lprt/</guid>
+      <description>PPRC Received accumulated time in milliseconds (long floating point)
+Map: R748LSS Based on: R748LPRT Description PPRC Received accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lpsb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpsb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpsb/</guid>
+      <description>PPRC Sent in units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LPSB Description PPRC Sent in units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lpso</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpso/</guid>
+      <description>PPRC Sent Operations. Each PPRC write command sent by the PPRC primary (long floating point).
+Map: R748LSS Based on: R748LPSO Description PPRC Sent Operations. Each PPRC write command sent by the PPRC primary (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lpst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lpst/</guid>
+      <description>PPRC Sent accumulated time in milliseconds (long floating point)
+Map: R748LSS Based on: R748LPST Description PPRC Sent accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lsrb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsrb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsrb/</guid>
+      <description>SCSI Read in units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LSRB Description SCSI Read in units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lsro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsro/</guid>
+      <description>SCSI Read Operations. Each customer read operation is counted (long floating point).
+Map: R748LSS Based on: R748LSRO Description SCSI Read Operations. Each customer read operation is counted (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lsrt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsrt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lsrt/</guid>
+      <description>SCSI Read accumulated time on channel in milliseconds (long floating point).
+Map: R748LSS Based on: R748LSRT Description SCSI Read accumulated time on channel in milliseconds (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lswb</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswb/</guid>
+      <description>SCSI Write in units of 128K bytes (long floating point)
+Map: R748LSS Based on: R748LSWB Description SCSI Write in units of 128K bytes (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lswo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswo/</guid>
+      <description>SCSI Write Operations. Each customer write operation is counted (long floating point).
+Map: R748LSS Based on: R748LSWO Description SCSI Write Operations. Each customer write operation is counted (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748lswt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748lswt/</guid>
+      <description>SCSI Write accumulated time on channel in milliseconds (long floating point).
+Map: R748LSS Based on: R748LSWT Description SCSI Write accumulated time on channel in milliseconds (long floating point).</description>
+    </item>
+    
+    <item>
+      <title>Field - r748ltim</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ltim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ltim/</guid>
+      <description>On = Units of time indeterminable. Time values incorrect.
+Map: R748LSS Based on: r748lflg Description On = Units of time indeterminable. Time values incorrect.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748lflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748ltyp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ltyp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748ltyp/</guid>
+      <description>Link type 1 ESCON 2 Fibre Channel 1 Gb/s 3 Fibre Channel 2 Gb/s 4 Fibre Channel 4 Gb/s 5 Fibre Channel 8 Gb/s 6 Fibre Channel 16 Gb/s 10 Ethernet Channel 10 Gb/s
+Map: R748LSS Based on: R748LTYP Description Link type 1 ESCON 2 Fibre Channel 1 Gb/s 3 Fibre Channel 2 Gb/s 4 Fibre Channel 4 Gb/s 5 Fibre Channel 8 Gb/s 6 Fibre Channel 16 Gb/s 10 Ethernet Channel 10 Gb/s</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rai</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rai/</guid>
+      <description>Rank adapter pair id
+Map: R748RANK Based on: R748RAI Description Rank adapter pair id</description>
+    </item>
+    
+    <item>
+      <title>Field - r748raiv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748raiv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748raiv/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Rank adapter pair id valid
+Map: R748RANK Based on: r748rtq Description &amp;lsquo;1&amp;rsquo; = Rank adapter pair id valid
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r748rtq.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748raix</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748raix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748raix/</guid>
+      <description>Index to first array section of rank
+Map: R748RANK Based on: R748RAIX Description Index to first array section of rank</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rbyr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rbyr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rbyr/</guid>
+      <description>Rank 128 KBYtes read. (long floating point)
+Map: R748RANK Based on: R748RBYR Description Rank 128 KBYtes read. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rbyw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rbyw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rbyw/</guid>
+      <description>Rank 128 KBYtes write. (long floating point)
+Map: R748RANK Based on: R748RBYW Description Rank 128 KBYtes write. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rcnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rcnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rcnt/</guid>
+      <description>Count of arrays in rank
+Map: R748RANK Based on: R748RCNT Description Count of arrays in rank</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rkrt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rkrt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rkrt/</guid>
+      <description>Rank read response time in units of 16 milliseconds. (long floating point)
+Map: R748RANK Based on: R748RKRT Description Rank read response time in units of 16 milliseconds. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rkwt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rkwt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rkwt/</guid>
+      <description>Rank write response time in units of 16 milliseconds. (long floating point)
+Map: R748RANK Based on: R748RKWT Description Rank write response time in units of 16 milliseconds. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rpnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rpnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rpnm/</guid>
+      <description>Extent pool number
+Map: R748RANK Based on: R748RPNM Description Extent pool number</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rrid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rrid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rrid/</guid>
+      <description>Rank identifier
+Map: R748RANK Based on: R748RRID Description Rank identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rrop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rrop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rrop/</guid>
+      <description>Rank read operations. (long floating point)
+Map: R748RANK Based on: R748RROP Description Rank read operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rtcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rtcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rtcr/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Data encrypted rank
+Map: R748RANK Based on: r748rtq Description &amp;lsquo;1&amp;rsquo; = Data encrypted rank
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748rtq.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748rtq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rtq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rtq/</guid>
+      <description>Rank type qualifer
+Map: R748RANK Based on: R748RTQ Description Rank type qualifer
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748rtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrypted rank r748raiv 7 &amp;lsquo;1&amp;rsquo; = Rank adapter pair id valid </description>
+    </item>
+    
+    <item>
+      <title>Field - r748rwop</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rwop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748rwop/</guid>
+      <description>Rank write operations. (long floating point)
+Map: R748RANK Based on: R748RWOP Description Rank write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748sbyt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sbyt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sbyt/</guid>
+      <description>On = Units of bytes indeterminable. Byte values incorrect.
+Map: R748SIOL Based on: r748sflg Description On = Units of bytes indeterminable. Byte values incorrect.
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748sflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scbr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scbr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scbr/</guid>
+      <description>Synchronous I/O cache bytes read in units of 128K bytes. (long floating point)
+Map: R748SIOL Based on: R748SCBR Description Synchronous I/O cache bytes read in units of 128K bytes. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scbw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scbw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scbw/</guid>
+      <description>Synchronous I/O cache bytes written in units of 128K bytes. (long floating point)
+Map: R748SIOL Based on: R748SCBW Description Synchronous I/O cache bytes written in units of 128K bytes. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scro/</guid>
+      <description>Total number of synchronous I/O cache read operations. (long floating point)
+Map: R748SIOL Based on: R748SCRO Description Total number of synchronous I/O cache read operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scrs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scrs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scrs/</guid>
+      <description>Number of successful synchronous I/O cache read operations. (long floating point)
+Map: R748SIOL Based on: R748SCRS Description Number of successful synchronous I/O cache read operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scrt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scrt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scrt/</guid>
+      <description>Synchronous I/O cache read accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SCRT Description Synchronous I/O cache read accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scwo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scwo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scwo/</guid>
+      <description>Total number of synchronous I/O cache write operations. (long floating point)
+Map: R748SIOL Based on: R748SCWO Description Total number of synchronous I/O cache write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scws</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scws/</guid>
+      <description>Number of successful synchronous I/O cache write operations. (long floating point)
+Map: R748SIOL Based on: R748SCWS Description Number of successful synchronous I/O cache write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scwt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scwt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748scwt/</guid>
+      <description>Synchronous I/O cache write accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SCWT Description Synchronous I/O cache write accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748sflg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sflg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sflg/</guid>
+      <description>Flags
+Map: R748SIOL Based on: R748SFLG Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748sbyt 0 On = Units of bytes indeterminable. Byte values incorrect. r748stim 1 On = Units of time indeterminable. Time values incorrect. </description>
+    </item>
+    
+    <item>
+      <title>Field - r748siid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748siid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748siid/</guid>
+      <description>Synchronous I/O link interface identifier.
+Map: R748SIOL Based on: R748SIID Description Synchronous I/O link interface identifier.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748snbw</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snbw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snbw/</guid>
+      <description>Synchronous I/O NVS bytes written in units of 128K bytes. (long floating point)
+Map: R748SIOL Based on: R748SNBW Description Synchronous I/O NVS bytes written in units of 128K bytes. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748snwo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snwo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snwo/</guid>
+      <description>Total number of synchronous I/O NVS write operations. (long floating point)
+Map: R748SIOL Based on: R748SNWO Description Total number of synchronous I/O NVS write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748snws</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snws/</guid>
+      <description>Number of successful synchronous I/O NVS write operations. (long floating point)
+Map: R748SIOL Based on: R748SNWS Description Number of successful synchronous I/O NVS write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748snwt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snwt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748snwt/</guid>
+      <description>Synchronous I/O NVS write accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SNWT Description Synchronous I/O NVS write accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748sspd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sspd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sspd/</guid>
+      <description>Synchronous I/O link type. 00 Not used 01 PCIe Gen 1 02 PCIe Gen 2 03 PCIe Gen 3 04 PCIe Gen 4 05-FF Not used
+Map: R748SIOL Based on: R748SSPD Description Synchronous I/O link type. 00 Not used 01 PCIe Gen 1 02 PCIe Gen 2 03 PCIe Gen 3 04 PCIe Gen 4 05-FF Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r748sste</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748sste/</guid>
+      <description>Synchronous I/O link type. 00 Not used 01 Link not trained 02 Link handshake incomplete 03 Link handshake complete, link operational 04 Link in service mode 05-FF Not used
+Map: R748SIOL Based on: R748SSTE Description Synchronous I/O link type. 00 Not used 01 Link not trained 02 Link handshake incomplete 03 Link handshake complete, link operational 04 Link in service mode 05-FF Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r748stim</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748stim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748stim/</guid>
+      <description>On = Units of time indeterminable. Time values incorrect.
+Map: R748SIOL Based on: r748sflg Description On = Units of time indeterminable. Time values incorrect.
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748sflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748styp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748styp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748styp/</guid>
+      <description>Synchronous I/O link type. 00 Not used 01 Optical PCIe 02-FF Not used
+Map: R748SIOL Based on: R748STYP Description Synchronous I/O link type. 00 Not used 01 Optical PCIe 02-FF Not used</description>
+    </item>
+    
+    <item>
+      <title>Field - r748swdh</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748swdh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748swdh/</guid>
+      <description>Synchronous I/O link width. This is the number of PCIe lanes.
+Map: R748SIOL Based on: R748SWDH Description Synchronous I/O link width. This is the number of PCIe lanes.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xpid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xpid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xpid/</guid>
+      <description>Extent pool identifier
+Map: R748EXTP Based on: R748XPID Description Extent pool identifier</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xplt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xplt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xplt/</guid>
+      <description>Extent pool type 00-03 = RESERVED, 04 = FB 1Gb, 05-131 = RESERVED, 132 = CKD 1Gb, 133-255 = RESERVED
+Map: R748EXTP Based on: R748XPLT Description Extent pool type 00-03 = RESERVED, 04 = FB 1Gb, 05-131 = RESERVED, 132 = CKD 1Gb, 133-255 = RESERVED</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xptq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xptq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xptq/</guid>
+      <description>Extent pool type qualifier
+Map: R748EXTP Based on: R748XPTQ Description Extent pool type qualifier
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748xtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrpted extent pool </description>
+    </item>
+    
+    <item>
+      <title>Field - r748xrcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrcp/</guid>
+      <description>Real extent pool capacity in GB
+Map: R748EXTP Based on: R748XRCP Description Real extent pool capacity in GB</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xrna</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrna/</guid>
+      <description>Number of real allocated extents in extent pool
+Map: R748EXTP Based on: R748XRNA Description Number of real allocated extents in extent pool</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xrns</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrns/</guid>
+      <description>Number of real extents in extent pool
+Map: R748EXTP Based on: R748XRNS Description Number of real extents in extent pool</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xrsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xrsc/</guid>
+      <description>Real extent conversions. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XRSC Description Real extent conversions. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xsdy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xsdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xsdy/</guid>
+      <description>Number of extents that were sources of dynamic extent relocations. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XSDY Description Number of extents that were sources of dynamic extent relocations. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xtcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xtcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xtcr/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Data encrpted extent pool
+Map: R748EXTP Based on: r748xptq Description &amp;lsquo;1&amp;rsquo; = Data encrpted extent pool
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748xptq.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xtdy</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xtdy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xtdy/</guid>
+      <description>Number of extents that were targets of dynamic extent relocations. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XTDY Description Number of extents that were targets of dynamic extent relocations. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xvcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvcp/</guid>
+      <description>Virtual extent pool capacity in GB. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XVCP Description Virtual extent pool capacity in GB. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xvns</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvns/</guid>
+      <description>Number of virtual extents in extent pool. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XVNS Description Number of virtual extents in extent pool. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xvsc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/r748xvsc/</guid>
+      <description>Virtual extent conversions. Valid if bit R748CXVL is set
+Map: R748EXTP Based on: R748XVSC Description Virtual extent conversions. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF74PRO Based on: SMF74RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF74PRO Based on: SMF74RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF74PRO Based on: SMF74RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF74PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rl/</guid>
+      <description>Length of Rank statistics data section
+Record: SMF74S8 Based on: SMF748RL Description Length of Rank statistics data section</description>
+    </item>
+    
+    <item>
+      <title>Field - rn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rn/</guid>
+      <description>Number of Rank statistics data section
+Record: SMF74S8 Based on: SMF748RN Description Number of Rank statistics data section</description>
+    </item>
+    
+    <item>
+      <title>Field - ro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ro/</guid>
+      <description>Offset to Rank statistics data section
+Record: SMF74S8 Based on: SMF748RO Description Offset to Rank statistics data section</description>
+    </item>
+    
+    <item>
+      <title>Field - rrf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rrf/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF74S8 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF74S8 Based on: SMF74RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF74PRO Based on: SMF74SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF74S8 Based on: SMF74SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF74S8 Based on: SMF74SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - sl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sl/</guid>
+      <description>Length of Synchronous I/O Link Statistics data sect.
+Record: SMF74S8 Based on: SMF748SL Description Length of Synchronous I/O Link Statistics data sect.</description>
+    </item>
+    
+    <item>
+      <title>Field - sn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sn/</guid>
+      <description>Number of Synchronous I/O Link Statistics data sect.
+Record: SMF74S8 Based on: SMF748SN Description Number of Synchronous I/O Link Statistics data sect.</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF74PRO Based on: SMF74SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - so</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/so/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/so/</guid>
+      <description>Offset to Synchronous I/O Link Statistics data sect.
+Record: SMF74S8 Based on: SMF748SO Description Offset to Synchronous I/O Link Statistics data sect.</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF74PRO Based on: SMF74SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF74S8 Based on: SMF74SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF74S8 Based on: SMF74STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sut</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/sut/</guid>
+      <description>SUBTYPES USED
+Record: SMF74S8 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF74PRO Based on: SMF74SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/time/</guid>
+      <description>Time of Record
+Record: SMF74S8 Based on: SMF74TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF74S8 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF74S8 Based on: SMF74TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF74S8 Based on: SMF74TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF74S8 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF74S8 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xl/</guid>
+      <description>Length of Extent pool data section
+Record: SMF74S8 Based on: SMF748XL Description Length of Extent pool data section</description>
+    </item>
+    
+    <item>
+      <title>Field - xn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xn/</guid>
+      <description>Number of Extent pool data section
+Record: SMF74S8 Based on: SMF748XN Description Number of Extent pool data section</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF74PRO Based on: SMF74XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - xo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf74/SMF74S8/fields/xo/</guid>
+      <description>Offset to Extent pool data section
+Record: SMF74S8 Based on: SMF748XO Description Offset to Extent pool data section</description>
+    </item>
+    
+  </channel>
+</rss>
