@@ -987,7 +987,9 @@ Record: SMF99S14 Based on: SMF99TME Description Time since midnight, in hundreth
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL. 0 = there is no container information available in SMF99E_CP_CI_NL integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer honor_priority_change virtual vcm_flag1 honor priority has changed vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer topology_change virtual vcm_flag1 topology has changed sid SMF99SID System identification (from the SID parameter).</description>
+Name Based on Description Type/Format topology_change virtual vcm_flag1 topology has changed wuq_error virtual vcm_flag1 dispatcher WUQ error speed_change virtual vcm_flag1 processor speed change processor virtual high
+medium
+low processor type mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer cp_ci_nl5 SMF99E_CP_CI_NL5 Container ID of nesting level 5 integer sid SMF99SID System identification (from the SID parameter). string cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes vcm_cpsperan SMF99E_VCM_CPSPERAN CPUs/Cores per affinity node integer hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer cp_ci_nl1 SMF99E_CP_CI_NL1 Container ID of nesting level 1 integer cp_ci_nl2 SMF99E_CP_CI_NL2 Container ID of nesting level 2 integer cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nlinuse processed SMF99E_CP_CI_NLINUSE Number of highest nesting level in use in array SMF99E_CP_CI_NL.</description>
     </item>
     
     <item>

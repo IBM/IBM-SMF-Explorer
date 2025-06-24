@@ -661,6 +661,16 @@ Map: R7451DEV Based on: R7451CT6 Description z/HPF Write I/O requests (short flo
     </item>
     
     <item>
+      <title>Field - r7451ct7</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S5/fields/r7451ct7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S5/fields/r7451ct7/</guid>
+      <description>zHyperLink Read Pre-fetch I/O Requests (short float)
+Map: R7451DEV Based on: R7451CT7 Description zHyperLink Read Pre-fetch I/O Requests (short float)</description>
+    </item>
+    
+    <item>
       <title>Field - r7451dvn</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S5/fields/r7451dvn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

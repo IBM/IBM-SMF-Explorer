@@ -20,7 +20,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/</guid>
-      <description>How to use this documentation? Samples Virtual fields Record fields Maps and sections SMF70PRO SMF70AID SMF70CTL SMF70CPU SMF70BCT SMF70BPD SMF70CIS SMF70LCS SMF70TNT Samples Name Description lpar_information Request necessary fields from SMF70S1 on LPARs processor_information Request necessary fields from SMF70S1 on processors Virtual fields Name Based on Description timestamp date
+      <description>How to use this documentation? Samples Virtual fields Record fields Maps and sections SMF70PRO SMF70AID SMF70CTL SMF70CPU SMF70BCT SMF70BPD SMF70CIS SMF70LCS SMF70TNT SMF70WCD Samples Name Description lpar_information Request necessary fields from SMF70S1 on LPARs processor_information Request necessary fields from SMF70S1 on processors Virtual fields Name Based on Description timestamp date
 time Record Timestamp boost_class fla Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process interval_in_milliseconds interval Interval duration in milliseconds cpu_adjustment_factor cpu_adjustment_factor_actual</description>
     </item>
     
@@ -1078,6 +1078,36 @@ Map: SMF70CTL Based on: SMF70CPC_TYPE Description CPC Type</description>
     </item>
     
     <item>
+      <title>Field - cpcinfrapower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpcinfrapower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpcinfrapower/</guid>
+      <description>Accumulated microwatts for all subsystems in the CPC which do not provide CPU, storage, or I/O resources to logical partitions. These include service elements, cooling systems, power distribution, and network switches, among others. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval
+Map: SMF70CTL Based on: SMF70_CPCINFRAPOWER Description Accumulated microwatts for all subsystems in the CPC which do not provide CPU, storage, or I/O resources to logical partitions.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpctotalpower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpctotalpower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpctotalpower/</guid>
+      <description>Accumulated microwatts for all electrical and mechanical components in the CPC. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval.
+Map: SMF70CTL Based on: SMF70_CPCTOTALPOWER Description Accumulated microwatts for all electrical and mechanical components in the CPC. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpcunassrespower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpcunassrespower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpcunassrespower/</guid>
+      <description>Accumulated microwatts for all types of resources in the standby or reserved state. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval
+Map: SMF70CTL Based on: SMF70_CPCUNASSRESPOWER Description Accumulated microwatts for all types of resources in the standby or reserved state. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval</description>
+    </item>
+    
+    <item>
       <title>Field - cpe_hi</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpe_hi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1394,13 +1424,13 @@ Map: SMF70CPU Based on: SMF70WAT Description CPU wait time</description>
     </item>
     
     <item>
-      <title>Field - cr</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cr/</link>
+      <title>Field - cpupower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpupower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cr/</guid>
-      <description>ZEP field 0
-Map: SMF70CTL Based on: SMF70CR Description ZEP field 0</description>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpupower/</guid>
+      <description>Accumulated microwatts for all CPU resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval
+Map: SMF70CTL Based on: SMF70_CPUPOWER Description Accumulated microwatts for all CPU resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval</description>
     </item>
     
     <item>
@@ -2430,6 +2460,16 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
     </item>
     
     <item>
+      <title>Field - iopower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/iopower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/iopower/</guid>
+      <description>Accumulated microwatts for all I/O resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval
+Map: SMF70CTL Based on: SMF70_IOPOWER Description Accumulated microwatts for all I/O resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval</description>
+    </item>
+    
+    <item>
       <title>Field - ipl_time</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/ipl_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2780,7 +2820,7 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer sid SMF70SID SYSTEM ID FROM INSTALLATION string lpar_number SMF70LPN Logical partition number integer system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sysplex_name SMF70SPN Name of the logical-partition cluster.</description>
+Name Based on Description Type/Format sid SMF70SID SYSTEM ID FROM INSTALLATION string system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string lpar_number SMF70LPN Logical partition number integer sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name.</description>
     </item>
     
     <item>
@@ -2938,8 +2978,18 @@ Map: SMF70CTL Based on: SMF70MCR Description Model capacity rating. When non-zer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mdl/</guid>
-      <description>EBCDIC CPC model identifier. See Bit 4 of SMF70STF (SMF70HWV)
-Map: SMF70CTL Based on: SMF70MDL Description EBCDIC CPC model identifier. See Bit 4 of SMF70STF (SMF70HWV)</description>
+      <description>CPC model identifier indicating the total capactiy of the CPC, including all types of active capacity. See Bit 4 of SMF70STF (SMF70HWV)
+Map: SMF70CTL Based on: SMF70MDL Description CPC model identifier indicating the total capactiy of the CPC, including all types of active capacity. See Bit 4 of SMF70STF (SMF70HWV)</description>
+    </item>
+    
+    <item>
+      <title>Field - mdl_rep</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mdl_rep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mdl_rep/</guid>
+      <description>CPC model identifier indicating the replacement capacity of the CPC, which is the total of permanent capacity, temporarily increased capacity, and temporarily available replacement capacity, without the corridor capacity. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
+Map: SMF70CTL Based on: SMF70MDL_REP Description CPC model identifier indicating the replacement capacity of the CPC, which is the total of permanent capacity, temporarily increased capacity, and temporarily available replacement capacity, without the corridor capacity.</description>
     </item>
     
     <item>
@@ -2948,8 +2998,8 @@ Map: SMF70CTL Based on: SMF70MDL Description EBCDIC CPC model identifier. See Bi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mdl_var/</guid>
-      <description>EBCDIC model variable capacity identifier. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
-Map: SMF70CTL Based on: SMF70MDL_VAR Description EBCDIC model variable capacity identifier. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.</description>
+      <description>CPC model identifier indicating the variable capacity of the CPC. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
+Map: SMF70CTL Based on: SMF70MDL_VAR Description CPC model identifier indicating the variable capacity of the CPC. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.</description>
     </item>
     
     <item>
@@ -3021,8 +3071,8 @@ Map: SMF70CTL Based on: SMF70MOD Description CPU processor family</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mpc/</guid>
-      <description>When non-zero, EBCDIC model permanent capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.
-Map: SMF70CTL Based on: SMF70MPC Description When non-zero, EBCDIC model permanent capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.</description>
+      <description>CPC model identifier indicating the permanent capacity of the CPC, without the temporarily increased capacity, the temporarily available replacement capacity, and the corridor capacity. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
+Map: SMF70CTL Based on: SMF70MPC Description CPC model identifier indicating the permanent capacity of the CPC, without the temporarily increased capacity, the temporarily available replacement capacity, and the corridor capacity.</description>
     </item>
     
     <item>
@@ -3033,6 +3083,16 @@ Map: SMF70CTL Based on: SMF70MPC Description When non-zero, EBCDIC model permane
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mpr/</guid>
       <description>Model permanent capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MPC.
 Map: SMF70CTL Based on: SMF70MPR Description Model permanent capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MPC.</description>
+    </item>
+    
+    <item>
+      <title>Field - mrcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mrcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mrcr/</guid>
+      <description>Model replacement capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MDL_REP.
+Map: SMF70CTL Based on: SMF70MRCR Description Model replacement capacity rating. When non-zero, this value is associated with the model capacity as identified in field SMF70MDL_REP.</description>
     </item>
     
     <item>
@@ -3083,8 +3143,8 @@ return dispatch_time_total * 16 * cpa_scaling_factor_effective / cpu_adjustment_
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/mtc/</guid>
-      <description>When non-zero, EBCDIC model temporary capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.
-Map: SMF70CTL Based on: SMF70MTC Description When non-zero, EBCDIC model temporary capacity identifier of the configuration. The identifier is left justified with trailing blanks if necessary.</description>
+      <description>CPC model identifier indicating the temporary capacity of the CPC, which is the total of permanent capacity and temporarily increased capacity, without the temporarily available replacement capacity and the corridor capacity. The identifier is left justified with trailing blanks if necessary. This field is zero, if not supported by the hardware.
+Map: SMF70CTL Based on: SMF70MTC Description CPC model identifier indicating the temporary capacity of the CPC, which is the total of permanent capacity and temporarily increased capacity, without the temporarily available replacement capacity and the corridor capacity.</description>
     </item>
     
     <item>
@@ -3262,6 +3322,16 @@ Map: SMF70CTL Based on: SMF70NPR Description Nominal permanent model-capacity ra
     </item>
     
     <item>
+      <title>Field - nrcr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/nrcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/nrcr/</guid>
+      <description>Nominal model replacement capacity rating. When non-zero, this value is associated with the nominal model capacity as identified in field SMF70MDL_REP. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MRCR.
+Map: SMF70CTL Based on: SMF70NRCR Description Nominal model replacement capacity rating. When non-zero, this value is associated with the nominal model capacity as identified in field SMF70MDL_REP. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MRCR.</description>
+    </item>
+    
+    <item>
       <title>Field - nrm</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/nrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3299,6 +3369,16 @@ Map: SMF70BPD Based on: SMF70NSI Description Number of Diagnose samples within t
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/ntr/</guid>
       <description>Nominal temporary model-capacity rating. When non-zero, this value is associated with the nominal temporary model capacity as identified in field SMF70MTC. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MTR.
 Map: SMF70CTL Based on: SMF70NTR Description Nominal temporary model-capacity rating. When non-zero, this value is associated with the nominal temporary model capacity as identified in field SMF70MTC. When field SMF70CAI contains a value of 100, this value equals the value in field SMF70MTR.</description>
+    </item>
+    
+    <item>
+      <title>Field - numpowersamples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/numpowersamples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/numpowersamples/</guid>
+      <description>Number of power samples for the interval
+Map: SMF70CTL Based on: SMF70_NUMPOWERSAMPLES Description Number of power samples for the interval</description>
     </item>
     
     <item>
@@ -3798,6 +3878,16 @@ Map: SMF70BPD Based on: SMF70POW Description Weight for the logical CPU when Hip
     </item>
     
     <item>
+      <title>Field - powerpartitionname</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/powerpartitionname/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/powerpartitionname/</guid>
+      <description>Name of the LPAR to which the LPAR-specific power fields apply
+Map: SMF70CTL Based on: SMF70_POWERPARTITIONNAME Description Name of the LPAR to which the LPAR-specific power fields apply</description>
+    </item>
+    
+    <item>
       <title>Field - prd</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/prd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3889,10 +3979,12 @@ Record: SMF70S2 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format msu_effective virtual dispatch_time_effective
+Name Based on Description Type/Format share_current virtual share_actual
+sample_diagnose
+processor_weight Accumulated processor current share msu_effective virtual dispatch_time_effective
 cpa_scaling_factor_effective
 cpu_adjustment_factor_effective
-interval_in_milliseconds Effective MSU sid SMF70SID SYSTEM ID FROM INSTALLATION string interval_in_milliseconds virtual interval Interval duration in milliseconds share_minimum SMF70MIS Processor minimum share integer cpu_name processed SMF70CIN CPU-identification name string cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA).</description>
+interval_in_milliseconds Effective MSU share_minimum SMF70MIS Processor minimum share integer share_maximum SMF70MAS Processor maximum share integer cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.</description>
     </item>
     
     <item>
@@ -3901,8 +3993,8 @@ interval_in_milliseconds Effective MSU sid SMF70SID SYSTEM ID FROM INSTALLATION 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/processor_weight/</guid>
-      <description>Processor relative share
-Map: SMF70BPD Based on: SMF70BPS Description Processor relative share</description>
+      <description>Partition processor resource weight factor. If the value is X&amp;rsquo;FFFF&amp;rsquo;, then the partition has been assigned dedicated processors.
+Map: SMF70BPD Based on: SMF70BPS Description Partition processor resource weight factor. If the value is X&amp;rsquo;FFFF&amp;rsquo;, then the partition has been assigned dedicated processors.</description>
     </item>
     
     <item>
@@ -5920,6 +6012,17 @@ Map: SMF70PRO Based on: SMF70SNM Description System name for current system as d
     </item>
     
     <item>
+      <title>Field - son</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/son/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/son/</guid>
+      <description>Power information available
+Map: SMF70CTL Based on: inb Description Power information available
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field inb.</description>
+    </item>
+    
+    <item>
       <title>Field - speed_boost</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/speed_boost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6015,6 +6118,16 @@ Field Bit-Position Description store_sys_info 0 Store-system-information facilit
     </item>
     
     <item>
+      <title>Field - storagepower</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/storagepower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/storagepower/</guid>
+      <description>Accumulated microwatts for all storage resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval
+Map: SMF70CTL Based on: SMF70_STORAGEPOWER Description Accumulated microwatts for all storage resources allocated to the LPAR during the interval. Divide by SMF70_NumPowerSamples to retrieve the average power consumption of the interval</description>
+    </item>
+    
+    <item>
       <title>Field - store_sys_info</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/store_sys_info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6086,6 +6199,17 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <description>SUBTYPES USED
 Record: SMF70S2 Based on: flg Description SUBTYPES USED
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - suf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/suf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/suf/</guid>
+      <description>Failure obtaining power information
+Map: SMF70CTL Based on: inb Description Failure obtaining power information
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field inb.</description>
     </item>
     
     <item>
@@ -6974,6 +7098,76 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
     </item>
     
     <item>
+      <title>Field - wc_array_offset</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_array_offset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_array_offset/</guid>
+      <description>Offset to Workload Classification Samples Array (relative to the start of this data section)
+Map: SMF70WCD Based on: SMF70WC_ARRAY_OFFSET Description Offset to Workload Classification Samples Array (relative to the start of this data section)</description>
+    </item>
+    
+    <item>
+      <title>Field - wc_classes_num</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_classes_num/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_classes_num/</guid>
+      <description>Number of workload classes in the samples array (equal to its dimension)
+Map: SMF70WCD Based on: SMF70WC_CLASSES_NUM Description Number of workload classes in the samples array (equal to its dimension)</description>
+    </item>
+    
+    <item>
+      <title>Field - wc_cpu_type</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_cpu_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_cpu_type/</guid>
+      <description>CPU type as defined by SMF70TYP
+Map: SMF70WCD Based on: SMF70WC_CPU_TYPE Description CPU type as defined by SMF70TYP</description>
+    </item>
+    
+    <item>
+      <title>Field - wc_element_size</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_element_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wc_element_size/</guid>
+      <description>Size of an element in the samples array
+Map: SMF70WCD Based on: SMF70WC_ELEMENT_SIZE Description Size of an element in the samples array</description>
+    </item>
+    
+    <item>
+      <title>Field - wcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcl/</guid>
+      <description>LENGTH OF WORKLOAD CLASSIFICATION DATA SECTION
+Record: SMF70S1 Based on: SMF70WCL Description LENGTH OF WORKLOAD CLASSIFICATION DATA SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - wcn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcn/</guid>
+      <description>NUMBER OF WORKLOAD CLASSIFICATION DATA SECTIONS
+Record: SMF70S1 Based on: SMF70WCN Description NUMBER OF WORKLOAD CLASSIFICATION DATA SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - wcs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wcs/</guid>
+      <description>OFFSET TO WORKLOAD CLASSIFICATION DATA SECTIONS
+Record: SMF70S1 Based on: SMF70WCS Description OFFSET TO WORKLOAD CLASSIFICATION DATA SECTIONS</description>
+    </item>
+    
+    <item>
       <title>Field - wla</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7012,6 +7206,15 @@ Map: SMF70AID Based on: SMF70WMM Description WAIT USERS MAXIMUM</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/wmn/</guid>
       <description>WAIT USER MINIMUM
 Map: SMF70AID Based on: SMF70WMN Description WAIT USER MINIMUM</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_array</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_array/</guid>
+      <description> Map: SMF70WCD Based on: WORKLOAD_CLASSIFICATION_SAMPLES_ARRAY </description>
     </item>
     
     <item>
@@ -7285,26 +7488,6 @@ Map: SMF70AID Based on: SMF70DTT Description AAP processors total</description>
     </item>
     
     <item>
-      <title>Field - zec</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zec/</guid>
-      <description>ZEP field 4
-Map: SMF70CTL Based on: SMF70ZEC Description ZEP field 4</description>
-    </item>
-    
-    <item>
-      <title>Field - zee</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zee/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zee/</guid>
-      <description>ZEP field 3
-Map: SMF70CTL Based on: SMF70ZEE Description ZEP field 3</description>
-    </item>
-    
-    <item>
       <title>Field - zei</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zei/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7312,26 +7495,6 @@ Map: SMF70CTL Based on: SMF70ZEE Description ZEP field 3</description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zei/</guid>
       <description>ZEP field 5
 Map: SMF70CTL Based on: SMF70ZEI Description ZEP field 5</description>
-    </item>
-    
-    <item>
-      <title>Field - zep</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zep/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zep/</guid>
-      <description>ZEP field 1
-Map: SMF70CTL Based on: SMF70ZEP Description ZEP field 1</description>
-    </item>
-    
-    <item>
-      <title>Field - zer</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/zer/</guid>
-      <description>ZEP field 2
-Map: SMF70CTL Based on: SMF70ZER Description ZEP field 2</description>
     </item>
     
     <item>

@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMF 72 Subtype  4 on IBM SMF Explorer</title>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/</link>
+    <description>Recent content in SMF 72 Subtype  4 on IBM SMF Explorer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Field - altvm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/altvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/altvm/</guid>
+      <description>Running under an alternate virtual machine environment
+Map: SMF72PRO Based on: fla Description Running under an alternate virtual machine environment
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - arch_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/arch_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/arch_mode/</guid>
+      <description>System in z/ARCH mode
+Map: SMF72PRO Based on: prf Description System in z/ARCH mode
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - boost_class</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/boost_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/boost_class/</guid>
+      <description>Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Map: SMF72PRO Based on: fla Description Boost class is set at end of interval, valid only when zIIP boost and/or Speed boost is active: 001 IPL, 010 Shutdown, 011 Recovery Process
+Post-Processed Flags postprocessor for multiple bit mapping.</description>
+    </item>
+    
+    <item>
+      <title>Field - cnv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cnv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cnv/</guid>
+      <description>Data converted from version 2
+Map: SMF72PRO Based on: fla Description Data converted from version 2
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - cpl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cpl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cpl/</guid>
+      <description>Length of service class period data sections (subtype4)
+Record: SMF72S4 Based on: SMF72CPL Description Length of service class period data sections (subtype4)</description>
+    </item>
+    
+    <item>
+      <title>Field - cpn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cpn/</guid>
+      <description>Number of service class period data sections (subtype4)
+Record: SMF72S4 Based on: SMF72CPN Description Number of service class period data sections (subtype4)</description>
+    </item>
+    
+    <item>
+      <title>Field - cps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cps/</guid>
+      <description>Offset to service class period data sections (subtype4)
+Record: SMF72S4 Based on: SMF72CPS Description Offset to service class period data sections (subtype4)</description>
+    </item>
+    
+    <item>
+      <title>Field - cyc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cyc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/cyc/</guid>
+      <description>Sampling cycle length
+Map: SMF72PRO Based on: SMF72CYC Description Sampling cycle length</description>
+    </item>
+    
+    <item>
+      <title>Field - dat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat/</guid>
+      <description>Date monitor interval start
+Map: SMF72PRO Based on: SMF72DAT Description Date monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat_facility1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat_facility1/</guid>
+      <description>Enhanced DAT facility 1
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 1
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - dat_facility2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat_facility2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dat_facility2/</guid>
+      <description>Enhanced DAT facility 2
+Map: SMF72PRO Based on: prf Description Enhanced DAT facility 2
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - date</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/date/</guid>
+      <description>Date of Record
+Record: SMF72S4 Based on: SMF72DTE </description>
+    </item>
+    
+    <item>
+      <title>Field - dte</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/dte/</guid>
+      <description>DATE RECORD WRITTEN
+Record: SMF72S4 Based on: SMF72DTE Description DATE RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - eed</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/eed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/eed/</guid>
+      <description>Speed boost was active during entire interval
+Map: SMF72PRO Based on: fla Description Speed boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 10 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - esa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/esa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/esa/</guid>
+      <description>MVS/ESA IF ON
+Record: SMF72S4 Based on: flg Description MVS/ESA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_ch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/escon_ch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/escon_ch/</guid>
+      <description>Equipped with ESCON channel
+Map: SMF72PRO Based on: prf Description Equipped with ESCON channel
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - escon_dir</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/escon_dir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/escon_dir/</guid>
+      <description>ESCON Director in configuration
+Map: SMF72PRO Based on: prf Description ESCON Director in configuration
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - expanded_stor</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/expanded_stor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/expanded_stor/</guid>
+      <description>System has expanded storage
+Map: SMF72PRO Based on: prf Description System has expanded storage
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - fla</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/fla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/fla/</guid>
+      <description>Flags
+Map: SMF72PRO Based on: SMF72FLA Description Flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description cnv 0 Data converted from version 2 invalid_samples 1 Invalid samples to be skipped m3r 2 Record was written by RMF Monitor III interval_smf_control 3 Interval was under SMF control rcl 4 SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.</description>
+    </item>
+    
+    <item>
+      <title>Field - flg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/flg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/flg/</guid>
+      <description>SYSTEM INDICATOR FLAGS
+Record: SMF72S4 Based on: SMF72FLG Description SYSTEM INDICATOR FLAGS
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description new_record 0 NEW RECORD FORMAT subtypes_used 1 SUBTYPES USED v4 3 MVS/ESA V4 IF ON esa 4 MVS/ESA IF ON vxa 5 MVS/XA IF ON os 6 OPERATING SYSTEM IS OS/VS2 prsm_mode 7 SYSTEM RUNNING IN PR/SM MODE </description>
+    </item>
+    
+    <item>
+      <title>Field - gie</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/gie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/gie/</guid>
+      <description>Projected gathering interval end GMT time
+Map: SMF72PRO Based on: SMF72GIE Description Projected gathering interval end GMT time</description>
+    </item>
+    
+    <item>
+      <title>Field - iet</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iet/</guid>
+      <description>Interval expiration time token
+Map: SMF72PRO Based on: SMF72IET Description Interval expiration time token</description>
+    </item>
+    
+    <item>
+      <title>Field - iip</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iip/</guid>
+      <description>zIIP boost was active during entire interval
+Map: SMF72PRO Based on: fla Description zIIP boost was active during entire interval
+Post-Processed This virtual field corresponds to the flag at bit-position 9 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - iml</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/iml/</guid>
+      <description>Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries
+Map: SMF72PRO Based on: SMF72IML Description Indicates the type of processor complex on which data measurements were taken. X&#39;03&amp;rsquo; = 9672, zSeries</description>
+    </item>
+    
+    <item>
+      <title>Field - interval</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval/</guid>
+      <description>Duration of monitor interval
+Map: SMF72PRO Based on: SMF72INT Description Duration of monitor interval</description>
+    </item>
+    
+    <item>
+      <title>Field - interval_in_milliseconds</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval_in_milliseconds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval_in_milliseconds/</guid>
+      <description>Interval duration in milliseconds
+Map: SMF72PRO Based on: interval Post-Processed The field is created using the following pseudocode:
+return interval.total_seconds() * 1e3 </description>
+    </item>
+    
+    <item>
+      <title>Field - interval_smf_control</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval_smf_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/interval_smf_control/</guid>
+      <description>Interval was under SMF control
+Map: SMF72PRO Based on: fla Description Interval was under SMF control
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - invalid_samples</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/invalid_samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/invalid_samples/</guid>
+      <description>Invalid samples to be skipped
+Map: SMF72PRO Based on: fla Description Invalid samples to be skipped
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - ist</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ist/</guid>
+      <description>Time monitor interval start
+Map: SMF72PRO Based on: SMF72IST Description Time monitor interval start</description>
+    </item>
+    
+    <item>
+      <title>Field - len</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/len/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/len/</guid>
+      <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
+Record: SMF72S4 Based on: SMF72LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
+    </item>
+    
+    <item>
+      <title>Field - lgo</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/lgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/lgo/</guid>
+      <description>Offset GMT to local time
+Map: SMF72PRO Based on: SMF72LGO Description Offset GMT to local time</description>
+    </item>
+    
+    <item>
+      <title>Field - m3r</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/m3r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/m3r/</guid>
+      <description>Record was written by RMF Monitor III
+Map: SMF72PRO Based on: fla Description Record was written by RMF Monitor III
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - mfv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/mfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/mfv/</guid>
+      <description>RMF version number
+Map: SMF72PRO Based on: SMF72MFV Description RMF version number</description>
+    </item>
+    
+    <item>
+      <title>Field - mvs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/mvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/mvs/</guid>
+      <description>MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)
+Map: SMF72PRO Based on: SMF72MVS Description MVS software level (consists of an acronym and the version, release, and modification level - ZVvvrrmm)</description>
+    </item>
+    
+    <item>
+      <title>Field - new_record</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/new_record/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/new_record/</guid>
+      <description>NEW RECORD FORMAT
+Record: SMF72S4 Based on: flg Description NEW RECORD FORMAT
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - oil</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/oil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/oil/</guid>
+      <description>Original interval length as defined in the session or by SMF (in seconds)
+Map: SMF72PRO Based on: SMF72OIL Description Original interval length as defined in the session or by SMF (in seconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - os</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/os/</guid>
+      <description>OPERATING SYSTEM IS OS/VS2
+Record: SMF72S4 Based on: flg Description OPERATING SYSTEM IS OS/VS2
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - prd</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prd/</guid>
+      <description>Product name
+Map: SMF72PRO Based on: SMF72PRD Description Product name</description>
+    </item>
+    
+    <item>
+      <title>Field - prf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prf/</guid>
+      <description>Processor flags
+Map: SMF72PRO Based on: SMF72PRF Description Processor flags
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description expanded_stor 0 System has expanded storage escon_ch 1 Equipped with ESCON channel escon_dir 2 ESCON Director in configuration arch_mode 3 System in z/ARCH mode zaap_inst 4 At least one zAAP is currently installed ziip_inst 5 At least one zIIP is currently installed dat_facility1 6 Enhanced DAT facility 1 dat_facility2 7 Enhanced DAT facility 2 </description>
+    </item>
+    
+    <item>
+      <title>Field - prl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prl/</guid>
+      <description>LENGTH OF RMF PRODUCT SECTION
+Record: SMF72S4 Based on: SMF72PRL Description LENGTH OF RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prn/</guid>
+      <description>NUMBER OF RMF PRODUCT SECTIONS
+Record: SMF72S4 Based on: SMF72PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
+    </item>
+    
+    <item>
+      <title>Field - prs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prs/</guid>
+      <description>OFFSET TO RMF PRODUCT SECTION
+Record: SMF72S4 Based on: SMF72PRS Description OFFSET TO RMF PRODUCT SECTION</description>
+    </item>
+    
+    <item>
+      <title>Field - prsm_mode</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prsm_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/prsm_mode/</guid>
+      <description>SYSTEM RUNNING IN PR/SM MODE
+Record: SMF72S4 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - ptn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ptn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ptn/</guid>
+      <description>PR/SM partition number
+Map: SMF72PRO Based on: SMF72PTN Description PR/SM partition number</description>
+    </item>
+    
+    <item>
+      <title>Field - r724actf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724actf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724actf/</guid>
+      <description>Sum of all active frames (long floating point)
+Map: R724DATA Based on: R724ACTF Description Sum of all active frames (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724acts</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724acts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724acts/</guid>
+      <description>Sum of all active samples (except OUTR)
+Map: R724DATA Based on: R724ACTS Description Sum of all active samples (except OUTR)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724actv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724actv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724actv/</guid>
+      <description>Sum of all active users found
+Map: R724DATA Based on: R724ACTV Description Sum of all active users found</description>
+    </item>
+    
+    <item>
+      <title>Field - r724ddev</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724ddev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724ddev/</guid>
+      <description>Total device delay samples for the group
+Map: R724DATA Based on: R724DDEV Description Total device delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724denq</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724denq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724denq/</guid>
+      <description>Total ENQ delay samples for the group
+Map: R724DATA Based on: R724DENQ Description Total ENQ delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dhsm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dhsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dhsm/</guid>
+      <description>Total HSM delay samples for the group
+Map: R724DATA Based on: R724DHSM Description Total HSM delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724div</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724div/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724div/</guid>
+      <description>Sum of all DIV frames (long floating point)
+Map: R724DATA Based on: R724DIV Description Sum of all DIV frames (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724divs</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724divs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724divs/</guid>
+      <description>Sum of all DIV samples
+Map: R724DATA Based on: R724DIVS Description Sum of all DIV samples</description>
+    </item>
+    
+    <item>
+      <title>Field - r724djes</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724djes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724djes/</guid>
+      <description>Total JES delay samples for the group
+Map: R724DATA Based on: R724DJES Description Total JES delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dmnt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dmnt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dmnt/</guid>
+      <description>Total mount delay samples for the group
+Map: R724DATA Based on: R724DMNT Description Total mount delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dmsg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dmsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dmsg/</guid>
+      <description>Total message delay samples for the group
+Map: R724DATA Based on: R724DMSG Description Total message delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dpro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dpro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dpro/</guid>
+      <description>Total processor delay samples for the group
+Map: R724DATA Based on: R724DPRO Description Total processor delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dsto</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dsto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dsto/</guid>
+      <description>Total storage delay samples for the group
+Map: R724DATA Based on: R724DSTO Description Total storage delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724dxcf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dxcf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724dxcf/</guid>
+      <description>Total XCF delay samples for the group
+Map: R724DATA Based on: R724DXCF Description Total XCF delay samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724end</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724end/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724end/</guid>
+      <description>The number of transactions that ended in the group (Format: long floating point Unit: microseconds)
+Map: R724DATA Based on: R724END Description The number of transactions that ended in the group (Format: long floating point Unit: microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724esct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724esct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724esct/</guid>
+      <description>Count of &amp;ldquo;long&amp;rdquo; swaps to expanded storage for the group
+Map: R724DATA Based on: R724ESCT Description Count of &amp;ldquo;long&amp;rdquo; swaps to expanded storage for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724et</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724et/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724et/</guid>
+      <description>Total execution time for all transactions that ended in the group. Does not include queued time. (Format: long floating point Unit: 1024-microseconds)
+Map: R724DATA Based on: R724ET Description Total execution time for all transactions that ended in the group. Does not include queued time. (Format: long floating point Unit: 1024-microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724etx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724etx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724etx/</guid>
+      <description>Total execution time for all transactions that ended in the group. Same as R724ET, but in microseconds.
+Map: R724DATA Based on: R724ETX Description Total execution time for all transactions that ended in the group. Same as R724ET, but in microseconds.</description>
+    </item>
+    
+    <item>
+      <title>Field - r724fix</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724fix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724fix/</guid>
+      <description>Sum of all fixed frames (long floating point)
+Map: R724DATA Based on: R724FIX Description Sum of all fixed frames (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724gpi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724gpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724gpi/</guid>
+      <description>Sum of shared page-ins from auxiliary storage (long floating point)
+Map: R724DATA Based on: R724GPI Description Sum of shared page-ins from auxiliary storage (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724idle</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724idle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724idle/</guid>
+      <description>Sum of all idle frames (long floating point)
+Map: R724DATA Based on: R724IDLE Description Sum of all idle frames (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724idls</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724idls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724idls/</guid>
+      <description>Sum of all idle samples
+Map: R724DATA Based on: R724IDLS Description Sum of all idle samples</description>
+    </item>
+    
+    <item>
+      <title>Field - r724lcnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lcnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lcnm/</guid>
+      <description>Service class name
+Map: R724DATA Based on: R724LCNM Description Service class name</description>
+    </item>
+    
+    <item>
+      <title>Field - r724lscf</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lscf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lscf/</guid>
+      <description>Sum of all central frames for all logically swapped users at all samples (long floating point)
+Map: R724DATA Based on: R724LSCF Description Sum of all central frames for all logically swapped users at all samples (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724lsct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lsct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lsct/</guid>
+      <description>Count of &amp;ldquo;long&amp;rdquo; logical swaps for the group
+Map: R724DATA Based on: R724LSCT Description Count of &amp;ldquo;long&amp;rdquo; logical swaps for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724lsef</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lsef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lsef/</guid>
+      <description>Sum of all expanded frames for all logically swapped users at all samples (long floating point)
+Map: R724DATA Based on: R724LSEF Description Sum of all expanded frames for all logically swapped users at all samples (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724lssa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lssa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724lssa/</guid>
+      <description>Total logically swapped samples for the group
+Map: R724DATA Based on: R724LSSA Description Total logically swapped samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or1/</guid>
+      <description>STOR/OUTR delay samples for swap reason 1: Terminal output wait
+Map: R724SWRE Based on: R724OR1 Description STOR/OUTR delay samples for swap reason 1: Terminal output wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or10</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or10/</guid>
+      <description>STOR/OUTR delay samples for swap reason 10: Unilateral swap
+Map: R724SWRE Based on: R724OR10 Description STOR/OUTR delay samples for swap reason 10: Unilateral swap</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or11</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or11/</guid>
+      <description>STOR/OUTR delay samples for swap reason 11: Transition swap
+Map: R724SWRE Based on: R724OR11 Description STOR/OUTR delay samples for swap reason 11: Transition swap</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or12</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or12/</guid>
+      <description>STOR/OUTR delay samples for swap reason 12: Improve central storage usage
+Map: R724SWRE Based on: R724OR12 Description STOR/OUTR delay samples for swap reason 12: Improve central storage usage</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or13</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or13/</guid>
+      <description>STOR/OUTR delay samples for swap reason 13: Improve system paging rate
+Map: R724SWRE Based on: R724OR13 Description STOR/OUTR delay samples for swap reason 13: Improve system paging rate</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or14</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or14/</guid>
+      <description>STOR/OUTR delay samples for swap reason 14: Make room for an out too long user
+Map: R724SWRE Based on: R724OR14 Description STOR/OUTR delay samples for swap reason 14: Make room for an out too long user</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or15</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or15/</guid>
+      <description>STOR/OUTR delay samples for swap reason 15: APPC wait
+Map: R724SWRE Based on: R724OR15 Description STOR/OUTR delay samples for swap reason 15: APPC wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or16</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or16/</guid>
+      <description>STOR/OUTR delay samples for swap reason 16: OMVS input wait
+Map: R724SWRE Based on: R724OR16 Description STOR/OUTR delay samples for swap reason 16: OMVS input wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or17</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or17/</guid>
+      <description>STOR/OUTR delay samples for swap reason 17: OMVS output wait
+Map: R724SWRE Based on: R724OR17 Description STOR/OUTR delay samples for swap reason 17: OMVS output wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or18</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or18/</guid>
+      <description>STOR/OUTR delay samples for swap reason 18: In-real swap
+Map: R724SWRE Based on: R724OR18 Description STOR/OUTR delay samples for swap reason 18: In-real swap</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or2/</guid>
+      <description>STOR/OUTR delay samples for swap reason 2: Terminal input wait
+Map: R724SWRE Based on: R724OR2 Description STOR/OUTR delay samples for swap reason 2: Terminal input wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or3/</guid>
+      <description>STOR/OUTR delay samples for swap reason 3: Long wait
+Map: R724SWRE Based on: R724OR3 Description STOR/OUTR delay samples for swap reason 3: Long wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or4/</guid>
+      <description>STOR/OUTR delay samples for swap reason 4: Auxiliary storage shortage
+Map: R724SWRE Based on: R724OR4 Description STOR/OUTR delay samples for swap reason 4: Auxiliary storage shortage</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or5/</guid>
+      <description>STOR/OUTR delay samples for swap reason 5: Real storage shortage
+Map: R724SWRE Based on: R724OR5 Description STOR/OUTR delay samples for swap reason 5: Real storage shortage</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or6</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or6/</guid>
+      <description>STOR/OUTR delay samples for swap reason 6: Detected long wait
+Map: R724SWRE Based on: R724OR6 Description STOR/OUTR delay samples for swap reason 6: Detected long wait</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or7a</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or7a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or7a/</guid>
+      <description>STOR/OUTR delay samples for swap reason 7: Memory pool shortage
+Map: R724SWRE Based on: R724OR7A Description STOR/OUTR delay samples for swap reason 7: Memory pool shortage</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or8</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or8/</guid>
+      <description>STOR/OUTR delay samples for swap reason 8: Enqueue exchange swap
+Map: R724SWRE Based on: R724OR8 Description STOR/OUTR delay samples for swap reason 8: Enqueue exchange swap</description>
+    </item>
+    
+    <item>
+      <title>Field - r724or9</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724or9/</guid>
+      <description>STOR/OUTR delay samples for swap reason 9: Exchange swap
+Map: R724SWRE Based on: R724OR9 Description STOR/OUTR delay samples for swap reason 9: Exchange swap</description>
+    </item>
+    
+    <item>
+      <title>Field - r724outr</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724outr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724outr/</guid>
+      <description>Sum of all out and ready users at all samples
+Map: R724DATA Based on: R724OUTR Description Sum of all out and ready users at all samples</description>
+    </item>
+    
+    <item>
+      <title>Field - r724page</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724page/</guid>
+      <description>Sum of all users delayed for paging at all samples
+Map: R724DATA Based on: R724PAGE Description Sum of all users delayed for paging at all samples</description>
+    </item>
+    
+    <item>
+      <title>Field - r724percount</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724percount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724percount/</guid>
+      <description>Service class period number
+Map: R724DATA Based on: R724PER# Description Service class period number</description>
+    </item>
+    
+    <item>
+      <title>Field - r724pgin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pgin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pgin/</guid>
+      <description>Sum of all page-ins
+Map: R724DATA Based on: R724PGIN Description Sum of all page-ins</description>
+    </item>
+    
+    <item>
+      <title>Field - r724pnam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pnam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pnam/</guid>
+      <description>Name of active service policy
+Map: R724DATA Based on: R724PNAM Description Name of active service policy</description>
+    </item>
+    
+    <item>
+      <title>Field - r724psct</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724psct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724psct/</guid>
+      <description>Count of &amp;ldquo;long&amp;rdquo; physical swaps for the group
+Map: R724DATA Based on: R724PSCT Description Count of &amp;ldquo;long&amp;rdquo; physical swaps for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724psef</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724psef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724psef/</guid>
+      <description>Sum of all expanded frames for all swapped users (except logical) at all samples (long floating point)
+Map: R724DATA Based on: R724PSEF Description Sum of all expanded frames for all swapped users (except logical) at all samples (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724pssa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pssa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724pssa/</guid>
+      <description>Total swapped samples for the group (except logical)
+Map: R724DATA Based on: R724PSSA Description Total swapped samples for the group (except logical)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724ptm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724ptm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724ptm/</guid>
+      <description>Time policy was activated (Format: STORE CLOCK Unit: local time)
+Map: R724DATA Based on: R724PTM Description Time policy was activated (Format: STORE CLOCK Unit: local time)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724qt</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724qt/</guid>
+      <description>Total time spent on JES or APPC queues by all transactions that ended in the group (Format: long floating point Unit: 1024-microseconds)
+Map: R724DATA Based on: R724QT Description Total time spent on JES or APPC queues by all transactions that ended in the group (Format: long floating point Unit: 1024-microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724qtx</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724qtx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724qtx/</guid>
+      <description>Total time spent on JES or APPC queues by all transactions that ended in the group. Same as R724QT, but in microseconds.
+Map: R724DATA Based on: R724QTX Description Total time spent on JES or APPC queues by all transactions that ended in the group. Same as R724QT, but in microseconds.</description>
+    </item>
+    
+    <item>
+      <title>Field - r724slot</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724slot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724slot/</guid>
+      <description>Sum of all slots used (long floating point)
+Map: R724DATA Based on: R724SLOT Description Sum of all slots used (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724swap</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724swap/</guid>
+      <description>Sum of all users delayed for swapping at all samples
+Map: R724DATA Based on: R724SWAP Description Sum of all users delayed for swapping at all samples</description>
+    </item>
+    
+    <item>
+      <title>Field - r724tsv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724tsv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724tsv/</guid>
+      <description>Sum of shared page views (long floating point)
+Map: R724DATA Based on: R724TSV Description Sum of shared page views (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724udev</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724udev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724udev/</guid>
+      <description>Total device using samples for the group
+Map: R724DATA Based on: R724UDEV Description Total device using samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724unkn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724unkn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724unkn/</guid>
+      <description>Total unknown state samples for the group
+Map: R724DATA Based on: R724UNKN Description Total unknown state samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724upro</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724upro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724upro/</guid>
+      <description>Total processor using samples for the group
+Map: R724DATA Based on: R724UPRO Description Total processor using samples for the group</description>
+    </item>
+    
+    <item>
+      <title>Field - r724user</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724user/</guid>
+      <description>Sum of all users found
+Map: R724DATA Based on: R724USER Description Sum of all users found</description>
+    </item>
+    
+    <item>
+      <title>Field - r724vald</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vald/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vald/</guid>
+      <description>Total valid samples for the group (single state sum of all using, delay, idle, and unknown)
+Map: R724DATA Based on: R724VALD Description Total valid samples for the group (single state sum of all using, delay, idle, and unknown)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724vect</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vect/</guid>
+      <description>Total vector utilization time for the group (Format: long floating point Unit: microseconds)
+Map: R724DATA Based on: R724VECT Description Total vector utilization time for the group (Format: long floating point Unit: microseconds)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724vin</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vin/</guid>
+      <description>Sum of shared pages in central storage, that are valid (long floating point)
+Map: R724DATA Based on: R724VIN Description Sum of shared pages in central storage, that are valid (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r724vlc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vlc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/r724vlc/</guid>
+      <description>Sum of shared page validations (long floating point)
+Map: R724DATA Based on: R724VLC Description Sum of shared page validations (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - ral</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ral/</guid>
+      <description>Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype
+Map: SMF72PRO Based on: SMF72RAL Description Length of reassembly area. Area consists of a fixed header and a variable number of information blocks. Length depends on the record type/subtype, but is fixed for a specific type/subtype</description>
+    </item>
+    
+    <item>
+      <title>Field - ran</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ran/</guid>
+      <description>Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken. If 1, record is broken. Offset and length are only valid if SMFxxRAN is 1. Reassembly area is only present in broken records.
+Map: SMF72PRO Based on: SMF72RAN Description Number of reassembly area. This field is used to indicate whether SMF record is broken. If 0, record is not broken.</description>
+    </item>
+    
+    <item>
+      <title>Field - rao</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rao/</guid>
+      <description>Offset to reassembly area relative to start of RMF product section
+Map: SMF72PRO Based on: SMF72RAO Description Offset to reassembly area relative to start of RMF product section</description>
+    </item>
+    
+    <item>
+      <title>Field - rch</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rch/</guid>
+      <description>SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF72PRO Based on: fla Description SMF record converted to higher release or service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rcl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rcl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rcl/</guid>
+      <description>SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Map: SMF72PRO Based on: fla Description SMF record converted to lower service level. Bit is set by SMF record retrieval service GRBSMFR.
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field fla.</description>
+    </item>
+    
+    <item>
+      <title>Field - rty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/rty/</guid>
+      <description>RECORD TYPE
+Record: SMF72S4 Based on: SMF72RTY Description RECORD TYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - sam</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sam/</guid>
+      <description>Number of samples
+Map: SMF72PRO Based on: SMF72SAM Description Number of samples</description>
+    </item>
+    
+    <item>
+      <title>Field - seg</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/seg/</guid>
+      <description>SEGMENT DESCRIPTOR
+Record: SMF72S4 Based on: SMF72SEG Description SEGMENT DESCRIPTOR</description>
+    </item>
+    
+    <item>
+      <title>Field - sid</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sid/</guid>
+      <description>SYSTEM ID FROM INSTALLATION
+Record: SMF72S4 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</description>
+    </item>
+    
+    <item>
+      <title>Field - snm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/snm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/snm/</guid>
+      <description>System name for current system as defined in CVTSNAME
+Map: SMF72PRO Based on: SMF72SNM Description System name for current system as defined in CVTSNAME</description>
+    </item>
+    
+    <item>
+      <title>Field - spl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/spl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/spl/</guid>
+      <description>Length of swap reason data sections (subtype 4)
+Record: SMF72S4 Based on: SMF72SPL Description Length of swap reason data sections (subtype 4)</description>
+    </item>
+    
+    <item>
+      <title>Field - spn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/spn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/spn/</guid>
+      <description>Number of swap reason data sections (subtype 4)
+Record: SMF72S4 Based on: SMF72SPN Description Number of swap reason data sections (subtype 4)</description>
+    </item>
+    
+    <item>
+      <title>Field - sps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sps/</guid>
+      <description>Offset to swap reason data sections (subtype 4)
+Record: SMF72S4 Based on: SMF72SPS Description Offset to swap reason data sections (subtype 4)</description>
+    </item>
+    
+    <item>
+      <title>Field - srl</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/srl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/srl/</guid>
+      <description>SMF record level
+Map: SMF72PRO Based on: SMF72SRL Description SMF record level</description>
+    </item>
+    
+    <item>
+      <title>Field - ssi</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ssi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ssi/</guid>
+      <description>SUBSYSTEM ID (RMF )
+Record: SMF72S4 Based on: SMF72SSI Description SUBSYSTEM ID (RMF )</description>
+    </item>
+    
+    <item>
+      <title>Field - sty</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/sty/</guid>
+      <description>SUBTYPE
+Record: SMF72S4 Based on: SMF72STY Description SUBTYPE</description>
+    </item>
+    
+    <item>
+      <title>Field - subtypes_used</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/subtypes_used/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/subtypes_used/</guid>
+      <description>SUBTYPES USED
+Record: SMF72S4 Based on: flg Description SUBTYPES USED
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - syn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/syn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/syn/</guid>
+      <description>SYNC value in seconds
+Map: SMF72PRO Based on: SMF72SYN Description SYNC value in seconds</description>
+    </item>
+    
+    <item>
+      <title>Field - time</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/time/</guid>
+      <description>Time of Record
+Record: SMF72S4 Based on: SMF72TME </description>
+    </item>
+    
+    <item>
+      <title>Field - timestamp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/timestamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/timestamp/</guid>
+      <description>Record Timestamp
+Record: SMF72S4 Based on: date, time Description Timestamp from SMF data
+Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
+    </item>
+    
+    <item>
+      <title>Field - tme</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/tme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/tme/</guid>
+      <description>TIME RECORD WRITTEN
+Record: SMF72S4 Based on: SMF72TME Description TIME RECORD WRITTEN</description>
+    </item>
+    
+    <item>
+      <title>Field - trn</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/trn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/trn/</guid>
+      <description>NUMBER OF TRIPLETS IN THIS REC
+Record: SMF72S4 Based on: SMF72TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
+    </item>
+    
+    <item>
+      <title>Field - v4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/v4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/v4/</guid>
+      <description>MVS/ESA V4 IF ON
+Record: SMF72S4 Based on: flg Description MVS/ESA V4 IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - vxa</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/vxa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/vxa/</guid>
+      <description>MVS/XA IF ON
+Record: SMF72S4 Based on: flg Description MVS/XA IF ON
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - xnm</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/xnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/xnm/</guid>
+      <description>Sysplex name as defined in ECVTSPLX
+Map: SMF72PRO Based on: SMF72XNM Description Sysplex name as defined in ECVTSPLX</description>
+    </item>
+    
+    <item>
+      <title>Field - zaap_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/zaap_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/zaap_inst/</guid>
+      <description>At least one zAAP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zAAP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 4 of field prf.</description>
+    </item>
+    
+    <item>
+      <title>Field - ziip_inst</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ziip_inst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S4/fields/ziip_inst/</guid>
+      <description>At least one zIIP is currently installed
+Map: SMF72PRO Based on: prf Description At least one zIIP is currently installed
+Post-Processed This virtual field corresponds to the flag at bit-position 5 of field prf.</description>
+    </item>
+    
+  </channel>
+</rss>

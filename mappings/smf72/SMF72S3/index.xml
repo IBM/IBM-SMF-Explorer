@@ -2103,6 +2103,16 @@ Map: R723WRS Based on: R723RSSS Description State representing transactions for 
     </item>
     
     <item>
+      <title>Field - r723rst2g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/r723rst2g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/r723rst2g/</guid>
+      <description>Total 2G memory objects residency time (1024 microsecond) (floating point 64-bit long format)
+Map: R723SCS Based on: R723RST2G Description Total 2G memory objects residency time (1024 microsecond) (floating point 64-bit long format)</description>
+    </item>
+    
+    <item>
       <title>Field - r723rtdc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/r723rtdc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3051,13 +3061,10 @@ Record: SMF72S3 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sid SMF72SID SYSTEM ID FROM INSTALLATION string transaction_address_space_percentage virtual sample_adress_space_count
-wlm_sampling_count Percentage of transaction address spaces utilization_zaap virtual total_service_units_zaap
-normalization_factor_zaap
-interval_in_milliseconds Percentage zaap utilization utilization_cp virtual utilization_total
-utilization_ziip
-utilization_zaap Percentage CPU utilization transaction_execution_time_mean virtual transaction_execution_time
-transaction_total_count Mean transaction execution time sample_zaap_using R723IFAU zAAP using samples integer transaction_response_time_mean virtual transaction_total_count</description>
+Name Based on Description Type/Format class_period R723CPER Period number integer sample_ziip_using R723SUPU zIIP using samples integer transaction_inel_delay_time_mean virtual transaction_inel_delay_time
+transaction_total_count Mean transaction not-affinity-related delay time transaction_total_swapped_in virtual total_page_residency_time
+interval_in_milliseconds Total frames of all swapped-in transactions sample_mpl_delay R723CMPL MPL delay. Ready but swap-in has not started integer transaction_queue_delay_time_mean virtual transaction_queue_delay_time
+transaction_total_count Mean transaction queue delay time sample_io_using R723CIOU Total I/O usings.</description>
     </item>
     
     <item>

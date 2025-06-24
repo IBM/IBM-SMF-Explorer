@@ -536,8 +536,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748aacp/</guid>
-      <description>Array capacity in GB
-Map: R748ARRY Based on: R748AACP Description Array capacity in GB</description>
+      <description>Array effective DDM capacity in GB. For compression drives, this is the Total Logical Capacity
+Map: R748ARRY Based on: R748AACP Description Array effective DDM capacity in GB. For compression drives, this is the Total Logical Capacity</description>
     </item>
     
     <item>
@@ -581,6 +581,17 @@ Map: R748ARRY Based on: R748AAWD Description Array width</description>
     </item>
     
     <item>
+      <title>Field - r748acp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748acp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748acp/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = DDM class is compression
+Map: R748ARRY Based on: r748adc Description &amp;lsquo;1&amp;rsquo; = DDM class is compression
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field r748adc.</description>
+    </item>
+    
+    <item>
       <title>Field - r748adc</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748adc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -589,7 +600,7 @@ Map: R748ARRY Based on: R748AAWD Description Array width</description>
       <description>Array device class 00 = Enterprise 01 = Near-line 10 = SATA 11 = Solid state drive
 Map: R748ARRY Based on: R748ADC Description Array device class 00 = Enterprise 01 = Near-line 10 = SATA 11 = Solid state drive
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r748ard 2 &amp;lsquo;1&amp;rsquo; = Raid degraded r748adt 3 &amp;lsquo;1&amp;rsquo; = DDM throttling r748are 4 &amp;lsquo;1&amp;rsquo; = RPM exception </description>
+Field Bit-Position Description r748ard 2 &amp;lsquo;1&amp;rsquo; = Raid degraded r748adt 3 &amp;lsquo;1&amp;rsquo; = DDM throttling r748are 4 &amp;lsquo;1&amp;rsquo; = RPM exception r748acp 6 &amp;lsquo;1&amp;rsquo; = DDM class is compression </description>
     </item>
     
     <item>
@@ -714,7 +725,7 @@ Map: R748CNTL Based on: R748CFDV Description Failing device</description>
       <description>Flags
 Map: R748CNTL Based on: R748CFLG Description Flags
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r748cxvl 0 Extent Pool statistics valid </description>
+Field Bit-Position Description r748cxvl 0 Extent Pool statistics valid r748cxv2 1 Extent Pool statistics valid 2 r748cxv3 2 Extent Pool statistics valid 3 </description>
     </item>
     
     <item>
@@ -845,6 +856,28 @@ Map: R748CNTL Based on: R748CVOL Description Volume serial of device that statis
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748cvsn/</guid>
       <description>VerSioN of link statistics definition 00 = Original length of link statistics 01 = Link statistics extended 02 = Link statistics V2 format
 Map: R748CNTL Based on: R748CVSN Description VerSioN of link statistics definition 00 = Original length of link statistics 01 = Link statistics extended 02 = Link statistics V2 format</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cxv2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748cxv2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748cxv2/</guid>
+      <description>Extent Pool statistics valid 2
+Map: R748CNTL Based on: r748cflg Description Extent Pool statistics valid 2
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748cflg.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748cxv3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748cxv3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748cxv3/</guid>
+      <description>Extent Pool statistics valid 3
+Map: R748CNTL Based on: r748cflg Description Extent Pool statistics valid 3
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r748cflg.</description>
     </item>
     
     <item>
@@ -1354,6 +1387,17 @@ Map: R748RANK Based on: R748RROP Description Rank read operations. (long floatin
     </item>
     
     <item>
+      <title>Field - r748rtcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748rtcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748rtcp/</guid>
+      <description>&amp;lsquo;1&amp;rsquo;= Compression rank
+Map: R748RANK Based on: r748rtq Description &amp;lsquo;1&amp;rsquo;= Compression rank
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748rtq.</description>
+    </item>
+    
+    <item>
       <title>Field - r748rtcr</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748rtcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1373,7 +1417,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <description>Rank type qualifer
 Map: R748RANK Based on: R748RTQ Description Rank type qualifer
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r748rtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrypted rank r748raiv 7 &amp;lsquo;1&amp;rsquo; = Rank adapter pair id valid </description>
+Field Bit-Position Description r748rtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrypted rank r748rtcp 1 &amp;lsquo;1&amp;rsquo;= Compression rank r748raiv 7 &amp;lsquo;1&amp;rsquo; = Rank adapter pair id valid </description>
     </item>
     
     <item>
@@ -1438,6 +1482,16 @@ Map: R748SIOL Based on: R748SCRS Description Number of successful synchronous I/
     </item>
     
     <item>
+      <title>Field - r748scrsat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scrsat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scrsat/</guid>
+      <description>Synchronous I/O cache read success accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SCRSAT Description Synchronous I/O cache read success accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
       <title>Field - r748scrt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scrt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1465,6 +1519,16 @@ Map: R748SIOL Based on: R748SCWO Description Total number of synchronous I/O cac
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scws/</guid>
       <description>Number of successful synchronous I/O cache write operations. (long floating point)
 Map: R748SIOL Based on: R748SCWS Description Number of successful synchronous I/O cache write operations. (long floating point)</description>
+    </item>
+    
+    <item>
+      <title>Field - r748scwsat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scwsat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748scwsat/</guid>
+      <description>Synchronous I/O cache write success accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SCWSAT Description Synchronous I/O cache write success accumulated time in milliseconds (long floating point)</description>
     </item>
     
     <item>
@@ -1530,6 +1594,16 @@ Map: R748SIOL Based on: R748SNWS Description Number of successful synchronous I/
     </item>
     
     <item>
+      <title>Field - r748snwsat</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748snwsat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748snwsat/</guid>
+      <description>NVS write success accumulated time in milliseconds (long floating point)
+Map: R748SIOL Based on: R748SNWSAT Description NVS write success accumulated time in milliseconds (long floating point)</description>
+    </item>
+    
+    <item>
       <title>Field - r748snwt</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748snwt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1591,6 +1665,51 @@ Map: R748SIOL Based on: R748SWDH Description Synchronous I/O link width. This is
     </item>
     
     <item>
+      <title>Field - r748x01g</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748x01g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748x01g/</guid>
+      <description>1 GB Extents (CKD 1113 cylinders)
+Map: R748EXTP Based on: r748xeps Description 1 GB Extents (CKD 1113 cylinders)
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748xeps.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748x16m</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748x16m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748x16m/</guid>
+      <description>16 MB Extents (CKD 21 cylinders)
+Map: R748EXTP Based on: r748xeps Description 16 MB Extents (CKD 21 cylinders)
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r748xeps.</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xeps</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xeps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xeps/</guid>
+      <description>Extent Sizes in Extent Pool. Valid if bit R748XESV is set
+Map: R748EXTP Based on: R748XEPS Description Extent Sizes in Extent Pool. Valid if bit R748XESV is set
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r748x01g 1 1 GB Extents (CKD 1113 cylinders) r748x16m 7 16 MB Extents (CKD 21 cylinders) </description>
+    </item>
+    
+    <item>
+      <title>Field - r748xesv</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xesv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xesv/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Extent sizes valid
+Map: R748EXTP Based on: r748xptq Description &amp;lsquo;1&amp;rsquo; = Extent sizes valid
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field r748xptq.</description>
+    </item>
+    
+    <item>
       <title>Field - r748xpid</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xpid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1619,7 +1738,7 @@ Map: R748EXTP Based on: R748XPLT Description Extent pool type 00-03 = RESERVED, 
       <description>Extent pool type qualifier
 Map: R748EXTP Based on: R748XPTQ Description Extent pool type qualifier
 Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r748xtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrpted extent pool </description>
+Field Bit-Position Description r748xtcr 0 &amp;lsquo;1&amp;rsquo; = Data encrypted extent pool r748xtcp 1 &amp;lsquo;1&amp;rsquo; = Compression extent pool r748xesv 7 &amp;lsquo;1&amp;rsquo; = Extent sizes valid </description>
     </item>
     
     <item>
@@ -1673,13 +1792,24 @@ Map: R748EXTP Based on: R748XSDY Description Number of extents that were sources
     </item>
     
     <item>
+      <title>Field - r748xtcp</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtcp/</guid>
+      <description>&amp;lsquo;1&amp;rsquo; = Compression extent pool
+Map: R748EXTP Based on: r748xptq Description &amp;lsquo;1&amp;rsquo; = Compression extent pool
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r748xptq.</description>
+    </item>
+    
+    <item>
       <title>Field - r748xtcr</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtcr/</guid>
-      <description>&amp;lsquo;1&amp;rsquo; = Data encrpted extent pool
-Map: R748EXTP Based on: r748xptq Description &amp;lsquo;1&amp;rsquo; = Data encrpted extent pool
+      <description>&amp;lsquo;1&amp;rsquo; = Data encrypted extent pool
+Map: R748EXTP Based on: r748xptq Description &amp;lsquo;1&amp;rsquo; = Data encrypted extent pool
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r748xptq.</description>
     </item>
     
@@ -1691,6 +1821,46 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtdy/</guid>
       <description>Number of extents that were targets of dynamic extent relocations. Valid if bit R748CXVL is set
 Map: R748EXTP Based on: R748XTDY Description Number of extents that were targets of dynamic extent relocations. Valid if bit R748CXVL is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xtlc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtlc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtlc/</guid>
+      <description>Total Logical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set
+Map: R748EXTP Based on: R748XTLC Description Total Logical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xtpc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xtpc/</guid>
+      <description>Total Physical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set
+Map: R748EXTP Based on: R748XTPC Description Total Physical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xulc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xulc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xulc/</guid>
+      <description>Used Logical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set
+Map: R748EXTP Based on: R748XULC Description Used Logical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set</description>
+    </item>
+    
+    <item>
+      <title>Field - r748xupc</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xupc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S8/fields/r748xupc/</guid>
+      <description>Used Physical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set
+Map: R748EXTP Based on: R748XUPC Description Used Physical Capacity (Units defined in R748XEPS). Valid if bit R748CXV3 is set</description>
     </item>
     
     <item>

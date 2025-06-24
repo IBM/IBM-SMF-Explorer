@@ -1461,8 +1461,8 @@ Map: R744FLCF Based on: R744FCPI Description Index to first channel path data se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744fcpn/</guid>
-      <description>Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo; or &amp;lsquo;CL5&amp;rsquo; connected to this coupling facility. This count matches the number of subsequent channel path data sections.
-Map: R744FLCF Based on: R744FCPN Description Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo; or &amp;lsquo;CL5&amp;rsquo; connected to this coupling facility. This count matches the number of subsequent channel path data sections.</description>
+      <description>Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo;, &amp;lsquo;CL5&amp;rsquo;, or &amp;lsquo;CL6&amp;rsquo; connected to this coupling facility. This count matches the number of subsequent channel path data sections.
+Map: R744FLCF Based on: R744FCPN Description Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo;, &amp;lsquo;CL5&amp;rsquo;, or &amp;lsquo;CL6&amp;rsquo; connected to this coupling facility. This count matches the number of subsequent channel path data sections.</description>
     </item>
     
     <item>
@@ -2040,7 +2040,7 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hopm/</guid>
-      <description>Channel path operation mode. It describes the channel path type, data rate, protocol and adapter type. x&#39;01&amp;rsquo; - CFP path supporting a 1.0625 Gbit/sec data rate x&#39;02&amp;rsquo; - CFP path supporting a 2.125 Gbit/sec data rate x&#39;10&amp;rsquo; - CIB path operating at 1x bandwidth using the IFB protocol, adapter type HCA2-O LR x&#39;11&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB protocol, adapter type HCA2-O x&#39;20&amp;rsquo; - CIB path operating at 1x bandwidth using the IFB protocol, adapter type HCA3-O LR x&#39;21&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB protocol, adapter type HCA3-O x&#39;30&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB3 protocol, adapter type HCA3-O x&#39;40&amp;rsquo; - CS5 path operating at 8x bandwidth using the GEN3 protocol, adapter type PCIe-O x&#39;50&amp;rsquo; - CL5 path supporting a 10 Gbit/sec data rate using the Converged Enhanced Ethernet protocol, adapter type RoCE LR</description>
+      <description>Channel path operation mode. It describes the channel path type, data rate, protocol and adapter type. x&#39;01&amp;rsquo; - CFP path supporting a 1.0625 Gbit/sec data rate x&#39;02&amp;rsquo; - CFP path supporting a 2.125 Gbit/sec data rate x&#39;10&amp;rsquo; - CIB path operating at 1x bandwidth using the IFB protocol, adapter type HCA2-O LR x&#39;11&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB protocol, adapter type HCA2-O x&#39;20&amp;rsquo; - CIB path operating at 1x bandwidth using the IFB protocol, adapter type HCA3-O LR x&#39;21&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB protocol, adapter type HCA3-O x&#39;30&amp;rsquo; - CIB path operating at 12x bandwidth using the IFB3 protocol, adapter type HCA3-O x&#39;40&amp;rsquo; - CS5 path operating at 8x bandwidth using the GEN3 protocol, adapter type PCIe-O x&#39;50&amp;rsquo; - CL5 path supporting a 10 Gbit/sec data rate using the Converged Enhanced Ethernet protocol, adapter type RoCE LR x&#39;51&amp;rsquo; - CL6 path operating at 25 Gbit/sec bandwidth using the Converged Enhanced Ethernet protocol, adapter type RoCE LR</description>
     </item>
     
     <item>
@@ -2759,7 +2759,7 @@ Map: R744CFRF Based on: R744RCPI Description Index to first channel path data se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744rcpn/</guid>
-      <description>Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo; or &amp;lsquo;CL5&amp;rsquo; connected to this remote coupling facility. This includes the receiver/peer channel path over which signals may be sent from the subject CF to this remote CF and the sender/peer channel paths returning signals from this remote CF to the subject CF. This count matches the number of subsequent channel path data sections associated with this remote CF.</description>
+      <description>Number of channel path data sections for channel paths of type &amp;lsquo;CIB&amp;rsquo;, &amp;lsquo;CFP&amp;rsquo;, &amp;lsquo;CS5&amp;rsquo;, &amp;lsquo;CL5&amp;rsquo;, or &amp;lsquo;CL6&amp;rsquo; connected to this remote coupling facility. This includes the receiver/peer channel path over which signals may be sent from the subject CF to this remote CF and the sender/peer channel paths returning signals from this remote CF to the subject CF. This count matches the number of subsequent channel path data sections associated with this remote CF.</description>
     </item>
     
     <item>
