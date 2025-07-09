@@ -2820,7 +2820,8 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sid SMF70SID SYSTEM ID FROM INSTALLATION string lpar_number SMF70LPN Logical partition number integer system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string lpar_name SMF70LPM Logical partition name string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer timestamp virtual date</description>
+Name Based on Description Type/Format system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string lpar_number SMF70LPN Logical partition number integer lpar_system_name virtual lpar_name
+system_name LPAR-System name lpar_name SMF70LPM Logical partition name string lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer sid SMF70SID SYSTEM ID FROM INSTALLATION string timestamp virtual date</description>
     </item>
     
     <item>
@@ -3979,9 +3980,13 @@ Record: SMF70S2 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format share_current virtual share_actual
-sample_diagnose
-processor_weight Accumulated processor current share sid SMF70SID SYSTEM ID FROM INSTALLATION string interval_in_milliseconds virtual interval Interval duration in milliseconds share_maximum SMF70MAS Processor maximum share integer cap_actual_percentage SMF70NCA Number of Diagnose samples where capping actually limited the usage of processor resources for the set of logical CPUs of type SMF70CIX within the logical partition integer msu_physical virtual dispatch_time_total</description>
+Name Based on Description Type/Format utilization_per_cpu_physical virtual dispatch_time_total
+logical_processor_online_time
+cpu_count Physical per CPU Utilization share_minimum SMF70MIS Processor minimum share integer timestamp virtual date
+time Record Timestamp logical_processor_online_time SMF70ONT Logical processor online time integer lpar_management_per_cpu virtual dispatch_time_total
+dispatch_time_effective
+logical_processor_online_time
+cpu_count Physical per CPU Utilization cap_actual_percentage SMF70NCA Number of Diagnose samples where capping actually limited the usage of processor resources for the set of logical CPUs of type SMF70CIX within the logical partition integer share_maximum SMF70MAS Processor maximum share integer cap_wlm_percentage SMF70NSW Number of Diagnose samples where WLM considers to cap the set of logical CPUs of type SMF70CIX within the logical partition (see also SMF70NCA).</description>
     </item>
     
     <item>

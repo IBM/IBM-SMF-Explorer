@@ -3051,12 +3051,16 @@ Record: SMF72S3 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format transaction_response_time_mean virtual transaction_total_count
-transaction_total_time Mean of the transaction RT times sample_io_delay R723CIOD DASD I/O delay samples integer sid SMF72SID SYSTEM ID FROM INSTALLATION string sample_server_delay virtual sample_server_prv_paging_delay
-sample_server_vio_paging_delay
-sample_server_hsp_paging_delay
-sample_server_mpl_delay
-sample_server_swapin_delay Server delay samples sample_idle R723CIDL Idle. Work is in STIMER wait, TSO terminal wait, APPC wait, or is an initiator waiting for work.</description>
+Name Based on Description Type/Format sample_zaap_delay R723IFAD zAAP delay samples integer transaction_executed_per_second virtual transaction_executed_count
+interval_in_milliseconds Average transaction executions per second for this interval. class_period R723CPER Period number integer transaction_address_space_percentage virtual sample_adress_space_count
+wlm_sampling_count Percentage of transaction address spaces utilization_total virtual total_cpu_service_units
+total_srb_service_units
+total_rct_time
+total_io_interrupt_time
+total_hspace_service_time
+cpu_service_coefficient_adjusted
+srb_service_coefficient_adjusted
+interval_in_milliseconds Percentage application utilization class_name R723MCNM Service/Report class name string performance_index virtual class_goal_percentile</description>
     </item>
     
     <item>

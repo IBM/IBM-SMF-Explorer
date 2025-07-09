@@ -3061,8 +3061,8 @@ Record: SMF72S3 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sample_swapin_delay R723CSWI Swap-in delay. Swap-in has started, but not completed completed integer sample_dasd_io_using R723CIRC Total DASD I/O count. This can be used with the above fields (R723CICT, R723CIWT, and R723CIDT) to determine the average DASD resp. time for the period. (long floating point) number utilization_cp virtual utilization_total
-utilization_ziip</description>
+Name Based on Description Type/Format class_period R723CPER Period number integer sample_io_delay R723CIOD DASD I/O delay samples integer transaction_address_space_percentage virtual sample_adress_space_count
+wlm_sampling_count Percentage of transaction address spaces sample_dasd_io_using R723CIRC Total DASD I/O count. This can be used with the above fields (R723CICT, R723CIWT, and R723CIDT) to determine the average DASD resp. time for the period.</description>
     </item>
     
     <item>

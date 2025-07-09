@@ -2287,9 +2287,9 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_system_name virtual lpar_name
-system_name LPAR-System name lpar_number SMF70LPN Logical partition number integer timestamp virtual date
-time Record Timestamp lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</description>
+Name Based on Description Type/Format timestamp virtual date
+time Record Timestamp lpar_system_name virtual lpar_name
+system_name LPAR-System name lpar_number SMF70LPN Logical partition number integer lpar_name SMF70LPM Logical partition name string sysplex_name SMF70SPN Name of the logical-partition cluster. Zeros if this partition is no cluster member. For z/OS, the LPAR cluster name is the sysplex name. For any other logical partition, the LPAR cluster name is the name provided in the HMC definition of this logical partition.</description>
     </item>
     
     <item>
@@ -3260,9 +3260,11 @@ Record: SMF70S1 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format cpu_name processed SMF70CIN CPU-identification name string share_maximum SMF70MAS Processor maximum share integer logical_processor_is_online virtual logical_processor_online_time Logical processor is online for the given partition share_current virtual share_actual
+Name Based on Description Type/Format interval_in_milliseconds virtual interval Interval duration in milliseconds processor_weight SMF70BPS Processor relative share integer share_maximum SMF70MAS Processor maximum share integer utilization_per_cpu_physical virtual dispatch_time_total
+logical_processor_online_time
+cpu_count Physical per CPU Utilization logical_processor_is_online virtual logical_processor_online_time Logical processor is online for the given partition share_current virtual share_actual
 sample_diagnose
-processor_weight Accumulated processor current share cap_absolute_group SMF70HWGR_CAP_LIMIT If not zero, absolute limit on partition usage of all CPUs of the type indicated in SMF70CIX which are members of the same hardware group, in terms of numbers of hundredth of CPUs.</description>
+processor_weight Accumulated processor current share msu_physical virtual dispatch_time_total</description>
     </item>
     
     <item>

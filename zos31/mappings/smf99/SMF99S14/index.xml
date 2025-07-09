@@ -987,8 +987,9 @@ Record: SMF99S14 Based on: SMF99TME Description Time since midnight, in hundreth
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos31/mappings/smf99/SMF99S14/samples/topology/</guid>
       <description>Request topology information per processor.
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format topology_change virtual vcm_flag1 topology has changed vcm_lparphysprocshr processed SMF99E_VCM_LPARPHYSPROCSHR LPAR physical processor share for general CPUs/Cores scaled by 256 integer timestamp virtual date
-time Record Timestamp honor_priority_change virtual vcm_flag1 honor priority has changed cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer cp_cputype processed SMF99E_CP_CPUTYPE CPU/Core type integer speed_change virtual vcm_flag1 processor speed change affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes processor virtual high</description>
+Name Based on Description Type/Format cp_ci_nl3 SMF99E_CP_CI_NL3 Container ID of nesting level 3 integer affinity_nodes_rebuild virtual vcm_flag1 rebuild affinity nodes wuq_error virtual vcm_flag1 dispatcher WUQ error processor virtual high
+medium
+low processor type speed_change virtual vcm_flag1 processor speed change sid SMF99SID System identification (from the SID parameter). string topology_change virtual vcm_flag1 topology has changed hd_topochg_cpu_index SMF99E_HD_TOPOCHG_CPU_INDEX Logical CPU/Core number integer mpwq_affinity_node SMF99E_MPWQ_AFFINITY_NODE affinity node this CPU/Core belongs to integer timestamp virtual date</description>
     </item>
     
     <item>
