@@ -7132,11 +7132,11 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/zos25/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sample_ziip_delay R723SUPD zIIP delay samples integer sample_crypto_using virtual sample_ap_crypto_using Total crypto using samples. transaction_queue_delay_time_mean virtual transaction_queue_delay_time
-transaction_total_count Mean transaction queue delay time utilization_zaap virtual total_service_units_zaap
-normalization_factor_zaap
-interval_in_milliseconds Percentage zaap utilization sample_mpl_delay R723CMPL MPL delay. Ready but swap-in has not started integer transaction_aff_delay_time_mean virtual transaction_aff_delay_time
-transaction_total_count Mean transaction affinity delay time sample_queue_delay R723CQ Queue delay samples.</description>
+Name Based on Description Type/Format sample_crypto_using virtual sample_ap_crypto_using Total crypto using samples. transaction_total_swapped_in virtual total_page_residency_time
+interval_in_milliseconds Total frames of all swapped-in transactions execution_velocity virtual sample_total_using
+sample_total_delay Execution velocity of service class. sample_ziip_using R723SUPU zIIP using samples integer utilization_ziip_on_cp virtual total_service_units_ziip_on_cp
+interval_in_milliseconds
+cpu_service_coefficient_adjusted Percentage CP utilization of zIIP eligible workload. sample_queue_delay R723CQ Queue delay samples.</description>
     </item>
     
     <item>
