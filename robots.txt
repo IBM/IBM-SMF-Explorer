@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: https://ibm.github.io/IBM-SMF-Explorer/sitemap.xml
+Sitemap: https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/sitemap.xml
