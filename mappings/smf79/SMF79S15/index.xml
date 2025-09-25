@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SMF 79 Subtype  15 on IBM SMF Explorer</title>
-    <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/</link>
+    <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/</link>
     <description>Recent content in SMF 79 Subtype  15 on IBM SMF Explorer</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Field - bfy</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/bfy/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/bfy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/bfy/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/bfy/</guid>
       <description>SYSTEM RUNNING IN PR/SM MODE
 Record: SMF79S15 Based on: flg Description SYSTEM RUNNING IN PR/SM MODE
 Post-Processed This virtual field corresponds to the flag at bit-position 7 of field flg.</description>
@@ -18,30 +18,30 @@ Post-Processed This virtual field corresponds to the flag at bit-position 7 of f
     
     <item>
       <title>Field - date</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/date/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/date/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/date/</guid>
       <description>Date of Record
 Record: SMF79S15 Based on: SMF79DTE </description>
     </item>
     
     <item>
       <title>Field - dte</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/dte/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/dte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/dte/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/dte/</guid>
       <description>DATE RECORD WRITTEN
 Record: SMF79S15 Based on: SMF79DTE Description DATE RECORD WRITTEN</description>
     </item>
     
     <item>
       <title>Field - esa</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/esa/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/esa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/esa/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/esa/</guid>
       <description>MVS/ESA IF ON
 Record: SMF79S15 Based on: flg Description MVS/ESA IF ON
 Post-Processed This virtual field corresponds to the flag at bit-position 4 of field flg.</description>
@@ -49,10 +49,10 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
     
     <item>
       <title>Field - flg</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/flg/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/flg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/flg/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/flg/</guid>
       <description>SYSTEM INDICATOR FLAGS
 Record: SMF79S15 Based on: SMF79FLG Description SYSTEM INDICATOR FLAGS
 Flag fields This is a flag field with the following bit fields:
@@ -61,50 +61,50 @@ Field Bit-Position Description rrf 0 NEW RECORD FORMAT sut 1 SUBTYPES USED v4 3 
     
     <item>
       <title>Field - fpl</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpl/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpl/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpl/</guid>
       <description>Length of IMS Long Lock Data Section
 Record: SMF79S15 Based on: SMF79FPL Description Length of IMS Long Lock Data Section</description>
     </item>
     
     <item>
       <title>Field - fpn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpn/</guid>
       <description>Number of IMS Long Lock Data Sections
 Record: SMF79S15 Based on: SMF79FPN Description Number of IMS Long Lock Data Sections</description>
     </item>
     
     <item>
       <title>Field - fpo</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpo/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpo/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/fpo/</guid>
       <description>Offset to IMS Long Lock Data Section
 Record: SMF79S15 Based on: SMF79FPO Description Offset to IMS Long Lock Data Section</description>
     </item>
     
     <item>
       <title>Field - len</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/len/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/len/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/len/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/len/</guid>
       <description>SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY
 Record: SMF79S15 Based on: SMF79LEN Description SMF RECORD LENGTH. ZERO AFTER GRBSMFR REASSEMBLY</description>
     </item>
     
     <item>
       <title>Field - os</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/os/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/os/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/os/</guid>
       <description>OPERATING SYSTEM IS OS/VS2
 Record: SMF79S15 Based on: flg Description OPERATING SYSTEM IS OS/VS2
 Post-Processed This virtual field corresponds to the flag at bit-position 6 of field flg.</description>
@@ -112,180 +112,180 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
     
     <item>
       <title>Field - prl</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prl/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prl/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prl/</guid>
       <description>LENGTH OF RMF PRODUCT SECTION
 Record: SMF79S15 Based on: SMF79PRL Description LENGTH OF RMF PRODUCT SECTION</description>
     </item>
     
     <item>
       <title>Field - prn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prn/</guid>
       <description>NUMBER OF RMF PRODUCT SECTIONS
 Record: SMF79S15 Based on: SMF79PRN Description NUMBER OF RMF PRODUCT SECTIONS</description>
     </item>
     
     <item>
       <title>Field - prs</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prs/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prs/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/prs/</guid>
       <description>OFFSET TO RMF PRODUCT SECTION
 Record: SMF79S15 Based on: SMF79PRS Description OFFSET TO RMF PRODUCT SECTION</description>
     </item>
     
     <item>
       <title>Field - r79fctid</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fctid/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fctid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fctid/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fctid/</guid>
       <description>CICS Task ID (If CICS)
 Map: R79FIRLM Based on: R79FCTID Description CICS Task ID (If CICS)</description>
     </item>
     
     <item>
       <title>Field - r79fdlkc</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fdlkc/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fdlkc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fdlkc/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fdlkc/</guid>
       <description>Dead Lock Cycle Number
 Map: R79FIRLM Based on: R79FDLKC Description Dead Lock Cycle Number</description>
     </item>
     
     <item>
       <title>Field - r79fetyp</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fetyp/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fetyp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fetyp/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fetyp/</guid>
       <description>&amp;lsquo;B&amp;rsquo;=Blocker / &amp;lsquo;W&amp;rsquo;=Waiter
 Map: R79FIRLM Based on: R79FETYP Description &amp;lsquo;B&amp;rsquo;=Blocker / &amp;lsquo;W&amp;rsquo;=Waiter</description>
     </item>
     
     <item>
       <title>Field - r79fimsi</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fimsi/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fimsi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fimsi/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fimsi/</guid>
       <description>IMS Subsystem ID
 Map: R79FIRLM Based on: R79FIMSI Description IMS Subsystem ID</description>
     </item>
     
     <item>
       <title>Field - r79fistn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fistn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fistn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fistn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fistn/</guid>
       <description>IRLM Lock Structure Name
 Map: R79FIRLM Based on: R79FISTN Description IRLM Lock Structure Name</description>
     </item>
     
     <item>
       <title>Field - r79flhcn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhcn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhcn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhcn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhcn/</guid>
       <description>Max Lock Held-PSTLKHLD
 Map: R79FIRLM Based on: R79FLHCN Description Max Lock Held-PSTLKHLD</description>
     </item>
     
     <item>
       <title>Field - r79flhti</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhti/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhti/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flhti/</guid>
       <description>Scheduled elapsed time
 Map: R79FIRLM Based on: R79FLHTI Description Scheduled elapsed time</description>
     </item>
     
     <item>
       <title>Field - r79flkna</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flkna/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flkna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flkna/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79flkna/</guid>
       <description>Lock Name
 Map: R79FIRLM Based on: R79FLKNA Description Lock Name</description>
     </item>
     
     <item>
       <title>Field - r79fpsbn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpsbn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpsbn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpsbn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpsbn/</guid>
       <description>PSB Name
 Map: R79FIRLM Based on: R79FPSBN Description PSB Name</description>
     </item>
     
     <item>
       <title>Field - r79fpstn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpstn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpstn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpstn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79fpstn/</guid>
       <description>PST Number
 Map: R79FIRLM Based on: R79FPSTN Description PST Number</description>
     </item>
     
     <item>
       <title>Field - r79frcvt</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frcvt/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frcvt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frcvt/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frcvt/</guid>
       <description>Recovery Token
 Map: R79FIRLM Based on: R79FRCVT Description Recovery Token</description>
     </item>
     
     <item>
       <title>Field - r79frgty</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frgty/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frgty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frgty/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frgty/</guid>
       <description>Region Type
 Map: R79FIRLM Based on: R79FRGTY Description Region Type</description>
     </item>
     
     <item>
       <title>Field - r79frsna</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frsna/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frsna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frsna/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79frsna/</guid>
       <description>Resource (DB/Area) Name
 Map: R79FIRLM Based on: R79FRSNA Description Resource (DB/Area) Name</description>
     </item>
     
     <item>
       <title>Field - r79ftrnm</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79ftrnm/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79ftrnm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79ftrnm/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/r79ftrnm/</guid>
       <description>Trans name / Job name
 Map: R79FIRLM Based on: R79FTRNM Description Trans name / Job name</description>
     </item>
     
     <item>
       <title>Field - rrf</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rrf/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rrf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rrf/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rrf/</guid>
       <description>NEW RECORD FORMAT
 Record: SMF79S15 Based on: flg Description NEW RECORD FORMAT
 Post-Processed This virtual field corresponds to the flag at bit-position 0 of field flg.</description>
@@ -293,60 +293,60 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
     
     <item>
       <title>Field - rty</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rty/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rty/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/rty/</guid>
       <description>RECORD TYPE
 Record: SMF79S15 Based on: SMF79RTY Description RECORD TYPE</description>
     </item>
     
     <item>
       <title>Field - seg</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/seg/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/seg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/seg/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/seg/</guid>
       <description>SEGMENT DESCRIPTOR
 Record: SMF79S15 Based on: SMF79SEG Description SEGMENT DESCRIPTOR</description>
     </item>
     
     <item>
       <title>Field - sid</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sid/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sid/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sid/</guid>
       <description>SYSTEM ID FROM INSTALLATION
 Record: SMF79S15 Based on: SMF79SID Description SYSTEM ID FROM INSTALLATION</description>
     </item>
     
     <item>
       <title>Field - ssi</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/ssi/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/ssi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/ssi/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/ssi/</guid>
       <description>SUBSYSTEM ID (RMF )
 Record: SMF79S15 Based on: SMF79SSI Description SUBSYSTEM ID (RMF )</description>
     </item>
     
     <item>
       <title>Field - sty</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sty/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sty/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sty/</guid>
       <description>SUBTYPE
 Record: SMF79S15 Based on: SMF79STY Description SUBTYPE</description>
     </item>
     
     <item>
       <title>Field - sut</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sut/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sut/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/sut/</guid>
       <description>SUBTYPES USED
 Record: SMF79S15 Based on: flg Description SUBTYPES USED
 Post-Processed This virtual field corresponds to the flag at bit-position 1 of field flg.</description>
@@ -354,20 +354,20 @@ Post-Processed This virtual field corresponds to the flag at bit-position 1 of f
     
     <item>
       <title>Field - time</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/time/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/time/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/time/</guid>
       <description>Time of Record
 Record: SMF79S15 Based on: SMF79TME </description>
     </item>
     
     <item>
       <title>Field - timestamp</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/timestamp/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/timestamp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/timestamp/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/timestamp/</guid>
       <description>Record Timestamp
 Record: SMF79S15 Based on: date, time Description Timestamp from SMF data
 Post-Processed This field is combined from a date and a time field to form a timestamp.</description>
@@ -375,30 +375,30 @@ Post-Processed This field is combined from a date and a time field to form a tim
     
     <item>
       <title>Field - tme</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/tme/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/tme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/tme/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/tme/</guid>
       <description>TIME RECORD WRITTEN
 Record: SMF79S15 Based on: SMF79TME Description TIME RECORD WRITTEN</description>
     </item>
     
     <item>
       <title>Field - trn</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/trn/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/trn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/trn/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/trn/</guid>
       <description>NUMBER OF TRIPLETS IN THIS REC
 Record: SMF79S15 Based on: SMF79TRN Description NUMBER OF TRIPLETS IN THIS REC</description>
     </item>
     
     <item>
       <title>Field - v4</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/v4/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/v4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/v4/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/v4/</guid>
       <description>MVS/ESA V4 IF ON
 Record: SMF79S15 Based on: flg Description MVS/ESA V4 IF ON
 Post-Processed This virtual field corresponds to the flag at bit-position 3 of field flg.</description>
@@ -406,10 +406,10 @@ Post-Processed This virtual field corresponds to the flag at bit-position 3 of f
     
     <item>
       <title>Field - vxa</title>
-      <link>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/vxa/</link>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/vxa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.ibm.com/zosdev/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/vxa/</guid>
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S15/fields/vxa/</guid>
       <description>MVS/XA IF ON
 Record: SMF79S15 Based on: flg Description MVS/XA IF ON
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field flg.</description>
