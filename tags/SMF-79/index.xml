@@ -7797,26 +7797,6 @@ Map: R792ELEM Based on: R792PSS Description Step product of frame in millisecond
     </item>
     
     <item>
-      <title>Field - r792pss1</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S2/fields/r792pss1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S2/fields/r792pss1/</guid>
-      <description>High order word
-Map: R792ELEM Based on: R792PSS1 Description High order word</description>
-    </item>
-    
-    <item>
-      <title>Field - r792pss2</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S2/fields/r792pss2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S2/fields/r792pss2/</guid>
-      <description>Low order word
-Map: R792ELEM Based on: R792PSS2 Description Low order word</description>
-    </item>
-    
-    <item>
       <title>Field - r792pswp</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf79/SMF79S2/fields/r792pswp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

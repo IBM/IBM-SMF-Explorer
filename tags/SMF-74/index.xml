@@ -9790,32 +9790,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 0 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hdev/</guid>
       <description>If set, degraded flag is valid
-Map: R744CHPA Based on: r744hfl1 Description If set, degraded flag is valid
-Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r744hfl1.</description>
-    </item>
-    
-    <item>
-      <title>Field - r744hfl1</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hfl1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hfl1/</guid>
-      <description>Validity flag 1
-Map: R744CHPA Based on: R744HFL1 Description Validity flag 1
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r744hhca 0 If set, coupling adapter ID and port number are valid r744hmov 1 If set, channel path operation mode is valid r744hlav 2 If set, latency is valid r744hdev 3 If set, degraded flag is valid </description>
-    </item>
-    
-    <item>
-      <title>Field - r744hfl2</title>
-      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hfl2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hfl2/</guid>
-      <description>Validity flag 2
-Map: R744CHPA Based on: R744HFL2 Description Validity flag 2
-Flag fields This is a flag field with the following bit fields:
-Field Bit-Position Description r744hpcv 0 If set, Channel ID (CHID) is valid </description>
+Map: R744CHPA Based on: r744hfla Description If set, degraded flag is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 3 of field r744hfla.</description>
     </item>
     
     <item>
@@ -9825,7 +9801,9 @@ Field Bit-Position Description r744hpcv 0 If set, Channel ID (CHID) is valid </d
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hfla/</guid>
       <description>Validity bit mask. Each bit position represents the validity of a channel path attribute
-Map: R744CHPA Based on: R744HFLA Description Validity bit mask. Each bit position represents the validity of a channel path attribute</description>
+Map: R744CHPA Based on: R744HFLA Description Validity bit mask. Each bit position represents the validity of a channel path attribute
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r744hhca 0 If set, coupling adapter ID and port number are valid r744hmov 1 If set, channel path operation mode is valid r744hlav 2 If set, latency is valid r744hdev 3 If set, degraded flag is valid </description>
     </item>
     
     <item>
@@ -9835,8 +9813,8 @@ Map: R744CHPA Based on: R744HFLA Description Validity bit mask. Each bit positio
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hhca/</guid>
       <description>If set, coupling adapter ID and port number are valid
-Map: R744CHPA Based on: r744hfl1 Description If set, coupling adapter ID and port number are valid
-Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r744hfl1.</description>
+Map: R744CHPA Based on: r744hfla Description If set, coupling adapter ID and port number are valid
+Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r744hfla.</description>
     </item>
     
     <item>
@@ -9856,8 +9834,8 @@ Map: R744CHPA Based on: R744HLAT Description Channel path latency time. This is 
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hlav/</guid>
       <description>If set, latency is valid
-Map: R744CHPA Based on: r744hfl1 Description If set, latency is valid
-Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r744hfl1.</description>
+Map: R744CHPA Based on: r744hfla Description If set, latency is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 2 of field r744hfla.</description>
     </item>
     
     <item>
@@ -9867,8 +9845,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 2 of f
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hmov/</guid>
       <description>If set, channel path operation mode is valid
-Map: R744CHPA Based on: r744hfl1 Description If set, channel path operation mode is valid
-Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r744hfl1.</description>
+Map: R744CHPA Based on: r744hfla Description If set, channel path operation mode is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 1 of field r744hfla.</description>
     </item>
     
     <item>
@@ -9897,8 +9875,8 @@ Map: R744CHPA Based on: R744HPCP Description Physical channel path ID (CHID)</de
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hpcv/</guid>
       <description>If set, Channel ID (CHID) is valid
-Map: R744CHPA Based on: r744hfl2 Description If set, Channel ID (CHID) is valid
-Post-Processed This virtual field corresponds to the flag at bit-position 0 of field r744hfl2.</description>
+Map: R744CHPA Based on: r744hsav Description If set, Channel ID (CHID) is valid
+Post-Processed This virtual field corresponds to the flag at bit-position 8 of field r744hsav.</description>
     </item>
     
     <item>
@@ -9918,7 +9896,9 @@ Map: R744CHPA Based on: R744HSAP Description I/O processor to which this path is
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf74/SMF74S4/fields/r744hsav/</guid>
       <description>If set, corresponding field of I/O processors is valid
-Map: R744CHPA Based on: R744HSAV Description If set, corresponding field of I/O processors is valid</description>
+Map: R744CHPA Based on: R744HSAV Description If set, corresponding field of I/O processors is valid
+Flag fields This is a flag field with the following bit fields:
+Field Bit-Position Description r744hpcv 8 If set, Channel ID (CHID) is valid </description>
     </item>
     
     <item>

@@ -572,7 +572,7 @@ Map: R723WMS Based on: R723MCPU Description System pre-set CPU service coefficie
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/cpu_service_coefficient_adjusted/</guid>
       <description>CPU service coefficient adjusted with R723MADJ.
 Map: R723WMS Based on: cpu_service_coefficient, cpu_rate_adjustment_factor Post-Processed The field is created using the following pseudocode:
-adjustment_factor = 16e7 / cpu_rate_adjustment_factor return cpu_service_coefficient * adjustment_factor </description>
+adjustment_factor = 16e7 / cpu_rate_adjustment_factor adjustment_factor = adjustment_factor.fillna(0) return cpu_service_coefficient * adjustment_factor </description>
     </item>
     
     <item>
@@ -1002,7 +1002,7 @@ Map: R723RGS Based on: R723GGDE Description Resource group description</descript
       <description>Execution velocity of service class.
 Map: R723SCS Based on: sample_total_using, sample_total_delay Description Execution velocity of the service class period, for one timepoint.
 Post-Processed The field is created using the following pseudocode:
-execution_velocity = sample_total_using * 100 / (sample_total_using + sample_total_delay) </description>
+execution_velocity = sample_total_using * 100 / (sample_total_using + sample_total_delay) return execution_velocity.fillna(0) </description>
     </item>
     
     <item>
@@ -7164,24 +7164,15 @@ Record: SMF72S5 Based on: SMF72SID Description SYSTEM ID FROM INSTALLATION</desc
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/samples/smf_72_03_sample/</guid>
       <description>Request necessary fields for SMF72 subtype 3 analysis
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format sample_zaap_using R723IFAU zAAP using samples integer is_report_class virtual r723mscf x&#39;80&amp;rsquo; This is a report class (RCAARCL) performance_index virtual class_goal_percentile
+Name Based on Description Type/Format transaction_jcl_time_mean virtual transaction_jcl_time
+transaction_total_count Mean transaction JCL conversion time transaction_total_per_second virtual transaction_total_count
+interval_in_milliseconds Average transaction completions per second for this interval. sample_crypto_delay virtual sample_ap_crypto_delay
+sample_feature_queue_delay Total crypto delay samples. transaction_executed_per_second virtual transaction_executed_count
+interval_in_milliseconds Average transaction executions per second for this interval. performance_index virtual class_goal_percentile
 class_goal_value
 class_goal_type
 execution_velocity
-class_rt_bucket_1
-class_rt_bucket_2
-class_rt_bucket_3
-class_rt_bucket_4
-class_rt_bucket_5
-class_rt_bucket_6
-class_rt_bucket_7
-class_rt_bucket_8
-class_rt_bucket_9
-class_rt_bucket_10
-class_rt_bucket_11
-class_rt_bucket_12
-class_rt_bucket_13
-class_rt_bucket_14 Performance Index value of a service class period. sample_mpl_delay R723CMPL MPL delay. Ready but swap-in has not started integer sample_cpu_delay R723CCDE CPU delay.</description>
+class_rt_bucket_1</description>
     </item>
     
     <item>
@@ -7313,7 +7304,7 @@ Map: R723WMS Based on: R723MSRB Description System pre-set SRB service coefficie
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/srb_service_coefficient_adjusted/</guid>
       <description>SRB service coefficient adjusted with R723MADJ.
 Map: R723WMS Based on: srb_service_coefficient, cpu_rate_adjustment_factor Post-Processed The field is created using the following pseudocode:
-adjustment_factor = 16e7 / cpu_rate_adjustment_factor return srb_service_coefficient * adjustment_factor </description>
+adjustment_factor = 16e7 / cpu_rate_adjustment_factor adjustment_factor = adjustment_factor.fillna(0) return srb_service_coefficient * adjustment_factor </description>
     </item>
     
     <item>
@@ -7859,7 +7850,7 @@ Map: R723SCS Based on: R723CADT Description Total time batch jobs were ineligibl
       <description>Mean transaction affinity delay time
 Map: R723SCS Based on: transaction_aff_delay_time, transaction_total_count Description Mean transaction delay time for which batch jobs were ineligible to run because a resource the job had affinity to was unavailable. Only applies to batch work. Zero for other work types
 Post-Processed The field is created using the following pseudocode:
-transaction_aff_delay_time_mean = transaction_aff_delay_time / transaction_total_count * 1024 / 1e6 </description>
+transaction_aff_delay_time_mean = transaction_aff_delay_time / transaction_total_count * 1024 / 1e6 return transaction_aff_delay_time_mean.fillna(0) </description>
     </item>
     
     <item>
@@ -7924,7 +7915,7 @@ Map: R723SCS Based on: R723CXET Description Total transaction execution time (10
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/transaction_execution_time_mean/</guid>
       <description>Mean transaction execution time
 Map: R723SCS Based on: transaction_execution_time, transaction_total_count Post-Processed The field is created using the following pseudocode:
-transaction_execution_time_mean = transaction_execution_time / transaction_total_count * 1024 / 1e6 </description>
+transaction_execution_time_mean = transaction_execution_time / transaction_total_count * 1024 / 1e6 return transaction_execution_time_mean.fillna(0) </description>
     </item>
     
     <item>
@@ -7946,7 +7937,7 @@ Map: R723SCS Based on: R723CIQT Description Total time batch jobs spend on job q
       <description>Mean transaction not-affinity-related delay time
 Map: R723SCS Based on: transaction_inel_delay_time, transaction_total_count Description Mean transaction not-affinity-related delay time, i.e. time batch jobs spend on job queue (after JCL conversion) while ineligible to run on any system for reasons other than resource affinities. Only applies to batch work. Zero for other work types.
 Post-Processed The field is created using the following pseudocode:
-transaction_inel_delay_time_mean = transaction_inel_delay_time / transaction_total_count * 1024 / 1e6 </description>
+transaction_inel_delay_time_mean = transaction_inel_delay_time / transaction_total_count * 1024 / 1e6 return transaction_inel_delay_time_mean.</description>
     </item>
     
     <item>
@@ -7967,7 +7958,7 @@ Map: R723SCS Based on: R723CCVT Description Total time batch jobs spent in JCL c
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/transaction_jcl_time_mean/</guid>
       <description>Mean transaction JCL conversion time
 Map: R723SCS Based on: transaction_jcl_time, transaction_total_count Post-Processed The field is created using the following pseudocode:
-transaction_jcl_time_mean = transaction_jcl_time / transaction_total_count * 1024 / 1e6 </description>
+transaction_jcl_time_mean = transaction_jcl_time / transaction_total_count * 1024 / 1e6 return transaction_jcl_time_mean.fillna(0) </description>
     </item>
     
     <item>
@@ -7987,7 +7978,7 @@ transaction_jcl_time_mean = transaction_jcl_time / transaction_total_count * 102
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/transaction_queue_delay_time_mean/</guid>
       <description>Mean transaction queue delay time
 Map: R723SCS Based on: transaction_queue_delay_time, transaction_total_count Post-Processed The field is created using the following pseudocode:
-transaction_queue_delay_time_mean = transaction_queue_delay_time / transaction_total_count * 1024 / 1e6 </description>
+transaction_queue_delay_time_mean = transaction_queue_delay_time / transaction_total_count * 1024 / 1e6 return transaction_queue_delay_time_mean.fillna(0) </description>
     </item>
     
     <item>
@@ -7998,7 +7989,7 @@ transaction_queue_delay_time_mean = transaction_queue_delay_time / transaction_t
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/transaction_response_time_mean/</guid>
       <description>Mean of the transaction RT times
 Map: R723SCS Based on: transaction_total_count, transaction_total_time Post-Processed The field is created using the following pseudocode:
-transaction_response_time_mean = transaction_total_time / transaction_total_count </description>
+transaction_response_time_mean = transaction_total_time / transaction_total_count return transaction_response_time_mean.fillna(0) </description>
     </item>
     
     <item>
@@ -8041,7 +8032,7 @@ Map: R723SCS Based on: R723CRCP Description Count of transaction completions for
       <description>Average transaction completions per second for this interval.
 Map: R723SCS Based on: transaction_total_count, interval_in_milliseconds Description Average number of transactions completed per second for this interval.
 Post-Processed The field is created using the following pseudocode:
-return transaction_total_count * 1000 / interval_in_milliseconds </description>
+return transaction_total_count * 1000.0 / interval_in_milliseconds </description>
     </item>
     
     <item>
@@ -8117,7 +8108,7 @@ return utilization_total - utilization_ziip - utilization_zaap </description>
       <description>Percentage application utilization
 Map: R723SCS Based on: total_cpu_service_units, total_srb_service_units, total_rct_time, total_io_interrupt_time, total_hspace_service_time, cpu_service_coefficient_adjusted, srb_service_coefficient_adjusted, interval_in_milliseconds Description Percentage application utilization, summing CPU, SRB, RCT, I/O interrupt and hyperspace times.
 Post-Processed The field is created using the following pseudocode:
-tcbtime_insec = total_cpu_service_units * 1e10 / cpu_service_coefficient_adjusted srbtime_insec = total_srb_service_units * 1e10 / srb_service_coefficient_adjusted return total_time / interval_in_milliseconds </description>
+tcbtime_insec = total_cpu_service_units * 1e10 / cpu_service_coefficient_adjusted srbtime_insec = total_srb_service_units * 1e10 / srb_service_coefficient_adjusted total_time = tcbtime_insec.fillna(0) + srbtime_insec.fillna(0) + total_rct_time.total_seconds() * 1e3 + total_io_interrupt_time.total_seconds() * 1e3 + total_hspace_service_time.total_seconds() * 1e3 return total_time / interval_in_milliseconds </description>
     </item>
     
     <item>
@@ -8152,7 +8143,7 @@ return total_service_units_zaap_on_cp / interval_in_milliseconds </description>
       <description>Percentage ziip utilization
 Map: R723SCS Based on: total_service_units_ziip, normalization_factor_ziip, interval_in_milliseconds, cpu_service_coefficient_adjusted Description Percentage ziip utilization, normalized with R723NFFS
 Post-Processed The field is created using the following pseudocode:
-utilization_ziip = total_service_units_ziip * normalization_factor_ziip * 1e4 / 256 / cpu_service_coefficient_adjusted </description>
+utilization_ziip = total_service_units_ziip * normalization_factor_ziip * 1e4 / 256 / cpu_service_coefficient_adjusted return utilization_ziip.fillna(0) * 1e6 / interval_in_milliseconds </description>
     </item>
     
     <item>
@@ -8163,7 +8154,7 @@ utilization_ziip = total_service_units_ziip * normalization_factor_ziip * 1e4 / 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf72/SMF72S3/fields/utilization_ziip_on_cp/</guid>
       <description>Percentage CP utilization of zIIP eligible workload.
 Map: R723SCS Based on: total_service_units_ziip_on_cp, interval_in_milliseconds, cpu_service_coefficient_adjusted Post-Processed The field is created using the following pseudocode:
-utilization_ziip_on_cp = total_service_units_ziip_on_cp * 1e4 / cpu_service_coefficient_adjusted </description>
+utilization_ziip_on_cp = total_service_units_ziip_on_cp * 1e4 / cpu_service_coefficient_adjusted return utilization_ziip_on_cp.fillna(0) * 1e6 / interval_in_milliseconds </description>
     </item>
     
     <item>

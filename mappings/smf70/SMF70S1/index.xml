@@ -1082,7 +1082,7 @@ cpa_actual_filter = (cpu_adjustment_factor_actual != 0) &amp;amp; (cpu_control_s
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_busy_percentage/</guid>
       <description>CPU busy percentage
 Map: SMF70CPU Based on: cpu_busy_time, cpu_unparked_time, cpu_unparked_percentage Post-Processed The field is created using the following pseudocode:
-cpu_busy_percentage = cpu_busy_time * cpu_unparked_percentage / cpu_unparked_time </description>
+cpu_busy_percentage = cpu_busy_time * cpu_unparked_percentage / cpu_unparked_time return cpu_busy_percentage.fillna(0) </description>
     </item>
     
     <item>
@@ -1093,7 +1093,7 @@ cpu_busy_percentage = cpu_busy_time * cpu_unparked_percentage / cpu_unparked_tim
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/cpu_busy_time/</guid>
       <description>CPU busy time
 Map: SMF70CPU Based on: cpu_is_online, cpu_wait_time, cpu_parked_time, interval Post-Processed The field is created using the following pseudocode:
-cpu_busy_time = interval - cpu_wait_time - cpu_parked_time invalid_filter = cpu_is_online &amp;amp; (cpu_busy_time.total_seconds() &amp;gt;= 0.0) return cpu_busy_time.where(cpu_is_online, pd.Timedelta(0)) </description>
+cpu_busy_time = interval - cpu_wait_time - cpu_parked_time invalid_filter = cpu_is_online &amp;amp; (cpu_busy_time.total_seconds() &amp;gt;= 0.0) cpu_busy_time = cpu_busy_time.where(cpu_parked_percentage &amp;lt; 1, pd.Timedelta(0)) return cpu_busy_time.where(cpu_is_online, pd.Timedelta(0)) </description>
     </item>
     
     <item>
@@ -2327,7 +2327,9 @@ Map: SMF70BCT Based on: SMF70BDN Description Number of logical CPUs assigned to 
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/lpar_information/</guid>
       <description>Request necessary fields from SMF70S1 on LPARs
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format lpar_number SMF70LPN Logical partition number integer lpar_cpu_count SMF70BDN Number of logical CPUs assigned to this partition. This count matches the number of subsequent PR/SM logical processor data sections integer system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string sid SMF70SID SYSTEM ID FROM INSTALLATION string lpar_name SMF70LPM Logical partition name string timestamp virtual date</description>
+Name Based on Description Type/Format lpar_name SMF70LPM Logical partition name string system_name SMF70STN Name of the operating-system instance. Zeros if no name declared for this partition string timestamp virtual date
+time Record Timestamp lpar_system_name virtual lpar_name
+system_name LPAR-System name sid SMF70SID SYSTEM ID FROM INSTALLATION string lpar_number SMF70LPN Logical partition number integer sysplex_name SMF70SPN Name of the logical-partition cluster.</description>
     </item>
     
     <item>
@@ -2339,7 +2341,7 @@ Name Based on Description Type/Format lpar_number SMF70LPN Logical partition num
       <description>Physical per CPU Utilization
 Map: SMF70BPD Based on: dispatch_time_total, dispatch_time_effective, logical_processor_online_time, cpu_count Description Average physical per CPU Utilization. Multiply with LPAR online LCP count to get LPAR CPU utilization.
 Post-Processed The field is created using the following pseudocode:
-lpar_management_per_cpu = 100 * (dispatch_time_total - dispatch_time_effective) / logical_processor_online_time lpar_management_per_cpu = lpar_management_per_cpu / cpu_count </description>
+lpar_management_per_cpu = 100 * (dispatch_time_total - dispatch_time_effective) / logical_processor_online_time lpar_management_per_cpu = lpar_management_per_cpu / cpu_count return lpar_management_per_cpu.fillna(0) </description>
     </item>
     
     <item>
@@ -3348,8 +3350,7 @@ Record: SMF70S1 Based on: SMF70PRN Description NUMBER OF RMF PRODUCT SECTIONS</d
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/samples/processor_information/</guid>
       <description>Request necessary fields from SMF70S1 on processors
 Sample fields The sample will fetch the following fields.
-Name Based on Description Type/Format timestamp virtual date
-time Record Timestamp cap_actual_percentage SMF70NCA Number of Diagnose samples where capping actually limited the usage of processor resources for the set of logical CPUs of type SMF70CIX within the logical partition integer share_minimum SMF70MIS Processor minimum share integer share_actual SMF70ACS Accumulated processor actual share integer msu_effective virtual dispatch_time_effective</description>
+Name Based on Description Type/Format share_actual SMF70ACS Accumulated processor actual share integer dispatch_time_total SMF70PDT Logical processor total dispatch time, in microseconds. When associated with partition name PHYSICAL, this field contains the accumulated number of microseconds during which a physical CPU was busy but the time could not be attributed to a specific logical partition. This time includes the time PR/SM was controlling the physical processor (LPAR management time) as well as any other time the processor was busy for any reason such as managing coupling facility traffic.</description>
     </item>
     
     <item>
@@ -3757,7 +3758,7 @@ return (count_slh + count_tpi) / interval.total_seconds() </description>
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/rate_io_interrupt_by_tpi/</guid>
       <description>I/O interrupt rate by TPI
 Map: SMF70CPU Based on: interval_in_milliseconds, count_slh, count_tpi Post-Processed The field is created using the following pseudocode:
-rate_io_interrupt_by_tpi = count_tpi * 1e2 / (count_slh + count_tpi) </description>
+rate_io_interrupt_by_tpi = count_tpi * 1e2 / (count_slh + count_tpi) return rate_io_interrupt_by_tpi.fillna(0) </description>
     </item>
     
     <item>
@@ -4020,8 +4021,9 @@ Map: SMF70BPD Based on: SMF70ACS Description Accumulated processor actual share<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/share_current/</guid>
-      <description>Accumulated processor current share
-Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Post-Processed The field is created using the following pseudocode:
+      <description>Accumulated processor current share.
+Map: SMF70BPD Based on: share_actual, sample_diagnose, processor_weight Description Accumulated processor current share. If the value is 65535 (X&amp;rsquo;FFFF&amp;rsquo;), then the partition has been assigned dedicated processors.
+Post-Processed The field is created using the following pseudocode:
 zero_samples = sample_diagnose == 0 divided_share = share_actual / sample_diagnose share_actual = share_actual.astype(&amp;#39;float&amp;#39;) share_current = share_actual.where(zero_samples, divided_share) nonzero_current_share = share_current &amp;gt; 0 return share_current.where(nonzero_current_share, processor_weight) </description>
     </item>
     
@@ -4803,7 +4805,7 @@ Map: SMF70BCT Based on: SMF70UPI Description User partition ID. Valid if bit 0 (
       <description>Physical per CPU Utilization
 Map: SMF70BPD Based on: dispatch_time_total, logical_processor_online_time, cpu_count Description Average physical per CPU Utilization. Multiply with LPAR online LCP count to get LPAR CPU utilization.
 Post-Processed The field is created using the following pseudocode:
-utilization_per_cpu_physical = 100 * dispatch_time_total / logical_processor_online_time utilization_per_cpu_physical = utilization_per_cpu_physical / cpu_count </description>
+utilization_per_cpu_physical = 100 * dispatch_time_total / logical_processor_online_time utilization_per_cpu_physical = utilization_per_cpu_physical / cpu_count return utilization_per_cpu_physical.fillna(0) </description>
     </item>
     
     <item>
@@ -5168,12 +5170,106 @@ Map: SMF70AID Based on: SMF70WMN Description WAIT USER MINIMUM</description>
     </item>
     
     <item>
+      <title>Field - workload_classification_samples_1</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_1/</guid>
+      <description>Samples attributed to the indexed workload class 1.
+Map: SMF70WCD Based on: workload_classification_samples_array[0] Description Samples attributed to the indexed workload class 1.
+Post-Processed This field is an alias for workload_classification_samples_array[0].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_2</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_2/</guid>
+      <description>Samples attributed to the indexed workload class 2.
+Map: SMF70WCD Based on: workload_classification_samples_array[1] Description Samples attributed to the indexed workload class 2.
+Post-Processed This field is an alias for workload_classification_samples_array[1].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_3</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_3/</guid>
+      <description>Samples attributed to the indexed workload class 3.
+Map: SMF70WCD Based on: workload_classification_samples_array[2] Description Samples attributed to the indexed workload class 3.
+Post-Processed This field is an alias for workload_classification_samples_array[2].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_4</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_4/</guid>
+      <description>Samples attributed to the indexed workload class 4.
+Map: SMF70WCD Based on: workload_classification_samples_array[3] Description Samples attributed to the indexed workload class 4.
+Post-Processed This field is an alias for workload_classification_samples_array[3].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_5</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_5/</guid>
+      <description>Samples attributed to the indexed workload class 5.
+Map: SMF70WCD Based on: workload_classification_samples_array[4] Description Samples attributed to the indexed workload class 5.
+Post-Processed This field is an alias for workload_classification_samples_array[4].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_6</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_6/</guid>
+      <description>Samples attributed to the indexed workload class 6.
+Map: SMF70WCD Based on: workload_classification_samples_array[5] Description Samples attributed to the indexed workload class 6.
+Post-Processed This field is an alias for workload_classification_samples_array[5].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_7</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_7/</guid>
+      <description>Samples attributed to the indexed workload class 7.
+Map: SMF70WCD Based on: workload_classification_samples_array[6] Description Samples attributed to the indexed workload class 7.
+Post-Processed This field is an alias for workload_classification_samples_array[6].</description>
+    </item>
+    
+    <item>
+      <title>Field - workload_classification_samples_8</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_8/</guid>
+      <description>Samples attributed to the indexed workload class 8.
+Map: SMF70WCD Based on: workload_classification_samples_array[7] Description Samples attributed to the indexed workload class 8.
+Post-Processed This field is an alias for workload_classification_samples_array[7].</description>
+    </item>
+    
+    <item>
       <title>Field - workload_classification_samples_array</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf70/SMF70S1/fields/workload_classification_samples_array/</guid>
-      <description> Map: SMF70WCD Based on: WORKLOAD_CLASSIFICATION_SAMPLES_ARRAY </description>
+      <description>Samples attributed to the indexed workload class.
+Map: SMF70WCD
+Array Length: 8
+Based on: WORKLOAD_CLASSIFICATION_SAMPLES_ARRAY
+Description Samples attributed to the indexed workload class.
+Array fields This field is an array with 8 elements. The following fields are aliases for the elements:
+Field Index Description workload_classification_samples_1 0 Samples attributed to the indexed workload class 1. workload_classification_samples_2 1 Samples attributed to the indexed workload class 2. workload_classification_samples_3 2 Samples attributed to the indexed workload class 3.</description>
     </item>
     
     <item>

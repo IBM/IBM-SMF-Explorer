@@ -1802,8 +1802,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 6 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/icu_step_init/</guid>
-      <description>CPU TCB time spent by the Initiator during job step initialization processing. This is the step initialization portion of SMF30ICU for this step end record.
-Map: SMF30CAS Based on: SMF30ICU_STEP_INIT Description CPU TCB time spent by the Initiator during job step initialization processing. This is the step initialization portion of SMF30ICU for this step end record.</description>
+      <description>CPU TCB time, in hundredths of seconds, spent by the initiator during job step initialization processing. This field is the step initialization portion of SMF30ICU for this step end record.
+Map: SMF30CAS Based on: SMF30ICU_STEP_INIT Description CPU TCB time, in hundredths of seconds, spent by the initiator during job step initialization processing. This field is the step initialization portion of SMF30ICU for this step end record.</description>
     </item>
     
     <item>
@@ -1812,8 +1812,8 @@ Map: SMF30CAS Based on: SMF30ICU_STEP_INIT Description CPU TCB time spent by the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/icu_step_term/</guid>
-      <description>CPU TCB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ICU which is reported in the next step end record
-Map: SMF30CAS Based on: SMF30ICU_STEP_TERM Description CPU TCB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ICU which is reported in the next step end record</description>
+      <description>CPU TCB time, in hundredths of seconds, spent by the initiator during job step termination processing. This field is the step termination portion of SMF30ICU that is reported in the next step end record.
+Map: SMF30CAS Based on: SMF30ICU_STEP_TERM Description CPU TCB time, in hundredths of seconds, spent by the initiator during job step termination processing. This field is the step termination portion of SMF30ICU that is reported in the next step end record.</description>
     </item>
     
     <item>
@@ -2278,8 +2278,8 @@ Post-Processed This virtual field corresponds to the flag at bit-position 5 of f
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/isb_step_init/</guid>
-      <description>CPU SRB time spent by the Initiator during job step initialization processing. This is the step initialization portion of SMF30ISB for this step end record.
-Map: SMF30CAS Based on: SMF30ISB_STEP_INIT Description CPU SRB time spent by the Initiator during job step initialization processing. This is the step initialization portion of SMF30ISB for this step end record.</description>
+      <description>CPU SRB time, in hundredths of seconds, spent by the initiator during job step initialization processing. This field is the step initialization portion of SMF30ISB for this step end record.
+Map: SMF30CAS Based on: SMF30ISB_STEP_INIT Description CPU SRB time, in hundredths of seconds, spent by the initiator during job step initialization processing. This field is the step initialization portion of SMF30ISB for this step end record.</description>
     </item>
     
     <item>
@@ -2288,8 +2288,8 @@ Map: SMF30CAS Based on: SMF30ISB_STEP_INIT Description CPU SRB time spent by the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/isb_step_term/</guid>
-      <description>CPU SRB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ISB which is reported in the next step end record
-Map: SMF30CAS Based on: SMF30ISB_STEP_TERM Description CPU SRB time spent by the Initiator during job step termination processing. This is the step termination portion of SMF30ISB which is reported in the next step end record</description>
+      <description>CPU SRB time in hundredths of seconds, spent by the initiator during job step termination processing. This field is the step termination portion of SMF30ISB that is reported in the next step end record.
+Map: SMF30CAS Based on: SMF30ISB_STEP_TERM Description CPU SRB time in hundredths of seconds, spent by the initiator during job step termination processing. This field is the step termination portion of SMF30ISB that is reported in the next step end record.</description>
     </item>
     
     <item>
@@ -2485,8 +2485,8 @@ Map: SMF30CAS Based on: SMF30_MISSED_SMF30BLK Description Accumulated value of I
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/missed_smf30dct/</guid>
-      <description>Accumulated value of device connect time when serialization could not be obtained for accumulating the value to SMF30DCT. This value is maintained at the job step level as opposed to the DD level of its SMF30DCT counterpart. This field contains zero for started tasks.
-Map: SMF30CAS Based on: SMF30_MISSED_SMF30DCT Description Accumulated value of device connect time when serialization could not be obtained for accumulating the value to SMF30DCT. This value is maintained at the job step level as opposed to the DD level of its SMF30DCT counterpart.</description>
+      <description>Accumulated value of device connect time, in 128- microsecond units, when serialization could not be obtained for accumulating the value to SMF30DCT. This value is maintained at the job step level as opposed to the DD level of its SMF30DCT counterpart. This field contains zero for started tasks.
+Map: SMF30CAS Based on: SMF30_MISSED_SMF30DCT Description Accumulated value of device connect time, in 128- microsecond units, when serialization could not be obtained for accumulating the value to SMF30DCT.</description>
     </item>
     
     <item>
@@ -3284,6 +3284,17 @@ Map: SMF30SAP Based on: SMF30SYS Description VIRT STOR - SYSTEM AREA</descriptio
     </item>
     
     <item>
+      <title>Field - r2vunauthcaller</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/r2vunauthcaller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/r2vunauthcaller/</guid>
+      <description>When on, a caller invoked IARR2V while running unauthorized.
+Map: SMF30SAP Based on: raxflags Description When on, a caller invoked IARR2V while running unauthorized.
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field raxflags.</description>
+    </item>
+    
+    <item>
       <title>Field - raxflags</title>
       <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/raxflags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3837,6 +3848,28 @@ Post-Processed This virtual field corresponds to the flag at bit-position 4 of f
       <description>When on, the IEFUSI exit set the output flag that caused all SMFLIM decision making to be bypassed
 Map: SMF30SAP Based on: mem_limit_action_flg Description When on, the IEFUSI exit set the output flag that caused all SMFLIM decision making to be bypassed
 Post-Processed This virtual field corresponds to the flag at bit-position 5 of field mem_limit_action_flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sl7</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/sl7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/sl7/</guid>
+      <description>When on, SMFLIM REGIONLIMITBELOW acted on the non-extended REGION for this step
+Map: SMF30SAP Based on: mem_limit_action_flg Description When on, SMFLIM REGIONLIMITBELOW acted on the non-extended REGION for this step
+Post-Processed This virtual field corresponds to the flag at bit-position 6 of field mem_limit_action_flg.</description>
+    </item>
+    
+    <item>
+      <title>Field - sl8</title>
+      <link>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/sl8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ibm.github.io/IBM-SMF-Explorer/mappings/smf30/SMF30S6/fields/sl8/</guid>
+      <description>When on, SMFLIM REGIONLIMITABOVE acted on the extended REGION for this step
+Map: SMF30SAP Based on: mem_limit_action_flg Description When on, SMFLIM REGIONLIMITABOVE acted on the extended REGION for this step
+Post-Processed This virtual field corresponds to the flag at bit-position 7 of field mem_limit_action_flg.</description>
     </item>
     
     <item>
