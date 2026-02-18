@@ -17,15 +17,25 @@
 #
 
 set -eou pipefail
-
-pip_default_opts="--no-cache-dir --no-input --disable-pip-version-check --find-links ./smf_explorer/"
-
 # Upgrade pip because of issues in MacOS BigSur
 # python -m pip install $pip_default_opts --upgrade pip setuptools wheel
 
-# Base install
-pip install $pip_default_opts --upgrade -r $REQUIREMENTS_FILE --upgrade-strategy eager
+pip_default_opts="--no-cache-dir --no-input --disable-pip-version-check"
 
+# Find and install local smfexplorer wheel file with extras
+wheel_file=$(ls ./smf_explorer/smfexplorer-*.whl 2>/dev/null | head -n 1)
+
+if [[ -n "$wheel_file" ]]; then
+    echo "Found local wheel: $wheel_file"
+    echo "Installing local smfexplorer with jupyter extras..."
+    pip install $pip_default_opts --constraint .util/constraints.txt --force-reinstall "${wheel_file}[jupyter,jupyter-lab]"
+else
+    echo "ERROR: No smfexplorer wheel file found in ./smf_explorer/"
+    echo "Expected pattern: ./smf_explorer/smfexplorer-*.whl"
+    exit 1
+fi
+
+# Install any additional requirements
 if test -f requirements.txt;then
     pip install $pip_default_opts --upgrade -r requirements.txt --upgrade-strategy eager
 fi

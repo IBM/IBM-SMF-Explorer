@@ -1,0 +1,2 @@
+# Minimum version constraints for smfexplorer
+smfexplorer>=1.0.0
