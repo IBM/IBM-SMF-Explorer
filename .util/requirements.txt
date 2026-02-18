@@ -1,1 +1,0 @@
-smfexplorer[jupyter,jupyter-lab]>=1.0.0
