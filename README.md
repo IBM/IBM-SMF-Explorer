@@ -19,6 +19,19 @@ When you have done the installation, take a look at the Tutorial notebooks in th
 If you want to report a bug, feel free to open an [issue](https://github.com/IBM/IBM-SMF-Explorer/issues).
 If you have questions, ideas, or want to share what you did, you can use the GitHub [Discussions](https://github.com/IBM/IBM-SMF-Explorer/discussions) feature.
 
+## Support and Issue Scope
+
+Issues opened in this GitHub repository are limited **only** to the content maintained in this repository, including:
+- Setup and installation scripts
+- Jupyter notebooks
+- Repository-specific configuration or examples
+
+**Documentation updates, bug fixes, and feature requests related to the SMF Explorer core wheel file are not handled via GitHub issues.**
+
+All requests related to the SMF Explorer core package (wheel file) must be submitted through the official IBM Support channel by opening a support case:
+
+https://www.ibm.com/mysupport/s/?language=en_US
+
 ## Contributing
 
 We want to encourage you to contribute Notebooks or ideas.
