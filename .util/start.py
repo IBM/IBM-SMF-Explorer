@@ -17,8 +17,8 @@
 import subprocess
 import os
 import signal
-import re
 import argparse
+from urllib.parse import urlparse
 import getpass
 
 os_var_connection_string = "SMFEXPLORER_CONNECTION_STRING"
@@ -47,11 +47,8 @@ def select_server(no_verify_tls: bool = False):
     else:
         user_password = getpass.getpass("Enter your password: ")
 
-    match = re.match(
-        r"^http[s]?:\/\/(?:[a-zA-Z0-9-]|[.])+(?::[0-9]+)?(?:[a-zA-Z0-9]+)(?:/.*)*$",
-        connection_string,
-    )
-    if match:
+    parsed = urlparse(connection_string)
+    if parsed.scheme in ("http", "https") and parsed.netloc:
 
         return f"mode=dgapi;url={connection_string};verify_ssl={'false' if no_verify_tls else 'true'};username={user_name};password={user_password}"
 
